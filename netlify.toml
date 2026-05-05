@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "node scripts/generate-redirects.js && npm run build"
   publish = "dist"
 
 [build.environment]
