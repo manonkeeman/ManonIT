@@ -19,6 +19,9 @@ const About        = lazy(() => import("./pages/About.jsx"));
 const Journal      = lazy(() => import("./pages/Journal.jsx"));
 const ArticleRoute = lazy(() => import("./pages/ArticlesJournal/ArticleRoute.jsx"));
 
+// Unlisted pricing pages — not in nav, not indexed
+const OfferteDavidBroeksma = lazy(() => import("./pages/Offerte.jsx"));
+
 // Prefetch veelgebruikte pagina's zodra browser idle is
 const prefetch = () => {
     import("./pages/About.jsx");
@@ -182,6 +185,18 @@ export default function App() {
                 {/* Redirects */}
                 <Route path="/frontend"            element={<Navigate to="/frontendvredestein"   replace />} />
                 <Route path="/webdesignacupunture" element={<Navigate to="/webdesignacupuncture" replace />} />
+
+                {/* Unlisted — prijspagina per klant (niet in nav, noindex) */}
+                <Route
+                    path="/offerte/david-broeksma"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <OfferteDavidBroeksma />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
 
                 {/* 404 */}
                 <Route path="*" element={<Layout><div style={{ padding: 24 }}>Page not found</div></Layout>} />
