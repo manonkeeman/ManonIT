@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const KLANT       = "David Broeksma";
 const BEDRIJF     = "The Big Three";
-const DATUM       = "5 mei 2026";
+const DATUM       = "7 mei 2026";
 
 const PAKKETTEN = [
   {
@@ -27,26 +27,23 @@ const PAKKETTEN = [
       "Eenvoudige foto-impressie",
       "SEO-basis ingesteld",
       "Tekstwijzigingen lopen via mij (uurtarief)",
-      "Hosting-setup: €175 los",
     ],
   },
   {
     id: "wordpress",
-    naam: "Pakket 2 — WordPress + CMS",
+    naam: "Pakket 2 — WordPress/Squarespace + CMS",
     prijs: "Vanaf €2.450",
     periode: "excl. btw",
-    tagline: "Eigen ontwerp, zelf beheren. De gulden middenweg.",
+    tagline: "Eigen ontwerp, zelf beheren. De gouden middenweg.",
     featured: true,
     label: "Meest gekozen",
-    doorlooptijd: "5 tot 7 weken",
+    doorlooptijd: "ongeveer 4 tot 7 weken",
     inbegrepen: [
       "Tot 8 pagina's",
-      "Eigen ontwerp in WordPress-stijl",
+      "Eigen ontwerp in WordPress/Squarespace-stijl",
       "Jij voegt zelf auto's, foto's en teksten toe",
       "Voorraadpagina met filters op merk, jaar en prijs",
       "Uitgebreide SEO-instellingen",
-      "Logo en huisstijl inbegrepen",
-      "Hosting en domein-setup inbegrepen",
       "2 revisierondes voor oplevering",
     ],
   },
@@ -56,17 +53,15 @@ const PAKKETTEN = [
     prijs: "Vanaf €4.250",
     periode: "excl. btw",
     tagline: "Volledig op maat. Geen template, geen compromis.",
-    featured: false,
-    doorlooptijd: "8 tot 10 weken",
+    doorlooptijd: "4 tot 10 weken",
     inbegrepen: [
       "Onbeperkt pagina's, volledig custom",
       "Ontwerp vanaf nul, gebouwd rond The Big Three",
       "React, technisch zo ver als je wilt",
       "Eigen CMS, precies passend bij de garage",
-      "Geavanceerde voorraadbeheermodule",
-      "Optie: klantenportaal, offertemodule, integraties",
+      "Webshop of e-commerce mogelijkheden",
+      "Optie: klantenportaal, offertemodule, integraties, vertalingen",
       "Logo en huisstijl inbegrepen",
-      "Hosting en domein-setup inbegrepen",
     ],
   },
 ];
@@ -82,9 +77,9 @@ const ALTIJD_INBEGREPEN = [
 ];
 
 const NIET_INBEGREPEN = [
-  "Domeinnaam: ca. €12 tot €15 per jaar, op naam van The Big Three",
+  "Domeinnaam: vanaf €12 tot €15 per jaar, op naam van The Big Three",
   "Hostingkosten na oplevering: ca. €8 tot €15 per maand",
-  "Teksten en foto's: die lever je aan, of ik beveel een specialist aan",
+  "Teksten en foto's: die lever je aan, of ik adviseer een specialist",
   "Webshop of e-commerce: op aanvraag, aparte prijsindicatie",
   "Vertalingen: op aanvraag",
   "Aanpassingen na oplevering: €65 per uur",
@@ -116,7 +111,7 @@ const STAPPEN = [
 const CONTACT = {
   mail: "manon@manonkeeman.nl",
   tel:  "+31624766568",
-  kvk:  "00000000", // ← invullen zodra KVK-nummer binnen is
+  kvk:  "00000000",
 };
 
 export default function Offerte() {

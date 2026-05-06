@@ -11,6 +11,7 @@ import Seo from "./assets/Components/Seo.jsx";
 
 // Home sections (needed immediately on first load)
 import Hero from "./pages/Hero.jsx";
+import Services from "./pages/Services.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import Contact from "./pages/Contact.jsx";
 
@@ -108,6 +109,7 @@ export default function App() {
                         <Layout>
                             <HomeSeo />
                             <section id="home"      className="section"><Hero /></section>
+                            <Services />
                             <section id="portfolio" className="section"><Portfolio /></section>
                             <section id="contact"   className="section"><Contact /></section>
                         </Layout>

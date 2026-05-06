@@ -28,7 +28,7 @@
   "hero": {
     "greeting": "Manon IT",
     "tagline": "I like to make beautiful websites. You dream it. I Manon it.",
-    "bio": "Heb je een website nodig die er écht uitziet? Ik bouw hem.\nDesign, code en tekst — alles onder één dak. Geen drie verschillende freelancers, geen miscommunicatie. Gewoon een mooie site die doet wat hij moet doen.",
+    "bio": "Heb je een website nodig die er écht uitziet? Ik bouw hem.\nDesign, code en tekst, alles onder één dak. Geen drie verschillende freelancers, geen miscommunicatie. Gewoon een mooie site die doet wat hij moet doen.",
     "roles": "Webdevelopment • Webdesign • Copywriting • SEO",
     "projects": "Bekijk mijn werk",
     "journal": "Journal",
@@ -80,6 +80,57 @@
     "sending": "Moment...",
     "success": "Gelukt! Je staat op de lijst.",
     "error": "Oeps, probeer het opnieuw."
+  },
+  "services": {
+    "label": "Wat ik doe",
+    "title": "Alles onder één dak",
+    "intro": "Jij hoeft niet drie verschillende mensen te bellen. Design, code en tekst, ik doe het allemaal. Dat scheelt tijd, gedoe en miscommunicatie.",
+    "items": {
+      "dev": {
+        "name": "Webdevelopment",
+        "desc": "Van eenvoudige WordPress-site tot volledig maatwerk in React. Snel, veilig en mobielvriendelijk.",
+        "tags": "React, WordPress, HTML/CSS"
+      },
+      "design": {
+        "name": "Webdesign",
+        "desc": "Een site die er goed uitziet én bij jou past. Geen template van de plank, maar een ontwerp dat jouw merk laat zien.",
+        "tags": "UX/UI, huisstijl, Figma"
+      },
+      "copy": {
+        "name": "Copywriting",
+        "desc": "Teksten die kloppen. Helder, to the point en geschreven voor de mensen die jij wilt bereiken.",
+        "tags": "webteksten, over mij, servicepagina's"
+      },
+      "seo": {
+        "name": "SEO",
+        "desc": "Gevonden worden begint bij de basis. Ik zorg dat je site technisch en inhoudelijk klaar is voor Google.",
+        "tags": "technische SEO, zoekwoorden, structuur"
+      }
+    }
+  },
+  "howItWorks": {
+    "label": "Zo werkt het",
+    "title": "Van eerste bericht tot livegang",
+    "intro": "Geen verrassingen, geen onduidelijkheid. Dit is hoe we samenwerken.",
+    "cta": "Stuur me een bericht",
+    "steps": {
+      "meet": {
+        "title": "Kennismaken",
+        "text": "We plannen een gesprek van 30 minuten. Gratis, vrijblijvend. Jij vertelt wat je nodig hebt, ik vertel wat ik kan doen."
+      },
+      "quote": {
+        "title": "Offerte",
+        "text": "Je ontvangt een heldere offerte met prijs, planning en wat je precies krijgt. Na akkoord gaan we aan de slag."
+      },
+      "build": {
+        "title": "Bouwen",
+        "text": "Ik werk in korte rondes. Jij ziet tussentijds wat er staat, geeft feedback en het wordt beter en beter."
+      },
+      "launch": {
+        "title": "Live",
+        "text": "De site gaat live. Je krijgt een korte handleiding zodat je zelf kleine dingen kunt bijhouden. En ik blijf bereikbaar."
+      }
+    }
   },
   "footer": {
     "rights": "Alle rechten voorbehouden | Code & Content - Manon Keeman"

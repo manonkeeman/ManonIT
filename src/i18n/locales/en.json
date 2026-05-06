@@ -28,7 +28,7 @@
   "hero": {
     "greeting": "Manon IT",
     "tagline": "I like to make beautiful websites. You dream it. I Manon it.",
-    "bio": "Need a website that actually looks good? I'll build it.\nDesign, code and copy — all in one place. No three different freelancers, no miscommunication. Just a beautiful site that does what it needs to do.",
+    "bio": "Need a website that actually looks good? I'll build it.\nDesign, code and copy, all in one place. No three different freelancers, no miscommunication. Just a beautiful site that does what it needs to do.",
     "roles": "Web Development • Web Design • Copywriting • SEO",
     "projects": "View my work",
     "journal": "Journal",
@@ -80,6 +80,57 @@
     "sending": "One moment...",
     "success": "Done! You're on the list.",
     "error": "Oops, please try again."
+  },
+  "services": {
+    "label": "What I do",
+    "title": "Everything in one place",
+    "intro": "You don't need to call three different people. Design, code and copy, I do it all. That saves time, hassle and miscommunication.",
+    "items": {
+      "dev": {
+        "name": "Web Development",
+        "desc": "From a simple WordPress site to fully custom React. Fast, secure and mobile-friendly.",
+        "tags": "React, WordPress, HTML/CSS"
+      },
+      "design": {
+        "name": "Web Design",
+        "desc": "A site that looks great and actually fits you. Not an off-the-shelf template, but a design that shows your brand.",
+        "tags": "UX/UI, branding, Figma"
+      },
+      "copy": {
+        "name": "Copywriting",
+        "desc": "Text that works. Clear, to the point and written for the people you want to reach.",
+        "tags": "web copy, about pages, service pages"
+      },
+      "seo": {
+        "name": "SEO",
+        "desc": "Getting found starts with the basics. I make sure your site is technically and content-wise ready for Google.",
+        "tags": "technical SEO, keywords, structure"
+      }
+    }
+  },
+  "howItWorks": {
+    "label": "How it works",
+    "title": "From first message to going live",
+    "intro": "No surprises, no confusion. This is how we work together.",
+    "cta": "Send me a message",
+    "steps": {
+      "meet": {
+        "title": "Meeting",
+        "text": "We schedule a 30-minute call. Free, no obligations. You tell me what you need, I tell you what I can do."
+      },
+      "quote": {
+        "title": "Quote",
+        "text": "You receive a clear quote with price, timeline and exactly what you'll get. Once agreed, we get started."
+      },
+      "build": {
+        "title": "Building",
+        "text": "I work in short rounds. You see progress as we go, give feedback and it keeps getting better."
+      },
+      "launch": {
+        "title": "Live",
+        "text": "The site goes live. You get a short guide so you can handle small updates yourself. And I stay reachable."
+      }
+    }
   },
   "footer": {
     "rights": "All rights reserved | Code & Content - Manon Keeman"
