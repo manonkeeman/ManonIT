@@ -131,8 +131,10 @@ export default function Offerte() {
 
             <div className="offerte-header-row">
               <NavLink to="/" className="offerte-mk-link" aria-label="Terug naar home">
-                <img src="/MKlogo.jpg" alt="MK" className="offerte-mk-logo" width="36" height="36" />
-                <span className="offerte-mk-naam">Manon Keeman</span>
+                <div className="offerte-mk-brand">
+                  <span className="offerte-mk-name">ManonIT.</span>
+                  <span className="offerte-mk-est">EST · 2004</span>
+                </div>
               </NavLink>
               <div className="offerte-datum">{DATUM}</div>
             </div>
@@ -367,20 +369,30 @@ export default function Offerte() {
         .offerte-mk-link {
           display: inline-flex;
           align-items: center;
-          gap: 10px;
           text-decoration: none;
           color: var(--text);
         }
-        .offerte-mk-link:hover { color: var(--accent); text-decoration: none; }
-        .offerte-mk-logo {
-          width: 36px; height: 36px;
-          border-radius: 7px;
-          filter: brightness(.55) sepia(1) saturate(1.4);
+        .offerte-mk-link:hover { text-decoration: none; color: var(--accent); }
+        .offerte-mk-brand {
+          display: flex;
+          flex-direction: column;
+          line-height: 1;
+          gap: 3px;
         }
-        .offerte-mk-naam {
-          font-weight: 600;
-          font-size: 0.88rem;
+        .offerte-mk-name {
+          font-family: 'Special Elite', Courier, monospace;
+          font-size: 1.1rem;
+          color: var(--text);
           letter-spacing: 0.02em;
+          transition: color 0.2s ease;
+        }
+        .offerte-mk-link:hover .offerte-mk-name { color: var(--accent); }
+        .offerte-mk-est {
+          font-family: 'Special Elite', Courier, monospace;
+          font-size: 0.5rem;
+          letter-spacing: 0.22em;
+          color: var(--accent);
+          text-transform: uppercase;
         }
         .offerte-datum {
           font-size: 0.8rem;
