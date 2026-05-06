@@ -1,6 +1,6 @@
 // Netlify build script — maakt _redirects alleen aan voor de manonkeeman-site.
 // Op de manonit-site wordt geen redirect aangemaakt (voorkomt oneindige loop).
-const { writeFileSync } = require("fs");
+import { writeFileSync } from "fs";
 const siteUrl = process.env.URL || "";
 
 if (siteUrl.includes("manonkeeman")) {
