@@ -9,7 +9,6 @@ export default function Services() {
         { key: "design" },
         { key: "copy" },
         { key: "seo" },
-        { key: "media" },
     ];
 
     const steps = [
