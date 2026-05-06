@@ -44,8 +44,8 @@ function Hero() {
                     <p style={{ whiteSpace: 'pre-line' }}>{t('hero.bio')}</p>
                     <p className="small">{t('hero.roles')}</p>
                     <div className="hero-ctas">
-                        <a href="/journal" className="btn btn-primary">{t('nav.journal')}</a>
-                        <a href="/about" className="btn btn-outline" data-arrow>{t('nav.about')}</a>
+                        <a href="/#portfolio" className="btn btn-primary">{t('hero.ctaWork')}</a>
+                        <a href="/#contact" className="btn btn-outline" data-arrow>{t('hero.ctaContact')}</a>
                     </div>
                 </div>
             </div>

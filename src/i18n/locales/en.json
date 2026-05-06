@@ -26,13 +26,15 @@
     "copied": "Link copied!"
   },
   "hero": {
-    "greeting": "Hi, I'm Manon",
-    "tagline": "I make complex things clear, and build them.",
-    "bio": "From idea to structure to working product.\nDesign, code and communication in one line.",
-    "roles": "Full Stack Developer • Systems Thinker • Designer • Storyteller • Builder",
-    "projects": "Projects",
+    "greeting": "Manon IT",
+    "tagline": "I like to make beautiful websites. You dream it. I Manon it.",
+    "bio": "Need a website that actually looks good? I'll build it.\nDesign, code and copy — all in one place. No three different freelancers, no miscommunication. Just a beautiful site that does what it needs to do.",
+    "roles": "Web Development • Web Design • Copywriting • SEO",
+    "projects": "View my work",
     "journal": "Journal",
-    "available": "Available for work"
+    "available": "Available for new projects",
+    "ctaWork": "View my work",
+    "ctaContact": "Get in touch"
   },
   "about": {
     "title": "Designer. Writer. Developer.",

@@ -26,13 +26,15 @@
     "copied": "Link gekopieerd!"
   },
   "hero": {
-    "greeting": "Hoi, ik ben Manon",
-    "tagline": "Ik maak complexe dingen helder, en bouw ze.",
-    "bio": "Van idee naar structuur naar werkend product.\nDesign, code en communicatie in één lijn.",
-    "roles": "Full Stack Developer • Systems Thinker • Designer • Storyteller • Builder",
-    "projects": "Projecten",
+    "greeting": "Manon IT",
+    "tagline": "I like to make beautiful websites. You dream it. I Manon it.",
+    "bio": "Heb je een website nodig die er écht uitziet? Ik bouw hem.\nDesign, code en tekst — alles onder één dak. Geen drie verschillende freelancers, geen miscommunicatie. Gewoon een mooie site die doet wat hij moet doen.",
+    "roles": "Webdevelopment • Webdesign • Copywriting • SEO",
+    "projects": "Bekijk mijn werk",
     "journal": "Journal",
-    "available": "Beschikbaar voor opdrachten"
+    "available": "Beschikbaar voor nieuwe opdrachten",
+    "ctaWork": "Bekijk mijn werk",
+    "ctaContact": "Neem contact op"
   },
   "about": {
     "title": "Designer. Schrijver. Developer.",
@@ -104,8 +106,8 @@
   },
   "seo": {
     "home": {
-      "title": "Manon Keeman — Full Stack Developer",
-      "description": "Portfolio van Manon Keeman — Full Stack Developer, Systems Thinker, Designer & Storyteller. Specialisaties: React, Spring Boot, UX-design. Beschikbaar voor opdrachten."
+      "title": "Manon IT — Webdevelopment, Design & Tekst",
+      "description": "Manon IT maakt mooie websites die werken. Webdevelopment, webdesign, copywriting en SEO onder één dak. Beschikbaar voor nieuwe opdrachten."
     },
     "about": {
       "title": "Over mij — Manon Keeman | Full Stack Developer",
