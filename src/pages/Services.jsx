@@ -5,9 +5,11 @@ export default function Services() {
 
     const services = [
         { key: "dev" },
+        { key: "app" },
         { key: "design" },
         { key: "copy" },
         { key: "seo" },
+        { key: "media" },
     ];
 
     const steps = [
@@ -87,10 +89,10 @@ export default function Services() {
                 /* Services grid */
                 .svc-grid {
                     display: grid;
-                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-columns: repeat(5, 1fr);
                     gap: 16px;
                 }
-                @media (max-width: 860px) {
+                @media (max-width: 1000px) {
                     .svc-grid { grid-template-columns: 1fr 1fr; }
                 }
                 @media (max-width: 480px) {

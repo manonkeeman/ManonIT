@@ -191,5 +191,30 @@
         "excerpt": "IA, trabajo remoto y el papel de la creatividad."
       }
     }
+  },
+  "services": {
+    "label": "Lo que hago",
+    "title": "Todo en un solo lugar",
+    "intro": "Diseñadora, desarrolladora y redactora en una sola persona. Un interlocutor, una línea clara, sin sorpresas.",
+    "items": {
+      "dev": { "name": "Desarrollo web", "desc": "Desde un sitio WordPress sencillo hasta React completamente personalizado. Rápido, seguro y optimizado para móviles.", "tags": "React, WordPress, HTML/CSS" },
+      "app": { "name": "Aplicaciones", "desc": "Una app web, un portal de clientes o una herramienta a medida. Si necesitas más que un sitio web, lo construyo también.", "tags": "React, Spring Boot, aplicaciones web" },
+      "design": { "name": "Diseño web", "desc": "Un sitio que se ve bien y que realmente te representa. No una plantilla estándar, sino un diseño que muestra tu marca.", "tags": "UX/UI, identidad visual, Figma" },
+      "copy": { "name": "Redacción", "desc": "Textos que funcionan. Claros, directos y escritos para las personas que quieres alcanzar.", "tags": "textos web, sobre mí, páginas de servicios" },
+      "seo": { "name": "SEO", "desc": "Ser encontrado empieza por los fundamentos. Me aseguro de que tu sitio esté listo para Google, técnica y contenidamente.", "tags": "SEO técnico, palabras clave, estructura" },
+      "media": { "name": "Foto y video", "desc": "Trabajo con fotógrafos y videógrafos de confianza. No tienes que buscar a nadie, yo me encargo.", "tags": "retrato, foto de producto, video empresarial" }
+    }
+  },
+  "howItWorks": {
+    "label": "Cómo funciona",
+    "title": "Del primer mensaje a la publicación",
+    "intro": "Sin sorpresas, sin confusión. Así es como trabajamos juntos.",
+    "cta": "Envíame un mensaje",
+    "steps": {
+      "meet": { "title": "Conocernos", "text": "Programamos una llamada de 30 minutos. Gratis, sin compromiso. Tú cuentas lo que necesitas, yo explico lo que puedo hacer." },
+      "quote": { "title": "Presupuesto", "text": "Recibes un presupuesto claro con precio, calendario y exactamente lo que obtendrás. Tras el acuerdo, empezamos." },
+      "build": { "title": "Construcción", "text": "Trabajo en rondas cortas. Ves el progreso, das feedback y va mejorando continuamente." },
+      "launch": { "title": "En vivo", "text": "El sitio se publica. Recibes una pequeña guía para cambios menores. Y sigo disponible." }
+    }
   }
 }

@@ -191,5 +191,30 @@
         "excerpt": "KI, Remote-Arbeit und die Rolle der Kreativität."
       }
     }
+  },
+  "services": {
+    "label": "Was ich mache",
+    "title": "Alles aus einer Hand",
+    "intro": "Designerin, Entwicklerin und Texterin in einer Person. Ein Ansprechpartner, eine klare Linie, keine Überraschungen.",
+    "items": {
+      "dev": { "name": "Webentwicklung", "desc": "Von einer einfachen WordPress-Site bis hin zu maßgeschneidertem React. Schnell, sicher und mobilfreundlich.", "tags": "React, WordPress, HTML/CSS" },
+      "app": { "name": "Apps", "desc": "Eine Web-App, ein Kundenportal oder ein maßgeschneidertes Tool. Wenn du mehr als eine Website brauchst, baue ich das auch.", "tags": "React, Spring Boot, Webanwendungen" },
+      "design": { "name": "Webdesign", "desc": "Eine Site, die gut aussieht und wirklich zu dir passt. Kein Standard-Template, sondern ein Design, das deine Marke zeigt.", "tags": "UX/UI, Corporate Design, Figma" },
+      "copy": { "name": "Texten", "desc": "Texte, die funktionieren. Klar, auf den Punkt und geschrieben für die Menschen, die du erreichen willst.", "tags": "Webtexte, Über-mich-Seiten, Serviceseiten" },
+      "seo": { "name": "SEO", "desc": "Gefunden werden beginnt mit den Grundlagen. Ich sorge dafür, dass deine Site technisch und inhaltlich für Google bereit ist.", "tags": "technisches SEO, Keywords, Struktur" },
+      "media": { "name": "Foto & Video", "desc": "Ich arbeite mit festen Fotografen und Videografen zusammen. Du musst niemanden suchen, ich kümmere mich darum.", "tags": "Porträtfoto, Produktfoto, Unternehmensvideo" }
+    }
+  },
+  "howItWorks": {
+    "label": "So funktioniert es",
+    "title": "Von der ersten Nachricht bis zur Veröffentlichung",
+    "intro": "Keine Überraschungen, keine Unklarheiten. So arbeiten wir zusammen.",
+    "cta": "Schreib mir",
+    "steps": {
+      "meet": { "title": "Kennenlernen", "text": "Wir vereinbaren ein 30-minütiges Gespräch. Kostenlos, unverbindlich. Du erzählst, was du brauchst, ich erkläre, was ich tun kann." },
+      "quote": { "title": "Angebot", "text": "Du erhältst ein klares Angebot mit Preis, Zeitplan und genau dem, was du bekommst. Nach der Zustimmung legen wir los." },
+      "build": { "title": "Entwicklung", "text": "Ich arbeite in kurzen Runden. Du siehst den Fortschritt, gibst Feedback und es wird immer besser." },
+      "launch": { "title": "Live", "text": "Die Site geht live. Du bekommst eine kurze Anleitung für kleine Änderungen. Und ich bleibe erreichbar." }
+    }
   }
 }

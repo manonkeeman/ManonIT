@@ -105,6 +105,16 @@
         "name": "SEO",
         "desc": "Getting found starts with the basics. I make sure your site is technically and content-wise ready for Google.",
         "tags": "technical SEO, keywords, structure"
+      },
+      "media": {
+        "name": "Photo & video",
+        "desc": "I work with trusted photographers and videographers. You don't have to find anyone, I take care of it.",
+        "tags": "portrait, product photography, company video"
+      },
+      "app": {
+        "name": "Apps",
+        "desc": "A web app, customer portal or custom tool. If you need something that does more than a website, I build that too.",
+        "tags": "React, Spring Boot, web apps"
       }
     }
   },

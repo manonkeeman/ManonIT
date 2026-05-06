@@ -105,6 +105,16 @@
         "name": "SEO",
         "desc": "Gevonden worden begint bij de basis. Ik zorg dat je site technisch en inhoudelijk klaar is voor Google.",
         "tags": "technische SEO, zoekwoorden, structuur"
+      },
+      "media": {
+        "name": "Foto & video",
+        "desc": "Ik werk samen met vaste fotografen en videografen. Jij hoeft niemand te zoeken, ik regel het voor je.",
+        "tags": "portretfoto, productfoto, bedrijfsvideo"
+      },
+      "app": {
+        "name": "Apps",
+        "desc": "Een webapp, klantenportaal of een tool op maat. Als je iets nodig hebt dat meer doet dan een website, bouw ik dat ook.",
+        "tags": "React, Spring Boot, webapplicaties"
       }
     }
   },
