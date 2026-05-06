@@ -86,10 +86,10 @@
     "title": "Everything in one place",
     "intro": "Designer, developer and copywriter in one. One point of contact, one clear line, no surprises.",
     "items": {
-      "dev": {
-        "name": "Web Development",
-        "desc": "From a simple WordPress site to fully custom React. Fast, secure and mobile-friendly.",
-        "tags": "React, WordPress, HTML/CSS"
+      "websites": {
+        "name": "Websites & Apps",
+        "desc": "From a WordPress site to a fully custom React web app. Fast, secure and mobile-friendly.",
+        "tags": "React, WordPress, Spring Boot"
       },
       "design": {
         "name": "Web Design",
@@ -111,10 +111,10 @@
         "desc": "I work with trusted photographers and videographers. You don't have to find anyone, I take care of it.",
         "tags": "portrait, product photography, company video"
       },
-      "app": {
-        "name": "Apps",
-        "desc": "A web app, customer portal or custom tool. If you need something that does more than a website, I build that too.",
-        "tags": "React, Spring Boot, web apps"
+      "social": {
+        "name": "Social media",
+        "desc": "From strategy to content. I help you with an approach that fits your brand and that you can actually keep up.",
+        "tags": "Instagram, LinkedIn, content planning"
       }
     }
   },

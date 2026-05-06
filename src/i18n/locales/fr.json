@@ -197,12 +197,36 @@
     "title": "Tout en un seul endroit",
     "intro": "Designer, développeuse et rédactrice en une seule personne. Un interlocuteur, une ligne claire, pas de surprises.",
     "items": {
-      "dev": { "name": "Développement web", "desc": "D'un simple site WordPress à du React entièrement sur mesure. Rapide, sécurisé et adapté aux mobiles.", "tags": "React, WordPress, HTML/CSS" },
-      "app": { "name": "Applications", "desc": "Une web app, un portail client ou un outil sur mesure. Si vous avez besoin de plus qu'un site, je le construis aussi.", "tags": "React, Spring Boot, applications web" },
-      "design": { "name": "Webdesign", "desc": "Un site qui a l'air bien et qui vous ressemble vraiment. Pas un template standard, mais un design qui montre votre marque.", "tags": "UX/UI, identité visuelle, Figma" },
-      "copy": { "name": "Rédaction", "desc": "Des textes qui fonctionnent. Clairs, directs et écrits pour les personnes que vous voulez atteindre.", "tags": "textes web, à propos, pages de services" },
-      "seo": { "name": "SEO", "desc": "Être trouvé commence par les bases. Je m'assure que votre site est prêt pour Google, techniquement et en contenu.", "tags": "SEO technique, mots-clés, structure" },
-      "media": { "name": "Photo & vidéo", "desc": "Je travaille avec des photographes et vidéastes de confiance. Vous n'avez personne à chercher, je m'en occupe.", "tags": "portrait, photo produit, vidéo entreprise" }
+      "websites": {
+        "name": "Sites & Apps",
+        "desc": "D'un site WordPress à une web app React entièrement sur mesure. Rapide, sécurisé et adapté aux mobiles.",
+        "tags": "React, WordPress, Spring Boot"
+      },
+      "design": {
+        "name": "Webdesign",
+        "desc": "Un site qui a l'air bien et qui vous ressemble vraiment. Pas un template standard, mais un design qui montre votre marque.",
+        "tags": "UX/UI, identité visuelle, Figma"
+      },
+      "copy": {
+        "name": "Rédaction",
+        "desc": "Des textes qui fonctionnent. Clairs, directs et écrits pour les personnes que vous voulez atteindre.",
+        "tags": "textes web, à propos, pages de services"
+      },
+      "seo": {
+        "name": "SEO",
+        "desc": "Être trouvé commence par les bases. Je m'assure que votre site est prêt pour Google, techniquement et en contenu.",
+        "tags": "SEO technique, mots-clés, structure"
+      },
+      "media": {
+        "name": "Photo & vidéo",
+        "desc": "Je travaille avec des photographes et vidéastes de confiance. Vous n'avez personne à chercher, je m'en occupe.",
+        "tags": "portrait, photo produit, vidéo entreprise"
+      },
+      "social": {
+        "name": "Réseaux sociaux",
+        "desc": "De la stratégie au contenu. Je vous aide avec une approche qui correspond à votre marque et que vous pouvez maintenir.",
+        "tags": "Instagram, LinkedIn, planning de contenu"
+      }
     }
   },
   "howItWorks": {
@@ -211,10 +235,22 @@
     "intro": "Pas de surprises, pas de confusion. Voici comment nous travaillons ensemble.",
     "cta": "Envoyez-moi un message",
     "steps": {
-      "meet": { "title": "Premier contact", "text": "On planifie un appel de 30 minutes. Gratuit, sans engagement. Vous expliquez ce dont vous avez besoin, j'explique ce que je peux faire." },
-      "quote": { "title": "Devis", "text": "Vous recevez un devis clair avec le prix, le planning et exactement ce que vous obtenez. Après accord, on commence." },
-      "build": { "title": "Construction", "text": "Je travaille en courtes itérations. Vous voyez l'avancement, donnez des retours et ça s'améliore continuellement." },
-      "launch": { "title": "En ligne", "text": "Le site est mis en ligne. Vous recevez un petit guide pour les modifications mineures. Et je reste joignable." }
+      "meet": {
+        "title": "Premier contact",
+        "text": "On planifie un appel de 30 minutes. Gratuit, sans engagement. Vous expliquez ce dont vous avez besoin, j'explique ce que je peux faire."
+      },
+      "quote": {
+        "title": "Devis",
+        "text": "Vous recevez un devis clair avec le prix, le planning et exactement ce que vous obtenez. Après accord, on commence."
+      },
+      "build": {
+        "title": "Construction",
+        "text": "Je travaille en courtes itérations. Vous voyez l'avancement, donnez des retours et ça s'améliore continuellement."
+      },
+      "launch": {
+        "title": "En ligne",
+        "text": "Le site est mis en ligne. Vous recevez un petit guide pour les modifications mineures. Et je reste joignable."
+      }
     }
   }
 }

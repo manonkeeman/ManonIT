@@ -197,12 +197,36 @@
     "title": "Tutto in un unico posto",
     "intro": "Designer, sviluppatrice e copywriter in una sola persona. Un referente, una linea chiara, nessuna sorpresa.",
     "items": {
-      "dev": { "name": "Sviluppo web", "desc": "Da un semplice sito WordPress a React completamente personalizzato. Veloce, sicuro e ottimizzato per mobile.", "tags": "React, WordPress, HTML/CSS" },
-      "app": { "name": "Applicazioni", "desc": "Una web app, un portale clienti o uno strumento su misura. Se hai bisogno di più di un sito, lo costruisco anch'io.", "tags": "React, Spring Boot, applicazioni web" },
-      "design": { "name": "Web design", "desc": "Un sito che ha un bell'aspetto e che ti rappresenta davvero. Non un template standard, ma un design che mostra il tuo brand.", "tags": "UX/UI, identità visiva, Figma" },
-      "copy": { "name": "Copywriting", "desc": "Testi che funzionano. Chiari, diretti e scritti per le persone che vuoi raggiungere.", "tags": "testi web, chi sono, pagine servizi" },
-      "seo": { "name": "SEO", "desc": "Essere trovati inizia dalle basi. Mi assicuro che il tuo sito sia pronto per Google, tecnicamente e nei contenuti.", "tags": "SEO tecnico, parole chiave, struttura" },
-      "media": { "name": "Foto e video", "desc": "Collaboro con fotografi e videomaker di fiducia. Non devi cercare nessuno, ci penso io.", "tags": "ritratto, foto prodotto, video aziendale" }
+      "websites": {
+        "name": "Siti & App",
+        "desc": "Da un sito WordPress a una web app React completamente personalizzata. Veloce, sicura e ottimizzata per mobile.",
+        "tags": "React, WordPress, Spring Boot"
+      },
+      "design": {
+        "name": "Web design",
+        "desc": "Un sito che ha un bell'aspetto e che ti rappresenta davvero. Non un template standard, ma un design che mostra il tuo brand.",
+        "tags": "UX/UI, identità visiva, Figma"
+      },
+      "copy": {
+        "name": "Copywriting",
+        "desc": "Testi che funzionano. Chiari, diretti e scritti per le persone che vuoi raggiungere.",
+        "tags": "testi web, chi sono, pagine servizi"
+      },
+      "seo": {
+        "name": "SEO",
+        "desc": "Essere trovati inizia dalle basi. Mi assicuro che il tuo sito sia pronto per Google, tecnicamente e nei contenuti.",
+        "tags": "SEO tecnico, parole chiave, struttura"
+      },
+      "media": {
+        "name": "Foto e video",
+        "desc": "Collaboro con fotografi e videomaker di fiducia. Non devi cercare nessuno, ci penso io.",
+        "tags": "ritratto, foto prodotto, video aziendale"
+      },
+      "social": {
+        "name": "Social media",
+        "desc": "Dalla strategia ai contenuti. Ti aiuto con un approccio adatto al tuo brand e che riesci a mantenere nel tempo.",
+        "tags": "Instagram, LinkedIn, pianificazione contenuti"
+      }
     }
   },
   "howItWorks": {
@@ -211,10 +235,22 @@
     "intro": "Nessuna sorpresa, nessuna confusione. Ecco come lavoriamo insieme.",
     "cta": "Scrivimi",
     "steps": {
-      "meet": { "title": "Ci conosciamo", "text": "Pianifichiamo una chiamata di 30 minuti. Gratuita, senza impegno. Tu racconti cosa ti serve, io spiego cosa posso fare." },
-      "quote": { "title": "Preventivo", "text": "Ricevi un preventivo chiaro con prezzo, tempi e esattamente quello che otterrai. Dopo l'accordo, si inizia." },
-      "build": { "title": "Sviluppo", "text": "Lavoro in brevi sessioni. Vedi i progressi, dai feedback e migliora continuamente." },
-      "launch": { "title": "Online", "text": "Il sito va online. Ricevi una breve guida per le modifiche minori. E resto disponibile." }
+      "meet": {
+        "title": "Ci conosciamo",
+        "text": "Pianifichiamo una chiamata di 30 minuti. Gratuita, senza impegno. Tu racconti cosa ti serve, io spiego cosa posso fare."
+      },
+      "quote": {
+        "title": "Preventivo",
+        "text": "Ricevi un preventivo chiaro con prezzo, tempi e esattamente quello che otterrai. Dopo l'accordo, si inizia."
+      },
+      "build": {
+        "title": "Sviluppo",
+        "text": "Lavoro in brevi sessioni. Vedi i progressi, dai feedback e migliora continuamente."
+      },
+      "launch": {
+        "title": "Online",
+        "text": "Il sito va online. Ricevi una breve guida per le modifiche minori. E resto disponibile."
+      }
     }
   }
 }

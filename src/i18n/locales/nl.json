@@ -86,10 +86,10 @@
     "title": "Alles onder één dak",
     "intro": "Designer, developer en tekstschrijver in één. Één aanspreekpunt, één lijn, geen verrassingen.",
     "items": {
-      "dev": {
-        "name": "Webdevelopment",
-        "desc": "Van eenvoudige WordPress-site tot volledig maatwerk in React. Snel, veilig en mobielvriendelijk.",
-        "tags": "React, WordPress, HTML/CSS"
+      "websites": {
+        "name": "Websites & Apps",
+        "desc": "Van een WordPress-site tot een volledig maatwerk webapp in React. Snel, veilig en mobielvriendelijk.",
+        "tags": "React, WordPress, Spring Boot"
       },
       "design": {
         "name": "Webdesign",
@@ -111,10 +111,10 @@
         "desc": "Ik werk samen met vaste fotografen en videografen. Jij hoeft niemand te zoeken, ik regel het voor je.",
         "tags": "portretfoto, productfoto, bedrijfsvideo"
       },
-      "app": {
-        "name": "Apps",
-        "desc": "Een webapp, klantenportaal of een tool op maat. Als je iets nodig hebt dat meer doet dan een website, bouw ik dat ook.",
-        "tags": "React, Spring Boot, webapplicaties"
+      "social": {
+        "name": "Social media",
+        "desc": "Van strategie tot content. Ik help je met een aanpak die past bij je merk en die je ook vol kunt houden.",
+        "tags": "Instagram, LinkedIn, content planning"
       }
     }
   },

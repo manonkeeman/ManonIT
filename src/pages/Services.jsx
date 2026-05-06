@@ -4,11 +4,12 @@ export default function Services() {
     const { t } = useTranslation();
 
     const services = [
-        { key: "dev" },
-        { key: "app" },
+        { key: "websites" },
         { key: "design" },
         { key: "copy" },
         { key: "seo" },
+        { key: "media" },
+        { key: "social" },
     ];
 
     const steps = [
@@ -88,10 +89,10 @@ export default function Services() {
                 /* Services grid */
                 .svc-grid {
                     display: grid;
-                    grid-template-columns: repeat(5, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
                     gap: 16px;
                 }
-                @media (max-width: 1000px) {
+                @media (max-width: 760px) {
                     .svc-grid { grid-template-columns: 1fr 1fr; }
                 }
                 @media (max-width: 480px) {
