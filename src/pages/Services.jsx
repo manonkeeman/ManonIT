@@ -4,22 +4,10 @@ export default function Services() {
     const { t } = useTranslation();
 
     const services = [
-        {
-            icon: "⌨",
-            key: "dev",
-        },
-        {
-            icon: "✦",
-            key: "design",
-        },
-        {
-            icon: "✍",
-            key: "copy",
-        },
-        {
-            icon: "◎",
-            key: "seo",
-        },
+        { key: "dev" },
+        { key: "design" },
+        { key: "copy" },
+        { key: "seo" },
     ];
 
     const steps = [
@@ -41,7 +29,6 @@ export default function Services() {
                     <div className="svc-grid">
                         {services.map((s) => (
                             <div key={s.key} className="svc-card">
-                                <span className="svc-icon" aria-hidden="true">{s.icon}</span>
                                 <h3 className="svc-name">{t(`services.items.${s.key}.name`)}</h3>
                                 <p className="svc-desc">{t(`services.items.${s.key}.desc`)}</p>
                                 <p className="svc-tags">{t(`services.items.${s.key}.tags`)}</p>
@@ -123,11 +110,6 @@ export default function Services() {
                 .svc-card:hover {
                     border-color: color-mix(in srgb, var(--accent) 45%, transparent);
                     box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-                }
-                .svc-icon {
-                    font-size: 1.4rem;
-                    color: var(--accent);
-                    line-height: 1;
                 }
                 .svc-name {
                     font-size: 1rem;
