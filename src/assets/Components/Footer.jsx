@@ -12,14 +12,11 @@ export default function Footer() {
             <div className="footer-inner">
                 {/* Col 1 — Brand */}
                 <div className="footer-col footer-brand">
-                    <img
-                        src="/MKlogo.jpg"
-                        alt="MK Logo"
-                        className="footer-logo"
-                        width="40"
-                        height="40"
-                    />
-                    <p className="footer-tagline">Full Stack Developer<br/>Systems Thinker · Builder</p>
+                    <div className="footer-brand-logo">
+                        <span className="footer-brand-name">ManonIT.</span>
+                        <span className="footer-brand-est">EST · 2004</span>
+                    </div>
+                    <p className="footer-tagline">I make beautiful websites.<br/>You dream it, I Manon it.</p>
                     <p className="footer-copy">© {new Date().getFullYear()} Manon Keeman</p>
                 </div>
 
@@ -73,11 +70,25 @@ export default function Footer() {
 
         .footer-col { display: flex; flex-direction: column; gap: 10px; }
 
-        .footer-logo {
-          width: 40px; height: 40px;
-          border-radius: 8px;
-          filter: brightness(0.55) sepia(1) saturate(1.4);
+        .footer-brand-logo {
+          display: flex;
+          flex-direction: column;
+          line-height: 1;
+          gap: 4px;
           margin-bottom: 4px;
+        }
+        .footer-brand-name {
+          font-family: 'Special Elite', Courier, monospace;
+          font-size: 1.25rem;
+          color: var(--text);
+          letter-spacing: 0.02em;
+        }
+        .footer-brand-est {
+          font-family: 'Special Elite', Courier, monospace;
+          font-size: 0.52rem;
+          letter-spacing: 0.22em;
+          color: var(--accent);
+          text-transform: uppercase;
         }
 
         .footer-tagline {
