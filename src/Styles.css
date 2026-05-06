@@ -387,11 +387,28 @@ body.no-scroll { overflow:hidden; touch-action:none; }
 .lang-name { color: inherit; }
 
 /* ========= Nav logo & GitHub ========= */
-.nav-logo-link { display:flex; align-items:center; flex-shrink:0; }
-.nav-logo {
-  width:32px; height:32px; border-radius:6px;
-  display:block;
-  filter: brightness(0.55) sepia(1) saturate(1.4);
+.nav-logo-link { display:flex; align-items:center; flex-shrink:0; text-decoration:none; }
+.nav-logo-link:hover { text-decoration:none; }
+.nav-brand-logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 3px;
+}
+.nav-brand-name {
+  font-family: 'Special Elite', Courier, monospace;
+  font-size: 1.15rem;
+  color: var(--text);
+  letter-spacing: 0.02em;
+  transition: color 0.2s ease;
+}
+.nav-logo-link:hover .nav-brand-name { color: var(--accent); }
+.nav-brand-est {
+  font-family: 'Special Elite', Courier, monospace;
+  font-size: 0.5rem;
+  letter-spacing: 0.22em;
+  color: var(--accent);
+  text-transform: uppercase;
 }
 .nav-github {
   font-size:1.25rem;

@@ -17,7 +17,10 @@ export default function Navbar() {
             <div className="nav-wrap">
                 {/* Logo */}
                 <NavLink to="/" className="nav-logo-link" aria-label="Home">
-                    <img src="/MKlogo.jpg" alt="MK" className="nav-logo" width="32" height="32" />
+                    <div className="nav-brand-logo">
+                        <span className="nav-brand-name">ManonIT.</span>
+                        <span className="nav-brand-est">EST · 2004</span>
+                    </div>
                 </NavLink>
 
                 {/* Desktop nav */}
