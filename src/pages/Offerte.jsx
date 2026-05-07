@@ -111,7 +111,7 @@ const STAPPEN = [
 const CONTACT = {
   mail: "manon@manonkeeman.nl",
   tel:  "+31624766568",
-  kvk:  "00000000",
+  kvk:  "42053266",
 };
 
 export default function Offerte() {
