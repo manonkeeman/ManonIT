@@ -12,10 +12,7 @@ export default function Footer() {
             <div className="footer-inner">
                 {/* Col 1 — Brand */}
                 <div className="footer-col footer-brand">
-                    <div className="footer-brand-logo">
-                        <span className="footer-brand-name">ManonIT.</span>
-                        <span className="footer-brand-est">EST · 2004</span>
-                    </div>
+                    <img src="/logo-horizontal-compact-dark.svg" alt="ManonIT" height="36" style={{ borderRadius: 0 }} />
                     <p className="footer-tagline">I make beautiful websites.<br/>You dream it, I Manon it.</p>
                     <p className="footer-copy">© {new Date().getFullYear()} Manon Keeman</p>
                 </div>
@@ -56,8 +53,8 @@ export default function Footer() {
             <style>{`
         .footer {
           padding: 48px 20px 20px;
-          background: var(--bg-alt);
-          border-top: 1px solid var(--border);
+          background: var(--dark);
+          border-top: 1px solid rgba(255,255,255,0.06);
         }
 
         .footer-inner {
@@ -70,38 +67,17 @@ export default function Footer() {
 
         .footer-col { display: flex; flex-direction: column; gap: 10px; }
 
-        .footer-brand-logo {
-          display: flex;
-          flex-direction: column;
-          line-height: 1;
-          gap: 4px;
-          margin-bottom: 4px;
-        }
-        .footer-brand-name {
-          font-family: 'Special Elite', Courier, monospace;
-          font-size: 1.25rem;
-          color: var(--text);
-          letter-spacing: 0.02em;
-        }
-        .footer-brand-est {
-          font-family: 'Special Elite', Courier, monospace;
-          font-size: 0.52rem;
-          letter-spacing: 0.22em;
-          color: var(--accent);
-          text-transform: uppercase;
-        }
-
         .footer-tagline {
           margin: 0;
           font-size: .88rem;
-          color: var(--muted);
+          color: rgba(251,246,238,.45);
           line-height: 1.6;
         }
 
         .footer-copy {
           margin: 0;
           font-size: .82rem;
-          color: var(--border);
+          color: rgba(251,246,238,.25);
         }
 
         .footer-heading {
@@ -115,20 +91,20 @@ export default function Footer() {
 
         .footer-nav a,
         .footer-contact a:not(.footer-wa) {
-          color: var(--muted);
+          color: rgba(251,246,238,.45);
           font-size: .9rem;
           text-decoration: none;
           transition: color .2s ease;
           width: fit-content;
         }
         .footer-nav a:hover,
-        .footer-contact a:not(.footer-wa):hover { color: var(--accent); }
+        .footer-contact a:not(.footer-wa):hover { color: var(--accent); text-decoration: none; }
 
         .footer-wa {
           display: inline-flex;
           align-items: center;
           gap: 8px;
-          color: var(--muted);
+          color: rgba(251,246,238,.45);
           font-size: .9rem;
           text-decoration: none;
           transition: color .2s ease;
@@ -143,7 +119,7 @@ export default function Footer() {
           margin-top: 4px;
         }
         .footer-socials a {
-          color: var(--muted);
+          color: rgba(251,246,238,.35);
           transition: color .2s ease, transform .2s ease;
         }
         .footer-socials a:hover {
@@ -154,12 +130,11 @@ export default function Footer() {
         .footer-legal {
           text-align: center;
           font-size: .78rem;
-          color: var(--border);
-          margin: 0;
-          padding-top: 20px;
-          border-top: 1px solid var(--border);
-          max-width: 1000px;
+          color: rgba(251,246,238,.2);
           margin: 0 auto;
+          padding-top: 20px;
+          border-top: 1px solid rgba(255,255,255,0.06);
+          max-width: 1000px;
         }
 
         @media (max-width: 720px) {

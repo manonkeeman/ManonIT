@@ -131,10 +131,7 @@ export default function Offerte() {
 
             <div className="offerte-header-row">
               <NavLink to="/" className="offerte-mk-link" aria-label="Terug naar home">
-                <div className="offerte-mk-brand">
-                  <span className="offerte-mk-name">ManonIT.</span>
-                  <span className="offerte-mk-est">EST · 2004</span>
-                </div>
+                <img src="/logo-horizontal-compact.svg" alt="ManonIT" height="36" style={{ display:'block', borderRadius:0 }} />
               </NavLink>
               <div className="offerte-datum">{DATUM}</div>
             </div>
@@ -325,7 +322,7 @@ export default function Offerte() {
         .offerte-page {
           background: var(--bg);
           color: var(--text);
-          font-family: Montserrat, ui-sans-serif, system-ui, -apple-system;
+          font-family: var(--font-ui);
           min-height: 100vh;
         }
         .offerte-container {
@@ -340,7 +337,7 @@ export default function Offerte() {
           border-bottom: 1px solid var(--border);
         }
         .offerte-section-title {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: clamp(22px, 3vw, 32px);
           font-weight: 600;
           margin: 0 0 8px;
@@ -370,30 +367,10 @@ export default function Offerte() {
           display: inline-flex;
           align-items: center;
           text-decoration: none;
-          color: var(--text);
+          opacity: 1;
+          transition: opacity .2s ease;
         }
-        .offerte-mk-link:hover { text-decoration: none; color: var(--accent); }
-        .offerte-mk-brand {
-          display: flex;
-          flex-direction: column;
-          line-height: 1;
-          gap: 3px;
-        }
-        .offerte-mk-name {
-          font-family: 'Special Elite', Courier, monospace;
-          font-size: 1.1rem;
-          color: var(--text);
-          letter-spacing: 0.02em;
-          transition: color 0.2s ease;
-        }
-        .offerte-mk-link:hover .offerte-mk-name { color: var(--accent); }
-        .offerte-mk-est {
-          font-family: 'Special Elite', Courier, monospace;
-          font-size: 0.5rem;
-          letter-spacing: 0.22em;
-          color: var(--accent);
-          text-transform: uppercase;
-        }
+        .offerte-mk-link:hover { text-decoration: none; opacity: .8; }
         .offerte-datum {
           font-size: 0.8rem;
           color: var(--muted);
@@ -430,7 +407,7 @@ export default function Offerte() {
           margin: 0 0 8px;
         }
         .offerte-hero-title {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: clamp(38px, 6.5vw, 76px);
           font-weight: 600;
           line-height: 1.0;
@@ -513,7 +490,7 @@ export default function Offerte() {
           white-space: nowrap;
         }
         .offerte-card-naam {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: 1rem;
           font-weight: 600;
           margin: 6px 0 0;
@@ -532,7 +509,7 @@ export default function Offerte() {
           gap: 6px;
         }
         .offerte-card-bedrag {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: 1.5rem;
           font-weight: 700;
           color: var(--accent);
@@ -621,7 +598,7 @@ export default function Offerte() {
           padding: 24px;
         }
         .offerte-incl-title {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: 0.93rem;
           font-weight: 600;
           margin: 0 0 16px;
@@ -670,7 +647,7 @@ export default function Offerte() {
           .offerte-uurtarief-blok { justify-self: center; }
         }
         .offerte-uurtarief-titel {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: 1.2rem;
           font-weight: 600;
           margin: 0 0 10px;
@@ -694,7 +671,7 @@ export default function Offerte() {
           text-align: center;
         }
         .offerte-uurtarief-bedrag {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: 2.8rem;
           font-weight: 700;
           color: var(--accent);
@@ -719,7 +696,7 @@ export default function Offerte() {
           padding: 22px 18px;
         }
         .offerte-stap-nr {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: 1.85rem;
           font-weight: 700;
           color: color-mix(in srgb, var(--accent) 38%, transparent);
@@ -733,7 +710,7 @@ export default function Offerte() {
         .offerte-cta-section { background: var(--bg); }
         .offerte-cta { text-align: center; padding: 16px 0 8px; }
         .offerte-cta-titel {
-          font-family: 'Space Grotesk', Montserrat, ui-sans-serif;
+          font-family: var(--font-brand);
           font-size: clamp(26px, 4vw, 42px);
           font-weight: 600;
           margin: 0 0 14px;

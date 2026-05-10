@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="/hero-800w.avif"
         imagesrcset="/hero-400w.avif 400w, /hero-800w.avif 800w, /hero-1200w.avif 1200w"
         imagesizes="(max-width: 768px) 100vw, 800px" fetchpriority="high">
@@ -58,24 +58,21 @@
 <!-- Zichtbare shell terwijl JS laadt — React vervangt #root zodra klaar -->
 <div id="app-shell" aria-hidden="true" style="
   position:fixed;inset:0;z-index:99999;
-  background:#1b1b1b;color:#f9f0dd;
-  font-family:ui-sans-serif,system-ui,-apple-system,sans-serif;
+  background:#FBF6EE;color:#2A1010;
+  font-family:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
   display:flex;flex-direction:column;
   transition:opacity .25s ease;
 ">
   <!-- Navbar -->
-  <div style="height:60px;display:flex;align-items:center;padding:0 24px;border-bottom:1px solid #3a3a3a;flex-shrink:0;">
-    <div style="display:flex;flex-direction:column;line-height:1;gap:3px;">
-      <span style="font-family:'Special Elite',Courier,monospace;font-size:1.15rem;color:#f9f0dd;letter-spacing:.02em;">ManonIT.</span>
-      <span style="font-family:'Special Elite',Courier,monospace;font-size:.52rem;letter-spacing:.22em;color:#c9a97a;text-transform:uppercase;">EST · 2004</span>
-    </div>
+  <div style="height:60px;display:flex;align-items:center;padding:0 24px;border-bottom:1px solid rgba(92,26,27,.12);flex-shrink:0;">
+    <img src="/logo-horizontal-compact.svg" alt="ManonIT" style="height:40px;width:auto;display:block;">
   </div>
   <!-- Hero -->
   <div style="flex:1;display:flex;align-items:center;padding:0 clamp(20px,6vw,80px);max-width:1100px;width:100%;margin:0 auto;">
     <div>
-      <p style="margin:0 0 8px;font-size:.85rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#c9a97a;">Beschikbaar voor nieuwe opdrachten</p>
-      <h1 style="margin:0 0 16px;font-size:clamp(2rem,5vw,3.4rem);font-weight:700;line-height:1.1;color:#f9f0dd;">Manon IT</h1>
-      <p style="margin:0;font-size:1.05rem;color:#c6c1b5;max-width:480px;line-height:1.6;">I like to make beautiful websites. You dream it. I Manon it.</p>
+      <p style="margin:0 0 8px;font-size:.85rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#FF6B1A;">Beschikbaar voor nieuwe opdrachten</p>
+      <h1 style="margin:0 0 16px;font-size:clamp(2rem,5vw,3.4rem);font-weight:500;line-height:1.1;color:#5C1A1B;font-family:'Courier Prime','Courier New',monospace;">I make beautiful websites.</h1>
+      <p style="margin:0;font-size:1.05rem;color:rgba(42,16,16,.6);max-width:480px;line-height:1.6;font-style:italic;">You dream it, I Manon it.</p>
     </div>
   </div>
 </div>

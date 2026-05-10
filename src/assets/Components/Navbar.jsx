@@ -17,10 +17,7 @@ export default function Navbar() {
             <div className="nav-wrap">
                 {/* Logo */}
                 <NavLink to="/" className="nav-logo-link" aria-label="Home">
-                    <div className="nav-brand-logo">
-                        <span className="nav-brand-name">ManonIT.</span>
-                        <span className="nav-brand-est">EST · 2004</span>
-                    </div>
+                    <img src="/logo-horizontal-compact.svg" alt="ManonIT" height="40" />
                 </NavLink>
 
                 {/* Desktop nav */}
