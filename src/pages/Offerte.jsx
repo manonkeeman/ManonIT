@@ -469,8 +469,8 @@ export default function Offerte() {
           box-shadow: 0 12px 32px rgba(0,0,0,0.4);
         }
         .offerte-card--featured {
-          border-color: var(--accent);
-          box-shadow: 0 8px 32px rgba(201,169,122,0.18);
+          border-color: var(--bordeaux);
+          box-shadow: 0 8px 32px rgba(92,26,27,0.15);
           transform: translateY(-6px);
         }
         @media (max-width: 860px) { .offerte-card--featured { transform: none; } }
@@ -479,7 +479,7 @@ export default function Offerte() {
           position: absolute;
           top: -13px; left: 50%;
           transform: translateX(-50%);
-          background: var(--accent);
+          background: var(--bordeaux);
           color: var(--bg);
           font-size: 0.68rem;
           font-weight: 700;
@@ -512,7 +512,7 @@ export default function Offerte() {
           font-family: var(--font-brand);
           font-size: 1.5rem;
           font-weight: 700;
-          color: var(--accent);
+          color: var(--bordeaux);
         }
         .offerte-card-periode {
           font-size: 0.76rem;
@@ -565,11 +565,11 @@ export default function Offerte() {
           white-space: nowrap;
         }
         .offerte-btn--primary {
-          background: var(--accent);
+          background: var(--bordeaux);
           color: var(--bg);
-          box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+          box-shadow: 0 6px 18px rgba(92,26,27,0.25);
         }
-        .offerte-btn--primary:hover { filter: brightness(1.07); text-decoration: none; color: var(--bg); }
+        .offerte-btn--primary:hover { filter: brightness(1.1); text-decoration: none; color: var(--bg); }
         .offerte-btn--outline {
           background: transparent;
           color: var(--text);
@@ -674,7 +674,7 @@ export default function Offerte() {
           font-family: var(--font-brand);
           font-size: 2.8rem;
           font-weight: 700;
-          color: var(--accent);
+          color: var(--bordeaux);
           line-height: 1;
         }
         .offerte-uurtarief-label { font-size: 0.8rem; color: var(--muted); margin-top: 4px; }

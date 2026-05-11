@@ -74,14 +74,14 @@ function Hero() {
         .hero-badge{
           display:inline-flex; align-items:center; gap:8px;
           font-size:.82rem; font-weight:600; letter-spacing:.04em;
-          color:var(--accent); border:1px solid var(--accent);
+          color:var(--bordeaux); border:1px solid var(--bordeaux);
           border-radius:999px; padding:5px 12px;
           margin-bottom:16px;
           text-transform:uppercase;
         }
         .badge-dot{
           width:7px; height:7px; border-radius:50%;
-          background:var(--accent);
+          background:var(--bordeaux);
           animation: pulse 2s ease-in-out infinite;
           flex-shrink:0;
         }
