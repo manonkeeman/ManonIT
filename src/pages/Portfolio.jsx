@@ -58,6 +58,14 @@ const projects = [
         imgSrc: "/Portfolio/webdesign-acupuncture-mockup.png",
         num: "03",
     },
+    {
+        key: "bigthree",
+        title: "Webdesign Concept — The Big Three",
+        tags: ["HTML/CSS", "Webdesign", "Dark theme", "Concept"],
+        route: "/thebigthree",
+        imgSrc: "/Portfolio/bigthree-concept.png",
+        num: "04",
+    },
 ];
 
 export default function Portfolio() {

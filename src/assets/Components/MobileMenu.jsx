@@ -53,6 +53,9 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/webdesignacupuncture" onClick={onClose} className="mob-link">
                         {t('nav.links.portfolio.acupuncture')}
                     </NavLink>
+                    <NavLink to="/thebigthree" onClick={onClose} className="mob-link">
+                        {t('nav.links.portfolio.bigthree')}
+                    </NavLink>
 
                     <div className="mob-divider" />
 

@@ -33,9 +33,10 @@ if (typeof requestIdleCallback !== "undefined") {
 } else {
     setTimeout(prefetch, 2000);
 }
-const FrontendVredestein    = lazy(() => import("./pages/Portfolio/FrontendVredestein.jsx"));
-const WebdesignAcupuncture  = lazy(() => import("./pages/Portfolio/WebdesignAcupuncture.jsx"));
+const FrontendVredestein        = lazy(() => import("./pages/Portfolio/FrontendVredestein.jsx"));
+const WebdesignAcupuncture      = lazy(() => import("./pages/Portfolio/WebdesignAcupuncture.jsx"));
 const BackendStudentenDashboard = lazy(() => import("./pages/Portfolio/BackendStudentenDashboard.jsx"));
+const TheBigThree               = lazy(() => import("./pages/Portfolio/TheBigThree.jsx"));
 
 import "./Styles.css";
 
@@ -179,6 +180,17 @@ export default function App() {
                         <Layout>
                             <Suspense fallback={<PageLoader />}>
                                 <BackendStudentenDashboard />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+
+                <Route
+                    path="/thebigthree"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <TheBigThree />
                             </Suspense>
                         </Layout>
                     }
