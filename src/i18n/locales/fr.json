@@ -9,7 +9,8 @@
       "portfolio": {
         "backend": "Backend Tableau de bord",
         "frontend": "Webdevelopment - Villa Vredestein",
-        "acupuncture": "Webdesign - Acupuncture by Saskia"
+        "acupuncture": "Webdesign - Acupuncture by Saskia",
+        "bigthree": "Concept Web - The Big Three"
       },
       "journal": {
         "scrummaster": "Full Stack Developer",
@@ -101,6 +102,9 @@
       },
       "backend": {
         "desc": "Tableau de bord pour bailleurs de chambres étudiantes : paiements, contrats, planning ménage et règlement intérieur en un seul endroit."
+      },
+      "bigthree": {
+        "desc": "Concept de site web pour un garage spécialisé dans les voitures américaines. Thème sombre avec caractère américain."
       }
     }
   },

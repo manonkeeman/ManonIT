@@ -9,7 +9,8 @@
       "portfolio": {
         "backend": "Backend Studenten-Dashboard",
         "frontend": "Webdevelopment - Villa Vredestein",
-        "acupuncture": "Webdesign - Acupuncture by Saskia"
+        "acupuncture": "Webdesign - Acupuncture by Saskia",
+        "bigthree": "Webdesign-Konzept - The Big Three"
       },
       "journal": {
         "scrummaster": "Full Stack Entwicklerin",
@@ -101,6 +102,9 @@
       },
       "backend": {
         "desc": "Dashboard für Vermieter von Studentenzimmern: Zahlungen, Verträge, Reinigungsplan und Hausordnung an einem Ort."
+      },
+      "bigthree": {
+        "desc": "Website-Konzept für eine Garage für amerikanische Autos. Dunkles Thema mit amerikanischem Charakter."
       }
     }
   },

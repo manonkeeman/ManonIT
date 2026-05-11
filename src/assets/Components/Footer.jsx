@@ -22,6 +22,10 @@ export default function Footer() {
                     <p className="footer-heading">Navigation</p>
                     <Link to="/">{t('nav.home')}</Link>
                     <a href="/#portfolio">{t('nav.portfolio')}</a>
+                    <Link to="/frontendvredestein">{t('nav.links.portfolio.frontend')}</Link>
+                    <Link to="/webdesignacupuncture">{t('nav.links.portfolio.acupuncture')}</Link>
+                    <Link to="/thebigthree">{t('nav.links.portfolio.bigthree')}</Link>
+                    <Link to="/backendstudentendashboard">{t('nav.links.portfolio.backend')}</Link>
                     <Link to="/journal">{t('nav.journal')}</Link>
                     <Link to="/about">{t('nav.about')}</Link>
                     <a href="/#contact">{t('nav.contact')}</a>

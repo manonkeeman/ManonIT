@@ -9,7 +9,8 @@
       "portfolio": {
         "backend": "Backend Dashboard Studenti",
         "frontend": "Webdevelopment - Villa Vredestein",
-        "acupuncture": "Webdesign - Acupuncture by Saskia"
+        "acupuncture": "Webdesign - Acupuncture by Saskia",
+        "bigthree": "Concept Web - The Big Three"
       },
       "journal": {
         "scrummaster": "Full Stack Developer",
@@ -101,6 +102,9 @@
       },
       "backend": {
         "desc": "Dashboard per proprietari che affittano camere a studenti: pagamenti, contratti, piano pulizie e regole della casa in un unico posto."
+      },
+      "bigthree": {
+        "desc": "Concept di sito web per un'officina di auto americane. Tema scuro con carattere americano."
       }
     }
   },
