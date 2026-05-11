@@ -130,7 +130,7 @@ export default function Portfolio() {
             </div>
 
             <style>{`
-        .portfolio-section { padding-bottom: 80px; }
+        .portfolio-section { padding-bottom: 80px; overflow-x: clip; }
 
         .portfolio-header {
           display: flex;
