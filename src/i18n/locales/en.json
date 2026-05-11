@@ -26,15 +26,15 @@
     "copied": "Link copied!"
   },
   "hero": {
-    "greeting": "Manon IT",
-    "tagline": "I like to make beautiful websites. You dream it. I Manon it.",
-    "bio": "Behind every beautiful website is someone who makes the difference.\nI design, write and build, so you can do what you're good at.",
-    "roles": "Web Development • Web Apps • Web Design • Copywriting • SEO",
+    "greeting": "Need a website that actually brings in clients?",
+    "tagline": "You dream it, I Manon it.",
+    "bio": "I build websites that work for your business — fast, findable on Google, and designed to convert visitors into clients. Design, code, copy and SEO, all under one roof. You focus on what you do best. I handle the rest.",
+    "roles": "Web Development • Web Design • Copywriting • SEO • React",
     "projects": "View my work",
     "journal": "Journal",
     "available": "Available for new projects",
     "ctaWork": "View my work",
-    "ctaContact": "Get in touch"
+    "ctaContact": "Book a free call"
   },
   "about": {
     "title": "Designer. Writer. Developer.",

@@ -26,15 +26,15 @@
     "copied": "Link gekopieerd!"
   },
   "hero": {
-    "greeting": "Manon IT",
-    "tagline": "I like to make beautiful websites. You dream it. I Manon it.",
-    "bio": "Achter elke mooie website zit iemand die het verschil maakt.\nIk ontwerp, schrijf en bouw, zodat jij kunt doen waar je goed in bent.",
-    "roles": "Webdevelopment • Webapps • Webdesign • Copywriting • SEO",
+    "greeting": "Website laten maken die klanten trekt?",
+    "tagline": "You dream it, I Manon it.",
+    "bio": "Ik bouw websites die werken voor jouw business — snel, vindbaar in Google en ingericht om bezoekers te overtuigen. Van design en code tot tekst en SEO, alles onder één dak. Jij doet waar je goed in bent. Ik zorg voor de rest.",
+    "roles": "Webdevelopment • Webdesign • Copywriting • SEO • React",
     "projects": "Bekijk mijn werk",
     "journal": "Journal",
     "available": "Beschikbaar voor nieuwe opdrachten",
     "ctaWork": "Bekijk mijn werk",
-    "ctaContact": "Neem contact op"
+    "ctaContact": "Plan een gratis gesprek"
   },
   "about": {
     "title": "Designer. Schrijver. Developer.",
@@ -167,8 +167,8 @@
   },
   "seo": {
     "home": {
-      "title": "Manon IT — Webdevelopment, Design & Tekst",
-      "description": "Manon IT maakt mooie websites die werken. Webdevelopment, webdesign, copywriting en SEO onder één dak. Beschikbaar voor nieuwe opdrachten."
+      "title": "ManonIT — Website laten maken | Webdevelopment & Design",
+      "description": "Website laten maken die klanten trekt? ManonIT bouwt websites die snel zijn, gevonden worden in Google en bezoekers omzetten in klanten. Webdevelopment, webdesign, copywriting en SEO onder één dak."
     },
     "about": {
       "title": "Over mij — Manon Keeman | Full Stack Developer",
