@@ -200,12 +200,15 @@ export default function FrontendVredestein() {
                 ))}
             </section>
 
-            {/* ── MOBILE IMAGE ── */}
+            {/* ── MOCKUP ── */}
             <section className="vr-mockup">
-                {/* 📸 Beeld nodig: twee schermen naast elkaar,desktop links, mobiel rechts,of een device mockup */}
-                <div className="vr-mockup-placeholder">
-                    <span>{c.imageNote}</span>
-                </div>
+                <img
+                    src="/Portfolio/villa-vredestein-mockup.png"
+                    alt="Villa Vredestein website mockup — desktop en mobiel"
+                    className="vr-mockup-img"
+                    loading="lazy"
+                    decoding="async"
+                />
             </section>
 
             {/* ── FOOTER ── */}
@@ -294,22 +297,16 @@ export default function FrontendVredestein() {
           margin: 0;
         }
 
-        /* MOCKUP PLACEHOLDER */
+        /* MOCKUP */
         .vr-mockup {
           margin-bottom: 56px;
         }
-        .vr-mockup-placeholder {
-          background: var(--bg-alt);
-          border: 2px dashed var(--border);
+        .vr-mockup-img {
+          width: 100%;
+          height: auto;
           border-radius: 16px;
-          height: 220px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: var(--muted);
-          font-size: .9rem;
-          text-align: center;
-          padding: 20px;
+          display: block;
+          box-shadow: 0 16px 48px rgba(92,26,27,.12);
         }
 
         /* CHALLENGE */
