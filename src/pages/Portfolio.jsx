@@ -293,18 +293,18 @@ export default function Portfolio() {
           gap: 8px;
           margin-top: 8px;
           padding: 12px 22px;
-          background: var(--accent);
+          background: var(--bordeaux);
           color: var(--bg);
           border-radius: 10px;
           font-weight: 600;
           font-size: .95rem;
           text-decoration: none;
-          border: none;
+          border: 1px solid var(--bordeaux);
           cursor: pointer;
           width: fit-content;
-          transition: filter .2s, transform .15s;
+          transition: background .2s, border-color .2s, color .2s, transform .15s;
         }
-        .btn-cta-solid:hover { filter: brightness(1.1); transform: translateY(-2px); }
+        .btn-cta-solid:hover { background:var(--accent); border-color:var(--accent); color:var(--bordeaux); transform: translateY(-2px); }
 
         @media (max-width: 920px) {
           .portfolio-header { padding: 0 20px; }

@@ -250,11 +250,11 @@ export default function Contact() {
           transition: background .2s ease, color .2s ease, transform .2s ease, border-color .2s ease;
         }
         .btn:hover{ transform: translateY(-2px); }
-        .btn-primary{ background:var(--accent); color:var(--bg); border:1px solid var(--accent); }
-        .btn-primary:hover{ filter:brightness(1.08); }
-        .btn-secondary{ background:transparent; color:var(--text); border:1px solid var(--border); }
-        .btn-secondary:hover{ color:var(--accent); border-color:var(--accent); }
-        .btn-secondary.active{ background:var(--accent); color:var(--bg); border-color:var(--accent); }
+        .btn-primary{ background:var(--bordeaux); color:var(--bg); border:1px solid var(--bordeaux); }
+        .btn-primary:hover{ background:var(--accent); border-color:var(--accent); color:var(--bordeaux); }
+        .btn-secondary{ background:transparent; color:var(--accent); border:1px solid var(--accent); }
+        .btn-secondary:hover{ background:var(--accent); color:var(--bordeaux); border-color:var(--accent); }
+        .btn-secondary.active{ background:var(--bordeaux); color:var(--bg); border-color:var(--bordeaux); }
 
         .chip-row{ display:flex; gap:8px; flex-wrap:wrap; margin: 0 0 10px; }
 

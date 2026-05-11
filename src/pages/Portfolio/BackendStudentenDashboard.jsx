@@ -344,10 +344,10 @@ export default function BackendStudentenDashboard() {
         .vr-footer { display: flex; gap: 14px; flex-wrap: wrap; padding-top: 16px; border-top: 1px solid var(--border); }
         .tag { font-size: .82rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: var(--bg); white-space: nowrap; }
         .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 9px; font-size: .92rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: all .18s ease; border: 1px solid transparent; }
-        .btn-outline { background: transparent; color: var(--text); border-color: var(--border); }
-        .btn-outline:hover { border-color: var(--accent); }
-        .btn-primary { background: var(--accent); color: var(--bg); }
-        .btn-primary:hover { filter: brightness(1.08); }
+        .btn-outline { background: transparent; color: var(--accent); border-color: var(--accent); }
+        .btn-outline:hover { background: var(--accent); color: var(--bordeaux); }
+        .btn-primary { background: var(--accent); color: var(--bordeaux); border-color: var(--accent); }
+        .btn-primary:hover { background: var(--bordeaux); color: var(--bg); border-color: var(--bordeaux); }
         @media (max-width: 720px) {
           .vr-hero { grid-template-columns: 1fr; gap: 28px; padding: 28px 0 24px; }
           .vr-hero-image { order: -1; }
