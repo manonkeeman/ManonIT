@@ -2,11 +2,13 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-const PUB_FRONT = "/portfolio/villa-vredestein-frontend";
-const PUB_ACU   = "/portfolio/webdesign-acupuncture";
-const PUB_BACK  = "/portfolio/studenten-dashboard-backend";
+const PUB_ACU  = "/Portfolio/webdesign-acupuncture";
+const PUB_BACK = "/Portfolio/studenten-dashboard-backend";
 
-function PortfolioImage({ basePublic, alt }) {
+function PortfolioImage({ basePublic, imgSrc, alt }) {
+    if (imgSrc) {
+        return <img src={imgSrc} alt={alt} loading="lazy" decoding="async" />;
+    }
     return (
         <picture>
             <source
@@ -45,7 +47,7 @@ const projects = [
         title: "Webdevelopment - Villa Vredestein",
         tags: ["React", "Vite", "UX/UI", "SEO"],
         route: "/frontendvredestein",
-        basePublic: PUB_FRONT,
+        imgSrc: "/Portfolio/villa-vredestein-mockup.png",
         num: "02",
     },
     {
@@ -96,7 +98,7 @@ export default function Portfolio() {
                         <article key={p.key} className="portfolio-card">
                             <Link className="card-link" to={p.route} aria-label={`Open ${p.title}`}>
                                 <div className="card-media">
-                                    <PortfolioImage basePublic={p.basePublic} alt={p.title} />
+                                    <PortfolioImage basePublic={p.basePublic} imgSrc={p.imgSrc} alt={p.title} />
                                 </div>
                                 <div className="card-body">
                                     <span className="card-num">{p.num}</span>

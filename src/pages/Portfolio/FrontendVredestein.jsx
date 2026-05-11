@@ -1,48 +1,9 @@
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
 
-const COVER_BASE = "/portfolio/villa-vredestein-frontend";
-const FallbackFront = `${COVER_BASE}-800w.webp`;
+const MOCKUP = "/Portfolio/villa-vredestein-mockup.png";
 const LIVE_URL = "https://villavredestein.com";
-
-function useExistingFormats(base) {
-    const [state, setState] = useState({ webp: null, avif: null });
-    useEffect(() => {
-        let canceled = false;
-        const test = (url) =>
-            new Promise((resolve) => {
-                const img = new Image();
-                img.onload = () => resolve(true);
-                img.onerror = () => resolve(false);
-                img.src = url;
-            });
-        (async () => {
-            const [webpOk, avifOk] = await Promise.all([
-                test(`${base}-800w.webp`),
-                test(`${base}-800w.avif`),
-            ]);
-            if (!canceled) setState({ webp: webpOk, avif: avifOk });
-        })();
-        return () => { canceled = true; };
-    }, [base]);
-    return state;
-}
-
-function GuardedPicture({ base, fallback, alt, sizes = "(max-width: 920px) 100vw, 920px" }) {
-    const { webp, avif } = useExistingFormats(base);
-    if (webp === null || avif === null || (!webp && !avif)) {
-        return <img src={fallback} alt={alt} loading="lazy" decoding="async" className="cover-img" />;
-    }
-    return (
-        <picture>
-            {webp && <source type="image/webp" srcSet={`${base}-400w.webp 400w, ${base}-800w.webp 800w, ${base}-1200w.webp 1200w`} sizes={sizes} />}
-            {avif && <source type="image/avif" srcSet={`${base}-400w.avif 400w, ${base}-800w.avif 800w, ${base}-1200w.avif 1200w`} sizes={sizes} />}
-            <img src={`${base}-800w.${webp ? "webp" : "avif"}`} alt={alt} loading="lazy" decoding="async" className="cover-img" />
-        </picture>
-    );
-}
 
 const content = {
     nl: {
@@ -180,8 +141,7 @@ export default function FrontendVredestein() {
                     <a className="btn btn-primary vr-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
                 <div className="vr-hero-image">
-                    {/* 📸 Beeld nodig: volledige desktop screenshot van de homepage */}
-                    <GuardedPicture base={COVER_BASE} fallback={FallbackFront} alt="Villa Vredestein homepage" sizes="(max-width: 768px) 100vw, 55vw" />
+                    <img src={MOCKUP} alt="Villa Vredestein website mockup" className="cover-img" loading="eager" decoding="async" />
                 </div>
             </header>
 
@@ -198,17 +158,6 @@ export default function FrontendVredestein() {
                         <p className="vr-card-text">{card.text}</p>
                     </div>
                 ))}
-            </section>
-
-            {/* ── MOCKUP ── */}
-            <section className="vr-mockup">
-                <img
-                    src="/Portfolio/villa-vredestein-mockup.png"
-                    alt="Villa Vredestein website mockup — desktop en mobiel"
-                    className="vr-mockup-img"
-                    loading="lazy"
-                    decoding="async"
-                />
             </section>
 
             {/* ── FOOTER ── */}
@@ -295,18 +244,6 @@ export default function FrontendVredestein() {
           line-height: 1.6;
           color: var(--text);
           margin: 0;
-        }
-
-        /* MOCKUP */
-        .vr-mockup {
-          margin-bottom: 56px;
-        }
-        .vr-mockup-img {
-          width: 100%;
-          height: auto;
-          border-radius: 16px;
-          display: block;
-          box-shadow: 0 16px 48px rgba(92,26,27,.12);
         }
 
         /* CHALLENGE */
