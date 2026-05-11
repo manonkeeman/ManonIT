@@ -1,8 +1,8 @@
-# manonkeeman.nl
+# manonit.nl
 
 Persoonlijke portfolio- en journalsite van **Manon Keeman** — Full Stack Developer, Systems Thinker, Designer, Storyteller & Builder.
 
-Live: [manonkeeman.com](https://manonkeeman.com)
+Live: [manonit.com](https://manonkeeman.com)
 
 ---
 
