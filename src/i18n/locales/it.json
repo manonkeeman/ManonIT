@@ -26,13 +26,15 @@
     "copied": "Link copiato!"
   },
   "hero": {
-    "greeting": "Ciao, sono Manon",
-    "tagline": "Rendo le cose complesse chiare, e le costruisco.",
-    "bio": "Dall'idea alla struttura al prodotto funzionante.\nDesign, codice e comunicazione in un'unica linea.",
-    "roles": "Sviluppatrice Full Stack • Pensatrice Sistemica • Designer • Narratrice • Costruttrice",
-    "projects": "Progetti",
+    "greeting": "Hai bisogno di un sito web che attiri davvero clienti?",
+    "tagline": "You dream it, I Manon it.",
+    "bio": "Dietro ogni bel sito web c'è qualcuno che fa la differenza. Progetto, scrivo e costruisco siti web veloci, visibili su Google e pensati per convertire i visitatori in clienti. Dal design al codice, dai testi alla SEO, tutto sotto un unico tetto. Così puoi concentrarti su quello che sai fare meglio.",
+    "roles": "Sviluppo web • Web design • Copywriting • SEO • React",
+    "projects": "Guarda il mio lavoro",
     "journal": "Diario",
-    "available": "Disponibile per progetti"
+    "available": "Disponibile per nuovi progetti",
+    "ctaWork": "Guarda il mio lavoro",
+    "ctaContact": "Prenota una chiamata gratuita"
   },
   "about": {
     "title": "Designer. Scrittrice. Sviluppatrice.",

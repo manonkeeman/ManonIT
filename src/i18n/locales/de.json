@@ -26,13 +26,15 @@
     "copied": "Link kopiert!"
   },
   "hero": {
-    "greeting": "Hi, ich bin Manon",
-    "tagline": "Ich mache komplexe Dinge klar, und baue sie.",
-    "bio": "Von der Idee zur Struktur zum fertigen Produkt.\nDesign, Code und Kommunikation in einer Linie.",
-    "roles": "Full Stack Entwicklerin • Systemdenkerin • Designerin • Geschichtenerzählerin • Macherin",
-    "projects": "Projekte",
+    "greeting": "Website erstellen lassen, die Kunden anzieht?",
+    "tagline": "You dream it, I Manon it.",
+    "bio": "Hinter jeder schönen Website steckt jemand, der den Unterschied macht. Ich entwerfe, texte und baue Websites, die schnell sind, bei Google gefunden werden und Besucher in Kunden verwandeln. Von Design und Code bis zu Texten und SEO, alles aus einer Hand. Damit Sie sich auf das konzentrieren können, was Sie am besten können.",
+    "roles": "Webentwicklung • Webdesign • Texte • SEO • React",
+    "projects": "Meine Arbeit ansehen",
     "journal": "Journal",
-    "available": "Verfügbar für Projekte"
+    "available": "Verfügbar für neue Projekte",
+    "ctaWork": "Meine Arbeit ansehen",
+    "ctaContact": "Kostenloses Gespräch buchen"
   },
   "about": {
     "title": "Designerin. Autorin. Entwicklerin.",
