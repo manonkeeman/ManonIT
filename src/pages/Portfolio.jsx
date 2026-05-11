@@ -55,7 +55,7 @@ const projects = [
         title: "Webdesign – Acupuncture by Saskia",
         tags: ["WordPress", "Adobe Suite", "SEO"],
         route: "/webdesignacupuncture",
-        basePublic: PUB_ACU,
+        imgSrc: "/Portfolio/webdesign-acupuncture-mockup.png",
         num: "03",
     },
 ];

@@ -1,48 +1,9 @@
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
 
-const COVER_BASE = "/portfolio/webdesign-acupuncture";
-const FallbackAcu = `${COVER_BASE}-800w.webp`;
+const MOCKUP = "/Portfolio/webdesign-acupuncture-mockup.png";
 const LIVE_URL = "https://acupuncturebysaskia.com/over-saskia/";
-
-function useExistingFormats(base) {
-    const [state, setState] = useState({ webp: null, avif: null });
-    useEffect(() => {
-        let canceled = false;
-        const test = (url) =>
-            new Promise((resolve) => {
-                const img = new Image();
-                img.onload = () => resolve(true);
-                img.onerror = () => resolve(false);
-                img.src = url;
-            });
-        (async () => {
-            const [webpOk, avifOk] = await Promise.all([
-                test(`${base}-800w.webp`),
-                test(`${base}-800w.avif`),
-            ]);
-            if (!canceled) setState({ webp: webpOk, avif: avifOk });
-        })();
-        return () => { canceled = true; };
-    }, [base]);
-    return state;
-}
-
-function GuardedPicture({ base, fallback, alt, sizes = "(max-width: 920px) 100vw, 920px" }) {
-    const { webp, avif } = useExistingFormats(base);
-    if (webp === null || avif === null || (!webp && !avif)) {
-        return <img src={fallback} alt={alt} loading="lazy" decoding="async" className="cover-img" />;
-    }
-    return (
-        <picture>
-            {webp && <source type="image/webp" srcSet={`${base}-400w.webp 400w, ${base}-800w.webp 800w, ${base}-1200w.webp 1200w`} sizes={sizes} />}
-            {avif && <source type="image/avif" srcSet={`${base}-400w.avif 400w, ${base}-800w.avif 800w, ${base}-1200w.avif 1200w`} sizes={sizes} />}
-            <img src={`${base}-800w.${webp ? "webp" : "avif"}`} alt={alt} loading="lazy" decoding="async" className="cover-img" />
-        </picture>
-    );
-}
 
 const content = {
     nl: {
@@ -161,7 +122,7 @@ export default function WebdesignAcupuncture() {
                     <a className="btn btn-primary vr-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
                 <div className="vr-hero-image">
-                    <GuardedPicture base={COVER_BASE} fallback={FallbackAcu} alt="Acupuncture by Saskia website" sizes="(max-width: 768px) 100vw, 55vw" />
+                    <img src={MOCKUP} alt="Acupuncture by Saskia website mockup" className="cover-img" loading="eager" decoding="async" />
                 </div>
             </header>
 
