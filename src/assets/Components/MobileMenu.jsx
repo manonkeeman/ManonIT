@@ -16,63 +16,92 @@ export default function MobileMenu({ open, onClose }) {
     const changeLang = (code) => {
         i18n.changeLanguage(code);
         localStorage.setItem('lang', code);
+        onClose();
     };
 
     return (
-        <div
-            id="mobile-menu"
-            className={`mobile-overlay ${open ? "open" : ""}`}
-            role="dialog"
-            aria-modal="true"
-            aria-label="Mobile navigation"
-            onClick={(e) => {
-                if (e.currentTarget === e.target) onClose();
-            }}
-        >
-            <div className="mobile-panel" role="document">
-                <button className="close-x" aria-label="Close menu" onClick={onClose}>×</button>
+        <>
+            {/* Backdrop */}
+            <div
+                className={`mobile-backdrop ${open ? 'open' : ''}`}
+                onClick={onClose}
+                aria-hidden="true"
+            />
 
-                <nav className="mobile-nav" aria-label="Mobile navigation">
-                    <NavLink to="/" end onClick={onClose}>{t('nav.home')}</NavLink>
+            {/* Dropdown menu */}
+            <nav
+                id="mobile-menu"
+                className={`mobile-dropdown ${open ? 'open' : ''}`}
+                aria-label="Mobile navigation"
+                aria-hidden={!open}
+            >
+                <div className="mobile-dropdown-inner">
 
-                    <div className="mobile-divider" />
+                    <NavLink to="/" end onClick={onClose} className="mob-link mob-link--main">
+                        {t('nav.home')}
+                    </NavLink>
 
-                    <details>
-                        <summary>{t('nav.portfolio')}</summary>
-                        <NavLink to="/backendstudentendashboard" onClick={onClose}>{t('nav.links.portfolio.backend')}</NavLink>
-                        <NavLink to="/frontendvredestein" onClick={onClose}>{t('nav.links.portfolio.frontend')}</NavLink>
-                        <NavLink to="/webdesignacupuncture" onClick={onClose}>{t('nav.links.portfolio.acupuncture')}</NavLink>
-                    </details>
+                    <div className="mob-divider" />
 
-                    <details className="only-tall">
-                        <summary><NavLink to="/journal" onClick={onClose}>{t('nav.journal')}</NavLink></summary>
-                        <NavLink to="/journal/365korteverhalen" onClick={onClose}>{t('nav.links.journal.365korteverhalen')}</NavLink>
-                        <NavLink to="/journal/designchaos" onClick={onClose}>{t('nav.links.journal.designchaos')}</NavLink>
-                        <NavLink to="/journal/luchtvaartfamilie2018" onClick={onClose}>{t('nav.links.journal.luchtvaartfamilie2018')}</NavLink>
-                        <NavLink to="/journal/fullstackdeveloper" onClick={onClose}>{t('nav.links.journal.scrummaster')}</NavLink>
-                        <NavLink to="/journal/storytelling" onClick={onClose}>{t('nav.links.journal.storytelling')}</NavLink>
-                        <NavLink to="/journal/toekomsttech" onClick={onClose}>{t('nav.links.journal.toekomsttech')}</NavLink>
-                    </details>
+                    <p className="mob-section-label">{t('nav.portfolio')}</p>
+                    <NavLink to="/backendstudentendashboard" onClick={onClose} className="mob-link">
+                        {t('nav.links.portfolio.backend')}
+                    </NavLink>
+                    <NavLink to="/frontendvredestein" onClick={onClose} className="mob-link">
+                        {t('nav.links.portfolio.frontend')}
+                    </NavLink>
+                    <NavLink to="/webdesignacupuncture" onClick={onClose} className="mob-link">
+                        {t('nav.links.portfolio.acupuncture')}
+                    </NavLink>
 
-                    <div className="mobile-divider" />
+                    <div className="mob-divider" />
 
-                    <NavLink to="/about" onClick={onClose}>{t('nav.about')}</NavLink>
-                    <NavLink to={{ pathname: "/", hash: "#contact" }} onClick={onClose}>{t('nav.contact')}</NavLink>
-                </nav>
+                    <p className="mob-section-label">{t('nav.journal')}</p>
+                    <NavLink to="/journal/365korteverhalen" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.365korteverhalen')}
+                    </NavLink>
+                    <NavLink to="/journal/designchaos" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.designchaos')}
+                    </NavLink>
+                    <NavLink to="/journal/fullstackdeveloper" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.scrummaster')}
+                    </NavLink>
+                    <NavLink to="/journal/storytelling" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.storytelling')}
+                    </NavLink>
+                    <NavLink to="/journal/toekomsttech" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.toekomsttech')}
+                    </NavLink>
+                    <NavLink to="/journal/luchtvaartfamilie2018" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.luchtvaartfamilie2018')}
+                    </NavLink>
 
-                <div className="mobile-lang" role="group" aria-label="Language">
-                    {LANGUAGES.map(({ code, label }) => (
-                        <button
-                            key={code}
-                            className={`mobile-lang-btn${i18n.language === code ? ' active' : ''}`}
-                            onClick={() => changeLang(code)}
-                            aria-pressed={i18n.language === code}
-                        >
-                            {label}
-                        </button>
-                    ))}
+                    <div className="mob-divider" />
+
+                    <NavLink to="/about" onClick={onClose} className="mob-link mob-link--main">
+                        {t('nav.about')}
+                    </NavLink>
+                    <NavLink to="/#contact" onClick={onClose} className="mob-link mob-link--main">
+                        {t('nav.contact')}
+                    </NavLink>
+
+                    <div className="mob-divider" />
+
+                    <div className="mob-lang" role="group" aria-label="Taal kiezen">
+                        {LANGUAGES.map(({ code, label }) => (
+                            <button
+                                key={code}
+                                className={`mob-lang-btn ${i18n.language === code ? 'active' : ''}`}
+                                onClick={() => changeLang(code)}
+                                aria-pressed={i18n.language === code}
+                            >
+                                {label}
+                            </button>
+                        ))}
+                    </div>
+
                 </div>
-            </div>
-        </div>
+            </nav>
+        </>
     );
 }
