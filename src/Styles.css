@@ -73,20 +73,20 @@ a:hover, a:focus-visible{ color:var(--bordeaux); text-decoration:underline; text
 .btn:active{ transform:translateY(1px) }
 .btn:focus-visible{ outline:2px solid var(--bordeaux); outline-offset:2px }
 .btn-primary{
-  background:var(--bordeaux); color:var(--bg);
-  border-color:var(--bordeaux);
-  box-shadow:0 6px 18px rgba(92,26,27,.20);
+  background:var(--accent); color:var(--bordeaux);
+  border-color:var(--accent);
+  box-shadow:0 6px 18px rgba(255,107,26,.25);
 }
 .btn-primary:hover{
-  background:var(--bordeaux); border-color:var(--accent);
-  box-shadow:0 6px 20px rgba(255,107,26,.30);
+  background:var(--bordeaux); border-color:var(--bordeaux);
   color:var(--bg);
+  box-shadow:0 6px 20px rgba(92,26,27,.25);
 }
 .btn-outline{ background:transparent; color:var(--bordeaux); border-color:var(--bordeaux) }
 .btn-outline:hover{
-  background:var(--bordeaux); color:var(--bg);
-  border-color:var(--bordeaux);
-  box-shadow:0 4px 14px rgba(92,26,27,.18);
+  background:var(--accent); color:var(--bordeaux);
+  border-color:var(--accent);
+  box-shadow:0 4px 14px rgba(255,107,26,.20);
 }
 .btn[data-arrow]::after{ content:"↗"; margin-left:8px; font-family: var(--font-ui) }
 

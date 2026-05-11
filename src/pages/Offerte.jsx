@@ -565,16 +565,16 @@ export default function Offerte() {
           white-space: nowrap;
         }
         .offerte-btn--primary {
-          background: var(--bordeaux);
-          color: var(--bg);
-          border-color: var(--bordeaux);
-          box-shadow: 0 6px 18px rgba(92,26,27,0.25);
+          background: var(--accent);
+          color: var(--bordeaux);
+          border-color: var(--accent);
+          box-shadow: 0 6px 18px rgba(255,107,26,0.25);
         }
         .offerte-btn--primary:hover {
           background: var(--bordeaux);
-          border-color: var(--accent);
-          box-shadow: 0 6px 20px rgba(255,107,26,0.30);
+          border-color: var(--bordeaux);
           color: var(--bg);
+          box-shadow: 0 6px 20px rgba(92,26,27,0.25);
           text-decoration: none;
         }
         .offerte-btn--outline {
@@ -583,10 +583,10 @@ export default function Offerte() {
           border-color: var(--bordeaux);
         }
         .offerte-btn--outline:hover {
-          background: var(--bordeaux);
-          border-color: var(--bordeaux);
-          color: var(--bg);
-          box-shadow: 0 4px 14px rgba(92,26,27,0.18);
+          background: var(--accent);
+          border-color: var(--accent);
+          color: var(--bordeaux);
+          box-shadow: 0 4px 14px rgba(255,107,26,0.20);
           text-decoration: none;
         }
         .offerte-btn--lg { padding: 15px 30px; font-size: 0.98rem; border-radius: 14px; }
