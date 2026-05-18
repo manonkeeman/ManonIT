@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="footer-inner">
                 {/* Col 1 — Brand */}
                 <div className="footer-col footer-brand">
-                    <img src="/logo-compact-dark.svg" alt="ManonIT" height="44" style={{ borderRadius: 0 }} />
+                    <img src="/logo-full-dark.png" alt="ManonIT" height="44" style={{ borderRadius: 0 }} />
                     <p className="footer-tagline">I make beautiful websites.<br/>You dream it, I Manon it.</p>
                     <p className="footer-copy">© {new Date().getFullYear()} Manon Keeman</p>
                 </div>
