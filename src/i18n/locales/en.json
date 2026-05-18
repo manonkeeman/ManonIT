@@ -34,7 +34,7 @@
     "projects": "View my work",
     "journal": "Journal",
     "available": "Available for new projects",
-    "ctaWork": "View my work",
+    "ctaWork": "Portfolio →",
     "ctaContact": "Book a free call"
   },
   "about": {
@@ -123,7 +123,7 @@
     "label": "How it works",
     "title": "From first message to going live",
     "intro": "No surprises, no confusion. This is how we work together.",
-    "cta": "Send me a message",
+    "cta": "Contact →",
     "steps": {
       "meet": {
         "title": "Meeting",

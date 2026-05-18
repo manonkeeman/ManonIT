@@ -7,7 +7,7 @@ const LOGO    = "/Portfolio/bigthree-logo.png";
 
 const content = {
     nl: {
-        title: "Webdesign Concept — The Big Three",
+        title: "Webdesign Concept · The Big Three",
         subtitle: "Website concept · in voorbereiding",
         tagline: "Gebouwd in Amerika.\nGereviseerd in Nunspeet.",
         badge: "Concept",
@@ -15,14 +15,14 @@ const content = {
         cards: [
             { label: "Wat", text: "Volledig custom websiteontwerp voor een garage in Amerikaanse auto's. Van visuele identiteit tot UX-structuur." },
             { label: "Hoe", text: "Concept in HTML/CSS. Dark theme met Amerikaans karakter: dramatische typografie, rood-wit-blauw kleurpalet en filmische sfeer." },
-            { label: "Status", text: "In gesprek. De definitieve offerte is opgesteld — dit concept dient als visuele richting voor de klant." },
+            { label: "Status", text: "In gesprek. De definitieve offerte is opgesteld. Dit concept dient als visuele richting voor de klant." },
         ],
         challengeTitle: "De uitdaging",
-        challenge: "Een garage in Amerikaanse auto's vraagt om een website die voelt als een film poster — niet als een productpagina. De stijl moest meteen duidelijk maken wat The Big Three is, zonder dat je één woord hoeft te lezen.",
+        challenge: "Een garage in Amerikaanse auto's vraagt om een website die voelt als een filmposer, niet als een productpagina. De stijl moest meteen duidelijk maken wat The Big Three is, zonder dat je één woord hoeft te lezen.",
         backBtn: "← Terug naar Portfolio",
     },
     en: {
-        title: "Web Design Concept — The Big Three",
+        title: "Web Design Concept · The Big Three",
         subtitle: "Website concept · in progress",
         tagline: "Built in America.\nServiced in Nunspeet.",
         badge: "Concept",
@@ -30,14 +30,14 @@ const content = {
         cards: [
             { label: "What", text: "Fully custom website design for an American car garage. From visual identity to UX structure." },
             { label: "How", text: "Concept in HTML/CSS. Dark theme with an American character: dramatic typography, red-white-blue palette and cinematic atmosphere." },
-            { label: "Status", text: "In discussion. The final quote has been drawn up — this concept serves as the visual direction for the client." },
+            { label: "Status", text: "In discussion. The final quote has been drawn up. This concept serves as the visual direction for the client." },
         ],
         challengeTitle: "The challenge",
-        challenge: "A garage specialising in American cars needs a website that feels like a movie poster — not a product page. The style had to make it immediately clear what The Big Three is, before you read a single word.",
+        challenge: "A garage specialising in American cars needs a website that feels like a movie poster, not a product page. The style had to make it immediately clear what The Big Three is, before you read a single word.",
         backBtn: "← Back to Portfolio",
     },
     fr: {
-        title: "Concept Web — The Big Three",
+        title: "Concept Web · The Big Three",
         subtitle: "Concept de site · en cours",
         tagline: "Construit en Amérique.\nRévisé à Nunspeet.",
         badge: "Concept",
@@ -45,14 +45,14 @@ const content = {
         cards: [
             { label: "Quoi", text: "Design de site entièrement sur-mesure pour un garage de voitures américaines." },
             { label: "Comment", text: "Concept en HTML/CSS. Thème sombre avec un caractère américain : typographie dramatique, palette rouge-blanc-bleu." },
-            { label: "Statut", text: "En discussion. Le devis est rédigé — ce concept sert de direction visuelle pour le client." },
+            { label: "Statut", text: "En discussion. Le devis est rédigé. Ce concept sert de direction visuelle pour le client." },
         ],
         challengeTitle: "Le défi",
-        challenge: "Un garage spécialisé dans les voitures américaines a besoin d'un site qui ressemble à une affiche de film — pas à une page produit.",
+        challenge: "Un garage spécialisé dans les voitures américaines a besoin d'un site qui ressemble à une affiche de film, pas à une page produit.",
         backBtn: "← Retour au Portfolio",
     },
     de: {
-        title: "Webdesign-Konzept — The Big Three",
+        title: "Webdesign-Konzept · The Big Three",
         subtitle: "Website-Konzept · in Vorbereitung",
         tagline: "In Amerika gebaut.\nIn Nunspeet gewartet.",
         badge: "Konzept",
@@ -60,14 +60,14 @@ const content = {
         cards: [
             { label: "Was", text: "Vollständig maßgeschneidertes Website-Design für eine Garage für amerikanische Autos." },
             { label: "Wie", text: "Konzept in HTML/CSS. Dunkles Thema mit amerikanischem Charakter: dramatische Typografie, rot-weiß-blaue Farbpalette." },
-            { label: "Status", text: "Im Gespräch. Das Angebot liegt vor — dieses Konzept dient als visuelle Richtung für den Kunden." },
+            { label: "Status", text: "Im Gespräch. Das Angebot liegt vor. Dieses Konzept dient als visuelle Richtung für den Kunden." },
         ],
         challengeTitle: "Die Herausforderung",
-        challenge: "Eine Garage für amerikanische Autos braucht eine Website, die sich wie ein Filmplakat anfühlt — nicht wie eine Produktseite.",
+        challenge: "Eine Garage für amerikanische Autos braucht eine Website, die sich wie ein Filmplakat anfühlt, nicht wie eine Produktseite.",
         backBtn: "← Zurück zum Portfolio",
     },
     es: {
-        title: "Concepto Web — The Big Three",
+        title: "Concepto Web · The Big Three",
         subtitle: "Concepto de web · en preparación",
         tagline: "Fabricado en América.\nRevisado en Nunspeet.",
         badge: "Concepto",
@@ -75,14 +75,14 @@ const content = {
         cards: [
             { label: "Qué", text: "Diseño web completamente personalizado para un taller de coches americanos." },
             { label: "Cómo", text: "Concepto en HTML/CSS. Tema oscuro con carácter americano: tipografía dramática, paleta rojo-blanco-azul." },
-            { label: "Estado", text: "En conversación. El presupuesto está redactado — este concepto sirve como dirección visual para el cliente." },
+            { label: "Estado", text: "En conversación. El presupuesto está redactado. Este concepto sirve como dirección visual para el cliente." },
         ],
         challengeTitle: "El reto",
-        challenge: "Un taller especializado en coches americanos necesita una web que parezca un cartel de película — no una página de producto.",
+        challenge: "Un taller especializado en coches americanos necesita una web que parezca un cartel de película, no una página de producto.",
         backBtn: "← Volver al Portfolio",
     },
     it: {
-        title: "Concept Web — The Big Three",
+        title: "Concept Web · The Big Three",
         subtitle: "Concept sito · in preparazione",
         tagline: "Costruito in America.\nRevisionato a Nunspeet.",
         badge: "Concept",
@@ -90,10 +90,10 @@ const content = {
         cards: [
             { label: "Cosa", text: "Design web completamente su misura per un'officina di auto americane." },
             { label: "Come", text: "Concept in HTML/CSS. Tema scuro con carattere americano: tipografia drammatica, palette rosso-bianco-blu." },
-            { label: "Stato", text: "In discussione. Il preventivo è pronto — questo concept funge da direzione visiva per il cliente." },
+            { label: "Stato", text: "In discussione. Il preventivo è pronto. Questo concept funge da direzione visiva per il cliente." },
         ],
         challengeTitle: "La sfida",
-        challenge: "Un'officina specializzata in auto americane ha bisogno di un sito che sembri un poster cinematografico — non una pagina prodotto.",
+        challenge: "Un'officina specializzata in auto americane ha bisogno di un sito che sembri un poster cinematografico, non una pagina prodotto.",
         backBtn: "← Torna al Portfolio",
     },
 };
@@ -106,7 +106,7 @@ export default function TheBigThree() {
     return (
         <article className="bt-page section">
             <Seo
-                title="The Big Three — Webdesign Concept | ManonIT"
+                title="The Big Three · Webdesign Concept | ManonIT"
                 description="Website concept voor The Big Three, een garage in Amerikaanse auto's in Nunspeet. Dark theme met Amerikaans karakter."
                 path="/thebigthree"
             />

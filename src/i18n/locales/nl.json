@@ -34,7 +34,7 @@
     "projects": "Bekijk mijn werk",
     "journal": "Journal",
     "available": "Beschikbaar voor nieuwe opdrachten",
-    "ctaWork": "Bekijk mijn werk",
+    "ctaWork": "Portfolio →",
     "ctaContact": "Plan een gratis gesprek"
   },
   "about": {
@@ -123,7 +123,7 @@
     "label": "Zo werkt het",
     "title": "Van eerste bericht tot livegang",
     "intro": "Geen verrassingen, geen onduidelijkheid. Dit is hoe we samenwerken.",
-    "cta": "Stuur me een bericht",
+    "cta": "Contact →",
     "steps": {
       "meet": {
         "title": "Kennismaken",
