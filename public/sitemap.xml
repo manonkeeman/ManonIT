@@ -3,7 +3,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://manonkeeman.nl/</loc>
+    <loc>https://manonit.com/</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- About -->
   <url>
-    <loc>https://manonkeeman.nl/about</loc>
+    <loc>https://manonit.com/about</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -19,7 +19,7 @@
 
   <!-- Journal landing -->
   <url>
-    <loc>https://manonkeeman.nl/journal</loc>
+    <loc>https://manonit.com/journal</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -27,25 +27,25 @@
 
   <!-- Portfolio -->
   <url>
-    <loc>https://manonkeeman.nl/frontendvredestein</loc>
+    <loc>https://manonit.com/frontendvredestein</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/webdesignacupuncture</loc>
+    <loc>https://manonit.com/webdesignacupuncture</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/backendstudentendashboard</loc>
+    <loc>https://manonit.com/backendstudentendashboard</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/thebigthree</loc>
+    <loc>https://manonit.com/thebigthree</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -53,37 +53,37 @@
 
   <!-- Journal -->
   <url>
-    <loc>https://manonkeeman.nl/journal/fullstackdeveloper</loc>
+    <loc>https://manonit.com/journal/fullstackdeveloper</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/journal/designchaos</loc>
+    <loc>https://manonit.com/journal/designchaos</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/journal/storytelling</loc>
+    <loc>https://manonit.com/journal/storytelling</loc>
     <lastmod>2025-09-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/journal/luchtvaartfamilie2018</loc>
+    <loc>https://manonit.com/journal/luchtvaartfamilie2018</loc>
     <lastmod>2018-02-18</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/journal/365korteverhalen</loc>
+    <loc>https://manonit.com/journal/365korteverhalen</loc>
     <lastmod>2025-09-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://manonkeeman.nl/journal/toekomsttech</loc>
+    <loc>https://manonit.com/journal/toekomsttech</loc>
     <lastmod>2025-09-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
