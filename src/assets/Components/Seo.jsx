@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const SITE_URL = "https://manonkeeman.nl";
-const DEFAULT_IMAGE = `${SITE_URL}/hero-1200w.webp`;
+const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`;
 
 export default function Seo({ title, description, path = "", image }) {
     const canonical = `${SITE_URL}${path}`;
