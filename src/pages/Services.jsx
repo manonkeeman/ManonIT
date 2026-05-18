@@ -58,7 +58,7 @@ export default function Services() {
                     </div>
 
                     <div className="svc-steps-cta">
-                        <a href="/#contact" className="btn btn-primary">{t("howItWorks.cta")}</a>
+                        <a href="/#contact" className="btn btn-primary" data-arrow>{t("howItWorks.cta")}</a>
                     </div>
                 </div>
             </section>

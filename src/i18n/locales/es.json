@@ -34,7 +34,7 @@
     "projects": "Ver mi trabajo",
     "journal": "Diario",
     "available": "Disponible para nuevos proyectos",
-    "ctaWork": "Portfolio →",
+    "ctaWork": "Portfolio",
     "ctaContact": "Reservar una llamada gratuita"
   },
   "about": {
@@ -239,7 +239,7 @@
     "label": "Cómo funciona",
     "title": "Del primer mensaje a la publicación",
     "intro": "Sin sorpresas, sin confusión. Así es como trabajamos juntos.",
-    "cta": "Contact →",
+    "cta": "Contact",
     "steps": {
       "meet": {
         "title": "Conocernos",

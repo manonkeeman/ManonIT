@@ -89,7 +89,9 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
   border-color:var(--accent);
   box-shadow:0 4px 14px rgba(255,107,26,.20);
 }
-.btn[data-arrow]::after{ content:"↗"; margin-left:8px; font-family: var(--font-ui) }
+.btn[data-arrow]::after{ content:"→"; margin-left:6px; font-family: var(--font-ui) }
+.btn[data-wide]{ padding-left:32px; padding-right:32px }
+.btn[data-narrow]{ padding-left:14px; padding-right:14px }
 
 /* ========= Cards ========= */
 .card{
