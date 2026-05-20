@@ -60,6 +60,7 @@ export default function Contact() {
                         width="800"
                         height="1067"
                         alt="Portret Manon Keeman"
+                        loading="lazy"
                         decoding="async"
                     />
                 </picture>

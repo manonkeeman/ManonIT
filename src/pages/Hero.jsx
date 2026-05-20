@@ -17,8 +17,7 @@ function Hero() {
                             sizes="(max-width: 768px) 100vw, 800px"
                         />
                         <source
-                            tyFull
-                            pe="image/webp"
+                            type="image/webp"
                             srcSet="/hero-400w.webp 400w, /hero-800w.webp 800w, /hero-1200w.webp 1200w"
                             sizes="(max-width: 768px) 100vw, 800px"
                         />
