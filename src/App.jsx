@@ -9,11 +9,13 @@ import Footer from "./assets/Components/Footer.jsx";
 import StickyWhatsApp from "./assets/Components/StickyWhatsApp.jsx";
 import Seo from "./assets/Components/Seo.jsx";
 
-// Home sections (needed immediately on first load)
+// Hero — altijd direct geladen (above the fold)
 import Hero from "./pages/Hero.jsx";
-import Services from "./pages/Services.jsx";
-import Portfolio from "./pages/Portfolio.jsx";
-import Contact from "./pages/Contact.jsx";
+
+// Home secties — lazy: eigen chunks, meteen geprefetcht na hero
+const Services  = lazy(() => import("./pages/Services.jsx"));
+const Portfolio = lazy(() => import("./pages/Portfolio.jsx"));
+const Contact   = lazy(() => import("./pages/Contact.jsx"));
 
 // Detail pages — lazy loaded (only fetched when user navigates there)
 const About        = lazy(() => import("./pages/About.jsx"));
@@ -23,15 +25,18 @@ const ArticleRoute = lazy(() => import("./pages/ArticlesJournal/ArticleRoute.jsx
 // Unlisted pricing pages — not in nav, not indexed
 const OfferteDavidBroeksma = lazy(() => import("./pages/Offerte.jsx"));
 
-// Prefetch veelgebruikte pagina's zodra browser idle is
+// Prefetch alles zodra browser idle is — zodat scrollen geen laadtijd geeft
 const prefetch = () => {
+    import("./pages/Services.jsx");
+    import("./pages/Portfolio.jsx");
+    import("./pages/Contact.jsx");
     import("./pages/About.jsx");
     import("./pages/Journal.jsx");
 };
 if (typeof requestIdleCallback !== "undefined") {
     requestIdleCallback(prefetch);
 } else {
-    setTimeout(prefetch, 2000);
+    setTimeout(prefetch, 1000);
 }
 const FrontendVredestein        = lazy(() => import("./pages/Portfolio/FrontendVredestein.jsx"));
 const WebdesignAcupuncture      = lazy(() => import("./pages/Portfolio/WebdesignAcupuncture.jsx"));
@@ -103,16 +108,18 @@ export default function App() {
         <Router>
             <ScrollToTop />
             <Routes>
-                {/* Home — all sections rendered directly */}
+                {/* Home — Hero direct, rest lazy (geprefetcht bij idle) */}
                 <Route
                     path="/"
                     element={
                         <Layout>
                             <HomeSeo />
-                            <section id="home"      className="section"><Hero /></section>
-                            <Services />
-                            <section id="portfolio" className="section"><Portfolio /></section>
-                            <section id="contact"   className="section"><Contact /></section>
+                            <section id="home" className="section"><Hero /></section>
+                            <Suspense fallback={null}>
+                                <Services />
+                                <section id="portfolio" className="section"><Portfolio /></section>
+                                <section id="contact"   className="section"><Contact /></section>
+                            </Suspense>
                         </Layout>
                     }
                 />

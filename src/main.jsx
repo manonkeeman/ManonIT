@@ -4,6 +4,9 @@ import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
 import "@fontsource/space-grotesk/latin-400.css";
 import "@fontsource/space-grotesk/latin-600.css";
+import "@fontsource/courier-prime/latin-400.css";
+import "@fontsource/courier-prime/latin-400-italic.css";
+import "@fontsource/courier-prime/latin-700.css";
 import "./Styles.css";
 import './i18n';
 

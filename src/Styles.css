@@ -13,7 +13,7 @@
   --shadow:     0 8px 24px rgba(92,26,27,.10);
 
   --font-brand: 'American Typewriter', 'Courier Prime', 'Courier New', monospace;
-  --font-ui:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-ui:    'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
 
   --mobile-panel-bg: var(--bg);
   --nav-h: 60px;
