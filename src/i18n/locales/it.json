@@ -10,7 +10,8 @@
         "backend": "Backend Dashboard Studenti",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
-        "bigthree": "Concept Web - The Big Three"
+        "bigthree": "Concept Web - The Big Three",
+        "marieboddaert": "Concept Web - Marie H. Boddaert"
       },
       "journal": {
         "scrummaster": "Full Stack Developer",
@@ -105,6 +106,9 @@
       },
       "bigthree": {
         "desc": "Concept di sito web per un'officina di auto americane. Tema scuro con carattere americano."
+      },
+      "marieboddaert": {
+        "desc": "Sito personale di scrittrice con storie, poesie e note di diario. Sobrio, letterario e completamente su misura."
       }
     }
   },
@@ -163,6 +167,10 @@
       "backend": {
         "title": "Backend Dashboard Studenti — Spring Boot | Manon Keeman",
         "description": "Backend Spring Boot con autenticazione JWT, API REST e integrazione database."
+      },
+      "marieboddaert": {
+        "title": "Concept Web Marie Boddaert — Sito di scrittrice | ManonIT",
+        "description": "Sito personale di scrittrice per Marie H. Boddaert con storie, poesie e note di diario. Design HTML/CSS con estetica letteraria."
       }
     }
   },

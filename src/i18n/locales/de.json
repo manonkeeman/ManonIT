@@ -10,7 +10,8 @@
         "backend": "Backend Studenten-Dashboard",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
-        "bigthree": "Webdesign-Konzept - The Big Three"
+        "bigthree": "Webdesign-Konzept - The Big Three",
+        "marieboddaert": "Webdesign-Konzept - Marie H. Boddaert"
       },
       "journal": {
         "scrummaster": "Full Stack Entwicklerin",
@@ -105,6 +106,9 @@
       },
       "bigthree": {
         "desc": "Website-Konzept für eine Garage für amerikanische Autos. Dunkles Thema mit amerikanischem Charakter."
+      },
+      "marieboddaert": {
+        "desc": "Persönliche Autorinnenwebsite mit Geschichten, Gedichten und Tagebuchnotizen. Ruhig, literarisch und vollständig maßgeschneidert."
       }
     }
   },
@@ -163,6 +167,10 @@
       "backend": {
         "title": "Backend Studenten-Dashboard — Spring Boot | Manon Keeman",
         "description": "Spring Boot-Backend mit JWT-Authentifizierung, REST-API und Datenbankanbindung."
+      },
+      "marieboddaert": {
+        "title": "Webdesign-Konzept Marie Boddaert — Autorinnenwebsite | ManonIT",
+        "description": "Persönliche Autorinnenwebsite für Marie H. Boddaert mit Geschichten, Gedichten und Tagebuchnotizen. Maßgeschneidertes HTML/CSS mit literarischer Ästhetik."
       }
     }
   },

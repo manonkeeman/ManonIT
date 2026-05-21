@@ -66,6 +66,14 @@ const projects = [
         imgSrc: "/Portfolio/bigthree-concept.png",
         num: "04",
     },
+    {
+        key: "marieboddaert",
+        title: "Webdesign Concept — Marie H. Boddaert",
+        tags: ["HTML/CSS", "Webdesign", "Typografie", "Netlify"],
+        route: "/marieboddaert",
+        imgSrc: "/Portfolio/marie-boddaert-mockup.png",
+        num: "05",
+    },
 ];
 
 export default function Portfolio() {

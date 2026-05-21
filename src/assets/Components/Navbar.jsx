@@ -31,6 +31,7 @@ export default function Navbar() {
                             <NavLink to="/frontendvredestein">{t('nav.links.portfolio.frontend')}</NavLink>
                             <NavLink to="/webdesignacupuncture">{t('nav.links.portfolio.acupuncture')}</NavLink>
                             <NavLink to="/thebigthree">{t('nav.links.portfolio.bigthree')}</NavLink>
+                            <NavLink to="/marieboddaert">{t('nav.links.portfolio.marieboddaert')}</NavLink>
                         </div>
                     </div>
 

@@ -10,7 +10,8 @@
         "backend": "Backend Student Dashboard",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
-          "bigthree": "Web Design Concept - The Big Three"
+        "bigthree": "Web Design Concept - The Big Three",
+        "marieboddaert": "Web Design Concept - Marie H. Boddaert"
       },
       "journal": {
         "scrummaster": "Full Stack Developer",
@@ -163,6 +164,9 @@
       },
       "backend": {
         "desc": "Dashboard for student room landlords: payments, contracts, cleaning schedule and house rules all in one place."
+      },
+      "marieboddaert": {
+        "desc": "Personal writer's website with stories, poems and diary notes. Calm, literary and fully custom."
       }
     }
   },
@@ -221,6 +225,10 @@
       "backend": {
         "title": "Backend Student Dashboard — Spring Boot | Manon Keeman",
         "description": "Spring Boot backend with JWT authentication, REST API and database integration."
+      },
+      "marieboddaert": {
+        "title": "Web Design Concept Marie Boddaert — Writer's Website | ManonIT",
+        "description": "Personal writer's website for Marie H. Boddaert with stories, poems and diary notes. Custom HTML/CSS with a literary aesthetic."
       }
     }
   },

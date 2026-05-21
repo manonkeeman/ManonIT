@@ -42,6 +42,7 @@ const FrontendVredestein        = lazy(() => import("./pages/Portfolio/FrontendV
 const WebdesignAcupuncture      = lazy(() => import("./pages/Portfolio/WebdesignAcupuncture.jsx"));
 const BackendStudentenDashboard = lazy(() => import("./pages/Portfolio/BackendStudentenDashboard.jsx"));
 const TheBigThree               = lazy(() => import("./pages/Portfolio/TheBigThree.jsx"));
+const MarieboddaertWriterSite   = lazy(() => import("./pages/Portfolio/MarieboddaertWriterSite.jsx"));
 
 import "./Styles.css";
 
@@ -198,6 +199,16 @@ export default function App() {
                         <Layout>
                             <Suspense fallback={<PageLoader />}>
                                 <TheBigThree />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+                <Route
+                    path="/marieboddaert"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <MarieboddaertWriterSite />
                             </Suspense>
                         </Layout>
                     }

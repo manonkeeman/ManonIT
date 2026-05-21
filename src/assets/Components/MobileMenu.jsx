@@ -56,6 +56,9 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/thebigthree" onClick={onClose} className="mob-link">
                         {t('nav.links.portfolio.bigthree')}
                     </NavLink>
+                    <NavLink to="/marieboddaert" onClick={onClose} className="mob-link">
+                        {t('nav.links.portfolio.marieboddaert')}
+                    </NavLink>
 
                     <div className="mob-divider" />
 
