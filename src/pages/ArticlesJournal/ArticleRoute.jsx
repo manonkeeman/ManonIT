@@ -36,43 +36,43 @@ const ARTICLE_META = {
     fullstackdeveloper: {
         date: "2025-08-10",
         title: "Van vliegtuigsleper tot Full Stack Developer",
-        image: "https://manonit.com/journal/klm-pushback-800w.webp",
+        image: "https://manonit.com/journal/klm-pushback-1200w.webp",
         words: 750,
     },
     scrummaster: {
         date: "2025-08-10",
         title: "Van vliegtuigsleper tot Full Stack Developer",
-        image: "https://manonit.com/journal/klm-pushback-800w.webp",
+        image: "https://manonit.com/journal/klm-pushback-1200w.webp",
         words: 750,
     },
     designchaos: {
         date: "2025-09-01",
         title: "Chaos ordenen met code en design",
-        image: "https://manonit.com/journal/Design-Chaos-800w.webp",
+        image: "https://manonit.com/journal/Design-Chaos-1200w.webp",
         words: 480,
     },
     storytelling: {
         date: "2025-09-05",
         title: "Storytelling in IT",
-        image: "https://manonit.com/journal/storytelling-it-800w.webp",
+        image: "https://manonit.com/journal/storytelling-it-1200w.webp",
         words: 530,
     },
     luchtvaartfamilie2018: {
         date: "2018-02-18",
         title: "Luchtvaartfamilie (Up in the Sky)",
-        image: "https://manonit.com/journal/luchtvaartfamilie2018-800w.webp",
+        image: "https://manonit.com/journal/luchtvaartfamilie2018-1200w.webp",
         words: 600,
     },
     "365korteverhalen": {
         date: "2025-09-12",
         title: "365 Korte verhalen: van idee naar boek",
-        image: "https://manonit.com/journal/cover365fragmenten-800w.webp",
+        image: "https://manonit.com/journal/cover365fragmenten-1200w.webp",
         words: 400,
     },
     toekomsttech: {
         date: "2025-09-18",
         title: "De toekomst van tech",
-        image: "https://manonit.com/journal/toekomst-it-800w.webp",
+        image: "https://manonit.com/journal/toekomst-it-1200w.webp",
         words: 700,
     },
 };
@@ -129,6 +129,7 @@ export default function ArticleRoute() {
                 description={t(`seo.journal.${key}.description`, { defaultValue: "" })}
                 path={`/journal/${slug}`}
                 type="article"
+                image={meta?.image}
             />
             {articleSchema && <JsonLd data={articleSchema} />}
             <Suspense fallback={
