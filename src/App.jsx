@@ -13,9 +13,10 @@ import Seo from "./assets/Components/Seo.jsx";
 import Hero from "./pages/Hero.jsx";
 
 // Home secties — lazy: eigen chunks, meteen geprefetcht na hero
-const Services  = lazy(() => import("./pages/Services.jsx"));
-const Portfolio = lazy(() => import("./pages/Portfolio.jsx"));
-const Contact   = lazy(() => import("./pages/Contact.jsx"));
+const Services      = lazy(() => import("./pages/Services.jsx"));
+const Portfolio     = lazy(() => import("./pages/Portfolio.jsx"));
+const Testimonials  = lazy(() => import("./pages/Testimonials.jsx"));
+const Contact       = lazy(() => import("./pages/Contact.jsx"));
 
 // Detail pages — lazy loaded (only fetched when user navigates there)
 const About        = lazy(() => import("./pages/About.jsx"));
@@ -123,6 +124,7 @@ export default function App() {
                             <Suspense fallback={null}>
                                 <Services />
                                 <section id="portfolio" className="section"><Portfolio /></section>
+                                <Testimonials />
                                 <section id="contact"   className="section"><Contact /></section>
                             </Suspense>
                         </Layout>

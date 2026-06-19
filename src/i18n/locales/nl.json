@@ -275,5 +275,11 @@
         "excerpt": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen."
       }
     }
+  },
+  "testimonials": {
+    "label": "Wat klanten zeggen",
+    "title": "Reviews",
+    "sub": "Echte ervaringen van mensen waarvoor ik heb gewerkt.",
+    "cta": "Laat een Google Review achter"
   }
 }

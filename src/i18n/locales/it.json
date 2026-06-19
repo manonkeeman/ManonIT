@@ -275,5 +275,11 @@
         "text": "Il sito va online. Ricevi una breve guida per le modifiche minori. E resto disponibile."
       }
     }
+  },
+  "testimonials": {
+    "label": "Cosa dicono i clienti",
+    "title": "Recensioni",
+    "sub": "Esperienze reali di persone con cui ho lavorato.",
+    "cta": "Lascia una recensione Google"
   }
 }

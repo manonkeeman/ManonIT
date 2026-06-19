@@ -275,5 +275,11 @@
         "text": "Le site est mis en ligne. Vous recevez un petit guide pour les modifications mineures. Et je reste joignable."
       }
     }
+  },
+  "testimonials": {
+    "label": "Ce que disent les clients",
+    "title": "Avis",
+    "sub": "Expériences réelles de personnes avec qui j'ai travaillé.",
+    "cta": "Laisser un avis Google"
   }
 }

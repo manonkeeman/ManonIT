@@ -264,5 +264,11 @@
         "excerpt": "AI, remote work and the role of creativity."
       }
     }
+  },
+  "testimonials": {
+    "label": "What clients say",
+    "title": "Reviews",
+    "sub": "Real experiences from people I have worked with.",
+    "cta": "Leave a Google Review"
   }
 }

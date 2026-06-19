@@ -275,5 +275,11 @@
         "text": "El sitio se publica. Recibes una pequeña guía para cambios menores. Y sigo disponible."
       }
     }
+  },
+  "testimonials": {
+    "label": "Lo que dicen los clientes",
+    "title": "Reseñas",
+    "sub": "Experiencias reales de personas con las que he trabajado.",
+    "cta": "Dejar una reseña en Google"
   }
 }

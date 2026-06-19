@@ -275,5 +275,11 @@
         "text": "Die Site geht live. Du bekommst eine kurze Anleitung für kleine Änderungen. Und ich bleibe erreichbar."
       }
     }
+  },
+  "testimonials": {
+    "label": "Was Kunden sagen",
+    "title": "Bewertungen",
+    "sub": "Echte Erfahrungen von Menschen, für die ich gearbeitet habe.",
+    "cta": "Google-Bewertung hinterlassen"
   }
 }
