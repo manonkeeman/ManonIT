@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { SiSubstack } from "react-icons/si";
 import data from "../content/contentJournal.json";
 import { toCard } from "../assets/Helpers/contentHelpers";
 import Seo from "../assets/Components/Seo.jsx";
@@ -18,6 +19,18 @@ export default function Journal() {
             />
             <h2 className="journal-title">Journal</h2>
             <p className="journal-subtitle small"></p>
+
+            <div className="journal-substack-cta">
+                <a
+                    href="https://manonkeeman.substack.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-substack"
+                >
+                    <SiSubstack />
+                    Volg mij op Substack
+                </a>
+            </div>
 
             <div className="journal-grid">
                 {items.map((item) => {
@@ -71,7 +84,31 @@ export default function Journal() {
 
             <style>{`
         .journal-title { text-align: center; margin-bottom: 6px; }
-        .journal-subtitle { text-align: center; margin: 0 0 24px; color: var(--muted); }
+        .journal-subtitle { text-align: center; margin: 0 0 16px; color: var(--muted); }
+
+        .journal-substack-cta {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 32px;
+        }
+        .btn-substack {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 10px 22px;
+          border-radius: 999px;
+          border: 1px solid var(--accent);
+          color: var(--accent);
+          background: transparent;
+          font-size: .92rem;
+          font-weight: 600;
+          text-decoration: none;
+          transition: background .18s ease, color .18s ease;
+        }
+        .btn-substack:hover {
+          background: var(--accent);
+          color: var(--bg);
+        }
 
         .journal-grid {
           display: grid;

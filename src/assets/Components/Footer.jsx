@@ -51,12 +51,20 @@ export default function Footer() {
                     >
                         <FaWhatsapp /> WhatsApp
                     </a>
+                    <a
+                        href="https://manonkeeman.substack.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="footer-substack"
+                    >
+                        <SiSubstack /> Volg mij op Substack
+                    </a>
+
                     <div className="footer-socials">
                         <a href="https://github.com/manonkeeman" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
                         <a href="https://www.linkedin.com/in/manonkeeman/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
                         <a href="https://www.instagram.com/manonkeeman" target="_blank" rel="noreferrer" aria-label="Instagram"><FaInstagram /></a>
                         <a href="https://www.facebook.com/editor.lifestyle/" target="_blank" rel="noreferrer" aria-label="Facebook"><FaFacebook /></a>
-                        <a href="https://substack.com/@manonkeeman" target="_blank" rel="noreferrer" aria-label="Substack"><SiSubstack /></a>
                     </div>
                 </div>
             </div>
@@ -124,6 +132,25 @@ export default function Footer() {
           width: fit-content;
         }
         .footer-wa:hover { color: #25d366; }
+
+        .footer-substack {
+          display: inline-flex;
+          align-items: center;
+          gap: 7px;
+          padding: 7px 16px;
+          border-radius: 999px;
+          border: 1px solid rgba(251,246,238,.2);
+          color: rgba(251,246,238,.65);
+          font-size: .85rem;
+          font-weight: 600;
+          text-decoration: none;
+          transition: border-color .2s ease, color .2s ease;
+          width: fit-content;
+        }
+        .footer-substack:hover {
+          border-color: var(--accent);
+          color: var(--accent);
+        }
 
         .footer-socials {
           display: flex;
