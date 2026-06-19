@@ -1,30 +1,31 @@
 import { useTranslation } from "react-i18next";
+import { SiLinkedin } from "react-icons/si";
 
-// Vervang deze placeholder quotes door echte reviews van je klanten
 const REVIEWS = [
     {
         id: 1,
-        quote: "Manon denkt echt mee. Ze snapt wat je wil zeggen en vertaalt dat naar een site die er niet alleen goed uitziet, maar ook echt werkt. Snel, duidelijk en zonder gedoe.",
-        name: "Villa Vredestein",
-        role: "Recreatie & verhuur",
+        quote: "Professioneel, doortastend en meedenkend! Een verademing. En ook leuk dat ze 'out of the box' durft te denken. Ik beveel Manon 100% aan!",
+        name: "Saskia Zwaan",
+        role: "Acupuncturist · Acupuncture by Saskia",
         rating: 5,
-        initials: "VV",
+        photo: "/reviews/saskia-zwaan.png",
+        source: "LinkedIn",
     },
     {
         id: 2,
-        quote: "Ik had een site nodig die rust uitstraalt en bezoekers direct het gevoel geeft dat ze op de goede plek zijn. Dat is precies wat Manon heeft gebouwd. Ze luistert, denkt mee en levert.",
-        name: "Saskia van Dijk",
-        role: "Acupuncture by Saskia",
-        rating: 5,
-        initials: "SD",
-    },
-    {
-        id: 3,
         quote: "Manon kent me goed, maar ze heeft die bekendheid gebruikt als kracht, niet als makkelijkheidsoplossing. Mijn site voelt als ik. Dat is precies wat ik wilde.",
         name: "Marie H. Boddaert",
         role: "Schrijfster",
         rating: 5,
         initials: "MB",
+    },
+    {
+        id: 3,
+        quote: "Manon denkt echt mee. Ze snapt wat je wil zeggen en vertaalt dat naar een site die er niet alleen goed uitziet, maar ook echt werkt. Snel, duidelijk en zonder gedoe.",
+        name: "Villa Vredestein",
+        role: "Recreatie & verhuur",
+        rating: 5,
+        initials: "VV",
     },
 ];
 
@@ -38,7 +39,21 @@ function Stars({ count }) {
     );
 }
 
-function Avatar({ initials }) {
+function Avatar({ initials, photo }) {
+    if (photo) {
+        return (
+            <img
+                src={photo}
+                alt=""
+                aria-hidden="true"
+                className="review-avatar review-avatar--photo"
+                width="40"
+                height="40"
+                loading="lazy"
+                decoding="async"
+            />
+        );
+    }
     return <div className="review-avatar" aria-hidden="true">{initials}</div>;
 }
 
@@ -55,12 +70,19 @@ export default function Testimonials() {
                 <div className="reviews-grid">
                     {REVIEWS.map((r) => (
                         <article key={r.id} className="review-card">
-                            <Stars count={r.rating} />
+                            <div className="review-card-top">
+                                <Stars count={r.rating} />
+                                {r.source === "LinkedIn" && (
+                                    <span className="review-source" title="LinkedIn aanbeveling">
+                                        <SiLinkedin />
+                                    </span>
+                                )}
+                            </div>
                             <blockquote className="review-quote">
                                 &ldquo;{r.quote}&rdquo;
                             </blockquote>
                             <footer className="review-footer">
-                                <Avatar initials={r.initials} />
+                                <Avatar initials={r.initials} photo={r.photo} />
                                 <div>
                                     <p className="review-name">{r.name}</p>
                                     <p className="review-role">{r.role}</p>
@@ -131,6 +153,17 @@ export default function Testimonials() {
           box-shadow: 0 8px 28px rgba(0,0,0,.35);
         }
 
+        .review-card-top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .review-source {
+          color: #0a66c2;
+          font-size: 1.2rem;
+          display: flex;
+          align-items: center;
+        }
         .review-stars {
           display: flex;
           gap: 3px;
@@ -170,6 +203,10 @@ export default function Testimonials() {
           justify-content: center;
           flex-shrink: 0;
           letter-spacing: .03em;
+        }
+        .review-avatar--photo {
+          object-fit: cover;
+          background: none;
         }
 
         .review-name {
