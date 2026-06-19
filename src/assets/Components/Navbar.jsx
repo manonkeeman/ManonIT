@@ -44,6 +44,7 @@ export default function Navbar() {
                             <NavLink to="/journal/fullstackdeveloper">{t('nav.links.journal.scrummaster')}</NavLink>
                             <NavLink to="/journal/storytelling">{t('nav.links.journal.storytelling')}</NavLink>
                             <NavLink to="/journal/toekomsttech">{t('nav.links.journal.toekomsttech')}</NavLink>
+                            <NavLink to="/journal/pastelvanbuiten">{t('nav.links.journal.pastelvanbuiten')}</NavLink>
                         </div>
                     </div>
 

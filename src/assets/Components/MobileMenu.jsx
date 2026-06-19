@@ -81,6 +81,9 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/journal/luchtvaartfamilie2018" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.luchtvaartfamilie2018')}
                     </NavLink>
+                    <NavLink to="/journal/pastelvanbuiten" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.pastelvanbuiten')}
+                    </NavLink>
 
                     <div className="mob-divider" />
 

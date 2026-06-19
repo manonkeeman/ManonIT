@@ -401,10 +401,10 @@ export default function PastelVanBuiten() {
 
                 <figure className="story-cover">
                     <img
-                        src="/og-marie-boddaert.jpg"
-                        alt="Website van Marie H. Boddaert — pastel design"
+                        src="/journal/marie-boddaert-screenshot.png"
+                        alt="Website van Marie H. Boddaert — pastel design, Over mij pagina"
                         width="1200"
-                        height="630"
+                        height="973"
                         loading="eager"
                         fetchPriority="high"
                         decoding="async"

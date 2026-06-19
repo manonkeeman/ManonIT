@@ -39,7 +39,7 @@ const ARTICLES = {
     pastelvanbuiten: {
         title: "Pastel van buiten, verrassend van binnen | Manon Keeman",
         description: "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen.",
-        image: `${SITE}/og-marie-boddaert.jpg`,
+        image: `${SITE}/journal/marie-boddaert-og.png`,
     },
 };
 

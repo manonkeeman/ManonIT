@@ -79,7 +79,7 @@ const ARTICLE_META = {
     pastelvanbuiten: {
         date: "2026-06-19",
         title: "Pastel van buiten, verrassend van binnen",
-        image: "https://manonit.com/og-marie-boddaert.jpg",
+        image: "https://manonit.com/journal/marie-boddaert-og.png",
         words: 400,
     },
 };
