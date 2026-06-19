@@ -113,7 +113,7 @@
         "desc": "Website-Konzept für eine Garage für amerikanische Autos. Dunkles Thema mit amerikanischem Charakter."
       },
       "marieboddaert": {
-        "desc": "Persönliche Autorinnenwebsite mit Geschichten, Gedichten und Tagebuchnotizen. Ruhig, literarisch und vollständig maßgeschneidert."
+        "desc": "Autorinnenwebsite in HTML/CSS mit literarischer Typografie und individuellem Webdesign. Live auf Netlify, SEO-optimiert und mit CMS damit Marie eigene Inhalte verwaltet."
       }
     }
   },

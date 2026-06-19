@@ -113,7 +113,7 @@
         "desc": "Concept de site web pour un garage spécialisé dans les voitures américaines. Thème sombre avec caractère américain."
       },
       "marieboddaert": {
-        "desc": "Site personnel d'écrivaine avec histoires, poèmes et notes de journal. Calme, littéraire et entièrement sur-mesure."
+        "desc": "Site d'écrivaine en HTML/CSS avec typographie littéraire et webdesign sur-mesure. En ligne sur Netlify, optimisé SEO et doté d'un CMS pour que Marie gère son propre contenu."
       }
     }
   },
