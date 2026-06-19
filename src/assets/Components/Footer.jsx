@@ -36,6 +36,7 @@ export default function Footer() {
                     <p className="footer-heading">Juridisch</p>
                     <Link to="/privacy">Privacybeleid</Link>
                     <Link to="/colofon">Colofon</Link>
+                    <a href="/sitemap.xml" target="_blank" rel="noreferrer">Sitemap</a>
                     <p className="footer-copy" style={{ marginTop: 8 }}>KVK: 42053266</p>
                     <p className="footer-copy">BTW: NL005459093B94</p>
                 </div>
