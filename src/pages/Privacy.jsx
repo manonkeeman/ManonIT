@@ -60,12 +60,11 @@ export default function Privacy() {
                         </a>.
                     </p>
 
-                    <h3>Google Analytics</h3>
+                    <h3>Google Analytics (GA4)</h3>
                     <p>
-                        Deze website maakt gebruik van <strong>Google Analytics 4</strong> om
-                        geanonimiseerde bezoekersstatistieken bij te houden, zoals paginabezoeken,
-                        sessieduur en verwijzingsbron. Hierbij worden <strong>geen persoonsgegevens
-                        opgeslagen</strong> die direct naar een individu te herleiden zijn.
+                        Deze website maakt gebruik van <strong>Google Analytics 4</strong>
+                        (Measurement ID: G-C2623Y1T63) om geanonimiseerde bezoekersstatistieken
+                        bij te houden, zoals paginabezoeken, sessieduur en verwijzingsbron.
                         IP-adressen worden geanonimiseerd voordat ze worden verwerkt.
                     </p>
                     <p>

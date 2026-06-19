@@ -1,24 +1,19 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { SiSubstack } from "react-icons/si";
+
+const SUBSTACK_URL = "https://manonkeeman.substack.com";
 
 export default function NewsletterSignup() {
     const { t } = useTranslation();
     const [email, setEmail] = useState("");
-    const [status, setStatus] = useState("idle"); // idle | sending | success | error
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        setStatus("sending");
-        try {
-            const res = await fetch("/", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams({ "form-name": "newsletter", email }).toString(),
-            });
-            setStatus(res.ok ? "success" : "error");
-        } catch {
-            setStatus("error");
-        }
+        const dest = email.trim()
+            ? `${SUBSTACK_URL}/subscribe?email=${encodeURIComponent(email.trim())}`
+            : `${SUBSTACK_URL}/subscribe`;
+        window.open(dest, "_blank", "noopener,noreferrer");
     };
 
     return (
@@ -26,38 +21,20 @@ export default function NewsletterSignup() {
             <p className="newsletter-label">{t("newsletter.label")}</p>
             <p className="newsletter-sub">{t("newsletter.sub")}</p>
 
-            {status === "success" ? (
-                <p className="newsletter-success">{t("newsletter.success")}</p>
-            ) : (
-                <form
-                    onSubmit={handleSubmit}
-                    name="newsletter"
-                    data-netlify="true"
-                    className="newsletter-form"
-                >
-                    <input type="hidden" name="form-name" value="newsletter" />
-                    <input
-                        type="email"
-                        name="email"
-                        required
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder={t("newsletter.placeholder")}
-                        className="newsletter-input"
-                        disabled={status === "sending"}
-                    />
-                    <button
-                        type="submit"
-                        className="btn btn-primary newsletter-btn"
-                        disabled={status === "sending"}
-                    >
-                        {status === "sending" ? t("newsletter.sending") : t("newsletter.btn")}
-                    </button>
-                    {status === "error" && (
-                        <p className="newsletter-error">{t("newsletter.error")}</p>
-                    )}
-                </form>
-            )}
+            <form onSubmit={handleSubmit} className="newsletter-form">
+                <input
+                    type="email"
+                    name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder={t("newsletter.placeholder")}
+                    className="newsletter-input"
+                />
+                <button type="submit" className="btn btn-primary newsletter-btn">
+                    <SiSubstack style={{ fontSize: "1em" }} />
+                    {t("newsletter.btn")}
+                </button>
+            </form>
 
             <style>{`
                 .newsletter-wrap {
@@ -97,17 +74,11 @@ export default function NewsletterSignup() {
                 }
                 .newsletter-input:focus { border-color: var(--accent); }
                 .newsletter-input::placeholder { color: var(--muted); }
-                .newsletter-btn { white-space: nowrap; }
-                .newsletter-success {
-                    margin: 0;
-                    color: var(--accent);
-                    font-weight: 600;
-                }
-                .newsletter-error {
-                    width: 100%;
-                    margin: 8px 0 0;
-                    font-size: .85rem;
-                    color: #e07070;
+                .newsletter-btn {
+                    white-space: nowrap;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 7px;
                 }
             `}</style>
         </div>
