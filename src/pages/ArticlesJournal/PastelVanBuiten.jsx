@@ -399,7 +399,7 @@ export default function PastelVanBuiten() {
                     <span aria-current="page">{t.shareTitle}</span>
                 </nav>
 
-                <figure className="story-cover">
+                <figure className="story-cover story-cover--screenshot">
                     <img
                         src="/journal/marie-boddaert-screenshot.png"
                         alt="Website van Marie H. Boddaert — pastel design, Over mij pagina"
@@ -436,6 +436,8 @@ export default function PastelVanBuiten() {
         .article-container { max-width: 72rem; margin: 0 auto; padding: 0 clamp(16px,3vw,48px); }
         .story-cover { margin: 8px auto 16px; max-width: 68ch; }
         .story-cover img { display: block; width: 100%; border-radius: 14px; object-fit: cover; }
+        .story-cover--screenshot { overflow: hidden; border-radius: 14px; max-height: 420px; }
+        .story-cover--screenshot img { object-position: top center; height: 420px; border-radius: 0; }
         .story-header { text-align: center; margin-bottom: 12px; }
         .story-header h1 { margin: 8px 0 6px; line-height: 1.15; }
         .meta { margin: 0; color: var(--muted); }
