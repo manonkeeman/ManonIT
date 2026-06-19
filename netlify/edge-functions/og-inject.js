@@ -38,7 +38,7 @@ const ARTICLES = {
     },
 };
 
-const BOT_RE = /facebookexternalhit|linkedinbot|twitterbot|whatsapp|telegrambot|slackbot|discordbot|applebot|pinterest|bingbot|googlebot/i;
+const BOT_RE = /facebookexternalhit|linkedin|twitterbot|whatsapp|telegrambot|slackbot|discordbot|applebot|pinterest|bingbot|googlebot|iframely|prerender|screaming.frog/i;
 
 export default async (request, context) => {
     const ua = request.headers.get("user-agent") || "";
@@ -81,4 +81,3 @@ export default async (request, context) => {
     });
 };
 
-export const config = { path: "/journal/:slug" };
