@@ -18,13 +18,9 @@
         "designchaos": "Design Chaos",
         "luchtvaartfamilie2018": "Famiglia Aviazione 2018",
         "storytelling": "Storytelling",
-        "pastelvanbuiten": {
-        "title": "Pastello fuori, sorprendente dentro | Manon Keeman",
-        "description": "Come ho costruito il sito di mia nipote Marie: dolce fuori, ragionato dentro."
-      },
-      "toekomsttech": "Futuro & Tech",
-        "365korteverhalen": "365 Racconti brevi",
-        "pastelvanbuiten": "Pastello fuori, sorprendente dentro"
+        "pastelvanbuiten": "Pastello fuori, sorprendente dentro",
+        "toekomsttech": "Futuro & Tech",
+        "365korteverhalen": "365 Racconti brevi"
       }
     }
   },
@@ -280,6 +276,20 @@
     "label": "Cosa dicono i clienti",
     "title": "Recensioni",
     "sub": "Esperienze reali di persone con cui ho lavorato.",
-    "cta": "Lascia una recensione Google"
+    "cta": "Lascia una recensione Google",
+    "reviews": {
+      "saskia": {
+        "quote": "Professionale, decisa e collaborativa! Una ventata d'aria fresca. Ed è bello che osi pensare in modo diverso. Raccomando Manon al 100%!",
+        "role": "Agopunturista · Acupuncture by Saskia"
+      },
+      "marie": {
+        "quote": "Manon mi conosce bene, ma ha usato questa familiarità come un punto di forza, non come una scorciatoia. Il mio sito mi somiglia. È esattamente quello che volevo.",
+        "role": "Scrittrice"
+      },
+      "villa": {
+        "quote": "Manon pensa davvero insieme a te. Capisce cosa vuoi dire e lo traduce in un sito che non solo ha un bell'aspetto ma funziona davvero. Veloce, chiaro e senza complicazioni.",
+        "role": "Svago & affitto"
+      }
+    }
   }
 }

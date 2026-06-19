@@ -1,29 +1,23 @@
 import { useTranslation } from "react-i18next";
 import { SiLinkedin } from "react-icons/si";
 
-const REVIEWS = [
+const REVIEW_META = [
     {
-        id: 1,
-        quote: "Professioneel, doortastend en meedenkend! Een verademing. En ook leuk dat ze 'out of the box' durft te denken. Ik beveel Manon 100% aan!",
+        id: "saskia",
         name: "Saskia Zwaan",
-        role: "Acupuncturist · Acupuncture by Saskia",
         rating: 5,
         photo: "/reviews/saskia-zwaan.png",
         source: "LinkedIn",
     },
     {
-        id: 2,
-        quote: "Manon kent me goed, maar ze heeft die bekendheid gebruikt als kracht, niet als makkelijkheidsoplossing. Mijn site voelt als ik. Dat is precies wat ik wilde.",
+        id: "marie",
         name: "Marie H. Boddaert",
-        role: "Schrijfster",
         rating: 5,
         initials: "MB",
     },
     {
-        id: 3,
-        quote: "Manon denkt echt mee. Ze snapt wat je wil zeggen en vertaalt dat naar een site die er niet alleen goed uitziet, maar ook echt werkt. Snel, duidelijk en zonder gedoe.",
+        id: "villa",
         name: "Villa Vredestein",
-        role: "Recreatie & verhuur",
         rating: 5,
         initials: "VV",
     },
@@ -68,7 +62,7 @@ export default function Testimonials() {
                 <p className="testimonials-sub">{t("testimonials.sub")}</p>
 
                 <div className="reviews-grid">
-                    {REVIEWS.map((r) => (
+                    {REVIEW_META.map((r) => (
                         <article key={r.id} className="review-card">
                             <div className="review-card-top">
                                 <Stars count={r.rating} />
@@ -79,13 +73,13 @@ export default function Testimonials() {
                                 )}
                             </div>
                             <blockquote className="review-quote">
-                                &ldquo;{r.quote}&rdquo;
+                                &ldquo;{t(`testimonials.reviews.${r.id}.quote`)}&rdquo;
                             </blockquote>
                             <footer className="review-footer">
                                 <Avatar initials={r.initials} photo={r.photo} />
                                 <div>
                                     <p className="review-name">{r.name}</p>
-                                    <p className="review-role">{r.role}</p>
+                                    <p className="review-role">{t(`testimonials.reviews.${r.id}.role`)}</p>
                                 </div>
                             </footer>
                         </article>

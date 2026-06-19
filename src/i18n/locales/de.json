@@ -18,13 +18,9 @@
         "designchaos": "Design Chaos",
         "luchtvaartfamilie2018": "Luftfahrtfamilie 2018",
         "storytelling": "Storytelling",
-        "pastelvanbuiten": {
-        "title": "Pastellfarben au\u00dfen, \u00fcberraschend innen | Manon Keeman",
-        "description": "Wie ich die Website meiner Nichte Marie gebaut habe: au\u00dfen s\u00fc\u00df, innen durchdacht."
-      },
-      "toekomsttech": "Zukunft & Tech",
-        "365korteverhalen": "365 Kurzgeschichten",
-        "pastelvanbuiten": "Pastellfarben außen, überraschend innen"
+        "pastelvanbuiten": "Pastellfarben außen, überraschend innen",
+        "toekomsttech": "Zukunft & Tech",
+        "365korteverhalen": "365 Kurzgeschichten"
       }
     }
   },
@@ -280,6 +276,20 @@
     "label": "Was Kunden sagen",
     "title": "Bewertungen",
     "sub": "Echte Erfahrungen von Menschen, für die ich gearbeitet habe.",
-    "cta": "Google-Bewertung hinterlassen"
+    "cta": "Google-Bewertung hinterlassen",
+    "reviews": {
+      "saskia": {
+        "quote": "Professionell, entschlossen und mitdenkend! Eine echte Erfrischung. Und toll, dass sie 'out of the box' zu denken wagt. Ich empfehle Manon 100%!",
+        "role": "Akupunkteurin · Acupuncture by Saskia"
+      },
+      "marie": {
+        "quote": "Manon kennt mich gut, aber sie hat diese Vertrautheit als Stärke genutzt, nicht als einfachen Ausweg. Meine Website fühlt sich an wie ich. Genau das wollte ich.",
+        "role": "Schriftstellerin"
+      },
+      "villa": {
+        "quote": "Manon denkt wirklich mit. Sie versteht, was man sagen will, und übersetzt das in eine Website, die nicht nur gut aussieht, sondern auch wirklich funktioniert. Schnell, klar und unkompliziert.",
+        "role": "Freizeit & Vermietung"
+      }
+    }
   }
 }

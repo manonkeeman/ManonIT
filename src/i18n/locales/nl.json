@@ -280,6 +280,20 @@
     "label": "Wat klanten zeggen",
     "title": "Reviews",
     "sub": "Echte ervaringen van mensen waarvoor ik heb gewerkt.",
-    "cta": "Laat een Google Review achter"
+    "cta": "Laat een Google Review achter",
+    "reviews": {
+      "saskia": {
+        "quote": "Professioneel, doortastend en meedenkend! Een verademing. En ook leuk dat ze 'out of the box' durft te denken. Ik beveel Manon 100% aan!",
+        "role": "Acupuncturist · Acupuncture by Saskia"
+      },
+      "marie": {
+        "quote": "Manon kent me goed, maar ze heeft die bekendheid gebruikt als kracht, niet als makkelijkheidsoplossing. Mijn site voelt als ik. Dat is precies wat ik wilde.",
+        "role": "Schrijfster"
+      },
+      "villa": {
+        "quote": "Manon denkt echt mee. Ze snapt wat je wil zeggen en vertaalt dat naar een site die er niet alleen goed uitziet, maar ook echt werkt. Snel, duidelijk en zonder gedoe.",
+        "role": "Recreatie & verhuur"
+      }
+    }
   }
 }

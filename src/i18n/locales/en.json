@@ -269,6 +269,20 @@
     "label": "What clients say",
     "title": "Reviews",
     "sub": "Real experiences from people I have worked with.",
-    "cta": "Leave a Google Review"
+    "cta": "Leave a Google Review",
+    "reviews": {
+      "saskia": {
+        "quote": "Professional, decisive and collaborative! A breath of fresh air. And great that she dares to think 'out of the box'. I recommend Manon 100%!",
+        "role": "Acupuncturist · Acupuncture by Saskia"
+      },
+      "marie": {
+        "quote": "Manon knows me well, but she used that familiarity as a strength, not an easy shortcut. My site feels like me. That is exactly what I wanted.",
+        "role": "Writer"
+      },
+      "villa": {
+        "quote": "Manon really thinks along with you. She understands what you want to say and translates it into a site that not only looks great but actually works. Fast, clear and no fuss.",
+        "role": "Recreation & rental"
+      }
+    }
   }
 }

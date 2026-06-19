@@ -18,13 +18,9 @@
         "designchaos": "Design Chaos",
         "luchtvaartfamilie2018": "Familia Aviacion 2018",
         "storytelling": "Storytelling",
-        "pastelvanbuiten": {
-        "title": "Pastel por fuera, sorprendente por dentro | Manon Keeman",
-        "description": "C\u00f3mo constru\u00ed el sitio web de mi sobrina Marie: dulce por fuera, reflexivo por dentro."
-      },
-      "toekomsttech": "Futuro & Tech",
-        "365korteverhalen": "365 Historias cortas",
-        "pastelvanbuiten": "Pastel por fuera, sorprendente por dentro"
+        "pastelvanbuiten": "Pastel por fuera, sorprendente por dentro",
+        "toekomsttech": "Futuro & Tech",
+        "365korteverhalen": "365 Historias cortas"
       }
     }
   },
@@ -280,6 +276,20 @@
     "label": "Lo que dicen los clientes",
     "title": "Reseñas",
     "sub": "Experiencias reales de personas con las que he trabajado.",
-    "cta": "Dejar una reseña en Google"
+    "cta": "Dejar una reseña en Google",
+    "reviews": {
+      "saskia": {
+        "quote": "¡Profesional, decidida y colaboradora! Un soplo de aire fresco. Y muy agradable que se atreva a pensar de forma diferente. ¡Recomiendo a Manon al 100%!",
+        "role": "Acupunturista · Acupuncture by Saskia"
+      },
+      "marie": {
+        "quote": "Manon me conoce bien, pero usó esa familiaridad como una fortaleza, no como un atajo fácil. Mi sitio me representa. Eso es exactamente lo que quería.",
+        "role": "Escritora"
+      },
+      "villa": {
+        "quote": "Manon realmente piensa contigo. Entiende lo que quieres decir y lo traduce en un sitio que no solo tiene buen aspecto sino que realmente funciona. Rápido, claro y sin complicaciones.",
+        "role": "Ocio & alquiler"
+      }
+    }
   }
 }
