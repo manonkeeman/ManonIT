@@ -41,53 +41,90 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://manonit.com/#manon",
     "name": "Manon Keeman",
+    "givenName": "Manon",
+    "familyName": "Keeman",
     "url": "https://manonit.com",
+    "image": "https://manonit.com/og-image.jpg",
     "jobTitle": "Full Stack Developer & Webdesigner",
-    "description": "Manon Keeman is een full stack developer en webdesigner gevestigd in Nederland. Ze bouwt websites die snel zijn, gevonden worden in Google en bezoekers omzetten in klanten.",
-    "knowsAbout": ["React", "Spring Boot", "PostgreSQL", "Figma", "Git", "UX Design", "SEO", "Copywriting", "WordPress"],
+    "description": "Manon Keeman is een freelance full stack developer en webdesigner gevestigd in Nederland. Ze ontwerpt, schrijft en bouwt websites die snel zijn, gevonden worden in Google en bezoekers omzetten in klanten.",
+    "email": "mailto:info@manonit.com",
+    "address": [
+      { "@type": "PostalAddress", "addressLocality": "Bakkum", "addressCountry": "NL" },
+      { "@type": "PostalAddress", "addressLocality": "Driebergen", "addressCountry": "NL" }
+    ],
+    "knowsAbout": ["React", "Spring Boot", "PostgreSQL", "Figma", "Git", "UX/UI Design", "SEO", "Copywriting", "WordPress"],
+    "knowsLanguage": ["Nederlands", "Engels", "Frans", "Duits", "Spaans", "Italiaans"],
+    "alumniOf": [
+      { "@type": "EducationalOrganization", "name": "NOVI College", "description": "Full Stack Development" },
+      { "@type": "EducationalOrganization", "name": "Gerrit Rietveld Academie" },
+      { "@type": "EducationalOrganization", "name": "SAE Institute" },
+      { "@type": "EducationalOrganization", "name": "Schrijversacademie" }
+    ],
     "sameAs": [
-      "https://github.com/manonkeeman",
       "https://www.linkedin.com/in/manonkeeman/",
+      "https://github.com/manonkeeman",
+      "https://substack.com/@manonkeeman",
       "https://www.instagram.com/manonkeeman"
     ],
-    "image": "https://manonit.com/og-image.jpg",
     "worksFor": {
       "@type": "Organization",
+      "@id": "https://manonit.com/#service",
       "name": "ManonIT",
       "url": "https://manonit.com"
     }
   }
   </script>
 
-  <!-- Structured data: LocalBusiness -->
+  <!-- Structured data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://manonit.com/#website",
+    "url": "https://manonit.com",
+    "name": "ManonIT",
+    "description": "Freelance webdevelopment, webdesign en SEO door Manon Keeman",
+    "inLanguage": ["nl", "en", "fr", "de", "es", "it"],
+    "author": { "@id": "https://manonit.com/#manon" }
+  }
+  </script>
+
+  <!-- Structured data: ProfessionalService -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "ManonIT",
+    "@id": "https://manonit.com/#service",
+    "name": "ManonIT — Webdevelopment & Design",
     "url": "https://manonit.com",
-    "logo": "https://manonit.com/og-image.jpg",
+    "logo": "https://manonit.com/MKlogo.png",
     "image": "https://manonit.com/og-image.jpg",
     "description": "ManonIT bouwt professionele websites die snel zijn, goed scoren in Google en bezoekers omzetten in klanten. Webdevelopment, webdesign, copywriting en SEO onder één dak.",
-    "founder": {
-      "@type": "Person",
-      "name": "Manon Keeman"
+    "founder": { "@id": "https://manonit.com/#manon" },
+    "areaServed": { "@type": "Country", "name": "Nederland" },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Diensten",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Webdevelopment (React, WordPress, Spring Boot)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Webdesign (UX/UI, Figma, huisstijl)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO (technisch, inhoudelijk, structured data)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Copywriting (webteksten, contentstrategie)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foto & video (portret, product, bedrijfsvideo)" } }
+      ]
     },
-    "areaServed": {
-      "@type": "Country",
-      "name": "Nederland"
-    },
-    "serviceType": ["Webdevelopment", "Webdesign", "SEO", "Copywriting", "WordPress"],
     "priceRange": "$$",
     "contactPoint": {
       "@type": "ContactPoint",
+      "email": "info@manonit.com",
       "contactType": "customer service",
       "availableLanguage": ["Dutch", "English"]
     },
     "sameAs": [
-      "https://github.com/manonkeeman",
-      "https://www.linkedin.com/in/manonkeeman/"
+      "https://www.linkedin.com/in/manonkeeman/",
+      "https://github.com/manonkeeman"
     ]
   }
   </script>
@@ -128,6 +165,14 @@
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Ja. Elke website die ik bouw is standaard technisch SEO-geoptimaliseerd: snelle laadtijden, correcte meta-tags, gestructureerde data en mobielvriendelijk. Op aanvraag verzorg ik ook zoekwoordenonderzoek en content."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik ook alleen copywriting of webdesign bestellen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, dat kan. Ik bied webdesign, copywriting, SEO en foto & video ook los aan. Je hoeft niet per se een complete website te laten bouwen. Neem contact op voor de mogelijkheden."
         }
       }
     ]
