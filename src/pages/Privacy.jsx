@@ -29,7 +29,7 @@ export default function Privacy() {
                         <li><strong>Naam:</strong> Manon Keeman, handelend onder de naam ManonIT</li>
                         <li><strong>KvK-nummer:</strong> 42053266</li>
                         <li><strong>BTW-nummer:</strong> NL005459093B94</li>
-                        <li><strong>E-mail:</strong> <a href="mailto:info@manonit.com">info@manonit.com</a></li>
+                        <li><strong>E-mail:</strong> <a href="mailto:lets@manonit.com">lets@manonit.com</a></li>
                         <li><strong>Locaties:</strong> Bakkum &amp; Driebergen, Nederland</li>
                     </ul>
 
@@ -123,7 +123,7 @@ export default function Privacy() {
                     </ul>
                     <p>
                         Stuur een e-mail naar{" "}
-                        <a href="mailto:info@manonit.com">info@manonit.com</a> om een verzoek in te
+                        <a href="mailto:lets@manonit.com">lets@manonit.com</a> om een verzoek in te
                         dienen. Ik reageer binnen 30 dagen.
                     </p>
                     <p>
@@ -166,7 +166,7 @@ export default function Privacy() {
                     <h2>9. Contact</h2>
                     <p>
                         Vragen over dit privacybeleid? Neem contact op via{" "}
-                        <a href="mailto:info@manonit.com">info@manonit.com</a>.
+                        <a href="mailto:lets@manonit.com">lets@manonit.com</a>.
                     </p>
 
                 </div>

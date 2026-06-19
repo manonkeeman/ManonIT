@@ -18,7 +18,7 @@ const ABOUT_SCHEMA = {
         "image": "https://manonit.com/about-portrait-800w.webp",
         "jobTitle": "Full Stack Developer & Webdesigner",
         "description": "Manon Keeman is een freelance full stack developer en webdesigner met een achtergrond in grafisch ontwerp, interne communicatie en luchtvaart. Ze studeerde aan de Gerrit Rietveld Academie, het SAE Institute en de Schrijversacademie, en rondde haar opleiding Full Stack Development af aan het NOVI College.",
-        "email": "mailto:info@manonit.com",
+        "email": "mailto:lets@manonit.com",
         "address": [
             { "@type": "PostalAddress", "addressLocality": "Bakkum", "addressCountry": "NL" },
             { "@type": "PostalAddress", "addressLocality": "Driebergen", "addressCountry": "NL" },

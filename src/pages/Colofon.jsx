@@ -24,7 +24,7 @@ export default function Colofon() {
                     <ul>
                         <li><strong>Naam:</strong> Manon Keeman</li>
                         <li><strong>Handelsnaam:</strong> ManonIT</li>
-                        <li><strong>E-mail:</strong> <a href="mailto:info@manonit.com">info@manonit.com</a></li>
+                        <li><strong>E-mail:</strong> <a href="mailto:lets@manonit.com">lets@manonit.com</a></li>
                         <li><strong>Website:</strong> <a href="https://manonit.com">manonit.com</a></li>
                     </ul>
 
@@ -81,7 +81,7 @@ export default function Colofon() {
                     </p>
                     <p>
                         Voor vragen of opmerkingen over de inhoud van deze website kun je contact
-                        opnemen via <a href="mailto:info@manonit.com">info@manonit.com</a>.
+                        opnemen via <a href="mailto:lets@manonit.com">lets@manonit.com</a>.
                     </p>
 
                     <hr className="rule" />
