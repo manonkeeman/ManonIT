@@ -4,7 +4,6 @@ import { SiSubstack } from "react-icons/si";
 import data from "../content/contentJournal.json";
 import { toCard } from "../assets/Helpers/contentHelpers";
 import Seo from "../assets/Components/Seo.jsx";
-import NewsletterSignup from "../assets/Components/NewsletterSignup.jsx";
 
 export default function Journal() {
     const { t } = useTranslation();
@@ -163,9 +162,6 @@ export default function Journal() {
           .card-img { height: 200px; }
         }
       `}</style>
-            <div style={{ maxWidth: 680, margin: "0 auto", padding: "0 16px" }}>
-                <NewsletterSignup />
-            </div>
         </section>
     );
 }
