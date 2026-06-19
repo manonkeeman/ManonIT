@@ -11,7 +11,7 @@
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign Concept - The Big Three",
-        "marieboddaert": "Webdesign Concept - Marie H. Boddaert"
+        "marieboddaert": "Webdesign - Marie H. Boddaert"
       },
       "journal": {
         "scrummaster": "Full Stack Developer",
@@ -170,7 +170,7 @@
         "desc": "Website concept voor een garage in Amerikaanse auto's. Dark theme met stoere typografie, rood-wit-blauw kleurpalet en filmische uitstraling."
       },
       "marieboddaert": {
-        "desc": "Persoonlijke schrijverswebsite met verhalen, gedichten en dagboeknotities. Rustig, literair en volledig op maat."
+        "desc": "Live schrijverswebsite met verhalen, gedichten en dagboeknotities. Rustig, literair en volledig op maat gebouwd in HTML/CSS."
       }
     }
   },
@@ -235,8 +235,8 @@
         "description": "Spring Boot backend met JWT-authenticatie, REST API en database-koppeling."
       },
       "marieboddaert": {
-        "title": "Webdesign Concept Marie Boddaert — Schrijverswebsite | ManonIT",
-        "description": "Persoonlijke schrijverswebsite voor Marie H. Boddaert met verhalen, gedichten en dagboeknotities. Custom HTML/CSS met literaire uitstraling."
+        "title": "Webdesign Marie Boddaert — Schrijverswebsite | ManonIT",
+        "description": "Persoonlijke schrijverswebsite voor Marie H. Boddaert: verhalen, gedichten en dagboeknotities. Live gebouwd in HTML/CSS met Substack-integratie."
       }
     }
   },

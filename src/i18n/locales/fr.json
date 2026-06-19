@@ -11,7 +11,7 @@
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Concept Web - The Big Three",
-        "marieboddaert": "Concept Web - Marie H. Boddaert"
+        "marieboddaert": "Webdesign - Marie H. Boddaert"
       },
       "journal": {
         "scrummaster": "Full Stack Developer",
@@ -174,7 +174,7 @@
         "description": "Backend Spring Boot avec authentification JWT, API REST et intégration base de données."
       },
       "marieboddaert": {
-        "title": "Concept Web Marie Boddaert — Site d'écrivaine | ManonIT",
+        "title": "Webdesign Marie Boddaert — Site d'écrivaine | ManonIT",
         "description": "Site personnel d'écrivaine pour Marie H. Boddaert avec histoires, poèmes et notes de journal. Design HTML/CSS à l'esthétique littéraire."
       }
     }

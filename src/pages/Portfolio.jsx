@@ -68,8 +68,8 @@ const projects = [
     },
     {
         key: "marieboddaert",
-        title: "Webdesign Concept — Marie H. Boddaert",
-        tags: ["HTML/CSS", "Webdesign", "Typografie", "Netlify"],
+        title: "Webdesign — Marie H. Boddaert",
+        tags: ["HTML/CSS", "Webdesign", "Typografie", "Netlify", "Live"],
         route: "/marieboddaert",
         imgSrc: "/Portfolio/marie-boddaert-mockup.png",
         num: "05",
