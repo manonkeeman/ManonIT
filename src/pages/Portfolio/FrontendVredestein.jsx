@@ -1,9 +1,24 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
+import JsonLd from "../../assets/Components/JsonLd.jsx";
 
 const MOCKUP = "/Portfolio/villa-vredestein-mockup.png";
 const LIVE_URL = "https://villavredestein.com";
+
+const SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Villa Vredestein",
+    "url": LIVE_URL,
+    "description": "Publieke website voor Villa Vredestein, gebouwd met React en Vite.",
+    "creator": {
+        "@type": "Person",
+        "@id": "https://manonit.com/#manon",
+        "name": "Manon Keeman",
+    },
+    "isPartOf": { "@id": "https://manonit.com/#website" },
+};
 
 const content = {
     nl: {
@@ -116,6 +131,7 @@ export default function FrontendVredestein() {
                 description={tr("seo.portfolio.frontend.description")}
                 path="/frontendvredestein"
             />
+            <JsonLd data={SCHEMA} />
 
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">{tr('nav.home')}</Link>

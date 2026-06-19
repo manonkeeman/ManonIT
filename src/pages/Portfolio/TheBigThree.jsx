@@ -1,9 +1,23 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
+import JsonLd from "../../assets/Components/JsonLd.jsx";
 
 const MOCKUP  = "/Portfolio/bigthree-concept.png";
 const LOGO    = "/Portfolio/bigthree-logo.png";
+
+const SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "The Big Three",
+    "description": "Webdesign concept voor The Big Three, een garage gespecialiseerd in Amerikaanse auto's in Nunspeet.",
+    "creator": {
+        "@type": "Person",
+        "@id": "https://manonit.com/#manon",
+        "name": "Manon Keeman",
+    },
+    "isPartOf": { "@id": "https://manonit.com/#website" },
+};
 
 const content = {
     nl: {
@@ -110,6 +124,7 @@ export default function TheBigThree() {
                 description="Website concept voor The Big Three, een garage in Amerikaanse auto's in Nunspeet. Dark theme met Amerikaans karakter."
                 path="/thebigthree"
             />
+            <JsonLd data={SCHEMA} />
 
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">Home</Link>

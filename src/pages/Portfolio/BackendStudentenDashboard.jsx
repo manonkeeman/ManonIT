@@ -2,6 +2,21 @@ import { Link } from "react-router-dom";
 import { useEffect, useState, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
+import JsonLd from "../../assets/Components/JsonLd.jsx";
+
+const SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Studentendashboard — Backend",
+    "applicationCategory": "WebApplication",
+    "description": "Full stack backend applicatie voor een studentendashboard, gebouwd met Spring Boot en PostgreSQL.",
+    "creator": {
+        "@type": "Person",
+        "@id": "https://manonit.com/#manon",
+        "name": "Manon Keeman",
+    },
+    "isPartOf": { "@id": "https://manonit.com/#website" },
+};
 
 const COVER_BASE = "/portfolio/studenten-dashboard-backend";
 const FallbackBack = `${COVER_BASE}-800w.webp`;
@@ -206,6 +221,7 @@ export default function BackendStudentenDashboard() {
                 description={tr("seo.portfolio.backend.description")}
                 path="/backendstudentendashboard"
             />
+            <JsonLd data={SCHEMA} />
 
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">{tr('nav.home')}</Link>

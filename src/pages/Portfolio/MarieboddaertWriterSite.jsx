@@ -1,10 +1,30 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
+import JsonLd from "../../assets/Components/JsonLd.jsx";
 
 const MOCKUP   = "/Portfolio/marie-boddaert-mockup.png";
 const LIVE_URL = "https://marie-boddaert.netlify.app/";
 const OG_IMAGE = "https://manonit.com/og-marie-boddaert.jpg";
+
+const SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Marie H. Boddaert — Schrijverswebsite",
+    "url": LIVE_URL,
+    "description": "Persoonlijke schrijverswebsite voor Marie H. Boddaert: verhalen, gedichten en korte notities. Ontworpen en gebouwd door Manon Keeman.",
+    "creator": {
+        "@type": "Person",
+        "@id": "https://manonit.com/#manon",
+        "name": "Manon Keeman",
+    },
+    "about": {
+        "@type": "Person",
+        "name": "Marie H. Boddaert",
+        "jobTitle": "Schrijfster",
+    },
+    "isPartOf": { "@id": "https://manonit.com/#website" },
+};
 
 const content = {
     nl: {
@@ -118,6 +138,7 @@ export default function MarieboddaertWriterSite() {
                 path="/marieboddaert"
                 image={OG_IMAGE}
             />
+            <JsonLd data={SCHEMA} />
 
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">{tr('nav.home')}</Link>

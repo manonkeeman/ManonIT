@@ -8,6 +8,7 @@ import Navbar from "./assets/Components/Navbar.jsx";
 import Footer from "./assets/Components/Footer.jsx";
 import StickyWhatsApp from "./assets/Components/StickyWhatsApp.jsx";
 import Seo from "./assets/Components/Seo.jsx";
+import JsonLd from "./assets/Components/JsonLd.jsx";
 
 // Hero — altijd direct geladen (above the fold)
 import Hero from "./pages/Hero.jsx";
@@ -73,17 +74,135 @@ function PageLoader() {
     );
 }
 
+const PERSON_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://manonit.com/#manon",
+    "name": "Manon Keeman",
+    "givenName": "Manon",
+    "familyName": "Keeman",
+    "url": "https://manonit.com",
+    "image": "https://manonit.com/og-image.jpg",
+    "jobTitle": "Full Stack Developer & Webdesigner",
+    "description": "Freelance full stack developer en webdesigner. Ik ontwerp, schrijf en bouw websites die snel zijn, vindbaar in Google en ingericht om bezoekers te overtuigen.",
+    "email": "mailto:info@manonit.com",
+    "address": [
+        { "@type": "PostalAddress", "addressLocality": "Bakkum", "addressCountry": "NL" },
+        { "@type": "PostalAddress", "addressLocality": "Driebergen", "addressCountry": "NL" },
+    ],
+    "sameAs": [
+        "https://www.linkedin.com/in/manonkeeman/",
+        "https://github.com/manonkeeman",
+        "https://substack.com/@manonkeeman",
+    ],
+    "knowsAbout": ["React", "Spring Boot", "PostgreSQL", "Webdesign", "UX/UI", "SEO", "Copywriting", "Figma"],
+    "knowsLanguage": ["nl", "en", "fr", "de", "es", "it"],
+    "alumniOf": { "@type": "EducationalOrganization", "name": "NOVI College" },
+};
+
+const WEBSITE_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://manonit.com/#website",
+    "url": "https://manonit.com",
+    "name": "ManonIT",
+    "description": "Freelance webdevelopment, webdesign en SEO door Manon Keeman",
+    "inLanguage": ["nl", "en", "fr", "de", "es", "it"],
+    "author": { "@id": "https://manonit.com/#manon" },
+};
+
+const SERVICE_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://manonit.com/#service",
+    "name": "ManonIT — Webdevelopment & Design",
+    "url": "https://manonit.com",
+    "image": "https://manonit.com/og-image.jpg",
+    "description": "Freelance webdevelopment, webdesign, SEO en copywriting. Alles onder één dak.",
+    "founder": { "@id": "https://manonit.com/#manon" },
+    "areaServed": { "@type": "Country", "name": "Nederland" },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Diensten",
+        "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Webdevelopment (React, WordPress, Spring Boot)" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Webdesign (UX/UI, Figma, huisstijl)" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO (technisch, inhoudelijk, structured data)" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Copywriting (webteksten, contentstrategie)" } },
+        ],
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@manonit.com",
+        "contactType": "customer support",
+        "availableLanguage": ["Dutch", "English"],
+    },
+};
+
+const FAQ_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Wat kost een website laten maken?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De kosten voor een website zijn afhankelijk van omvang en complexiteit. Een eenvoudige website begint rond de €750. Een volledig maatwerk webapplicatie start vanaf €2.500. Neem contact op voor een vrijblijvende offerte.",
+            },
+        },
+        {
+            "@type": "Question",
+            "name": "Hoe lang duurt het om een website te laten maken?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een eenvoudige website is doorgaans binnen 2 tot 3 weken klaar. Voor een complexere webapplicatie rekenen we 4 tot 8 weken. Ik werk in korte rondes zodat je tussentijds feedback kunt geven.",
+            },
+        },
+        {
+            "@type": "Question",
+            "name": "Wat doet een full stack developer?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een full stack developer bouwt zowel de voorkant (frontend) als de achterkant (backend) van een website of applicatie. Ik werk met React voor de frontend en Spring Boot voor de backend, aangevuld met webdesign, SEO en copywriting.",
+            },
+        },
+        {
+            "@type": "Question",
+            "name": "Zit SEO standaard in een website?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. SEO zit standaard in elke website die ik bouw: technische SEO (snelheid, structured data, sitemap, canonical tags), inhoudelijke SEO (zoekwoorden, koppen, metateksten) en een correcte indexering door Google.",
+            },
+        },
+        {
+            "@type": "Question",
+            "name": "Kan ik ook alleen copywriting of design bestellen?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, dat kan. Ik bied webdesign, copywriting, SEO en foto & video ook los aan. Je hoeft niet per se een complete website te laten bouwen. Neem contact op voor de mogelijkheden.",
+            },
+        },
+    ],
+};
+
 function HomeSeo() {
     const { t, i18n } = useTranslation();
     useEffect(() => {
         document.documentElement.lang = i18n.language;
     }, [i18n.language]);
     return (
-        <Seo
-            title={t("seo.home.title")}
-            description={t("seo.home.description")}
-            path="/"
-        />
+        <>
+            <Seo
+                title={t("seo.home.title")}
+                description={t("seo.home.description")}
+                path="/"
+            />
+            <JsonLd data={PERSON_SCHEMA} />
+            <JsonLd data={WEBSITE_SCHEMA} />
+            <JsonLd data={SERVICE_SCHEMA} />
+            <JsonLd data={FAQ_SCHEMA} />
+        </>
     );
 }
 

@@ -1,4 +1,4 @@
-Contact: mailto:info@manonkeeman.nl
+Contact: mailto:info@manonit.com
 Expires: 2027-01-01T00:00:00.000Z
 Preferred-Languages: nl, en
-Canonical: https://manonkeeman.nl/.well-known/security.txt
+Canonical: https://manonit.com/.well-known/security.txt

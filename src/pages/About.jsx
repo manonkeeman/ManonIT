@@ -3,6 +3,53 @@ import { SiSpringboot, SiPostgresql, SiFigma } from "react-icons/si";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Seo from "../assets/Components/Seo.jsx";
+import JsonLd from "../assets/Components/JsonLd.jsx";
+
+const ABOUT_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+        "@type": "Person",
+        "@id": "https://manonit.com/#manon",
+        "name": "Manon Keeman",
+        "givenName": "Manon",
+        "familyName": "Keeman",
+        "url": "https://manonit.com",
+        "image": "https://manonit.com/about-portrait-800w.webp",
+        "jobTitle": "Full Stack Developer & Webdesigner",
+        "description": "Manon Keeman is een freelance full stack developer en webdesigner met een achtergrond in grafisch ontwerp, interne communicatie en luchtvaart. Ze studeerde aan de Gerrit Rietveld Academie, het SAE Institute en de Schrijversacademie, en rondde haar opleiding Full Stack Development af aan het NOVI College.",
+        "email": "mailto:info@manonit.com",
+        "address": [
+            { "@type": "PostalAddress", "addressLocality": "Bakkum", "addressCountry": "NL" },
+            { "@type": "PostalAddress", "addressLocality": "Driebergen", "addressCountry": "NL" },
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/manonkeeman/",
+            "https://github.com/manonkeeman",
+            "https://substack.com/@manonkeeman",
+        ],
+        "knowsAbout": [
+            "React", "Spring Boot", "PostgreSQL", "Git", "Figma",
+            "Webdesign", "UX/UI design", "SEO", "Copywriting",
+            "Contentstrategie", "Grafisch ontwerp",
+        ],
+        "knowsLanguage": ["Nederlands", "Engels", "Frans", "Duits", "Spaans", "Italiaans"],
+        "alumniOf": [
+            { "@type": "EducationalOrganization", "name": "NOVI College", "description": "Full Stack Development" },
+            { "@type": "EducationalOrganization", "name": "Gerrit Rietveld Academie" },
+            { "@type": "EducationalOrganization", "name": "SAE Institute" },
+            { "@type": "EducationalOrganization", "name": "Schrijversacademie" },
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "ManonIT",
+            "url": "https://manonit.com",
+        },
+        "hasCredential": [
+            { "@type": "EducationalOccupationalCredential", "name": "Full Stack Developer", "credentialCategory": "diploma", "recognizedBy": { "@type": "Organization", "name": "NOVI College" } },
+        ],
+    },
+};
 
 export default function About() {
   const { t } = useTranslation();
@@ -14,6 +61,7 @@ export default function About() {
           description={t('seo.about.description')}
           path="/about"
         />
+        <JsonLd data={ABOUT_SCHEMA} />
         <div className="about-shell">
           {/* TEKST */}
           <div className="about-copy">

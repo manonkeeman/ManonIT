@@ -1,9 +1,24 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
+import JsonLd from "../../assets/Components/JsonLd.jsx";
 
 const MOCKUP = "/Portfolio/webdesign-acupuncture-mockup.png";
 const LIVE_URL = "https://acupuncturebysaskia.com/over-saskia/";
+
+const SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Acupuncture by Saskia",
+    "url": "https://acupuncturebysaskia.com",
+    "description": "WordPress website voor een acupunctuurpraktijk, ontworpen en gebouwd door Manon Keeman.",
+    "creator": {
+        "@type": "Person",
+        "@id": "https://manonit.com/#manon",
+        "name": "Manon Keeman",
+    },
+    "isPartOf": { "@id": "https://manonit.com/#website" },
+};
 
 const content = {
     nl: {
@@ -98,6 +113,7 @@ export default function WebdesignAcupuncture() {
                 description={tr("seo.portfolio.acupuncture.description")}
                 path="/webdesignacupuncture"
             />
+            <JsonLd data={SCHEMA} />
 
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">{tr('nav.home')}</Link>
