@@ -73,6 +73,7 @@ const projects = [
         route: "/marieboddaert",
         imgSrc: "/Portfolio/marie-boddaert-mockup.png",
         num: "05",
+        journalLink: "/journal/pastelvanbuiten",
     },
 ];
 
@@ -125,11 +126,14 @@ export default function Portfolio() {
                                             <span key={tag} className="tag">{tag}</span>
                                         ))}
                                     </div>
-                                    <div className="card-cta">
-                                        <span className="btn-cta">{t('portfolio.viewBtn')} →</span>
-                                    </div>
                                 </div>
                             </Link>
+                            <div className="card-actions">
+                                <Link to={p.route} className="btn-cta">{t('portfolio.viewBtn')} →</Link>
+                                {p.journalLink && (
+                                    <Link to={p.journalLink} className="btn-cta-story">Lees het verhaal →</Link>
+                                )}
+                            </div>
                         </article>
                     );
                 })}
@@ -263,7 +267,13 @@ export default function Portfolio() {
           background: var(--bg);
           white-space: nowrap;
         }
-        .card-cta { margin-top: auto; }
+        .card-actions {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          padding: 0 24px 22px;
+          flex-wrap: wrap;
+        }
         .btn-cta {
           display: inline-flex;
           align-items: center;
@@ -271,10 +281,22 @@ export default function Portfolio() {
           color: var(--accent);
           font-weight: 600;
           font-size: .95rem;
+          text-decoration: none;
           border-bottom: 1px solid transparent;
           transition: border-color .2s, gap .2s;
         }
         .portfolio-card:hover .btn-cta { border-color: var(--accent); gap: 10px; }
+        .btn-cta-story {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          color: var(--muted);
+          font-size: .88rem;
+          text-decoration: none;
+          border-bottom: 1px solid transparent;
+          transition: color .2s, border-color .2s, gap .2s;
+        }
+        .btn-cta-story:hover { color: var(--accent); border-color: var(--accent); gap: 10px; }
 
         /* CTA-kaart */
         .portfolio-card--cta {

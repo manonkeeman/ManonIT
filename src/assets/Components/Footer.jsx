@@ -27,6 +27,7 @@ export default function Footer() {
                     <Link to="/marieboddaert">{t('nav.links.portfolio.marieboddaert')}</Link>
                     <Link to="/backendstudentendashboard">{t('nav.links.portfolio.backend')}</Link>
                     <Link to="/journal">{t('nav.journal')}</Link>
+                    <Link to="/journal/pastelvanbuiten">{t('nav.links.journal.pastelvanbuiten')}</Link>
                     <Link to="/about">{t('nav.about')}</Link>
                     <a href="/#contact">{t('nav.contact')}</a>
                 </nav>
