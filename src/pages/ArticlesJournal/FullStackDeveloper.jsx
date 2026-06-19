@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FaLinkedin } from "react-icons/fa";
-import { SiSubstack } from "react-icons/si";
-import ShareButton from "../../assets/Components/ShareButton.jsx";
+import ArticleFooter from "../../assets/Components/ArticleFooter.jsx";
 
 const bodies = {
     nl: () => (
@@ -470,13 +468,7 @@ export default function FullStackDeveloper() {
                     <Body />
                 </article>
 
-                <footer className="story-footer">
-                    <div className="socials">
-                        <a href="https://www.linkedin.com/in/manonkeeman/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-                        <a href="https://substack.com/@manonkeeman" target="_blank" rel="noreferrer" aria-label="Substack"><SiSubstack /></a>
-                        <ShareButton shareTitle={t.shareTitle} shareText={t.shareText} />
-                    </div>
-                </footer>
+                <ArticleFooter shareTitle={t.shareTitle} shareText={t.shareText} />
                 <div className="story-back-bottom">
                     <Link to="/#journal" className="back-link">{t.back}</Link>
                 </div>
@@ -504,13 +496,6 @@ export default function FullStackDeveloper() {
         .story-body p {margin:0 0 14px;line-height:1.72;}
         .story-body h2 {margin:22px 0 10px;}
         .rule {height:1px;background:var(--border);margin:18px 0;}
-        .story-footer {text-align:center;margin-top:18px;}
-        .socials {display:flex;justify-content:center;gap:20px;font-size:1.8rem;margin-top:12px;}
-        .socials a, .share-btn {
-          color:var(--muted);background:none;border:none;cursor:pointer;
-          transition:color .2s ease, transform .2s ease;
-        }
-        .socials a:hover, .share-btn:hover {color:var(--accent);transform:translateY(-2px);}
       `}</style>
         </section>
     );
