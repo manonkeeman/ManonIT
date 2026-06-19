@@ -289,6 +289,10 @@
       "villa": {
         "quote": "Manon realmente piensa contigo. Entiende lo que quieres decir y lo traduce en un sitio que no solo tiene buen aspecto sino que realmente funciona. Rápido, claro y sin complicaciones.",
         "role": "Ocio & alquiler"
+      },
+      "maxim": {
+        "quote": "Añade aquí la reseña de Maxim.",
+        "role": "Co Pilot B777/787"
       }
     }
   }

@@ -282,6 +282,10 @@
       "villa": {
         "quote": "Manon really thinks along with you. She understands what you want to say and translates it into a site that not only looks great but actually works. Fast, clear and no fuss.",
         "role": "Recreation & rental"
+      },
+      "maxim": {
+        "quote": "Add Maxim's review here.",
+        "role": "Co Pilot B777/787"
       }
     }
   }

@@ -293,6 +293,10 @@
       "villa": {
         "quote": "Manon denkt echt mee. Ze snapt wat je wil zeggen en vertaalt dat naar een site die er niet alleen goed uitziet, maar ook echt werkt. Snel, duidelijk en zonder gedoe.",
         "role": "Recreatie & verhuur"
+      },
+      "maxim": {
+        "quote": "Voeg hier de review van Maxim toe.",
+        "role": "Co Pilot B777/787"
       }
     }
   }

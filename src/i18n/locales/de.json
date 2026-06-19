@@ -289,6 +289,10 @@
       "villa": {
         "quote": "Manon denkt wirklich mit. Sie versteht, was man sagen will, und übersetzt das in eine Website, die nicht nur gut aussieht, sondern auch wirklich funktioniert. Schnell, klar und unkompliziert.",
         "role": "Freizeit & Vermietung"
+      },
+      "maxim": {
+        "quote": "Fügen Sie hier Maxims Bewertung hinzu.",
+        "role": "Co Pilot B777/787"
       }
     }
   }

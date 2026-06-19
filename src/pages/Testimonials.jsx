@@ -21,6 +21,13 @@ const REVIEW_META = [
         rating: 5,
         initials: "VV",
     },
+    {
+        id: "maxim",
+        name: "Maxim Staal",
+        rating: 5,
+        photo: "/reviews/maxim-staal.png",
+        source: "LinkedIn",
+    },
 ];
 
 function Stars({ count }) {
