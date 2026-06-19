@@ -18,8 +18,13 @@
         "designchaos": "Design Chaos",
         "luchtvaartfamilie2018": "Famille Aviation 2018",
         "storytelling": "Storytelling",
-        "toekomsttech": "Avenir & Tech",
-        "365korteverhalen": "365 Histoires courtes"
+        "pastelvanbuiten": {
+        "title": "Pastel en apparence, surprenant en profondeur | Manon Keeman",
+        "description": "Comment j'ai construit le site de ma ni\u00e8ce Marie: doux en surface, r\u00e9fl\u00e9chi en profondeur."
+      },
+      "toekomsttech": "Avenir & Tech",
+        "365korteverhalen": "365 Histoires courtes",
+        "pastelvanbuiten": "Pastel en apparence, surprenant en profondeur"
       }
     }
   },
@@ -203,6 +208,10 @@
       "ToekomstTech": {
         "title": "L'avenir de la tech",
         "excerpt": "L'IA, le travail à distance et le rôle de la créativité."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel en apparence, surprenant en profondeur",
+        "excerpt": "Comment j'ai construit le site de ma nièce Marie : doux en surface, réfléchi en profondeur."
       }
     }
   },

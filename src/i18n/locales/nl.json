@@ -19,7 +19,8 @@
         "luchtvaartfamilie2018": "Luchtvaartfamilie 2018",
         "storytelling": "Storytelling",
         "toekomsttech": "Toekomst & Tech",
-        "365korteverhalen": "365 Korte Verhalen"
+        "365korteverhalen": "365 Korte Verhalen",
+        "pastelvanbuiten": "Pastel van buiten, verrassend van binnen"
       }
     }
   },
@@ -214,6 +215,10 @@
       "toekomsttech": {
         "title": "De toekomst van tech | Manon Keeman",
         "description": "AI, remote werken en de rol van creativiteit."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel van buiten, verrassend van binnen | Manon Keeman",
+        "description": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen."
       }
     },
     "portfolio": {
@@ -264,6 +269,10 @@
       "ToekomstTech": {
         "title": "De toekomst van tech",
         "excerpt": "AI, remote werken en de rol van creativiteit."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel van buiten, verrassend van binnen",
+        "excerpt": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen."
       }
     }
   }

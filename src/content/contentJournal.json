@@ -49,5 +49,14 @@
     "cover": "/journal/toekomst-it-800w.avif",
     "words": 700,
     "imgPosition": "top center"
+  },
+  {
+    "slug": "pastelvanbuiten",
+    "title": "Pastel van buiten, verrassend van binnen",
+    "date": "2026-06-19",
+    "excerpt": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen.",
+    "cover": "/og-marie-boddaert.jpg",
+    "words": 400,
+    "imgPosition": "center center"
   }
 ]

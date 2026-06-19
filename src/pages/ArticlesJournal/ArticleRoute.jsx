@@ -11,6 +11,7 @@ const DesignChaos                = lazy(() => import("./DesignChaos.jsx"));
 const ToekomstTech               = lazy(() => import("./ToekomstTech.jsx"));
 const Luchtvaartfamilie2018      = lazy(() => import("./Luchtvaartfamilie2018.jsx"));
 const Korteverhalen365           = lazy(() => import("./365Korteverhalen.jsx"));
+const PastelVanBuiten            = lazy(() => import("./PastelVanBuiten.jsx"));
 
 function NotFound({ slug }) {
     return (
@@ -75,6 +76,12 @@ const ARTICLE_META = {
         image: "https://manonit.com/journal/toekomst-it-1200w.webp",
         words: 700,
     },
+    pastelvanbuiten: {
+        date: "2026-06-19",
+        title: "Pastel van buiten, verrassend van binnen",
+        image: "https://manonit.com/og-marie-boddaert.jpg",
+        words: 400,
+    },
 };
 
 export default function ArticleRoute() {
@@ -90,6 +97,7 @@ export default function ArticleRoute() {
         toekomsttech: <ToekomstTech />,
         luchtvaartfamilie2018: <Luchtvaartfamilie2018 />,
         "365korteverhalen": <Korteverhalen365 />,
+        pastelvanbuiten: <PastelVanBuiten />,
     };
 
     const article = views[key];

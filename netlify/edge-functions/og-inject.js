@@ -36,6 +36,11 @@ const ARTICLES = {
         description: "AI, remote werken en de rol van creativiteit.",
         image: `${SITE}/journal/toekomst-it-1200w.webp`,
     },
+    pastelvanbuiten: {
+        title: "Pastel van buiten, verrassend van binnen | Manon Keeman",
+        description: "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen.",
+        image: `${SITE}/og-marie-boddaert.jpg`,
+    },
 };
 
 const BOT_RE = /facebookexternalhit|linkedin|twitterbot|whatsapp|telegrambot|slackbot|discordbot|applebot|pinterest|bingbot|googlebot|iframely|prerender|screaming.frog/i;

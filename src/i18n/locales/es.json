@@ -18,8 +18,13 @@
         "designchaos": "Design Chaos",
         "luchtvaartfamilie2018": "Familia Aviacion 2018",
         "storytelling": "Storytelling",
-        "toekomsttech": "Futuro & Tech",
-        "365korteverhalen": "365 Historias cortas"
+        "pastelvanbuiten": {
+        "title": "Pastel por fuera, sorprendente por dentro | Manon Keeman",
+        "description": "C\u00f3mo constru\u00ed el sitio web de mi sobrina Marie: dulce por fuera, reflexivo por dentro."
+      },
+      "toekomsttech": "Futuro & Tech",
+        "365korteverhalen": "365 Historias cortas",
+        "pastelvanbuiten": "Pastel por fuera, sorprendente por dentro"
       }
     }
   },
@@ -203,6 +208,10 @@
       "ToekomstTech": {
         "title": "El futuro de la tecnología",
         "excerpt": "IA, trabajo remoto y el papel de la creatividad."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel por fuera, sorprendente por dentro",
+        "excerpt": "Cómo construí el sitio web de mi sobrina Marie: dulce por fuera, reflexivo por dentro."
       }
     }
   },

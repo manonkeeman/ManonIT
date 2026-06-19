@@ -34,33 +34,46 @@ export default function Journal() {
             <div className="journal-grid">
                 {items.map((item) => {
                     const base = item.cover.replace(/-\d+w\.\w+$/, "");
+                    const isMultiSize = base !== item.cover;
                     const title   = t(`journalSection.articles.${item.slug}.title`);
                     const excerpt = t(`journalSection.articles.${item.slug}.excerpt`);
                     return (
                         <article key={item.slug} className="journal-card">
                             <Link to={`/journal/${item.slug}`} className="card-link" aria-label={title}>
                                 <div className="card-img">
-                                    <picture>
-                                        <source
-                                            type="image/avif"
-                                            srcSet={`${base}-400w.avif 400w, ${base}-800w.avif 800w, ${base}-1200w.avif 1200w`}
-                                            sizes="(max-width: 920px) 100vw, 33vw"
-                                        />
-                                        <source
-                                            type="image/webp"
-                                            srcSet={`${base}-400w.webp 400w, ${base}-800w.webp 800w, ${base}-1200w.webp 1200w`}
-                                            sizes="(max-width: 920px) 100vw, 33vw"
-                                        />
+                                    {isMultiSize ? (
+                                        <picture>
+                                            <source
+                                                type="image/avif"
+                                                srcSet={`${base}-400w.avif 400w, ${base}-800w.avif 800w, ${base}-1200w.avif 1200w`}
+                                                sizes="(max-width: 920px) 100vw, 33vw"
+                                            />
+                                            <source
+                                                type="image/webp"
+                                                srcSet={`${base}-400w.webp 400w, ${base}-800w.webp 800w, ${base}-1200w.webp 1200w`}
+                                                sizes="(max-width: 920px) 100vw, 33vw"
+                                            />
+                                            <img
+                                                src={`${base}-800w.webp`}
+                                                width="1200"
+                                                height="675"
+                                                loading="lazy"
+                                                decoding="async"
+                                                alt={title}
+                                                style={{ objectPosition: item.imgPosition }}
+                                            />
+                                        </picture>
+                                    ) : (
                                         <img
-                                            src={`${base}-800w.webp`}
+                                            src={item.cover}
                                             width="1200"
-                                            height="675"
+                                            height="630"
                                             loading="lazy"
                                             decoding="async"
                                             alt={title}
-                                            style={{ objectPosition: item.imgPosition }}
+                                            style={{ objectPosition: item.imgPosition, width: "100%", height: "100%", objectFit: "cover" }}
                                         />
-                                    </picture>
+                                    )}
                                 </div>
 
                                 <div className="card-meta">

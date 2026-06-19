@@ -18,8 +18,13 @@
         "designchaos": "Design Chaos",
         "luchtvaartfamilie2018": "Luftfahrtfamilie 2018",
         "storytelling": "Storytelling",
-        "toekomsttech": "Zukunft & Tech",
-        "365korteverhalen": "365 Kurzgeschichten"
+        "pastelvanbuiten": {
+        "title": "Pastellfarben au\u00dfen, \u00fcberraschend innen | Manon Keeman",
+        "description": "Wie ich die Website meiner Nichte Marie gebaut habe: au\u00dfen s\u00fc\u00df, innen durchdacht."
+      },
+      "toekomsttech": "Zukunft & Tech",
+        "365korteverhalen": "365 Kurzgeschichten",
+        "pastelvanbuiten": "Pastellfarben außen, überraschend innen"
       }
     }
   },
@@ -203,6 +208,10 @@
       "ToekomstTech": {
         "title": "Die Zukunft der Tech",
         "excerpt": "KI, Remote-Arbeit und die Rolle der Kreativität."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastellfarben außen, überraschend innen",
+        "excerpt": "Wie ich die Website meiner Nichte Marie gebaut habe: außen süß, innen durchdacht."
       }
     }
   },
