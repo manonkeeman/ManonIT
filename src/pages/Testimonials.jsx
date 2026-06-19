@@ -13,7 +13,7 @@ const REVIEW_META = [
         id: "marie",
         name: "Marie H. Boddaert",
         rating: 5,
-        initials: "MB",
+        photo: "/reviews/marie-boddaert.png",
     },
     {
         id: "villa",
