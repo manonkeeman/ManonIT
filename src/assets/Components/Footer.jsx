@@ -33,7 +33,16 @@ export default function Footer() {
                     <a href="/#contact">{t('nav.contact')}</a>
                 </nav>
 
-                {/* Col 3 — Contact + socials */}
+                {/* Col 3 — Legal */}
+                <div className="footer-col footer-legal-col">
+                    <p className="footer-heading">Juridisch</p>
+                    <Link to="/privacy">Privacybeleid</Link>
+                    <Link to="/colofon">Colofon</Link>
+                    <p className="footer-copy" style={{ marginTop: 8 }}>KVK: 42053266</p>
+                    <p className="footer-copy">BTW: NL005459093B94</p>
+                </div>
+
+                {/* Col 4 — Contact + socials */}
                 <div className="footer-col footer-contact">
                     <p className="footer-heading">Contact</p>
                     <a
@@ -65,9 +74,9 @@ export default function Footer() {
 
         .footer-inner {
           display: grid;
-          grid-template-columns: 1.2fr 1fr 1fr;
+          grid-template-columns: 1.2fr 1fr 0.8fr 0.8fr;
           gap: 40px;
-          max-width: 1000px;
+          max-width: 1100px;
           margin: 0 auto 32px;
         }
 
@@ -143,7 +152,16 @@ export default function Footer() {
           max-width: 1000px;
         }
 
-        @media (max-width: 720px) {
+        .footer-legal-col a {
+          color: rgba(251,246,238,.45);
+          font-size: .9rem;
+          text-decoration: none;
+          transition: color .2s ease;
+          width: fit-content;
+        }
+        .footer-legal-col a:hover { color: var(--accent); }
+
+        @media (max-width: 900px) {
           .footer-inner {
             grid-template-columns: 1fr 1fr;
           }

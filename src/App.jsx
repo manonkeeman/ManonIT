@@ -22,6 +22,10 @@ const About        = lazy(() => import("./pages/About.jsx"));
 const Journal      = lazy(() => import("./pages/Journal.jsx"));
 const ArticleRoute = lazy(() => import("./pages/ArticlesJournal/ArticleRoute.jsx"));
 
+// Legal pages
+const Privacy  = lazy(() => import("./pages/Privacy.jsx"));
+const Colofon  = lazy(() => import("./pages/Colofon.jsx"));
+
 // Unlisted pricing pages — not in nav, not indexed
 const OfferteDavidBroeksma = lazy(() => import("./pages/Offerte.jsx"));
 
@@ -209,6 +213,28 @@ export default function App() {
                         <Layout>
                             <Suspense fallback={<PageLoader />}>
                                 <MarieboddaertWriterSite />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+
+                {/* Legal */}
+                <Route
+                    path="/privacy"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <Privacy />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+                <Route
+                    path="/colofon"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <Colofon />
                             </Suspense>
                         </Layout>
                     }
