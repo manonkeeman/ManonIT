@@ -1,45 +1,14 @@
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY;
-const PLACE_LAT = 52.5569967;
-const PLACE_LNG = 4.6553783;
+const PLACE_ID = "ChIJS87mVlv3xUcRTxO351apGuo"; // ManonIT, Bakkum
 
 export const handler = async () => {
     if (!API_KEY) {
-        return json({ reviews: [], rating: null, totalRatings: 0, debug: "no_api_key" });
+        return json({ reviews: [], rating: null, totalRatings: 0 });
     }
 
     try {
-        // Stap 1: zoek het Place ID via tekst
-        const searchRes = await fetch("https://places.googleapis.com/v1/places:searchText", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "X-Goog-Api-Key": API_KEY,
-                "X-Goog-FieldMask": "places.id,places.displayName",
-            },
-            body: JSON.stringify({
-                textQuery: "ManonIT Bakkum webdesign",
-                maxResultCount: 1,
-                languageCode: "nl",
-                locationBias: {
-                    circle: {
-                        center: { latitude: PLACE_LAT, longitude: PLACE_LNG },
-                        radius: 10000,
-                    },
-                },
-            }),
-        });
-
-        const searchData = await searchRes.json();
-        const placeId = searchData.places?.[0]?.id;
-        const placeName = searchData.places?.[0]?.displayName?.text || "onbekend";
-
-        if (!placeId) {
-            return json({ reviews: [], rating: null, totalRatings: 0, debug: "place_not_found" });
-        }
-
-        // Stap 2: haal reviews op via Place Details
-        const detailRes = await fetch(
-            `https://places.googleapis.com/v1/places/${placeId}?languageCode=nl`,
+        const res = await fetch(
+            `https://places.googleapis.com/v1/places/${PLACE_ID}?languageCode=nl`,
             {
                 headers: {
                     "X-Goog-Api-Key": API_KEY,
@@ -48,7 +17,7 @@ export const handler = async () => {
             }
         );
 
-        const detail = await detailRes.json();
+        const detail = await res.json();
 
         const reviews = (detail.reviews || []).map((r) => ({
             author: r.authorAttribution?.displayName || "Anoniem",
@@ -62,13 +31,10 @@ export const handler = async () => {
             reviews,
             rating: detail.rating || null,
             totalRatings: detail.userRatingCount || 0,
-            debug: "ok",
-            placeId,
-            placeName,
         }, true);
 
     } catch (err) {
-        return json({ reviews: [], rating: null, totalRatings: 0, debug: "error", error: err.message });
+        return json({ reviews: [], rating: null, totalRatings: 0 });
     }
 };
 
