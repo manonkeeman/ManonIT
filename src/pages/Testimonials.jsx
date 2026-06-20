@@ -8,6 +8,8 @@ const REVIEW_META = [
         name: "Saskia Zwaan",
         rating: 5,
         photo: "/reviews/saskia-zwaan.png",
+        bgPos: "center center",
+        bgSize: "cover",
         source: "LinkedIn",
     },
     {
@@ -15,13 +17,16 @@ const REVIEW_META = [
         name: "Marie H. Boddaert",
         rating: 5,
         photo: "/reviews/marie-boddaert.png",
+        bgPos: "center 20%",
+        bgSize: "130%",
     },
     {
         id: "villa",
         name: "Maxim Staal",
         rating: 5,
         photo: "/reviews/maxim-staal.png",
-        source: "LinkedIn",
+        bgPos: "85% center",
+        bgSize: "200%",
         company: "Villa Vredestein",
     },
 ];
@@ -36,18 +41,18 @@ function Stars({ count }) {
     );
 }
 
-function Avatar({ initials, photo }) {
+function Avatar({ initials, photo, bgPos, bgSize }) {
     if (photo) {
         return (
-            <img
-                src={photo}
-                alt=""
+            <div
+                className="review-avatar"
                 aria-hidden="true"
-                className="review-avatar review-avatar--photo"
-                width="40"
-                height="40"
-                loading="lazy"
-                decoding="async"
+                style={{
+                    backgroundImage: `url('${photo}')`,
+                    backgroundSize: bgSize || "cover",
+                    backgroundPosition: bgPos || "center center",
+                    backgroundRepeat: "no-repeat",
+                }}
             />
         );
     }
@@ -94,7 +99,7 @@ export default function Testimonials() {
                             &ldquo;{t(`testimonials.reviews.${r.id}.quote`)}&rdquo;
                         </blockquote>
                         <footer className="review-footer">
-                            <Avatar initials={r.initials} photo={r.photo} />
+                            <Avatar initials={r.initials} photo={r.photo} bgPos={r.bgPos} bgSize={r.bgSize} />
                             <div>
                                 <p className="review-name">{r.name}</p>
                                 <p className="review-role">
@@ -112,7 +117,7 @@ export default function Testimonials() {
                     <p className="cta-review-label">{t("testimonials.label")}</p>
                     <p className="cta-review-sub">{t("testimonials.sub")}</p>
                     <a
-                        href="https://g.page/r/YOUR_GOOGLE_REVIEW_LINK"
+                        href="https://maps.app.goo.gl/2PDjcuArvZMu6SWs8"
                         target="_blank"
                         rel="noreferrer"
                         className="btn-review-cta"
@@ -264,7 +269,6 @@ export default function Testimonials() {
           justify-content: center;
           flex-shrink: 0;
         }
-        .review-avatar--photo { object-fit: cover; background: none; }
         .review-name { margin: 0; font-size: .92rem; font-weight: 600; color: var(--text); }
         .review-role { margin: 0; font-size: .82rem; color: var(--muted); }
 
