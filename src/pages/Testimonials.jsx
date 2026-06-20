@@ -1,6 +1,6 @@
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { SiLinkedin } from "react-icons/si";
+import { SiLinkedin, SiGoogle } from "react-icons/si";
 
 const REVIEW_META = [
     {
@@ -62,6 +62,20 @@ function Avatar({ initials, photo, bgPos, bgSize }) {
 export default function Testimonials() {
     const { t } = useTranslation();
     const trackRef = useRef(null);
+    const [googleReviews, setGoogleReviews] = useState([]);
+    const [googleRating, setGoogleRating] = useState(null);
+    const [totalRatings, setTotalRatings] = useState(0);
+
+    useEffect(() => {
+        fetch("/.netlify/functions/google-reviews")
+            .then((r) => r.json())
+            .then((data) => {
+                if (data.reviews?.length) setGoogleReviews(data.reviews);
+                if (data.rating) setGoogleRating(data.rating);
+                if (data.totalRatings) setTotalRatings(data.totalRatings);
+            })
+            .catch(() => {});
+    }, []);
 
     const scroll = (dir) => {
         const track = trackRef.current;
@@ -112,9 +126,42 @@ export default function Testimonials() {
                     </article>
                 ))}
 
+                {/* Live Google reviews */}
+                {googleReviews.map((r, i) => (
+                    <article key={`google-${i}`} className="review-card">
+                        <div className="review-card-top">
+                            <Stars count={r.rating} />
+                            <span className="review-source review-source--google" title="Google review">
+                                <SiGoogle />
+                            </span>
+                        </div>
+                        <blockquote className="review-quote">
+                            &ldquo;{r.text}&rdquo;
+                        </blockquote>
+                        <footer className="review-footer">
+                            <Avatar
+                                photo={r.photo}
+                                bgPos="center center"
+                                bgSize="cover"
+                                initials={r.author?.[0] || "?"}
+                            />
+                            <div>
+                                <p className="review-name">{r.author}</p>
+                                <p className="review-role">{r.time}</p>
+                            </div>
+                        </footer>
+                    </article>
+                ))}
+
                 {/* CTA-kaart */}
                 <article className="review-card review-card--cta">
                     <p className="cta-review-label">{t("testimonials.label")}</p>
+                    {googleRating && (
+                        <p className="cta-google-rating">
+                            <SiGoogle style={{ color: "#4285F4", verticalAlign: "middle" }} />
+                            {" "}<strong>{googleRating.toFixed(1)}</strong> / 5 &nbsp;·&nbsp; {totalRatings} {totalRatings === 1 ? "review" : "reviews"}
+                        </p>
+                    )}
                     <p className="cta-review-sub">{t("testimonials.sub")}</p>
                     <a
                         href="https://g.page/r/CU8Tt-dWqRrqEAE/review"
@@ -210,6 +257,11 @@ export default function Testimonials() {
           text-transform: uppercase;
           margin: 0;
         }
+        .cta-google-rating {
+          margin: 0;
+          font-size: .88rem;
+          color: var(--muted);
+        }
         .cta-review-sub {
           color: var(--muted);
           font-size: .9rem;
@@ -235,7 +287,8 @@ export default function Testimonials() {
           align-items: center;
           justify-content: space-between;
         }
-        .review-source { color: #0a66c2; font-size: 1.2rem; display: flex; align-items: center; }
+        .review-source { font-size: 1.2rem; display: flex; align-items: center; color: #0a66c2; }
+        .review-source--google { color: #4285F4; }
         .review-stars  { display: flex; gap: 3px; font-size: 1.1rem; }
         .star--on  { color: #f5a623; }
         .star--off { color: var(--border); }
