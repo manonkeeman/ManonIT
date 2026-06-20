@@ -7,7 +7,7 @@ export const handler = async () => {
         return {
             statusCode: 200,
             headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" },
-            body: JSON.stringify({ reviews: [], rating: null, totalRatings: 0 }),
+            body: JSON.stringify({ reviews: [], rating: null, totalRatings: 0, debug: "no_api_key" }),
         };
     }
 
@@ -54,13 +54,15 @@ export const handler = async () => {
                 reviews,
                 rating: place?.rating || null,
                 totalRatings: place?.userRatingCount || 0,
+                debug: "ok",
+                placesFound: data.places?.length || 0,
             }),
         };
     } catch (err) {
         return {
             statusCode: 200,
             headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" },
-            body: JSON.stringify({ reviews: [], rating: null, totalRatings: 0, error: err.message }),
+            body: JSON.stringify({ reviews: [], rating: null, totalRatings: 0, debug: "error", error: err.message }),
         };
     }
 };
