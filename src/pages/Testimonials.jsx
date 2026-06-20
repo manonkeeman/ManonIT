@@ -25,8 +25,8 @@ const REVIEW_META = [
         name: "Maxim Staal",
         rating: 5,
         photo: "/reviews/maxim-staal.png",
-        bgPos: "left center",
-        bgSize: "200%",
+        bgPos: "center center",
+        bgSize: "110%",
         company: "Villa Vredestein",
     },
 ];
