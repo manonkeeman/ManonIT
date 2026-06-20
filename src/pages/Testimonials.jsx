@@ -117,7 +117,7 @@ export default function Testimonials() {
                     <p className="cta-review-label">{t("testimonials.label")}</p>
                     <p className="cta-review-sub">{t("testimonials.sub")}</p>
                     <a
-                        href="https://maps.app.goo.gl/2PDjcuArvZMu6SWs8"
+                        href="https://g.page/r/CU8Tt-dWqRrqEAE/review"
                         target="_blank"
                         rel="noreferrer"
                         className="btn-review-cta"
