@@ -17,7 +17,7 @@ const REVIEW_META = [
         name: "Marie H. Boddaert",
         rating: 5,
         photo: "/reviews/marie-boddaert.png",
-        bgPos: "center 25%",
+        bgPos: "center 10%",
         bgSize: "120%",
     },
     {
