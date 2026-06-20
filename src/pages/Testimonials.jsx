@@ -17,7 +17,7 @@ const REVIEW_META = [
         name: "Marie H. Boddaert",
         rating: 5,
         photo: "/reviews/marie-boddaert.png",
-        bgPos: "center 20%",
+        bgPos: "center top",
         bgSize: "130%",
     },
     {
@@ -25,7 +25,7 @@ const REVIEW_META = [
         name: "Maxim Staal",
         rating: 5,
         photo: "/reviews/maxim-staal.png",
-        bgPos: "85% center",
+        bgPos: "left center",
         bgSize: "200%",
         company: "Villa Vredestein",
     },
