@@ -17,8 +17,8 @@ const REVIEW_META = [
         name: "Marie H. Boddaert",
         rating: 5,
         photo: "/reviews/marie-boddaert.png",
-        bgPos: "center center",
-        bgSize: "110%",
+        bgPos: "center 25%",
+        bgSize: "120%",
     },
     {
         id: "villa",
