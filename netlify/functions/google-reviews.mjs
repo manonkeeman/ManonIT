@@ -14,16 +14,16 @@ export const handler = async () => {
             headers: {
                 "Content-Type": "application/json",
                 "X-Goog-Api-Key": API_KEY,
-                "X-Goog-FieldMask": "places.id",
+                "X-Goog-FieldMask": "places.id,places.displayName",
             },
             body: JSON.stringify({
-                textQuery: "ManonIT webdesigner",
+                textQuery: "ManonIT",
                 maxResultCount: 1,
                 languageCode: "nl",
-                locationBias: {
+                locationRestriction: {
                     circle: {
                         center: { latitude: PLACE_LAT, longitude: PLACE_LNG },
-                        radius: 50000,
+                        radius: 500,
                     },
                 },
             }),
@@ -31,6 +31,7 @@ export const handler = async () => {
 
         const searchData = await searchRes.json();
         const placeId = searchData.places?.[0]?.id;
+        const placeName = searchData.places?.[0]?.displayName?.text || "onbekend";
 
         if (!placeId) {
             return json({ reviews: [], rating: null, totalRatings: 0, debug: "place_not_found" });
@@ -63,6 +64,7 @@ export const handler = async () => {
             totalRatings: detail.userRatingCount || 0,
             debug: "ok",
             placeId,
+            placeName,
         }, true);
 
     } catch (err) {
