@@ -17,13 +17,13 @@ export const handler = async () => {
                 "X-Goog-FieldMask": "places.id,places.displayName",
             },
             body: JSON.stringify({
-                textQuery: "ManonIT",
+                textQuery: "ManonIT Bakkum webdesign",
                 maxResultCount: 1,
                 languageCode: "nl",
-                locationRestriction: {
+                locationBias: {
                     circle: {
                         center: { latitude: PLACE_LAT, longitude: PLACE_LNG },
-                        radius: 500,
+                        radius: 10000,
                     },
                 },
             }),
