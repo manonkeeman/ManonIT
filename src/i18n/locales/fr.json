@@ -89,6 +89,9 @@
   },
   "portfolio": {
     "viewBtn": "Voir",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "readStory": "Lire l'article",
     "cta": {
       "label": "Nouveau projet ?",
       "title": "Travaillons ensemble",
@@ -271,6 +274,10 @@
         "text": "Le site est mis en ligne. Vous recevez un petit guide pour les modifications mineures. Et je reste joignable."
       }
     }
+  },
+  "article": {
+    "notFound": "Article introuvable",
+    "notFoundText": "L'article que vous cherchez n'existe pas."
   },
   "articleFooter": {
     "substack": "Suivez-moi sur Substack",

@@ -98,12 +98,12 @@ export default function Portfolio() {
                     <button
                         className="arrow-btn"
                         onClick={() => scroll(-1)}
-                        aria-label="Vorige"
+                        aria-label={t('portfolio.prev')}
                     >←</button>
                     <button
                         className="arrow-btn"
                         onClick={() => scroll(1)}
-                        aria-label="Volgende"
+                        aria-label={t('portfolio.next')}
                     >→</button>
                 </div>
             </div>
@@ -131,7 +131,7 @@ export default function Portfolio() {
                             <div className="card-actions">
                                 <Link to={p.route} className="btn-cta">{t('portfolio.viewBtn')} →</Link>
                                 {p.journalLink && (
-                                    <Link to={p.journalLink} className="btn-cta-story">Lees het verhaal →</Link>
+                                    <Link to={p.journalLink} className="btn-cta-story">{t('portfolio.readStory')} →</Link>
                                 )}
                             </div>
                         </article>

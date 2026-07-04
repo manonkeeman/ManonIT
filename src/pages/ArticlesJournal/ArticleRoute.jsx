@@ -14,11 +14,12 @@ const Korteverhalen365           = lazy(() => import("./365Korteverhalen.jsx"));
 const PastelVanBuiten            = lazy(() => import("./PastelVanBuiten.jsx"));
 
 function NotFound({ slug }) {
+    const { t } = useTranslation();
     return (
         <section className="section">
             <div className="container">
-                <h2>Artikel niet gevonden</h2>
-                <p>Het artikel dat je zoekt bestaat niet{slug ? ` (slug: ${slug})` : ""}.</p>
+                <h2>{t('article.notFound')}</h2>
+                <p>{t('article.notFoundText')}{slug ? ` (slug: ${slug})` : ""}</p>
             </div>
         </section>
     );

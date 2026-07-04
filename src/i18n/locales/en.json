@@ -150,6 +150,9 @@
   },
   "portfolio": {
     "viewBtn": "View",
+    "prev": "Previous",
+    "next": "Next",
+    "readStory": "Read the story",
     "cta": {
       "label": "New project?",
       "title": "Let's work together",
@@ -264,6 +267,10 @@
         "excerpt": "AI, remote work and the role of creativity."
       }
     }
+  },
+  "article": {
+    "notFound": "Article not found",
+    "notFoundText": "The article you are looking for does not exist."
   },
   "articleFooter": {
     "substack": "Follow me on Substack",

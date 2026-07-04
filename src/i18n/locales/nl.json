@@ -150,6 +150,9 @@
   },
   "portfolio": {
     "viewBtn": "Bekijk",
+    "prev": "Vorige",
+    "next": "Volgende",
+    "readStory": "Lees het verhaal",
     "cta": {
       "label": "Nieuw project?",
       "title": "Laten we samenwerken",
@@ -275,6 +278,10 @@
         "excerpt": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen."
       }
     }
+  },
+  "article": {
+    "notFound": "Artikel niet gevonden",
+    "notFoundText": "Het artikel dat je zoekt bestaat niet."
   },
   "articleFooter": {
     "substack": "Volg mij op Substack",

@@ -89,6 +89,9 @@
   },
   "portfolio": {
     "viewBtn": "Vedi",
+    "prev": "Precedente",
+    "next": "Successivo",
+    "readStory": "Leggi l'articolo",
     "cta": {
       "label": "Nuovo progetto?",
       "title": "Lavoriamo insieme",
@@ -271,6 +274,10 @@
         "text": "Il sito va online. Ricevi una breve guida per le modifiche minori. E resto disponibile."
       }
     }
+  },
+  "article": {
+    "notFound": "Articolo non trovato",
+    "notFoundText": "L'articolo che cerchi non esiste."
   },
   "articleFooter": {
     "substack": "Seguimi su Substack",

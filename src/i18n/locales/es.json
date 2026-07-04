@@ -89,6 +89,9 @@
   },
   "portfolio": {
     "viewBtn": "Ver",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "readStory": "Leer el artículo",
     "cta": {
       "label": "¿Nuevo proyecto?",
       "title": "Trabajemos juntos",
@@ -271,6 +274,10 @@
         "text": "El sitio se publica. Recibes una pequeña guía para cambios menores. Y sigo disponible."
       }
     }
+  },
+  "article": {
+    "notFound": "Artículo no encontrado",
+    "notFoundText": "El artículo que buscas no existe."
   },
   "articleFooter": {
     "substack": "Sígueme en Substack",
