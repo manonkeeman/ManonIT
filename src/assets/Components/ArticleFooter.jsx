@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { SiSubstack, SiX, SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 import { FiLink, FiCheck } from "react-icons/fi";
 
 const SUBSTACK = "https://manonkeeman.substack.com";
 
 export default function ArticleFooter({ shareTitle, shareText }) {
+    const { t } = useTranslation();
     const [copied, setCopied] = useState(false);
     const [articleUrl, setArticleUrl] = useState("");
 
@@ -30,11 +32,11 @@ export default function ArticleFooter({ shareTitle, shareText }) {
         <footer className="af-wrap">
             <a href={SUBSTACK} target="_blank" rel="noreferrer" className="af-substack">
                 <SiSubstack />
-                Volg mij op Substack
+                {t('articleFooter.substack')}
             </a>
 
             <div className="af-share-section">
-                <span className="af-share-label">Deel dit artikel</span>
+                <span className="af-share-label">{t('articleFooter.shareLabel')}</span>
                 <div className="af-btns">
                     <a
                         className="af-btn af-btn--linkedin"
@@ -72,7 +74,7 @@ export default function ArticleFooter({ shareTitle, shareText }) {
                         onClick={handleCopy}
                     >
                         {copied ? <FiCheck /> : <FiLink />}
-                        <span>{copied ? "Gekopieerd!" : "Link"}</span>
+                        <span>{copied ? t('share.copied') : "Link"}</span>
                     </button>
                 </div>
             </div>

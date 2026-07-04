@@ -272,6 +272,10 @@
       }
     }
   },
+  "articleFooter": {
+    "substack": "Folge mir auf Substack",
+    "shareLabel": "Diesen Artikel teilen"
+  },
   "testimonials": {
     "label": "Was Kunden sagen",
     "title": "Bewertungen",

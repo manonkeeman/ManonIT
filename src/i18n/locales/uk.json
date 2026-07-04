@@ -276,6 +276,10 @@
       }
     }
   },
+  "articleFooter": {
+    "substack": "Слідкуй за мною на Substack",
+    "shareLabel": "Поділитися статтею"
+  },
   "testimonials": {
     "label": "Що кажуть клієнти",
     "title": "Відгуки",

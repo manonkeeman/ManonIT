@@ -276,6 +276,10 @@
       }
     }
   },
+  "articleFooter": {
+    "substack": "Volg mij op Substack",
+    "shareLabel": "Deel dit artikel"
+  },
   "testimonials": {
     "label": "Wat klanten zeggen",
     "title": "Reviews",
