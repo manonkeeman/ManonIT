@@ -7,6 +7,7 @@ import fr from './locales/fr.json';
 import de from './locales/de.json';
 import es from './locales/es.json';
 import it from './locales/it.json';
+import uk from './locales/uk.json';
 
 const savedLang = localStorage.getItem('lang') || 'nl';
 
@@ -18,6 +19,7 @@ i18n.use(initReactI18next).init({
     de: { translation: de },
     es: { translation: es },
     it: { translation: it },
+    uk: { translation: uk },
   },
   lng: savedLang,
   fallbackLng: 'nl',

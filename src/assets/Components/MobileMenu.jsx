@@ -8,6 +8,7 @@ const LANGUAGES = [
     { code: 'de', label: 'DE' },
     { code: 'es', label: 'ES' },
     { code: 'it', label: 'IT' },
+    { code: 'uk', label: 'УК' },
 ];
 
 export default function MobileMenu({ open, onClose }) {

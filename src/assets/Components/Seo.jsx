@@ -7,9 +7,9 @@ const SITE_NAME = "ManonIT";
 
 const LOCALE_MAP = {
     nl: "nl_NL", en: "en_US", fr: "fr_FR",
-    de: "de_DE", es: "es_ES", it: "it_IT",
+    de: "de_DE", es: "es_ES", it: "it_IT", uk: "uk_UA",
 };
-const ALT_LOCALES = ["nl_NL", "en_US", "fr_FR", "de_DE", "es_ES", "it_IT"];
+const ALT_LOCALES = ["nl_NL", "en_US", "fr_FR", "de_DE", "es_ES", "it_IT", "uk_UA"];
 
 export default function Seo({ title, description, path = "", image, type = "website" }) {
     const { i18n } = useTranslation();
