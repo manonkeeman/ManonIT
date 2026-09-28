@@ -36,7 +36,7 @@
   to = "/en/journal/wat-kost-een-website"
   status = 301
 
-# SPA fallback: geprerenderde pagina's (dist/<pad>/index.html) worden direct
+# SPA fallback: geprerenderde pagina's (dist/<pad>.html) worden direct
 # geserveerd; alle andere routes krijgen de onbewerkte app-shell (zie scripts/prerender.mjs)
 [[redirects]]
   from = "/*"

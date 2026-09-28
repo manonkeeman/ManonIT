@@ -39,7 +39,7 @@ npm run build
 Dit doet twee dingen:
 
 1. `vite build` bouwt de app naar `dist/`.
-2. `scripts/prerender.mjs` opent elke URL uit `public/sitemap.xml` in headless Chrome en slaat de volledig gerenderde HTML op als `dist/<pad>/index.html`.
+2. `scripts/prerender.mjs` opent elke URL uit `public/sitemap.xml` in headless Chrome en slaat de volledig gerenderde HTML op als `dist/<pad>.html` (Netlify serveert dat onder `/<pad>` zonder doorverwijzing).
 
 Stap 2 is belangrijk voor vindbaarheid: zonder prerendering is elke pagina leeg voor bots die geen JavaScript uitvoeren (zoals GPTBot, ClaudeBot en PerplexityBot). Mislukt het prerenderen, dan faalt de build niet; de site werkt dan als gewone SPA.
 

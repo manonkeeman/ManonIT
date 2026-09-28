@@ -3,7 +3,7 @@
 // De site is een React-app: zonder JavaScript is elke pagina leeg. AI-crawlers
 // (GPTBot, ClaudeBot, PerplexityBot) voeren geen JavaScript uit en Google doet
 // het pas later. Dit script opent elke URL uit de sitemap in headless Chrome en
-// slaat de volledig gerenderde HTML op als dist/<pad>/index.html. Netlify serveert
+// slaat de volledig gerenderde HTML op als dist/<pad>.html. Netlify serveert
 // die bestanden direct; in de browser neemt React het daarna gewoon over.
 //
 // Gaat er iets mis (bijv. Chrome start niet op de buildserver), dan faalt de
@@ -11,7 +11,7 @@
 
 import { createServer } from "node:http";
 import { readFile, writeFile, mkdir, copyFile, stat } from "node:fs/promises";
-import { join, extname } from "node:path";
+import { join, extname, dirname } from "node:path";
 
 const DIST = new URL("../dist/", import.meta.url).pathname;
 const SITE = "https://manonit.com";
@@ -91,9 +91,11 @@ async function main() {
             });
             await page.close();
 
-            const outDir = route === "/" ? DIST : join(DIST, route);
-            await mkdir(outDir, { recursive: true });
-            await writeFile(join(outDir, "index.html"), html);
+            // /about -> dist/about.html (niet about/index.html): Netlify serveert dat
+            // direct onder /about, zonder 301 naar /about/ die de canonical tegenspreekt.
+            const outFile = route === "/" ? join(DIST, "index.html") : join(DIST, `${route}.html`);
+            await mkdir(dirname(outFile), { recursive: true });
+            await writeFile(outFile, html);
             ok++;
         } catch (err) {
             console.warn(`[prerender] ${route} overgeslagen: ${err.message}`);
