@@ -172,24 +172,6 @@
 
   <!-- Journal -->
   <url>
-    <loc>https://manonit.com/journal/fullstackdeveloper</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/fullstackdeveloper" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/fullstackdeveloper" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/fullstackdeveloper" />
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/en/journal/fullstackdeveloper</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/fullstackdeveloper" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/fullstackdeveloper" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/fullstackdeveloper" />
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://manonit.com/journal/designchaos</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/designchaos" />
     <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/designchaos" />
@@ -224,24 +206,6 @@
     <lastmod>2025-09-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/journal/luchtvaartfamilie2018</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/luchtvaartfamilie2018" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/luchtvaartfamilie2018" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/luchtvaartfamilie2018" />
-    <lastmod>2018-02-18</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/en/journal/luchtvaartfamilie2018</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/luchtvaartfamilie2018" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/luchtvaartfamilie2018" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/luchtvaartfamilie2018" />
-    <lastmod>2018-02-18</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://manonit.com/journal/365korteverhalen</loc>
@@ -325,6 +289,35 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/verhaal-achter-casacrew" />
     <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/verhaal-achter-casacrew" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/verhaal-achter-casacrew" />
+    <lastmod>2026-09-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://manonit.com/journal/samenwerking-the-big-three</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/samenwerking-the-big-three" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/samenwerking-the-big-three" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/samenwerking-the-big-three" />
+    <lastmod>2026-09-28</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/en/journal/samenwerking-the-big-three</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/samenwerking-the-big-three" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/samenwerking-the-big-three" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/samenwerking-the-big-three" />
+    <lastmod>2026-09-28</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/journal/website-villa-vredestein</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/website-villa-vredestein" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/website-villa-vredestein" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/website-villa-vredestein" />
+    <lastmod>2026-09-28</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/en/journal/website-villa-vredestein</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/website-villa-vredestein" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/website-villa-vredestein" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/website-villa-vredestein" />
     <lastmod>2026-09-28</lastmod>
   </url>
 </urlset>

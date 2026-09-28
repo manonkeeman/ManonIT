@@ -217,6 +217,7 @@ export default function BackendStudentenDashboard() {
                 title={tr("seo.portfolio.backend.title")}
                 description={tr("seo.portfolio.backend.description")}
                 path="/backendstudentendashboard"
+                image="https://manonit.com/og/project-casacrew.jpg"
             />
             <JsonLd data={SCHEMA} />
 

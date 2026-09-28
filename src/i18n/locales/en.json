@@ -14,15 +14,15 @@
         "marieboddaert": "Web Design - Marie H. Boddaert"
       },
       "journal": {
-        "scrummaster": "Full Stack Developer",
         "designchaos": "Design Chaos",
-        "luchtvaartfamilie2018": "Aviation Family 2018",
         "storytelling": "Storytelling",
         "toekomsttech": "Future of Tech",
         "365korteverhalen": "365 Short Stories",
         "pastelvanbuiten": "Pastel on the outside, surprising on the inside",
         "ai-in-mijn-werk": "AI in my work",
-        "verhaal-achter-casacrew": "The story behind CasaCrew"
+        "verhaal-achter-casacrew": "The story behind CasaCrew",
+        "samenwerking-the-big-three": "Freedom and trust: The Big Three",
+        "website-villa-vredestein": "Villa Vredestein: a house with a story"
       }
     },
     "services": "Services",
@@ -237,14 +237,6 @@
       "description": "Articles about full stack development, storytelling, design and my path from KLM to code. Honest, personal and practical."
     },
     "journal": {
-      "scrummaster": {
-        "title": "From plane pusher to Full Stack Developer | Manon Keeman",
-        "description": "How I went from KLM pushback to building systems in code."
-      },
-      "fullstackdeveloper": {
-        "title": "From plane pusher to Full Stack Developer | Manon Keeman",
-        "description": "How I went from KLM pushback to building systems in code."
-      },
       "designchaos": {
         "title": "Ordering chaos with code and design | Manon Keeman",
         "description": "Why structure is not boring but gives freedom."
@@ -252,10 +244,6 @@
       "storytelling": {
         "title": "Storytelling in IT | Manon Keeman",
         "description": "Why stories are indispensable in technology."
-      },
-      "luchtvaartfamilie2018": {
-        "title": "Aviation Family (Up in the Sky) | Manon Keeman",
-        "description": "A peek into our aviation family. Interview Up in the Sky, 2018."
       },
       "365korteverhalen": {
         "title": "365 Short stories: from idea to book | Manon Keeman",
@@ -276,6 +264,14 @@
       "pastelvanbuiten": {
         "title": "Pastel on the outside, surprising on the inside | Manon Keeman",
         "description": "How I built my niece Marie's website: sweet on the outside, thoughtful on the inside."
+      },
+      "samenwerking-the-big-three": {
+        "title": "Freedom and trust: building a website for The Big Three | Manon Keeman",
+        "description": "What happens when a client gives you room to work: the website for The Big Three, an American car garage in Nunspeet."
+      },
+      "website-villa-vredestein": {
+        "title": "Villa Vredestein: a house with a story, now online too | Manon Keeman",
+        "description": "How I translated the story of a villa from 1906 in Driebergen-Rijsenburg into a website without frills."
       }
     },
     "portfolio": {
@@ -299,14 +295,6 @@
   },
   "journalSection": {
     "articles": {
-      "scrummaster": {
-        "title": "From plane pusher to Full Stack Developer",
-        "excerpt": "How I went from KLM pushback to building systems in code."
-      },
-      "fullstackdeveloper": {
-        "title": "Full Stack Developer",
-        "excerpt": "From plane pusher to Full Stack Developer"
-      },
       "designchaos": {
         "title": "Ordering chaos with code and design",
         "excerpt": "Why structure is not boring but gives freedom."
@@ -314,10 +302,6 @@
       "storytelling": {
         "title": "Storytelling in IT",
         "excerpt": "Why stories are indispensable in technology."
-      },
-      "luchtvaartfamilie2018": {
-        "title": "Aviation Family (Up in the Sky)",
-        "excerpt": "A peek into our aviation family. Interview Up in the Sky, 2018."
       },
       "365korteverhalen": {
         "title": "365 Short stories: from idea to book",
@@ -338,6 +322,14 @@
       "pastelvanbuiten": {
         "title": "Pastel on the outside, surprising on the inside",
         "excerpt": "How I built my niece Marie's website: sweet on the outside, thoughtful on the inside."
+      },
+      "samenwerking-the-big-three": {
+        "title": "Freedom and trust: building a website for The Big Three",
+        "excerpt": "What happens when a client gives you room to work: the website for The Big Three, an American car garage in Nunspeet."
+      },
+      "website-villa-vredestein": {
+        "title": "Villa Vredestein: a house with a story, now online too",
+        "excerpt": "How I translated the story of a villa from 1906 in Driebergen-Rijsenburg into a website without frills."
       }
     }
   },

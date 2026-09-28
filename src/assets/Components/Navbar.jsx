@@ -44,10 +44,10 @@ export default function Navbar() {
                         <div className="nav-dropdown">
                             <NavLink to="/journal/ai-in-mijn-werk">{t('nav.links.journal.ai-in-mijn-werk')}</NavLink>
                             <NavLink to="/journal/verhaal-achter-casacrew">{t('nav.links.journal.verhaal-achter-casacrew')}</NavLink>
+                            <NavLink to="/journal/samenwerking-the-big-three">{t('nav.links.journal.samenwerking-the-big-three')}</NavLink>
+                            <NavLink to="/journal/website-villa-vredestein">{t('nav.links.journal.website-villa-vredestein')}</NavLink>
                             <NavLink to="/journal/365korteverhalen">{t('nav.links.journal.365korteverhalen')}</NavLink>
                             <NavLink to="/journal/designchaos">{t('nav.links.journal.designchaos')}</NavLink>
-                            <NavLink to="/journal/luchtvaartfamilie2018">{t('nav.links.journal.luchtvaartfamilie2018')}</NavLink>
-                            <NavLink to="/journal/fullstackdeveloper">{t('nav.links.journal.scrummaster')}</NavLink>
                             <NavLink to="/journal/storytelling">{t('nav.links.journal.storytelling')}</NavLink>
                             <NavLink to="/journal/toekomsttech">{t('nav.links.journal.toekomsttech')}</NavLink>
                             <NavLink to="/journal/pastelvanbuiten">{t('nav.links.journal.pastelvanbuiten')}</NavLink>

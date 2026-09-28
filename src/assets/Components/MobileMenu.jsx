@@ -89,23 +89,23 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/journal/verhaal-achter-casacrew" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.verhaal-achter-casacrew')}
                     </NavLink>
+                    <NavLink to="/journal/samenwerking-the-big-three" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.samenwerking-the-big-three')}
+                    </NavLink>
+                    <NavLink to="/journal/website-villa-vredestein" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.website-villa-vredestein')}
+                    </NavLink>
                     <NavLink to="/journal/365korteverhalen" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.365korteverhalen')}
                     </NavLink>
                     <NavLink to="/journal/designchaos" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.designchaos')}
                     </NavLink>
-                    <NavLink to="/journal/fullstackdeveloper" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.scrummaster')}
-                    </NavLink>
                     <NavLink to="/journal/storytelling" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.storytelling')}
                     </NavLink>
                     <NavLink to="/journal/toekomsttech" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.toekomsttech')}
-                    </NavLink>
-                    <NavLink to="/journal/luchtvaartfamilie2018" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.luchtvaartfamilie2018')}
                     </NavLink>
                     <NavLink to="/journal/pastelvanbuiten" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.pastelvanbuiten')}

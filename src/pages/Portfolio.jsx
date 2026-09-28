@@ -21,6 +21,8 @@ const projects = [
         tags: ["React", "Vite", "UX/UI", "SEO"],
         route: "/frontendvredestein",
         base: "/Portfolio/villa-vredestein-mockup",
+        liveUrl: "https://villavredestein.com",
+        journalLink: "/journal/website-villa-vredestein",
         num: "02",
     },
     {
@@ -37,6 +39,8 @@ const projects = [
         tags: ["Webdesign", "CMS", "SEO", "NL · EN · DE"],
         route: "/thebigthree",
         base: "/Portfolio/de-grote-drie-mockup",
+        liveUrl: "https://thebigthree.nl",
+        journalLink: "/journal/samenwerking-the-big-three",
         num: "04",
     },
     {

@@ -14,15 +14,15 @@
         "marieboddaert": "Webdesign - Marie H. Boddaert"
       },
       "journal": {
-        "scrummaster": "Full Stack Developer",
         "designchaos": "Design Chaos",
-        "luchtvaartfamilie2018": "Famiglia Aviazione 2018",
         "storytelling": "Storytelling",
         "pastelvanbuiten": "Pastello fuori, sorprendente dentro",
         "toekomsttech": "Futuro & Tech",
         "365korteverhalen": "365 Racconti brevi",
         "ai-in-mijn-werk": "AI in my work",
-        "verhaal-achter-casacrew": "The story behind CasaCrew"
+        "verhaal-achter-casacrew": "The story behind CasaCrew",
+        "samenwerking-the-big-three": "Libertà e fiducia: The Big Three",
+        "website-villa-vredestein": "Villa Vredestein: una casa con una storia"
       }
     },
     "services": "Servizi",
@@ -176,14 +176,6 @@
       "description": "Articoli su sviluppo full stack, storytelling, design e il mio percorso da KLM al codice. Onesto, personale e pratico."
     },
     "journal": {
-      "scrummaster": {
-        "title": "Da trainaerei a sviluppatrice Full Stack | Manon Keeman",
-        "description": "Come sono passata da KLM pushback al mondo del codice e dei sistemi."
-      },
-      "fullstackdeveloper": {
-        "title": "Da trainaerei a sviluppatrice Full Stack | Manon Keeman",
-        "description": "Come sono passata da KLM pushback al mondo del codice e dei sistemi."
-      },
       "designchaos": {
         "title": "Ordinare il caos con il codice e il design | Manon Keeman",
         "description": "Perché la struttura non è noiosa ma dona libertà."
@@ -191,10 +183,6 @@
       "storytelling": {
         "title": "Storytelling nell'IT | Manon Keeman",
         "description": "Perché le storie sono indispensabili nella tecnologia."
-      },
-      "luchtvaartfamilie2018": {
-        "title": "Famiglia dell'aviazione (Up in the Sky) | Manon Keeman",
-        "description": "Uno sguardo alla nostra famiglia dell'aviazione. Intervista Up in the Sky, 2018."
       },
       "365korteverhalen": {
         "title": "365 Racconti brevi: dall'idea al libro | Manon Keeman",
@@ -215,6 +203,14 @@
       "verhaal-achter-casacrew": {
         "title": "Dal foglio Excel alla propria app: la storia di CasaCrew | Manon Keeman",
         "description": "Come un foglio Excel strapieno a Villa Vredestein è diventato CasaCrew, un'app per chi affitta stanze."
+      },
+      "samenwerking-the-big-three": {
+        "title": "Libertà e fiducia: un sito web per The Big Three | Manon Keeman",
+        "description": "Cosa succede quando un cliente ti lascia spazio: il sito di The Big Three, officina di auto americane a Nunspeet."
+      },
+      "website-villa-vredestein": {
+        "title": "Villa Vredestein: una casa con una storia, ora anche online | Manon Keeman",
+        "description": "Come ho tradotto la storia di una villa del 1906 a Driebergen-Rijsenburg in un sito senza fronzoli."
       }
     },
     "portfolio": {
@@ -238,14 +234,6 @@
   },
   "journalSection": {
     "articles": {
-      "scrummaster": {
-        "title": "Da trainaerei a sviluppatrice Full Stack",
-        "excerpt": "Come sono passata da KLM pushback al mondo del codice e dei sistemi."
-      },
-      "fullstackdeveloper": {
-        "title": "Full Stack Developer",
-        "excerpt": "Da trainaerei a Full Stack Developer"
-      },
       "designchaos": {
         "title": "Ordinare il caos con il codice e il design",
         "excerpt": "Perché la struttura non è noiosa ma dona libertà."
@@ -253,10 +241,6 @@
       "storytelling": {
         "title": "Storytelling nell'IT",
         "excerpt": "Perché le storie sono indispensabili nella tecnologia."
-      },
-      "luchtvaartfamilie2018": {
-        "title": "Famiglia dell'aviazione (Up in the Sky)",
-        "excerpt": "Uno sguardo alla nostra famiglia dell'aviazione. Intervista Up in the Sky, 2018."
       },
       "365korteverhalen": {
         "title": "365 Racconti brevi: dall'idea al libro",
@@ -277,6 +261,14 @@
       "verhaal-achter-casacrew": {
         "title": "Dal foglio Excel alla propria app: la storia di CasaCrew",
         "excerpt": "Come un foglio Excel strapieno a Villa Vredestein è diventato CasaCrew, un'app per chi affitta stanze."
+      },
+      "samenwerking-the-big-three": {
+        "title": "Libertà e fiducia: un sito web per The Big Three",
+        "excerpt": "Cosa succede quando un cliente ti lascia spazio: il sito di The Big Three, officina di auto americane a Nunspeet."
+      },
+      "website-villa-vredestein": {
+        "title": "Villa Vredestein: una casa con una storia, ora anche online",
+        "excerpt": "Come ho tradotto la storia di una villa del 1906 a Driebergen-Rijsenburg in un sito senza fronzoli."
       }
     }
   },

@@ -46,6 +46,37 @@
   to = "/en#tarieven"
   status = 301
 
+# Verwijderde blogs: doorsturen naar het journal
+[[redirects]]
+  from = "/journal/fullstackdeveloper"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/fullstackdeveloper"
+  to = "/en/journal"
+  status = 301
+
+[[redirects]]
+  from = "/journal/scrummaster"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/scrummaster"
+  to = "/en/journal"
+  status = 301
+
+[[redirects]]
+  from = "/journal/luchtvaartfamilie2018"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/luchtvaartfamilie2018"
+  to = "/en/journal"
+  status = 301
+
 # SPA fallback: geprerenderde pagina's (dist/<pad>.html) worden direct
 # geserveerd; alle andere routes krijgen de onbewerkte app-shell (zie scripts/prerender.mjs)
 [[redirects]]

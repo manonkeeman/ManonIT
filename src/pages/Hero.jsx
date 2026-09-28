@@ -74,12 +74,12 @@ function Hero() {
                             </picture>
                         </Link>
 
-                        <Link to="/marieboddaert" className="hero-window" aria-label="Marie H. Boddaert">
-                            <span className="hero-window-bar" aria-hidden="true"><i/><i/><i/></span>
+                        <Link to="/backendstudentendashboard" className="hero-window" aria-label="CasaCrew verhuurapp">
+                            <span className="hero-window-bar" aria-hidden="true"><i/><i/><i/><b>casacrew.nl</b></span>
                             <picture>
-                                <source type="image/avif" srcSet="/hero-work-marie-400w.avif 400w, /hero-work-marie-700w.avif 700w" sizes="240px" />
-                                <source type="image/webp" srcSet="/hero-work-marie-400w.webp 400w, /hero-work-marie-700w.webp 700w" sizes="240px" />
-                                <img src="/hero-work-marie-400w.webp" width="400" height="225" loading="lazy" decoding="async" alt="Website Marie H. Boddaert" />
+                                <source type="image/avif" srcSet="/hero-work-casacrew-400w.avif 400w, /hero-work-casacrew-700w.avif 700w" sizes="(max-width: 920px) 50vw, 280px" />
+                                <source type="image/webp" srcSet="/hero-work-casacrew-400w.webp 400w, /hero-work-casacrew-700w.webp 700w" sizes="(max-width: 920px) 50vw, 280px" />
+                                <img src="/hero-work-casacrew-400w.webp" width="700" height="270" loading="lazy" decoding="async" alt="Dashboard van de CasaCrew verhuurapp" />
                             </picture>
                         </Link>
 
@@ -177,14 +177,15 @@ function Hero() {
         .hero-shot:hover img{ transform: translateY(-3px); }
         .hero-window{
           position:absolute; left:0; bottom:0;
-          width: 42%;
+          width: 46%;
           background:#fff; border-radius:12px; overflow:hidden;
           border:1px solid var(--border);
           box-shadow: 0 20px 40px -14px rgba(0,0,0,.35);
           transition: transform .25s ease;
         }
         .hero-window:hover{ transform: translateY(-4px); }
-        .hero-window-bar{ display:flex; gap:5px; padding:7px 9px; background: var(--bg-alt); }
+        .hero-window-bar{ display:flex; align-items:center; gap:5px; padding:7px 9px; background: var(--bg-alt); }
+        .hero-window-bar b{ margin-left:6px; font-size:.62rem; font-weight:500; color:var(--muted); background:#fff; border-radius:4px; padding:1px 8px; }
         .hero-window-bar i{ width:7px; height:7px; border-radius:50%; background: rgba(0,0,0,.15); }
         .hero-window img{ width:100%; height:auto; border-radius:0; }
         /* Trust bar */

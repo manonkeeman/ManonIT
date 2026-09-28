@@ -1,5 +1,5 @@
 export function getResponsiveImage(srcBase, alt) {
-    // srcBase = "/journal/scrummaster"
+    // srcBase = "/journal/storytelling-it"
     return (
         <picture>
             <source

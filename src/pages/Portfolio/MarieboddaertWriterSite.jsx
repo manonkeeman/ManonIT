@@ -6,7 +6,7 @@ import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
 const MOCKUP   = "/Portfolio/marie-boddaert-blog-mockup";
 const LIVE_URL = "https://marie-boddaert.netlify.app/";
-const OG_IMAGE = "https://manonit.com/og-marie-boddaert.jpg";
+const OG_IMAGE = "https://manonit.com/og/project-marie-boddaert.jpg";
 
 const SCHEMA = {
     "@context": "https://schema.org",

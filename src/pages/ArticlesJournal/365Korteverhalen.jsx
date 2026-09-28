@@ -18,13 +18,14 @@ const bodies = {
                 over mijn jeugd raakten haar. Ze zei: "Dit is je stem. Hier zit je kracht." Zonder haar aanmoediging had ik dit project
                 misschien nooit serieus genomen.
             </p>
-            <p>
-                Toch schrijf ik niet op de klassieke manier. Komma's, punten, grammatica, het waren altijd mijn struikelblokken. Alleen
-                dankzij ChatGPT kan ik nu foutloos schrijven. Niet omdat ik ineens anders ben, maar omdat techniek de ruis weghaalt. Ik
-                kan me volledig richten op de essentie: vertellen. En ja, ik gebruik AI zonder schaamte. Want eerlijk? Het is mijn
-                reddingsboei.
-            </p>
             <p>Het resultaat is een boek dat nog onderweg is. Geen afgerond werk, maar een proces dat zichtbaar mag zijn. Een boek in wording.</p>
+            <h2>Waarover ik schrijf</h2>
+            <p>Over mijn jeugd. Over een moeder die de werkelijkheid naar haar hand zette, en over een kind dat leerde om daar doorheen te kijken. Over instanties die de verkeerde kant op keken, over kleine momenten die groot bleken te zijn, en over de absurditeit die ontstaat als niets is wat het lijkt.</p>
+            <p>Dat klinkt zwaar, en soms is het dat ook. Maar veel scènes zijn vooral absurd. Zo absurd dat je er alleen nog om kunt lachen. Die zwarte humor is geen trucje. Het is hoe ik het heb overleefd, en hoe ik het nu kan vertellen.</p>
+            <h2>Hoe ik schrijf</h2>
+            <p>Ik schrijf in scènes, niet in hoofdstukken. Een geur, een zin die iemand zei, een voorwerp op de keukentafel: daar begint het. Vanuit dat ene beeld schrijf ik het moment uit, zo precies mogelijk, zonder uit te leggen wat het betekent. De lezer mag het zelf voelen.</p>
+            <p>Niet elk fragment komt in één keer. Sommige staan er in een kwartier, andere laat ik lang liggen voordat ik ze durf af te maken. Ik schrap veel. Wat overblijft moet kloppen: geen woord te veel en geen emotie die ik de lezer opdring.</p>
+            <p>De vorm van 365 fragmenten geeft me houvast. Ik hoef niet in één keer een heel leven te vertellen. Elke dag één moment. Samen vormen ze het verhaal, ook als ze niet op volgorde staan.</p>
             <blockquote>
                 <strong>365 keer opnieuw beginnen</strong>
                 <br />
@@ -59,13 +60,14 @@ const bodies = {
                 which I wrote about my childhood moved her. She said: "This is your voice. This is where your strength lies." Without
                 her encouragement I might never have taken this project seriously.
             </p>
-            <p>
-                Yet I do not write in the classical way. Commas, full stops, grammar, those were always my stumbling blocks. Only
-                thanks to ChatGPT can I now write without mistakes. Not because I have suddenly changed, but because technology removes
-                the noise. I can focus entirely on the essence: telling the story. And yes, I use AI without shame. Because honestly?
-                It is my lifeline.
-            </p>
             <p>The result is a book still in progress. Not a finished work, but a process that is allowed to be visible. A book in the making.</p>
+            <h2>What I write about</h2>
+            <p>About my childhood. About a mother who bent reality to her will, and about a child who learned to see through it. About institutions that looked the wrong way, about small moments that turned out to be big, and about the absurdity that arises when nothing is what it seems.</p>
+            <p>That sounds heavy, and sometimes it is. But many scenes are above all absurd. So absurd that all you can do is laugh. That dark humour isn't a trick. It's how I survived it, and how I can tell it now.</p>
+            <h2>How I write</h2>
+            <p>I write in scenes, not chapters. A smell, a sentence someone said, an object on the kitchen table: that's where it starts. From that one image I write out the moment, as precisely as I can, without explaining what it means. The reader gets to feel it.</p>
+            <p>Not every fragment comes at once. Some are done in fifteen minutes, others I leave for a long time before I dare to finish them. I cut a lot. What remains has to be right: not one word too many, and no emotion forced on the reader.</p>
+            <p>The form of 365 fragments gives me something to hold on to. I don't have to tell a whole life in one go. One moment a day. Together they form the story, even when they're not in order.</p>
             <blockquote>
                 <strong>365 times starting over</strong>
                 <br />
@@ -100,13 +102,14 @@ const bodies = {
                 les textes dans lesquels j'écrivais sur mon enfance la touchaient. Elle a dit: "C'est ta voix. C'est là que réside ta
                 force." Sans ses encouragements, je n'aurais peut-être jamais pris ce projet au sérieux.
             </p>
-            <p>
-                Pourtant, je n'écris pas à la manière classique. Les virgules, les points, la grammaire, c'était toujours mes points
-                de trébuchement. C'est seulement grâce à ChatGPT que je peux maintenant écrire sans fautes. Non pas parce que j'ai
-                soudainement changé, mais parce que la technologie enlève le bruit. Je peux me concentrer entièrement sur l'essentiel:
-                raconter. Et oui, j'utilise l'IA sans honte. Parce qu'honnêtement? C'est ma bouée de sauvetage.
-            </p>
             <p>Le résultat est un livre encore en cours. Pas une oeuvre achevée, mais un processus qui peut être visible. Un livre en devenir.</p>
+            <h2>Ce sur quoi j'écris</h2>
+            <p>Sur mon enfance. Sur une mère qui pliait la réalité à sa volonté, et sur une enfant qui a appris à voir au travers. Sur des institutions qui regardaient ailleurs, sur de petits moments qui se sont révélés immenses, et sur l'absurdité qui naît quand rien n'est ce qu'il paraît.</p>
+            <p>Cela semble lourd, et parfois ça l'est. Mais beaucoup de scènes sont surtout absurdes. Si absurdes qu'on ne peut qu'en rire. Cet humour noir n'est pas un artifice. C'est ainsi que j'ai survécu, et c'est ainsi que je peux le raconter aujourd'hui.</p>
+            <h2>Comment j'écris</h2>
+            <p>J'écris en scènes, pas en chapitres. Une odeur, une phrase que quelqu'un a dite, un objet sur la table de la cuisine : tout part de là. À partir de cette seule image, j'écris le moment, aussi précisément que possible, sans expliquer ce qu'il signifie. Le lecteur peut le ressentir lui-même.</p>
+            <p>Tous les fragments ne viennent pas d'un coup. Certains sont écrits en un quart d'heure, d'autres restent longtemps de côté avant que j'ose les terminer. Je coupe beaucoup. Ce qui reste doit être juste : pas un mot de trop, et aucune émotion imposée au lecteur.</p>
+            <p>La forme des 365 fragments me donne un cadre. Je n'ai pas à raconter toute une vie d'un coup. Un moment par jour. Ensemble, ils forment l'histoire, même s'ils ne sont pas dans l'ordre.</p>
             <blockquote>
                 <strong>365 fois recommencer</strong>
                 <br />
@@ -142,13 +145,14 @@ const bodies = {
                 in denen ich über meine Kindheit schrieb, berührten sie. Sie sagte: "Das ist deine Stimme. Hier liegt deine Stärke."
                 Ohne ihre Ermutigung hätte ich dieses Projekt vielleicht nie ernsthaft betrieben.
             </p>
-            <p>
-                Dennoch schreibe ich nicht auf klassische Weise. Kommas, Punkte, Grammatik, das waren immer meine Stolpersteine. Nur
-                dank ChatGPT kann ich jetzt fehlerfrei schreiben. Nicht weil ich plötzlich anders bin, sondern weil Technologie das
-                Rauschen entfernt. Ich kann mich vollständig auf das Wesentliche konzentrieren: erzählen. Und ja, ich nutze KI ohne
-                Scham. Denn ehrlich gesagt? Es ist mein Rettungsring.
-            </p>
             <p>Das Ergebnis ist ein Buch, das noch unterwegs ist. Kein fertiges Werk, sondern ein Prozess, der sichtbar sein darf. Ein Buch im Entstehen.</p>
+            <h2>Worüber ich schreibe</h2>
+            <p>Über meine Kindheit. Über eine Mutter, die sich die Wirklichkeit zurechtbog, und über ein Kind, das lernte, hindurchzusehen. Über Behörden, die in die falsche Richtung schauten, über kleine Momente, die sich als groß herausstellten, und über die Absurdität, die entsteht, wenn nichts ist, wie es scheint.</p>
+            <p>Das klingt schwer, und manchmal ist es das auch. Aber viele Szenen sind vor allem absurd. So absurd, dass man nur noch darüber lachen kann. Dieser schwarze Humor ist kein Trick. So habe ich es überlebt, und so kann ich es heute erzählen.</p>
+            <h2>Wie ich schreibe</h2>
+            <p>Ich schreibe in Szenen, nicht in Kapiteln. Ein Geruch, ein Satz, den jemand gesagt hat, ein Gegenstand auf dem Küchentisch: Dort fängt es an. Von diesem einen Bild aus schreibe ich den Moment aus, so genau wie möglich, ohne zu erklären, was er bedeutet. Der Leser darf ihn selbst fühlen.</p>
+            <p>Nicht jedes Fragment kommt auf einmal. Manche stehen in einer Viertelstunde, andere lasse ich lange liegen, bevor ich mich traue, sie fertigzuschreiben. Ich streiche viel. Was bleibt, muss stimmen: kein Wort zu viel und keine Emotion, die ich dem Leser aufdränge.</p>
+            <p>Die Form von 365 Fragmenten gibt mir Halt. Ich muss nicht auf einmal ein ganzes Leben erzählen. Jeden Tag ein Moment. Zusammen ergeben sie die Geschichte, auch wenn sie nicht in der richtigen Reihenfolge stehen.</p>
             <blockquote>
                 <strong>365 mal neu anfangen</strong>
                 <br />
@@ -184,13 +188,14 @@ const bodies = {
                 en los que escribía sobre mi infancia la conmovían. Dijo: "Esta es tu voz. Aquí está tu fuerza." Sin su aliento, quizás
                 nunca hubiera tomado este proyecto en serio.
             </p>
-            <p>
-                Sin embargo, no escribo de la manera clásica. Comas, puntos, gramática, siempre fueron mis tropiezos. Solo gracias a
-                ChatGPT puedo ahora escribir sin errores. No porque de repente haya cambiado, sino porque la tecnología elimina el
-                ruido. Puedo centrarme completamente en lo esencial: contar. Y sí, uso la IA sin vergüenza. Porque honestamente? Es
-                mi salvavidas.
-            </p>
             <p>El resultado es un libro que aún está en camino. No una obra terminada, sino un proceso que puede ser visible. Un libro en construcción.</p>
+            <h2>Sobre qué escribo</h2>
+            <p>Sobre mi infancia. Sobre una madre que doblaba la realidad a su antojo, y sobre una niña que aprendió a ver a través de ella. Sobre instituciones que miraban hacia otro lado, sobre pequeños momentos que resultaron ser enormes, y sobre el absurdo que surge cuando nada es lo que parece.</p>
+            <p>Suena duro, y a veces lo es. Pero muchas escenas son sobre todo absurdas. Tan absurdas que solo puedes reírte. Ese humor negro no es un truco. Es como lo sobreviví, y como puedo contarlo ahora.</p>
+            <h2>Cómo escribo</h2>
+            <p>Escribo en escenas, no en capítulos. Un olor, una frase que alguien dijo, un objeto sobre la mesa de la cocina: ahí empieza todo. Desde esa única imagen escribo el momento, con la mayor precisión posible, sin explicar lo que significa. El lector puede sentirlo por sí mismo.</p>
+            <p>No todos los fragmentos salen de una vez. Algunos los escribo en un cuarto de hora, otros los dejo reposar mucho tiempo antes de atreverme a terminarlos. Tacho mucho. Lo que queda tiene que encajar: ni una palabra de más, ni una emoción impuesta al lector.</p>
+            <p>La forma de 365 fragmentos me da un punto de apoyo. No tengo que contar toda una vida de golpe. Un momento al día. Juntos forman la historia, aunque no estén en orden.</p>
             <blockquote>
                 <strong>365 veces empezar de nuevo</strong>
                 <br />
@@ -227,13 +232,14 @@ const bodies = {
                 pezzi in cui scrivevo della mia infanzia la commovevano. Ha detto: "Questa e' la tua voce. Qui c'e' la tua forza."
                 Senza il suo incoraggiamento forse non avrei mai preso sul serio questo progetto.
             </p>
-            <p>
-                Eppure non scrivo nel modo classico. Virgole, punti, grammatica, erano sempre i miei ostacoli. Solo grazie a
-                ChatGPT posso ora scrivere senza errori. Non perche' sia improvvisamente cambiata, ma perche' la tecnologia elimina
-                il rumore. Posso concentrarmi completamente sull'essenziale: raccontare. E si', uso l'IA senza vergogna. Perche'
-                onestamente? E' il mio salvagente.
-            </p>
             <p>Il risultato e' un libro ancora in corso. Non un'opera finita, ma un processo che puo' essere visibile. Un libro in divenire.</p>
+            <h2>Di cosa scrivo</h2>
+            <p>Della mia infanzia. Di una madre che piegava la realtà al suo volere, e di una bambina che ha imparato a guardarci attraverso. Di istituzioni che guardavano dall'altra parte, di piccoli momenti che si sono rivelati enormi, e dell'assurdità che nasce quando niente è come sembra.</p>
+            <p>Sembra pesante, e a volte lo è. Ma molte scene sono soprattutto assurde. Così assurde che puoi solo riderne. Quell'umorismo nero non è un espediente. È il modo in cui sono sopravvissuta, e il modo in cui ora posso raccontarlo.</p>
+            <h2>Come scrivo</h2>
+            <p>Scrivo per scene, non per capitoli. Un odore, una frase detta da qualcuno, un oggetto sul tavolo della cucina: è da lì che parte tutto. Da quell'unica immagine scrivo il momento, con la massima precisione possibile, senza spiegare cosa significa. Il lettore può sentirlo da solo.</p>
+            <p>Non tutti i frammenti arrivano subito. Alcuni li scrivo in un quarto d'ora, altri li lascio riposare a lungo prima di avere il coraggio di finirli. Taglio molto. Ciò che resta deve essere giusto: nessuna parola di troppo e nessuna emozione imposta al lettore.</p>
+            <p>La forma dei 365 frammenti mi dà un appiglio. Non devo raccontare un'intera vita tutta insieme. Un momento al giorno. Insieme formano la storia, anche se non sono in ordine.</p>
             <blockquote>
                 <strong>365 volte ricominciare</strong>
                 <br />
@@ -260,7 +266,7 @@ const bodies = {
         <>
             <p>
                 Я пишу книгу, яка ще не є книгою. Це збірка сцен, окремих фрагментів, моментів, що ніколи
-                мене не відпускали. Іноді пишу абзац, ніби це коротке оповідання, іноді — уривок спогаду,
+                мене не відпускали. Іноді пишу абзац, ніби це коротке оповідання, іноді уривок спогаду,
                 який знайде своє місце пізніше.
             </p>
             <p>
@@ -269,13 +275,14 @@ const bodies = {
                 її зворушували уривки про моє дитинство. Вона сказала: «Це твій голос. Тут твоя сила».
                 Без її підтримки я б, мабуть, так і не поставилася серйозно до цього проєкту.
             </p>
-            <p>
-                Але я пишу не класичним способом. Коми, крапки, граматика — завжди були моїми каменями
-                спотикання. Лише завдяки ChatGPT я тепер можу писати без помилок. Не тому що раптом
-                змінилася, а тому що технологія прибирає шум. Я можу повністю зосередитися на суті: розповідати.
-                І так, я використовую ШІ без сорому. Бо чесно? Це мій рятувальний круг.
-            </p>
-            <p>Результат — книга в процесі. Не завершена робота, а процес, якому дозволено бути видимим. Книга в становленні.</p>
+            <p>Результат: книга в процесі. Не завершена робота, а процес, якому дозволено бути видимим. Книга в становленні.</p>
+            <h2>Про що я пишу</h2>
+            <p>Про своє дитинство. Про матір, яка перекроювала реальність під себе, і про дитину, яка навчилася бачити крізь це. Про установи, що дивилися не в той бік, про дрібні моменти, які виявилися великими, і про абсурд, що виникає, коли ніщо не є тим, чим здається.</p>
+            <p>Звучить важко, і часом так і є. Але багато сцен передусім абсурдні. Настільки, що лишається тільки сміятися. Цей чорний гумор не прийом. Так я це пережила, і так можу розповісти про це тепер.</p>
+            <h2>Як я пишу</h2>
+            <p>Я пишу сценами, а не розділами. Запах, фраза, яку хтось сказав, предмет на кухонному столі: з цього все починається. Від цього одного образу я прописую момент якомога точніше, не пояснюючи, що він означає. Читач може відчути це сам.</p>
+            <p>Не кожен фрагмент приходить одразу. Деякі з'являються за чверть години, інші я довго відкладаю, перш ніж наважуюся закінчити. Я багато викреслюю. Те, що лишається, має бути правдивим: жодного зайвого слова й жодних емоцій, нав'язаних читачеві.</p>
+            <p>Форма з 365 фрагментів дає мені опору. Не треба розповідати ціле життя за один раз. Один момент на день. Разом вони складають історію, навіть якщо стоять не по порядку.</p>
             <blockquote>
                 <strong>365 разів починати заново</strong>
                 <br />
@@ -288,11 +295,11 @@ const bodies = {
                 У цій книзі знайдеш фрагменти, що іноді гіркі, іноді з чорним гумором, і завжди неймовірно
                 справжні. Від кутикул до моменту, коли моя мати подала на мене в органи опіки як на кривдника.
                 <br /><br />
-                Це не ода їй, а інвентар абсурду. Рік за роком починати заново — не тому що хотіла, а тому
+                Це не ода їй, а інвентар абсурду. Рік за роком починати заново, не тому що хотіла, а тому
                 що це був єдиний спосіб вижити.
             </blockquote>
             <p>
-                Можливо, ця книга стане романом, можливо — збіркою фрагментів. Можливо, залишиться чимось
+                Можливо, ця книга стане романом, можливо, збіркою фрагментів. Можливо, залишиться чимось
                 посередині. Але що знаю точно: цього разу продовжую писати. Не щоб дивитися назад, а щоб
                 рухатися вперед. 365 разів.
             </p>

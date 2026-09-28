@@ -151,6 +151,7 @@ export default function TheBigThree() {
                     ? "Website voor The Big Three (De Grote Drie), garage voor Amerikaanse auto's in Nunspeet. Met CMS, SEO en in drie talen. Ontworpen en gebouwd door ManonIT."
                     : "Website for The Big Three, a garage for American cars in Nunspeet. With a CMS, SEO and three languages. Designed and built by ManonIT."}
                 path="/thebigthree"
+                image="https://manonit.com/og/project-the-big-three.jpg"
             />
             <JsonLd data={SCHEMA} />
 

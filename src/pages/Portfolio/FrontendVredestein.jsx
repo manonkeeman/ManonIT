@@ -147,6 +147,7 @@ export default function FrontendVredestein() {
                 title={tr("seo.portfolio.frontend.title")}
                 description={tr("seo.portfolio.frontend.description")}
                 path="/frontendvredestein"
+                image="https://manonit.com/og/project-villa-vredestein.jpg"
             />
             <JsonLd data={SCHEMA} />
 

@@ -126,6 +126,7 @@ export default function WebdesignAcupuncture() {
                 title={tr("seo.portfolio.acupuncture.title")}
                 description={tr("seo.portfolio.acupuncture.description")}
                 path="/webdesignacupuncture"
+                image="https://manonit.com/og/project-acupuncture.jpg"
             />
             <JsonLd data={SCHEMA} />
 

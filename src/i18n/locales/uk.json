@@ -14,15 +14,15 @@
         "marieboddaert": "Вебдизайн - Marie H. Boddaert"
       },
       "journal": {
-        "scrummaster": "Full Stack розробник",
         "designchaos": "Хаос у дизайні",
-        "luchtvaartfamilie2018": "Авіаційна сім'я 2018",
         "storytelling": "Сторітелінг",
         "toekomsttech": "Майбутнє технологій",
         "365korteverhalen": "365 коротких оповідань",
         "pastelvanbuiten": "Пастель зовні, несподіванка всередині",
         "ai-in-mijn-werk": "AI in my work",
-        "verhaal-achter-casacrew": "The story behind CasaCrew"
+        "verhaal-achter-casacrew": "The story behind CasaCrew",
+        "samenwerking-the-big-three": "Свобода й довіра: The Big Three",
+        "website-villa-vredestein": "Villa Vredestein: дім з історією"
       }
     },
     "services": "Послуги",
@@ -237,14 +237,6 @@
       "description": "Статті про full stack розробку, сторітелінг, дизайн та мій шлях від KLM до коду. Чесно, особисто та практично."
     },
     "journal": {
-      "scrummaster": {
-        "title": "Від буксирувальника літаків до Full Stack розробника | Манон Кімен",
-        "description": "Як я перейшла від буксирування літаків KLM до побудови систем у коді."
-      },
-      "fullstackdeveloper": {
-        "title": "Від буксирувальника літаків до Full Stack розробника | Манон Кімен",
-        "description": "Як я перейшла від буксирування літаків KLM до побудови систем у коді."
-      },
       "designchaos": {
         "title": "Впорядкування хаосу за допомогою коду та дизайну | Манон Кімен",
         "description": "Чому структура — це не нудно, а свобода."
@@ -252,10 +244,6 @@
       "storytelling": {
         "title": "Сторітелінг в IT | Манон Кімен",
         "description": "Чому історії незамінні в технологіях."
-      },
-      "luchtvaartfamilie2018": {
-        "title": "Авіаційна сім'я (Up in the Sky) | Манон Кімен",
-        "description": "Погляд на нашу авіаційну сім'ю. Інтерв'ю Up in the Sky, 2018."
       },
       "365korteverhalen": {
         "title": "365 коротких оповідань: від ідеї до книги | Манон Кімен",
@@ -276,6 +264,14 @@
       "verhaal-achter-casacrew": {
         "title": "Від таблиці Excel до власного застосунку: історія CasaCrew | Manon Keeman",
         "description": "Як переповнена таблиця Excel у Villa Vredestein перетворилася на CasaCrew, застосунок для власників кімнат."
+      },
+      "samenwerking-the-big-three": {
+        "title": "Свобода й довіра: сайт для The Big Three | Manon Keeman",
+        "description": "Що буває, коли клієнт дає тобі простір: сайт The Big Three, майстерні американських авто в Нунспіті."
+      },
+      "website-villa-vredestein": {
+        "title": "Villa Vredestein: дім з історією, тепер і онлайн | Manon Keeman",
+        "description": "Як я переклала історію вілли 1906 року в Дрібергені-Рейзенбюрзі на мову сайту без зайвих прикрас."
       }
     },
     "portfolio": {
@@ -299,14 +295,6 @@
   },
   "journalSection": {
     "articles": {
-      "scrummaster": {
-        "title": "Від буксирувальника літаків до Full Stack розробника",
-        "excerpt": "Як я перейшла від буксирування літаків KLM до побудови систем у коді."
-      },
-      "fullstackdeveloper": {
-        "title": "Full Stack розробник",
-        "excerpt": "Від буксирувальника літаків до Full Stack розробника"
-      },
       "designchaos": {
         "title": "Впорядкування хаосу за допомогою коду та дизайну",
         "excerpt": "Чому структура — це не нудно, а свобода."
@@ -314,10 +302,6 @@
       "storytelling": {
         "title": "Сторітелінг в IT",
         "excerpt": "Чому історії незамінні в технологіях."
-      },
-      "luchtvaartfamilie2018": {
-        "title": "Авіаційна сім'я (Up in the Sky)",
-        "excerpt": "Погляд на нашу авіаційну сім'ю. Інтерв'ю Up in the Sky, 2018."
       },
       "365korteverhalen": {
         "title": "365 коротких оповідань: від ідеї до книги",
@@ -338,6 +322,14 @@
       "verhaal-achter-casacrew": {
         "title": "Від таблиці Excel до власного застосунку: історія CasaCrew",
         "excerpt": "Як переповнена таблиця Excel у Villa Vredestein перетворилася на CasaCrew, застосунок для власників кімнат."
+      },
+      "samenwerking-the-big-three": {
+        "title": "Свобода й довіра: сайт для The Big Three",
+        "excerpt": "Що буває, коли клієнт дає тобі простір: сайт The Big Three, майстерні американських авто в Нунспіті."
+      },
+      "website-villa-vredestein": {
+        "title": "Villa Vredestein: дім з історією, тепер і онлайн",
+        "excerpt": "Як я переклала історію вілли 1906 року в Дрібергені-Рейзенбюрзі на мову сайту без зайвих прикрас."
       }
     }
   },

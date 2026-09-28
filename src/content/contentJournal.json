@@ -1,14 +1,5 @@
 [
   {
-    "slug": "fullstackdeveloper",
-    "title": "Van vliegtuigsleper tot Full Stack Developer",
-    "date": "2025-08-10",
-    "excerpt": "Hoe ik van KLM pushback belandde in de wereld van code en systemen.",
-    "cover": "/journal/klm-pushback-800w.avif",
-    "words": 750,
-    "imgPosition": "top center"
-  },
-  {
     "slug": "designchaos",
     "title": "Chaos ordenen met code en design",
     "date": "2025-09-01",
@@ -25,21 +16,12 @@
     "words": 530
   },
   {
-    "slug": "luchtvaartfamilie2018",
-    "title": "Luchtvaartfamilie (Up in the Sky)",
-    "date": "2018-02-18",
-    "excerpt": "Een kijkje in onze luchtvaartfamilie. Interview Up in the Sky, 2018.",
-    "cover": "/journal/luchtvaartfamilie2018-800w.avif",
-    "words": 600,
-    "imgPosition": "top center"
-  },
-  {
     "slug": "365korteverhalen",
     "title": "365 Korte verhalen: van idee naar boek",
     "date": "2025-09-12",
     "excerpt": "Een boek in wording: 365 scènes van absurdititeit en overleven.",
     "cover": "/journal/cover365fragmenten-800w.avif",
-    "words": 400
+    "words": 700
   },
   {
     "slug": "ToekomstTech",
@@ -74,5 +56,21 @@
     "excerpt": "Hoe een volle Excel-sheet bij Villa Vredestein uitgroeide tot CasaCrew, een verhuurapp voor hospita's.",
     "cover": "/Portfolio/casacrew-mockup-800w.avif",
     "words": 760
+  },
+  {
+    "slug": "samenwerking-the-big-three",
+    "title": "Vrijheid en vertrouwen: een website bouwen voor The Big Three",
+    "date": "2026-09-28",
+    "excerpt": "Wat er gebeurt als een klant je de ruimte geeft: de website van The Big Three, een garage voor Amerikaanse auto's in Nunspeet.",
+    "cover": "/Portfolio/de-grote-drie-mockup-800w.avif",
+    "words": 520
+  },
+  {
+    "slug": "website-villa-vredestein",
+    "title": "Villa Vredestein: een huis met een verhaal, nu ook online",
+    "date": "2026-09-28",
+    "excerpt": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk.",
+    "cover": "/Portfolio/villa-vredestein-mockup-800w.avif",
+    "words": 470
   }
 ]

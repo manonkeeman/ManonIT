@@ -53,13 +53,26 @@ export default function Footer() {
                 <nav className="footer-col" aria-label="Footer navigation">
                     <p className="footer-heading">{t('footer.navHeading')}</p>
                     <Link to="/">{t('nav.home')}</Link>
+                    <a href={`${prefix}/#services`}>{t('nav.services')}</a>
+                    <a href={`${prefix}/#tarieven`}>{t('nav.pricing')}</a>
+                    <a href={`${prefix}/#onderhoud`}>{t('care.label')}</a>
                     <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>
                     <Link to="/journal">{t('nav.journal')}</Link>
                     <Link to="/about">{t('nav.about')}</Link>
                     <a href={`${prefix}/#contact`}>{t('nav.contact')}</a>
                 </nav>
 
-                {/* Col 4 — Contact */}
+                {/* Col 4 — Portfolio */}
+                <nav className="footer-col" aria-label={t('nav.portfolio')}>
+                    <p className="footer-heading">{t('nav.portfolio')}</p>
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>
+                    <Link to="/frontendvredestein">Villa Vredestein</Link>
+                    <Link to="/thebigthree">The Big Three</Link>
+                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>
+                    <Link to="/marieboddaert">Marie H. Boddaert</Link>
+                </nav>
+
+                {/* Col 5 — Contact */}
                 <div className="footer-col">
                     <p className="footer-heading">Contact</p>
                     <a href="https://wa.me/31624766568" target="_blank" rel="noreferrer" className="footer-icon-link">
@@ -110,7 +123,8 @@ export default function Footer() {
 
         .footer-inner {
           display: grid;
-          grid-template-columns: 1.4fr 1fr 1fr 1fr;
+          grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
+          gap: 32px;
           gap: 40px;
           max-width: 1160px;
           margin: 0 auto;
@@ -159,7 +173,7 @@ export default function Footer() {
         .footer-cookie-btn:hover { color: var(--text); }
         .footer .footer-bottom-links a:hover { color: var(--text); text-decoration: none; }
 
-        @media (max-width: 900px) {
+        @media (max-width: 1000px) {
           .footer-inner { grid-template-columns: 1fr 1fr; }
           .footer-brand { grid-column: 1 / -1; }
         }
