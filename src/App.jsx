@@ -25,7 +25,6 @@ const Contact       = lazy(() => import("./pages/Contact.jsx"));
 const About        = lazy(() => import("./pages/About.jsx"));
 const Journal      = lazy(() => import("./pages/Journal.jsx"));
 const ArticleRoute = lazy(() => import("./pages/ArticlesJournal/ArticleRoute.jsx"));
-const Faq          = lazy(() => import("./pages/Faq.jsx"));
 
 // Legal pages
 const Privacy  = lazy(() => import("./pages/Privacy.jsx"));
@@ -201,18 +200,6 @@ function AppRoutes() {
                         <Layout>
                             <Suspense fallback={<PageLoader />}>
                                 <About />
-                            </Suspense>
-                        </Layout>
-                    }
-                />
-
-                {/* FAQ — lazy */}
-                <Route
-                    path="/faq"
-                    element={
-                        <Layout>
-                            <Suspense fallback={<PageLoader />}>
-                                <Faq />
                             </Suspense>
                         </Layout>
                     }

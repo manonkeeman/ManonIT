@@ -1,76 +1,48 @@
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import { useTranslation } from "react-i18next";
+import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 
-const PUB_BACK = "/Portfolio/studenten-dashboard-backend";
-
-function PortfolioImage({ basePublic, imgSrc, alt }) {
-    if (imgSrc) {
-        return <img src={imgSrc} alt={alt} loading="lazy" decoding="async" />;
-    }
-    return (
-        <picture>
-            <source
-                type="image/avif"
-                srcSet={`${basePublic}-400w.avif 400w, ${basePublic}-800w.avif 800w, ${basePublic}-1200w.avif 1200w`}
-                sizes="(max-width: 600px) 90vw, 480px"
-            />
-            <source
-                type="image/webp"
-                srcSet={`${basePublic}-400w.webp 400w, ${basePublic}-800w.webp 800w, ${basePublic}-1200w.webp 1200w`}
-                sizes="(max-width: 600px) 90vw, 480px"
-            />
-            <img
-                src={`${basePublic}-800w.webp`}
-                alt={alt}
-                loading="lazy"
-                decoding="async"
-                width={1200}
-                height={675}
-            />
-        </picture>
-    );
-}
 
 const projects = [
     {
         key: "backend",
-        title: "Studenten Verhuur Dashboard",
+        title: "CasaCrew · Verhuurdashboard voor hospita's",
         tags: ["Spring Boot", "Java", "PostgreSQL", "JWT"],
         route: "/backendstudentendashboard",
-        basePublic: PUB_BACK,
+        base: "/Portfolio/casacrew-mockup",
         num: "01",
     },
     {
         key: "frontend",
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Webdevelopment · Villa Vredestein",
         tags: ["React", "Vite", "UX/UI", "SEO"],
         route: "/frontendvredestein",
-        imgSrc: "/Portfolio/villa-vredestein-mockup.png",
+        base: "/Portfolio/villa-vredestein-mockup",
         num: "02",
     },
     {
         key: "acupuncture",
-        title: "Webdesign – Acupuncture by Saskia",
+        title: "Webdesign · Acupuncture by Saskia",
         tags: ["WordPress", "Adobe Suite", "SEO"],
         route: "/webdesignacupuncture",
-        imgSrc: "/Portfolio/webdesign-acupuncture-mockup.png",
+        base: "/Portfolio/acupuncture-mockup",
         num: "03",
     },
     {
         key: "bigthree",
-        title: "Webdesign Concept — The Big Three",
-        tags: ["HTML/CSS", "Webdesign", "Dark theme", "Concept"],
+        title: "Webdesign · De Grote Drie",
+        tags: ["HTML/CSS", "Webdesign", "Dark theme", "Responsive"],
         route: "/thebigthree",
-        imgSrc: "/Portfolio/bigthree-concept.png",
+        base: "/Portfolio/de-grote-drie-mockup",
         num: "04",
     },
     {
         key: "marieboddaert",
-        title: "Webdesign — Marie H. Boddaert",
+        title: "Webdesign · Marie H. Boddaert",
         tags: ["HTML/CSS", "Webdesign", "Typografie", "Netlify", "SEO", "CMS"],
         route: "/marieboddaert",
-        imgSrc: "/Portfolio/marie-boddaert-mockup.png",
+        base: "/Portfolio/marie-boddaert-blog-mockup",
         num: "05",
         journalLink: "/journal/pastelvanbuiten",
     },
@@ -96,7 +68,7 @@ export default function Portfolio() {
                         <article key={p.key} className="portfolio-card">
                             <Link className="card-link" to={p.route} aria-label={`Open ${p.title}`}>
                                 <div className="card-media">
-                                    <PortfolioImage basePublic={p.basePublic} imgSrc={p.imgSrc} alt={p.title} />
+                                    <MockupPicture base={p.base} alt={p.title} sizes="(max-width: 600px) 92vw, (max-width: 920px) 46vw, 380px" />
                                 </div>
                                 <div className="card-body">
                                     <span className="card-num">{p.num}</span>
@@ -167,7 +139,7 @@ export default function Portfolio() {
         }
 
         .card-media {
-          aspect-ratio: 16/9;
+          aspect-ratio: 3/2;
           overflow: hidden;
           flex-shrink: 0;
         }

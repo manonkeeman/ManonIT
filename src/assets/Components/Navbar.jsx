@@ -42,6 +42,8 @@ export default function Navbar() {
                     <div className="nav-group">
                         <NavLink to="/journal">{t('nav.journal')}</NavLink>
                         <div className="nav-dropdown">
+                            <NavLink to="/journal/ai-in-mijn-werk">{t('nav.links.journal.ai-in-mijn-werk')}</NavLink>
+                            <NavLink to="/journal/wat-kost-een-website">{t('nav.links.journal.wat-kost-een-website')}</NavLink>
                             <NavLink to="/journal/365korteverhalen">{t('nav.links.journal.365korteverhalen')}</NavLink>
                             <NavLink to="/journal/designchaos">{t('nav.links.journal.designchaos')}</NavLink>
                             <NavLink to="/journal/luchtvaartfamilie2018">{t('nav.links.journal.luchtvaartfamilie2018')}</NavLink>
@@ -53,7 +55,6 @@ export default function Navbar() {
                     </div>
 
                     <NavLink to="/about">{t('nav.about')}</NavLink>
-                    <NavLink to="/faq">FAQ</NavLink>
                     <a href={`${prefix}/#contact`}>{t('nav.contact')}</a>
 
 

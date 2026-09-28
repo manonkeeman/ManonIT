@@ -25,10 +25,22 @@
   to = "/colofon"
   status = 301
 
-# SPA fallback — all routes handled by React Router
+# FAQ-pagina is vervangen door blogs; oude links en zoekresultaten doorsturen
+[[redirects]]
+  from = "/faq"
+  to = "/journal/wat-kost-een-website"
+  status = 301
+
+[[redirects]]
+  from = "/en/faq"
+  to = "/en/journal/wat-kost-een-website"
+  status = 301
+
+# SPA fallback: geprerenderde pagina's (dist/<pad>/index.html) worden direct
+# geserveerd; alle andere routes krijgen de onbewerkte app-shell (zie scripts/prerender.mjs)
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/app.html"
   status = 200
 
 # Long-term cache for hashed Vite assets (JS/CSS/fonts with content hash in filename)

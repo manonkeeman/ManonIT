@@ -56,7 +56,6 @@ export default function Footer() {
                     <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>
                     <Link to="/journal">{t('nav.journal')}</Link>
                     <Link to="/about">{t('nav.about')}</Link>
-                    <Link to="/faq">{t('nav.faq')}</Link>
                     <a href={`${prefix}/#contact`}>{t('nav.contact')}</a>
                 </nav>
 

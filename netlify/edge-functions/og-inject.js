@@ -41,6 +41,16 @@ const ARTICLES = {
         en: { title: "Pastel on the Outside, Surprising on the Inside | Manon Keeman", description: "How I built my cousin Marie's website: sweet on the outside, thoughtful on the inside." },
         image: `${SITE}/journal/marie-boddaert-og.png`,
     },
+    "ai-in-mijn-werk": {
+        nl: { title: "Hoe ik AI gebruik in mijn werk (en waar niet) | Manon Keeman", description: "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet." },
+        en: { title: "How I use AI in my work (and where I don't) | Manon Keeman", description: "Building faster, multilingual and findable in ChatGPT and Claude. How I use AI for my clients, and where I deliberately don't." },
+        image: `${SITE}/journal/ai-in-mijn-werk-1200w.webp`,
+    },
+    "wat-kost-een-website": {
+        nl: { title: "Wat kost een website laten maken in 2026? | Manon Keeman", description: "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken." },
+        en: { title: "What does a website cost in 2026? | Manon Keeman", description: "From €1,200 to fully custom: what you get for your money, what maintenance costs and what to compare." },
+        image: `${SITE}/journal/wat-kost-een-website-1200w.webp`,
+    },
 };
 
 const BOT_RE = /facebookexternalhit|linkedin|twitterbot|whatsapp|telegrambot|slackbot|discordbot|applebot|pinterest|bingbot|googlebot|iframely|prerender|screaming.frog/i;

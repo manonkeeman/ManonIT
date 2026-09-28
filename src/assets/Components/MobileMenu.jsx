@@ -83,6 +83,12 @@ export default function MobileMenu({ open, onClose }) {
                     <div className="mob-divider" />
 
                     <p className="mob-section-label">{t('nav.journal')}</p>
+                    <NavLink to="/journal/ai-in-mijn-werk" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.ai-in-mijn-werk')}
+                    </NavLink>
+                    <NavLink to="/journal/wat-kost-een-website" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.wat-kost-een-website')}
+                    </NavLink>
                     <NavLink to="/journal/365korteverhalen" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.365korteverhalen')}
                     </NavLink>
@@ -109,9 +115,6 @@ export default function MobileMenu({ open, onClose }) {
 
                     <NavLink to="/about" onClick={onClose} className="mob-link mob-link--main">
                         {t('nav.about')}
-                    </NavLink>
-                    <NavLink to="/faq" onClick={onClose} className="mob-link mob-link--main">
-                        {t('nav.faq')}
                     </NavLink>
                     <NavLink to="/#contact" onClick={onClose} className="mob-link mob-link--main">
                         {t('nav.contact')}

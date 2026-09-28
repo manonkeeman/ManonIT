@@ -7,10 +7,10 @@
     "contact": "Contacto",
     "links": {
       "portfolio": {
-        "backend": "Backend Panel de Estudiantes",
+        "backend": "CasaCrew · Panel de alquiler",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
-        "bigthree": "Concepto Web - The Big Three",
+        "bigthree": "Webdesign · De Grote Drie",
         "marieboddaert": "Webdesign - Marie H. Boddaert"
       },
       "journal": {
@@ -20,7 +20,9 @@
         "storytelling": "Storytelling",
         "pastelvanbuiten": "Pastel por fuera, sorprendente por dentro",
         "toekomsttech": "Futuro & Tech",
-        "365korteverhalen": "365 Historias cortas"
+        "365korteverhalen": "365 Historias cortas",
+        "ai-in-mijn-werk": "AI in my work",
+        "wat-kost-een-website": "What does a website cost?"
       }
     },
     "services": "Servicios",
@@ -161,15 +163,15 @@
   },
   "seo": {
     "home": {
-      "title": "Manon Keeman — Desarrolladora Full Stack",
+      "title": "Manon Keeman | Desarrolladora Full Stack",
       "description": "Portfolio de Manon Keeman — Desarrolladora Full Stack, Pensadora Sistémica, Diseñadora & Narradora. React, Spring Boot, diseño UX. Disponible para proyectos."
     },
     "about": {
-      "title": "Sobre mí — Manon Keeman | Desarrolladora Full Stack",
+      "title": "Sobre mí | Manon Keeman | Desarrolladora Full Stack",
       "description": "Diseñadora, escritora y desarrolladora. Hago las cosas complejas claras, y las construyo. De la Rietveld Academie a desarrolladora Full Stack, lee mi historia."
     },
     "journalPage": {
-      "title": "Diario — Manon Keeman | Escritura, entrevistas & más",
+      "title": "Diario | Manon Keeman | Escritura, entrevistas & más",
       "description": "Artículos sobre desarrollo full stack, storytelling, diseño y mi camino de KLM al código. Honesto, personal y práctico."
     },
     "journal": {
@@ -204,7 +206,7 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Frontend Vredestein — React & UX | Manon Keeman",
+        "title": "Frontend Vredestein | React & UX | Manon Keeman",
         "description": "Frontend en React con autenticación JWT, API REST y diseño UX/UI para Villa Vredestein."
       },
       "acupuncture": {
@@ -212,11 +214,11 @@
         "description": "Sitio WordPress con estética tranquila e información clara para clientes."
       },
       "backend": {
-        "title": "Backend Panel de Estudiantes — Spring Boot | Manon Keeman",
+        "title": "Backend Panel de Estudiantes | Spring Boot | Manon Keeman",
         "description": "Backend Spring Boot con autenticación JWT, API REST e integración de base de datos."
       },
       "marieboddaert": {
-        "title": "Webdesign Marie Boddaert — Web de escritora | ManonIT",
+        "title": "Webdesign Marie Boddaert | Web de escritora | ManonIT",
         "description": "Sitio personal de escritora para Marie H. Boddaert con historias, poemas y notas de diario. Diseño HTML/CSS con estética literaria."
       }
     }
@@ -404,8 +406,8 @@
     "alwaysTitle": "Siempre incluido:",
     "always": "reunión inicial, propuesta de diseño, SEO básico, aviso de cookies y privacidad (RGPD), dos rondas de revisión y 30 días de garantía ante errores.",
     "extrasTitle": "Costes aparte:",
-    "extras": "cambios sin plan 65 € por hora, idioma adicional desde 150 €, dominio 12–15 € al año, hosting aprox. 8–15 € al mes.",
-    "faqLink": "Todos los detalles sobre precios"
+    "extras": "cambios sin plan 65 € por hora, idioma adicional desde 150 €, dominio 12 a 15 € al año, hosting aprox. 8 a 15 € al mes.",
+    "faqLink": "Todo sobre lo que cuesta una web"
   },
   "cookies": {
     "title": "Cookies",

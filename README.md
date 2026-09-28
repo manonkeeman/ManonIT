@@ -1,70 +1,23 @@
-# manonit.nl
+# ManonIT.com
 
-Persoonlijke portfolio- en journalsite van **Manon Keeman** — Full Stack Developer, Systems Thinker, Designer, Storyteller & Builder.
+Website van **ManonIT**, het bedrijf van Manon Keeman: freelance webdeveloper en webdesigner. De site toont diensten, tarieven, onderhoudsabonnementen, portfolio en een journal, en is bedoeld om nieuwe klanten te trekken.
 
 Live: [manonit.com](https://manonit.com)
 
 ---
 
-## Over dit project
-
-Een volledig zelfgebouwde portfolio in React, met meertalige ondersteuning, journalartikelen, portfoliocases en een contactformulier. Gebouwd met aandacht voor prestaties, SEO en responsive design.
-
----
-
 ## Tech stack
 
-| Laag                | Technologie                       |
-|---------------------|-----------------------------------|
-| Framework           | React 19 + Vite 6                 |
-| Routing             | React Router DOM 7                |
-| Internationalisatie | i18next + react-i18next (6 talen) |
-| SEO                 | react-helmet-async                |
-| Icons               | react-icons                       |
-| Hosting             | Netlify (met Forms)               |
-| Images              | AVIF / WebP via sharp-cli         |
-
----
-
-## Structuur
-
-```
-src/
-├── assets/
-│   ├── Components/       # Navbar, Footer, Seo, Breadcrumbs, MobileMenu, ...
-│   ├── Helpers/          # contentHelpers (formatDate, ageFrom, toCard)
-│   └── Pics/             # Fallback JPEG afbeeldingen
-├── content/
-│   └── contentJournal.json   # Journaldata (slug, datum, cover, woorden)
-├── i18n/
-│   ├── index.js          # i18n initialisatie
-│   └── locales/          # nl, en, fr, de, es, it
-├── pages/
-│   ├── Hero.jsx
-│   ├── About.jsx
-│   ├── Portfolio.jsx
-│   ├── Journal.jsx
-│   ├── Contact.jsx
-│   ├── ArticlesJournal/  # Journalartikelen per slug
-│   └── Portfolio/        # Portfolio detailpagina's
-public/
-├── journal/              # Journalafbeeldingen (AVIF + WebP)
-├── portfolio/            # Portfolioafbeeldingen (AVIF + WebP)
-├── robots.txt
-└── sitemap.xml
-```
-
----
-
-## Pagina's & routes
-
-| Route                        | Inhoud                                              |
-|------------------------------|-----------------------------------------------------|
-| `/`                          | Homepage (Hero, About, Portfolio, Journal, Contact) |
-| `/frontendvredestein`        | Case: React frontend Villa Vredestein               |
-| `/webdesignacupuncture`      | Case: WordPress webdesign acupunctuur               |
-| `/backendstudentendashboard` | Case: Spring Boot studentendashboard                |
-| `/journal/:slug`             | Journalartikel op slug                              |
+| Laag                | Technologie                                          |
+|---------------------|------------------------------------------------------|
+| Framework           | React 19 + Vite 6                                    |
+| Routing             | React Router DOM 7                                   |
+| Talen               | i18next + react-i18next (7 talen)                    |
+| SEO                 | react-helmet-async, JSON-LD, prerendering (Puppeteer) |
+| Iconen              | react-icons                                          |
+| Hosting             | Netlify (Forms, edge function voor social previews)  |
+| Afbeeldingen        | AVIF + WebP in 3 formaten, gemaakt met sharp         |
+| Statistieken        | Google Analytics 4, pas na toestemming via cookiebanner |
 
 ---
 
@@ -77,61 +30,128 @@ npm run dev
 
 Opent op `http://localhost:5173`.
 
----
-
 ## Bouwen
 
 ```bash
 npm run build
 ```
 
-Netlify voert dit automatisch uit via `netlify.toml`:
+Dit doet twee dingen:
 
-```toml
-[build]
-command = "npm run build"
-publish = "dist"
+1. `vite build` bouwt de app naar `dist/`.
+2. `scripts/prerender.mjs` opent elke URL uit `public/sitemap.xml` in headless Chrome en slaat de volledig gerenderde HTML op als `dist/<pad>/index.html`.
+
+Stap 2 is belangrijk voor vindbaarheid: zonder prerendering is elke pagina leeg voor bots die geen JavaScript uitvoeren (zoals GPTBot, ClaudeBot en PerplexityBot). Mislukt het prerenderen, dan faalt de build niet; de site werkt dan als gewone SPA.
+
+Netlify voert `npm run build` automatisch uit bij elke push naar `main`. Pagina's die niet geprerenderd zijn, krijgen via de fallback in `netlify.toml` de onbewerkte app-shell (`dist/app.html`).
+
+> Een nieuwe pagina moet in `public/sitemap.xml` staan, anders wordt hij niet geprerenderd.
+
+---
+
+## Structuur
+
+```
+src/
+├── App.jsx                   # Routes (NL en /en/)
+├── Styles.css                # Kleuren, typografie, knoppen
+├── assets/
+│   ├── Components/           # Navbar, Footer, Seo, CookieConsent, ...
+│   └── Helpers/              # consent.js, contentHelpers, imageHelpers (MockupPicture)
+├── content/
+│   └── contentJournal.json   # Lijst van journalartikelen
+├── i18n/locales/             # nl, en, fr, de, es, it, uk
+└── pages/
+    ├── Hero.jsx, Services.jsx (diensten, tarieven, onderhoud), Portfolio.jsx,
+    │   Testimonials.jsx, HomeJournal.jsx, Contact.jsx, About.jsx, Journal.jsx
+    ├── ArticlesJournal/      # Artikelen; BlogArticle.jsx is de layout voor nieuwe blogs
+    └── Portfolio/            # Projectpagina's
+public/
+├── Portfolio/                # Mockups (AVIF + WebP, 400/800/1200)
+├── journal/                  # Blogomslagen
+├── robots.txt                # Staat zoekmachines en AI-crawlers expliciet toe
+├── llms.txt                  # Samenvatting van ManonIT voor AI-assistenten
+└── sitemap.xml               # Ook de lijst van pagina's die geprerenderd worden
+scripts/
+└── prerender.mjs
+netlify/edge-functions/
+└── og-inject.js              # Social previews (LinkedIn, WhatsApp) voor blogartikelen
 ```
 
-Responsive AVIF/WebP-varianten (400w, 800w, 1200w) worden lokaal gegenereerd via `node scripts/resize.mjs` en gecommit naar `public/` — dit draait niet als onderdeel van de Netlify build.
+---
+
+## Pagina's
+
+| Route                          | Inhoud                                                          |
+|--------------------------------|-----------------------------------------------------------------|
+| `/`                            | Home: hero, diensten, tarieven, onderhoud, portfolio, reviews, blogs, contact |
+| `/about`                       | Over Manon                                                      |
+| `/journal`                     | Alle artikelen, nieuwste eerst                                  |
+| `/journal/:slug`               | Artikel                                                         |
+| `/frontendvredestein`          | Project: Villa Vredestein                                       |
+| `/webdesignacupuncture`        | Project: Acupuncture by Saskia                                  |
+| `/backendstudentendashboard`   | Project: CasaCrew, verhuurdashboard voor hospita's              |
+| `/thebigthree`                 | Project: De Grote Drie                                          |
+| `/marieboddaert`               | Project: Marie H. Boddaert                                      |
+| `/privacy`, `/colofon`         | Juridisch (alleen NL)                                           |
+
+Elke pagina bestaat ook onder `/en/...`. De andere talen wisselen alleen de tekst, niet de URL. `/faq` stuurt door naar `/journal/wat-kost-een-website`.
 
 ---
 
-## Internationalisatie
+## Een blog toevoegen
 
-De site ondersteunt 6 talen: **Nederlands, Engels, Frans, Duits, Spaans en Italiaans**. De actieve taal wordt opgeslagen in `localStorage` en het `lang`-attribuut op `<html>` wordt dynamisch gesynchroniseerd.
+1. Maak `src/pages/ArticlesJournal/MijnBlog.jsx` met `BlogArticle` (zie `AiInMijnWerk.jsx` als voorbeeld).
+2. Registreer het in `ArticleRoute.jsx` (lazy import, `ARTICLE_META`, `views`).
+3. Voeg het toe aan `src/content/contentJournal.json`.
+4. Voeg titel en samenvatting toe in `journalSection.articles` en `seo.journal` (nl en en).
+5. Voeg een omslag toe in `public/journal/` (`-400w`, `-800w`, `-1200w`, AVIF en WebP).
+6. Voeg de social preview toe in `netlify/edge-functions/og-inject.js`.
+7. Voeg beide URL's (NL en EN) toe aan `public/sitemap.xml`.
 
-Vertaalbestanden staan in `src/i18n/locales/`. Elke taal heeft sleutels voor navigatie, hero, about, contact, portfolio, journal en SEO-metateksten.
+Schrijf zonder lange streepjes (— en –).
 
 ---
 
-## SEO
+## SEO en AI-vindbaarheid
 
-- Dynamische `<title>` en `<meta name="description">` per pagina via `react-helmet-async`
-- Canonical URL per route
-- Open Graph en Twitter Card tags
-- JSON-LD Person schema in `index.html`
-- `robots.txt` + `sitemap.xml`
-- Google Analytics 4 klaar (vervang `G-XXXXXXXXXX` in `index.html` door jouw Measurement ID)
+- Prerendering: elke pagina uit de sitemap staat als volledige HTML online
+- Eigen titel, beschrijving en canonical per pagina, plus hreflang voor NL en EN
+- JSON-LD in `index.html`: Person, WebSite en ProfessionalService (met diensten, tarieven en reviews)
+- `robots.txt` staat GPTBot, ClaudeBot, PerplexityBot en Google-Extended expliciet toe
+- `llms.txt` met een samenvatting voor AI-assistenten
+- Houd de reviews in de JSON-LD gelijk aan de reviews op de site
+
+---
+
+## Privacy en cookies
+
+Google Analytics en de Google Maps-kaart laden pas na toestemming via de cookiebanner (`CookieConsent.jsx`, `consent.js`). Zonder keuze of na weigeren wordt geen `_ga`-cookie geplaatst. Bezoekers wijzigen hun keuze via "Cookie-instellingen" in de footer.
 
 ---
 
 ## Contactformulier
 
-Verwerkt via **Netlify Forms**. De statische form-definitie staat in `index.html` zodat Netlify het formulier detecteert bij de build. Bij een succesvolle verzending wordt een `form_submit` GA4-event getriggerd.
+Verwerkt via **Netlify Forms**. De verborgen formulierdefinitie in `index.html` zorgt dat Netlify het formulier herkent bij de build.
 
 ---
 
-## Design tokens
+## Onderhoud
+
+- **Dependabot** (`.github/dependabot.yml`) opent maandelijks een pull request voor verouderde npm-pakketten.
+- Afbeeldingen maak je met sharp (zie `scripts/resize.mjs`) en commit je naar `public/`.
+
+---
+
+## Huisstijl
 
 ```css
---bg:       #1b1b1b   /* paginaachtergrond */
---bg-alt:   #2a2a2a   /* kaarten, footer */
---text:     #f9f0dd   /* primaire tekstkleur */
---muted:    #c6c1b5   /* subtekst */
---accent:   #c9a97a   /* amber — buttons, links, logo */
---border:   #3a3a3a   /* randen */
---nav-h:    60px      /* navbar hoogte (gebruikt als offset) */
+--bg:         #FFFFFF   /* achtergrond */
+--bg-alt:     #F5F5F7   /* afwisselende secties, kaarten */
+--text:       #1D1D1F   /* tekst en knoppen */
+--muted:      #6E6E73   /* secundaire tekst */
+--accent:     #FF6B1A   /* oranje accent: iconen, labels, hover */
+--accent-ink: #C2410C   /* oranje voor tekstlinks (beter leesbaar) */
 ```
 
 ---

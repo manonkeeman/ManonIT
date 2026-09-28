@@ -7,10 +7,10 @@
     "contact": "Contact",
     "links": {
       "portfolio": {
-        "backend": "Backend Studentendashboard",
+        "backend": "CasaCrew · Verhuurdashboard",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
-        "bigthree": "Webdesign Concept - The Big Three",
+        "bigthree": "Webdesign · De Grote Drie",
         "marieboddaert": "Webdesign - Marie H. Boddaert"
       },
       "journal": {
@@ -20,10 +20,11 @@
         "storytelling": "Storytelling",
         "toekomsttech": "Toekomst & Tech",
         "365korteverhalen": "365 Korte Verhalen",
-        "pastelvanbuiten": "Pastel van buiten, verrassend van binnen"
+        "pastelvanbuiten": "Pastel van buiten, verrassend van binnen",
+        "ai-in-mijn-werk": "Hoe ik AI gebruik in mijn werk",
+        "wat-kost-een-website": "Wat kost een website?"
       }
     },
-    "faq": "Veelgestelde vragen",
     "services": "Diensten",
     "cta": "Gratis gesprek",
     "pricing": "Tarieven"
@@ -209,10 +210,10 @@
         "desc": "WordPress-site met rustige uitstraling en duidelijke info voor cliënten."
       },
       "backend": {
-        "desc": "Dashboard voor verhuurders van studentenkamers: betalingen, contracten, schoonmaakrooster en huisregels op één plek."
+        "desc": "Verhuurdashboard voor hospita's: betalingen, contracten, schoonmaakrooster en huisregels op één plek."
       },
       "bigthree": {
-        "desc": "Website concept voor een garage in Amerikaanse auto's. Dark theme met stoere typografie, rood-wit-blauw kleurpalet en filmische uitstraling."
+        "desc": "Website voor een garage in Amerikaanse auto's in Nunspeet. Dark theme met stoere typografie, rood-wit-blauw als accent en een filmische uitstraling."
       },
       "marieboddaert": {
         "desc": "Schrijverswebsite in HTML/CSS met literaire typografie en webdesign op maat. Live op Netlify, SEO-geoptimaliseerd en voorzien van een CMS zodat Marie zelf content beheert."
@@ -224,15 +225,15 @@
   },
   "seo": {
     "home": {
-      "title": "ManonIT — Website laten maken | Webdevelopment & Design",
-      "description": "Website laten maken die klanten trekt? ManonIT bouwt websites die snel zijn, gevonden worden in Google en bezoekers omzetten in klanten. Webdevelopment, webdesign, copywriting en SEO onder één dak."
+      "title": "Website laten maken vanaf €1.200 | Webdesign & SEO | ManonIT",
+      "description": "Website laten maken bij één vaste webdesigner en developer. Snel, vindbaar in Google en AI, vanaf €1.200. Vanuit Bakkum en Driebergen, voor heel Nederland."
     },
     "about": {
-      "title": "Over mij — Manon Keeman | Full Stack Developer",
+      "title": "Over mij | Manon Keeman | Full Stack Developer",
       "description": "Designer, schrijver en developer. Ik maak complexe dingen helder en bouw ze. Van de Rietveld Academie tot Full Stack Developer, lees mijn verhaal."
     },
     "journalPage": {
-      "title": "Journal — Manon Keeman | Schrijven, interviews & meer",
+      "title": "Journal | Manon Keeman | Schrijven, interviews & meer",
       "description": "Artikelen over full stack development, storytelling, design en mijn pad van KLM naar code. Eerlijk, persoonlijk en praktisch."
     },
     "journal": {
@@ -267,29 +268,33 @@
       "pastelvanbuiten": {
         "title": "Pastel van buiten, verrassend van binnen | Manon Keeman",
         "description": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Hoe ik AI gebruik in mijn werk (en waar niet) | Manon Keeman",
+        "description": "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet."
+      },
+      "wat-kost-een-website": {
+        "title": "Wat kost een website laten maken in 2026? | Manon Keeman",
+        "description": "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken."
       }
     },
     "portfolio": {
       "frontend": {
-        "title": "Frontend Vredestein — React & UX | Manon Keeman",
-        "description": "React frontend met JWT-authenticatie, REST API en UX/UI design voor Villa Vredestein."
+        "title": "Website Villa Vredestein | React webdevelopment | ManonIT",
+        "description": "Publieke website voor Villa Vredestein in Driebergen: geschiedenis, verblijf en contact. Ontworpen en gebouwd in React door ManonIT."
       },
       "acupuncture": {
-        "title": "Webdesign Acupunctuur | Manon Keeman",
-        "description": "WordPress-site met rustige uitstraling en duidelijke informatie voor cliënten."
+        "title": "Website Acupuncture by Saskia | WordPress webdesign | ManonIT",
+        "description": "Rustige WordPress-website voor een acupunctuurpraktijk: behandelingen, tarieven en afspraak maken. Webdesign door ManonIT."
       },
       "backend": {
-        "title": "Backend Studentendashboard — Spring Boot | Manon Keeman",
-        "description": "Spring Boot backend met JWT-authenticatie, REST API en database-koppeling."
+        "title": "CasaCrew · Verhuurdashboard voor hospita's | Manon Keeman",
+        "description": "CasaCrew is een verhuurdashboard voor hospita's: betalingen, contracten, schoonmaak en huisregels op één plek. Gebouwd met Spring Boot."
       },
       "marieboddaert": {
-        "title": "Webdesign Marie Boddaert — Schrijverswebsite | ManonIT",
+        "title": "Webdesign Marie Boddaert | Schrijverswebsite | ManonIT",
         "description": "Persoonlijke schrijverswebsite voor Marie H. Boddaert: verhalen, gedichten en dagboeknotities. Live gebouwd in HTML/CSS met Substack-integratie."
       }
-    },
-    "faq": {
-      "title": "Veelgestelde vragen | ManonIT",
-      "description": "Antwoord op de meest gestelde vragen over een website laten maken: kosten, doorlooptijd, technologie en SEO."
     }
   },
   "journalSection": {
@@ -325,6 +330,14 @@
       "pastelvanbuiten": {
         "title": "Pastel van buiten, verrassend van binnen",
         "excerpt": "Hoe ik de website van mijn nichtje Marie bouwde: zoet van buiten, doordacht van binnen."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Hoe ik AI gebruik in mijn werk (en waar niet)",
+        "excerpt": "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet."
+      },
+      "wat-kost-een-website": {
+        "title": "Wat kost een website laten maken in 2026?",
+        "excerpt": "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken."
       }
     }
   },
@@ -355,58 +368,6 @@
         "role": "Recreatie & verhuur"
       }
     }
-  },
-  "faq": {
-    "label": "FAQ",
-    "title": "Veelgestelde vragen",
-    "intro": "Twijfel je nog? Hier staan de vragen die ik het vaakst krijg, over kosten, doorlooptijd, techniek en hoe ik werk.",
-    "items": [
-      {
-        "q": "Wat doet ManonIT precies?",
-        "a": "Ik los technische problemen op en bouw de website of webapp die daarbij hoort. Denk aan een trage site, een verouderd design, een ontbrekend boekingssysteem of een idee dat nog nergens staat. Ik ontwerp, schrijf de teksten en bouw de site zelf, zonder tussenpersonen en zonder wachtrij tussen designer en developer."
-      },
-      {
-        "q": "Wat kost een website laten maken?",
-        "a": "Een website begint vanaf €1.200 excl. btw. Er zijn drie pakketten: een basis website (vanaf €1.200), een website met CMS waarin je zelf teksten en blog beheert (vanaf €2.450) en volledig maatwerk met bijvoorbeeld een webshop of meerdere talen (vanaf €4.250). SEO-basis zit altijd inbegrepen.\n\nJe krijgt altijd eerst een offerte met een vaste prijs, zodat je precies weet waar je aan toe bent voordat er iets gebouwd wordt.",
-        "link": {
-          "label": "Bekijk alle pakketten en wat erin zit",
-          "href": "/#tarieven"
-        }
-      },
-      {
-        "q": "Wat houdt onderhoud in en wat kost het?",
-        "a": "Met een onderhoudsabonnement houd ik je website veilig, snel en up-to-date, zodat jij er niet meer naar om hoeft te kijken. Er zijn twee abonnementen: Onderhoud Basis voor €120 per maand (2 uur werk, updates, back-ups en monitoring) en Onderhoud & Groei voor €240 per maand (4 uur werk, plus SEO en AI-vindbaarheid in onder meer ChatGPT en Claude).\n\nDe looptijd is minimaal 3 maanden, daarna is het maandelijks opzegbaar. Zonder abonnement reken ik €65 per uur voor aanpassingen.",
-        "link": {
-          "label": "Bekijk de onderhoudsabonnementen",
-          "href": "/#onderhoud"
-        }
-      },
-      {
-        "q": "Hoe lang duurt het bouwen van een website?",
-        "a": "Een standaard zakelijke website is meestal binnen 2 tot 4 weken klaar. Grotere maatwerkprojecten met extra functionaliteit, zoals een dashboard of boekingssysteem, duren 6 tot 10 weken. De planning spreken we vooraf duidelijk af."
-      },
-      {
-        "q": "Welke technologieën gebruik je?",
-        "a": "Ik werk met React, Vite, Spring Boot, WordPress en PostgreSQL, afhankelijk van wat het project nodig heeft. Voor een kleinere bedrijfssite is WordPress vaak de snelste, goedkoopste keuze. Voor maatwerk met eigen functionaliteit, bijvoorbeeld een klantportaal, gebruik ik React en Spring Boot."
-      },
-      {
-        "q": "Zorg je ook voor SEO en vindbaarheid in Google?",
-        "a": "Ja. Elke website die ik bouw is standaard technisch SEO-geoptimaliseerd: snelle laadtijden, correcte metatags, gestructureerde data en een mobielvriendelijk ontwerp. Op aanvraag doe ik ook zoekwoordenonderzoek en schrijf ik de content. Daarnaast zorg ik voor AI-vindbaarheid (GEO): je site zo inrichten dat AI-zoekmachines zoals ChatGPT, Claude, Perplexity en Google AI-overzichten jouw bedrijf kennen en aanbevelen."
-      },
-      {
-        "q": "Kan ik ook alleen copywriting of webdesign bestellen?",
-        "a": "Ja. Webdesign, copywriting, SEO en foto & video bied ik ook los aan. Je hoeft niet per se een complete website te laten bouwen, neem contact op om de mogelijkheden te bespreken."
-      },
-      {
-        "q": "Wat is het verschil tussen jou en een webdesignbureau?",
-        "a": "Bij een bureau praat je vaak met een accountmanager die het werk doorzet naar een developer die je nooit spreekt. Bij mij praat je rechtstreeks met de persoon die ontwerpt, schrijft én bouwt. Dat betekent minder ruis, snellere beslissingen en een site die klopt met wat je bedoelde."
-      },
-      {
-        "q": "Voor wie werk je het liefst?",
-        "a": "Voor Nederlandse zzp'ers en MKB'ers die willen dat hun website daadwerkelijk klanten oplevert, niet alleen mooi staat. Van een trage of verouderde site tot een idee dat nog nergens gebouwd is."
-      }
-    ],
-    "ctaText": "Staat je vraag er niet bij?"
   },
   "homeJournal": {
     "label": "Journal",
@@ -466,8 +427,8 @@
     "alwaysTitle": "Altijd inbegrepen:",
     "always": "intakegesprek, ontwerpvoorstel, basis-SEO, cookie- en privacyverklaring (AVG), twee revisierondes en 30 dagen garantie op fouten.",
     "extrasTitle": "Losse kosten:",
-    "extras": "aanpassingen zonder abonnement €65 per uur, extra taal vanaf €150, domein €12–15 per jaar, hosting ca. €8–15 per maand.",
-    "faqLink": "Alle details over prijzen"
+    "extras": "aanpassingen zonder abonnement €65 per uur, extra taal vanaf €150, domein €12 tot 15 per jaar, hosting ca. €8 tot 15 per maand.",
+    "faqLink": "Lees alles over wat een website kost"
   },
   "cookies": {
     "title": "Cookies",

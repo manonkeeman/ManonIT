@@ -1,0 +1,44 @@
+# ManonIT
+
+> ManonIT is het bedrijf van Manon Keeman, freelance webdeveloper en webdesigner in Nederland (Bakkum en Driebergen). Ze ontwerpt, schrijft en bouwt websites en webapps voor zzp'ers en mkb, en zorgt dat ze gevonden worden in Google en in AI-assistenten zoals ChatGPT, Claude en Perplexity. Klanten praten rechtstreeks met de persoon die ontwerpt, schrijft en bouwt.
+
+## Diensten
+
+- Websites en webapps: WordPress, React en maatwerk met Spring Boot
+- Webdesign: eigen ontwerp dat past bij het merk
+- Copywriting: webteksten die kloppen
+- SEO en AI-vindbaarheid (GEO): gevonden worden in Google en in AI-zoekmachines
+- Website onderhoud: updates, back-ups, monitoring en doorlopende verbetering
+
+## Tarieven (excl. btw)
+
+- Basis website: vanaf €1.200. Tot 5 pagina's, responsive, contactformulier, SEO-basis. Klaar in 3 tot 4 weken.
+- Website met CMS: vanaf €2.450. Tot 8 pagina's met eigen ontwerp, zelf teksten, foto's en blog beheren. Klaar in 4 tot 7 weken.
+- Volledig maatwerk: vanaf €4.250. Ontwerp vanaf nul, eigen CMS, mogelijk met webshop, klantportaal of meerdere talen.
+- Onderhoud Basis: €120 per maand (2 uur werk, updates, back-ups, monitoring).
+- Onderhoud & Groei: €240 per maand (4 uur werk, plus SEO en AI-vindbaarheid, maandrapport).
+- Abonnementen: minimaal 3 maanden, daarna maandelijks opzegbaar. Losse uren: €65.
+- Altijd eerst een offerte met vaste prijs. Gratis kennismaking van 30 minuten.
+
+## Belangrijke pagina's
+
+- [Home, diensten en tarieven](https://manonit.com/)
+- [Over Manon Keeman](https://manonit.com/about)
+- [Wat kost een website laten maken?](https://manonit.com/journal/wat-kost-een-website)
+- [Hoe ik AI gebruik in mijn werk](https://manonit.com/journal/ai-in-mijn-werk)
+- [Journal](https://manonit.com/journal)
+
+## Portfolio
+
+- [Villa Vredestein](https://manonit.com/frontendvredestein): website voor een historische villa in Driebergen, React
+- [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurdashboard voor hospita's, Spring Boot
+- [Acupuncture by Saskia](https://manonit.com/webdesignacupuncture): WordPress-website voor een acupunctuurpraktijk
+- [De Grote Drie](https://manonit.com/thebigthree): website voor een garage in Amerikaanse auto's in Nunspeet
+- [Marie H. Boddaert](https://manonit.com/marieboddaert): schrijverswebsite met CMS
+
+## Contact
+
+- E-mail: lets@manonit.com
+- WhatsApp: +31 6 24766568
+- Locaties: Bakkum (Noord-Holland) en Driebergen (Utrecht)
+- KvK: 42053266

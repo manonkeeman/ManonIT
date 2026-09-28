@@ -2,8 +2,9 @@ import { Link } from "../../assets/Components/LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
 import JsonLd from "../../assets/Components/JsonLd.jsx";
+import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
-const MOCKUP = "/Portfolio/villa-vredestein-mockup.png";
+const MOCKUP = "/Portfolio/villa-vredestein-mockup";
 const LIVE_URL = "https://villavredestein.com";
 
 const SCHEMA = {
@@ -173,7 +174,7 @@ export default function FrontendVredestein() {
                     <a className="btn btn-primary vr-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
                 <div className="vr-hero-image">
-                    <img src={MOCKUP} alt="Villa Vredestein website mockup" className="cover-img" loading="eager" decoding="async" />
+                    <MockupPicture base={MOCKUP} alt="Villa Vredestein website op desktop en mobiel" className="cover-img" eager />
                 </div>
             </header>
 
@@ -311,11 +312,6 @@ export default function FrontendVredestein() {
 
         /* SHARED */
         .tag { font-size: .82rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: var(--bg); white-space: nowrap; }
-        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 9px; font-size: .92rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: all .18s ease; border: 1px solid transparent; }
-        .btn-outline { background: transparent; color: var(--accent); border-color: var(--accent); }
-        .btn-outline:hover { background: var(--accent); color: var(--bordeaux); }
-        .btn-primary { background: var(--accent); color: var(--bordeaux); border-color: var(--accent); }
-        .btn-primary:hover { background: var(--bordeaux); color: var(--bg); border-color: var(--bordeaux); }
 
         /* RESPONSIVE */
         @media (max-width: 720px) {

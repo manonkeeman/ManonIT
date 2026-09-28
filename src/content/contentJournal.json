@@ -58,5 +58,21 @@
     "cover": "/journal/marie-boddaert-screenshot.png",
     "words": 400,
     "imgPosition": "top center"
+  },
+  {
+    "slug": "ai-in-mijn-werk",
+    "title": "Hoe ik AI gebruik in mijn werk (en waar niet)",
+    "date": "2026-09-28",
+    "excerpt": "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet.",
+    "cover": "/journal/ai-in-mijn-werk-800w.avif",
+    "words": 820
+  },
+  {
+    "slug": "wat-kost-een-website",
+    "title": "Wat kost een website laten maken in 2026?",
+    "date": "2026-09-28",
+    "excerpt": "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken.",
+    "cover": "/journal/wat-kost-een-website-800w.avif",
+    "words": 900
   }
 ]

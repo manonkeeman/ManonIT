@@ -7,10 +7,10 @@
     "contact": "Контакт",
     "links": {
       "portfolio": {
-        "backend": "Backend Панель студентів",
+        "backend": "CasaCrew · Панель оренди",
         "frontend": "Веброзробка - Villa Vredestein",
         "acupuncture": "Вебдизайн - Acupuncture by Saskia",
-        "bigthree": "Концепт вебдизайну - The Big Three",
+        "bigthree": "Webdesign · De Grote Drie",
         "marieboddaert": "Вебдизайн - Marie H. Boddaert"
       },
       "journal": {
@@ -20,7 +20,9 @@
         "storytelling": "Сторітелінг",
         "toekomsttech": "Майбутнє технологій",
         "365korteverhalen": "365 коротких оповідань",
-        "pastelvanbuiten": "Пастель зовні, несподіванка всередині"
+        "pastelvanbuiten": "Пастель зовні, несподіванка всередині",
+        "ai-in-mijn-werk": "AI in my work",
+        "wat-kost-een-website": "What does a website cost?"
       }
     },
     "services": "Послуги",
@@ -222,15 +224,15 @@
   },
   "seo": {
     "home": {
-      "title": "ManonIT — Замовити сайт | Веброзробка та дизайн",
+      "title": "ManonIT | Замовити сайт | Веброзробка та дизайн",
       "description": "Потрібен сайт, який залучає клієнтів? ManonIT будує сайти, які швидкі, знаходяться в Google і перетворюють відвідувачів на клієнтів. Веброзробка, вебдизайн, копірайтинг і SEO під одним дахом."
     },
     "about": {
-      "title": "Про мене — Манон Кімен | Full Stack розробник",
+      "title": "Про мене | Манон Кімен | Full Stack розробник",
       "description": "Дизайнер, письменник і розробник. Я роблю складні речі зрозумілими і будую їх. Від академії Рітвелда до Full Stack розробника — читай мою історію."
     },
     "journalPage": {
-      "title": "Журнал — Манон Кімен | Тексти, інтерв'ю та більше",
+      "title": "Журнал | Манон Кімен | Тексти, інтерв'ю та більше",
       "description": "Статті про full stack розробку, сторітелінг, дизайн та мій шлях від KLM до коду. Чесно, особисто та практично."
     },
     "journal": {
@@ -269,7 +271,7 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Frontend Vredestein — React та UX | Манон Кімен",
+        "title": "Frontend Vredestein | React та UX | Манон Кімен",
         "description": "React frontend з JWT-автентифікацією, REST API та UX/UI дизайном для Villa Vredestein."
       },
       "acupuncture": {
@@ -277,11 +279,11 @@
         "description": "Сайт на WordPress зі спокійним виглядом і чіткою інформацією для клієнтів."
       },
       "backend": {
-        "title": "Backend панель студентів — Spring Boot | Манон Кімен",
+        "title": "Backend панель студентів | Spring Boot | Манон Кімен",
         "description": "Spring Boot backend з JWT-автентифікацією, REST API та підключенням до бази даних."
       },
       "marieboddaert": {
-        "title": "Вебдизайн Марі Боддерт — Письменницький сайт | ManonIT",
+        "title": "Вебдизайн Марі Боддерт | Письменницький сайт | ManonIT",
         "description": "Особистий письменницький сайт для Марі Г. Боддерт: розповіді, вірші та щоденникові нотатки. Зроблено в HTML/CSS з літературною естетикою."
       }
     }
@@ -408,8 +410,8 @@
     "alwaysTitle": "Завжди включено:",
     "always": "вступна розмова, пропозиція дизайну, базове SEO, політика cookie та конфіденційності (GDPR), два раунди правок і 30 днів гарантії на помилки.",
     "extrasTitle": "Окремі витрати:",
-    "extras": "зміни без абонемента €65 за годину, додаткова мова від €150, домен €12–15 на рік, хостинг бл. €8–15 на місяць.",
-    "faqLink": "Усі деталі щодо цін"
+    "extras": "зміни без абонемента €65 за годину, додаткова мова від €150, домен €12 до 15 на рік, хостинг бл. €8 до 15 на місяць.",
+    "faqLink": "Усе про те, скільки коштує сайт"
   },
   "cookies": {
     "title": "Cookie",

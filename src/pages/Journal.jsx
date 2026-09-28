@@ -7,7 +7,8 @@ import Seo from "../assets/Components/Seo.jsx";
 
 export default function Journal() {
     const { t } = useTranslation();
-    const items = data.map(toCard);
+    // nieuwste artikelen bovenaan
+    const items = [...data].sort((x, y) => y.date.localeCompare(x.date)).map(toCard);
 
     return (
         <section id="journal" className="section">

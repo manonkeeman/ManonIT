@@ -4,13 +4,14 @@ import { useEffect, useState, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
 import JsonLd from "../../assets/Components/JsonLd.jsx";
+import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
 const SCHEMA = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Studentendashboard — Backend",
+    "name": "CasaCrew",
     "applicationCategory": "WebApplication",
-    "description": "Full stack backend applicatie voor een studentendashboard, gebouwd met Spring Boot en PostgreSQL.",
+    "description": "CasaCrew: verhuurdashboard voor hospita's met betalingen, contracten, schoonmaakrooster en huisregels op één plek. Gebouwd met Spring Boot en PostgreSQL.",
     "creator": {
         "@type": "Person",
         "@id": "https://manonit.com/#manon",
@@ -19,49 +20,11 @@ const SCHEMA = {
     "isPartOf": { "@id": "https://manonit.com/#website" },
 };
 
-const COVER_BASE = "/portfolio/studenten-dashboard-backend";
-const FallbackBack = `${COVER_BASE}-800w.webp`;
-
-function useExistingFormats(base) {
-    const [state, setState] = useState({ webp: null, avif: null });
-    useEffect(() => {
-        let canceled = false;
-        const test = (url) =>
-            new Promise((resolve) => {
-                const img = new Image();
-                img.onload = () => resolve(true);
-                img.onerror = () => resolve(false);
-                img.src = url;
-            });
-        (async () => {
-            const [webpOk, avifOk] = await Promise.all([
-                test(`${base}-800w.webp`),
-                test(`${base}-800w.avif`),
-            ]);
-            if (!canceled) setState({ webp: webpOk, avif: avifOk });
-        })();
-        return () => { canceled = true; };
-    }, [base]);
-    return state;
-}
-
-function GuardedPicture({ base, fallback, alt, sizes = "(max-width: 920px) 100vw, 920px" }) {
-    const { webp, avif } = useExistingFormats(base);
-    if (webp === null || avif === null || (!webp && !avif)) {
-        return <img src={fallback} alt={alt} loading="lazy" decoding="async" className="cover-img" />;
-    }
-    return (
-        <picture>
-            {webp && <source type="image/webp" srcSet={`${base}-400w.webp 400w, ${base}-800w.webp 800w, ${base}-1200w.webp 1200w`} sizes={sizes} />}
-            {avif && <source type="image/avif" srcSet={`${base}-400w.avif 400w, ${base}-800w.avif 800w, ${base}-1200w.avif 1200w`} sizes={sizes} />}
-            <img src={`${base}-800w.${webp ? "webp" : "avif"}`} alt={alt} loading="lazy" decoding="async" className="cover-img" />
-        </picture>
-    );
-}
+const COVER_BASE = "/Portfolio/casacrew-mockup";
 
 const content = {
     nl: {
-        title: "Studenten Verhuur Dashboard",
+        title: "CasaCrew · Verhuurdashboard voor hospita's",
         subtitle: "Spring Boot · Klaar voor gebruik",
         tagline: "Digitaal verhuren, volledig in control.\nAlles op één plek, uitbreidbaar naar jouw situatie.",
         intro: "Kamers verhuren aan studenten brengt meer papierwerk met zich mee dan je denkt. Betalingen opvolgen, contracten bijhouden, schoonmaak verdelen, regels vastleggen. Dit dashboard neemt dat over.",
@@ -84,7 +47,7 @@ const content = {
         backBtn: "← Terug naar Portfolio",
     },
     en: {
-        title: "Student Housing Dashboard",
+        title: "CasaCrew · Rental dashboard for landlords",
         subtitle: "Spring Boot · Ready to use",
         tagline: "Digital rental management, fully in control.\nEverything in one place, built to scale.",
         intro: "Renting rooms to students brings more paperwork than you'd expect. Tracking payments, managing contracts, organising cleaning, setting rules. This dashboard handles it all.",
@@ -107,7 +70,7 @@ const content = {
         backBtn: "← Back to Portfolio",
     },
     fr: {
-        title: "Tableau de bord location étudiante",
+        title: "CasaCrew · Tableau de bord pour loueurs de chambres",
         subtitle: "Spring Boot · Prêt à l'emploi",
         tagline: "Gestion locative numérique, totalement maîtrisée.\nTout en un endroit, extensible selon vos besoins.",
         intro: "Louer des chambres à des étudiants apporte plus de paperasse qu'on ne le pense. Suivi des paiements, gestion des contrats, organisation du ménage, définition des règles. Ce tableau de bord s'en charge.",
@@ -130,7 +93,7 @@ const content = {
         backBtn: "← Retour au Portfolio",
     },
     de: {
-        title: "Studenten-Vermietungs-Dashboard",
+        title: "CasaCrew · Vermietungs-Dashboard für Zimmervermieter",
         subtitle: "Spring Boot · Einsatzbereit",
         tagline: "Digital vermieten, vollständig im Griff.\nAlles an einem Ort, skalierbar auf Ihre Situation.",
         intro: "Zimmer an Studenten zu vermieten bringt mehr Papierkram mit sich als erwartet. Zahlungen verfolgen, Verträge verwalten, Reinigung organisieren, Regeln festlegen. Dieses Dashboard übernimmt das.",
@@ -153,7 +116,7 @@ const content = {
         backBtn: "← Zurück zum Portfolio",
     },
     es: {
-        title: "Dashboard de alquiler estudiantil",
+        title: "CasaCrew · Panel de alquiler para caseros",
         subtitle: "Spring Boot · Listo para usar",
         tagline: "Gestión digital de alquileres, con control total.\nTodo en un lugar, escalable a tu situación.",
         intro: "Alquilar habitaciones a estudiantes trae más papeleo del esperado. Seguimiento de pagos, gestión de contratos, organización de limpieza, establecimiento de normas. Este dashboard lo gestiona todo.",
@@ -176,7 +139,7 @@ const content = {
         backBtn: "← Volver al Portfolio",
     },
     it: {
-        title: "Dashboard affitti studenteschi",
+        title: "CasaCrew · Dashboard affitti per chi affitta stanze",
         subtitle: "Spring Boot · Pronto all'uso",
         tagline: "Gestione digitale degli affitti, pieno controllo.\nTutto in un posto, espandibile alle tue esigenze.",
         intro: "Affittare camere a studenti porta più burocrazia del previsto. Seguire i pagamenti, gestire i contratti, organizzare le pulizie, stabilire le regole. Questo dashboard se ne occupa.",
@@ -199,7 +162,7 @@ const content = {
         backBtn: "← Torna al Portfolio",
     },
     uk: {
-        title: "Панель управління орендою студентів",
+        title: "CasaCrew · Панель оренди для власників кімнат",
         subtitle: "Spring Boot · Готово до використання",
         tagline: "Цифрова оренда, повний контроль.\nВсе в одному місці, масштабується під твою ситуацію.",
         intro: "Оренда кімнат студентам приносить більше паперової роботи, ніж очікуєш. Відстеження платежів, ведення договорів, організація прибирання, встановлення правил. Ця панель бере це на себе.",
@@ -277,7 +240,7 @@ export default function BackendStudentenDashboard() {
                     style={{ cursor: "zoom-in" }}
                     title="Klik om te vergroten"
                 >
-                    <GuardedPicture base={COVER_BASE} fallback={FallbackBack} alt="Studenten verhuur dashboard" sizes="(max-width: 768px) 100vw, 55vw" />
+                    <MockupPicture base={COVER_BASE} alt="CasaCrew verhuurdashboard op desktop en mobiel" className="cover-img" eager sizes="(max-width: 768px) 100vw, 55vw" />
                 </div>
             </header>
 
@@ -305,8 +268,8 @@ export default function BackendStudentenDashboard() {
                         }}
                     >×</button>
                     <img
-                        src={FallbackBack}
-                        alt="Studenten verhuur dashboard — vergroot"
+                        src={`${COVER_BASE}-1200w.webp`}
+                        alt="CasaCrew verhuurdashboard — vergroot"
                         onClick={(e) => e.stopPropagation()}
                         style={{
                             maxWidth: "90vw", maxHeight: "88vh",
@@ -384,11 +347,6 @@ export default function BackendStudentenDashboard() {
         .vr-cta-block p { color: var(--muted); margin: 0 0 20px; line-height: 1.65; }
         .vr-footer { display: flex; gap: 14px; flex-wrap: wrap; padding-top: 16px; border-top: 1px solid var(--border); }
         .tag { font-size: .82rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: var(--bg); white-space: nowrap; }
-        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 9px; font-size: .92rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: all .18s ease; border: 1px solid transparent; }
-        .btn-outline { background: transparent; color: var(--accent); border-color: var(--accent); }
-        .btn-outline:hover { background: var(--accent); color: var(--bordeaux); }
-        .btn-primary { background: var(--accent); color: var(--bordeaux); border-color: var(--accent); }
-        .btn-primary:hover { background: var(--bordeaux); color: var(--bg); border-color: var(--bordeaux); }
         @media (max-width: 720px) {
           .vr-hero { grid-template-columns: 1fr; gap: 28px; padding: 28px 0 24px; }
           .vr-hero-image { order: -1; }

@@ -12,6 +12,8 @@ const ToekomstTech               = lazy(() => import("./ToekomstTech.jsx"));
 const Luchtvaartfamilie2018      = lazy(() => import("./Luchtvaartfamilie2018.jsx"));
 const Korteverhalen365           = lazy(() => import("./365Korteverhalen.jsx"));
 const PastelVanBuiten            = lazy(() => import("./PastelVanBuiten.jsx"));
+const AiInMijnWerk               = lazy(() => import("./AiInMijnWerk.jsx"));
+const WatKostEenWebsite          = lazy(() => import("./WatKostEenWebsite.jsx"));
 
 function NotFound({ slug }) {
     const { t } = useTranslation();
@@ -83,6 +85,18 @@ const ARTICLE_META = {
         image: "https://manonit.com/journal/marie-boddaert-og.png",
         words: 400,
     },
+    "ai-in-mijn-werk": {
+        date: "2026-09-28",
+        title: "Hoe ik AI gebruik in mijn werk (en waar niet)",
+        image: "https://manonit.com/journal/ai-in-mijn-werk-1200w.webp",
+        words: 820,
+    },
+    "wat-kost-een-website": {
+        date: "2026-09-28",
+        title: "Wat kost een website laten maken in 2026?",
+        image: "https://manonit.com/journal/wat-kost-een-website-1200w.webp",
+        words: 900,
+    },
 };
 
 export default function ArticleRoute() {
@@ -99,6 +113,8 @@ export default function ArticleRoute() {
         luchtvaartfamilie2018: <Luchtvaartfamilie2018 />,
         "365korteverhalen": <Korteverhalen365 />,
         pastelvanbuiten: <PastelVanBuiten />,
+        "ai-in-mijn-werk": <AiInMijnWerk />,
+        "wat-kost-een-website": <WatKostEenWebsite />,
     };
 
     const article = views[key];

@@ -5,7 +5,7 @@ export default function Colofon() {
     return (
         <section className="section section-alt">
             <Seo
-                title="Colofon — ManonIT"
+                title="Colofon | ManonIT"
                 description="Bedrijfsgegevens van ManonIT: KvK-nummer, BTW-nummer, contactgegevens en technische verantwoording van de website."
                 path="/colofon"
             />

@@ -5,7 +5,7 @@ export default function Privacy() {
     return (
         <section className="section section-alt">
             <Seo
-                title="Privacybeleid — ManonIT"
+                title="Privacybeleid | ManonIT"
                 description="Hoe ManonIT omgaat met jouw persoonsgegevens. Informatie over het contactformulier, nieuwsbrief, Google Analytics en jouw rechten onder de AVG."
                 path="/privacy"
             />

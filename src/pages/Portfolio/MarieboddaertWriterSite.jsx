@@ -2,8 +2,9 @@ import { Link } from "../../assets/Components/LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
 import JsonLd from "../../assets/Components/JsonLd.jsx";
+import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
-const MOCKUP   = "/Portfolio/marie-boddaert-mockup.png";
+const MOCKUP   = "/Portfolio/marie-boddaert-blog-mockup";
 const LIVE_URL = "https://marie-boddaert.netlify.app/";
 const OG_IMAGE = "https://manonit.com/og-marie-boddaert.jpg";
 
@@ -183,7 +184,7 @@ export default function MarieboddaertWriterSite() {
                     <a className="btn btn-primary mb-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
                 <div className="mb-hero-image">
-                    <img src={MOCKUP} alt="Marie H. Boddaert schrijverswebsite mockup" className="mb-cover" loading="eager" decoding="async" />
+                    <MockupPicture base={MOCKUP} alt="Schrijverswebsite Marie H. Boddaert op desktop en mobiel" className="mb-cover" eager />
                 </div>
             </header>
 
@@ -305,11 +306,6 @@ export default function MarieboddaertWriterSite() {
         }
 
         .tag { font-size: .82rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: var(--bg); white-space: nowrap; }
-        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 9px; font-size: .92rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: all .18s ease; border: 1px solid transparent; }
-        .btn-outline { background: transparent; color: var(--accent); border-color: var(--accent); }
-        .btn-outline:hover { background: var(--accent); color: var(--bordeaux); }
-        .btn-primary { background: var(--accent); color: var(--bordeaux); border-color: var(--accent); }
-        .btn-primary:hover { background: var(--bordeaux); color: var(--bg); border-color: var(--bordeaux); }
 
         @media (max-width: 720px) {
           .mb-hero { grid-template-columns: 1fr; gap: 28px; padding: 28px 0 24px; }

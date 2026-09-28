@@ -2,8 +2,9 @@ import { Link } from "../../assets/Components/LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import Seo from "../../assets/Components/Seo.jsx";
 import JsonLd from "../../assets/Components/JsonLd.jsx";
+import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
-const MOCKUP = "/Portfolio/webdesign-acupuncture-mockup.png";
+const MOCKUP = "/Portfolio/acupuncture-mockup";
 const LIVE_URL = "https://acupuncturebysaskia.com/over-saskia/";
 
 const SCHEMA = {
@@ -151,7 +152,7 @@ export default function WebdesignAcupuncture() {
                     <a className="btn btn-primary vr-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
                 <div className="vr-hero-image">
-                    <img src={MOCKUP} alt="Acupuncture by Saskia website mockup" className="cover-img" loading="eager" decoding="async" />
+                    <MockupPicture base={MOCKUP} alt="Acupuncture by Saskia website op desktop en mobiel" className="cover-img" eager />
                 </div>
             </header>
 
@@ -194,11 +195,6 @@ export default function WebdesignAcupuncture() {
         .vr-card-text { font-size: .95rem; line-height: 1.6; color: var(--text); margin: 0; }
         .vr-footer { display: flex; gap: 14px; flex-wrap: wrap; padding-top: 16px; border-top: 1px solid var(--border); }
         .tag { font-size: .82rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: var(--bg); white-space: nowrap; }
-        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 9px; font-size: .92rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: all .18s ease; border: 1px solid transparent; }
-        .btn-outline { background: transparent; color: var(--accent); border-color: var(--accent); }
-        .btn-outline:hover { background: var(--accent); color: var(--bordeaux); }
-        .btn-primary { background: var(--accent); color: var(--bordeaux); border-color: var(--accent); }
-        .btn-primary:hover { background: var(--bordeaux); color: var(--bg); border-color: var(--bordeaux); }
         @media (max-width: 720px) {
           .vr-hero { grid-template-columns: 1fr; gap: 28px; padding: 28px 0 24px; }
           .vr-hero-image { order: -1; }

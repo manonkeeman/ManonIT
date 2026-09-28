@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield } from "react-icons/fi";
+import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 
 export default function Services() {
@@ -135,6 +136,7 @@ export default function Services() {
                     <div className="price-extras">
                         <p><strong>{t("pricing.alwaysTitle")}</strong> {t("pricing.always")}</p>
                         <p><strong>{t("pricing.extrasTitle")}</strong> {t("pricing.extras")}</p>
+                        <Link to="/journal/wat-kost-een-website" className="price-faq">{t("pricing.faqLink")} →</Link>
                     </div>
                 </div>
             </section>
