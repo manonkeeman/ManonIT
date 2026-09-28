@@ -5,11 +5,11 @@ import { toCard } from "../assets/Helpers/contentHelpers";
 
 // Drie meest recente artikelen als teaser op de homepage
 export default function HomeJournal() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const items = [...data]
         .sort((a, b) => b.date.localeCompare(a.date))
         .slice(0, 3)
-        .map(toCard);
+        .map((item) => toCard(item, i18n.language));
 
     return (
         <section id="journal-preview" className="hj-section section-alt">

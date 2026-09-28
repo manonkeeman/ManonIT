@@ -33,7 +33,7 @@ const REVIEW_META = [
 
 function Stars({ count }) {
     return (
-        <div className="review-stars" aria-label={`${count} van 5 sterren`}>
+        <div className="review-stars" aria-label={`${count}/5`}>
             {Array.from({ length: 5 }).map((_, i) => (
                 <span key={i} className={i < count ? "star star--on" : "star star--off"}>★</span>
             ))}

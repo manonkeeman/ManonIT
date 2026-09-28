@@ -20,7 +20,7 @@ export default function Seo({ title, description, path = "", image, type = "webs
     const ogLocale = LOCALE_MAP[lang] || "nl_NL";
 
     return (
-        <Helmet>
+        <Helmet htmlAttributes={{ lang }}>
             <title>{title}</title>
             <meta name="description" content={description} />
             <link rel="canonical" href={canonical} />

@@ -6,9 +6,9 @@ import { toCard } from "../assets/Helpers/contentHelpers";
 import Seo from "../assets/Components/Seo.jsx";
 
 export default function Journal() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     // nieuwste artikelen bovenaan
-    const items = [...data].sort((x, y) => y.date.localeCompare(x.date)).map(toCard);
+    const items = [...data].sort((x, y) => y.date.localeCompare(x.date)).map((item) => toCard(item, i18n.language));
 
     return (
         <section id="journal" className="section">
@@ -28,7 +28,7 @@ export default function Journal() {
                     className="btn-substack"
                 >
                     <SiSubstack />
-                    Volg mij op Substack
+                    {t('articleFooter.substack')}
                 </a>
             </div>
 

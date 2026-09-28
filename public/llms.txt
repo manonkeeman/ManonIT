@@ -31,7 +31,7 @@
 ## Portfolio
 
 - [Villa Vredestein](https://manonit.com/frontendvredestein): website voor een historische villa in Driebergen, React
-- [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurapp voor hospita's, Spring Boot
+- [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurapp voor hospita's, Spring Boot met OAuth2 (live op casacrew.nl)
 - [Acupuncture by Saskia](https://manonit.com/webdesignacupuncture): WordPress-website voor een acupunctuurpraktijk
 - [The Big Three](https://manonit.com/thebigthree): website met CMS, SEO en drie talen voor een garage in Amerikaanse auto's in Nunspeet (live op thebigthree.nl)
 - [Marie H. Boddaert](https://manonit.com/marieboddaert): schrijverswebsite met CMS

@@ -146,8 +146,10 @@ export default function TheBigThree() {
     return (
         <article className="bt-page section">
             <Seo
-                title="The Big Three · Website voor een garage in Nunspeet | ManonIT"
-                description="Website voor The Big Three (De Grote Drie), garage voor Amerikaanse auto's in Nunspeet. Met CMS, SEO en in drie talen. Ontworpen en gebouwd door ManonIT."
+                title={lang === "nl" ? "The Big Three · Website voor een garage in Nunspeet | ManonIT" : "The Big Three · Website for a garage in Nunspeet | ManonIT"}
+                description={lang === "nl"
+                    ? "Website voor The Big Three (De Grote Drie), garage voor Amerikaanse auto's in Nunspeet. Met CMS, SEO en in drie talen. Ontworpen en gebouwd door ManonIT."
+                    : "Website for The Big Three, a garage for American cars in Nunspeet. With a CMS, SEO and three languages. Designed and built by ManonIT."}
                 path="/thebigthree"
             />
             <JsonLd data={SCHEMA} />

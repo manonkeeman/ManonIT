@@ -127,7 +127,8 @@
     "rights": "Todos los derechos reservados | Código & Contenido - Manon Keeman",
     "ctaTitle": "¿Listo para una web que funcione?",
     "ctaSub": "Reserva una llamada gratuita de 30 minutos. Sin compromiso.",
-    "navHeading": "Navegación"
+    "navHeading": "Navegación",
+    "tagline": "Resuelvo problemas técnicos y construyo la web que los acompaña."
   },
   "portfolio": {
     "viewBtn": "Ver",
@@ -202,6 +203,18 @@
       "toekomsttech": {
         "title": "El futuro de la tecnología | Manon Keeman",
         "description": "IA, trabajo remoto y el papel de la creatividad."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel por fuera, sorprendente por dentro | Manon Keeman",
+        "description": "Cómo construí el sitio web de mi sobrina Marie: dulce por fuera, reflexivo por dentro."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Cómo uso la IA en mi trabajo (y dónde no) | Manon Keeman",
+        "description": "Construir más rápido, en varios idiomas y visible en ChatGPT y Claude. Así uso la IA para mis clientes, y dónde no."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "De la hoja de cálculo a una app propia: la historia de CasaCrew | Manon Keeman",
+        "description": "Cómo una hoja de Excel desbordada en Villa Vredestein se convirtió en CasaCrew, una app para caseros."
       }
     },
     "portfolio": {
@@ -256,6 +269,14 @@
       "pastelvanbuiten": {
         "title": "Pastel por fuera, sorprendente por dentro",
         "excerpt": "Cómo construí el sitio web de mi sobrina Marie: dulce por fuera, reflexivo por dentro."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Cómo uso la IA en mi trabajo (y dónde no)",
+        "excerpt": "Construir más rápido, en varios idiomas y visible en ChatGPT y Claude. Así uso la IA para mis clientes, y dónde no."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "De la hoja de cálculo a una app propia: la historia de CasaCrew",
+        "excerpt": "Cómo una hoja de Excel desbordada en Villa Vredestein se convirtió en CasaCrew, una app para caseros."
       }
     }
   },

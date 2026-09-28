@@ -127,7 +127,8 @@
     "rights": "Alle Rechte vorbehalten | Code & Content - Manon Keeman",
     "ctaTitle": "Bereit für eine Website, die funktioniert?",
     "ctaSub": "Buche ein kostenloses 30-Minuten-Gespräch. Unverbindlich.",
-    "navHeading": "Navigation"
+    "navHeading": "Navigation",
+    "tagline": "Ich löse technische Probleme und baue die passende Website dazu."
   },
   "portfolio": {
     "viewBtn": "Ansehen",
@@ -202,6 +203,18 @@
       "toekomsttech": {
         "title": "Die Zukunft der Tech | Manon Keeman",
         "description": "KI, Remote-Arbeit und die Rolle der Kreativität."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastellfarben außen, überraschend innen | Manon Keeman",
+        "description": "Wie ich die Website meiner Nichte Marie gebaut habe: außen süß, innen durchdacht."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Wie ich KI in meiner Arbeit nutze (und wo nicht) | Manon Keeman",
+        "description": "Schneller bauen, mehrsprachig und auffindbar in ChatGPT und Claude. So setze ich KI für meine Kunden ein, und wo bewusst nicht."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "Von der Excel-Tabelle zur eigenen App: die Geschichte hinter CasaCrew | Manon Keeman",
+        "description": "Wie aus einer vollen Excel-Tabelle in der Villa Vredestein CasaCrew wurde, eine Vermietungs-App für Zimmervermieter."
       }
     },
     "portfolio": {
@@ -256,6 +269,14 @@
       "pastelvanbuiten": {
         "title": "Pastellfarben außen, überraschend innen",
         "excerpt": "Wie ich die Website meiner Nichte Marie gebaut habe: außen süß, innen durchdacht."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Wie ich KI in meiner Arbeit nutze (und wo nicht)",
+        "excerpt": "Schneller bauen, mehrsprachig und auffindbar in ChatGPT und Claude. So setze ich KI für meine Kunden ein, und wo bewusst nicht."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "Von der Excel-Tabelle zur eigenen App: die Geschichte hinter CasaCrew",
+        "excerpt": "Wie aus einer vollen Excel-Tabelle in der Villa Vredestein CasaCrew wurde, eine Vermietungs-App für Zimmervermieter."
       }
     }
   },

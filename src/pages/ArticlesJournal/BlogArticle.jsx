@@ -6,6 +6,11 @@ import { useLangPrefix } from "../../assets/Components/useLangPrefix.js";
 const UI = {
     nl: { back: "← Terug naar Journal", read: (m) => `${m} min leestijd`, cta: "Plan een gratis gesprek" },
     en: { back: "← Back to Journal", read: (m) => `${m} min read`, cta: "Book a free intro call" },
+    fr: { back: "← Retour au Journal", read: (m) => `${m} min de lecture`, cta: "Planifier un échange gratuit" },
+    de: { back: "← Zurück zum Journal", read: (m) => `${m} Min. Lesezeit`, cta: "Kostenloses Gespräch planen" },
+    es: { back: "← Volver al Journal", read: (m) => `${m} min de lectura`, cta: "Reserva una llamada gratis" },
+    it: { back: "← Torna al Journal", read: (m) => `${m} min di lettura`, cta: "Prenota un colloquio gratuito" },
+    uk: { back: "← Назад до журналу", read: (m) => `${m} хв читання`, cta: "Запланувати безкоштовну розмову" },
 };
 
 // Gedeelde opmaak voor nieuwe blogartikelen.

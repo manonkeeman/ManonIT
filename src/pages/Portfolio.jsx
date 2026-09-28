@@ -8,9 +8,11 @@ const projects = [
     {
         key: "backend",
         title: "CasaCrew · Verhuurapp voor hospita's",
-        tags: ["Spring Boot", "Java", "PostgreSQL", "JWT"],
+        tags: ["Spring Boot", "Java", "PostgreSQL", "OAuth2"],
         route: "/backendstudentendashboard",
         base: "/Portfolio/casacrew-mockup",
+        liveUrl: "https://casacrew.nl",
+        journalLink: "/journal/verhaal-achter-casacrew",
         num: "01",
     },
     {
@@ -32,7 +34,7 @@ const projects = [
     {
         key: "bigthree",
         title: "Webdesign · The Big Three",
-        tags: ["Webdesign", "CMS", "SEO", "Meertalig"],
+        tags: ["Webdesign", "CMS", "SEO", "NL · EN · DE"],
         route: "/thebigthree",
         base: "/Portfolio/de-grote-drie-mockup",
         num: "04",
@@ -85,6 +87,9 @@ export default function Portfolio() {
                                 <Link to={p.route} className="btn-cta">{t('portfolio.viewBtn')} →</Link>
                                 {p.journalLink && (
                                     <Link to={p.journalLink} className="btn-cta-story">{t('portfolio.readStory')} →</Link>
+                                )}
+                                {p.liveUrl && (
+                                    <a href={p.liveUrl} target="_blank" rel="noreferrer" className="btn-cta-story">{p.liveUrl.replace("https://", "")} ↗</a>
                                 )}
                             </div>
                         </article>

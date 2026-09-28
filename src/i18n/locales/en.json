@@ -272,6 +272,10 @@
       "verhaal-achter-casacrew": {
         "title": "From spreadsheet to app: the story behind CasaCrew | Manon Keeman",
         "description": "How an overflowing spreadsheet at Villa Vredestein grew into CasaCrew, a rental app for landlords."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel on the outside, surprising on the inside | Manon Keeman",
+        "description": "How I built my niece Marie's website: sweet on the outside, thoughtful on the inside."
       }
     },
     "portfolio": {
@@ -330,6 +334,10 @@
       "verhaal-achter-casacrew": {
         "title": "From spreadsheet to app: the story behind CasaCrew",
         "excerpt": "How an overflowing spreadsheet at Villa Vredestein grew into CasaCrew, a rental app for landlords."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel on the outside, surprising on the inside",
+        "excerpt": "How I built my niece Marie's website: sweet on the outside, thoughtful on the inside."
       }
     }
   },

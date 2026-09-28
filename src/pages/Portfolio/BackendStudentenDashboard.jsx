@@ -10,7 +10,8 @@ const SCHEMA = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "CasaCrew",
-    "applicationCategory": "WebApplication",
+    "url": "https://casacrew.nl",
+    "applicationCategory": "BusinessApplication",
     "description": "CasaCrew: verhuurapp voor hospita's met betalingen, contracten, schoonmaakrooster en huisregels op één plek. Gebouwd met Spring Boot en PostgreSQL.",
     "creator": {
         "@type": "Person",
@@ -21,9 +22,11 @@ const SCHEMA = {
 };
 
 const COVER_BASE = "/Portfolio/casacrew-mockup";
+const LIVE_URL = "https://casacrew.nl";
 
 const content = {
     nl: {
+        liveBtn: "Bekijk casacrew.nl",
         title: "CasaCrew · Verhuurapp voor hospita's",
         subtitle: "Spring Boot · Klaar voor gebruik",
         tagline: "Digitaal verhuren, volledig in control.\nAlles op één plek, uitbreidbaar naar jouw situatie.",
@@ -38,7 +41,7 @@ const content = {
         cards: [
             { label: "Voor wie", text: "Particuliere verhuurders met meerdere studentenkamers die grip willen op betalingen, administratie en communicatie." },
             { label: "Wat zit erin", text: "Betalingen, herinneringen, schoonmaakrooster, contracten, huisregels en huurdersbeheer in één beveiligde omgeving." },
-            { label: "Technisch", text: "Spring Boot, PostgreSQL, JWT-beveiliging en een REST API die aan elke frontend te koppelen is. Volledig uitbreidbaar." },
+            { label: "Technisch", text: "Spring Boot, PostgreSQL, OAuth2-beveiliging en een REST API die aan elke frontend te koppelen is. Volledig uitbreidbaar." },
         ],
         featuresTitle: "Wat is inbegrepen",
         ctaTitle: "Interesse?",
@@ -47,6 +50,7 @@ const content = {
         backBtn: "← Terug naar Portfolio",
     },
     en: {
+        liveBtn: "Visit casacrew.nl",
         title: "CasaCrew · Rental app for landlords",
         subtitle: "Spring Boot · Ready to use",
         tagline: "Digital rental management, fully in control.\nEverything in one place, built to scale.",
@@ -61,7 +65,7 @@ const content = {
         cards: [
             { label: "For whom", text: "Private landlords with multiple student rooms who want control over payments, administration and communication." },
             { label: "What's inside", text: "Payments, reminders, cleaning schedule, contracts, house rules and tenant management in one secure environment." },
-            { label: "Technical", text: "Spring Boot, PostgreSQL, JWT security and a REST API that connects to any frontend. Fully extendable." },
+            { label: "Technical", text: "Spring Boot, PostgreSQL, OAuth2 security and a REST API that connects to any frontend. Fully extendable." },
         ],
         featuresTitle: "What's included",
         ctaTitle: "Interested?",
@@ -70,6 +74,7 @@ const content = {
         backBtn: "← Back to Portfolio",
     },
     fr: {
+        liveBtn: "Voir casacrew.nl",
         title: "CasaCrew · Application de location pour loueurs de chambres",
         subtitle: "Spring Boot · Prêt à l'emploi",
         tagline: "Gestion locative numérique, totalement maîtrisée.\nTout en un endroit, extensible selon vos besoins.",
@@ -84,7 +89,7 @@ const content = {
         cards: [
             { label: "Pour qui", text: "Bailleurs privés avec plusieurs chambres étudiantes qui veulent le contrôle sur les paiements, l'administration et la communication." },
             { label: "Contenu", text: "Paiements, rappels, planning ménage, contrats, règlement intérieur et gestion des locataires dans un environnement sécurisé." },
-            { label: "Technique", text: "Spring Boot, PostgreSQL, sécurité JWT et une API REST qui se connecte à n'importe quel frontend. Entièrement extensible." },
+            { label: "Technique", text: "Spring Boot, PostgreSQL, sécurité OAuth2 et une API REST qui se connecte à n'importe quel frontend. Entièrement extensible." },
         ],
         featuresTitle: "Ce qui est inclus",
         ctaTitle: "Intéressé ?",
@@ -93,6 +98,7 @@ const content = {
         backBtn: "← Retour au Portfolio",
     },
     de: {
+        liveBtn: "casacrew.nl ansehen",
         title: "CasaCrew · Vermietungs-App für Zimmervermieter",
         subtitle: "Spring Boot · Einsatzbereit",
         tagline: "Digital vermieten, vollständig im Griff.\nAlles an einem Ort, skalierbar auf Ihre Situation.",
@@ -107,7 +113,7 @@ const content = {
         cards: [
             { label: "Für wen", text: "Privatvermieter mit mehreren Studentenzimmern, die Kontrolle über Zahlungen, Verwaltung und Kommunikation wollen." },
             { label: "Inhalt", text: "Zahlungen, Erinnerungen, Reinigungsplan, Verträge, Hausordnung und Mieterverwaltung in einer sicheren Umgebung." },
-            { label: "Technisch", text: "Spring Boot, PostgreSQL, JWT-Sicherheit und eine REST API, die mit jedem Frontend verbunden werden kann. Vollständig erweiterbar." },
+            { label: "Technisch", text: "Spring Boot, PostgreSQL, OAuth2-Sicherheit und eine REST API, die mit jedem Frontend verbunden werden kann. Vollständig erweiterbar." },
         ],
         featuresTitle: "Was ist enthalten",
         ctaTitle: "Interessiert?",
@@ -116,6 +122,7 @@ const content = {
         backBtn: "← Zurück zum Portfolio",
     },
     es: {
+        liveBtn: "Ver casacrew.nl",
         title: "CasaCrew · App de alquiler para caseros",
         subtitle: "Spring Boot · Listo para usar",
         tagline: "Gestión digital de alquileres, con control total.\nTodo en un lugar, escalable a tu situación.",
@@ -130,7 +137,7 @@ const content = {
         cards: [
             { label: "Para quién", text: "Arrendadores privados con varias habitaciones estudiantiles que quieren control sobre pagos, administración y comunicación." },
             { label: "Contenido", text: "Pagos, recordatorios, calendario de limpieza, contratos, normas del hogar y gestión de inquilinos en un entorno seguro." },
-            { label: "Técnico", text: "Spring Boot, PostgreSQL, seguridad JWT y una API REST que se conecta a cualquier frontend. Totalmente extensible." },
+            { label: "Técnico", text: "Spring Boot, PostgreSQL, seguridad OAuth2 y una API REST que se conecta a cualquier frontend. Totalmente extensible." },
         ],
         featuresTitle: "Qué incluye",
         ctaTitle: "¿Interesado?",
@@ -139,6 +146,7 @@ const content = {
         backBtn: "← Volver al Portfolio",
     },
     it: {
+        liveBtn: "Vedi casacrew.nl",
         title: "CasaCrew · App affitti per chi affitta stanze",
         subtitle: "Spring Boot · Pronto all'uso",
         tagline: "Gestione digitale degli affitti, pieno controllo.\nTutto in un posto, espandibile alle tue esigenze.",
@@ -153,7 +161,7 @@ const content = {
         cards: [
             { label: "Per chi", text: "Proprietari privati con più camere per studenti che vogliono controllo su pagamenti, amministrazione e comunicazione." },
             { label: "Contenuto", text: "Pagamenti, promemoria, piano pulizie, contratti, regole della casa e gestione inquilini in un ambiente sicuro." },
-            { label: "Tecnico", text: "Spring Boot, PostgreSQL, sicurezza JWT e una API REST collegabile a qualsiasi frontend. Completamente estendibile." },
+            { label: "Tecnico", text: "Spring Boot, PostgreSQL, sicurezza OAuth2 e una API REST collegabile a qualsiasi frontend. Completamente estendibile." },
         ],
         featuresTitle: "Cosa è incluso",
         ctaTitle: "Interessato?",
@@ -162,6 +170,7 @@ const content = {
         backBtn: "← Torna al Portfolio",
     },
     uk: {
+        liveBtn: "Відкрити casacrew.nl",
         title: "CasaCrew · Застосунок оренди для власників кімнат",
         subtitle: "Spring Boot · Готово до використання",
         tagline: "Цифрова оренда, повний контроль.\nВсе в одному місці, масштабується під твою ситуацію.",
@@ -176,7 +185,7 @@ const content = {
         cards: [
             { label: "Для кого", text: "Приватні орендодавці з кількома студентськими кімнатами, які хочуть контролювати платежі, адміністрацію та комунікацію." },
             { label: "Що включено", text: "Платежі, нагадування, графік прибирання, договори, правила будинку та управління орендарями в одному захищеному середовищі." },
-            { label: "Технічно", text: "Spring Boot, PostgreSQL, JWT-безпека та REST API, що підключається до будь-якого frontend. Повністю розширювана." },
+            { label: "Технічно", text: "Spring Boot, PostgreSQL, OAuth2-безпека та REST API, що підключається до будь-якого frontend. Повністю розширювана." },
         ],
         featuresTitle: "Що включено",
         ctaTitle: "Зацікавлені?",
@@ -229,10 +238,13 @@ export default function BackendStudentenDashboard() {
                         <span className="tag">Spring Boot</span>
                         <span className="tag">Java</span>
                         <span className="tag">PostgreSQL</span>
-                        <span className="tag">JWT</span>
+                        <span className="tag">OAuth2</span>
                         <span className="tag">REST API</span>
                     </div>
-                    <a className="btn btn-primary vr-cta" href={`${prefix}/#contact`}>{c.ctaBtn}</a>
+                    <div className="cc-ctas">
+                        <a className="btn btn-primary" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
+                        <a className="btn btn-ghost" href={`${prefix}/#contact`}>{c.ctaBtn}</a>
+                    </div>
                 </div>
                 <div
                     className="vr-hero-image"
@@ -313,7 +325,10 @@ export default function BackendStudentenDashboard() {
             <section className="vr-cta-block">
                 <h2>{c.ctaTitle}</h2>
                 <p>{c.ctaText}</p>
-                <a className="btn btn-primary" href={`${prefix}/#contact`}>{c.ctaBtn}</a>
+                <div className="cc-ctas">
+                    <a className="btn btn-primary" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
+                    <a className="btn btn-ghost" href={`${prefix}/#contact`}>{c.ctaBtn}</a>
+                </div>
             </section>
 
             {/* ── FOOTER ── */}
@@ -330,6 +345,7 @@ export default function BackendStudentenDashboard() {
         .vr-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
         .vr-cta { align-self: flex-start; }
         .vr-hero-image { border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.4); }
+        .cc-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
         .cover-img { display: block; width: 100%; height: 100%; object-fit: cover; }
         .vr-intro { border-left: 3px solid var(--accent); padding: 4px 0 4px 20px; margin: 0 0 48px; }
         .vr-intro p { font-size: 1.1rem; line-height: 1.7; color: var(--muted); margin: 0; }

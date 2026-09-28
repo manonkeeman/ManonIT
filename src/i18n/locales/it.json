@@ -127,7 +127,8 @@
     "rights": "Tutti i diritti riservati | Codice & Contenuto - Manon Keeman",
     "ctaTitle": "Pronto per un sito che funziona?",
     "ctaSub": "Prenota un colloquio gratuito di 30 minuti. Senza impegno.",
-    "navHeading": "Navigazione"
+    "navHeading": "Navigazione",
+    "tagline": "Risolvo problemi tecnici e costruisco il sito web che serve."
   },
   "portfolio": {
     "viewBtn": "Vedi",
@@ -202,6 +203,18 @@
       "toekomsttech": {
         "title": "Il futuro della tecnologia | Manon Keeman",
         "description": "L'IA, il lavoro da remoto e il ruolo della creatività."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastello fuori, sorprendente dentro | Manon Keeman",
+        "description": "Come ho costruito il sito di mia nipote Marie: dolce fuori, ragionato dentro."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Come uso l'IA nel mio lavoro (e dove no) | Manon Keeman",
+        "description": "Costruire più velocemente, in più lingue e visibili in ChatGPT e Claude. Così uso l'IA per i miei clienti, e dove no."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "Dal foglio Excel alla propria app: la storia di CasaCrew | Manon Keeman",
+        "description": "Come un foglio Excel strapieno a Villa Vredestein è diventato CasaCrew, un'app per chi affitta stanze."
       }
     },
     "portfolio": {
@@ -256,6 +269,14 @@
       "pastelvanbuiten": {
         "title": "Pastello fuori, sorprendente dentro",
         "excerpt": "Come ho costruito il sito di mia nipote Marie: dolce fuori, ragionato dentro."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Come uso l'IA nel mio lavoro (e dove no)",
+        "excerpt": "Costruire più velocemente, in più lingue e visibili in ChatGPT e Claude. Così uso l'IA per i miei clienti, e dove no."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "Dal foglio Excel alla propria app: la storia di CasaCrew",
+        "excerpt": "Come un foglio Excel strapieno a Villa Vredestein è diventato CasaCrew, un'app per chi affitta stanze."
       }
     }
   },

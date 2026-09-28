@@ -90,7 +90,7 @@ netlify/edge-functions/
 | `/journal/:slug`               | Artikel                                                         |
 | `/frontendvredestein`          | Project: Villa Vredestein                                       |
 | `/webdesignacupuncture`        | Project: Acupuncture by Saskia                                  |
-| `/backendstudentendashboard`   | Project: CasaCrew, verhuurapp voor hospita's              |
+| `/backendstudentendashboard`   | Project: CasaCrew, verhuurapp voor hospita's (casacrew.nl) |
 | `/thebigthree`                 | Project: The Big Three                                          |
 | `/marieboddaert`               | Project: Marie H. Boddaert                                      |
 | `/privacy`, `/colofon`         | Juridisch (alleen NL)                                           |

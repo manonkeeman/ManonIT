@@ -127,7 +127,8 @@
     "rights": "Tous droits réservés | Code & Contenu - Manon Keeman",
     "ctaTitle": "Prêt pour un site qui fonctionne ?",
     "ctaSub": "Réservez un échange gratuit de 30 minutes. Sans engagement.",
-    "navHeading": "Navigation"
+    "navHeading": "Navigation",
+    "tagline": "Je résous des problèmes techniques et je construis le site web qui va avec."
   },
   "portfolio": {
     "viewBtn": "Voir",
@@ -202,6 +203,18 @@
       "toekomsttech": {
         "title": "L'avenir de la tech | Manon Keeman",
         "description": "L'IA, le travail à distance et le rôle de la créativité."
+      },
+      "pastelvanbuiten": {
+        "title": "Pastel en apparence, surprenant en profondeur | Manon Keeman",
+        "description": "Comment j'ai construit le site de ma nièce Marie : doux en surface, réfléchi en profondeur."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Comment j'utilise l'IA dans mon travail (et où je ne l'utilise pas) | Manon Keeman",
+        "description": "Construire plus vite, en plusieurs langues et visible dans ChatGPT et Claude. Comment j'utilise l'IA pour mes clients, et où pas."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "Du tableur à l'application : l'histoire de CasaCrew | Manon Keeman",
+        "description": "Comment un tableur débordant à la Villa Vredestein est devenu CasaCrew, une application pour loueurs de chambres."
       }
     },
     "portfolio": {
@@ -256,6 +269,14 @@
       "pastelvanbuiten": {
         "title": "Pastel en apparence, surprenant en profondeur",
         "excerpt": "Comment j'ai construit le site de ma nièce Marie : doux en surface, réfléchi en profondeur."
+      },
+      "ai-in-mijn-werk": {
+        "title": "Comment j'utilise l'IA dans mon travail (et où je ne l'utilise pas)",
+        "excerpt": "Construire plus vite, en plusieurs langues et visible dans ChatGPT et Claude. Comment j'utilise l'IA pour mes clients, et où pas."
+      },
+      "verhaal-achter-casacrew": {
+        "title": "Du tableur à l'application : l'histoire de CasaCrew",
+        "excerpt": "Comment un tableur débordant à la Villa Vredestein est devenu CasaCrew, une application pour loueurs de chambres."
       }
     }
   },
