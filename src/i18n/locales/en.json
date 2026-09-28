@@ -217,11 +217,15 @@
       },
       "bigthree": {
         "desc": "Website for an American car garage in Nunspeet, named after GM, Ford and Chrysler. With a CMS, SEO and three languages, in a bold dark theme."
+      },
+      "casarusso": {
+        "desc": "A website on the smallest possible budget for renting out a holiday home in Abruzzo, Italy. With the house, the surroundings, its own olive oil and the yearly olive picking holiday."
       }
     },
     "label": "Portfolio",
     "title": "Recent work",
-    "intro": "A selection of websites and applications I designed and built."
+    "intro": "A selection of websites and applications I designed and built.",
+    "viewSite": "View the website"
   },
   "seo": {
     "home": {

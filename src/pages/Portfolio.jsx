@@ -4,6 +4,13 @@ import { useTranslation } from "react-i18next";
 import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 
 
+// Kaart zonder eigen projectpagina linkt direct naar de live site
+function CardLink({ p, children }) {
+    return p.route
+        ? <Link className="card-link" to={p.route} aria-label={`Open ${p.title}`}>{children}</Link>
+        : <a className="card-link" href={p.liveUrl} target="_blank" rel="noreferrer" aria-label={`${p.title} (opent in nieuw tabblad)`}>{children}</a>;
+}
+
 const projects = [
     {
         key: "backend",
@@ -52,6 +59,14 @@ const projects = [
         num: "05",
         journalLink: "/journal/pastelvanbuiten",
     },
+    {
+        key: "casarusso",
+        title: "Webdesign · Casa Russo",
+        tags: ["Webdesign", "Vakantieverhuur", "Budget"],
+        base: "/Portfolio/casa-russo-mockup",
+        liveUrl: "http://russo.nl/Home/",
+        num: "06",
+    },
 ];
 
 export default function Portfolio() {
@@ -72,7 +87,7 @@ export default function Portfolio() {
                     const desc = t(`portfolio.projects.${p.key}.desc`);
                     return (
                         <article key={p.key} className="portfolio-card">
-                            <Link className="card-link" to={p.route} aria-label={`Open ${p.title}`}>
+                            <CardLink p={p}>
                                 <div className="card-media">
                                     <MockupPicture base={p.base} alt={p.title} sizes="(max-width: 600px) 92vw, (max-width: 920px) 46vw, 380px" />
                                 </div>
@@ -86,14 +101,16 @@ export default function Portfolio() {
                                         ))}
                                     </div>
                                 </div>
-                            </Link>
+                            </CardLink>
                             <div className="card-actions">
-                                <Link to={p.route} className="btn-cta">{t('portfolio.viewBtn')} →</Link>
+                                {p.route
+                                    ? <Link to={p.route} className="btn-cta">{t('portfolio.viewBtn')} →</Link>
+                                    : <a href={p.liveUrl} target="_blank" rel="noreferrer" className="btn-cta">{t('portfolio.viewSite')} ↗</a>}
                                 {p.journalLink && (
                                     <Link to={p.journalLink} className="btn-cta-story">{t('portfolio.readStory')} →</Link>
                                 )}
-                                {p.liveUrl && (
-                                    <a href={p.liveUrl} target="_blank" rel="noreferrer" className="btn-cta-story">{p.liveUrl.replace("https://", "")} ↗</a>
+                                {p.route && p.liveUrl && (
+                                    <a href={p.liveUrl} target="_blank" rel="noreferrer" className="btn-cta-story">{p.liveUrl.replace(/^https?:\/\//, "").replace(/\/.*$/, "")} ↗</a>
                                 )}
                             </div>
                         </article>
@@ -241,7 +258,9 @@ export default function Portfolio() {
           align-items: center;
           justify-content: center;
         }
-        .portfolio-card--cta:hover { transform: translateY(-5px); }
+        .portfolio-card--cta { grid-column: 1 / -1; }
+        .portfolio-card--cta:hover { transform: none; }
+        .portfolio-card--cta .cta-card-inner { align-items: center; text-align: center; padding: 48px 32px; }
         .cta-card-inner {
           padding: 40px 32px;
           display: flex;

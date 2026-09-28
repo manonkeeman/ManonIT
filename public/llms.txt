@@ -37,6 +37,7 @@
 - [Acupuncture by Saskia](https://manonit.com/webdesignacupuncture): WordPress-website voor een acupunctuurpraktijk
 - [The Big Three](https://manonit.com/thebigthree): website met CMS, SEO en drie talen voor een garage in Amerikaanse auto's in Nunspeet, vernoemd naar GM, Ford en Chrysler (live op thebigthree.nl)
 - [Marie H. Boddaert](https://manonit.com/marieboddaert): schrijverswebsite met CMS
+- [Casa Russo](http://russo.nl/Home/): voordelige website voor de verhuur van een vakantiehuis in Abruzzo, Italië
 
 ## Contact
 

@@ -217,11 +217,15 @@
       },
       "marieboddaert": {
         "desc": "Schrijverswebsite in HTML/CSS met literaire typografie en webdesign op maat. Live op Netlify, SEO-geoptimaliseerd en voorzien van een CMS zodat Marie zelf content beheert."
+      },
+      "casarusso": {
+        "desc": "Zo voordelig mogelijke website voor de verhuur van een vakantiehuis in Abruzzo, Italië. Met het huis, de omgeving, de eigen olijfolie en de jaarlijkse olijfplukvakantie."
       }
     },
     "label": "Portfolio",
     "title": "Recent werk",
-    "intro": "Een selectie van websites en applicaties die ik heb ontworpen en gebouwd."
+    "intro": "Een selectie van websites en applicaties die ik heb ontworpen en gebouwd.",
+    "viewSite": "Bekijk de website"
   },
   "seo": {
     "home": {

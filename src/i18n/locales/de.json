@@ -156,11 +156,15 @@
       },
       "marieboddaert": {
         "desc": "Autorinnenwebsite in HTML/CSS mit literarischer Typografie und individuellem Webdesign. Live auf Netlify, SEO-optimiert und mit CMS damit Marie eigene Inhalte verwaltet."
+      },
+      "casarusso": {
+        "desc": "Eine möglichst günstige Website für die Vermietung eines Ferienhauses in den Abruzzen, Italien. Mit dem Haus, der Umgebung, eigenem Olivenöl und der jährlichen Olivenernte-Reise."
       }
     },
     "label": "Portfolio",
     "title": "Aktuelle Projekte",
-    "intro": "Eine Auswahl an Websites und Anwendungen, die ich gestaltet und gebaut habe."
+    "intro": "Eine Auswahl an Websites und Anwendungen, die ich gestaltet und gebaut habe.",
+    "viewSite": "Website ansehen"
   },
   "seo": {
     "home": {

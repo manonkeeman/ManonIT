@@ -156,11 +156,15 @@
       },
       "marieboddaert": {
         "desc": "Sito di scrittrice in HTML/CSS con tipografia letteraria e webdesign personalizzato. Live su Netlify, ottimizzato SEO e dotato di CMS perché Marie gestisca i propri contenuti."
+      },
+      "casarusso": {
+        "desc": "Un sito il più economico possibile per l'affitto di una casa vacanze in Abruzzo, Italia. Con la casa, i dintorni, l'olio d'oliva di produzione propria e la vacanza annuale per la raccolta delle olive."
       }
     },
     "label": "Portfolio",
     "title": "Lavori recenti",
-    "intro": "Una selezione di siti web e applicazioni che ho progettato e sviluppato."
+    "intro": "Una selezione di siti web e applicazioni che ho progettato e sviluppato.",
+    "viewSite": "Vedi il sito"
   },
   "seo": {
     "home": {
