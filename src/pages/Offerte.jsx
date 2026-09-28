@@ -470,7 +470,7 @@ export default function Offerte() {
         }
         .offerte-card--featured {
           border-color: var(--bordeaux);
-          box-shadow: 0 8px 32px rgba(92,26,27,0.15);
+          box-shadow: 0 8px 32px rgba(0,0,0,.15);
           transform: translateY(-6px);
         }
         @media (max-width: 860px) { .offerte-card--featured { transform: none; } }
@@ -568,7 +568,7 @@ export default function Offerte() {
           background: var(--bordeaux);
           color: var(--bg);
           border-color: var(--bordeaux);
-          box-shadow: 0 6px 18px rgba(92,26,27,0.20);
+          box-shadow: 0 6px 18px rgba(0,0,0,.20);
         }
         .offerte-btn--primary:hover {
           background: var(--accent);
@@ -586,7 +586,7 @@ export default function Offerte() {
           background: var(--bordeaux);
           border-color: var(--bordeaux);
           color: var(--bg);
-          box-shadow: 0 4px 14px rgba(92,26,27,0.18);
+          box-shadow: 0 4px 14px rgba(0,0,0,.18);
           text-decoration: none;
         }
         .offerte-btn--lg { padding: 15px 30px; font-size: 0.98rem; border-radius: 14px; }

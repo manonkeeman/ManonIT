@@ -18,24 +18,24 @@ export default function ScrollToTop() {
     // 2. Scroll automatisch naar hash of bovenaan bij routewissel
     useEffect(() => {
         if (hash) {
-            const id = hash.replace("#", "");
-            const tryScroll = () => {
-                const el = document.getElementById(id);
-                if (el) {
-                    el.scrollIntoView({ behavior: "smooth", block: "start" });
-                    return true;
+            const id = decodeURIComponent(hash.slice(1));
+            const timers = [];
+            // Direct springen (geen smooth): een vloeiende scroll wordt afgebroken zodra
+            // lazy secties en afbeeldingen erboven nog inladen en de layout verschuift.
+            // Daarom na het vinden nog twee keer corrigeren.
+            const jump = () => document.getElementById(id)?.scrollIntoView({ behavior: "instant", block: "start" });
+            let attempts = 0;
+            const poll = setInterval(() => {
+                attempts++;
+                if (document.getElementById(id)) {
+                    clearInterval(poll);
+                    jump();
+                    timers.push(setTimeout(jump, 400), setTimeout(jump, 1200));
+                } else if (attempts > 100) {
+                    clearInterval(poll); // ~5 s: sectie bestaat niet op deze pagina
                 }
-                return false;
-            };
-
-            // probeer meerdere keren tot de sectie in DOM staat
-            if (!tryScroll()) {
-                let attempts = 0;
-                const t = setInterval(() => {
-                    attempts++;
-                    if (tryScroll() || attempts > 10) clearInterval(t);
-                }, 50);
-            }
+            }, 50);
+            return () => { clearInterval(poll); timers.forEach(clearTimeout); };
         } else {
             // geen hash -> gewoon naar boven scrollen
             window.scrollTo({ top: 0, left: 0, behavior: "auto" });

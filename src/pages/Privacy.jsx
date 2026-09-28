@@ -15,7 +15,7 @@ export default function Privacy() {
 
                 <header className="legal-header">
                     <h1>Privacybeleid</h1>
-                    <p className="legal-meta">ManonIT · Versie 1.0 · Gepubliceerd op 19 juni 2026</p>
+                    <p className="legal-meta">ManonIT · Versie 1.1 · Bijgewerkt op 28 september 2026</p>
                 </header>
 
                 <div className="legal-body card">
@@ -48,10 +48,10 @@ export default function Privacy() {
 
                     <h3>Nieuwsbrief (Substack)</h3>
                     <p>
-                        Als je je inschrijft voor mijn nieuwsbrief, verwerk ik jouw{" "}
-                        <strong>e-mailadres</strong>. De nieuwsbrief wordt verzonden via{" "}
-                        <strong>Substack</strong>. Je kunt je op elk moment uitschrijven via de link
-                        onderaan elke nieuwsbrief.
+                        Je kunt je inschrijven voor mijn nieuwsbrief via{" "}
+                        <strong>Substack</strong>. De inschrijving en verzending gebeuren op het
+                        platform van Substack; ik ontvang daar jouw <strong>e-mailadres</strong>.
+                        Je kunt je op elk moment uitschrijven via de link onderaan elke nieuwsbrief.
                     </p>
                     <p>
                         Substack heeft een eigen privacybeleid:{" "}
@@ -62,16 +62,46 @@ export default function Privacy() {
 
                     <h3>Google Analytics (GA4)</h3>
                     <p>
-                        Deze website maakt gebruik van <strong>Google Analytics 4</strong>
+                        Alleen als je daar via de cookiebanner toestemming voor geeft, gebruikt deze
+                        website <strong>Google Analytics 4</strong>
                         (Measurement ID: G-C2623Y1T63) om geanonimiseerde bezoekersstatistieken
                         bij te houden, zoals paginabezoeken, sessieduur en verwijzingsbron.
-                        IP-adressen worden geanonimiseerd voordat ze worden verwerkt.
+                        Google Analytics 4 slaat geen volledige IP-adressen op. Ik gebruik de
+                        gegevens niet voor advertenties en koppel ze niet aan andere gegevens.
                     </p>
                     <p>
-                        Je kunt het volgen door Google Analytics blokkeren via een browser-extensie
+                        Je kunt het meten door Google Analytics blokkeren via een browser-extensie
                         zoals{" "}
                         <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noreferrer">
                             Google Analytics Opt-out
+                        </a>.
+                    </p>
+
+                    <h3>Google Maps</h3>
+                    <p>
+                        Op de contactsectie staat een kaart van <strong>Google Maps</strong>. Die laadt
+                        pas als je toestemming geeft via de cookiebanner of zelf op &quot;Kaart laden&quot;
+                        klikt. Bij het laden ontvangt Google onder meer je IP-adres en kan Google
+                        cookies plaatsen. Zie het{" "}
+                        <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+                            privacybeleid van Google
+                        </a>.
+                    </p>
+
+                    <h3>Google-reviews</h3>
+                    <p>
+                        Op de homepage toon ik openbare reviews van mijn Google-bedrijfsprofiel.
+                        De profielfoto&apos;s van reviewers worden rechtstreeks van Google-servers
+                        geladen, waardoor Google je IP-adres ontvangt.
+                    </p>
+
+                    <h3>WhatsApp</h3>
+                    <p>
+                        Als je via de WhatsApp-knop contact opneemt, verloopt dat gesprek via{" "}
+                        <strong>WhatsApp (Meta)</strong>. Ik gebruik je telefoonnummer en berichten
+                        alleen om je vraag te beantwoorden. Voor de verwerking door WhatsApp geldt het{" "}
+                        <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noreferrer">
+                            privacybeleid van WhatsApp
                         </a>.
                     </p>
 
@@ -91,10 +121,12 @@ export default function Privacy() {
 
                     <h2>3. Op welke grondslag verwerk ik jouw gegevens?</h2>
                     <ul>
-                        <li><strong>Contactformulier:</strong> uitvoering van een overeenkomst of gerechtvaardigd belang (beantwoorden van jouw vraag)</li>
+                        <li><strong>Contactformulier en WhatsApp:</strong> uitvoering van een overeenkomst of gerechtvaardigd belang (beantwoorden van jouw vraag)</li>
                         <li><strong>Nieuwsbrief:</strong> toestemming (jij schrijft je actief in)</li>
-                        <li><strong>Google Analytics:</strong> gerechtvaardigd belang (verbetering van de website)</li>
+                        <li><strong>Google Analytics:</strong> toestemming (via de cookiebanner)</li>
                         <li><strong>Serverlogbestanden:</strong> gerechtvaardigd belang (beveiliging)</li>
+                        <li><strong>Google Maps:</strong> toestemming (via de cookiebanner of door zelf op &quot;Kaart laden&quot; te klikken)</li>
+                        <li><strong>Google-reviews:</strong> gerechtvaardigd belang (tonen van klantervaringen)</li>
                     </ul>
 
                     <hr className="rule" />
@@ -107,7 +139,8 @@ export default function Privacy() {
                     <ul>
                         <li><strong>Netlify</strong> — hosting en formulierverwerking (VS, onder EU-VS Data Privacy Framework)</li>
                         <li><strong>Substack</strong> — nieuwsbriefverzending (VS, eigen privacybeleid van toepassing)</li>
-                        <li><strong>Google LLC</strong> — Analytics (VS, onder EU-VS Data Privacy Framework)</li>
+                        <li><strong>Google LLC</strong> — Analytics, Maps en reviews (VS, onder EU-VS Data Privacy Framework)</li>
+                        <li><strong>WhatsApp Ireland (Meta)</strong> — alleen als je zelf via WhatsApp contact opneemt</li>
                     </ul>
 
                     <hr className="rule" />
@@ -137,10 +170,17 @@ export default function Privacy() {
 
                     <h2>6. Cookies</h2>
                     <p>
-                        Deze website gebruikt <strong>geen tracking cookies</strong> of marketing
-                        cookies. Google Analytics maakt gebruik van een first-party cookie
-                        (<code>_ga</code>) om sessies te onderscheiden. Dit cookie bevat geen
-                        persoonsgegevens.
+                        Deze website gebruikt <strong>geen advertentie- of marketingcookies</strong>.
+                        Bij je eerste bezoek vraag ik via een cookiebanner om toestemming. Pas als je
+                        die geeft, plaatst Google Analytics een analytische cookie (<code>_ga</code>)
+                        met een willekeurig ID om bezoeken van elkaar te onderscheiden, en laadt de
+                        Google Maps-kaart, die ook cookies van Google kan plaatsen. Weiger je, dan
+                        worden deze cookies niet geplaatst.
+                    </p>
+                    <p>
+                        Je keuze wordt lokaal in je browser bewaard. Je kunt die altijd wijzigen via
+                        &quot;Cookie-instellingen&quot; onderaan elke pagina. Trek je je toestemming
+                        in, dan verwijder ik de Google Analytics-cookies.
                     </p>
 
                     <hr className="rule" />
@@ -198,11 +238,11 @@ export default function Privacy() {
         .legal-body p { margin: 0 0 12px; line-height: 1.72; }
         .legal-body ul { margin: 0 0 12px; padding-left: 1.3rem; display: flex; flex-direction: column; gap: 6px; }
         .legal-body li { line-height: 1.6; }
-        .legal-body a { color: var(--accent); }
+        .legal-body a { color: var(--accent-ink); }
         .legal-body a:hover { text-decoration: underline; }
         .legal-body code { font-size: .88em; background: var(--border); padding: 2px 6px; border-radius: 4px; }
         .rule { height: 1px; background: var(--border); margin: 22px 0; border: none; }
-        .back-link { display: inline-block; color: var(--accent); text-decoration: none; font-size: .92rem; margin-bottom: 16px; }
+        .back-link { display: inline-block; color: var(--accent-ink); text-decoration: none; font-size: .92rem; margin-bottom: 16px; }
         .back-link:hover { text-decoration: underline; }
         .legal-back { margin-top: 24px; }
       `}</style>

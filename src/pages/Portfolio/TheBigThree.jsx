@@ -242,7 +242,7 @@ export default function TheBigThree() {
 
         .bt-hero-image {
           border-radius: 16px; overflow: hidden;
-          box-shadow: 0 20px 60px rgba(92,26,27,.18);
+          box-shadow: 0 20px 60px rgba(0,0,0,.18);
         }
         .bt-cover { display: block; width: 100%; height: auto; border-radius: 0; }
 

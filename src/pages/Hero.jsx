@@ -1,110 +1,232 @@
 import { memo } from "react";
 import { useTranslation } from "react-i18next";
+import { FiCheck, FiStar, FiLayers, FiSearch, FiMessageCircle } from "react-icons/fi";
+import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
+
+const TRUST = [
+    { key: "rating",  Icon: FiStar },
+    { key: "oneStop", Icon: FiLayers },
+    { key: "seo",     Icon: FiSearch },
+    { key: "free",    Icon: FiMessageCircle },
+];
 
 function Hero() {
     const { t } = useTranslation();
     const prefix = useLangPrefix();
+    const points = t("hero.points", { returnObjects: true });
 
     return (
         <section id="home" style={{ padding: 0, margin: 0 }}>
-            <div className="hero-shell">
+            <div className="hero-wrap">
+                <div className="hero-grid">
 
-                {/* FOTO */}
-                <div className="hero-left">
-                    <picture>
-                        <source
-                            type="image/avif"
-                            srcSet="/hero-400w.avif 400w, /hero-800w.avif 800w, /hero-1200w.avif 1200w"
-                            sizes="(max-width: 768px) 100vw, 800px"
-                        />
-                        <source
-                            type="image/webp"
-                            srcSet="/hero-400w.webp 400w, /hero-800w.webp 800w, /hero-1200w.webp 1200w"
-                            sizes="(max-width: 768px) 100vw, 800px"
-                        />
-                        <img
-                            src="/hero-800w.webp"
-                            width="800"
-                            height="450"
-                            fetchPriority="high"
-                            decoding="async"
-                            alt="Manon Keeman – full stack developer, systems thinker, storyteller & builder"
-                        />
-                    </picture>
-                </div>
+                    {/* TEKST */}
+                    <div className="hero-copy">
+                        <span className="hero-badge">
+                            <span className="badge-dot" aria-hidden="true"/>
+                            {t("hero.available")}
+                        </span>
+                        <h1>{t("hero.greeting")}</h1>
+                        <p className="hero-lead">{t("hero.bio")}</p>
 
-                {/* TEKST */}
-                <div className="hero-copy">
-                    <span className="hero-badge">
-                        <span className="badge-dot" aria-hidden="true"/>
-                        {t('hero.available')}
-                    </span>
-                    <h1>{t('hero.greeting')}</h1>
-                    <h3>{t('hero.tagline')}</h3>
-                    <p style={{ whiteSpace: 'pre-line' }}>{t('hero.bio')}</p>
-                    <p className="small">{t('hero.roles')}</p>
-                    <div className="hero-ctas">
-                        <a href={`${prefix}/#portfolio`} className="btn btn-primary" data-arrow data-wide>{t('hero.ctaWork')}</a>
-                        <a href={`${prefix}/#contact`} className="btn btn-outline" data-arrow data-narrow>{t('hero.ctaContact')}</a>
+                        {Array.isArray(points) && (
+                            <ul className="hero-points">
+                                {points.map((p) => (
+                                    <li key={p}><FiCheck aria-hidden="true"/>{p}</li>
+                                ))}
+                            </ul>
+                        )}
+
+                        <div className="hero-ctas">
+                            <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow>{t("hero.ctaContact")}</a>
+                            <a href={`${prefix}/#portfolio`} className="btn btn-ghost">{t("hero.ctaWork")}</a>
+                        </div>
+
+                        <p className="hero-rating">
+                            <span className="hero-stars" aria-hidden="true">★★★★★</span>
+                            {t("hero.ratingLine")}
+                        </p>
+                    </div>
+
+                    {/* WERK — mockups van recente projecten */}
+                    <div className="hero-visual">
+                        <Link to="/frontendvredestein" className="hero-shot" aria-label="Villa Vredestein">
+                            <picture>
+                                <source
+                                    type="image/avif"
+                                    srcSet="/hero-work-600w.avif 600w, /hero-work-1000w.avif 1000w, /hero-work-1400w.avif 1400w"
+                                    sizes="(max-width: 920px) 92vw, 620px"
+                                />
+                                <source
+                                    type="image/webp"
+                                    srcSet="/hero-work-600w.webp 600w, /hero-work-1000w.webp 1000w, /hero-work-1400w.webp 1400w"
+                                    sizes="(max-width: 920px) 92vw, 620px"
+                                />
+                                <img
+                                    src="/hero-work-1000w.webp"
+                                    width="1000"
+                                    height="667"
+                                    fetchPriority="high"
+                                    decoding="async"
+                                    alt="Website Villa Vredestein op desktop en mobiel, ontworpen en gebouwd door ManonIT"
+                                />
+                            </picture>
+                        </Link>
+
+                        <Link to="/marieboddaert" className="hero-window" aria-label="Marie H. Boddaert">
+                            <span className="hero-window-bar" aria-hidden="true"><i/><i/><i/></span>
+                            <picture>
+                                <source type="image/avif" srcSet="/hero-work-marie-400w.avif 400w, /hero-work-marie-700w.avif 700w" sizes="240px" />
+                                <source type="image/webp" srcSet="/hero-work-marie-400w.webp 400w, /hero-work-marie-700w.webp 700w" sizes="240px" />
+                                <img src="/hero-work-marie-400w.webp" width="400" height="225" loading="lazy" decoding="async" alt="Website Marie H. Boddaert" />
+                            </picture>
+                        </Link>
+
                     </div>
                 </div>
             </div>
 
+            {/* VERTROUWENSBALK */}
+            <div className="trust-bar">
+                <ul className="trust-grid">
+                    {TRUST.map(({ key, Icon }) => (
+                        <li key={key} className="trust-item">
+                            <span className="trust-icon"><Icon aria-hidden="true"/></span>
+                            <span>
+                                <strong>{t(`hero.trust.${key}.title`)}</strong>
+                                <small>{t(`hero.trust.${key}.text`)}</small>
+                            </span>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+
             <style>{`
-        .hero-shell{
-          width:100vw;
-          min-height:100vh;
-          display:grid;
-          grid-template-columns: 1fr minmax(420px, 48vw);
-          grid-template-areas: "image copy";
-          position: relative;
+        .hero-wrap{
+          background: var(--bg);
+          padding: clamp(40px, 7vw, 96px) 20px clamp(48px, 6vw, 80px);
         }
-        .hero-left  { grid-area: image; }
-        .hero-left img{
-          display:block; width:100%; height:100vh; object-fit:cover; border-radius:0;
+        .hero-grid{
+          max-width: 1160px; margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1fr 1.05fr;
+          gap: clamp(32px, 5vw, 72px);
+          align-items: center;
         }
-        .hero-copy{
-          grid-area: copy;
-          align-self:center;
-          justify-self:end;
+        .hero-copy h1{
+          font-size: clamp(2.1rem, 4.6vw, 3.5rem);
+          line-height: 1.08;
+          margin: 0 0 20px;
+        }
+        .hero-lead{
+          font-size: clamp(1rem, 1.3vw, 1.15rem);
+          line-height: 1.65;
+          color: var(--muted);
           max-width: 56ch;
-          padding: 0 96px 0 32px;
-          text-align: left;
+          margin: 0 0 24px;
         }
         .hero-badge{
           display:inline-flex; align-items:center; gap:8px;
-          font-size:.82rem; font-weight:600; letter-spacing:.04em;
-          color:var(--accent); border:1px solid var(--accent);
-          border-radius:999px; padding:5px 12px;
-          margin-bottom:16px;
-          text-transform:uppercase;
+          font-size:.8rem; font-weight:500; letter-spacing:0;
+          color:var(--muted);
+          background: var(--bg-alt);
+          border-radius:999px; padding:6px 14px;
+          margin-bottom:20px;
         }
         .badge-dot{
-          width:7px; height:7px; border-radius:50%;
-          background:var(--accent);
+          width:8px; height:8px; border-radius:50%;
+          background:#1FA34A;
+          box-shadow: 0 0 0 3px rgba(31,163,74,.18);
           animation: pulse 2s ease-in-out infinite;
           flex-shrink:0;
         }
         @keyframes pulse{
           0%,100%{ opacity:1; transform:scale(1); }
-          50%{ opacity:.5; transform:scale(.85); }
+          50%{ opacity:.55; transform:scale(.85); }
         }
-        .hero-ctas{ display:flex; gap:16px; margin-top:16px; }
+        .hero-points{
+          list-style:none; padding:0; margin:0 0 28px;
+          display:grid; gap:10px;
+        }
+        .hero-points li{
+          display:flex; align-items:center; gap:10px;
+          font-weight:500;
+        }
+        .hero-points svg{
+          flex-shrink:0;
+          width:22px; height:22px; padding:4px;
+          border-radius:50%;
+          background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
+        }
+        .hero-ctas{ display:flex; gap:12px; flex-wrap:wrap; }
+        .hero-rating{
+          display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+          margin:22px 0 0; font-size:.9rem; color:var(--muted);
+        }
+        .hero-stars{ color:var(--accent); letter-spacing:2px; font-size:1rem; }
+
+        .hero-visual{ position:relative; width:100%; padding: 0 0 40px 24px; }
+        .hero-shot{ display:block; }
+        .hero-shot img{
+          width:100%; height:auto;
+          border-radius: 20px;
+          box-shadow: 0 30px 60px -30px rgba(0,0,0,.35);
+          transition: transform .4s ease;
+        }
+        .hero-shot:hover img{ transform: translateY(-3px); }
+        .hero-window{
+          position:absolute; left:0; bottom:0;
+          width: 42%;
+          background:#fff; border-radius:12px; overflow:hidden;
+          border:1px solid var(--border);
+          box-shadow: 0 20px 40px -14px rgba(0,0,0,.35);
+          transition: transform .25s ease;
+        }
+        .hero-window:hover{ transform: translateY(-4px); }
+        .hero-window-bar{ display:flex; gap:5px; padding:7px 9px; background: var(--bg-alt); }
+        .hero-window-bar i{ width:7px; height:7px; border-radius:50%; background: rgba(0,0,0,.15); }
+        .hero-window img{ width:100%; height:auto; border-radius:0; }
+        /* Trust bar */
+        .trust-bar{
+          background: var(--bg);
+          color: var(--text);
+          padding: 8px 20px 56px;
+        }
+        .trust-grid{
+          list-style:none; margin:0 auto; padding:0;
+          max-width:1160px;
+          display:grid; grid-template-columns: repeat(4, 1fr);
+          gap: 24px;
+          padding-top: 36px;
+          border-top: 1px solid var(--border);
+        }
+        .trust-item{ display:flex; align-items:center; gap:14px; }
+        .trust-item strong{ display:block; font-size:1rem; font-weight:700; }
+        .trust-item strong{ font-weight:600 !important; }
+        .trust-item small{ display:block; font-size:.85rem; color:var(--muted); line-height:1.4; }
+        .trust-icon{
+          flex-shrink:0;
+          width:44px; height:44px; border-radius:12px;
+          display:inline-flex; align-items:center; justify-content:center;
+          background: var(--bg-alt);
+          color: var(--accent);
+          font-size: 1.25rem;
+        }
 
         @media (max-width: 920px){
-          .hero-shell{
-            grid-template-columns: 1fr;
-            grid-template-areas: "image" "copy";
-          }
-          .hero-left img{ height:52vh; }
-          .hero-copy{ justify-self:start; padding:20px 20px 32px; max-width:65ch; }
-          .hero-ctas{ margin-top:18px; flex-wrap:wrap; }
+          .hero-grid{ grid-template-columns: 1fr; }
+          .hero-visual{ max-width: 620px; }
+
+          .trust-grid{ grid-template-columns: 1fr 1fr; }
         }
         @media (max-width: 480px){
-          .hero-left img{ height:42vh; }
-          .hero-copy{ padding:16px 16px 28px; }
-          .hero-ctas{ gap:10px; }
+          .hero-wrap{ padding: 28px 16px 44px; }
+          .hero-visual{ padding: 0 0 28px 12px; }
+
+          .hero-ctas .btn{ flex:1 1 100%; }
+          .trust-bar{ padding: 0 16px 40px; }
+          .trust-grid{ grid-template-columns: 1fr; gap:16px; }
         }
       `}</style>
         </section>

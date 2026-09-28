@@ -4,6 +4,23 @@ import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import Seo from "../assets/Components/Seo.jsx";
 import JsonLd from "../assets/Components/JsonLd.jsx";
 
+// Antwoorden zijn platte tekst: alinea's gescheiden door een lege regel,
+// regels die met "•" beginnen worden een lijst en de regel erboven een kopje.
+function FaqAnswer({ text }) {
+    return text.split("\n\n").map((block, i) => {
+        const lines = block.split("\n");
+        const bullets = lines.filter((l) => l.startsWith("•"));
+        if (!bullets.length) return <p key={i}>{block}</p>;
+        const heading = lines[0].startsWith("•") ? null : lines[0];
+        return (
+            <div key={i}>
+                {heading && <p className="faq-a-head">{heading}</p>}
+                <ul>{bullets.map((b) => <li key={b}>{b.replace(/^•\s*/, "")}</li>)}</ul>
+            </div>
+        );
+    });
+}
+
 export default function Faq() {
     const { t } = useTranslation();
     const prefix = useLangPrefix();
@@ -34,10 +51,14 @@ export default function Faq() {
                 </header>
 
                 <div className="faq-list">
-                    {items.map(({ q, a }) => (
+                    {items.map(({ q, a, link }) => (
                         <details className="faq-item card" key={q}>
                             <summary className="faq-q">{q}</summary>
-                            <p className="faq-a">{a}</p>
+                            <div className="faq-a">
+                                <FaqAnswer text={a} />
+                                {/* Optionele verwijzing, bijv. naar het tarievenblok op de homepage */}
+                                {link && <a href={`${prefix}${link.href}`} className="faq-link">{link.label} →</a>}
+                            </div>
                         </details>
                     ))}
                 </div>
@@ -95,6 +116,12 @@ export default function Faq() {
           color: var(--muted);
           line-height: 1.7;
         }
+        .faq-a p { margin: 0 0 14px; }
+        .faq-a p:last-child { margin-bottom: 0; }
+        .faq-link { display: inline-block; margin-top: 12px; color: var(--accent-ink); font-weight: 600; }
+        .faq-a-head { color: var(--text); font-weight: 600; margin: 0 0 4px !important; }
+        .faq-a ul { margin: 0 0 16px; padding-left: 20px; }
+        .faq-a li::marker { color: var(--accent); }
 
         .faq-cta {
           margin-top: 40px;

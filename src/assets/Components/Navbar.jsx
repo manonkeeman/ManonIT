@@ -2,14 +2,15 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { NavLink } from "./LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
-import { FaGithub } from "react-icons/fa";
 import MobileMenu from "./MobileMenu.jsx";
+import { useLangPrefix } from "./useLangPrefix.js";
 import LanguageSwitcher from "./LanguageSwitcher.jsx";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
     const { pathname } = useLocation();
     const { t } = useTranslation();
+    const prefix = useLangPrefix();
 
     useEffect(() => { setOpen(false); }, [pathname]);
 
@@ -24,9 +25,11 @@ export default function Navbar() {
                 {/* Desktop nav */}
                 <nav className="primary-nav desktop-only" aria-label="Main navigation">
                     <NavLink to="/" end>{t('nav.home')}</NavLink>
+                    <a href={`${prefix}/#services`}>{t('nav.services')}</a>
+                    <a href={`${prefix}/#tarieven`}>{t('nav.pricing')}</a>
 
                     <div className="nav-group">
-                        <NavLink to={{ pathname: "/", hash: "#portfolio" }}>{t('nav.portfolio')}</NavLink>
+                        <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>
                         <div className="nav-dropdown">
                             <NavLink to="/backendstudentendashboard">{t('nav.links.portfolio.backend')}</NavLink>
                             <NavLink to="/frontendvredestein">{t('nav.links.portfolio.frontend')}</NavLink>
@@ -50,21 +53,14 @@ export default function Navbar() {
                     </div>
 
                     <NavLink to="/about">{t('nav.about')}</NavLink>
-                    <NavLink to="/faq">{t('nav.faq')}</NavLink>
-                    <NavLink to={{ pathname: "/", hash: "#contact" }}>{t('nav.contact')}</NavLink>
+                    <NavLink to="/faq">FAQ</NavLink>
+                    <a href={`${prefix}/#contact`}>{t('nav.contact')}</a>
 
 
-                    <a
-                        href="https://github.com/manonkeeman"
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="GitHub"
-                        className="nav-github"
-                    >
-                        <FaGithub />
-                    </a>
 
                     <LanguageSwitcher />
+
+                    <a href={`${prefix}/#contact`} className="btn btn-primary nav-cta">{t('nav.cta')}</a>
                 </nav>
 
                 {/* Mobile hamburger */}

@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import { useTranslation } from "react-i18next";
@@ -80,36 +79,17 @@ const projects = [
 export default function Portfolio() {
     const { t } = useTranslation();
     const prefix = useLangPrefix();
-    const trackRef = useRef(null);
-
-    const scroll = (dir) => {
-        const track = trackRef.current;
-        if (!track) return;
-        const card = track.querySelector(".portfolio-card");
-        const cardW = card ? card.offsetWidth + 24 : 480;
-        track.scrollBy({ left: dir * cardW, behavior: "smooth" });
-    };
 
     return (
         <section id="portfolio" className="section portfolio-section">
 
-            <div className="portfolio-header">
-                <h2>Portfolio</h2>
-                <div className="portfolio-arrows">
-                    <button
-                        className="arrow-btn"
-                        onClick={() => scroll(-1)}
-                        aria-label={t('portfolio.prev')}
-                    >←</button>
-                    <button
-                        className="arrow-btn"
-                        onClick={() => scroll(1)}
-                        aria-label={t('portfolio.next')}
-                    >→</button>
-                </div>
+            <div className="section-head">
+                <p className="eyebrow">{t('portfolio.label')}</p>
+                <h2>{t('portfolio.title')}</h2>
+                <p>{t('portfolio.intro')}</p>
             </div>
 
-            <div className="portfolio-track" ref={trackRef}>
+            <div className="portfolio-track">
                 {projects.map((p) => {
                     const desc = t(`portfolio.projects.${p.key}.desc`);
                     return (
@@ -151,49 +131,22 @@ export default function Portfolio() {
             </div>
 
             <style>{`
-        .portfolio-section { padding-bottom: 80px; overflow-x: clip; }
+        .portfolio-section { padding: clamp(56px, 8vw, 96px) 20px; }
 
-        .portfolio-header {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          max-width: 1200px;
-          margin: 0 auto 32px;
-          padding: 0 40px;
-        }
-        .portfolio-header h2 { margin: 0; }
-
-        .portfolio-arrows { display: flex; gap: 10px; }
-        .arrow-btn {
-          width: 44px; height: 44px;
-          border-radius: 50%;
-          border: 1px solid var(--border);
-          background: var(--bg-alt);
-          color: var(--text);
-          font-size: 1.1rem;
-          cursor: pointer;
-          display: flex; align-items: center; justify-content: center;
-          transition: border-color .2s, color .2s, transform .15s;
-        }
-        .arrow-btn:hover { border-color: var(--accent); color: var(--accent); transform: scale(1.08); }
-
-        /* Track */
+        /* Raster */
         .portfolio-track {
-          display: flex;
+          max-width: 1160px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
           gap: 24px;
-          overflow-x: auto;
-          scroll-snap-type: x mandatory;
-          -webkit-overflow-scrolling: touch;
-          padding: 8px 40px 32px;
-          scrollbar-width: none;
         }
-        .portfolio-track::-webkit-scrollbar { display: none; }
 
         /* Kaart */
         .portfolio-card {
-          flex: 0 0 440px;
-          scroll-snap-align: start;
-          background: var(--bg-alt);
+          display: flex;
+          flex-direction: column;
+          background: #fff;
           border: 1px solid var(--border);
           border-radius: 16px;
           overflow: hidden;
@@ -202,13 +155,13 @@ export default function Portfolio() {
         .portfolio-card:hover {
           transform: translateY(-5px);
           border-color: var(--accent);
-          box-shadow: 0 12px 36px rgba(0,0,0,.5);
+          box-shadow: 0 18px 40px -18px rgba(0,0,0,.3);
         }
 
         .card-link {
           display: flex;
           flex-direction: column;
-          height: 100%;
+          flex: 1;
           text-decoration: none;
           color: inherit;
         }
@@ -279,7 +232,7 @@ export default function Portfolio() {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          color: var(--accent);
+          color: var(--accent-ink);
           font-weight: 600;
           font-size: .95rem;
           text-decoration: none;
@@ -301,8 +254,8 @@ export default function Portfolio() {
 
         /* CTA-kaart */
         .portfolio-card--cta {
-          background: linear-gradient(145deg, var(--bg-alt), color-mix(in srgb, var(--accent) 8%, var(--bg-alt)));
-          border-color: color-mix(in srgb, var(--accent) 30%, var(--border));
+          background: var(--bg-alt);
+          border-color: transparent;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -334,7 +287,7 @@ export default function Portfolio() {
           padding: 12px 22px;
           background: var(--bordeaux);
           color: var(--bg);
-          border-radius: 10px;
+          border-radius: 980px;
           font-weight: 600;
           font-size: .95rem;
           text-decoration: none;
@@ -343,17 +296,14 @@ export default function Portfolio() {
           width: fit-content;
           transition: background .2s, border-color .2s, color .2s, transform .15s;
         }
-        .btn-cta-solid:hover { background:var(--accent); border-color:var(--accent); color:var(--bordeaux); transform: translateY(-2px); }
+        .btn-cta-solid:hover { background:var(--accent); border-color:var(--accent); color:#fff; text-decoration:none; }
 
         @media (max-width: 920px) {
-          .portfolio-header { padding: 0 20px; }
-          .portfolio-track { padding: 8px 20px 24px; gap: 16px; }
-          .portfolio-card { flex: 0 0 85vw; }
+          .portfolio-track { grid-template-columns: 1fr 1fr; gap: 20px; }
         }
-        @media (max-width: 480px) {
-          .portfolio-card { flex: 0 0 92vw; }
-          .portfolio-track { padding: 8px 16px 20px; }
-          .portfolio-header { padding: 0 16px; }
+        @media (max-width: 600px) {
+          .portfolio-section { padding: 48px 16px; }
+          .portfolio-track { grid-template-columns: 1fr; }
           .card-body { padding: 18px; }
         }
       `}</style>

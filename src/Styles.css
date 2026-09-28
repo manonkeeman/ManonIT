@@ -1,19 +1,22 @@
 
 /* ========= Design Tokens ========= */
 :root{
-  --bg:         #FBF6EE;
-  --bg-alt:     #F3EDE2;
-  --text:       #2A1010;
-  --muted:      rgba(42,16,16,.55);
+  /* Apple-achtig: wit/lichtgrijs, bijna-zwarte tekst, oranje als enige accent.
+     --bordeaux blijft als naam bestaan (veel pagina's gebruiken hem) maar is nu de donkere tekstkleur. */
+  --bg:         #FFFFFF;
+  --bg-alt:     #F5F5F7;
+  --text:       #1D1D1F;
+  --muted:      #6E6E73;
   --accent:     #FF6B1A;
-  --bordeaux:   #5C1A1B;
-  --dark:       #1A1A1A;
-  --border:     rgba(92,26,27,.12);
+  --accent-ink: #C2410C;
+  --bordeaux:   #1D1D1F;
+  --dark:       #1D1D1F;
+  --border:     rgba(0,0,0,.08);
   --radius:     14px;
-  --shadow:     0 8px 24px rgba(92,26,27,.10);
+  --shadow:     0 4px 24px rgba(0,0,0,.06);
 
   --font-brand: 'American Typewriter', 'Courier Prime', 'Courier New', monospace;
-  --font-ui:    'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-ui:    -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Space Grotesk', Roboto, sans-serif;
 
   --mobile-panel-bg: var(--bg);
   --nav-h: 60px;
@@ -25,6 +28,7 @@ html, body, #root{ height:100% }
 html{ scroll-behavior:smooth; overflow-x:clip }
 body{
   margin:0;
+  -webkit-font-smoothing: antialiased;
   font-size: 16px;
   font-family: var(--font-ui);
   background:var(--bg); color:var(--text);
@@ -40,7 +44,7 @@ img{ max-width:100%; display:block; border-radius:12px }
 
 /* ========= Utilities ========= */
 .section{ padding:60px 20px; scroll-margin-top: var(--nav-h); }
-.section-alt{ background:var(--bg-alt); border-block:1px solid var(--border); }
+.section-alt{ background:var(--bg-alt); }
 .container{ max-width:1160px; margin:0 auto }
 
 @media (max-width: 480px){
@@ -49,46 +53,47 @@ img{ max-width:100%; display:block; border-radius:12px }
 
 /* ========= Type ========= */
 h1,h2,h3{
-  margin:0 0 12px; line-height:1.2; font-weight:500;
-  font-family: var(--font-brand);
-  color: var(--bordeaux);
+  margin:0 0 12px; line-height:1.15; font-weight:700;
+  font-family: var(--font-ui);
+  letter-spacing:-.025em;
+  color: var(--text);
 }
-h1{ font-size:clamp(28px,4.2vw,44px) }
-h2{ font-size:clamp(22px,3vw,30px) }
-h3{ font-size:clamp(18px,2.2vw,22px) }
+h1{ font-size:clamp(30px,4.4vw,48px) }
+h2{ font-size:clamp(26px,3.4vw,38px) }
+h3{ font-size:clamp(18px,2.2vw,22px); letter-spacing:-.01em }
+
+/* Sectiekop: label + titel + intro, gecentreerd */
+.section-head{ text-align:center; max-width:680px; margin:0 auto 48px }
+.section-head .eyebrow{ margin-bottom:10px }
+.section-head p{ color:var(--muted); font-size:1.02rem; line-height:1.65; margin:8px auto 0 }
+.eyebrow{
+  display:inline-block;
+  font-size:.75rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--accent); margin:0 0 10px;
+}
 p{ margin:0 0 12px }
 .small{ font-size:.95rem; color:var(--muted) }
 
 /* ========= Links ========= */
 a{ color:var(--text); text-decoration:none }
-a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decoration:underline; text-decoration-color:var(--bordeaux) }
+a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-decoration:none }
 .btn:hover, .btn:focus-visible{ text-decoration:none }
 
 /* ========= Buttons ========= */
 .btn{
-  display:inline-flex; align-items:center; justify-content:center; gap:10px;
-  padding:14px 20px; border-radius:var(--radius); font-weight:600;
-  border:1px solid transparent; cursor:pointer; min-height:44px;
-  transition:transform .08s ease, filter .2s ease, border-color .2s ease, background .2s ease, color .2s ease, box-shadow .2s ease;
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  padding:13px 24px; border-radius:980px; font-weight:600; font-size:1rem;
+  border:1px solid transparent; cursor:pointer; min-height:46px;
+  transition:transform .08s ease, background .2s ease, border-color .2s ease, color .2s ease;
 }
 .btn:active{ transform:translateY(1px) }
-.btn:focus-visible{ outline:2px solid var(--bordeaux); outline-offset:2px }
-.btn-primary{
-  background:var(--bordeaux); color:var(--bg);
-  border-color:var(--bordeaux);
-  box-shadow:0 6px 18px rgba(92,26,27,.20);
-}
-.btn-primary:hover{
-  background:var(--accent); border-color:var(--accent);
-  color:var(--bordeaux);
-  box-shadow:0 6px 20px rgba(255,107,26,.25);
-}
-.btn-outline{ background:transparent; color:var(--accent); border-color:var(--accent) }
-.btn-outline:hover{
-  background:var(--accent); color:var(--bordeaux);
-  border-color:var(--accent);
-  box-shadow:0 4px 14px rgba(255,107,26,.20);
-}
+.btn:focus-visible{ outline:2px solid var(--accent); outline-offset:2px }
+.btn-primary{ background:var(--text); color:#fff; border-color:var(--text) }
+.btn-primary:hover{ background:var(--accent); border-color:var(--accent); color:#fff }
+.btn-outline{ background:transparent; color:var(--text); border-color:var(--text) }
+.btn-outline:hover{ background:var(--text); color:#fff }
+.btn-ghost{ background:transparent; color:var(--text); border-color:rgba(0,0,0,.18) }
+.btn-ghost:hover{ border-color:var(--text) }
 .btn[data-arrow]::after{ content:"→"; margin-left:6px; font-family: var(--font-ui) }
 .btn[data-wide]{ padding-left:32px; padding-right:32px }
 .btn[data-narrow]{ padding-left:14px; padding-right:14px }
@@ -99,19 +104,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
   border-radius:var(--radius); padding:20px; box-shadow:var(--shadow);
 }
 
-/* ========= HERO (full-bleed) ========= */
 #home{ padding:0; margin:0 }
-.hero-shell{
-  width:100%; display:grid; grid-template-columns:1fr minmax(440px, 48vw);
-  min-height:100vh;
-}
-.hero-left{ position:relative }
-.hero-left img{ display:block; width:100%; height:100vh; object-fit:cover; border-radius:0 }
-.hero-right{
-  display:flex; flex-direction:column; align-items:flex-end; justify-content:flex-start;
-  padding:28px clamp(20px,3vw,48px); gap:24px;
-}
-.hero-nav{ width:100%; display:flex; align-items:center; gap:24px; justify-content:flex-end }
 
 /* ========= ABOUT (full-bleed) ========= */
 #about.section, #about.section-alt{ padding:0; margin:0; border:none }
@@ -132,45 +125,14 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
   .about-photo img{ height:40vh }
 }
 
-/* ========= CONTACT (foto links, cards verdeeld rechts) ========= */
 #contact.section{ padding:0 !important; margin:0 !important; border:none !important }
-#contact .contact-shell{
-  width:100%; min-height:100dvh;
-  display:grid; grid-template-columns:minmax(420px, 48vw) 1fr; grid-template-areas:"photo copy";
-}
-#contact .contact-photo{
-  grid-area:photo; position:sticky; top:0;
-  width:100%; height:100dvh; overflow:hidden; background:#000;
-}
-#contact .contact-photo img{
-  position:absolute; inset:0; width:100%; height:100%;
-  object-fit:cover; object-position:top center;
-  border:0 !important; border-radius:0 !important; box-shadow:none !important;
-}
-#contact .contact-copy{
-  grid-area:copy;
-  display:flex; flex-direction:column; justify-content:center;
-  padding:clamp(24px,3vw,48px);
-}
-#contact .contact-copy .card{ max-width:420px; margin:0 auto; width:100%; }
-@media (max-width:920px){
-  #contact .contact-shell{
-    grid-template-columns:1fr; grid-template-areas:"photo" "copy";
-    min-height:auto; margin-left:0;
-  }
-  #contact .contact-photo{ position:relative; height:50dvh }
-  #contact .contact-photo img{ object-position:top center }
-  #contact .contact-copy{ justify-content:flex-start; gap:16px; padding:20px 16px; }
-}
-@media (max-width:480px){
-  #contact .contact-photo{ height:40dvh }
-  #contact .contact-copy{ padding:16px; gap:12px; }
-}
 
 /* ========= Header / Desktop Nav ========= */
 .site-header {
   position: fixed; top: 0; left: 0; right: 0;
-  z-index: 50; background: var(--bg);
+  z-index: 50; background: rgba(255,255,255,.8);
+  backdrop-filter: saturate(1.4) blur(10px);
+  -webkit-backdrop-filter: saturate(1.4) blur(10px);
   border-bottom: 1px solid var(--border);
 }
 .nav-wrap {
@@ -188,7 +150,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
   font-size: clamp(.82rem, 1.1vw, .95rem);
   white-space: nowrap;
 }
-.primary-nav a:hover, .primary-nav a.active { color: var(--bordeaux); text-decoration:none; }
+.primary-nav a:hover, .primary-nav a.active { color: var(--accent-ink); text-decoration:none; }
 .primary-nav .nav-group { position:relative; display:inline-block; }
 .primary-nav .nav-group:hover .nav-dropdown { opacity:1; transform: translateY(0); pointer-events:auto; }
 .primary-nav .nav-dropdown {
@@ -243,7 +205,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
 /* ========= Mobile Dropdown Menu ========= */
 .mobile-backdrop {
   position: fixed; inset: 0;
-  background: rgba(42,16,16,.25);
+  background: rgba(0,0,0,.25);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   opacity: 0; pointer-events: none;
@@ -258,7 +220,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
   left: 0; right: 0;
   background: var(--bg);
   border-bottom: 2px solid var(--border);
-  box-shadow: 0 16px 48px rgba(92,26,27,.12);
+  box-shadow: 0 16px 48px rgba(0,0,0,.12);
   max-height: calc(100dvh - var(--nav-h));
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -384,6 +346,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
 .nav-logo-link { display:flex; align-items:center; flex-shrink:0; text-decoration:none; }
 .nav-logo-link:hover { text-decoration:none; opacity:.85; }
 .nav-logo-link img { height:40px; width:auto; display:block; border-radius:0; }
+.primary-nav a.nav-cta, .primary-nav a.nav-cta.active, .primary-nav a.nav-cta:hover{ padding:8px 16px; min-height:36px; color:#fff; font-size:.85rem; margin-left:4px }
 .nav-github {
   font-size:1.25rem;
   color:var(--muted);
@@ -405,5 +368,3 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--bordeaux); text-decora
 .breadcrumb-sep { color:var(--muted); user-select:none; }
 
 /* ========= Small extras ========= */
-.hero-copy h1{ margin:0 0 12px }
-.hero-copy p{ margin:0 0 18px }

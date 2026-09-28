@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preload" as="image" href="/hero-800w.avif"
-        imagesrcset="/hero-400w.avif 400w, /hero-800w.avif 800w, /hero-1200w.avif 1200w"
-        imagesizes="(max-width: 768px) 100vw, 800px" fetchpriority="high">
+  <link rel="preload" as="image" type="image/avif" href="/hero-work-1000w.avif"
+        imagesrcset="/hero-work-600w.avif 600w, /hero-work-1000w.avif 1000w, /hero-work-1400w.avif 1400w"
+        imagesizes="(max-width: 920px) 92vw, 620px" fetchpriority="high">
   <title>ManonIT — Website laten maken | Webdevelopment & Design</title>
   <meta name="description" content="Website laten maken die klanten trekt? ManonIT bouwt websites die snel zijn, gevonden worden in Google en bezoekers omzetten in klanten. Webdevelopment, webdesign, copywriting en SEO onder één dak.">
   <meta name="google-site-verification" content="google860dc21f2ecb1be7" />
@@ -15,7 +15,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#5C1A1B">
+  <meta name="theme-color" content="#FFFFFF">
 
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
@@ -33,15 +33,27 @@
   <meta name="twitter:image" content="https://manonit.com/og-image.jpg">
 
   <!-- Google Analytics 4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2623Y1T63"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    // send_page_view: false — dit is een SPA (React Router, geen full page reloads),
-    // dus elke navigatie moet zelf een page_view sturen (zie GaPageview in App.jsx).
-    // Zonder deze vlag ziet GA4 alleen de allereerste pagina van elke sessie.
-    gtag('config', 'G-C2623Y1T63', { send_page_view: false });
+    // Google Analytics laadt pas na toestemming via de cookiebanner (CookieConsent.jsx).
+    // window.gtag bestaat pas na loadGA(), dus alle `typeof window.gtag === "function"`-checks
+    // in de app sturen niets zolang er geen toestemming is.
+    window.loadGA = function () {
+      if (window.__gaLoaded) return;
+      window.__gaLoaded = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      // send_page_view: false — dit is een SPA (React Router, geen full page reloads),
+      // dus elke navigatie moet zelf een page_view sturen (zie GaPageview in App.jsx).
+      window.gtag('config', 'G-C2623Y1T63', { send_page_view: false });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-C2623Y1T63';
+      document.head.appendChild(s);
+    };
+    try {
+      if (localStorage.getItem('cookie-consent') === 'granted') window.loadGA();
+    } catch (e) {}
   </script>
 
   <!-- Structured data: Person -->
@@ -173,21 +185,21 @@
 <!-- Zichtbare shell terwijl JS laadt — React vervangt #root zodra klaar -->
 <div id="app-shell" aria-hidden="true" style="
   position:fixed;inset:0;z-index:99999;
-  background:#FBF6EE;color:#2A1010;
-  font-family:'Inter',ui-sans-serif,system-ui,-apple-system,sans-serif;
+  background:#FFFFFF;color:#1D1D1F;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   display:flex;flex-direction:column;
   transition:opacity .25s ease;
 ">
   <!-- Navbar -->
-  <div style="height:60px;display:flex;align-items:center;padding:0 24px;border-bottom:1px solid rgba(92,26,27,.12);flex-shrink:0;">
+  <div style="height:60px;display:flex;align-items:center;padding:0 24px;border-bottom:1px solid rgba(0,0,0,.08);flex-shrink:0;">
     <img src="/logo-compact-cream.svg" alt="ManonIT" style="height:40px;width:auto;display:block;">
   </div>
   <!-- Hero -->
   <div style="flex:1;display:flex;align-items:center;padding:0 clamp(20px,6vw,80px);max-width:1100px;width:100%;margin:0 auto;">
     <div>
-      <p style="margin:0 0 8px;font-size:.85rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#FF6B1A;">Beschikbaar voor nieuwe opdrachten</p>
-      <h1 style="margin:0 0 16px;font-size:clamp(2rem,5vw,3.4rem);font-weight:500;line-height:1.1;color:#5C1A1B;font-family:'Courier Prime','Courier New',monospace;">Website laten maken die klanten trekt?</h1>
-      <p style="margin:0;font-size:1.05rem;color:rgba(42,16,16,.6);max-width:480px;line-height:1.6;font-style:italic;">You dream it, I Manon it.</p>
+      <p style="margin:0 0 8px;font-size:.85rem;font-weight:500;color:#6E6E73;">Beschikbaar voor nieuwe opdrachten</p>
+      <h1 style="margin:0 0 16px;font-size:clamp(2rem,5vw,3.4rem);font-weight:700;line-height:1.1;letter-spacing:-.02em;color:#1D1D1F;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">Website laten maken die klanten trekt?</h1>
+      <p style="margin:0;font-size:1.05rem;color:#6E6E73;max-width:480px;line-height:1.6;">You dream it, I Manon it.</p>
     </div>
   </div>
 </div>

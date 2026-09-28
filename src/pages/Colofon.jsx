@@ -15,7 +15,7 @@ export default function Colofon() {
 
                 <header className="legal-header">
                     <h1>Colofon</h1>
-                    <p className="legal-meta">ManonIT · Bijgewerkt op 19 juni 2026</p>
+                    <p className="legal-meta">ManonIT · Bijgewerkt op 28 september 2026</p>
                 </header>
 
                 <div className="legal-body card">
@@ -53,12 +53,13 @@ export default function Colofon() {
                     <ul>
                         <li><strong>Framework:</strong> React 19 + Vite 6</li>
                         <li><strong>Routing:</strong> React Router DOM 7</li>
-                        <li><strong>Internationalisatie:</strong> i18next (Nederlands, Engels, Frans, Duits, Spaans, Italiaans)</li>
+                        <li><strong>Internationalisatie:</strong> i18next (Nederlands, Engels, Frans, Duits, Spaans, Italiaans, Oekraïens)</li>
                         <li><strong>Hosting:</strong> Netlify</li>
                         <li><strong>Formulieren:</strong> Netlify Forms</li>
                         <li><strong>Nieuwsbrief:</strong> Substack</li>
+                        <li><strong>Statistieken:</strong> Google Analytics 4</li>
                         <li><strong>Afbeeldingen:</strong> AVIF / WebP, geoptimaliseerd met sharp-cli</li>
-                        <li><strong>Lettertypes:</strong> Space Grotesk &amp; Courier Prime (self-hosted via Fontsource)</li>
+                        <li><strong>Lettertypes:</strong> systeemlettertype (SF Pro op Apple-apparaten), met Space Grotesk &amp; Courier Prime self-hosted via Fontsource</li>
                     </ul>
 
                     <hr className="rule" />
@@ -120,10 +121,10 @@ export default function Colofon() {
         .legal-body p { margin: 0 0 12px; line-height: 1.72; }
         .legal-body ul { margin: 0 0 12px; padding-left: 1.3rem; display: flex; flex-direction: column; gap: 6px; }
         .legal-body li { line-height: 1.6; }
-        .legal-body a { color: var(--accent); }
+        .legal-body a { color: var(--accent-ink); }
         .legal-body a:hover { text-decoration: underline; }
         .rule { height: 1px; background: var(--border); margin: 22px 0; border: none; }
-        .back-link { display: inline-block; color: var(--accent); text-decoration: none; font-size: .92rem; margin-bottom: 16px; }
+        .back-link { display: inline-block; color: var(--accent-ink); text-decoration: none; font-size: .92rem; margin-bottom: 16px; }
         .back-link:hover { text-decoration: underline; }
         .legal-back { margin-top: 24px; }
       `}</style>

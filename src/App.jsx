@@ -8,6 +8,7 @@ import ScrollToTop from "./assets/Components/ScrollToTop";
 import Navbar from "./assets/Components/Navbar.jsx";
 import Footer from "./assets/Components/Footer.jsx";
 import StickyWhatsApp from "./assets/Components/StickyWhatsApp.jsx";
+import CookieConsent from "./assets/Components/CookieConsent.jsx";
 import Seo from "./assets/Components/Seo.jsx";
 
 // Hero — altijd direct geladen (above the fold)
@@ -17,6 +18,7 @@ import Hero from "./pages/Hero.jsx";
 const Services      = lazy(() => import("./pages/Services.jsx"));
 const Portfolio     = lazy(() => import("./pages/Portfolio.jsx"));
 const Testimonials  = lazy(() => import("./pages/Testimonials.jsx"));
+const HomeJournal   = lazy(() => import("./pages/HomeJournal.jsx"));
 const Contact       = lazy(() => import("./pages/Contact.jsx"));
 
 // Detail pages — lazy loaded (only fetched when user navigates there)
@@ -36,6 +38,7 @@ const OfferteDavidBroeksma = lazy(() => import("./pages/Offerte.jsx"));
 const prefetch = () => {
     import("./pages/Services.jsx");
     import("./pages/Portfolio.jsx");
+    import("./pages/HomeJournal.jsx");
     import("./pages/Contact.jsx");
     import("./pages/About.jsx");
     import("./pages/Journal.jsx");
@@ -68,6 +71,7 @@ function Layout({ children }) {
             <main>{children}</main>
             <Footer />
             <StickyWhatsApp />
+            <CookieConsent />
         </>
     );
 }
@@ -181,8 +185,9 @@ function AppRoutes() {
                             <section id="home" className="section"><Hero /></section>
                             <Suspense fallback={null}>
                                 <Services />
-                                <section id="portfolio" className="section"><Portfolio /></section>
+                                <Portfolio />
                                 <Testimonials />
+                                <HomeJournal />
                                 <section id="contact"   className="section"><Contact /></section>
                             </Suspense>
                         </Layout>

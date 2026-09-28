@@ -22,7 +22,10 @@
         "toekomsttech": "Futuro & Tech",
         "365korteverhalen": "365 Historias cortas"
       }
-    }
+    },
+    "services": "Servicios",
+    "cta": "Llamada gratis",
+    "pricing": "Tarifas"
   },
   "share": {
     "label": "Compartir",
@@ -36,18 +39,42 @@
     "projects": "Ver mi trabajo",
     "journal": "Diario",
     "available": "Disponible para nuevos proyectos",
-    "ctaWork": "Portfolio",
-    "ctaContact": "Reservar una llamada gratuita"
+    "ctaWork": "Ver mi trabajo",
+    "ctaContact": "Reservar una llamada gratuita",
+    "points": [
+      "Diseño, desarrollo y textos por una sola persona",
+      "Rápida, adaptada a móvil y visible en Google",
+      "Presupuesto claro desde el inicio, sin sorpresas"
+    ],
+    "ratingLine": "5,0 de media en reseñas de clientes",
+    "trust": {
+      "rating": {
+        "title": "Reseñas 5,0 ★",
+        "text": "Clientes satisfechos"
+      },
+      "oneStop": {
+        "title": "Todo en un solo lugar",
+        "text": "Diseño, código y textos"
+      },
+      "seo": {
+        "title": "SEO incluido",
+        "text": "Hecho para ser encontrado"
+      },
+      "free": {
+        "title": "Primera llamada gratis",
+        "text": "30 minutos, sin compromiso"
+      }
+    }
   },
   "about": {
     "title": "Diseñadora. Escritora. Desarrolladora.",
     "quote": "Construyo lo que antes tenía que explicar.\nDe la idea al diseño hasta el código funcional.",
     "bio1": "Me encanta cuando algo simplemente funciona. Cuando una idea, un diseño y la ejecución encajan a la perfección.",
     "bio2": "Mi camino fue todo menos recto. De la Gerrit Rietveld Academie al SAE Institute y la Schrijversacademie, siempre buscando cómo hacer algo no solo hermoso, sino también comprensible.",
-    "bio3": "Después de años trabajando para clientes como Renault, el Ayuntamiento de Ámsterdam y KLM, noté algo frustrante: veía exactamente lo que podía mejorar… pero no siempre podía construirlo yo misma.",
+    "bio3": "Después de años trabajando en el sector automovilístico (Renault, Pieter Smit) y para clientes como el Ayuntamiento de Ámsterdam y KLM, noté algo frustrante: veía exactamente lo que podía mejorar… pero no siempre podía construirlo yo misma.",
     "bio4": "Así que decidí cambiar eso. Me reconvertí en desarrolladora Full Stack en el NOVI College. Porque ya no quería depender de otros entre la idea y la ejecución.",
     "bio5": "Ahora diseño, escribo y construyo yo misma. Y me aseguro de que lo que creas no solo tenga sentido, sino que también llegue de verdad a las personas a quienes va dirigido.",
-    "journalCta": "¿Curiosidad por mis escritos, entrevistas e historias de viaje?",
+    "journalCta": "¿Quieres saber cómo pienso y trabajo? En mi journal escribo sobre código, diseño y mi camino hacia el desarrollo.",
     "journalBtn": "Al diario",
     "skillsTitle": "Habilidades",
     "skills": {
@@ -73,7 +100,17 @@
       "sending": "Enviando...",
       "success": "¡Gracias! Me pondré en contacto pronto.",
       "error": "Algo salió mal. Por favor inténtalo de nuevo."
-    }
+    },
+    "title": "Conozcámonos",
+    "personRole": "Desarrolladora web y diseñadora · ManonIT",
+    "points": [
+      "Respuesta en 1 día laborable",
+      "Llamada gratuita de 30 minutos",
+      "Presupuesto claro, sin compromiso"
+    ],
+    "whatsapp": "Enviar un WhatsApp",
+    "formTitle": "Envía un mensaje",
+    "formSub": "Cuéntame brevemente qué necesitas. Respondo en un día laborable."
   },
   "newsletter": {
     "label": "Nuevos artículos en tu bandeja de entrada",
@@ -85,7 +122,10 @@
     "error": "Vaya, por favor inténtalo de nuevo."
   },
   "footer": {
-    "rights": "Todos los derechos reservados | Código & Contenido - Manon Keeman"
+    "rights": "Todos los derechos reservados | Código & Contenido - Manon Keeman",
+    "ctaTitle": "¿Listo para una web que funcione?",
+    "ctaSub": "Reserva una llamada gratuita de 30 minutos. Sin compromiso.",
+    "navHeading": "Navegación"
   },
   "portfolio": {
     "viewBtn": "Ver",
@@ -114,7 +154,10 @@
       "marieboddaert": {
         "desc": "Web de escritora en HTML/CSS con tipografía literaria y webdesign a medida. En vivo en Netlify, optimizada para SEO y con CMS para que Marie gestione su propio contenido."
       }
-    }
+    },
+    "label": "Portfolio",
+    "title": "Trabajo reciente",
+    "intro": "Una selección de webs y aplicaciones que he diseñado y desarrollado."
   },
   "seo": {
     "home": {
@@ -235,9 +278,9 @@
         "tags": "textos web, sobre mí, páginas de servicios"
       },
       "seo": {
-        "name": "SEO",
-        "desc": "Ser encontrado empieza por los fundamentos. Me aseguro de que tu sitio esté listo para Google, técnica y contenidamente.",
-        "tags": "SEO técnico, palabras clave, estructura"
+        "name": "SEO y visibilidad en IA",
+        "desc": "Que te encuentren en Google y en buscadores de IA como ChatGPT, Claude y Perplexity. Preparo tu web técnica y editorialmente para ambos.",
+        "tags": "SEO técnico, palabras clave, búsqueda IA (GEO)"
       },
       "media": {
         "name": "Foto y video",
@@ -302,5 +345,111 @@
         "role": "Ocio & alquiler"
       }
     }
+  },
+  "homeJournal": {
+    "label": "Journal",
+    "title": "Últimos artículos",
+    "all": "Todos los artículos",
+    "read": "Leer artículo"
+  },
+  "pricing": {
+    "label": "Tarifas",
+    "title": "Precios claros, sin sorpresas",
+    "intro": "Tres paquetes como punto de partida. Siempre recibes primero un presupuesto a precio cerrado.",
+    "popular": "El más elegido",
+    "from": "desde",
+    "vat": "sin IVA",
+    "cta": "Pide un presupuesto",
+    "packages": {
+      "basic": {
+        "name": "Web básica",
+        "tagline": "Online de forma profesional y rápida.",
+        "items": [
+          "Hasta 5 páginas",
+          "Diseño basado en una plantilla personalizada",
+          "Funciona en móvil, tablet y ordenador",
+          "Formulario de contacto",
+          "SEO básico integrado",
+          "Yo me encargo de los cambios (tarifa por hora)"
+        ],
+        "time": "Lista en 3 a 4 semanas"
+      },
+      "cms": {
+        "name": "Web con CMS",
+        "tagline": "Diseño propio y gestión autónoma.",
+        "items": [
+          "Hasta 8 páginas",
+          "Diseño propio",
+          "Gestiona tú mismo textos, fotos y blog",
+          "Ideal para un blog o noticias",
+          "Ajustes SEO avanzados",
+          "2 rondas de revisión"
+        ],
+        "time": "Lista en 4 a 7 semanas"
+      },
+      "custom": {
+        "name": "Totalmente a medida",
+        "tagline": "Sin plantilla, sin compromisos.",
+        "items": [
+          "Páginas ilimitadas",
+          "Diseño desde cero",
+          "CMS propio adaptado a tu empresa",
+          "Tienda online, portal de clientes o integraciones posibles",
+          "Varios idiomas posibles",
+          "Logo e identidad visual incluidos"
+        ],
+        "time": "Lista en 4 a 10 semanas"
+      }
+    },
+    "alwaysTitle": "Siempre incluido:",
+    "always": "reunión inicial, propuesta de diseño, SEO básico, aviso de cookies y privacidad (RGPD), dos rondas de revisión y 30 días de garantía ante errores.",
+    "extrasTitle": "Costes aparte:",
+    "extras": "cambios sin plan 65 € por hora, idioma adicional desde 150 €, dominio 12–15 € al año, hosting aprox. 8–15 € al mes.",
+    "faqLink": "Todos los detalles sobre precios"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "text": "Con tu permiso uso Google Analytics para ver cómo se usa la web y cargo Google Maps para el mapa. Ambos instalan cookies de Google.",
+    "more": "Más en la política de privacidad",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "settings": "Configuración de cookies",
+    "loadMap": "Cargar mapa",
+    "mapNote": "Google Maps instala cookies de Google."
+  },
+  "care": {
+    "label": "Mantenimiento",
+    "title": "Online sin preocupaciones, cada mes",
+    "intro": "Una web nunca está terminada. Con un plan de mantenimiento tu web sigue segura, rápida y visible, en Google y en buscadores de IA como ChatGPT y Claude. Tú ya no tienes que preocuparte.",
+    "recommended": "Recomendado",
+    "perMonth": "al mes, sin IVA",
+    "cta": "Empezar mantenimiento",
+    "plans": {
+      "basic": {
+        "name": "Mantenimiento Básico",
+        "hours": "2 horas de trabajo al mes incluidas",
+        "items": [
+          "Cambios en textos, fotos y páginas",
+          "Actualizaciones y seguridad al día",
+          "Copias de seguridad de tu web",
+          "Monitorización: sé cuándo tu web se cae",
+          "Revisión mensual de velocidad y SEO",
+          "Respuesta en 1 día laborable"
+        ]
+      },
+      "growth": {
+        "name": "Mantenimiento y Crecimiento",
+        "hours": "4 horas de trabajo al mes incluidas",
+        "items": [
+          "Todo lo del Mantenimiento Básico",
+          "SEO: mejorar palabras clave, contenido y páginas",
+          "Visibilidad en IA: presente en ChatGPT, Claude, Perplexity y los resúmenes IA de Google",
+          "Informe mensual de visitas y resultados",
+          "Consejos sobre nuevas oportunidades para tu web",
+          "Prioridad en preguntas y cambios"
+        ]
+      }
+    },
+    "terms": "Mínimo 3 meses, después cancelable mes a mes."
   }
 }

@@ -23,7 +23,10 @@
         "pastelvanbuiten": "Pastel on the outside, surprising on the inside"
       }
     },
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "services": "Services",
+    "cta": "Free intro call",
+    "pricing": "Pricing"
   },
   "share": {
     "label": "Share",
@@ -37,18 +40,42 @@
     "projects": "View my work",
     "journal": "Journal",
     "available": "Available for new projects",
-    "ctaWork": "Portfolio",
-    "ctaContact": "Book a free call"
+    "ctaWork": "View my work",
+    "ctaContact": "Book a free call",
+    "points": [
+      "Design, development and copy by one person",
+      "Fast, mobile-friendly and findable on Google",
+      "A clear quote upfront, no surprises"
+    ],
+    "ratingLine": "5.0 average from client reviews",
+    "trust": {
+      "rating": {
+        "title": "5.0 ★ reviews",
+        "text": "Happy clients, on record"
+      },
+      "oneStop": {
+        "title": "All under one roof",
+        "text": "Design, code and copy"
+      },
+      "seo": {
+        "title": "SEO included by default",
+        "text": "Built to be found"
+      },
+      "free": {
+        "title": "Free intro call",
+        "text": "30 minutes, no obligation"
+      }
+    }
   },
   "about": {
     "title": "Designer. Writer. Developer.",
     "quote": "I build what I used to have to explain.\nFrom idea to design to working code.",
     "bio1": "I love it when something just works. When an idea, a design and the execution fit together seamlessly.",
     "bio2": "My path was anything but straight. From the Gerrit Rietveld Academie to SAE Institute and the Schrijversacademie, always searching for how to make something not just beautiful, but also understandable.",
-    "bio3": "After years working for clients like Renault, the Municipality of Amsterdam and KLM, I noticed something frustrating: I could see exactly what could be better… but I couldn't always build it myself.",
+    "bio3": "After years working in the automotive industry (Renault, Pieter Smit) and for clients like the Municipality of Amsterdam and KLM, I noticed something frustrating: I could see exactly what could be better… but I couldn't always build it myself.",
     "bio4": "So I decided to change that. I retrained as a Full Stack Developer at NOVI College. Because I no longer wanted a gap between idea and execution.",
     "bio5": "In plain terms: I solve technical problems and build the website that goes with the solution. No detours, no separate specialists working past each other. One person who takes it from idea to launch.",
-    "journalCta": "Curious about my writing, interviews and travel stories?",
+    "journalCta": "Curious how I think and work? In my journal I write about code, design and my path into development.",
     "journalBtn": "Go to the journal",
     "skillsTitle": "Skills",
     "skills": {
@@ -74,7 +101,17 @@
       "sending": "Sending...",
       "success": "Thanks! I'll be in touch soon.",
       "error": "Something went wrong. Please try again."
-    }
+    },
+    "title": "Let's get acquainted",
+    "personRole": "Web developer & designer · ManonIT",
+    "points": [
+      "Reply within 1 business day",
+      "Free 30-minute intro call",
+      "Clear quote, no obligations"
+    ],
+    "whatsapp": "Send a WhatsApp",
+    "formTitle": "Send a message",
+    "formSub": "Briefly tell me what you need. I'll reply within one business day."
   },
   "newsletter": {
     "label": "New articles in your inbox",
@@ -106,9 +143,9 @@
         "tags": "web copy, about pages, service pages"
       },
       "seo": {
-        "name": "SEO",
-        "desc": "Getting found starts with the basics. I make sure your site is technically and content-wise ready for Google.",
-        "tags": "technical SEO, keywords, structure"
+        "name": "SEO & AI findability",
+        "desc": "Get found on Google and in AI search engines like ChatGPT, Claude and Perplexity. I make sure your site is technically and content-wise ready for both.",
+        "tags": "technical SEO, keywords, AI search (GEO)"
       },
       "media": {
         "name": "Photo & video",
@@ -148,7 +185,10 @@
   },
   "footer": {
     "rights": "All rights reserved | Code & Content - Manon Keeman",
-    "tagline": "I solve technical problems and build the website that goes with it."
+    "tagline": "I solve technical problems and build the website that goes with it.",
+    "ctaTitle": "Ready for a website that works?",
+    "ctaSub": "Book a free 30-minute intro call. No obligation.",
+    "navHeading": "Navigation"
   },
   "portfolio": {
     "viewBtn": "View",
@@ -174,7 +214,10 @@
       "marieboddaert": {
         "desc": "Writer's website in HTML/CSS with literary typography and custom webdesign. Live on Netlify, SEO-optimised and equipped with a CMS so Marie manages her own content."
       }
-    }
+    },
+    "label": "Portfolio",
+    "title": "Recent work",
+    "intro": "A selection of websites and applications I designed and built."
   },
   "seo": {
     "home": {
@@ -313,7 +356,19 @@
       },
       {
         "q": "How much does a website cost?",
-        "a": "Pricing depends on scope and functionality. A straightforward business website starts from €1,200 excl. VAT. You always get a clear quote first, so you know exactly what to expect before anything gets built."
+        "a": "A website starts from €1,200 excl. VAT. There are three packages: a basic website (from €1,200), a website with CMS where you manage your own text and blog (from €2,450) and a fully custom build with, for example, a webshop or multiple languages (from €4,250). SEO basics are always included.\n\nYou always get a fixed-price quote first, so you know exactly where you stand before anything is built.",
+        "link": {
+          "label": "See all packages and what's included",
+          "href": "/#tarieven"
+        }
+      },
+      {
+        "q": "What does maintenance include and what does it cost?",
+        "a": "With a maintenance plan I keep your website secure, fast and up to date, so you don't have to worry about it. There are two plans: Maintenance Basic at €120 per month (2 hours of work, updates, backups and monitoring) and Maintenance & Growth at €240 per month (4 hours of work, plus SEO and AI findability in ChatGPT, Claude and more).\n\nThe minimum term is 3 months, after that you can cancel monthly. Without a plan, changes are €65 per hour.",
+        "link": {
+          "label": "See the maintenance plans",
+          "href": "/#onderhoud"
+        }
       },
       {
         "q": "How long does it take to build a website?",
@@ -325,7 +380,7 @@
       },
       {
         "q": "Do you also take care of SEO?",
-        "a": "Yes. Every website I build is technically SEO-optimized by default: fast load times, correct meta tags, structured data and a mobile-friendly design. On request I also do keyword research and write the content."
+        "a": "Yes. Every website I build is technically SEO-optimized by default: fast load times, correct meta tags, structured data and a mobile-friendly design. On request I also do keyword research and write the content. I also take care of AI findability (GEO): setting up your site so AI search engines like ChatGPT, Claude, Perplexity and Google AI Overviews know and recommend your business."
       },
       {
         "q": "Can I order just copywriting or web design?",
@@ -341,5 +396,111 @@
       }
     ],
     "ctaText": "Don't see your question here?"
+  },
+  "homeJournal": {
+    "label": "Journal",
+    "title": "Latest articles",
+    "all": "All articles",
+    "read": "Read article"
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Clear prices, no surprises",
+    "intro": "Three packages as a starting point. You always get a fixed-price quote first.",
+    "popular": "Most popular",
+    "from": "from",
+    "vat": "excl. VAT",
+    "cta": "Request a quote",
+    "packages": {
+      "basic": {
+        "name": "Basic website",
+        "tagline": "Professionally online, live fast.",
+        "items": [
+          "Up to 5 pages",
+          "Design based on a customised template",
+          "Works on mobile, tablet and desktop",
+          "Contact form",
+          "SEO basics built in",
+          "I handle changes for you (hourly rate)"
+        ],
+        "time": "Ready in 3 to 4 weeks"
+      },
+      "cms": {
+        "name": "Website with CMS",
+        "tagline": "Custom design, manage it yourself.",
+        "items": [
+          "Up to 8 pages",
+          "Custom design",
+          "Manage your own text, photos and blog",
+          "Ideal for a blog or news page",
+          "Extended SEO settings",
+          "2 revision rounds"
+        ],
+        "time": "Ready in 4 to 7 weeks"
+      },
+      "custom": {
+        "name": "Fully custom",
+        "tagline": "No template, no compromise.",
+        "items": [
+          "Unlimited pages",
+          "Designed from scratch",
+          "Custom CMS tailored to your business",
+          "Webshop, client portal or integrations possible",
+          "Multiple languages possible",
+          "Logo and brand identity included"
+        ],
+        "time": "Ready in 4 to 10 weeks"
+      }
+    },
+    "alwaysTitle": "Always included:",
+    "always": "intake meeting, design proposal, SEO basics, cookie and privacy statement (GDPR), two revision rounds and 30 days of bug-fix warranty.",
+    "extrasTitle": "Separate costs:",
+    "extras": "changes without a plan €65 per hour, extra language from €150, domain €12–15 per year, hosting approx. €8–15 per month.",
+    "faqLink": "All pricing details"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "text": "With your permission I use Google Analytics to see how the site is used, and load Google Maps for the map. Both set cookies from Google.",
+    "more": "Read the privacy policy",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie settings",
+    "loadMap": "Load map",
+    "mapNote": "Google Maps sets cookies from Google."
+  },
+  "care": {
+    "label": "Maintenance",
+    "title": "Worry-free online, every month",
+    "intro": "A website is never finished. With a maintenance plan your site stays secure, fast and findable, on Google and in AI search engines like ChatGPT and Claude. You don't have to think about it.",
+    "recommended": "Recommended",
+    "perMonth": "per month, excl. VAT",
+    "cta": "Start maintenance",
+    "plans": {
+      "basic": {
+        "name": "Maintenance Basic",
+        "hours": "2 hours of work per month included",
+        "items": [
+          "Changes to text, photos and pages",
+          "Keeping updates and security current",
+          "Backups of your website",
+          "Monitoring: I know when your site goes down",
+          "Monthly speed and SEO check",
+          "Reply within 1 business day"
+        ]
+      },
+      "growth": {
+        "name": "Maintenance & Growth",
+        "hours": "4 hours of work per month included",
+        "items": [
+          "Everything in Maintenance Basic",
+          "SEO: improving keywords, content and pages",
+          "AI findability: visible in ChatGPT, Claude, Perplexity and Google AI Overviews",
+          "Monthly report with visitors and results",
+          "Advice on new opportunities for your website",
+          "Priority for questions and changes"
+        ]
+      }
+    },
+    "terms": "Minimum 3 months, then cancel monthly."
   }
 }
