@@ -7,7 +7,7 @@
     "contact": "Contact",
     "links": {
       "portfolio": {
-        "backend": "CasaCrew · Tableau de bord",
+        "backend": "CasaCrew · App de location",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
@@ -22,7 +22,7 @@
         "toekomsttech": "Avenir & Tech",
         "365korteverhalen": "365 Histoires courtes",
         "ai-in-mijn-werk": "AI in my work",
-        "wat-kost-een-website": "What does a website cost?"
+        "verhaal-achter-casacrew": "The story behind CasaCrew"
       }
     },
     "services": "Services",
@@ -148,7 +148,7 @@
         "desc": "Site WordPress au design épuré avec des informations claires pour les clients."
       },
       "backend": {
-        "desc": "Tableau de bord pour bailleurs de chambres étudiantes : paiements, contrats, planning ménage et règlement intérieur en un seul endroit."
+        "desc": "Application pour loueurs de chambres : paiements, contrats, planning ménage et règles de la maison au même endroit."
       },
       "bigthree": {
         "desc": "Concept de site web pour un garage spécialisé dans les voitures américaines. Thème sombre avec caractère américain."
@@ -214,8 +214,8 @@
         "description": "Site WordPress au design épuré avec des informations claires pour les clients."
       },
       "backend": {
-        "title": "Backend Tableau de bord étudiant | Spring Boot | Manon Keeman",
-        "description": "Backend Spring Boot avec authentification JWT, API REST et intégration base de données."
+        "title": "CasaCrew · Application de location pour loueurs de chambres | Manon Keeman",
+        "description": "CasaCrew est une application pour les loueurs de chambres : paiements, contrats, ménage et règles de la maison au même endroit."
       },
       "marieboddaert": {
         "title": "Webdesign Marie Boddaert | Site d'écrivaine | ManonIT",
@@ -280,7 +280,7 @@
         "tags": "textes web, à propos, pages de services"
       },
       "seo": {
-        "name": "SEO & visibilité IA",
+        "name": "SEO & GEO",
         "desc": "Être trouvé sur Google et dans les moteurs de recherche IA comme ChatGPT, Claude et Perplexity. Je prépare votre site techniquement et éditorialement pour les deux.",
         "tags": "SEO technique, mots-clés, recherche IA (GEO)"
       },
@@ -406,8 +406,7 @@
     "alwaysTitle": "Toujours inclus :",
     "always": "entretien de lancement, proposition de design, bases SEO, déclaration cookies et confidentialité (RGPD), deux cycles de révision et 30 jours de garantie sur les bugs.",
     "extrasTitle": "Frais séparés :",
-    "extras": "modifications sans abonnement 65 € de l'heure, langue supplémentaire à partir de 150 €, domaine 12 à 15 € par an, hébergement env. 8 à 15 € par mois.",
-    "faqLink": "Tout savoir sur le prix d'un site web"
+    "extras": "modifications sans abonnement 65 € de l'heure, langue supplémentaire à partir de 150 €, domaine 12 à 15 € par an, hébergement env. 8 à 15 € par mois."
   },
   "cookies": {
     "title": "Cookies",
@@ -445,7 +444,7 @@
         "items": [
           "Tout ce qui est inclus dans Maintenance Base",
           "SEO : améliorer mots-clés, contenus et pages",
-          "Visibilité IA : présent dans ChatGPT, Claude, Perplexity et les aperçus IA de Google",
+          "GEO: présent dans ChatGPT, Claude, Perplexity et les aperçus IA de Google",
           "Rapport mensuel des visiteurs et résultats",
           "Conseils sur de nouvelles opportunités pour votre site",
           "Priorité pour les questions et modifications"

@@ -10,7 +10,7 @@ const UI = {
 
 // Gedeelde opmaak voor nieuwe blogartikelen.
 // content = { nl: { title, date, dateLabel, minutes, shareText, Body }, en: {...} }
-export default function BlogArticle({ id, cover, coverAlt, content }) {
+export default function BlogArticle({ id, cover, coverAlt, coverHeight = 675, content }) {
     const { t: tr, i18n } = useTranslation();
     const prefix = useLangPrefix();
     const lang = i18n.language.split("-")[0];
@@ -40,7 +40,7 @@ export default function BlogArticle({ id, cover, coverAlt, content }) {
                     <picture>
                         <source type="image/avif" srcSet={`${cover}-800w.avif 800w, ${cover}-1200w.avif 1200w`} sizes="(max-width: 800px) 100vw, 760px" />
                         <source type="image/webp" srcSet={`${cover}-800w.webp 800w, ${cover}-1200w.webp 1200w`} sizes="(max-width: 800px) 100vw, 760px" />
-                        <img src={`${cover}-1200w.webp`} width="1200" height="675" alt={coverAlt} loading="eager" fetchPriority="high" decoding="async" />
+                        <img src={`${cover}-1200w.webp`} width="1200" height={coverHeight} alt={coverAlt} loading="eager" fetchPriority="high" decoding="async" />
                     </picture>
                 </figure>
 

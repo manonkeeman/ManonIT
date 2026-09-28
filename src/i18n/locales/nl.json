@@ -7,7 +7,7 @@
     "contact": "Contact",
     "links": {
       "portfolio": {
-        "backend": "CasaCrew · Verhuurdashboard",
+        "backend": "CasaCrew · Verhuurapp",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
@@ -22,7 +22,7 @@
         "365korteverhalen": "365 Korte Verhalen",
         "pastelvanbuiten": "Pastel van buiten, verrassend van binnen",
         "ai-in-mijn-werk": "Hoe ik AI gebruik in mijn werk",
-        "wat-kost-een-website": "Wat kost een website?"
+        "verhaal-achter-casacrew": "Het verhaal achter CasaCrew"
       }
     },
     "services": "Diensten",
@@ -144,7 +144,7 @@
         "tags": "webteksten, over mij, servicepagina's"
       },
       "seo": {
-        "name": "SEO & AI-vindbaarheid",
+        "name": "SEO & GEO",
         "desc": "Gevonden worden in Google én in AI-zoekmachines zoals ChatGPT, Claude en Perplexity. Ik zorg dat je site technisch en inhoudelijk klaar is voor beide.",
         "tags": "technische SEO, zoekwoorden, AI-zoekmachines (GEO)"
       },
@@ -210,10 +210,10 @@
         "desc": "WordPress-site met rustige uitstraling en duidelijke info voor cliënten."
       },
       "backend": {
-        "desc": "Verhuurdashboard voor hospita's: betalingen, contracten, schoonmaakrooster en huisregels op één plek."
+        "desc": "Verhuurapp voor hospita's: betalingen, contracten, schoonmaakrooster en huisregels op één plek."
       },
       "bigthree": {
-        "desc": "Website voor een garage in Amerikaanse auto's in Nunspeet. Dark theme met stoere typografie, rood-wit-blauw als accent en een filmische uitstraling."
+        "desc": "Website voor een garage in Amerikaanse auto's in Nunspeet. Met CMS, SEO en in drie talen, in een stoer dark theme met filmische uitstraling."
       },
       "marieboddaert": {
         "desc": "Schrijverswebsite in HTML/CSS met literaire typografie en webdesign op maat. Live op Netlify, SEO-geoptimaliseerd en voorzien van een CMS zodat Marie zelf content beheert."
@@ -273,9 +273,9 @@
         "title": "Hoe ik AI gebruik in mijn werk (en waar niet) | Manon Keeman",
         "description": "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet."
       },
-      "wat-kost-een-website": {
-        "title": "Wat kost een website laten maken in 2026? | Manon Keeman",
-        "description": "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken."
+      "verhaal-achter-casacrew": {
+        "title": "Van Excel-sheet naar eigen app: het verhaal achter CasaCrew | Manon Keeman",
+        "description": "Hoe een volle Excel-sheet bij Villa Vredestein uitgroeide tot CasaCrew, een verhuurapp voor hospita's."
       }
     },
     "portfolio": {
@@ -288,8 +288,8 @@
         "description": "Rustige WordPress-website voor een acupunctuurpraktijk: behandelingen, tarieven en afspraak maken. Webdesign door ManonIT."
       },
       "backend": {
-        "title": "CasaCrew · Verhuurdashboard voor hospita's | Manon Keeman",
-        "description": "CasaCrew is een verhuurdashboard voor hospita's: betalingen, contracten, schoonmaak en huisregels op één plek. Gebouwd met Spring Boot."
+        "title": "CasaCrew · Verhuurapp voor hospita's | Manon Keeman",
+        "description": "CasaCrew is een verhuurapp voor hospita's: betalingen, contracten, schoonmaak en huisregels op één plek. Gebouwd met Spring Boot."
       },
       "marieboddaert": {
         "title": "Webdesign Marie Boddaert | Schrijverswebsite | ManonIT",
@@ -335,9 +335,9 @@
         "title": "Hoe ik AI gebruik in mijn werk (en waar niet)",
         "excerpt": "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet."
       },
-      "wat-kost-een-website": {
-        "title": "Wat kost een website laten maken in 2026?",
-        "excerpt": "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken."
+      "verhaal-achter-casacrew": {
+        "title": "Van Excel-sheet naar eigen app: het verhaal achter CasaCrew",
+        "excerpt": "Hoe een volle Excel-sheet bij Villa Vredestein uitgroeide tot CasaCrew, een verhuurapp voor hospita's."
       }
     }
   },
@@ -427,8 +427,7 @@
     "alwaysTitle": "Altijd inbegrepen:",
     "always": "intakegesprek, ontwerpvoorstel, basis-SEO, cookie- en privacyverklaring (AVG), twee revisierondes en 30 dagen garantie op fouten.",
     "extrasTitle": "Losse kosten:",
-    "extras": "aanpassingen zonder abonnement €65 per uur, extra taal vanaf €150, domein €12 tot 15 per jaar, hosting ca. €8 tot 15 per maand.",
-    "faqLink": "Lees alles over wat een website kost"
+    "extras": "aanpassingen zonder abonnement €65 per uur, extra taal vanaf €150, domein €12 tot 15 per jaar, hosting ca. €8 tot 15 per maand."
   },
   "cookies": {
     "title": "Cookies",
@@ -466,7 +465,7 @@
         "items": [
           "Alles uit Onderhoud Basis",
           "SEO: zoekwoorden, content en pagina's verbeteren",
-          "AI-vindbaarheid: zichtbaar in ChatGPT, Claude, Perplexity en Google AI-overzichten",
+          "GEO: zichtbaar in ChatGPT, Claude, Perplexity en Google AI-overzichten",
           "Maandelijks rapport met bezoekers en resultaten",
           "Advies over nieuwe kansen voor je website",
           "Voorrang bij vragen en aanpassingen"

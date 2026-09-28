@@ -11,7 +11,7 @@ const SCHEMA = {
     "@type": "SoftwareApplication",
     "name": "CasaCrew",
     "applicationCategory": "WebApplication",
-    "description": "CasaCrew: verhuurdashboard voor hospita's met betalingen, contracten, schoonmaakrooster en huisregels op één plek. Gebouwd met Spring Boot en PostgreSQL.",
+    "description": "CasaCrew: verhuurapp voor hospita's met betalingen, contracten, schoonmaakrooster en huisregels op één plek. Gebouwd met Spring Boot en PostgreSQL.",
     "creator": {
         "@type": "Person",
         "@id": "https://manonit.com/#manon",
@@ -24,10 +24,10 @@ const COVER_BASE = "/Portfolio/casacrew-mockup";
 
 const content = {
     nl: {
-        title: "CasaCrew · Verhuurdashboard voor hospita's",
+        title: "CasaCrew · Verhuurapp voor hospita's",
         subtitle: "Spring Boot · Klaar voor gebruik",
         tagline: "Digitaal verhuren, volledig in control.\nAlles op één plek, uitbreidbaar naar jouw situatie.",
-        intro: "Kamers verhuren aan studenten brengt meer papierwerk met zich mee dan je denkt. Betalingen opvolgen, contracten bijhouden, schoonmaak verdelen, regels vastleggen. Dit dashboard neemt dat over.",
+        intro: "Kamers verhuren aan studenten brengt meer papierwerk met zich mee dan je denkt. Betalingen opvolgen, contracten bijhouden, schoonmaak verdelen, regels vastleggen. Deze app neemt dat over.",
         features: [
             "Betalingsoverzicht met automatische herinneringen",
             "Schoonmaakrooster per woning",
@@ -42,15 +42,15 @@ const content = {
         ],
         featuresTitle: "Wat is inbegrepen",
         ctaTitle: "Interesse?",
-        ctaText: "Dit dashboard is beschikbaar voor andere verhuurders. Neem contact op voor een demo, maatwerk of meer informatie.",
+        ctaText: "Deze app is beschikbaar voor andere verhuurders. Neem contact op voor een demo, maatwerk of meer informatie.",
         ctaBtn: "Neem contact op →",
         backBtn: "← Terug naar Portfolio",
     },
     en: {
-        title: "CasaCrew · Rental dashboard for landlords",
+        title: "CasaCrew · Rental app for landlords",
         subtitle: "Spring Boot · Ready to use",
         tagline: "Digital rental management, fully in control.\nEverything in one place, built to scale.",
-        intro: "Renting rooms to students brings more paperwork than you'd expect. Tracking payments, managing contracts, organising cleaning, setting rules. This dashboard handles it all.",
+        intro: "Renting rooms to students brings more paperwork than you'd expect. Tracking payments, managing contracts, organising cleaning, setting rules. This app handles it all.",
         features: [
             "Payment overview with automatic reminders",
             "Cleaning schedule per property",
@@ -65,12 +65,12 @@ const content = {
         ],
         featuresTitle: "What's included",
         ctaTitle: "Interested?",
-        ctaText: "This dashboard is available for other landlords. Get in touch for a demo, custom build or more information.",
+        ctaText: "This app is available for other landlords. Get in touch for a demo, custom build or more information.",
         ctaBtn: "Get in touch →",
         backBtn: "← Back to Portfolio",
     },
     fr: {
-        title: "CasaCrew · Tableau de bord pour loueurs de chambres",
+        title: "CasaCrew · Application de location pour loueurs de chambres",
         subtitle: "Spring Boot · Prêt à l'emploi",
         tagline: "Gestion locative numérique, totalement maîtrisée.\nTout en un endroit, extensible selon vos besoins.",
         intro: "Louer des chambres à des étudiants apporte plus de paperasse qu'on ne le pense. Suivi des paiements, gestion des contrats, organisation du ménage, définition des règles. Ce tableau de bord s'en charge.",
@@ -88,15 +88,15 @@ const content = {
         ],
         featuresTitle: "Ce qui est inclus",
         ctaTitle: "Intéressé ?",
-        ctaText: "Ce tableau de bord est disponible pour d'autres bailleurs. Contactez-moi pour une démo, un développement sur mesure ou plus d'informations.",
+        ctaText: "Cette application est disponible pour d'autres bailleurs. Contactez-moi pour une démo, un développement sur mesure ou plus d'informations.",
         ctaBtn: "Me contacter →",
         backBtn: "← Retour au Portfolio",
     },
     de: {
-        title: "CasaCrew · Vermietungs-Dashboard für Zimmervermieter",
+        title: "CasaCrew · Vermietungs-App für Zimmervermieter",
         subtitle: "Spring Boot · Einsatzbereit",
         tagline: "Digital vermieten, vollständig im Griff.\nAlles an einem Ort, skalierbar auf Ihre Situation.",
-        intro: "Zimmer an Studenten zu vermieten bringt mehr Papierkram mit sich als erwartet. Zahlungen verfolgen, Verträge verwalten, Reinigung organisieren, Regeln festlegen. Dieses Dashboard übernimmt das.",
+        intro: "Zimmer an Studenten zu vermieten bringt mehr Papierkram mit sich als erwartet. Zahlungen verfolgen, Verträge verwalten, Reinigung organisieren, Regeln festlegen. Diese App übernimmt das.",
         features: [
             "Zahlungsübersicht mit automatischen Erinnerungen",
             "Reinigungsplan pro Wohnung",
@@ -111,15 +111,15 @@ const content = {
         ],
         featuresTitle: "Was ist enthalten",
         ctaTitle: "Interessiert?",
-        ctaText: "Dieses Dashboard ist für andere Vermieter verfügbar. Kontaktieren Sie mich für eine Demo, individuelle Entwicklung oder mehr Informationen.",
+        ctaText: "Diese App ist für andere Vermieter verfügbar. Kontaktieren Sie mich für eine Demo, individuelle Entwicklung oder mehr Informationen.",
         ctaBtn: "Kontakt aufnehmen →",
         backBtn: "← Zurück zum Portfolio",
     },
     es: {
-        title: "CasaCrew · Panel de alquiler para caseros",
+        title: "CasaCrew · App de alquiler para caseros",
         subtitle: "Spring Boot · Listo para usar",
         tagline: "Gestión digital de alquileres, con control total.\nTodo en un lugar, escalable a tu situación.",
-        intro: "Alquilar habitaciones a estudiantes trae más papeleo del esperado. Seguimiento de pagos, gestión de contratos, organización de limpieza, establecimiento de normas. Este dashboard lo gestiona todo.",
+        intro: "Alquilar habitaciones a estudiantes trae más papeleo del esperado. Seguimiento de pagos, gestión de contratos, organización de limpieza, establecimiento de normas. Esta app lo gestiona todo.",
         features: [
             "Resumen de pagos con recordatorios automáticos",
             "Calendario de limpieza por propiedad",
@@ -134,15 +134,15 @@ const content = {
         ],
         featuresTitle: "Qué incluye",
         ctaTitle: "¿Interesado?",
-        ctaText: "Este dashboard está disponible para otros arrendadores. Contáctame para una demo, desarrollo personalizado o más información.",
+        ctaText: "Esta app está disponible para otros arrendadores. Contáctame para una demo, desarrollo personalizado o más información.",
         ctaBtn: "Contactar →",
         backBtn: "← Volver al Portfolio",
     },
     it: {
-        title: "CasaCrew · Dashboard affitti per chi affitta stanze",
+        title: "CasaCrew · App affitti per chi affitta stanze",
         subtitle: "Spring Boot · Pronto all'uso",
         tagline: "Gestione digitale degli affitti, pieno controllo.\nTutto in un posto, espandibile alle tue esigenze.",
-        intro: "Affittare camere a studenti porta più burocrazia del previsto. Seguire i pagamenti, gestire i contratti, organizzare le pulizie, stabilire le regole. Questo dashboard se ne occupa.",
+        intro: "Affittare camere a studenti porta più burocrazia del previsto. Seguire i pagamenti, gestire i contratti, organizzare le pulizie, stabilire le regole. Questa app se ne occupa.",
         features: [
             "Panoramica pagamenti con promemoria automatici",
             "Piano pulizie per proprietà",
@@ -157,12 +157,12 @@ const content = {
         ],
         featuresTitle: "Cosa è incluso",
         ctaTitle: "Interessato?",
-        ctaText: "Questo dashboard è disponibile per altri proprietari. Contattami per una demo, sviluppo personalizzato o maggiori informazioni.",
+        ctaText: "Questa app è disponibile per altri proprietari. Contattami per una demo, sviluppo personalizzato o maggiori informazioni.",
         ctaBtn: "Contattami →",
         backBtn: "← Torna al Portfolio",
     },
     uk: {
-        title: "CasaCrew · Панель оренди для власників кімнат",
+        title: "CasaCrew · Застосунок оренди для власників кімнат",
         subtitle: "Spring Boot · Готово до використання",
         tagline: "Цифрова оренда, повний контроль.\nВсе в одному місці, масштабується під твою ситуацію.",
         intro: "Оренда кімнат студентам приносить більше паперової роботи, ніж очікуєш. Відстеження платежів, ведення договорів, організація прибирання, встановлення правил. Ця панель бере це на себе.",
@@ -180,7 +180,7 @@ const content = {
         ],
         featuresTitle: "Що включено",
         ctaTitle: "Зацікавлені?",
-        ctaText: "Ця панель доступна для інших орендодавців. Зв'яжіться для демонстрації, індивідуальної розробки або додаткової інформації.",
+        ctaText: "Цей застосунок доступний для інших орендодавців. Зв'яжіться для демонстрації, індивідуальної розробки або додаткової інформації.",
         ctaBtn: "Зв'язатися →",
         backBtn: "← Назад до Портфоліо",
     },
@@ -240,7 +240,7 @@ export default function BackendStudentenDashboard() {
                     style={{ cursor: "zoom-in" }}
                     title="Klik om te vergroten"
                 >
-                    <MockupPicture base={COVER_BASE} alt="CasaCrew verhuurdashboard op desktop en mobiel" className="cover-img" eager sizes="(max-width: 768px) 100vw, 55vw" />
+                    <MockupPicture base={COVER_BASE} alt="CasaCrew verhuurapp op desktop en mobiel" className="cover-img" eager sizes="(max-width: 768px) 100vw, 55vw" />
                 </div>
             </header>
 
@@ -269,7 +269,7 @@ export default function BackendStudentenDashboard() {
                     >×</button>
                     <img
                         src={`${COVER_BASE}-1200w.webp`}
-                        alt="CasaCrew verhuurdashboard — vergroot"
+                        alt="CasaCrew verhuurapp, vergroot"
                         onClick={(e) => e.stopPropagation()}
                         style={{
                             maxWidth: "90vw", maxHeight: "88vh",

@@ -86,8 +86,8 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/journal/ai-in-mijn-werk" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.ai-in-mijn-werk')}
                     </NavLink>
-                    <NavLink to="/journal/wat-kost-een-website" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.wat-kost-een-website')}
+                    <NavLink to="/journal/verhaal-achter-casacrew" onClick={onClose} className="mob-link">
+                        {t('nav.links.journal.verhaal-achter-casacrew')}
                     </NavLink>
                     <NavLink to="/journal/365korteverhalen" onClick={onClose} className="mob-link">
                         {t('nav.links.journal.365korteverhalen')}

@@ -7,7 +7,7 @@
     "contact": "Contatti",
     "links": {
       "portfolio": {
-        "backend": "CasaCrew · Dashboard affitti",
+        "backend": "CasaCrew · App affitti",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
@@ -22,7 +22,7 @@
         "toekomsttech": "Futuro & Tech",
         "365korteverhalen": "365 Racconti brevi",
         "ai-in-mijn-werk": "AI in my work",
-        "wat-kost-een-website": "What does a website cost?"
+        "verhaal-achter-casacrew": "The story behind CasaCrew"
       }
     },
     "services": "Servizi",
@@ -214,8 +214,8 @@
         "description": "Sito WordPress dall'estetica sobria con informazioni chiare per i clienti."
       },
       "backend": {
-        "title": "Backend Dashboard Studenti | Spring Boot | Manon Keeman",
-        "description": "Backend Spring Boot con autenticazione JWT, API REST e integrazione database."
+        "title": "CasaCrew · App affitti per chi affitta stanze | Manon Keeman",
+        "description": "CasaCrew è un'app per chi affitta stanze: pagamenti, contratti, pulizie e regole della casa in un unico posto."
       },
       "marieboddaert": {
         "title": "Webdesign Marie Boddaert | Sito di scrittrice | ManonIT",
@@ -280,7 +280,7 @@
         "tags": "testi web, chi sono, pagine servizi"
       },
       "seo": {
-        "name": "SEO e visibilità IA",
+        "name": "SEO e GEO",
         "desc": "Farsi trovare su Google e nei motori di ricerca IA come ChatGPT, Claude e Perplexity. Preparo il tuo sito tecnicamente e nei contenuti per entrambi.",
         "tags": "SEO tecnica, parole chiave, ricerca IA (GEO)"
       },
@@ -406,8 +406,7 @@
     "alwaysTitle": "Sempre incluso:",
     "always": "colloquio iniziale, proposta di design, SEO di base, informativa cookie e privacy (GDPR), due cicli di revisione e 30 giorni di garanzia sui bug.",
     "extrasTitle": "Costi a parte:",
-    "extras": "modifiche senza abbonamento €65 l'ora, lingua aggiuntiva da €150, dominio €12 a 15 l'anno, hosting ca. €8 a 15 al mese.",
-    "faqLink": "Tutto su quanto costa un sito web"
+    "extras": "modifiche senza abbonamento €65 l'ora, lingua aggiuntiva da €150, dominio €12 a 15 l'anno, hosting ca. €8 a 15 al mese."
   },
   "cookies": {
     "title": "Cookie",
@@ -445,7 +444,7 @@
         "items": [
           "Tutto di Manutenzione Base",
           "SEO: migliorare parole chiave, contenuti e pagine",
-          "Visibilità IA: presente in ChatGPT, Claude, Perplexity e nelle panoramiche IA di Google",
+          "GEO: presente in ChatGPT, Claude, Perplexity e nelle panoramiche IA di Google",
           "Report mensile con visitatori e risultati",
           "Consigli su nuove opportunità per il tuo sito",
           "Priorità per domande e modifiche"

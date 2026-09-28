@@ -7,7 +7,7 @@
     "contact": "Контакт",
     "links": {
       "portfolio": {
-        "backend": "CasaCrew · Панель оренди",
+        "backend": "CasaCrew · Застосунок оренди",
         "frontend": "Веброзробка - Villa Vredestein",
         "acupuncture": "Вебдизайн - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
@@ -22,7 +22,7 @@
         "365korteverhalen": "365 коротких оповідань",
         "pastelvanbuiten": "Пастель зовні, несподіванка всередині",
         "ai-in-mijn-werk": "AI in my work",
-        "wat-kost-een-website": "What does a website cost?"
+        "verhaal-achter-casacrew": "The story behind CasaCrew"
       }
     },
     "services": "Послуги",
@@ -144,7 +144,7 @@
         "tags": "вебтексти, про мене, сторінки послуг"
       },
       "seo": {
-        "name": "SEO та AI-видимість",
+        "name": "SEO та GEO",
         "desc": "Вас знаходять у Google та в AI-пошуковиках, як-от ChatGPT, Claude і Perplexity. Я готую сайт технічно й змістовно для обох.",
         "tags": "технічне SEO, ключові слова, AI-пошук (GEO)"
       },
@@ -279,8 +279,8 @@
         "description": "Сайт на WordPress зі спокійним виглядом і чіткою інформацією для клієнтів."
       },
       "backend": {
-        "title": "Backend панель студентів | Spring Boot | Манон Кімен",
-        "description": "Spring Boot backend з JWT-автентифікацією, REST API та підключенням до бази даних."
+        "title": "CasaCrew · Застосунок оренди для власників кімнат | Manon Keeman",
+        "description": "CasaCrew це застосунок для власників, що здають кімнати: платежі, договори, прибирання й правила в одному місці."
       },
       "marieboddaert": {
         "title": "Вебдизайн Марі Боддерт | Письменницький сайт | ManonIT",
@@ -410,8 +410,7 @@
     "alwaysTitle": "Завжди включено:",
     "always": "вступна розмова, пропозиція дизайну, базове SEO, політика cookie та конфіденційності (GDPR), два раунди правок і 30 днів гарантії на помилки.",
     "extrasTitle": "Окремі витрати:",
-    "extras": "зміни без абонемента €65 за годину, додаткова мова від €150, домен €12 до 15 на рік, хостинг бл. €8 до 15 на місяць.",
-    "faqLink": "Усе про те, скільки коштує сайт"
+    "extras": "зміни без абонемента €65 за годину, додаткова мова від €150, домен €12 до 15 на рік, хостинг бл. €8 до 15 на місяць."
   },
   "cookies": {
     "title": "Cookie",
@@ -449,7 +448,7 @@
         "items": [
           "Усе з Підтримки Базової",
           "SEO: покращення ключових слів, контенту й сторінок",
-          "AI-видимість: присутність у ChatGPT, Claude, Perplexity та AI-оглядах Google",
+          "GEO: присутність у ChatGPT, Claude, Perplexity та AI-оглядах Google",
           "Щомісячний звіт про відвідувачів і результати",
           "Поради щодо нових можливостей для сайту",
           "Пріоритет для питань і змін"

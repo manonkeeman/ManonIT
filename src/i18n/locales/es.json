@@ -7,7 +7,7 @@
     "contact": "Contacto",
     "links": {
       "portfolio": {
-        "backend": "CasaCrew · Panel de alquiler",
+        "backend": "CasaCrew · App de alquiler",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
@@ -22,7 +22,7 @@
         "toekomsttech": "Futuro & Tech",
         "365korteverhalen": "365 Historias cortas",
         "ai-in-mijn-werk": "AI in my work",
-        "wat-kost-een-website": "What does a website cost?"
+        "verhaal-achter-casacrew": "The story behind CasaCrew"
       }
     },
     "services": "Servicios",
@@ -214,8 +214,8 @@
         "description": "Sitio WordPress con estética tranquila e información clara para clientes."
       },
       "backend": {
-        "title": "Backend Panel de Estudiantes | Spring Boot | Manon Keeman",
-        "description": "Backend Spring Boot con autenticación JWT, API REST e integración de base de datos."
+        "title": "CasaCrew · App de alquiler para caseros | Manon Keeman",
+        "description": "CasaCrew es una app para quienes alquilan habitaciones: pagos, contratos, limpieza y normas de la casa en un solo lugar."
       },
       "marieboddaert": {
         "title": "Webdesign Marie Boddaert | Web de escritora | ManonIT",
@@ -280,7 +280,7 @@
         "tags": "textos web, sobre mí, páginas de servicios"
       },
       "seo": {
-        "name": "SEO y visibilidad en IA",
+        "name": "SEO y GEO",
         "desc": "Que te encuentren en Google y en buscadores de IA como ChatGPT, Claude y Perplexity. Preparo tu web técnica y editorialmente para ambos.",
         "tags": "SEO técnico, palabras clave, búsqueda IA (GEO)"
       },
@@ -406,8 +406,7 @@
     "alwaysTitle": "Siempre incluido:",
     "always": "reunión inicial, propuesta de diseño, SEO básico, aviso de cookies y privacidad (RGPD), dos rondas de revisión y 30 días de garantía ante errores.",
     "extrasTitle": "Costes aparte:",
-    "extras": "cambios sin plan 65 € por hora, idioma adicional desde 150 €, dominio 12 a 15 € al año, hosting aprox. 8 a 15 € al mes.",
-    "faqLink": "Todo sobre lo que cuesta una web"
+    "extras": "cambios sin plan 65 € por hora, idioma adicional desde 150 €, dominio 12 a 15 € al año, hosting aprox. 8 a 15 € al mes."
   },
   "cookies": {
     "title": "Cookies",
@@ -445,7 +444,7 @@
         "items": [
           "Todo lo del Mantenimiento Básico",
           "SEO: mejorar palabras clave, contenido y páginas",
-          "Visibilidad en IA: presente en ChatGPT, Claude, Perplexity y los resúmenes IA de Google",
+          "GEO: presente en ChatGPT, Claude, Perplexity y los resúmenes IA de Google",
           "Informe mensual de visitas y resultados",
           "Consejos sobre nuevas oportunidades para tu web",
           "Prioridad en preguntas y cambios"

@@ -25,15 +25,25 @@
   to = "/colofon"
   status = 301
 
-# FAQ-pagina is vervangen door blogs; oude links en zoekresultaten doorsturen
+# Oude FAQ-pagina en het vervallen prijsblog: doorsturen naar de tarieven op de homepage
 [[redirects]]
   from = "/faq"
-  to = "/journal/wat-kost-een-website"
+  to = "/#tarieven"
   status = 301
 
 [[redirects]]
   from = "/en/faq"
-  to = "/en/journal/wat-kost-een-website"
+  to = "/en#tarieven"
+  status = 301
+
+[[redirects]]
+  from = "/journal/wat-kost-een-website"
+  to = "/#tarieven"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/wat-kost-een-website"
+  to = "/en#tarieven"
   status = 301
 
 # SPA fallback: geprerenderde pagina's (dist/<pad>.html) worden direct

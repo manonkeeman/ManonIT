@@ -46,10 +46,10 @@ const ARTICLES = {
         en: { title: "How I use AI in my work (and where I don't) | Manon Keeman", description: "Building faster, multilingual and findable in ChatGPT and Claude. How I use AI for my clients, and where I deliberately don't." },
         image: `${SITE}/journal/ai-in-mijn-werk-1200w.webp`,
     },
-    "wat-kost-een-website": {
-        nl: { title: "Wat kost een website laten maken in 2026? | Manon Keeman", description: "Van €1.200 tot maatwerk: dit krijg je voor je geld, wat onderhoud kost en waar je op let bij het vergelijken." },
-        en: { title: "What does a website cost in 2026? | Manon Keeman", description: "From €1,200 to fully custom: what you get for your money, what maintenance costs and what to compare." },
-        image: `${SITE}/journal/wat-kost-een-website-1200w.webp`,
+    "verhaal-achter-casacrew": {
+        nl: { title: "Van Excel-sheet naar eigen app: het verhaal achter CasaCrew | Manon Keeman", description: "Hoe een volle Excel-sheet bij Villa Vredestein uitgroeide tot CasaCrew, een verhuurapp voor hospita's." },
+        en: { title: "From spreadsheet to app: the story behind CasaCrew | Manon Keeman", description: "How an overflowing spreadsheet at Villa Vredestein grew into CasaCrew, a rental app for landlords." },
+        image: `${SITE}/Portfolio/casacrew-mockup-1200w.webp`,
     },
 };
 

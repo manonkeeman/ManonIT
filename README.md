@@ -90,12 +90,12 @@ netlify/edge-functions/
 | `/journal/:slug`               | Artikel                                                         |
 | `/frontendvredestein`          | Project: Villa Vredestein                                       |
 | `/webdesignacupuncture`        | Project: Acupuncture by Saskia                                  |
-| `/backendstudentendashboard`   | Project: CasaCrew, verhuurdashboard voor hospita's              |
+| `/backendstudentendashboard`   | Project: CasaCrew, verhuurapp voor hospita's              |
 | `/thebigthree`                 | Project: The Big Three                                          |
 | `/marieboddaert`               | Project: Marie H. Boddaert                                      |
 | `/privacy`, `/colofon`         | Juridisch (alleen NL)                                           |
 
-Elke pagina bestaat ook onder `/en/...`. De andere talen wisselen alleen de tekst, niet de URL. `/faq` stuurt door naar `/journal/wat-kost-een-website`.
+Elke pagina bestaat ook onder `/en/...`. De andere talen wisselen alleen de tekst, niet de URL. `/faq` en het vervallen prijsblog sturen door naar de tarieven op de homepage.
 
 ---
 
@@ -113,7 +113,7 @@ Schrijf zonder lange streepjes (— en –).
 
 ---
 
-## SEO en AI-vindbaarheid
+## SEO en GEO
 
 - Prerendering: elke pagina uit de sitemap staat als volledige HTML online
 - Eigen titel, beschrijving en canonical per pagina, plus hreflang voor NL en EN

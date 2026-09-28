@@ -13,7 +13,7 @@ const Luchtvaartfamilie2018      = lazy(() => import("./Luchtvaartfamilie2018.js
 const Korteverhalen365           = lazy(() => import("./365Korteverhalen.jsx"));
 const PastelVanBuiten            = lazy(() => import("./PastelVanBuiten.jsx"));
 const AiInMijnWerk               = lazy(() => import("./AiInMijnWerk.jsx"));
-const WatKostEenWebsite          = lazy(() => import("./WatKostEenWebsite.jsx"));
+const VerhaalAchterCasaCrew      = lazy(() => import("./VerhaalAchterCasaCrew.jsx"));
 
 function NotFound({ slug }) {
     const { t } = useTranslation();
@@ -91,11 +91,11 @@ const ARTICLE_META = {
         image: "https://manonit.com/journal/ai-in-mijn-werk-1200w.webp",
         words: 820,
     },
-    "wat-kost-een-website": {
+    "verhaal-achter-casacrew": {
         date: "2026-09-28",
-        title: "Wat kost een website laten maken in 2026?",
-        image: "https://manonit.com/journal/wat-kost-een-website-1200w.webp",
-        words: 900,
+        title: "Van Excel-sheet naar eigen app: het verhaal achter CasaCrew",
+        image: "https://manonit.com/Portfolio/casacrew-mockup-1200w.webp",
+        words: 760,
     },
 };
 
@@ -114,7 +114,7 @@ export default function ArticleRoute() {
         "365korteverhalen": <Korteverhalen365 />,
         pastelvanbuiten: <PastelVanBuiten />,
         "ai-in-mijn-werk": <AiInMijnWerk />,
-        "wat-kost-een-website": <WatKostEenWebsite />,
+        "verhaal-achter-casacrew": <VerhaalAchterCasaCrew />,
     };
 
     const article = views[key];

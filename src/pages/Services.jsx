@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield } from "react-icons/fi";
-import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 
 export default function Services() {
@@ -136,7 +135,6 @@ export default function Services() {
                     <div className="price-extras">
                         <p><strong>{t("pricing.alwaysTitle")}</strong> {t("pricing.always")}</p>
                         <p><strong>{t("pricing.extrasTitle")}</strong> {t("pricing.extras")}</p>
-                        <Link to="/journal/wat-kost-een-website" className="price-faq">{t("pricing.faqLink")} →</Link>
                     </div>
                 </div>
             </section>
@@ -299,7 +297,6 @@ export default function Services() {
                 }
                 .price-extras p { margin: 0 0 8px; }
                 .price-extras strong { color: var(--text); font-weight: 600; }
-                .price-faq { color: var(--accent-ink) !important; font-weight: 600; }
                 @media (max-width: 900px) {
                     .price-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; gap: 28px; }
                     .price-tagline { min-height: 0; }

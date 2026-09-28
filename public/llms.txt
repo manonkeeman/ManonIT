@@ -7,7 +7,7 @@
 - Websites en webapps: WordPress, React en maatwerk met Spring Boot
 - Webdesign: eigen ontwerp dat past bij het merk
 - Copywriting: webteksten die kloppen
-- SEO en AI-vindbaarheid (GEO): gevonden worden in Google en in AI-zoekmachines
+- SEO en GEO (Generative Engine Optimization): gevonden worden in Google en in AI-zoekmachines
 - Website onderhoud: updates, back-ups, monitoring en doorlopende verbetering
 
 ## Tarieven (excl. btw)
@@ -16,7 +16,7 @@
 - Website met CMS: vanaf €2.450. Tot 8 pagina's met eigen ontwerp, zelf teksten, foto's en blog beheren. Klaar in 4 tot 7 weken.
 - Volledig maatwerk: vanaf €4.250. Ontwerp vanaf nul, eigen CMS, mogelijk met webshop, klantportaal of meerdere talen.
 - Onderhoud Basis: €120 per maand (2 uur werk, updates, back-ups, monitoring).
-- Onderhoud & Groei: €240 per maand (4 uur werk, plus SEO en AI-vindbaarheid, maandrapport).
+- Onderhoud & Groei: €240 per maand (4 uur werk, plus SEO en GEO, maandrapport).
 - Abonnementen: minimaal 3 maanden, daarna maandelijks opzegbaar. Losse uren: €65.
 - Altijd eerst een offerte met vaste prijs. Gratis kennismaking van 30 minuten.
 
@@ -24,16 +24,16 @@
 
 - [Home, diensten en tarieven](https://manonit.com/)
 - [Over Manon Keeman](https://manonit.com/about)
-- [Wat kost een website laten maken?](https://manonit.com/journal/wat-kost-een-website)
+- [Het verhaal achter CasaCrew](https://manonit.com/journal/verhaal-achter-casacrew)
 - [Hoe ik AI gebruik in mijn werk](https://manonit.com/journal/ai-in-mijn-werk)
 - [Journal](https://manonit.com/journal)
 
 ## Portfolio
 
 - [Villa Vredestein](https://manonit.com/frontendvredestein): website voor een historische villa in Driebergen, React
-- [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurdashboard voor hospita's, Spring Boot
+- [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurapp voor hospita's, Spring Boot
 - [Acupuncture by Saskia](https://manonit.com/webdesignacupuncture): WordPress-website voor een acupunctuurpraktijk
-- [The Big Three](https://manonit.com/thebigthree): website voor een garage in Amerikaanse auto's in Nunspeet (live op thebigthree.nl)
+- [The Big Three](https://manonit.com/thebigthree): website met CMS, SEO en drie talen voor een garage in Amerikaanse auto's in Nunspeet (live op thebigthree.nl)
 - [Marie H. Boddaert](https://manonit.com/marieboddaert): schrijverswebsite met CMS
 
 ## Contact

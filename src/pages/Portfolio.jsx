@@ -7,7 +7,7 @@ import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 const projects = [
     {
         key: "backend",
-        title: "CasaCrew · Verhuurdashboard voor hospita's",
+        title: "CasaCrew · Verhuurapp voor hospita's",
         tags: ["Spring Boot", "Java", "PostgreSQL", "JWT"],
         route: "/backendstudentendashboard",
         base: "/Portfolio/casacrew-mockup",
@@ -32,7 +32,7 @@ const projects = [
     {
         key: "bigthree",
         title: "Webdesign · The Big Three",
-        tags: ["HTML/CSS", "Webdesign", "Dark theme", "Responsive"],
+        tags: ["Webdesign", "CMS", "SEO", "Meertalig"],
         route: "/thebigthree",
         base: "/Portfolio/de-grote-drie-mockup",
         num: "04",

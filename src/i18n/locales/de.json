@@ -7,7 +7,7 @@
     "contact": "Kontakt",
     "links": {
       "portfolio": {
-        "backend": "CasaCrew · Vermietungs-Dashboard",
+        "backend": "CasaCrew · Vermietungs-App",
         "frontend": "Webdevelopment - Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
@@ -22,7 +22,7 @@
         "toekomsttech": "Zukunft & Tech",
         "365korteverhalen": "365 Kurzgeschichten",
         "ai-in-mijn-werk": "AI in my work",
-        "wat-kost-een-website": "What does a website cost?"
+        "verhaal-achter-casacrew": "The story behind CasaCrew"
       }
     },
     "services": "Leistungen",
@@ -214,8 +214,8 @@
         "description": "WordPress-Website mit ruhiger Ästhetik und klaren Informationen für Klienten."
       },
       "backend": {
-        "title": "Backend Studenten-Dashboard | Spring Boot | Manon Keeman",
-        "description": "Spring Boot-Backend mit JWT-Authentifizierung, REST-API und Datenbankanbindung."
+        "title": "CasaCrew · Vermietungs-App für Zimmervermieter | Manon Keeman",
+        "description": "CasaCrew ist eine App für Zimmervermieter: Zahlungen, Verträge, Reinigung und Hausregeln an einem Ort."
       },
       "marieboddaert": {
         "title": "Webdesign-Konzept Marie Boddaert | Autorinnenwebsite | ManonIT",
@@ -280,7 +280,7 @@
         "tags": "Webtexte, Über-mich-Seiten, Serviceseiten"
       },
       "seo": {
-        "name": "SEO & KI-Auffindbarkeit",
+        "name": "SEO & GEO",
         "desc": "Gefunden werden bei Google und in KI-Suchmaschinen wie ChatGPT, Claude und Perplexity. Ich sorge dafür, dass deine Website technisch und inhaltlich für beides bereit ist.",
         "tags": "technisches SEO, Keywords, KI-Suche (GEO)"
       },
@@ -406,8 +406,7 @@
     "alwaysTitle": "Immer inklusive:",
     "always": "Erstgespräch, Designvorschlag, SEO-Grundlagen, Cookie- und Datenschutzerklärung (DSGVO), zwei Korrekturrunden und 30 Tage Garantie auf Fehler.",
     "extrasTitle": "Zusätzliche Kosten:",
-    "extras": "Änderungen ohne Abo €65 pro Stunde, zusätzliche Sprache ab €150, Domain €12 bis 15 pro Jahr, Hosting ca. €8 bis 15 pro Monat.",
-    "faqLink": "Alles darüber, was eine Website kostet"
+    "extras": "Änderungen ohne Abo €65 pro Stunde, zusätzliche Sprache ab €150, Domain €12 bis 15 pro Jahr, Hosting ca. €8 bis 15 pro Monat."
   },
   "cookies": {
     "title": "Cookies",
@@ -445,7 +444,7 @@
         "items": [
           "Alles aus Wartung Basis",
           "SEO: Keywords, Inhalte und Seiten verbessern",
-          "KI-Auffindbarkeit: sichtbar in ChatGPT, Claude, Perplexity und Google-KI-Übersichten",
+          "GEO: sichtbar in ChatGPT, Claude, Perplexity und Google-KI-Übersichten",
           "Monatlicher Bericht mit Besuchern und Ergebnissen",
           "Beratung zu neuen Chancen für deine Website",
           "Vorrang bei Fragen und Änderungen"

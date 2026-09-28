@@ -30,10 +30,9 @@ export default function Colofon() {
 
                     <hr className="rule" />
 
-                    <h2>Vestigingsadressen</h2>
+                    <h2>Vestigingsadres</h2>
                     <ul>
                         <li>Van Renesselaan 19, Bakkum</li>
-                        <li>Hoofdstraat 147, Driebergen</li>
                     </ul>
 
                     <hr className="rule" />

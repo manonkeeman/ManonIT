@@ -33,7 +33,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) is een garage in Nunspeet voor Amerikaanse auto's. Verkoop, onderhoud en restauratie van campers, pick-ups en klassiekers, door een eigenaar die jarenlang in de VS werkte. Voor hem ontwierp en bouwde ik een website met net zoveel karakter als zijn auto's.",
         cards: [
             { label: "Wat", text: "Een complete website voor een garage in Amerikaanse auto's: voertuigen, werkplaats, het verhaal van de eigenaar en contact." },
-            { label: "Hoe", text: "Dark theme met Amerikaans karakter: stevige typografie, rood-wit-blauw als accent en grote beelden. Werkt net zo goed op mobiel." },
+            { label: "Hoe", text: "Dark theme met Amerikaans karakter en grote beelden. Met een CMS waarin David zelf voertuigen en teksten beheert, SEO voor Google en de site in drie talen: Nederlands, Engels en Duits." },
             { label: "Status", text: "Live. Bezoekers bellen David direct vanaf de homepage of bekijken de voorraad voertuigen." },
         ],
         challengeTitle: "De uitdaging",
@@ -49,7 +49,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) is a garage in Nunspeet for American cars. Sales, maintenance and restoration of campers, pick-ups and classics, by an owner who worked in the US for many years. I designed and built a website with as much character as his cars.",
         cards: [
             { label: "What", text: "A complete website for an American car garage: vehicles, workshop, the owner's story and contact." },
-            { label: "How", text: "Dark theme with American character: bold typography, red, white and blue accents and big imagery. Works just as well on mobile." },
+            { label: "How", text: "Dark theme with American character and big imagery. With a CMS where David manages vehicles and copy himself, SEO for Google and the site in three languages: Dutch, English and German." },
             { label: "Status", text: "Live. Visitors call David straight from the homepage or browse the vehicles in stock." },
         ],
         challengeTitle: "The challenge",
@@ -65,7 +65,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) est un garage à Nunspeet spécialisé dans les voitures américaines : vente, entretien et restauration de camping-cars, pick-ups et classiques. J'ai conçu et développé un site avec autant de caractère que ses voitures.",
         cards: [
             { label: "Quoi", text: "Un site complet pour un garage de voitures américaines : véhicules, atelier, histoire du propriétaire et contact." },
-            { label: "Comment", text: "Thème sombre au caractère américain : typographie forte, accents rouge, blanc et bleu, grandes images." },
+            { label: "Comment", text: "Thème sombre au caractère américain et grandes images. Avec un CMS où David gère lui-même véhicules et textes, du SEO pour Google et un site en trois langues : néerlandais, anglais et allemand." },
             { label: "Statut", text: "En ligne. Les visiteurs appellent David directement depuis la page d'accueil." },
         ],
         challengeTitle: "Le défi",
@@ -81,7 +81,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) ist eine Werkstatt in Nunspeet für amerikanische Autos: Verkauf, Wartung und Restaurierung von Campern, Pick-ups und Klassikern. Ich habe eine Website entworfen und gebaut, die so viel Charakter hat wie seine Autos.",
         cards: [
             { label: "Was", text: "Eine komplette Website für eine Werkstatt für amerikanische Autos: Fahrzeuge, Werkstatt, Geschichte des Inhabers und Kontakt." },
-            { label: "Wie", text: "Dunkles Design mit amerikanischem Charakter: kräftige Typografie, Rot, Weiß und Blau als Akzente, große Bilder." },
+            { label: "Wie", text: "Dunkles Design mit amerikanischem Charakter und großen Bildern. Mit einem CMS, in dem David Fahrzeuge und Texte selbst pflegt, SEO für Google und die Website in drei Sprachen: Niederländisch, Englisch und Deutsch." },
             { label: "Status", text: "Live. Besucher rufen David direkt von der Startseite aus an." },
         ],
         challengeTitle: "Die Herausforderung",
@@ -97,7 +97,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) es un taller en Nunspeet de coches americanos: venta, mantenimiento y restauración de autocaravanas, pick-ups y clásicos. Diseñé y construí una web con tanto carácter como sus coches.",
         cards: [
             { label: "Qué", text: "Una web completa para un taller de coches americanos: vehículos, taller, la historia del dueño y contacto." },
-            { label: "Cómo", text: "Tema oscuro con carácter americano: tipografía potente, acentos rojo, blanco y azul, imágenes grandes." },
+            { label: "Cómo", text: "Tema oscuro con carácter americano e imágenes grandes. Con un CMS donde David gestiona él mismo vehículos y textos, SEO para Google y la web en tres idiomas: neerlandés, inglés y alemán." },
             { label: "Estado", text: "Online. Los visitantes llaman a David directamente desde la portada." },
         ],
         challengeTitle: "El reto",
@@ -113,7 +113,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) è un'officina a Nunspeet per auto americane: vendita, manutenzione e restauro di camper, pick-up e classiche. Ho progettato e realizzato un sito con lo stesso carattere delle sue auto.",
         cards: [
             { label: "Cosa", text: "Un sito completo per un'officina di auto americane: veicoli, officina, la storia del titolare e contatti." },
-            { label: "Come", text: "Tema scuro dal carattere americano: tipografia decisa, accenti rosso, bianco e blu, grandi immagini." },
+            { label: "Come", text: "Tema scuro dal carattere americano e grandi immagini. Con un CMS in cui David gestisce da solo veicoli e testi, SEO per Google e il sito in tre lingue: olandese, inglese e tedesco." },
             { label: "Stato", text: "Online. I visitatori chiamano David direttamente dalla homepage." },
         ],
         challengeTitle: "La sfida",
@@ -129,7 +129,7 @@ const content = {
         intro: "The Big Three (De Grote Drie) це автомайстерня в Нунспіті для американських авто: продаж, обслуговування та реставрація кемперів, пікапів і класики. Я розробила сайт із таким самим характером, як і його авто.",
         cards: [
             { label: "Що", text: "Повний сайт для майстерні американських авто: транспорт, майстерня, історія власника й контакти." },
-            { label: "Як", text: "Темна тема з американським характером: виразна типографіка, червоний, білий і синій як акценти, великі фото." },
+            { label: "Як", text: "Темна тема з американським характером і великими фото. З CMS, де Девід сам керує авто й текстами, SEO для Google і сайтом трьома мовами: нідерландською, англійською та німецькою." },
             { label: "Статус", text: "Онлайн. Відвідувачі телефонують Девіду просто з головної сторінки." },
         ],
         challengeTitle: "Виклик",
@@ -147,7 +147,7 @@ export default function TheBigThree() {
         <article className="bt-page section">
             <Seo
                 title="The Big Three · Website voor een garage in Nunspeet | ManonIT"
-                description="Website voor The Big Three (De Grote Drie), garage voor Amerikaanse auto's in Nunspeet. Ontworpen en gebouwd door ManonIT."
+                description="Website voor The Big Three (De Grote Drie), garage voor Amerikaanse auto's in Nunspeet. Met CMS, SEO en in drie talen. Ontworpen en gebouwd door ManonIT."
                 path="/thebigthree"
             />
             <JsonLd data={SCHEMA} />
@@ -170,9 +170,10 @@ export default function TheBigThree() {
                     <h1 className="bt-title">{c.title}</h1>
                     <p className="bt-tagline">{c.tagline}</p>
                     <div className="bt-tags">
-                        <span className="tag">HTML/CSS</span>
                         <span className="tag">Webdesign</span>
-                        <span className="tag">Dark theme</span>
+                        <span className="tag">CMS</span>
+                        <span className="tag">SEO</span>
+                        <span className="tag">NL · EN · DE</span>
                         <span className="tag">Responsive</span>
                     </div>
                     <a className="btn btn-primary bt-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
