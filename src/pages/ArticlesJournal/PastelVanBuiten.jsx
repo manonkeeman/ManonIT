@@ -1,6 +1,7 @@
 import { Link } from "../../assets/Components/LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import ArticleFooter from "../../assets/Components/ArticleFooter.jsx";
+import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
 const bodies = {
     nl: () => (
@@ -458,15 +459,12 @@ export default function PastelVanBuiten() {
                     <span aria-current="page">{t.shareTitle}</span>
                 </nav>
 
-                <figure className="story-cover story-cover--screenshot">
-                    <img
-                        src="/journal/marie-boddaert-screenshot.png"
-                        alt="Website van Marie H. Boddaert — pastel design, Over mij pagina"
-                        width="1200"
-                        height="973"
-                        loading="eager"
-                        fetchPriority="high"
-                        decoding="async"
+                <figure className="story-cover">
+                    <MockupPicture
+                        base="/Portfolio/marie-boddaert-blog-mockup"
+                        alt="Website van Marie H. Boddaert op desktop en mobiel"
+                        eager
+                        sizes="(max-width: 800px) 100vw, 68ch"
                     />
                 </figure>
 
@@ -494,9 +492,7 @@ export default function PastelVanBuiten() {
         .back-link:hover { text-decoration: underline; }
         .article-container { max-width: 72rem; margin: 0 auto; padding: 0 clamp(16px,3vw,48px); }
         .story-cover { margin: 8px auto 16px; max-width: 68ch; }
-        .story-cover img { display: block; width: 100%; border-radius: 14px; object-fit: cover; }
-        .story-cover--screenshot { overflow: hidden; border-radius: 14px; max-height: 420px; }
-        .story-cover--screenshot img { object-position: top center; height: 420px; border-radius: 0; }
+        .story-cover img { display: block; width: 100%; height: auto; border-radius: 20px; object-fit: cover; }
         .story-header { text-align: center; margin-bottom: 12px; }
         .story-header h1 { margin: 8px 0 6px; line-height: 1.15; }
         .meta { margin: 0; color: var(--muted); }

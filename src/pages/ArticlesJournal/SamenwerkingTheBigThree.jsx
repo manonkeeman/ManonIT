@@ -20,7 +20,7 @@ const content = {
                 <h2>Een garage met karakter</h2>
                 <p>
                     The Big Three, in het Nederlands De Grote Drie, is een garage in Nunspeet voor
-                    Amerikaanse auto's. Campers, pick-ups en klassiekers: David verkoopt ze, onderhoudt ze
+                    Amerikaanse auto's. De naam verwijst naar de drie grote Amerikaanse autofabrikanten: General Motors (GM), Ford en Chrysler. Campers, pick-ups en klassiekers: David verkoopt ze, onderhoudt ze
                     en zet ze weer in de oude glorie. Hij werkte jarenlang in de Verenigde Staten, en dat
                     vakmanschap zie je terug in alles wat er in zijn werkplaats staat.
                 </p>
@@ -86,7 +86,7 @@ const content = {
 
                 <h2>A garage with character</h2>
                 <p>
-                    The Big Three is a garage in Nunspeet for American cars. Campers, pick-ups and classics:
+                    The Big Three is a garage in Nunspeet for American cars. The name refers to the three big American car manufacturers: General Motors (GM), Ford and Chrysler. Campers, pick-ups and classics:
                     David sells them, services them and restores them to their former glory. He worked in the
                     United States for years, and you can see that craftsmanship in everything in his workshop.
                 </p>
@@ -153,7 +153,7 @@ const content = {
                 <h2>Eine Werkstatt mit Charakter</h2>
                 <p>
                     The Big Three, auf Niederländisch De Grote Drie, ist eine Werkstatt in Nunspeet für
-                    amerikanische Autos. Camper, Pick-ups und Klassiker: David verkauft, wartet und restauriert
+                    amerikanische Autos. Der Name steht für die drei großen amerikanischen Autohersteller: General Motors (GM), Ford und Chrysler. Camper, Pick-ups und Klassiker: David verkauft, wartet und restauriert
                     sie. Er hat jahrelang in den USA gearbeitet, und dieses Handwerk sieht man in allem, was in
                     seiner Werkstatt steht.
                 </p>
@@ -220,7 +220,7 @@ const content = {
                 <h2>Un garage qui a du caractère</h2>
                 <p>
                     The Big Three, De Grote Drie en néerlandais, est un garage à Nunspeet spécialisé dans les
-                    voitures américaines. Camping-cars, pick-ups et classiques : David les vend, les entretient
+                    voitures américaines. Le nom fait référence aux trois grands constructeurs automobiles américains : General Motors (GM), Ford et Chrysler. Camping-cars, pick-ups et classiques : David les vend, les entretient
                     et les restaure. Il a travaillé de longues années aux États-Unis, et ce savoir-faire se
                     retrouve dans tout ce qui passe par son atelier.
                 </p>
@@ -287,7 +287,7 @@ const content = {
 
                 <h2>Un taller con carácter</h2>
                 <p>
-                    The Big Three, De Grote Drie en neerlandés, es un taller en Nunspeet de coches americanos.
+                    The Big Three, De Grote Drie en neerlandés, es un taller en Nunspeet de coches americanos. El nombre hace referencia a las tres grandes fabricantes de coches americanos: General Motors (GM), Ford y Chrysler.
                     Autocaravanas, pick-ups y clásicos: David los vende, los mantiene y los restaura. Trabajó
                     durante años en Estados Unidos, y ese oficio se nota en todo lo que pasa por su taller.
                 </p>
@@ -353,7 +353,7 @@ const content = {
 
                 <h2>Un'officina con carattere</h2>
                 <p>
-                    The Big Three, in olandese De Grote Drie, è un'officina a Nunspeet per auto americane.
+                    The Big Three, in olandese De Grote Drie, è un'officina a Nunspeet per auto americane. Il nome si riferisce ai tre grandi case automobilistiche americane: General Motors (GM), Ford e Chrysler.
                     Camper, pick-up e classiche: David le vende, le mantiene e le riporta all'antico splendore.
                     Ha lavorato per anni negli Stati Uniti, e quella maestria si vede in tutto ciò che passa
                     dalla sua officina.
@@ -421,7 +421,7 @@ const content = {
                 <h2>Майстерня з характером</h2>
                 <p>
                     The Big Three, нідерландською De Grote Drie, це майстерня в Нунспіті для американських
-                    авто. Кемпери, пікапи й класика: Девід їх продає, обслуговує й повертає до колишньої
+                    авто. Назва відсилає до трьох великих американських автовиробників: General Motors (GM), Ford і Chrysler. Кемпери, пікапи й класика: Девід їх продає, обслуговує й повертає до колишньої
                     слави. Він роками працював у США, і цю майстерність видно в усьому, що є в його майстерні.
                 </p>
                 <p>

@@ -25,9 +25,12 @@ const content = {
                     en figuurlijk openstaat.
                 </p>
 
-                <h2>Doorvragen tot het verhaal klopt</h2>
+                <h2>Wat we wilden voelen</h2>
                 <p>
-                    Maxim Staal dacht dat hij een paar pagina's nodig had. Ik vroeg door: over de geschiedenis
+                    Voor mij was dit geen gewone opdracht. Maxim is mijn partner, en Villa Vredestein is een plek die me na aan het hart ligt. We wilden allebei hetzelfde: een site die voelt zoals het huis zelf. Warm, eerlijk en zonder poespas. Geen visitekaartje dat indruk moet maken, maar een plek waar je graag even blijft.
+                </p>
+                <p>
+                    Toch dacht Maxim dat een paar pagina's genoeg waren. Ik vroeg door: over de geschiedenis
                     van het huis, de mensen die er wonen en wat bezoekers moeten voelen als ze de site openen.
                     Maxim zei het later zelf in zijn review:
                 </p>
@@ -90,9 +93,12 @@ const content = {
                     figuratively.
                 </p>
 
-                <h2>Asking until the story is right</h2>
+                <h2>What we wanted it to feel like</h2>
                 <p>
-                    Maxim Staal thought he needed a few pages. I kept asking: about the history of the house,
+                    For me this wasn't an ordinary project. Maxim is my partner, and Villa Vredestein is a place close to my heart. We both wanted the same thing: a site that feels like the house itself. Warm, honest and without fuss. Not a business card meant to impress, but a place where you like to stay a while.
+                </p>
+                <p>
+                    Still, Maxim thought a few pages would do. I kept asking: about the history of the house,
                     the people who live there and what visitors should feel when they open the site. Maxim
                     later put it himself in his review:
                 </p>
@@ -153,9 +159,12 @@ const content = {
                     Sinn offen steht.
                 </p>
 
-                <h2>Nachfragen, bis die Geschichte stimmt</h2>
+                <h2>Wie es sich anfühlen sollte</h2>
                 <p>
-                    Maxim Staal dachte, er brauche ein paar Seiten. Ich fragte nach: nach der Geschichte des
+                    Für mich war das kein gewöhnlicher Auftrag. Maxim ist mein Partner, und die Villa Vredestein liegt mir sehr am Herzen. Wir wollten beide dasselbe: eine Website, die sich anfühlt wie das Haus selbst. Warm, ehrlich und ohne Schnörkel. Keine Visitenkarte, die beeindrucken soll, sondern ein Ort, an dem man gern ein wenig bleibt.
+                </p>
+                <p>
+                    Trotzdem dachte Maxim, ein paar Seiten würden reichen. Ich fragte nach: nach der Geschichte des
                     Hauses, den Menschen, die dort wohnen, und dem, was Besucher beim Öffnen der Website fühlen
                     sollen. Maxim sagte es später selbst in seiner Bewertung:
                 </p>
@@ -217,9 +226,12 @@ const content = {
                     Un lieu pour vivre, séjourner et se rencontrer, avec une porte ouverte au sens propre comme au figuré.
                 </p>
 
-                <h2>Poser des questions jusqu'à ce que l'histoire soit juste</h2>
+                <h2>Ce que nous voulions ressentir</h2>
                 <p>
-                    Maxim Staal pensait avoir besoin de quelques pages. J'ai posé des questions : sur
+                    Pour moi, ce n'était pas une mission ordinaire. Maxim est mon compagnon, et la Villa Vredestein est un lieu qui me tient à cœur. Nous voulions tous les deux la même chose : un site qui ressemble à la maison elle-même. Chaleureux, sincère et sans chichis. Pas une carte de visite pour impressionner, mais un endroit où l'on aime s'attarder.
+                </p>
+                <p>
+                    Pourtant, Maxim pensait que quelques pages suffiraient. J'ai posé des questions : sur
                     l'histoire de la maison, les gens qui y vivent et ce que les visiteurs doivent ressentir en
                     ouvrant le site. Maxim l'a dit lui-même plus tard dans son avis :
                 </p>
@@ -280,9 +292,12 @@ const content = {
                     para vivir, alojarse y encontrarse, con una puerta abierta en sentido literal y figurado.
                 </p>
 
-                <h2>Preguntar hasta que la historia encaje</h2>
+                <h2>Lo que queríamos sentir</h2>
                 <p>
-                    Maxim Staal pensaba que necesitaba unas pocas páginas. Yo seguí preguntando: por la historia
+                    Para mí no era un encargo cualquiera. Maxim es mi pareja, y Villa Vredestein es un lugar que llevo en el corazón. Los dos queríamos lo mismo: una web que se sintiera como la propia casa. Cálida, sincera y sin florituras. No una tarjeta de visita para impresionar, sino un lugar donde apetece quedarse un rato.
+                </p>
+                <p>
+                    Aun así, Maxim pensaba que bastaba con unas pocas páginas. Yo seguí preguntando: por la historia
                     de la casa, las personas que viven allí y lo que los visitantes deben sentir al abrir la web.
                     Maxim lo dijo él mismo más tarde en su reseña:
                 </p>
@@ -343,9 +358,12 @@ const content = {
                     vivere, soggiornare e incontrarsi, con una porta aperta in senso letterale e figurato.
                 </p>
 
-                <h2>Fare domande finché la storia è giusta</h2>
+                <h2>Cosa volevamo trasmettere</h2>
                 <p>
-                    Maxim Staal pensava di aver bisogno di qualche pagina. Io ho continuato a chiedere: della
+                    Per me non era un incarico qualunque. Maxim è il mio compagno, e Villa Vredestein è un luogo a cui tengo molto. Volevamo entrambi la stessa cosa: un sito che trasmettesse la sensazione della casa stessa. Caldo, sincero e senza fronzoli. Non un biglietto da visita per fare colpo, ma un posto dove si resta volentieri.
+                </p>
+                <p>
+                    Eppure Maxim pensava che bastassero poche pagine. Io ho continuato a chiedere: della
                     storia della casa, delle persone che ci vivono e di cosa devono provare i visitatori aprendo
                     il sito. Maxim l'ha detto lui stesso più tardi nella sua recensione:
                 </p>
@@ -406,9 +424,12 @@ const content = {
                     Це місце, щоб жити, гостювати й зустрічатися, з дверима, відчиненими в прямому й переносному сенсі.
                 </p>
 
-                <h2>Розпитувати, доки історія не стане правдивою</h2>
+                <h2>Що ми хотіли відчути</h2>
                 <p>
-                    Максим Стал думав, що йому потрібно кілька сторінок. Я розпитувала: про історію будинку,
+                    Для мене це було не звичайне замовлення. Максим мій партнер, а Villa Vredestein місце, яке мені дуже дороге. Ми обоє хотіли одного: сайту, який відчувається як сам дім. Теплого, щирого й без зайвого. Не візитівки, що має вражати, а місця, де хочеться трохи затриматися.
+                </p>
+                <p>
+                    Проте Максим думав, що кількох сторінок вистачить. Я розпитувала: про історію будинку,
                     людей, які там живуть, і що мають відчувати відвідувачі, відкриваючи сайт. Згодом Максим
                     сам написав у відгуку:
                 </p>
