@@ -33,7 +33,7 @@
 - [Villa Vredestein](https://manonit.com/frontendvredestein): website voor een historische villa in Driebergen, React
 - [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurdashboard voor hospita's, Spring Boot
 - [Acupuncture by Saskia](https://manonit.com/webdesignacupuncture): WordPress-website voor een acupunctuurpraktijk
-- [De Grote Drie](https://manonit.com/thebigthree): website voor een garage in Amerikaanse auto's in Nunspeet
+- [The Big Three](https://manonit.com/thebigthree): website voor een garage in Amerikaanse auto's in Nunspeet (live op thebigthree.nl)
 - [Marie H. Boddaert](https://manonit.com/marieboddaert): schrijverswebsite met CMS
 
 ## Contact

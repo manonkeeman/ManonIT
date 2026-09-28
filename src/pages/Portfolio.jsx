@@ -31,7 +31,7 @@ const projects = [
     },
     {
         key: "bigthree",
-        title: "Webdesign · De Grote Drie",
+        title: "Webdesign · The Big Three",
         tags: ["HTML/CSS", "Webdesign", "Dark theme", "Responsive"],
         route: "/thebigthree",
         base: "/Portfolio/de-grote-drie-mockup",

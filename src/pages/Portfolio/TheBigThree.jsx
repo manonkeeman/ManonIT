@@ -6,13 +6,15 @@ import { MockupPicture } from "../../assets/Helpers/imageHelpers.jsx";
 
 const MOCKUP  = "/Portfolio/de-grote-drie-mockup";
 const LOGO    = "/Portfolio/bigthree-logo.png";
+const LIVE_URL = "https://thebigthree.nl";
 
 const SCHEMA = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "De Grote Drie",
+    "name": "The Big Three",
     "alternateName": "The Big Three",
-    "description": "Website voor De Grote Drie (The Big Three), een garage voor Amerikaanse auto's in Nunspeet.",
+    "url": "https://thebigthree.nl",
+    "description": "Website voor The Big Three (De Grote Drie), een garage voor Amerikaanse auto's in Nunspeet.",
     "creator": {
         "@type": "Person",
         "@id": "https://manonit.com/#manon",
@@ -23,41 +25,44 @@ const SCHEMA = {
 
 const content = {
     nl: {
-        title: "Webdesign · De Grote Drie",
+        liveBtn: "Bekijk de website",
+        title: "Webdesign · The Big Three",
         subtitle: "Garagewebsite · live",
         tagline: "Gebouwd in Amerika.\nGereviseerd in Nunspeet.",
         badge: "Live",
-        intro: "De Grote Drie (The Big Three) is een garage in Nunspeet voor Amerikaanse auto's. Verkoop, onderhoud en restauratie van campers, pick-ups en klassiekers, door een eigenaar die jarenlang in de VS werkte. Voor hem ontwierp en bouwde ik een website met net zoveel karakter als zijn auto's.",
+        intro: "The Big Three (De Grote Drie) is een garage in Nunspeet voor Amerikaanse auto's. Verkoop, onderhoud en restauratie van campers, pick-ups en klassiekers, door een eigenaar die jarenlang in de VS werkte. Voor hem ontwierp en bouwde ik een website met net zoveel karakter als zijn auto's.",
         cards: [
             { label: "Wat", text: "Een complete website voor een garage in Amerikaanse auto's: voertuigen, werkplaats, het verhaal van de eigenaar en contact." },
             { label: "Hoe", text: "Dark theme met Amerikaans karakter: stevige typografie, rood-wit-blauw als accent en grote beelden. Werkt net zo goed op mobiel." },
             { label: "Status", text: "Live. Bezoekers bellen David direct vanaf de homepage of bekijken de voorraad voertuigen." },
         ],
         challengeTitle: "De uitdaging",
-        challenge: "Een garage in Amerikaanse auto's vraagt om een website die voelt als een filmposter, niet als een productpagina. De stijl moest meteen duidelijk maken wat De Grote Drie is, nog voordat je één woord leest.",
+        challenge: "Een garage in Amerikaanse auto's vraagt om een website die voelt als een filmposter, niet als een productpagina. De stijl moest meteen duidelijk maken wat The Big Three is, nog voordat je één woord leest.",
         backBtn: "← Terug naar Portfolio",
     },
     en: {
-        title: "Web design · De Grote Drie",
+        liveBtn: "View the website",
+        title: "Web design · The Big Three",
         subtitle: "Garage website · live",
         tagline: "Built in America.\nServiced in Nunspeet.",
         badge: "Live",
-        intro: "De Grote Drie (The Big Three) is a garage in Nunspeet for American cars. Sales, maintenance and restoration of campers, pick-ups and classics, by an owner who worked in the US for many years. I designed and built a website with as much character as his cars.",
+        intro: "The Big Three (De Grote Drie) is a garage in Nunspeet for American cars. Sales, maintenance and restoration of campers, pick-ups and classics, by an owner who worked in the US for many years. I designed and built a website with as much character as his cars.",
         cards: [
             { label: "What", text: "A complete website for an American car garage: vehicles, workshop, the owner's story and contact." },
             { label: "How", text: "Dark theme with American character: bold typography, red, white and blue accents and big imagery. Works just as well on mobile." },
             { label: "Status", text: "Live. Visitors call David straight from the homepage or browse the vehicles in stock." },
         ],
         challengeTitle: "The challenge",
-        challenge: "A garage specialising in American cars needs a website that feels like a movie poster, not a product page. The style had to make it clear what De Grote Drie is before you read a single word.",
+        challenge: "A garage specialising in American cars needs a website that feels like a movie poster, not a product page. The style had to make it clear what The Big Three is before you read a single word.",
         backBtn: "← Back to Portfolio",
     },
     fr: {
-        title: "Webdesign · De Grote Drie",
+        liveBtn: "Voir le site",
+        title: "Webdesign · The Big Three",
         subtitle: "Site de garage · en ligne",
         tagline: "Construit en Amérique.\nRévisé à Nunspeet.",
         badge: "En ligne",
-        intro: "De Grote Drie (The Big Three) est un garage à Nunspeet spécialisé dans les voitures américaines : vente, entretien et restauration de camping-cars, pick-ups et classiques. J'ai conçu et développé un site avec autant de caractère que ses voitures.",
+        intro: "The Big Three (De Grote Drie) est un garage à Nunspeet spécialisé dans les voitures américaines : vente, entretien et restauration de camping-cars, pick-ups et classiques. J'ai conçu et développé un site avec autant de caractère que ses voitures.",
         cards: [
             { label: "Quoi", text: "Un site complet pour un garage de voitures américaines : véhicules, atelier, histoire du propriétaire et contact." },
             { label: "Comment", text: "Thème sombre au caractère américain : typographie forte, accents rouge, blanc et bleu, grandes images." },
@@ -68,11 +73,12 @@ const content = {
         backBtn: "← Retour au Portfolio",
     },
     de: {
-        title: "Webdesign · De Grote Drie",
+        liveBtn: "Website ansehen",
+        title: "Webdesign · The Big Three",
         subtitle: "Werkstatt-Website · live",
         tagline: "In Amerika gebaut.\nIn Nunspeet gewartet.",
         badge: "Live",
-        intro: "De Grote Drie (The Big Three) ist eine Werkstatt in Nunspeet für amerikanische Autos: Verkauf, Wartung und Restaurierung von Campern, Pick-ups und Klassikern. Ich habe eine Website entworfen und gebaut, die so viel Charakter hat wie seine Autos.",
+        intro: "The Big Three (De Grote Drie) ist eine Werkstatt in Nunspeet für amerikanische Autos: Verkauf, Wartung und Restaurierung von Campern, Pick-ups und Klassikern. Ich habe eine Website entworfen und gebaut, die so viel Charakter hat wie seine Autos.",
         cards: [
             { label: "Was", text: "Eine komplette Website für eine Werkstatt für amerikanische Autos: Fahrzeuge, Werkstatt, Geschichte des Inhabers und Kontakt." },
             { label: "Wie", text: "Dunkles Design mit amerikanischem Charakter: kräftige Typografie, Rot, Weiß und Blau als Akzente, große Bilder." },
@@ -83,11 +89,12 @@ const content = {
         backBtn: "← Zurück zum Portfolio",
     },
     es: {
-        title: "Diseño web · De Grote Drie",
+        liveBtn: "Ver la web",
+        title: "Diseño web · The Big Three",
         subtitle: "Web de taller · online",
         tagline: "Fabricado en América.\nRevisado en Nunspeet.",
         badge: "Online",
-        intro: "De Grote Drie (The Big Three) es un taller en Nunspeet de coches americanos: venta, mantenimiento y restauración de autocaravanas, pick-ups y clásicos. Diseñé y construí una web con tanto carácter como sus coches.",
+        intro: "The Big Three (De Grote Drie) es un taller en Nunspeet de coches americanos: venta, mantenimiento y restauración de autocaravanas, pick-ups y clásicos. Diseñé y construí una web con tanto carácter como sus coches.",
         cards: [
             { label: "Qué", text: "Una web completa para un taller de coches americanos: vehículos, taller, la historia del dueño y contacto." },
             { label: "Cómo", text: "Tema oscuro con carácter americano: tipografía potente, acentos rojo, blanco y azul, imágenes grandes." },
@@ -98,11 +105,12 @@ const content = {
         backBtn: "← Volver al Portfolio",
     },
     it: {
-        title: "Web design · De Grote Drie",
+        liveBtn: "Vedi il sito",
+        title: "Web design · The Big Three",
         subtitle: "Sito officina · online",
         tagline: "Costruito in America.\nRevisionato a Nunspeet.",
         badge: "Online",
-        intro: "De Grote Drie (The Big Three) è un'officina a Nunspeet per auto americane: vendita, manutenzione e restauro di camper, pick-up e classiche. Ho progettato e realizzato un sito con lo stesso carattere delle sue auto.",
+        intro: "The Big Three (De Grote Drie) è un'officina a Nunspeet per auto americane: vendita, manutenzione e restauro di camper, pick-up e classiche. Ho progettato e realizzato un sito con lo stesso carattere delle sue auto.",
         cards: [
             { label: "Cosa", text: "Un sito completo per un'officina di auto americane: veicoli, officina, la storia del titolare e contatti." },
             { label: "Come", text: "Tema scuro dal carattere americano: tipografia decisa, accenti rosso, bianco e blu, grandi immagini." },
@@ -113,11 +121,12 @@ const content = {
         backBtn: "← Torna al Portfolio",
     },
     uk: {
-        title: "Вебдизайн · De Grote Drie",
+        liveBtn: "Переглянути сайт",
+        title: "Вебдизайн · The Big Three",
         subtitle: "Сайт автомайстерні · онлайн",
         tagline: "Зроблено в Америці.\nОбслуговується в Нунспіт.",
         badge: "Онлайн",
-        intro: "De Grote Drie (The Big Three) це автомайстерня в Нунспіті для американських авто: продаж, обслуговування та реставрація кемперів, пікапів і класики. Я розробила сайт із таким самим характером, як і його авто.",
+        intro: "The Big Three (De Grote Drie) це автомайстерня в Нунспіті для американських авто: продаж, обслуговування та реставрація кемперів, пікапів і класики. Я розробила сайт із таким самим характером, як і його авто.",
         cards: [
             { label: "Що", text: "Повний сайт для майстерні американських авто: транспорт, майстерня, історія власника й контакти." },
             { label: "Як", text: "Темна тема з американським характером: виразна типографіка, червоний, білий і синій як акценти, великі фото." },
@@ -137,8 +146,8 @@ export default function TheBigThree() {
     return (
         <article className="bt-page section">
             <Seo
-                title="De Grote Drie · Website voor een garage in Nunspeet | ManonIT"
-                description="Website voor De Grote Drie (The Big Three), garage voor Amerikaanse auto's in Nunspeet. Ontworpen en gebouwd door ManonIT."
+                title="The Big Three · Website voor een garage in Nunspeet | ManonIT"
+                description="Website voor The Big Three (De Grote Drie), garage voor Amerikaanse auto's in Nunspeet. Ontworpen en gebouwd door ManonIT."
                 path="/thebigthree"
             />
             <JsonLd data={SCHEMA} />
@@ -148,7 +157,7 @@ export default function TheBigThree() {
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
                 <Link to="/#portfolio">Portfolio</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
-                <span aria-current="page">De Grote Drie</span>
+                <span aria-current="page">The Big Three</span>
             </nav>
 
             {/* ── HERO ── */}
@@ -166,12 +175,13 @@ export default function TheBigThree() {
                         <span className="tag">Dark theme</span>
                         <span className="tag">Responsive</span>
                     </div>
+                    <a className="btn btn-primary bt-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
                     <div className="bt-logo-row">
                         <img src={LOGO} alt="The Big Three logo" className="bt-logo" />
                     </div>
                 </div>
                 <div className="bt-hero-image">
-                    <MockupPicture base={MOCKUP} alt="Website De Grote Drie op desktop en mobiel" className="bt-cover" eager />
+                    <MockupPicture base={MOCKUP} alt="Website The Big Three op desktop en mobiel" className="bt-cover" eager />
                 </div>
             </header>
 
@@ -199,6 +209,7 @@ export default function TheBigThree() {
             {/* ── FOOTER ── */}
             <footer className="bt-footer">
                 <Link className="btn btn-outline" to="/#portfolio">{c.backBtn}</Link>
+                <a className="btn btn-primary" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
             </footer>
 
             <style>{`
@@ -236,7 +247,7 @@ export default function TheBigThree() {
           line-height: 1.5; margin: 0 0 20px; font-style: italic;
         }
         .bt-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
-        .bt-logo-row { margin-top: 8px; }
+        .bt-logo-row { margin-top: 20px; }
         .bt-logo {
           height: 64px; width: auto; border-radius: 8px;
           object-fit: contain;

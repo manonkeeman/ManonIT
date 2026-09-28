@@ -91,7 +91,7 @@ netlify/edge-functions/
 | `/frontendvredestein`          | Project: Villa Vredestein                                       |
 | `/webdesignacupuncture`        | Project: Acupuncture by Saskia                                  |
 | `/backendstudentendashboard`   | Project: CasaCrew, verhuurdashboard voor hospita's              |
-| `/thebigthree`                 | Project: De Grote Drie                                          |
+| `/thebigthree`                 | Project: The Big Three                                          |
 | `/marieboddaert`               | Project: Marie H. Boddaert                                      |
 | `/privacy`, `/colofon`         | Juridisch (alleen NL)                                           |
 
