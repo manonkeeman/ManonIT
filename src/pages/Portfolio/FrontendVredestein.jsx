@@ -12,7 +12,7 @@ const SCHEMA = {
     "@type": "WebSite",
     "name": "Villa Vredestein",
     "url": LIVE_URL,
-    "description": "Publieke website voor Villa Vredestein, gebouwd met React en Vite.",
+    "description": "Webdesign voor Villa Vredestein, een historische villa in Driebergen-Rijsenburg, in zes talen.",
     "creator": {
         "@type": "Person",
         "@id": "https://manonit.com/#manon",
@@ -23,13 +23,13 @@ const SCHEMA = {
 
 const content = {
     nl: {
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Webdesign · Villa Vredestein",
         subtitle: "Publieke website",
         tagline: "Een plek met een verhaal.\nEen site die het vertelt.",
         intro: "Villa Vredestein vroeg om een website die uitnodigt, informeert en vertrouwen geeft. Geen overdaad,gewoon het verhaal van de plek, helder en mooi gepresenteerd.",
         cards: [
             { label: "Wat", text: "Publieke website over de geschiedenis, het doel en de toekomst van Villa Vredestein." },
-            { label: "Hoe", text: "React + Vite. Responsief, snel en toegankelijk op elk scherm en apparaat." },
+            { label: "Hoe", text: "Eigen webdesign in zes talen. Responsief, snel en toegankelijk op elk scherm en apparaat." },
             { label: "Resultaat", text: "Een digitaal visitekaartje dat laat zien wie Villa Vredestein is en waarvoor ze staan." },
         ],
         challengeTitle: "Waar ik trots op ben",
@@ -39,13 +39,13 @@ const content = {
         backBtn: "← Terug naar Portfolio",
     },
     en: {
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Web design · Villa Vredestein",
         subtitle: "Public website",
         tagline: "A place with a story.\nA site that tells it.",
         intro: "Villa Vredestein needed a website that invites, informs and builds trust. No excess,just the story of the place, presented clearly and beautifully.",
         cards: [
             { label: "What", text: "Public website about the history, purpose and future of Villa Vredestein." },
-            { label: "How", text: "React + Vite. Responsive, fast and accessible on every screen and device." },
+            { label: "How", text: "Custom web design in six languages. Responsive, fast and accessible on every screen and device." },
             { label: "Result", text: "A digital calling card that shows who Villa Vredestein is and what they stand for." },
         ],
         challengeTitle: "What I'm proud of",
@@ -55,13 +55,13 @@ const content = {
         backBtn: "← Back to Portfolio",
     },
     fr: {
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Webdesign · Villa Vredestein",
         subtitle: "Site web public",
         tagline: "Un endroit avec une histoire.\nUn site qui la raconte.",
         intro: "Villa Vredestein avait besoin d'un site web qui invite, informe et inspire confiance. Pas d'excès,juste l'histoire du lieu, présentée clairement et joliment.",
         cards: [
             { label: "Quoi", text: "Site web public sur l'histoire, l'objectif et l'avenir de Villa Vredestein." },
-            { label: "Comment", text: "React + Vite. Responsive, rapide et accessible sur chaque écran et appareil." },
+            { label: "Comment", text: "Webdesign sur mesure en six langues. Responsive, rapide et accessible sur chaque écran et appareil." },
             { label: "Résultat", text: "Une carte de visite digitale qui montre qui est Villa Vredestein et ce pour quoi ils se battent." },
         ],
         challengeTitle: "Ce dont je suis fière",
@@ -71,13 +71,13 @@ const content = {
         backBtn: "← Retour au Portfolio",
     },
     de: {
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Webdesign · Villa Vredestein",
         subtitle: "Öffentliche Website",
         tagline: "Ein Ort mit einer Geschichte.\nEine Website, die sie erzählt.",
         intro: "Villa Vredestein brauchte eine Website, die einlädt, informiert und Vertrauen aufbaut. Kein Überfluss,nur die Geschichte des Ortes, klar und schön präsentiert.",
         cards: [
             { label: "Was", text: "Öffentliche Website über die Geschichte, das Ziel und die Zukunft von Villa Vredestein." },
-            { label: "Wie", text: "React + Vite. Responsiv, schnell und zugänglich auf jedem Bildschirm und Gerät." },
+            { label: "Wie", text: "Eigenes Webdesign in sechs Sprachen. Responsiv, schnell und zugänglich auf jedem Bildschirm und Gerät." },
             { label: "Ergebnis", text: "Eine digitale Visitenkarte, die zeigt, wer Villa Vredestein ist und wofür sie stehen." },
         ],
         challengeTitle: "Worauf ich stolz bin",
@@ -87,13 +87,13 @@ const content = {
         backBtn: "← Zurück zum Portfolio",
     },
     es: {
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Diseño web · Villa Vredestein",
         subtitle: "Sitio web público",
         tagline: "Un lugar con una historia.\nUn sitio que la cuenta.",
         intro: "Villa Vredestein necesitaba un sitio web que invite, informe y genere confianza. Sin excesos,solo la historia del lugar, presentada con claridad y belleza.",
         cards: [
             { label: "Qué", text: "Sitio web público sobre la historia, el propósito y el futuro de Villa Vredestein." },
-            { label: "Cómo", text: "React + Vite. Responsivo, rápido y accesible en cualquier pantalla y dispositivo." },
+            { label: "Cómo", text: "Diseño web propio en seis idiomas. Responsivo, rápido y accesible en cualquier pantalla y dispositivo." },
             { label: "Resultado", text: "Una tarjeta de visita digital que muestra quién es Villa Vredestein y por qué luchan." },
         ],
         challengeTitle: "De lo que estoy orgullosa",
@@ -103,13 +103,13 @@ const content = {
         backBtn: "← Volver al Portfolio",
     },
     it: {
-        title: "Webdevelopment - Villa Vredestein",
+        title: "Web design · Villa Vredestein",
         subtitle: "Sito web pubblico",
         tagline: "Un posto con una storia.\nUn sito che la racconta.",
         intro: "Villa Vredestein aveva bisogno di un sito web che invita, informa e crea fiducia. Nessun eccesso,solo la storia del posto, presentata in modo chiaro e bello.",
         cards: [
             { label: "Cosa", text: "Sito web pubblico sulla storia, lo scopo e il futuro di Villa Vredestein." },
-            { label: "Come", text: "React + Vite. Responsive, veloce e accessibile su ogni schermo e dispositivo." },
+            { label: "Come", text: "Web design su misura in sei lingue. Responsive, veloce e accessibile su ogni schermo e dispositivo." },
             { label: "Risultato", text: "Un biglietto da visita digitale che mostra chi è Villa Vredestein e per cosa si battono." },
         ],
         challengeTitle: "Di cosa sono orgogliosa",
@@ -119,13 +119,13 @@ const content = {
         backBtn: "← Torna al Portfolio",
     },
     uk: {
-        title: "Веброзробка - Villa Vredestein",
+        title: "Вебдизайн · Villa Vredestein",
         subtitle: "Публічний сайт",
         tagline: "Місце з історією.\nСайт, який її розповідає.",
         intro: "Villa Vredestein потребувала сайту, який запрошує, інформує та викликає довіру. Нічого зайвого — лише історія місця, чітко і гарно представлена.",
         cards: [
             { label: "Що", text: "Публічний сайт про історію, мету та майбутнє Villa Vredestein." },
-            { label: "Як", text: "React + Vite. Адаптивний, швидкий і доступний на будь-якому екрані та пристрої." },
+            { label: "Як", text: "Власний вебдизайн шістьма мовами. Адаптивний, швидкий і доступний на будь-якому екрані та пристрої." },
             { label: "Результат", text: "Цифрова візитна картка, яка показує, хто така Villa Vredestein і за що вони стоять." },
         ],
         challengeTitle: "Чим я пишаюся",
@@ -166,11 +166,7 @@ export default function FrontendVredestein() {
                     <h1 className="vr-title">{c.title}</h1>
                     <p className="vr-tagline">{c.tagline}</p>
                     <div className="vr-tags">
-                        <span className="tag">React</span>
-                        <span className="tag">Vite</span>
-                        <span className="tag">UX/UI</span>
-                        <span className="tag">SEO</span>
-                        <span className="tag">Responsive</span>
+                        {["webdesign", "uxui", "lang6", "seogeo"].map((k) => <span key={k} className="tag">{tr(`portfolio.tags.${k}`)}</span>)}
                     </div>
                     <a className="btn btn-primary vr-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
@@ -216,7 +212,7 @@ export default function FrontendVredestein() {
           font-weight: 700;
           letter-spacing: .12em;
           text-transform: uppercase;
-          color: var(--accent);
+          color: var(--accent-ink);
           margin: 0 0 10px;
         }
         .vr-title {
@@ -270,7 +266,7 @@ export default function FrontendVredestein() {
           font-weight: 700;
           letter-spacing: .1em;
           text-transform: uppercase;
-          color: var(--accent);
+          color: var(--accent-ink);
           margin-bottom: 10px;
         }
         .vr-card-text {
@@ -289,7 +285,7 @@ export default function FrontendVredestein() {
           font-weight: 700;
           letter-spacing: .08em;
           text-transform: uppercase;
-          color: var(--accent);
+          color: var(--accent-ink);
           margin: 0 0 16px;
         }
         .vr-challenge blockquote {

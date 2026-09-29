@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="footer-inner">
                 {/* Col 1 — Brand */}
                 <div className="footer-col footer-brand">
-                    <img src="/logo-compact-cream.svg" alt="ManonIT" height="44" style={{ borderRadius: 0 }} />
+                    <img src="/logo-compact-cream.svg" alt="ManonIT" width="176" height="44" style={{ borderRadius: 0 }} />
                     <p className="footer-tagline">{t('footer.tagline')}</p>
                     <div className="footer-socials">
                         <a href="https://github.com/manonkeeman" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
@@ -98,7 +98,7 @@ export default function Footer() {
             <style>{`
         .footer {
           --f-text: var(--muted);
-          --f-dim:  #86868B;
+          --f-dim:  var(--muted);
           --f-line: rgba(0,0,0,.1);
           background: var(--bg-alt);
           color: var(--text);

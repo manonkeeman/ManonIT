@@ -96,7 +96,7 @@ export default function ArticleFooter({ shareTitle, shareText }) {
           padding: 11px 26px;
           border-radius: 999px;
           border: 1px solid var(--accent);
-          color: var(--accent);
+          color: var(--accent-ink);
           background: transparent;
           font-size: .95rem;
           font-weight: 600;
@@ -149,8 +149,8 @@ export default function ArticleFooter({ shareTitle, shareText }) {
         .af-btn--x:hover         { color: var(--text); border-color: var(--text); }
         .af-btn--facebook:hover  { color: #1877f2; border-color: #1877f2; }
         .af-btn--instagram:hover { color: #e1306c; border-color: #e1306c; }
-        .af-btn--copy:hover      { color: var(--accent); border-color: var(--accent); }
-        .af-btn--copied          { color: var(--accent); border-color: var(--accent); }
+        .af-btn--copy:hover      { color: var(--accent-ink); border-color: var(--accent); }
+        .af-btn--copied          { color: var(--accent-ink); border-color: var(--accent); }
 
         @media (max-width: 480px) {
           .af-btns { gap: 6px; }

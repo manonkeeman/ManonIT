@@ -175,11 +175,7 @@ export default function MarieboddaertWriterSite() {
                     <h1 className="mb-title">{c.title}</h1>
                     <p className="mb-tagline">{c.tagline}</p>
                     <div className="mb-tags">
-                        <span className="tag">HTML/CSS</span>
-                        <span className="tag">Webdesign</span>
-                        <span className="tag">Typografie</span>
-                        <span className="tag">Netlify</span>
-                        <span className="tag">Substack</span>
+                        {["webdesign", "uxui", "cms", "seogeo"].map((k) => <span key={k} className="tag">{tr(`portfolio.tags.${k}`)}</span>)}
                     </div>
                     <a className="btn btn-primary mb-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
@@ -279,7 +275,7 @@ export default function MarieboddaertWriterSite() {
         .mb-card-label {
           display: block; font-size: .75rem; font-weight: 700;
           letter-spacing: .1em; text-transform: uppercase;
-          color: var(--accent); margin-bottom: 10px;
+          color: var(--accent-ink); margin-bottom: 10px;
         }
         .mb-card-text {
           font-size: .95rem; line-height: 1.6;
@@ -289,7 +285,7 @@ export default function MarieboddaertWriterSite() {
         .mb-approach { margin-bottom: 56px; }
         .mb-approach h2 {
           font-size: .85rem; font-weight: 700; letter-spacing: .1em;
-          text-transform: uppercase; color: var(--accent);
+          text-transform: uppercase; color: var(--accent-ink);
           margin: 0 0 16px;
         }
         .mb-approach blockquote {

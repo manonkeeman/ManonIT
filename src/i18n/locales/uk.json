@@ -8,7 +8,7 @@
     "links": {
       "portfolio": {
         "backend": "CasaCrew · Застосунок оренди",
-        "frontend": "Веброзробка - Villa Vredestein",
+        "frontend": "Вебдизайн · Villa Vredestein",
         "acupuncture": "Вебдизайн - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
         "marieboddaert": "Вебдизайн - Marie H. Boddaert"
@@ -89,8 +89,6 @@
   "contact": {
     "label": "Контакт",
     "intro": "Радий(а) бачити тебе тут! Хочеш поспілкуватися або разом щось створити?",
-    "locations": "Локації",
-    "directions": "Прокласти маршрут",
     "form": {
       "name": "Ім'я",
       "email": "Електронна пошта",
@@ -112,7 +110,9 @@
     ],
     "whatsapp": "Написати у WhatsApp",
     "formTitle": "Надіслати повідомлення",
-    "formSub": "Коротко розкажіть, що вам потрібно. Відповім протягом одного робочого дня."
+    "formSub": "Коротко розкажіть, що вам потрібно. Відповім протягом одного робочого дня.",
+    "onLocation": "Я приїжджаю до вас на місце",
+    "follow": "Стежте за моєю роботою й історіями:"
   },
   "newsletter": {
     "label": "Нові статті у твій inbox",
@@ -204,7 +204,7 @@
     },
     "projects": {
       "frontend": {
-        "desc": "Публічний сайт для Villa Vredestein: історія, мета і контакти. Побудований на React і Vite."
+        "desc": "Вебдизайн для Villa Vredestein, історичної вілли в Дрібергені: історія, проживання й контакти, шістьма мовами."
       },
       "acupuncture": {
         "desc": "Сайт на WordPress зі спокійним виглядом і чіткою інформацією для клієнтів."
@@ -218,14 +218,28 @@
       "marieboddaert": {
         "desc": "Письменницький сайт на HTML/CSS з літературною типографікою та індивідуальним вебдизайном. Хоститься на Netlify, SEO-оптимізований та оснащений CMS, щоб Марі могла сама керувати контентом."
       },
-      "casarusso": {
+      "casareille": {
         "desc": "Максимально бюджетний сайт для оренди будинку для відпочинку в Абруццо, Італія. З будинком, околицями, власною оливковою олією та щорічним відпочинком зі збором оливок."
       }
     },
     "label": "Портфоліо",
     "title": "Останні роботи",
     "intro": "Добірка сайтів і застосунків, які я спроєктувала та створила.",
-    "viewSite": "Переглянути сайт"
+    "viewSite": "Переглянути сайт",
+    "tags": {
+      "webdesign": "Вебдизайн",
+      "uxui": "UX/UI",
+      "seogeo": "SEO & GEO",
+      "cms": "Власне керування (CMS)",
+      "lang6": "6 мов",
+      "lang3": "3 мови",
+      "multilingual": "Багатомовний",
+      "booking": "Система бронювання",
+      "webapp": "Вебзастосунок",
+      "login": "Безпечний вхід",
+      "payments": "Платежі",
+      "wordpress": "WordPress"
+    }
   },
   "seo": {
     "home": {
@@ -280,8 +294,8 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Frontend Vredestein | React та UX | Манон Кімен",
-        "description": "React frontend з JWT-автентифікацією, REST API та UX/UI дизайном для Villa Vredestein."
+        "title": "Сайт Villa Vredestein | Вебдизайн 6 мовами | ManonIT",
+        "description": "Вебдизайн для Villa Vredestein, історичної вілли в Дрібергені: історія, проживання й контакти, шістьма мовами."
       },
       "acupuncture": {
         "title": "Вебдизайн акупунктура | Манон Кімен",
@@ -427,13 +441,11 @@
   },
   "cookies": {
     "title": "Cookie",
-    "text": "З вашої згоди я використовую Google Analytics, щоб бачити, як використовується сайт, і завантажую Google Maps для карти. Обидва встановлюють cookie від Google.",
+    "text": "З вашої згоди я використовую Google Analytics, щоб бачити, як використовується сайт. Він встановлює cookie від Google.",
     "more": "Докладніше в політиці конфіденційності",
     "accept": "Прийняти",
     "decline": "Відхилити",
-    "settings": "Налаштування cookie",
-    "loadMap": "Завантажити карту",
-    "mapNote": "Google Maps встановлює cookie від Google."
+    "settings": "Налаштування cookie"
   },
   "care": {
     "label": "Підтримка",

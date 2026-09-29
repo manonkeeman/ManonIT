@@ -7,7 +7,7 @@ const REVIEW_META = [
         id: "saskia",
         name: "Saskia Zwaan",
         rating: 5,
-        photo: "/reviews/saskia-zwaan.png",
+        photo: "/reviews/saskia-zwaan.webp",
         bgPos: "center center",
         bgSize: "cover",
         source: "LinkedIn",
@@ -16,7 +16,7 @@ const REVIEW_META = [
         id: "marie",
         name: "Marie H. Boddaert",
         rating: 5,
-        photo: "/reviews/marie-boddaert.png",
+        photo: "/reviews/marie-boddaert.webp",
         bgPos: "center 10%",
         bgSize: "120%",
     },
@@ -24,7 +24,7 @@ const REVIEW_META = [
         id: "villa",
         name: "Maxim Staal",
         rating: 5,
-        photo: "/reviews/maxim-staal.png",
+        photo: "/reviews/maxim-staal.webp",
         bgPos: "center center",
         bgSize: "110%",
         company: "Villa Vredestein",
@@ -196,7 +196,7 @@ export default function Testimonials() {
         .review-source { font-size: 1.2rem; display: flex; align-items: center; color: #0a66c2; }
         .review-source--google { color: #4285F4; }
         .review-stars  { display: flex; gap: 3px; font-size: 1.1rem; }
-        .star--on  { color: var(--accent); }
+        .star--on  { color: var(--accent-ink); }
         .star--off { color: var(--border); }
 
         .review-quote {

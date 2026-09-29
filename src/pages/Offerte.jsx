@@ -403,7 +403,7 @@ export default function Offerte() {
           font-weight: 700;
           letter-spacing: 0.12em;
           text-transform: uppercase;
-          color: var(--accent);
+          color: var(--accent-ink);
           margin: 0 0 8px;
         }
         .offerte-hero-title {
@@ -541,7 +541,7 @@ export default function Offerte() {
           line-height: 1.45;
         }
         .offerte-check {
-          color: var(--accent);
+          color: var(--accent-ink);
           font-size: 0.7rem;
           font-weight: 700;
           flex-shrink: 0;
@@ -614,7 +614,7 @@ export default function Offerte() {
           align-items: center;
           gap: 8px;
         }
-        .offerte-incl-title--ja::before { content: "✓"; color: var(--accent); font-size: 0.8rem; }
+        .offerte-incl-title--ja::before { content: "✓"; color: var(--accent-ink); font-size: 0.8rem; }
         .offerte-incl-title--nee::before { content: "✕"; color: #d07070; font-size: 0.8rem; }
         .offerte-incl-lijst {
           list-style: none;

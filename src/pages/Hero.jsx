@@ -51,7 +51,7 @@ function Hero() {
 
                     {/* WERK — mockups van recente projecten */}
                     <div className="hero-visual">
-                        <Link to="/frontendvredestein" className="hero-shot" aria-label="Villa Vredestein">
+                        <Link to="/frontendvredestein" className="hero-shot">
                             <picture>
                                 <source
                                     type="image/avif"
@@ -74,8 +74,8 @@ function Hero() {
                             </picture>
                         </Link>
 
-                        <Link to="/backendstudentendashboard" className="hero-window" aria-label="CasaCrew verhuurapp">
-                            <span className="hero-window-bar" aria-hidden="true"><i/><i/><i/><b>casacrew.nl</b></span>
+                        <Link to="/backendstudentendashboard" className="hero-window">
+                            <span className="hero-window-bar"><i aria-hidden="true"/><i aria-hidden="true"/><i aria-hidden="true"/><b>casacrew.nl</b></span>
                             <picture>
                                 <source type="image/avif" srcSet="/hero-work-casacrew-400w.avif 400w, /hero-work-casacrew-700w.avif 700w" sizes="(max-width: 920px) 50vw, 280px" />
                                 <source type="image/webp" srcSet="/hero-work-casacrew-400w.webp 400w, /hero-work-casacrew-700w.webp 700w" sizes="(max-width: 920px) 50vw, 280px" />
@@ -164,7 +164,7 @@ function Hero() {
           display:flex; align-items:center; gap:10px; flex-wrap:wrap;
           margin:22px 0 0; font-size:.9rem; color:var(--muted);
         }
-        .hero-stars{ color:var(--accent); letter-spacing:2px; font-size:1rem; }
+        .hero-stars{ color:var(--accent-ink); letter-spacing:2px; font-size:1rem; }
 
         .hero-visual{ position:relative; width:100%; padding: 0 0 40px 24px; }
         .hero-shot{ display:block; }
@@ -211,7 +211,7 @@ function Hero() {
           width:44px; height:44px; border-radius:12px;
           display:inline-flex; align-items:center; justify-content:center;
           background: var(--bg-alt);
-          color: var(--accent);
+          color: var(--accent-ink);
           font-size: 1.25rem;
         }
 

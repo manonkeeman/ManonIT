@@ -30,7 +30,7 @@ export default function HomeJournal() {
                         const excerpt = t(`journalSection.articles.${item.slug}.excerpt`, { defaultValue: item.excerpt });
                         return (
                             <article key={item.slug} className="hj-card">
-                                <Link to={`/journal/${item.slug}`} className="hj-link" aria-label={title}>
+                                <Link to={`/journal/${item.slug}`} className="hj-link">
                                     <div className="hj-img">
                                         {isMultiSize ? (
                                             <picture>
@@ -81,7 +81,7 @@ export default function HomeJournal() {
         .hj-meta{ font-size:.78rem; color:var(--muted); margin:0 0 8px; }
         .hj-body h3{ font-size:1.1rem; margin:0 0 8px; }
         .hj-excerpt{ font-size:.9rem; color:var(--muted); line-height:1.6; flex:1; }
-        .hj-more{ color:var(--accent); font-weight:600; font-size:.92rem; margin-top:8px; }
+        .hj-more{ color:var(--accent-ink); font-weight:600; font-size:.92rem; margin-top:8px; }
 
         @media (max-width: 920px){ .hj-grid{ grid-template-columns:1fr 1fr; } .hj-card:nth-child(3){ display:none; } }
         @media (max-width: 600px){ .hj-section{ padding:48px 16px; } .hj-grid{ grid-template-columns:1fr; } .hj-card:nth-child(3){ display:block; } }

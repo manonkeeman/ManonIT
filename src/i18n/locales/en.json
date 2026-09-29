@@ -8,7 +8,7 @@
     "links": {
       "portfolio": {
         "backend": "CasaCrew · Rental app",
-        "frontend": "Webdevelopment - Villa Vredestein",
+        "frontend": "Web design · Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Web design · The Big Three",
         "marieboddaert": "Web Design - Marie H. Boddaert"
@@ -89,8 +89,6 @@
   "contact": {
     "label": "Contact",
     "intro": "Great to have you here! Up for a quick chat or want to build something together?",
-    "locations": "Locations",
-    "directions": "Get directions",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -112,7 +110,9 @@
     ],
     "whatsapp": "Send a WhatsApp",
     "formTitle": "Send a message",
-    "formSub": "Briefly tell me what you need. I'll reply within one business day."
+    "formSub": "Briefly tell me what you need. I'll reply within one business day.",
+    "onLocation": "I come to you, on location",
+    "follow": "Follow my work and stories:"
   },
   "newsletter": {
     "label": "New articles in your inbox",
@@ -204,7 +204,7 @@
     },
     "projects": {
       "frontend": {
-        "desc": "Public website for Villa Vredestein: history, purpose and contact. Built with React and Vite."
+        "desc": "Web design for Villa Vredestein, a historic villa in Driebergen: history, stays and contact, in six languages."
       },
       "acupuncture": {
         "desc": "WordPress website with a calm aesthetic and clear information for clients."
@@ -218,14 +218,28 @@
       "bigthree": {
         "desc": "Website for an American car garage in Nunspeet, named after GM, Ford and Chrysler. With a CMS, SEO and three languages, in a bold dark theme."
       },
-      "casarusso": {
-        "desc": "A website on the smallest possible budget for renting out a holiday home in Abruzzo, Italy. With the house, the surroundings, its own olive oil and the yearly olive picking holiday."
+      "casareille": {
+        "desc": "A website on the smallest possible budget for renting out Casa Reille, a holiday home near Atri in Abruzzo, Italy. With the house, the surroundings, its own olive oil and the yearly olive picking holiday."
       }
     },
     "label": "Portfolio",
     "title": "Recent work",
     "intro": "A selection of websites and applications I designed and built.",
-    "viewSite": "View the website"
+    "viewSite": "View the website",
+    "tags": {
+      "webdesign": "Web design",
+      "uxui": "UX/UI",
+      "seogeo": "SEO & GEO",
+      "cms": "Self-managed (CMS)",
+      "lang6": "6 languages",
+      "lang3": "3 languages",
+      "multilingual": "Multilingual",
+      "booking": "Booking system",
+      "webapp": "Web app",
+      "login": "Secure login",
+      "payments": "Payments",
+      "wordpress": "WordPress"
+    }
   },
   "seo": {
     "home": {
@@ -280,8 +294,8 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Villa Vredestein website | React web development | ManonIT",
-        "description": "Public website for Villa Vredestein in Driebergen: history, stays and contact. Designed and built in React by ManonIT."
+        "title": "Villa Vredestein website | Web design in 6 languages | ManonIT",
+        "description": "Web design for Villa Vredestein, a historic villa in Driebergen: history, stays and contact, in six languages."
       },
       "acupuncture": {
         "title": "Acupuncture by Saskia website | WordPress web design | ManonIT",
@@ -427,13 +441,11 @@
   },
   "cookies": {
     "title": "Cookies",
-    "text": "With your permission I use Google Analytics to see how the site is used, and load Google Maps for the map. Both set cookies from Google.",
+    "text": "With your permission I use Google Analytics to see how the site is used. This sets cookies from Google.",
     "more": "Read the privacy policy",
     "accept": "Accept",
     "decline": "Decline",
-    "settings": "Cookie settings",
-    "loadMap": "Load map",
-    "mapNote": "Google Maps sets cookies from Google."
+    "settings": "Cookie settings"
   },
   "care": {
     "label": "Maintenance",

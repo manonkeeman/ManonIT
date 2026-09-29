@@ -145,10 +145,7 @@ export default function WebdesignAcupuncture() {
                     <h1 className="vr-title">{c.title}</h1>
                     <p className="vr-tagline">{c.tagline}</p>
                     <div className="vr-tags">
-                        <span className="tag">WordPress</span>
-                        <span className="tag">Adobe Suite</span>
-                        <span className="tag">SEO</span>
-                        <span className="tag">Responsive</span>
+                        {["webdesign", "wordpress", "uxui", "seogeo"].map((k) => <span key={k} className="tag">{tr(`portfolio.tags.${k}`)}</span>)}
                     </div>
                     <a className="btn btn-primary vr-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
                 </div>
@@ -181,7 +178,7 @@ export default function WebdesignAcupuncture() {
             <style>{`
         .vr-page { max-width: 1000px; margin: 0 auto; padding: 28px 20px 60px; }
         .vr-hero { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; padding: 48px 0 40px; }
-        .vr-label { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
+        .vr-label { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); margin: 0 0 10px; }
         .vr-title { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 0 0 16px; letter-spacing: -.02em; }
         .vr-tagline { font-size: clamp(1rem, 2vw, 1.2rem); color: var(--muted); white-space: pre-line; line-height: 1.5; margin: 0 0 24px; font-style: italic; }
         .vr-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
@@ -192,7 +189,7 @@ export default function WebdesignAcupuncture() {
         .vr-intro p { font-size: 1.1rem; line-height: 1.7; color: var(--muted); margin: 0; }
         .vr-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 56px; }
         .vr-card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 14px; padding: 24px 22px; }
-        .vr-card-label { display: block; font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+        .vr-card-label { display: block; font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); margin-bottom: 10px; }
         .vr-card-text { font-size: .95rem; line-height: 1.6; color: var(--text); margin: 0; }
         .vr-footer { display: flex; gap: 14px; flex-wrap: wrap; padding-top: 16px; border-top: 1px solid var(--border); }
         .tag { font-size: .82rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: var(--bg); white-space: nowrap; }

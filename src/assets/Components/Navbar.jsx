@@ -19,7 +19,7 @@ export default function Navbar() {
             <div className="nav-wrap">
                 {/* Logo */}
                 <NavLink to="/" className="nav-logo-link" aria-label="Home">
-                    <img src="/logo-compact-cream.svg" alt="ManonIT" height="40" />
+                    <img src="/logo-compact-cream.svg" alt="ManonIT" width="160" height="40" />
                 </NavLink>
 
                 {/* Desktop nav */}

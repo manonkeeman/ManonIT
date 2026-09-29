@@ -50,7 +50,7 @@ const content = {
                 </ul>
                 <p>
                     Het ontwerp is donker met warme gouden accenten: rustig, stijlvol en passend bij een huis
-                    met zoveel geschiedenis. Gebouwd in React, snel en net zo prettig op de telefoon als op
+                    met zoveel geschiedenis. In zes talen, snel en net zo prettig op de telefoon als op
                     een groot scherm.
                 </p>
 
@@ -118,7 +118,7 @@ const content = {
                 </ul>
                 <p>
                     The design is dark with warm golden accents: calm, stylish and fitting for a house with so
-                    much history. Built in React, fast and just as pleasant on a phone as on a big screen.
+                    much history. In six languages, fast and just as pleasant on a phone as on a big screen.
                 </p>
 
                 <h2>And then came the spreadsheet</h2>
@@ -184,7 +184,7 @@ const content = {
                 </ul>
                 <p>
                     Das Design ist dunkel mit warmen goldenen Akzenten: ruhig, stilvoll und passend zu einem
-                    Haus mit so viel Geschichte. Gebaut mit React, schnell und auf dem Handy genauso angenehm
+                    Haus mit so viel Geschichte. In sechs Sprachen, schnell und auf dem Handy genauso angenehm
                     wie auf einem großen Bildschirm.
                 </p>
 
@@ -251,7 +251,7 @@ const content = {
                 </ul>
                 <p>
                     Le design est sombre avec de chaleureux accents dorés : calme, élégant et à la hauteur d'une
-                    maison chargée d'histoire. Développé en React, rapide et aussi agréable sur téléphone que sur grand écran.
+                    maison chargée d'histoire. En six langues, rapide et aussi agréable sur téléphone que sur grand écran.
                 </p>
 
                 <h2>Puis est arrivé le tableur</h2>
@@ -317,7 +317,7 @@ const content = {
                 </ul>
                 <p>
                     El diseño es oscuro con cálidos acentos dorados: tranquilo, elegante y a la altura de una
-                    casa con tanta historia. Hecha en React, rápida e igual de agradable en el móvil que en una
+                    casa con tanta historia. En seis idiomas, rápida e igual de agradable en el móvil que en una
                     pantalla grande.
                 </p>
 
@@ -383,7 +383,7 @@ const content = {
                 </ul>
                 <p>
                     Il design è scuro con caldi accenti dorati: tranquillo, elegante e all'altezza di una casa
-                    con tanta storia. Realizzato in React, veloce e piacevole sul telefono quanto su un grande schermo.
+                    con tanta storia. In sei lingue, veloce e piacevole sul telefono quanto su un grande schermo.
                 </p>
 
                 <h2>E poi è arrivato il foglio Excel</h2>
@@ -449,7 +449,7 @@ const content = {
                 </ul>
                 <p>
                     Дизайн темний із теплими золотими акцентами: спокійний, стильний і гідний будинку з такою
-                    історією. Створений на React, швидкий і однаково зручний на телефоні й великому екрані.
+                    історією. Шістьма мовами, швидкий і однаково зручний на телефоні й великому екрані.
                 </p>
 
                 <h2>А потім з'явилася таблиця Excel</h2>

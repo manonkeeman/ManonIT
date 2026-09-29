@@ -488,7 +488,7 @@ export default function PastelVanBuiten() {
 
             <style>{`
         .story-back-bottom { margin-top: 24px; padding-top: 8px; border-top: 1px solid var(--border); }
-        .back-link { display: inline-block; margin: 14px 0 8px; text-decoration: none; color: var(--accent); }
+        .back-link { display: inline-block; margin: 14px 0 8px; text-decoration: none; color: var(--accent-ink); }
         .back-link:hover { text-decoration: underline; }
         .article-container { max-width: 72rem; margin: 0 auto; padding: 0 clamp(16px,3vw,48px); }
         .story-cover { margin: 8px auto 16px; max-width: 68ch; }
@@ -508,7 +508,7 @@ export default function PastelVanBuiten() {
         .story-body p  { margin: 0 0 14px; line-height: 1.72; }
         .story-body h2 { margin: 22px 0 10px; }
         .story-body h3 { margin: 18px 0 8px; font-size: 1rem; color: var(--muted); }
-        .story-body a  { color: var(--accent); text-decoration: underline; }
+        .story-body a  { color: var(--accent-ink); text-decoration: underline; }
         .rule { height: 1px; background: var(--border); margin: 18px 0; border: none; }
       `}</style>
         </section>

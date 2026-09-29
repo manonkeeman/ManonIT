@@ -126,7 +126,7 @@ Schrijf zonder lange streepjes (— en –).
 
 ## Privacy en cookies
 
-Google Analytics en de Google Maps-kaart laden pas na toestemming via de cookiebanner (`CookieConsent.jsx`, `consent.js`). Zonder keuze of na weigeren wordt geen `_ga`-cookie geplaatst. Bezoekers wijzigen hun keuze via "Cookie-instellingen" in de footer.
+Google Analytics laadt pas na toestemming via de cookiebanner (`CookieConsent.jsx`, `consent.js`). Zonder keuze of na weigeren wordt geen `_ga`-cookie geplaatst. Bezoekers wijzigen hun keuze via "Cookie-instellingen" in de footer.
 
 ---
 

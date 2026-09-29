@@ -40,7 +40,7 @@ export default function Journal() {
                     const excerpt = t(`journalSection.articles.${item.slug}.excerpt`);
                     return (
                         <article key={item.slug} className="journal-card">
-                            <Link to={`/journal/${item.slug}`} className="card-link" aria-label={title}>
+                            <Link to={`/journal/${item.slug}`} className="card-link">
                                 <div className="card-img">
                                     {isMultiSize ? (
                                         <picture>
@@ -111,7 +111,7 @@ export default function Journal() {
           padding: 10px 22px;
           border-radius: 999px;
           border: 1px solid var(--accent);
-          color: var(--accent);
+          color: var(--accent-ink);
           background: transparent;
           font-size: .92rem;
           font-weight: 600;

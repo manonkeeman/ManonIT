@@ -8,7 +8,7 @@
     "links": {
       "portfolio": {
         "backend": "CasaCrew · Verhuurapp",
-        "frontend": "Webdevelopment - Villa Vredestein",
+        "frontend": "Webdesign · Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
         "marieboddaert": "Webdesign - Marie H. Boddaert"
@@ -89,8 +89,6 @@
   "contact": {
     "label": "Contact",
     "intro": "Leuk dat je er bent! Zin in een kort overleg of wil je iets samen bouwen?",
-    "locations": "Locaties",
-    "directions": "Route openen",
     "form": {
       "name": "Naam",
       "email": "E-mail",
@@ -112,7 +110,9 @@
     ],
     "whatsapp": "Stuur een WhatsApp",
     "formTitle": "Stuur een bericht",
-    "formSub": "Vertel kort wat je nodig hebt. Ik reageer binnen één werkdag."
+    "formSub": "Vertel kort wat je nodig hebt. Ik reageer binnen één werkdag.",
+    "onLocation": "Ik kom bij je op locatie",
+    "follow": "Volg mijn werk en verhalen:"
   },
   "newsletter": {
     "label": "Nieuwe artikelen in je inbox",
@@ -204,7 +204,7 @@
     },
     "projects": {
       "frontend": {
-        "desc": "Publieke website voor Villa Vredestein: geschiedenis, doel en contact. Gebouwd met React en Vite."
+        "desc": "Webdesign voor Villa Vredestein, een historische villa in Driebergen: geschiedenis, verblijf en contact, in zes talen."
       },
       "acupuncture": {
         "desc": "WordPress-site met rustige uitstraling en duidelijke info voor cliënten."
@@ -218,14 +218,28 @@
       "marieboddaert": {
         "desc": "Schrijverswebsite in HTML/CSS met literaire typografie en webdesign op maat. Live op Netlify, SEO-geoptimaliseerd en voorzien van een CMS zodat Marie zelf content beheert."
       },
-      "casarusso": {
-        "desc": "Zo voordelig mogelijke website voor de verhuur van een vakantiehuis in Abruzzo, Italië. Met het huis, de omgeving, de eigen olijfolie en de jaarlijkse olijfplukvakantie."
+      "casareille": {
+        "desc": "Zo voordelig mogelijke website voor de verhuur van Casa Reille, een vakantiehuis bij Atri in Abruzzo, Italië. Met het huis, de omgeving, de eigen olijfolie en de jaarlijkse olijfplukvakantie."
       }
     },
     "label": "Portfolio",
     "title": "Recent werk",
     "intro": "Een selectie van websites en applicaties die ik heb ontworpen en gebouwd.",
-    "viewSite": "Bekijk de website"
+    "viewSite": "Bekijk de website",
+    "tags": {
+      "webdesign": "Webdesign",
+      "uxui": "UX/UI",
+      "seogeo": "SEO & GEO",
+      "cms": "Zelf beheren (CMS)",
+      "lang6": "6 talen",
+      "lang3": "3 talen",
+      "multilingual": "Meertalig",
+      "booking": "Boekingssysteem",
+      "webapp": "Web-app",
+      "login": "Veilig inloggen",
+      "payments": "Betalingen",
+      "wordpress": "WordPress"
+    }
   },
   "seo": {
     "home": {
@@ -280,8 +294,8 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Website Villa Vredestein | React webdevelopment | ManonIT",
-        "description": "Publieke website voor Villa Vredestein in Driebergen: geschiedenis, verblijf en contact. Ontworpen en gebouwd in React door ManonIT."
+        "title": "Website Villa Vredestein | Webdesign in 6 talen | ManonIT",
+        "description": "Webdesign voor Villa Vredestein, een historische villa in Driebergen: geschiedenis, verblijf en contact, in zes talen."
       },
       "acupuncture": {
         "title": "Website Acupuncture by Saskia | WordPress webdesign | ManonIT",
@@ -427,13 +441,11 @@
   },
   "cookies": {
     "title": "Cookies",
-    "text": "Met jouw toestemming gebruik ik Google Analytics om te zien hoe de site gebruikt wordt, en laad ik Google Maps voor de kaart. Beide plaatsen cookies van Google.",
+    "text": "Met jouw toestemming gebruik ik Google Analytics om te zien hoe de site gebruikt wordt. Dat plaatst cookies van Google.",
     "more": "Meer in het privacybeleid",
     "accept": "Accepteren",
     "decline": "Weigeren",
-    "settings": "Cookie-instellingen",
-    "loadMap": "Kaart laden",
-    "mapNote": "Google Maps plaatst cookies van Google."
+    "settings": "Cookie-instellingen"
   },
   "care": {
     "label": "Onderhoud",

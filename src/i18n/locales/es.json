@@ -8,7 +8,7 @@
     "links": {
       "portfolio": {
         "backend": "CasaCrew · App de alquiler",
-        "frontend": "Webdevelopment - Villa Vredestein",
+        "frontend": "Diseño web · Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
         "marieboddaert": "Webdesign - Marie H. Boddaert"
@@ -89,8 +89,6 @@
   "contact": {
     "label": "Contacto",
     "intro": "¡Qué bueno que estés aquí! ¿Quieres una charla rápida o construir algo juntos?",
-    "locations": "Ubicaciones",
-    "directions": "Cómo llegar",
     "form": {
       "name": "Nombre",
       "email": "Correo",
@@ -112,7 +110,9 @@
     ],
     "whatsapp": "Enviar un WhatsApp",
     "formTitle": "Envía un mensaje",
-    "formSub": "Cuéntame brevemente qué necesitas. Respondo en un día laborable."
+    "formSub": "Cuéntame brevemente qué necesitas. Respondo en un día laborable.",
+    "onLocation": "Voy a verte en persona",
+    "follow": "Sigue mi trabajo y mis historias:"
   },
   "newsletter": {
     "label": "Nuevos artículos en tu bandeja de entrada",
@@ -143,7 +143,7 @@
     },
     "projects": {
       "frontend": {
-        "desc": "Sitio web público para Villa Vredestein: historia, propósito y contacto. Construido con React y Vite."
+        "desc": "Diseño web para Villa Vredestein, una villa histórica en Driebergen: historia, estancias y contacto, en seis idiomas."
       },
       "acupuncture": {
         "desc": "Sitio WordPress con estética tranquila e información clara para clientes."
@@ -157,14 +157,28 @@
       "marieboddaert": {
         "desc": "Web de escritora en HTML/CSS con tipografía literaria y webdesign a medida. En vivo en Netlify, optimizada para SEO y con CMS para que Marie gestione su propio contenido."
       },
-      "casarusso": {
+      "casareille": {
         "desc": "Una web lo más económica posible para alquilar una casa de vacaciones en los Abruzos, Italia. Con la casa, el entorno, su propio aceite de oliva y las vacaciones anuales de recogida de aceitunas."
       }
     },
     "label": "Portfolio",
     "title": "Trabajo reciente",
     "intro": "Una selección de webs y aplicaciones que he diseñado y desarrollado.",
-    "viewSite": "Ver la web"
+    "viewSite": "Ver la web",
+    "tags": {
+      "webdesign": "Diseño web",
+      "uxui": "UX/UI",
+      "seogeo": "SEO & GEO",
+      "cms": "Autogestión (CMS)",
+      "lang6": "6 idiomas",
+      "lang3": "3 idiomas",
+      "multilingual": "Multilingüe",
+      "booking": "Sistema de reservas",
+      "webapp": "App web",
+      "login": "Inicio de sesión seguro",
+      "payments": "Pagos",
+      "wordpress": "WordPress"
+    }
   },
   "seo": {
     "home": {
@@ -219,8 +233,8 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Frontend Vredestein | React & UX | Manon Keeman",
-        "description": "Frontend en React con autenticación JWT, API REST y diseño UX/UI para Villa Vredestein."
+        "title": "Web Villa Vredestein | Diseño web en 6 idiomas | ManonIT",
+        "description": "Diseño web para Villa Vredestein, una villa histórica en Driebergen: historia, estancias y contacto, en seis idiomas."
       },
       "acupuncture": {
         "title": "Webdesign Acupunctura | Manon Keeman",
@@ -427,13 +441,11 @@
   },
   "cookies": {
     "title": "Cookies",
-    "text": "Con tu permiso uso Google Analytics para ver cómo se usa la web y cargo Google Maps para el mapa. Ambos instalan cookies de Google.",
+    "text": "Con tu permiso uso Google Analytics para ver cómo se usa la web. Esto instala cookies de Google.",
     "more": "Más en la política de privacidad",
     "accept": "Aceptar",
     "decline": "Rechazar",
-    "settings": "Configuración de cookies",
-    "loadMap": "Cargar mapa",
-    "mapNote": "Google Maps instala cookies de Google."
+    "settings": "Configuración de cookies"
   },
   "care": {
     "label": "Mantenimiento",

@@ -1,25 +1,20 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FaWhatsapp } from "react-icons/fa";
-import { FiCheck, FiMapPin } from "react-icons/fi";
-import { useConsent } from "../assets/Helpers/consent.js";
+import { FaWhatsapp, FaLinkedin, FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
+import { SiSubstack } from "react-icons/si";
+import { FiCheck } from "react-icons/fi";
+
+const SOCIALS = [
+    { href: "https://www.linkedin.com/in/manonkeeman/", label: "LinkedIn", Icon: FaLinkedin },
+    { href: "https://www.instagram.com/manonkeeman", label: "Instagram", Icon: FaInstagram },
+    { href: "https://www.facebook.com/editor.lifestyle/", label: "Facebook", Icon: FaFacebook },
+    { href: "https://manonkeeman.substack.com", label: "Substack", Icon: SiSubstack },
+    { href: "https://github.com/manonkeeman", label: "GitHub", Icon: FaGithub },
+];
 
 export default function Contact() {
-    const [city, setCity] = useState("Bakkum");
     const [status, setStatus] = useState("idle"); // idle | sending | sent | error
     const { t } = useTranslation();
-    const consent = useConsent();
-    const [mapClicked, setMapClicked] = useState(false);
-    const showMap = consent === "granted" || mapClicked;
-
-    const ADDRESSES = {
-        Bakkum: "Van Renesselaan 19, Bakkum",
-        Driebergen: "Hoofdstraat 147, Driebergen",
-    };
-
-    const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESSES[city])}&output=embed`;
-    const routeHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(ADDRESSES[city])}`;
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus("sending");
@@ -82,43 +77,16 @@ export default function Contact() {
                         <FaWhatsapp aria-hidden="true"/> {t('contact.whatsapp')}
                     </a>
 
-                    <div className="contact-loc">
-                        <p className="contact-loc-title"><FiMapPin aria-hidden="true"/> {t('contact.locations')}</p>
-                        <div className="chip-row">
-                            {Object.keys(ADDRESSES).map((c) => (
-                                <button
-                                    key={c}
-                                    type="button"
-                                    className={`chip ${city === c ? "active" : ""}`}
-                                    onClick={() => setCity(c)}
-                                    aria-pressed={city === c}
-                                >
-                                    {c}
-                                </button>
+                    <div className="contact-social">
+                        <p className="contact-social-title">{t('contact.onLocation')}</p>
+                        <p className="contact-social-sub">{t('contact.follow')}</p>
+                        <div className="contact-social-row">
+                            {SOCIALS.map(({ href, label, Icon }) => (
+                                <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} title={label}>
+                                    <Icon aria-hidden="true" />
+                                </a>
                             ))}
                         </div>
-                        <div className="map-wrap">
-                            {showMap ? (
-                                <iframe
-                                    title={`Map ${city}`}
-                                    src={mapSrc}
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                />
-                            ) : (
-                                // Google Maps plaatst cookies: pas laden na toestemming of een klik
-                                <div className="map-placeholder">
-                                    <p>{ADDRESSES[city]}</p>
-                                    <button type="button" className="chip" onClick={() => setMapClicked(true)}>
-                                        {t('cookies.loadMap')}
-                                    </button>
-                                    <small>{t('cookies.mapNote')}</small>
-                                </div>
-                            )}
-                        </div>
-                        <a href={routeHref} target="_blank" rel="noreferrer" className="contact-route">
-                            {t('contact.directions')} →
-                        </a>
                     </div>
                 </aside>
 
@@ -237,28 +205,18 @@ export default function Contact() {
         }
         .contact-wa svg{ color:#25D366; font-size:1.2rem; }
         .contact-wa:hover{ border-color:var(--text); }
-        .contact-loc{ border-top:1px solid var(--border); padding-top:20px; }
-        .contact-loc-title svg{ color:var(--accent); }
-        .contact-loc-title{ display:flex; align-items:center; gap:8px; font-weight:600; margin:0 0 12px; }
-        .chip-row{ display:flex; gap:8px; flex-wrap:wrap; margin:0 0 12px; }
-        .chip{
-          font: inherit; font-size:.85rem; font-weight:600;
-          padding:7px 14px; border-radius:999px; cursor:pointer;
-          background:#fff; color:var(--text);
+        .contact-social{ border-top:1px solid var(--border); padding-top:20px; }
+        .contact-social-title{ font-weight:600; margin:0 0 4px; }
+        .contact-social-sub{ font-size:.9rem; color:var(--muted); margin:0 0 14px; }
+        .contact-social-row{ display:flex; gap:10px; flex-wrap:wrap; }
+        .contact-social-row a{
+          width:44px; height:44px; border-radius:12px;
+          display:inline-flex; align-items:center; justify-content:center;
+          background:#fff; color:var(--text) !important; font-size:1.15rem;
           border:1px solid var(--border);
           transition: background .2s ease, color .2s ease, border-color .2s ease;
         }
-        .chip:hover{ border-color: var(--text); }
-        .chip.active{ background:var(--text); border-color:var(--text); color:#fff; }
-        .map-wrap{ border-radius:12px; overflow:hidden; aspect-ratio:16/9; background: #fff; }
-        .map-wrap iframe{ width:100%; height:100%; border:0; display:block; }
-        .map-placeholder{
-          height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center;
-          gap:10px; padding:16px; text-align:center;
-        }
-        .map-placeholder p{ margin:0; font-weight:600; }
-        .map-placeholder small{ color:var(--muted); font-size:.78rem; }
-        .contact-route{ display:inline-block; margin-top:12px; color:var(--accent-ink) !important; font-weight:600; font-size:.92rem; }
+        .contact-social-row a:hover{ background:var(--text); color:#fff !important; border-color:var(--text); }
 
         /* Formulierkaart */
         .contact-card{

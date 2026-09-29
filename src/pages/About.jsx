@@ -167,7 +167,7 @@ export default function About() {
           border-radius: 8px;
           font-size: .88rem;
           font-weight: 600;
-          color: var(--accent);
+          color: var(--accent-ink);
           text-decoration: none;
           white-space: nowrap;
           transition: background .18s ease, color .18s ease, border-color .18s ease;
@@ -203,7 +203,7 @@ export default function About() {
           align-items: center;
         }
         .about-stack span:hover{
-          color: var(--accent);
+          color: var(--accent-ink);
           transform: translateY(-2px);
         }
         /* Tooltip */

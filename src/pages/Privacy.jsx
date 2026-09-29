@@ -15,7 +15,7 @@ export default function Privacy() {
 
                 <header className="legal-header">
                     <h1>Privacybeleid</h1>
-                    <p className="legal-meta">ManonIT · Versie 1.1 · Bijgewerkt op 28 september 2026</p>
+                    <p className="legal-meta">ManonIT · Versie 1.2 · Bijgewerkt op 29 september 2026</p>
                 </header>
 
                 <div className="legal-body card">
@@ -77,17 +77,6 @@ export default function Privacy() {
                         </a>.
                     </p>
 
-                    <h3>Google Maps</h3>
-                    <p>
-                        Op de contactsectie staat een kaart van <strong>Google Maps</strong>. Die laadt
-                        pas als je toestemming geeft via de cookiebanner of zelf op &quot;Kaart laden&quot;
-                        klikt. Bij het laden ontvangt Google onder meer je IP-adres en kan Google
-                        cookies plaatsen. Zie het{" "}
-                        <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
-                            privacybeleid van Google
-                        </a>.
-                    </p>
-
                     <h3>Google-reviews</h3>
                     <p>
                         Op de homepage toon ik openbare reviews van mijn Google-bedrijfsprofiel.
@@ -125,7 +114,6 @@ export default function Privacy() {
                         <li><strong>Nieuwsbrief:</strong> toestemming (jij schrijft je actief in)</li>
                         <li><strong>Google Analytics:</strong> toestemming (via de cookiebanner)</li>
                         <li><strong>Serverlogbestanden:</strong> gerechtvaardigd belang (beveiliging)</li>
-                        <li><strong>Google Maps:</strong> toestemming (via de cookiebanner of door zelf op &quot;Kaart laden&quot; te klikken)</li>
                         <li><strong>Google-reviews:</strong> gerechtvaardigd belang (tonen van klantervaringen)</li>
                     </ul>
 
@@ -139,7 +127,7 @@ export default function Privacy() {
                     <ul>
                         <li><strong>Netlify</strong> — hosting en formulierverwerking (VS, onder EU-VS Data Privacy Framework)</li>
                         <li><strong>Substack</strong> — nieuwsbriefverzending (VS, eigen privacybeleid van toepassing)</li>
-                        <li><strong>Google LLC</strong> — Analytics, Maps en reviews (VS, onder EU-VS Data Privacy Framework)</li>
+                        <li><strong>Google LLC</strong> — Analytics en reviews (VS, onder EU-VS Data Privacy Framework)</li>
                         <li><strong>WhatsApp Ireland (Meta)</strong> — alleen als je zelf via WhatsApp contact opneemt</li>
                     </ul>
 
@@ -173,9 +161,8 @@ export default function Privacy() {
                         Deze website gebruikt <strong>geen advertentie- of marketingcookies</strong>.
                         Bij je eerste bezoek vraag ik via een cookiebanner om toestemming. Pas als je
                         die geeft, plaatst Google Analytics een analytische cookie (<code>_ga</code>)
-                        met een willekeurig ID om bezoeken van elkaar te onderscheiden, en laadt de
-                        Google Maps-kaart, die ook cookies van Google kan plaatsen. Weiger je, dan
-                        worden deze cookies niet geplaatst.
+                        met een willekeurig ID om bezoeken van elkaar te onderscheiden. Weiger je, dan
+                        wordt deze cookie niet geplaatst.
                     </p>
                     <p>
                         Je keuze wordt lokaal in je browser bewaard. Je kunt die altijd wijzigen via

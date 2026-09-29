@@ -139,7 +139,7 @@ const content = {
 };
 
 export default function TheBigThree() {
-    const { i18n } = useTranslation();
+    const { t: tr, i18n } = useTranslation();
     const lang = i18n.language.split("-")[0];
     const c = content[lang] || content.en;
 
@@ -173,11 +173,7 @@ export default function TheBigThree() {
                     <h1 className="bt-title">{c.title}</h1>
                     <p className="bt-tagline">{c.tagline}</p>
                     <div className="bt-tags">
-                        <span className="tag">Webdesign</span>
-                        <span className="tag">CMS</span>
-                        <span className="tag">SEO</span>
-                        <span className="tag">NL · EN · DE</span>
-                        <span className="tag">Responsive</span>
+                        {["webdesign", "uxui", "cms", "lang3", "seogeo"].map((k) => <span key={k} className="tag">{tr(`portfolio.tags.${k}`)}</span>)}
                     </div>
                     <a className="btn btn-primary bt-cta" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
                     <div className="bt-logo-row">
@@ -284,7 +280,7 @@ export default function TheBigThree() {
         .bt-card-label {
           display: block; font-size: .75rem; font-weight: 700;
           letter-spacing: .1em; text-transform: uppercase;
-          color: var(--accent); margin-bottom: 10px;
+          color: var(--accent-ink); margin-bottom: 10px;
         }
         .bt-card-text {
           font-size: .95rem; line-height: 1.6;
@@ -294,7 +290,7 @@ export default function TheBigThree() {
         .bt-challenge { margin-bottom: 48px; }
         .bt-challenge h2 {
           font-size: .85rem; font-weight: 700; letter-spacing: .1em;
-          text-transform: uppercase; color: var(--accent);
+          text-transform: uppercase; color: var(--accent-ink);
           margin: 0 0 16px;
         }
         .bt-challenge blockquote {

@@ -363,7 +363,7 @@ export default function BoekArtikel() {
 
             <style>{`
         .story-back-bottom{margin-top:24px;padding-top:8px;border-top:1px solid var(--border);}
-        .back-link{display:inline-block;margin:14px 0 8px;text-decoration:none;color:var(--accent);}
+        .back-link{display:inline-block;margin:14px 0 8px;text-decoration:none;color:var(--accent-ink);}
         .back-link:hover{text-decoration:underline;}
         .article-container{max-width:72rem;margin:0 auto;padding:0 clamp(16px,3vw,48px);}
         .story-cover{margin:8px auto 16px;max-width:68ch;}

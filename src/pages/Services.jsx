@@ -176,7 +176,7 @@ export default function Services() {
                     font-weight: 700;
                     letter-spacing: 0.14em;
                     text-transform: uppercase;
-                    color: var(--accent);
+                    color: var(--accent-ink);
                     margin: 0 0 10px;
                 }
                 .svc-intro {
@@ -220,7 +220,7 @@ export default function Services() {
                     border-radius: 14px;
                     display: inline-flex; align-items: center; justify-content: center;
                     background: color-mix(in srgb, var(--accent) 12%, #fff);
-                    color: var(--accent);
+                    color: var(--accent-ink);
                     font-size: 1.35rem;
                     margin-bottom: 6px;
                 }
@@ -268,7 +268,7 @@ export default function Services() {
                 }
                 .price-badge {
                     position: absolute; top: -13px; left: 28px;
-                    background: var(--accent); color: #fff;
+                    background: var(--accent-ink); color: #fff;
                     font-size: .75rem; font-weight: 600;
                     padding: 5px 12px; border-radius: 980px;
                 }
@@ -285,7 +285,7 @@ export default function Services() {
                     align-content: start;
                 }
                 .price-list li { display: flex; gap: 10px; font-size: .93rem; line-height: 1.45; }
-                .price-list svg { flex-shrink: 0; margin-top: 3px; color: var(--accent); }
+                .price-list svg { flex-shrink: 0; margin-top: 3px; color: var(--accent-ink); }
                 .price-time { font-size: .85rem; color: var(--muted); margin: 0 0 16px; }
                 .price-btn { width: 100%; }
                 .price-extras {
@@ -317,7 +317,7 @@ export default function Services() {
                 .care-icon {
                     width: 48px; height: 48px; border-radius: 14px;
                     display: flex; align-items: center; justify-content: center;
-                    background: #fff; color: var(--accent); font-size: 1.35rem;
+                    background: #fff; color: var(--accent-ink); font-size: 1.35rem;
                     margin-bottom: 16px;
                 }
                 .care-title { font-size: clamp(1.5rem, 2.4vw, 2rem); margin: 0 0 12px; }

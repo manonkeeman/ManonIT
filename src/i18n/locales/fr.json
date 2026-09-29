@@ -8,7 +8,7 @@
     "links": {
       "portfolio": {
         "backend": "CasaCrew · App de location",
-        "frontend": "Webdevelopment - Villa Vredestein",
+        "frontend": "Webdesign · Villa Vredestein",
         "acupuncture": "Webdesign - Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
         "marieboddaert": "Webdesign - Marie H. Boddaert"
@@ -89,8 +89,6 @@
   "contact": {
     "label": "Contact",
     "intro": "Ravie de vous voir ici ! Envie d'un rapide échange ou de construire quelque chose ensemble ?",
-    "locations": "Lieux",
-    "directions": "Itinéraire",
     "form": {
       "name": "Nom",
       "email": "E-mail",
@@ -112,7 +110,9 @@
     ],
     "whatsapp": "Envoyer un WhatsApp",
     "formTitle": "Envoyer un message",
-    "formSub": "Dites-moi brièvement ce dont vous avez besoin. Je réponds sous un jour ouvré."
+    "formSub": "Dites-moi brièvement ce dont vous avez besoin. Je réponds sous un jour ouvré.",
+    "onLocation": "Je me déplace chez vous",
+    "follow": "Suivez mon travail et mes histoires :"
   },
   "newsletter": {
     "label": "Nouveaux articles dans votre boîte mail",
@@ -143,7 +143,7 @@
     },
     "projects": {
       "frontend": {
-        "desc": "Site web public pour Villa Vredestein : histoire, objectif et contact. Construit avec React et Vite."
+        "desc": "Webdesign pour la Villa Vredestein, une villa historique à Driebergen : histoire, séjours et contact, en six langues."
       },
       "acupuncture": {
         "desc": "Site WordPress au design épuré avec des informations claires pour les clients."
@@ -157,14 +157,28 @@
       "marieboddaert": {
         "desc": "Site d'écrivaine en HTML/CSS avec typographie littéraire et webdesign sur-mesure. En ligne sur Netlify, optimisé SEO et doté d'un CMS pour que Marie gère son propre contenu."
       },
-      "casarusso": {
+      "casareille": {
         "desc": "Un site au budget le plus serré possible pour la location d'une maison de vacances dans les Abruzzes, en Italie. Avec la maison, les environs, l'huile d'olive maison et le séjour annuel de cueillette des olives."
       }
     },
     "label": "Portfolio",
     "title": "Projets récents",
     "intro": "Une sélection de sites web et d'applications que j'ai conçus et développés.",
-    "viewSite": "Voir le site"
+    "viewSite": "Voir le site",
+    "tags": {
+      "webdesign": "Webdesign",
+      "uxui": "UX/UI",
+      "seogeo": "SEO & GEO",
+      "cms": "Gestion autonome (CMS)",
+      "lang6": "6 langues",
+      "lang3": "3 langues",
+      "multilingual": "Multilingue",
+      "booking": "Système de réservation",
+      "webapp": "Application web",
+      "login": "Connexion sécurisée",
+      "payments": "Paiements",
+      "wordpress": "WordPress"
+    }
   },
   "seo": {
     "home": {
@@ -219,8 +233,8 @@
     },
     "portfolio": {
       "frontend": {
-        "title": "Frontend Vredestein | React & UX | Manon Keeman",
-        "description": "Frontend React avec authentification JWT, API REST et design UX/UI pour Villa Vredestein."
+        "title": "Site Villa Vredestein | Webdesign en 6 langues | ManonIT",
+        "description": "Webdesign pour la Villa Vredestein, une villa historique à Driebergen : histoire, séjours et contact, en six langues."
       },
       "acupuncture": {
         "title": "Webdesign Acupuncture | Manon Keeman",
@@ -427,13 +441,11 @@
   },
   "cookies": {
     "title": "Cookies",
-    "text": "Avec votre accord, j'utilise Google Analytics pour voir comment le site est utilisé et je charge Google Maps pour la carte. Les deux déposent des cookies de Google.",
+    "text": "Avec votre accord, j'utilise Google Analytics pour voir comment le site est utilisé. Cela dépose des cookies de Google.",
     "more": "En savoir plus dans la politique de confidentialité",
     "accept": "Accepter",
     "decline": "Refuser",
-    "settings": "Paramètres des cookies",
-    "loadMap": "Charger la carte",
-    "mapNote": "Google Maps dépose des cookies de Google."
+    "settings": "Paramètres des cookies"
   },
   "care": {
     "label": "Maintenance",

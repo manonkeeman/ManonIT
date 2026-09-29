@@ -7,15 +7,15 @@ import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 // Kaart zonder eigen projectpagina linkt direct naar de live site
 function CardLink({ p, children }) {
     return p.route
-        ? <Link className="card-link" to={p.route} aria-label={`Open ${p.title}`}>{children}</Link>
-        : <a className="card-link" href={p.liveUrl} target="_blank" rel="noreferrer" aria-label={`${p.title} (opent in nieuw tabblad)`}>{children}</a>;
+        ? <Link className="card-link" to={p.route}>{children}</Link>
+        : <a className="card-link" href={p.liveUrl} target="_blank" rel="noreferrer">{children}</a>;
 }
 
 const projects = [
     {
         key: "backend",
         title: "CasaCrew · Verhuurapp voor hospita's",
-        tags: ["Spring Boot", "Java", "PostgreSQL", "OAuth2"],
+        tags: ["webapp", "uxui", "login", "payments", "seogeo"],
         route: "/backendstudentendashboard",
         base: "/Portfolio/casacrew-mockup",
         liveUrl: "https://casacrew.nl",
@@ -24,8 +24,8 @@ const projects = [
     },
     {
         key: "frontend",
-        title: "Webdevelopment · Villa Vredestein",
-        tags: ["React", "Vite", "UX/UI", "SEO"],
+        title: "Webdesign · Villa Vredestein",
+        tags: ["webdesign", "uxui", "lang6", "seogeo"],
         route: "/frontendvredestein",
         base: "/Portfolio/villa-vredestein-mockup",
         liveUrl: "https://villavredestein.com",
@@ -35,7 +35,7 @@ const projects = [
     {
         key: "acupuncture",
         title: "Webdesign · Acupuncture by Saskia",
-        tags: ["WordPress", "Adobe Suite", "SEO"],
+        tags: ["webdesign", "wordpress", "uxui", "seogeo"],
         route: "/webdesignacupuncture",
         base: "/Portfolio/acupuncture-mockup",
         num: "03",
@@ -43,7 +43,7 @@ const projects = [
     {
         key: "bigthree",
         title: "Webdesign · The Big Three",
-        tags: ["Webdesign", "CMS", "SEO", "NL · EN · DE"],
+        tags: ["webdesign", "uxui", "cms", "lang3", "seogeo"],
         route: "/thebigthree",
         base: "/Portfolio/de-grote-drie-mockup",
         liveUrl: "https://thebigthree.nl",
@@ -53,17 +53,17 @@ const projects = [
     {
         key: "marieboddaert",
         title: "Webdesign · Marie H. Boddaert",
-        tags: ["HTML/CSS", "Webdesign", "Typografie", "Netlify", "SEO", "CMS"],
+        tags: ["webdesign", "uxui", "cms", "seogeo"],
         route: "/marieboddaert",
         base: "/Portfolio/marie-boddaert-blog-mockup",
         num: "05",
         journalLink: "/journal/pastelvanbuiten",
     },
     {
-        key: "casarusso",
-        title: "Webdesign · Casa Russo",
-        tags: ["Webdesign", "Vakantieverhuur", "Budget"],
-        base: "/Portfolio/casa-russo-mockup",
+        key: "casareille",
+        title: "Webdesign · Casa Reille",
+        tags: ["webdesign", "uxui", "booking", "multilingual", "seogeo"],
+        base: "/Portfolio/casa-reille-mockup",
         liveUrl: "http://russo.nl/Home/",
         num: "06",
     },
@@ -97,7 +97,7 @@ export default function Portfolio() {
                                     <p className="card-desc">{desc}</p>
                                     <div className="card-tags">
                                         {p.tags.map(tag => (
-                                            <span key={tag} className="tag">{tag}</span>
+                                            <span key={tag} className="tag">{t(`portfolio.tags.${tag}`)}</span>
                                         ))}
                                     </div>
                                 </div>
@@ -189,7 +189,7 @@ export default function Portfolio() {
           font-size: .78rem;
           font-weight: 700;
           letter-spacing: .12em;
-          color: var(--accent);
+          color: var(--accent-ink);
           text-transform: uppercase;
           margin-bottom: 8px;
           display: block;
@@ -219,10 +219,11 @@ export default function Portfolio() {
           background: var(--bg);
           white-space: nowrap;
         }
+        .btn-cta, .btn-cta-story { min-height: 32px; padding: 6px 0; }
         .card-actions {
           display: flex;
           align-items: center;
-          gap: 16px;
+          gap: 8px 20px;
           padding: 0 24px 22px;
           flex-wrap: wrap;
         }
@@ -248,7 +249,7 @@ export default function Portfolio() {
           border-bottom: 1px solid transparent;
           transition: color .2s, border-color .2s, gap .2s;
         }
-        .btn-cta-story:hover { color: var(--accent); border-color: var(--accent); gap: 10px; }
+        .btn-cta-story:hover { color: var(--accent-ink); border-color: var(--accent); gap: 10px; }
 
         /* CTA-kaart */
         .portfolio-card--cta {
@@ -274,7 +275,7 @@ export default function Portfolio() {
           font-weight: 700;
           letter-spacing: .12em;
           text-transform: uppercase;
-          color: var(--accent);
+          color: var(--accent-ink);
           margin: 0;
         }
         .cta-card-inner h3 { margin: 0; font-size: 1.4rem; }

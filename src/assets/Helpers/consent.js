@@ -1,6 +1,5 @@
-// Cookie-toestemming voor Google Analytics en Google Maps.
+// Cookie-toestemming voor Google Analytics.
 // De keuze staat in localStorage ('granted' | 'denied'); geen keuze = banner tonen.
-import { useEffect, useState } from "react";
 
 const KEY = "cookie-consent";
 const EVENT = "cookie-consent-change";
@@ -57,15 +56,4 @@ export function setConsent(value) {
 
 export function openCookieSettings() {
     window.dispatchEvent(new Event(OPEN_SETTINGS_EVENT));
-}
-
-// Hook: huidige keuze, en re-render zodra die verandert.
-export function useConsent() {
-    const [consent, setState] = useState(getConsent);
-    useEffect(() => {
-        const update = () => setState(getConsent());
-        window.addEventListener(EVENT, update);
-        return () => window.removeEventListener(EVENT, update);
-    }, []);
-    return consent;
 }
