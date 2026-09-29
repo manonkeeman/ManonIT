@@ -77,7 +77,7 @@ function Layout({ children }) {
 
 function PageLoader() {
     return (
-        <div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div data-page-loader style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
             <span style={{ color: "var(--muted)", fontSize: "0.95rem" }}>Loading…</span>
         </div>
     );

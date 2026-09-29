@@ -65,7 +65,7 @@ export default function About() {
         <div className="about-shell">
           {/* TEKST */}
           <div className="about-copy">
-            <h2 className="about-title">{t('about.title')}</h2>
+            <h1 className="about-title">{t('about.title')}</h1>
             <blockquote className="about-quote">
               {t('about.quote')}
             </blockquote>

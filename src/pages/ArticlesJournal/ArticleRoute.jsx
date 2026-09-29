@@ -151,7 +151,7 @@ export default function ArticleRoute() {
             />
             {articleSchema && <JsonLd data={articleSchema} />}
             <Suspense fallback={
-                <div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <div data-page-loader style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <span style={{ color: "var(--muted)", fontSize: "0.95rem" }}>Loading…</span>
                 </div>
             }>

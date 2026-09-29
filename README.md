@@ -15,7 +15,7 @@ Live: [manonit.com](https://manonit.com)
 | Talen               | i18next + react-i18next (7 talen)                    |
 | SEO                 | react-helmet-async, JSON-LD, prerendering (Puppeteer) |
 | Iconen              | react-icons                                          |
-| Hosting             | Netlify (Forms, edge function voor social previews)  |
+| Hosting             | Netlify (Forms)                                      |
 | Afbeeldingen        | AVIF + WebP in 3 formaten, gemaakt met sharp         |
 | Statistieken        | Google Analytics 4, pas na toestemming via cookiebanner |
 
@@ -74,8 +74,6 @@ public/
 └── sitemap.xml               # Ook de lijst van pagina's die geprerenderd worden
 scripts/
 └── prerender.mjs
-netlify/edge-functions/
-└── og-inject.js              # Social previews (LinkedIn, WhatsApp) voor blogartikelen
 ```
 
 ---
@@ -106,8 +104,8 @@ Elke pagina bestaat ook onder `/en/...`. De andere talen wisselen alleen de teks
 3. Voeg het toe aan `src/content/contentJournal.json`.
 4. Voeg titel en samenvatting toe in `journalSection.articles` en `seo.journal` (nl en en).
 5. Voeg een omslag toe in `public/journal/` (`-400w`, `-800w`, `-1200w`, AVIF en WebP).
-6. Voeg de social preview toe in `netlify/edge-functions/og-inject.js`.
-7. Voeg beide URL's (NL en EN) toe aan `public/sitemap.xml`.
+6. Voeg beide URL's (NL en EN) toe aan `public/sitemap.xml`.
+7. Maak een preview-afbeelding van 1200x630 in `public/og/` en geef die mee in `ARTICLE_META`.
 
 Schrijf zonder lange streepjes (— en –).
 

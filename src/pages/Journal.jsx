@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import { SiSubstack } from "react-icons/si";
@@ -7,6 +8,9 @@ import Seo from "../assets/Components/Seo.jsx";
 
 export default function Journal() {
     const { t, i18n } = useTranslation();
+    // relatieve datum pas na het laden tonen: die verschilt tussen build en bezoek
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => setMounted(true), []);
     // nieuwste artikelen bovenaan
     const items = [...data].sort((x, y) => y.date.localeCompare(x.date)).map((item) => toCard(item, i18n.language));
 
@@ -17,7 +21,7 @@ export default function Journal() {
                 description={t('seo.journalPage.description')}
                 path="/journal"
             />
-            <h2 className="journal-title">Journal</h2>
+            <h1 className="journal-title">Journal</h1>
             <p className="journal-subtitle small"></p>
 
             <div className="journal-substack-cta">
@@ -79,7 +83,7 @@ export default function Journal() {
 
                                 <div className="card-meta">
                                     <time dateTime={item.dateISO}>{item.dateLabel}</time> {" • "}
-                                    <span>{item.ageLabel}</span>
+                                    <span>{mounted ? item.ageLabel : ""}</span>
                                     {item.readLabel ? (
                                         <>
                                             {" • "}

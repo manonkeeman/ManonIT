@@ -71,10 +71,11 @@ async function main() {
             // Geen cookiebanner en geen Google Analytics in de opgeslagen HTML
             await page.evaluateOnNewDocument(() => {
                 try { localStorage.setItem("cookie-consent", "denied"); } catch { /* */ }
+                window.__PRERENDER__ = true; // main.jsx maakt dan hydrateerbare HTML
             });
             await page.goto(`http://localhost:${port}${route}`, { waitUntil: "networkidle0", timeout: 30000 });
-            // wacht tot de pagina zijn eigen titel heeft gezet en lazy secties staan
-            await new Promise((r) => setTimeout(r, 400));
+            await page.waitForFunction(() => window.__PRERENDER_DONE__ === true, { timeout: 30000 });
+            await new Promise((r) => setTimeout(r, 300));
             const html = await page.evaluate(() => {
                 document.getElementById("app-shell")?.remove();
                 document.querySelector(".cookie-banner")?.remove();

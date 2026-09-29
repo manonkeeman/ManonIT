@@ -5,9 +5,11 @@ import { getConsent, setConsent, OPEN_SETTINGS_EVENT } from "../Helpers/consent.
 
 export default function CookieConsent() {
     const { t } = useTranslation();
-    const [open, setOpen] = useState(() => getConsent() === null);
+    // Pas na het laden bepalen: de voorgerenderde HTML bevat geen banner
+    const [open, setOpen] = useState(false);
 
     useEffect(() => {
+        if (getConsent() === null) setOpen(true);
         const show = () => setOpen(true);
         window.addEventListener(OPEN_SETTINGS_EVENT, show);
         return () => window.removeEventListener(OPEN_SETTINGS_EVENT, show);
