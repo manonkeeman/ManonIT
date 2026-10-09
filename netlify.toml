@@ -91,6 +91,17 @@
   to = "/en/webdesignacupuncture"
   status = 301
 
+# Vervangen blog: oude URL doorsturen naar het AI-artikel
+[[redirects]]
+  from = "/journal/gevonden-in-chatgpt"
+  to = "/journal/ai-in-mijn-werk"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/gevonden-in-chatgpt"
+  to = "/en/journal/ai-in-mijn-werk"
+  status = 301
+
 # SPA fallback: geprerenderde pagina's (dist/<pad>.html) worden direct
 # geserveerd; alle andere routes krijgen de onbewerkte app-shell (zie scripts/prerender.mjs)
 [[redirects]]

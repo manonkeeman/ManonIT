@@ -16,7 +16,7 @@ const VerhaalAchterCasaCrew      = lazy(() => import("./VerhaalAchterCasaCrew.js
 const SamenwerkingTheBigThree    = lazy(() => import("./SamenwerkingTheBigThree.jsx"));
 const WebsiteVillaVredestein     = lazy(() => import("./WebsiteVillaVredestein.jsx"));
 const WordpressOfMaatwerk = lazy(() => import("./WordpressOfMaatwerk.jsx"));
-const GevondenInChatgpt = lazy(() => import("./GevondenInChatgpt.jsx"));
+const WebsiteVakantiehuis = lazy(() => import("./WebsiteVakantiehuis.jsx"));
 const MeertaligeWebsite = lazy(() => import("./MeertaligeWebsite.jsx"));
 const WebsiteOnderhoud = lazy(() => import("./WebsiteOnderhoud.jsx"));
 
@@ -103,10 +103,10 @@ const ARTICLE_META = {
         image: "https://manonit.com/og/project-acupuncture.jpg",
         words: 620,
     },
-    "gevonden-in-chatgpt": {
+    "website-vakantiehuis": {
         date: "2026-10-09",
-        title: "Gevonden worden in ChatGPT en Perplexity: wat werkt echt?",
-        image: "https://manonit.com/og/journal-ai-in-mijn-werk.jpg",
+        title: "Een website voor je vakantiehuis: wat heb je nodig?",
+        image: "https://manonit.com/og/default.jpg",
         words: 640,
     },
     "meertalige-website": {
@@ -139,7 +139,7 @@ export default function ArticleRoute() {
         "samenwerking-the-big-three": <SamenwerkingTheBigThree />,
         "website-villa-vredestein": <WebsiteVillaVredestein />,
         "wordpress-of-maatwerk": <WordpressOfMaatwerk />,
-        "gevonden-in-chatgpt": <GevondenInChatgpt />,
+        "website-vakantiehuis": <WebsiteVakantiehuis />,
         "meertalige-website": <MeertaligeWebsite />,
         "website-onderhoud": <WebsiteOnderhoud />,
     };
