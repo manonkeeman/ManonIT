@@ -10,6 +10,7 @@ import Footer from "./assets/Components/Footer.jsx";
 import StickyWhatsApp from "./assets/Components/StickyWhatsApp.jsx";
 import CookieConsent from "./assets/Components/CookieConsent.jsx";
 import Seo from "./assets/Components/Seo.jsx";
+import { Helmet } from "react-helmet-async";
 
 // Hero — altijd direct geladen (above the fold)
 import Hero from "./pages/Hero.jsx";
@@ -321,7 +322,7 @@ function AppRoutes() {
                 />
 
                 {/* 404 */}
-                <Route path="*" element={<Layout><div style={{ padding: 24 }}>Page not found</div></Layout>} />
+                <Route path="*" element={<Layout><Helmet><title>Pagina niet gevonden · ManonIT</title><meta name="robots" content="noindex, follow" /></Helmet><div style={{ padding: 24 }}>Page not found</div></Layout>} />
         </Routes>
     );
 }

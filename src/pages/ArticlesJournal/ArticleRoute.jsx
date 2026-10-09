@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { lazy, Suspense } from "react";
+import { Helmet } from "react-helmet-async";
 import Seo from "../../assets/Components/Seo.jsx";
 import JsonLd from "../../assets/Components/JsonLd.jsx";
 
@@ -19,6 +20,7 @@ function NotFound({ slug }) {
     const { t } = useTranslation();
     return (
         <section className="section">
+            <Helmet><meta name="robots" content="noindex, follow" /></Helmet>
             <div className="container">
                 <h2>{t('article.notFound')}</h2>
                 <p>{t('article.notFoundText')}{slug ? ` (slug: ${slug})` : ""}</p>
