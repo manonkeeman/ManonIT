@@ -69,6 +69,28 @@
   to = "/en/journal"
   status = 301
 
+# Oude portfolio-URL's: server-side doorsturen (voorheen alleen via JavaScript,
+# waardoor Google ze als duplicaat zonder canonical zag)
+[[redirects]]
+  from = "/frontend"
+  to = "/frontendvredestein"
+  status = 301
+
+[[redirects]]
+  from = "/en/frontend"
+  to = "/en/frontendvredestein"
+  status = 301
+
+[[redirects]]
+  from = "/webdesignacupunture"
+  to = "/webdesignacupuncture"
+  status = 301
+
+[[redirects]]
+  from = "/en/webdesignacupunture"
+  to = "/en/webdesignacupuncture"
+  status = 301
+
 # SPA fallback: geprerenderde pagina's (dist/<pad>.html) worden direct
 # geserveerd; alle andere routes krijgen de onbewerkte app-shell (zie scripts/prerender.mjs)
 [[redirects]]
