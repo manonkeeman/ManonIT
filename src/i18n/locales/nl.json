@@ -239,6 +239,9 @@
       "login": "Veilig inloggen",
       "payments": "Betalingen",
       "wordpress": "WordPress"
+    },
+    "status": {
+      "inDevelopment": "In ontwikkeling"
     }
   },
   "seo": {
@@ -290,6 +293,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: een huis met een verhaal, nu ook online | Manon Keeman",
         "description": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress of maatwerk: wat past bij jouw bedrijf? | Manon Keeman",
+        "description": "Wanneer kies je WordPress en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
+      },
+      "gevonden-in-chatgpt": {
+        "title": "Gevonden worden in ChatGPT en Perplexity: wat werkt echt? | Manon Keeman",
+        "description": "Wat ik zelf deed om mijn website leesbaar en vindbaar te maken voor AI-zoekmachines, en wat ik niet kan beloven."
+      },
+      "meertalige-website": {
+        "title": "Een meertalige website laten maken: wat komt erbij kijken? | Manon Keeman",
+        "description": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Wat zit er in website-onderhoud, en heb je het nodig? | Manon Keeman",
+        "description": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer je het nodig hebt."
       }
     },
     "portfolio": {
@@ -348,6 +367,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: een huis met een verhaal, nu ook online",
         "excerpt": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress of maatwerk: wat past bij jouw bedrijf?",
+        "excerpt": "Wanneer kies je WordPress en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
+      },
+      "gevonden-in-chatgpt": {
+        "title": "Gevonden worden in ChatGPT en Perplexity: wat werkt echt?",
+        "excerpt": "Wat ik zelf deed om mijn website leesbaar en vindbaar te maken voor AI-zoekmachines, en wat ik niet kan beloven."
+      },
+      "meertalige-website": {
+        "title": "Een meertalige website laten maken: wat komt erbij kijken?",
+        "excerpt": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Wat zit er in website-onderhoud, en heb je het nodig?",
+        "excerpt": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer je het nodig hebt."
       }
     }
   },

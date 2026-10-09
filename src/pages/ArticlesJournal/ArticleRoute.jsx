@@ -15,6 +15,10 @@ const AiInMijnWerk               = lazy(() => import("./AiInMijnWerk.jsx"));
 const VerhaalAchterCasaCrew      = lazy(() => import("./VerhaalAchterCasaCrew.jsx"));
 const SamenwerkingTheBigThree    = lazy(() => import("./SamenwerkingTheBigThree.jsx"));
 const WebsiteVillaVredestein     = lazy(() => import("./WebsiteVillaVredestein.jsx"));
+const WordpressOfMaatwerk = lazy(() => import("./WordpressOfMaatwerk.jsx"));
+const GevondenInChatgpt = lazy(() => import("./GevondenInChatgpt.jsx"));
+const MeertaligeWebsite = lazy(() => import("./MeertaligeWebsite.jsx"));
+const WebsiteOnderhoud = lazy(() => import("./WebsiteOnderhoud.jsx"));
 
 function NotFound({ slug }) {
     const { t } = useTranslation();
@@ -93,6 +97,30 @@ const ARTICLE_META = {
         image: "https://manonit.com/og/project-villa-vredestein.jpg",
         words: 470,
     },
+    "wordpress-of-maatwerk": {
+        date: "2026-10-09",
+        title: "WordPress of maatwerk: wat past bij jouw bedrijf?",
+        image: "https://manonit.com/og/project-acupuncture.jpg",
+        words: 620,
+    },
+    "gevonden-in-chatgpt": {
+        date: "2026-10-09",
+        title: "Gevonden worden in ChatGPT en Perplexity: wat werkt echt?",
+        image: "https://manonit.com/og/journal-ai-in-mijn-werk.jpg",
+        words: 640,
+    },
+    "meertalige-website": {
+        date: "2026-10-09",
+        title: "Een meertalige website laten maken: wat komt erbij kijken?",
+        image: "https://manonit.com/og/project-villa-vredestein.jpg",
+        words: 560,
+    },
+    "website-onderhoud": {
+        date: "2026-10-09",
+        title: "Wat zit er in website-onderhoud, en heb je het nodig?",
+        image: "https://manonit.com/og/project-the-big-three.jpg",
+        words: 560,
+    },
 };
 
 export default function ArticleRoute() {
@@ -110,6 +138,10 @@ export default function ArticleRoute() {
         "verhaal-achter-casacrew": <VerhaalAchterCasaCrew />,
         "samenwerking-the-big-three": <SamenwerkingTheBigThree />,
         "website-villa-vredestein": <WebsiteVillaVredestein />,
+        "wordpress-of-maatwerk": <WordpressOfMaatwerk />,
+        "gevonden-in-chatgpt": <GevondenInChatgpt />,
+        "meertalige-website": <MeertaligeWebsite />,
+        "website-onderhoud": <WebsiteOnderhoud />,
     };
 
     const article = views[key];

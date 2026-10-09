@@ -71,5 +71,37 @@
     "excerpt": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk.",
     "cover": "/Portfolio/villa-vredestein-mockup-800w.avif",
     "words": 470
+  },
+  {
+    "slug": "wordpress-of-maatwerk",
+    "title": "WordPress of maatwerk: wat past bij jouw bedrijf?",
+    "date": "2026-10-09",
+    "excerpt": "Wanneer kies je WordPress en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten.",
+    "cover": "/Portfolio/acupuncture-mockup-800w.avif",
+    "words": 620
+  },
+  {
+    "slug": "gevonden-in-chatgpt",
+    "title": "Gevonden worden in ChatGPT en Perplexity: wat werkt echt?",
+    "date": "2026-10-09",
+    "excerpt": "Wat ik zelf deed om mijn website leesbaar en vindbaar te maken voor AI-zoekmachines, en wat ik niet kan beloven.",
+    "cover": "/journal/ai-in-mijn-werk-800w.avif",
+    "words": 640
+  },
+  {
+    "slug": "meertalige-website",
+    "title": "Een meertalige website laten maken: wat komt erbij kijken?",
+    "date": "2026-10-09",
+    "excerpt": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein.",
+    "cover": "/Portfolio/villa-vredestein-mockup-800w.avif",
+    "words": 560
+  },
+  {
+    "slug": "website-onderhoud",
+    "title": "Wat zit er in website-onderhoud, en heb je het nodig?",
+    "date": "2026-10-09",
+    "excerpt": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer je het nodig hebt.",
+    "cover": "/Portfolio/de-grote-drie-mockup-800w.avif",
+    "words": 560
   }
 ]

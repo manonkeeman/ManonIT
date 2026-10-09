@@ -239,6 +239,9 @@
       "login": "Secure login",
       "payments": "Payments",
       "wordpress": "WordPress"
+    },
+    "status": {
+      "inDevelopment": "In development"
     }
   },
   "seo": {
@@ -290,6 +293,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: a house with a story, now online too | Manon Keeman",
         "description": "How I translated the story of a villa from 1906 in Driebergen-Rijsenburg into a website without frills."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress or custom build: which fits your business? | Manon Keeman",
+        "description": "When to choose WordPress and when a custom website? Honest advice from my own projects."
+      },
+      "gevonden-in-chatgpt": {
+        "title": "Getting found in ChatGPT and Perplexity: what really works? | Manon Keeman",
+        "description": "What I did to make my own website readable and findable for AI search engines, and what I can't promise."
+      },
+      "meertalige-website": {
+        "title": "Getting a multilingual website: what does it involve? | Manon Keeman",
+        "description": "When does a multilingual website make sense, what does it take technically and what does it cost? With experience from Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "What does website maintenance include, and do you need it? | Manon Keeman",
+        "description": "Updates, backups, monitoring and small changes: what maintenance involves, what it costs and when you need it."
       }
     },
     "portfolio": {
@@ -348,6 +367,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: a house with a story, now online too",
         "excerpt": "How I translated the story of a villa from 1906 in Driebergen-Rijsenburg into a website without frills."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress or custom build: which fits your business?",
+        "excerpt": "When to choose WordPress and when a custom website? Honest advice from my own projects."
+      },
+      "gevonden-in-chatgpt": {
+        "title": "Getting found in ChatGPT and Perplexity: what really works?",
+        "excerpt": "What I did to make my own website readable and findable for AI search engines, and what I can't promise."
+      },
+      "meertalige-website": {
+        "title": "Getting a multilingual website: what does it involve?",
+        "excerpt": "When does a multilingual website make sense, what does it take technically and what does it cost? With experience from Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "What does website maintenance include, and do you need it?",
+        "excerpt": "Updates, backups, monitoring and small changes: what maintenance involves, what it costs and when you need it."
       }
     }
   },
