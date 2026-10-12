@@ -178,6 +178,9 @@
       "login": "Accesso sicuro",
       "payments": "Pagamenti",
       "wordpress": "WordPress"
+    },
+    "status": {
+      "inDevelopment": "In sviluppo"
     }
   },
   "seo": {
@@ -229,6 +232,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: una casa con una storia, ora anche online | Manon Keeman",
         "description": "Come ho tradotto la storia di una villa del 1906 a Driebergen-Rijsenburg in un sito senza fronzoli."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress o su misura: cosa si adatta alla tua attività? | Manon Keeman",
+        "description": "Quando scegliere WordPress e quando un sito su misura? Consigli onesti dai miei progetti."
+      },
+      "meertalige-website": {
+        "title": "Un sito multilingue: cosa bisogna sapere? | Manon Keeman",
+        "description": "Quando ha senso un sito multilingue, cosa serve tecnicamente e quanto costa? Con l'esperienza di Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Cosa comprende la manutenzione di un sito, e ti serve? | Manon Keeman",
+        "description": "Aggiornamenti, backup, monitoraggio e piccole modifiche: cosa comprende la manutenzione, quanto costa e quando ti serve."
+      },
+      "website-vakantiehuis": {
+        "title": "Un sito per la tua casa vacanze: di cosa hai bisogno? | Manon Keeman",
+        "description": "Di cosa ha bisogno un sito di affitto per una casa vacanze, con l'esperienza di Casa Reille in Abruzzo."
       }
     },
     "portfolio": {
@@ -287,6 +306,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: una casa con una storia, ora anche online",
         "excerpt": "Come ho tradotto la storia di una villa del 1906 a Driebergen-Rijsenburg in un sito senza fronzoli."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress o su misura: cosa si adatta alla tua attività?",
+        "excerpt": "Quando scegliere WordPress e quando un sito su misura? Consigli onesti dai miei progetti."
+      },
+      "meertalige-website": {
+        "title": "Un sito multilingue: cosa bisogna sapere?",
+        "excerpt": "Quando ha senso un sito multilingue, cosa serve tecnicamente e quanto costa? Con l'esperienza di Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Cosa comprende la manutenzione di un sito, e ti serve?",
+        "excerpt": "Aggiornamenti, backup, monitoraggio e piccole modifiche: cosa comprende la manutenzione, quanto costa e quando ti serve."
+      },
+      "website-vakantiehuis": {
+        "title": "Un sito per la tua casa vacanze: di cosa hai bisogno?",
+        "excerpt": "Di cosa ha bisogno un sito di affitto per una casa vacanze, con l'esperienza di Casa Reille in Abruzzo."
       }
     }
   },

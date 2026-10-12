@@ -178,6 +178,9 @@
       "login": "Inicio de sesión seguro",
       "payments": "Pagos",
       "wordpress": "WordPress"
+    },
+    "status": {
+      "inDevelopment": "En desarrollo"
     }
   },
   "seo": {
@@ -229,6 +232,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: una casa con historia, ahora también online | Manon Keeman",
         "description": "Cómo traduje la historia de una villa de 1906 en Driebergen-Rijsenburg a una web sin adornos."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress o a medida: ¿qué encaja con tu negocio? | Manon Keeman",
+        "description": "¿Cuándo elegir WordPress y cuándo una web a medida? Consejos sinceros desde mis propios proyectos."
+      },
+      "meertalige-website": {
+        "title": "Una web multilingüe: ¿qué hay que tener en cuenta? | Manon Keeman",
+        "description": "¿Cuándo tiene sentido una web multilingüe, qué requiere técnicamente y cuánto cuesta? Con la experiencia de Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "¿Qué incluye el mantenimiento de una web y lo necesitas? | Manon Keeman",
+        "description": "Actualizaciones, copias de seguridad, monitorización y pequeños cambios: qué incluye el mantenimiento, cuánto cuesta y cuándo lo necesitas."
+      },
+      "website-vakantiehuis": {
+        "title": "Una web para tu casa de vacaciones: ¿qué necesitas? | Manon Keeman",
+        "description": "Lo que necesita una web de alquiler para una casa de vacaciones, con la experiencia de Casa Reille en los Abruzos."
       }
     },
     "portfolio": {
@@ -287,6 +306,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: una casa con historia, ahora también online",
         "excerpt": "Cómo traduje la historia de una villa de 1906 en Driebergen-Rijsenburg a una web sin adornos."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress o a medida: ¿qué encaja con tu negocio?",
+        "excerpt": "¿Cuándo elegir WordPress y cuándo una web a medida? Consejos sinceros desde mis propios proyectos."
+      },
+      "meertalige-website": {
+        "title": "Una web multilingüe: ¿qué hay que tener en cuenta?",
+        "excerpt": "¿Cuándo tiene sentido una web multilingüe, qué requiere técnicamente y cuánto cuesta? Con la experiencia de Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "¿Qué incluye el mantenimiento de una web y lo necesitas?",
+        "excerpt": "Actualizaciones, copias de seguridad, monitorización y pequeños cambios: qué incluye el mantenimiento, cuánto cuesta y cuándo lo necesitas."
+      },
+      "website-vakantiehuis": {
+        "title": "Una web para tu casa de vacaciones: ¿qué necesitas?",
+        "excerpt": "Lo que necesita una web de alquiler para una casa de vacaciones, con la experiencia de Casa Reille en los Abruzos."
       }
     }
   },

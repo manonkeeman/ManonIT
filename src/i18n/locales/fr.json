@@ -178,6 +178,9 @@
       "login": "Connexion sécurisée",
       "payments": "Paiements",
       "wordpress": "WordPress"
+    },
+    "status": {
+      "inDevelopment": "En développement"
     }
   },
   "seo": {
@@ -229,6 +232,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein : une maison avec une histoire, désormais en ligne | Manon Keeman",
         "description": "Comment j'ai traduit l'histoire d'une villa de 1906 à Driebergen-Rijsenburg en un site sans fioritures."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress ou sur mesure : qu'est-ce qui convient à votre entreprise ? | Manon Keeman",
+        "description": "Quand choisir WordPress et quand un site sur mesure ? Des conseils honnêtes tirés de mes propres projets."
+      },
+      "meertalige-website": {
+        "title": "Faire créer un site multilingue : que faut-il prévoir ? | Manon Keeman",
+        "description": "Quand un site multilingue a-t-il du sens, que faut-il techniquement et combien ça coûte ? Avec l'expérience de Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Que comprend la maintenance d'un site, et en avez-vous besoin ? | Manon Keeman",
+        "description": "Mises à jour, sauvegardes, surveillance et petites modifications : ce que comprend la maintenance, ce qu'elle coûte et quand elle est nécessaire."
+      },
+      "website-vakantiehuis": {
+        "title": "Un site pour votre maison de vacances : de quoi avez-vous besoin ? | Manon Keeman",
+        "description": "Ce dont un site de location de maison de vacances a besoin, avec l'expérience de Casa Reille dans les Abruzzes."
       }
     },
     "portfolio": {
@@ -287,6 +306,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein : une maison avec une histoire, désormais en ligne",
         "excerpt": "Comment j'ai traduit l'histoire d'une villa de 1906 à Driebergen-Rijsenburg en un site sans fioritures."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress ou sur mesure : qu'est-ce qui convient à votre entreprise ?",
+        "excerpt": "Quand choisir WordPress et quand un site sur mesure ? Des conseils honnêtes tirés de mes propres projets."
+      },
+      "meertalige-website": {
+        "title": "Faire créer un site multilingue : que faut-il prévoir ?",
+        "excerpt": "Quand un site multilingue a-t-il du sens, que faut-il techniquement et combien ça coûte ? Avec l'expérience de Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Que comprend la maintenance d'un site, et en avez-vous besoin ?",
+        "excerpt": "Mises à jour, sauvegardes, surveillance et petites modifications : ce que comprend la maintenance, ce qu'elle coûte et quand elle est nécessaire."
+      },
+      "website-vakantiehuis": {
+        "title": "Un site pour votre maison de vacances : de quoi avez-vous besoin ?",
+        "excerpt": "Ce dont un site de location de maison de vacances a besoin, avec l'expérience de Casa Reille dans les Abruzzes."
       }
     }
   },

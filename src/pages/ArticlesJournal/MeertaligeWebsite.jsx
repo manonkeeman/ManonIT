@@ -133,6 +133,389 @@ const content = {
             </>
         ),
     },
+    fr: {
+        title: "Faire créer un site multilingue : que faut-il prévoir ?",
+        date: "2026-10-09",
+        dateLabel: "9 octobre 2026",
+        minutes: 4,
+        shareText: "Que faut-il prévoir pour un site multilingue ? Mon expérience avec Villa Vredestein en six langues.",
+        Body: () => (
+            <>
+                <p className="lead">
+                    Un site en plusieurs langues semble grand, mais pour beaucoup de petites
+                    entreprises, c'est à portée de main. Mon propre site existe en sept langues, et
+                    celui de Villa Vredestein en six. Voici ce que j'en ai appris.
+                </p>
+
+                <h2>En avez-vous vraiment besoin ?</h2>
+
+                <p>
+                    Commencez par vous demander qui sont vos visiteurs. Louez-vous une maison de
+                    vacances à des Allemands ou des Français ? Alors un site dans leur langue
+                    fonctionne bien mieux que l'anglais seul. Avez-vous une entreprise locale pour
+                    des clients néerlandais ? Alors une langue suffit et vous économisez de l'argent
+                    et de l'entretien.
+                </p>
+
+                <h2>Le côté technique</h2>
+
+                <ul>
+                    <li>Une URL propre à chaque langue, par exemple <code>/en/about</code>, pour que Google trouve chaque version.</li>
+                    <li>Des balises hreflang, pour que les moteurs de recherche sachent quelle version convient à quel visiteur.</li>
+                    <li>Un choix de langue sur le site lui-même, qui est mémorisé.</li>
+                    <li>Des titres et descriptions traduits, pas seulement des pages traduites.</li>
+                </ul>
+
+                <p>
+                    Une erreur fréquente est de ne traduire que le texte visible. Le titre dans
+                    Google reste alors en néerlandais et le visiteur étranger n'arrive jamais sur
+                    votre page.
+                </p>
+
+                <h2>Traduire : ce que fait l'IA, ce que je fais</h2>
+
+                <p>
+                    L'IA fait la première traduction et fait gagner beaucoup de temps. Ensuite, je
+                    vérifie le ton et les termes spécialisés. Pour une maison de vacances ou un
+                    cabinet, cette différence compte : un texte doit sonner chaleureux et naturel,
+                    pas comme une machine à traduire. Si vous ne maîtrisez pas une langue, faites
+                    toujours relire par un locuteur natif.
+                </p>
+
+                <h2>Ce que ça coûte</h2>
+
+                <p>
+                    Chaque langue supplémentaire signifie plus de texte à traduire, à vérifier et à
+                    tenir à jour. C'est pourquoi j'inclus le multilinguisme dans le devis, en
+                    général pour du sur mesure complet ou un site avec CMS. Une deuxième langue
+                    reste simple. Six langues demandent une vraie structure. Mes tarifs sont sur la
+                    <Link to="/#tarieven">page d'accueil</Link>.
+                </p>
+
+                <h2>L'exemple de Villa Vredestein</h2>
+
+                <p>
+                    Villa Vredestein, à Driebergen, accueille des hôtes de plusieurs pays, c'est
+                    pourquoi son site existe en six langues. Lisez l'histoire dans <Link
+                    to="/journal/website-villa-vredestein">Villa Vredestein : une maison avec une
+                    histoire</Link> ou voyez le <Link to="/frontendvredestein">projet</Link>.
+                </p>
+
+                <h2>Mon conseil</h2>
+
+                <p>
+                    Commencez par la langue de votre groupe de visiteurs le plus important,
+                    faites-le bien, puis ajoutez des langues quand vous voyez qu'il y a une demande.
+                    Une demi-traduction est pire que pas de traduction.
+                </p>
+            </>
+        ),
+    },
+    de: {
+        title: "Eine mehrsprachige Website erstellen lassen: Was gehört dazu?",
+        date: "2026-10-09",
+        dateLabel: "9. Oktober 2026",
+        minutes: 4,
+        shareText: "Was gehört zu einer mehrsprachigen Website? Meine Erfahrung mit der Villa Vredestein in sechs Sprachen.",
+        Body: () => (
+            <>
+                <p className="lead">
+                    Eine Website in mehreren Sprachen klingt groß, ist für viele kleine Unternehmen
+                    aber machbar. Meine eigene Seite gibt es in sieben Sprachen, die der Villa
+                    Vredestein in sechs. Das habe ich dabei gelernt.
+                </p>
+
+                <h2>Brauchen Sie das wirklich?</h2>
+
+                <p>
+                    Fragen Sie sich zuerst, wer Ihre Besucher sind. Vermieten Sie ein Ferienhaus an
+                    Deutsche oder Franzosen? Dann funktioniert eine Seite in deren Sprache viel
+                    besser als nur Englisch. Haben Sie ein lokales Unternehmen für niederländische
+                    Kunden? Dann reicht eine Sprache und Sie sparen Geld und Pflegeaufwand.
+                </p>
+
+                <h2>Die technische Seite</h2>
+
+                <ul>
+                    <li>Eine eigene URL pro Sprache, zum Beispiel <code>/en/about</code>, damit Google jede Version finden kann.</li>
+                    <li>Hreflang-Tags, damit Suchmaschinen wissen, welche Sprachversion zu welchem Besucher passt.</li>
+                    <li>Eine Sprachauswahl auf der Seite selbst, die gemerkt wird.</li>
+                    <li>Übersetzte Titel und Beschreibungen, nicht nur übersetzte Seiten.</li>
+                </ul>
+
+                <p>
+                    Ein häufiger Fehler ist, nur den sichtbaren Text zu übersetzen. Dann bleibt der
+                    Titel in Google niederländisch und der ausländische Besucher landet nie auf
+                    Ihrer Seite.
+                </p>
+
+                <h2>Übersetzen: Was die KI macht, was ich mache</h2>
+
+                <p>
+                    Die KI liefert die erste Übersetzung und spart viel Zeit. Danach prüfe ich Ton
+                    und Fachbegriffe. Bei einem Ferienhaus oder einer Praxis ist dieser Unterschied
+                    wichtig: Ein Text soll warm und natürlich klingen, nicht wie eine
+                    Übersetzungsmaschine. Sprechen Sie eine Sprache selbst nicht, lassen Sie immer
+                    einen Muttersprachler mitlesen.
+                </p>
+
+                <h2>Was es kostet</h2>
+
+                <p>
+                    Jede zusätzliche Sprache bedeutet mehr Text, der übersetzt, geprüft und später
+                    aktuell gehalten werden muss. Deshalb rechne ich Mehrsprachigkeit im Angebot
+                    mit, meist bei kompletter Maßanfertigung oder einer Seite mit CMS. Eine zweite
+                    Sprache ist überschaubar. Sechs Sprachen brauchen einen guten Aufbau. Meine
+                    Preise stehen auf der <Link to="/#tarieven">Startseite</Link>.
+                </p>
+
+                <h2>Das Beispiel Villa Vredestein</h2>
+
+                <p>
+                    Die Villa Vredestein in Driebergen hat Gäste aus mehreren Ländern, deshalb läuft
+                    ihre Website in sechs Sprachen. Lesen Sie die Geschichte in <Link
+                    to="/journal/website-villa-vredestein">Villa Vredestein: ein Haus mit
+                    Geschichte</Link> oder sehen Sie sich das <Link
+                    to="/frontendvredestein">Projekt</Link> an.
+                </p>
+
+                <h2>Mein Rat</h2>
+
+                <p>
+                    Beginnen Sie mit der Sprache Ihrer wichtigsten Besuchergruppe, machen Sie sie
+                    gut, und ergänzen Sie später Sprachen, wenn Sie Nachfrage sehen. Eine halbe
+                    Übersetzung ist schlechter als keine.
+                </p>
+            </>
+        ),
+    },
+    es: {
+        title: "Una web multilingüe: ¿qué hay que tener en cuenta?",
+        date: "2026-10-09",
+        dateLabel: "9 de octubre de 2026",
+        minutes: 4,
+        shareText: "¿Qué implica una web multilingüe? Mi experiencia con Villa Vredestein en seis idiomas.",
+        Body: () => (
+            <>
+                <p className="lead">
+                    Una web en varios idiomas suena grande, pero para muchas pequeñas empresas está
+                    al alcance. Mi propia web está en siete idiomas, y la de Villa Vredestein en
+                    seis. Esto es lo que aprendí.
+                </p>
+
+                <h2>¿Lo necesitas de verdad?</h2>
+
+                <p>
+                    Empieza preguntándote quiénes son tus visitantes. ¿Alquilas una casa de
+                    vacaciones a alemanes o franceses? Entonces una web en su idioma funciona mucho
+                    mejor que solo en inglés. ¿Tienes un negocio local para clientes neerlandeses?
+                    Entonces con un idioma basta y ahorras dinero y mantenimiento.
+                </p>
+
+                <h2>El lado técnico</h2>
+
+                <ul>
+                    <li>Una URL propia por idioma, por ejemplo <code>/en/about</code>, para que Google pueda encontrar cada versión.</li>
+                    <li>Etiquetas hreflang, para que los buscadores sepan qué versión corresponde a cada visitante.</li>
+                    <li>Un selector de idioma en la propia web, que recuerde la elección.</li>
+                    <li>Títulos y descripciones traducidos, no solo páginas traducidas.</li>
+                </ul>
+
+                <p>
+                    Un error habitual es traducir solo el texto visible. Entonces el título en
+                    Google sigue en neerlandés y el visitante extranjero nunca llega a tu página.
+                </p>
+
+                <h2>Traducir: qué hace la IA, qué hago yo</h2>
+
+                <p>
+                    La IA hace la primera traducción y ahorra mucho tiempo. Después reviso el tono y
+                    los términos técnicos. Para una casa de vacaciones o una consulta esa diferencia
+                    importa: un texto debe sonar cálido y natural, no como una máquina de traducir.
+                    Si no hablas un idioma, pide siempre que lo lea un hablante nativo.
+                </p>
+
+                <h2>Cuánto cuesta</h2>
+
+                <p>
+                    Cada idioma extra significa más texto que traducir, revisar y mantener al día.
+                    Por eso incluyo la multilingüidad en el presupuesto, normalmente en proyectos a
+                    medida o con CMS. Un segundo idioma es manejable. Seis idiomas requieren una
+                    buena estructura. Mis tarifas están en la <Link to="/#tarieven">página de
+                    inicio</Link>.
+                </p>
+
+                <h2>El ejemplo de Villa Vredestein</h2>
+
+                <p>
+                    Villa Vredestein, en Driebergen, recibe huéspedes de varios países, por eso su
+                    web está en seis idiomas. Lee la historia en <Link
+                    to="/journal/website-villa-vredestein">Villa Vredestein: una casa con
+                    historia</Link> o mira el <Link to="/frontendvredestein">proyecto</Link>.
+                </p>
+
+                <h2>Mi consejo</h2>
+
+                <p>
+                    Empieza con el idioma de tu grupo de visitantes más importante, hazlo bien y
+                    añade idiomas después, cuando veas que hay demanda. Una traducción a medias es
+                    peor que ninguna.
+                </p>
+            </>
+        ),
+    },
+    it: {
+        title: "Un sito multilingue: cosa bisogna sapere?",
+        date: "2026-10-09",
+        dateLabel: "9 ottobre 2026",
+        minutes: 4,
+        shareText: "Cosa comporta un sito multilingue? La mia esperienza con Villa Vredestein in sei lingue.",
+        Body: () => (
+            <>
+                <p className="lead">
+                    Un sito in più lingue sembra grande, ma per molte piccole imprese è alla
+                    portata. Il mio sito è in sette lingue, e quello di Villa Vredestein in sei.
+                    Ecco cosa ho imparato.
+                </p>
+
+                <h2>Ti serve davvero?</h2>
+
+                <p>
+                    Parti chiedendoti chi sono i tuoi visitatori. Affitti una casa vacanze a
+                    tedeschi o francesi? Allora un sito nella loro lingua funziona molto meglio del
+                    solo inglese. Hai un'attività locale per clienti olandesi? Allora una lingua
+                    basta e risparmi denaro e manutenzione.
+                </p>
+
+                <h2>Il lato tecnico</h2>
+
+                <ul>
+                    <li>Un URL proprio per ogni lingua, per esempio <code>/en/about</code>, così Google può trovare ogni versione.</li>
+                    <li>Tag hreflang, così i motori di ricerca sanno quale versione è adatta a quale visitatore.</li>
+                    <li>Una scelta della lingua sul sito stesso, che viene ricordata.</li>
+                    <li>Titoli e descrizioni tradotti, non solo pagine tradotte.</li>
+                </ul>
+
+                <p>
+                    Un errore frequente è tradurre solo il testo visibile. Allora il titolo su
+                    Google resta in olandese e il visitatore straniero non arriva mai alla tua
+                    pagina.
+                </p>
+
+                <h2>Tradurre: cosa fa l'IA, cosa faccio io</h2>
+
+                <p>
+                    L'IA fa la prima traduzione e fa risparmiare molto tempo. Poi controllo tono e
+                    termini tecnici. Per una casa vacanze o uno studio questa differenza conta: un
+                    testo deve suonare caldo e naturale, non come una macchina traduttrice. Se non
+                    conosci una lingua, fai sempre leggere il testo a un madrelingua.
+                </p>
+
+                <h2>Quanto costa</h2>
+
+                <p>
+                    Ogni lingua in più significa più testo da tradurre, controllare e tenere
+                    aggiornato. Per questo includo il multilinguismo nel preventivo, di solito con
+                    un su misura completo o un sito con CMS. Una seconda lingua è gestibile. Sei
+                    lingue richiedono una buona impostazione. Le mie tariffe sono nella <Link
+                    to="/#tarieven">home page</Link>.
+                </p>
+
+                <h2>L'esempio di Villa Vredestein</h2>
+
+                <p>
+                    Villa Vredestein a Driebergen ospita ospiti da più paesi, ecco perché il suo
+                    sito è in sei lingue. Leggi la storia in <Link
+                    to="/journal/website-villa-vredestein">Villa Vredestein: una casa con una
+                    storia</Link> o guarda il <Link to="/frontendvredestein">progetto</Link>.
+                </p>
+
+                <h2>Il mio consiglio</h2>
+
+                <p>
+                    Parti dalla lingua del tuo gruppo di visitatori più importante, falla bene e
+                    aggiungi lingue più avanti, quando vedi che c'è richiesta. Una traduzione a metà
+                    è peggio di nessuna.
+                </p>
+            </>
+        ),
+    },
+    uk: {
+        title: "Багатомовний сайт: що потрібно врахувати?",
+        date: "2026-10-09",
+        dateLabel: "9 жовтня 2026",
+        minutes: 4,
+        shareText: "Що потрібно для багатомовного сайту? Мій досвід із Villa Vredestein шістьма мовами.",
+        Body: () => (
+            <>
+                <p className="lead">
+                    Сайт кількома мовами звучить масштабно, але для багатьох малих компаній це
+                    цілком реально. Мій власний сайт існує сімома мовами, а сайт Villa Vredestein —
+                    шістьма. Ось що я зрозуміла.
+                </p>
+
+                <h2>Чи справді він вам потрібен?</h2>
+
+                <p>
+                    Почніть із запитання, хто ваші відвідувачі. Ви здаєте будинок для відпочинку
+                    німцям чи французам? Тоді сайт їхньою мовою працює набагато краще, ніж лише
+                    англійською. Маєте місцевий бізнес для нідерландських клієнтів? Тоді вистачить
+                    однієї мови, і ви заощадите гроші та зусилля на підтримку.
+                </p>
+
+                <h2>Технічна сторона</h2>
+
+                <ul>
+                    <li>Окрема URL-адреса для кожної мови, наприклад <code>/en/about</code>, щоб Google міг знайти кожну версію.</li>
+                    <li>Теги hreflang, щоб пошукові системи знали, яка мовна версія підходить якому відвідувачеві.</li>
+                    <li>Вибір мови на самому сайті, який запам'ятовується.</li>
+                    <li>Перекладені заголовки та описи, а не лише перекладені сторінки.</li>
+                </ul>
+
+                <p>
+                    Часта помилка — перекладати лише видимий текст. Тоді заголовок у Google
+                    лишається нідерландським, і іноземний відвідувач ніколи не потрапляє на вашу
+                    сторінку.
+                </p>
+
+                <h2>Переклад: що робить ШІ, а що я</h2>
+
+                <p>
+                    ШІ робить перший переклад і заощаджує багато часу. Потім я перевіряю тон і
+                    професійні терміни. Для будинку відпочинку чи кабінету ця різниця важлива: текст
+                    має звучати тепло й природно, а не як машинний переклад. Якщо ви самі не знаєте
+                    мови, завжди просіть носія прочитати текст.
+                </p>
+
+                <h2>Скільки це коштує</h2>
+
+                <p>
+                    Кожна додаткова мова — це більше тексту, який треба перекласти, перевірити й
+                    пізніше підтримувати. Тому я враховую багатомовність у пропозиції, зазвичай для
+                    повністю індивідуальних проєктів або сайтів із CMS. Друга мова — це зрозуміло й
+                    керовано. Шість мов потребують продуманої структури. Мої тарифи — на <Link
+                    to="/#tarieven">головній сторінці</Link>.
+                </p>
+
+                <h2>Приклад Villa Vredestein</h2>
+
+                <p>
+                    Villa Vredestein у Дрібергені приймає гостей із кількох країн, тому її сайт
+                    шістьма мовами. Прочитайте історію в <Link
+                    to="/journal/website-villa-vredestein">Villa Vredestein: дім з історією</Link>
+                    або подивіться <Link to="/frontendvredestein">проєкт</Link>.
+                </p>
+
+                <h2>Моя порада</h2>
+
+                <p>
+                    Почніть із мови вашої найважливішої групи відвідувачів, зробіть це добре, а інші
+                    мови додайте згодом, коли побачите попит. Половинчастий переклад гірший, ніж
+                    жодного.
+                </p>
+            </>
+        ),
+    },
 };
 
 export default function MeertaligeWebsite() {

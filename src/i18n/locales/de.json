@@ -178,6 +178,9 @@
       "login": "Sicherer Login",
       "payments": "Zahlungen",
       "wordpress": "WordPress"
+    },
+    "status": {
+      "inDevelopment": "In Entwicklung"
     }
   },
   "seo": {
@@ -229,6 +232,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: ein Haus mit Geschichte, jetzt auch online | Manon Keeman",
         "description": "Wie ich die Geschichte einer Villa von 1906 in Driebergen-Rijsenburg in eine Website ohne Schnickschnack übersetzt habe."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress oder Maßanfertigung: Was passt zu Ihrem Unternehmen? | Manon Keeman",
+        "description": "Wann WordPress und wann eine maßgeschneiderte Website? Ehrliche Beratung aus meinen eigenen Projekten."
+      },
+      "meertalige-website": {
+        "title": "Eine mehrsprachige Website erstellen lassen: Was gehört dazu? | Manon Keeman",
+        "description": "Wann ist eine mehrsprachige Website sinnvoll, was braucht sie technisch und was kostet sie? Mit Erfahrung aus der Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Was gehört zur Website-Wartung, und brauchen Sie sie? | Manon Keeman",
+        "description": "Updates, Backups, Monitoring und kleine Anpassungen: was Wartung umfasst, was sie kostet und wann Sie sie brauchen."
+      },
+      "website-vakantiehuis": {
+        "title": "Eine Website für Ihr Ferienhaus: Was brauchen Sie? | Manon Keeman",
+        "description": "Was eine Vermietungs-Website für ein Ferienhaus braucht, mit der Erfahrung von Casa Reille in den Abruzzen."
       }
     },
     "portfolio": {
@@ -287,6 +306,22 @@
       "website-villa-vredestein": {
         "title": "Villa Vredestein: ein Haus mit Geschichte, jetzt auch online",
         "excerpt": "Wie ich die Geschichte einer Villa von 1906 in Driebergen-Rijsenburg in eine Website ohne Schnickschnack übersetzt habe."
+      },
+      "wordpress-of-maatwerk": {
+        "title": "WordPress oder Maßanfertigung: Was passt zu Ihrem Unternehmen?",
+        "excerpt": "Wann WordPress und wann eine maßgeschneiderte Website? Ehrliche Beratung aus meinen eigenen Projekten."
+      },
+      "meertalige-website": {
+        "title": "Eine mehrsprachige Website erstellen lassen: Was gehört dazu?",
+        "excerpt": "Wann ist eine mehrsprachige Website sinnvoll, was braucht sie technisch und was kostet sie? Mit Erfahrung aus der Villa Vredestein."
+      },
+      "website-onderhoud": {
+        "title": "Was gehört zur Website-Wartung, und brauchen Sie sie?",
+        "excerpt": "Updates, Backups, Monitoring und kleine Anpassungen: was Wartung umfasst, was sie kostet und wann Sie sie brauchen."
+      },
+      "website-vakantiehuis": {
+        "title": "Eine Website für Ihr Ferienhaus: Was brauchen Sie?",
+        "excerpt": "Was eine Vermietungs-Website für ein Ferienhaus braucht, mit der Erfahrung von Casa Reille in den Abruzzen."
       }
     }
   },
