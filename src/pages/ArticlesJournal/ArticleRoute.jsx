@@ -17,6 +17,7 @@ const WebsiteVakantiehuis = lazy(() => import("./WebsiteVakantiehuis.jsx"));
 const MeertaligeWebsite = lazy(() => import("./MeertaligeWebsite.jsx"));
 const WebsiteOnderhoud = lazy(() => import("./WebsiteOnderhoud.jsx"));
 const PhishingBeveiliging = lazy(() => import("./PhishingBeveiliging.jsx"));
+const VerhaalAcupunctureSaskia = lazy(() => import("./VerhaalAcupunctureSaskia.jsx"));
 
 function NotFound({ slug }) {
     const { t } = useTranslation();
@@ -79,8 +80,8 @@ const ARTICLE_META = {
     },
     "wordpress-of-maatwerk": {
         date: "2026-10-09",
-        title: "WordPress of maatwerk: wat past bij het bedrijf?",
-        image: "https://manonit.com/og/project-acupuncture.jpg",
+        title: "WordPress of maatwerk? Altijd maatwerk, als abonnement of als pakket",
+        image: "https://manonit.com/og/journal-maatwerk.jpg",
         words: 620,
     },
     "website-vakantiehuis": {
@@ -92,19 +93,25 @@ const ARTICLE_META = {
     "meertalige-website": {
         date: "2026-10-09",
         title: "Een meertalige website laten maken: wat komt erbij kijken?",
-        image: "https://manonit.com/og/project-villa-vredestein.jpg",
+        image: "https://manonit.com/og/journal-meertalig.jpg",
         words: 560,
     },
     "website-onderhoud": {
         date: "2026-10-09",
         title: "Wat zit er in website-onderhoud, en is het nodig?",
-        image: "https://manonit.com/og/project-the-big-three.jpg",
+        image: "https://manonit.com/og/journal-onderhoud.jpg",
         words: 560,
+    },
+    "verhaal-acupuncture-by-saskia": {
+        date: "2026-10-16",
+        title: "Het verhaal van Acupuncture by Saskia: van bestaande website naar goedlopende praktijk",
+        image: "https://manonit.com/og/project-acupuncture.jpg",
+        words: 330,
     },
     "phishing-en-beveiliging": {
         date: "2026-10-16",
         title: "Phishing herkennen: zo blijven website en mailbox veilig",
-        image: "https://manonit.com/og/project-villa-vredestein.jpg",
+        image: "https://manonit.com/og/journal-phishing.jpg",
         words: 520,
     },
 };
@@ -126,6 +133,7 @@ export default function ArticleRoute() {
         "meertalige-website": <MeertaligeWebsite />,
         "website-onderhoud": <WebsiteOnderhoud />,
         "phishing-en-beveiliging": <PhishingBeveiliging />,
+        "verhaal-acupuncture-by-saskia": <VerhaalAcupunctureSaskia />,
     };
 
     const article = views[key];

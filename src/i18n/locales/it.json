@@ -25,7 +25,8 @@
         "website-vakantiehuis": "Un sito per una casa vacanze",
         "meertalige-website": "Un sito multilingue",
         "website-onderhoud": "Cosa include la manutenzione",
-        "phishing-en-beveiliging": "Phishing e sicurezza"
+        "phishing-en-beveiliging": "Phishing e sicurezza",
+        "verhaal-acupuncture-by-saskia": "La storia di Acupuncture by Saskia"
       }
     },
     "services": "Servizi",
@@ -234,7 +235,7 @@
         "description": "Costruire più velocemente, in più lingue e visibili in ChatGPT e Claude. Così uso l'IA per i miei clienti, e dove no."
       },
       "verhaal-achter-casacrew": {
-        "title": "Dal foglio Excel alla propria app: la storia di CasaCrew | Manon Keeman",
+        "title": "Dal foglio Excel alla propria app: la storia di CasaCrew",
         "description": "Come un foglio Excel strapieno a Villa Vredestein è diventato CasaCrew, un'app per chi affitta stanze."
       },
       "samenwerking-the-big-three": {
@@ -242,28 +243,32 @@
         "description": "Cosa succede quando un cliente ti lascia spazio: il sito di The Big Three, officina di auto americane a Nunspeet."
       },
       "website-villa-vredestein": {
-        "title": "Villa Vredestein: una casa con una storia, ora anche online | Manon Keeman",
+        "title": "Villa Vredestein: una casa con una storia, ora anche online",
         "description": "Come ho tradotto la storia di una villa del 1906 a Driebergen-Rijsenburg in un sito senza fronzoli."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress o su misura: cosa si adatta alla tua attività? | Manon Keeman",
-        "description": "Quando scegliere WordPress e quando un sito su misura? Consigli onesti dai miei progetti."
+        "title": "WordPress o su misura? Sempre su misura, in abbonamento o come pacchetto",
+        "description": "Sempre su misura: scegliere tra abbonamento e pacchetto unico, e la tecnologia adatta."
       },
       "meertalige-website": {
         "title": "Un sito multilingue: cosa bisogna sapere? | Manon Keeman",
         "description": "Quando ha senso un sito multilingue, cosa serve tecnicamente e quanto costa? Con l'esperienza di Villa Vredestein."
       },
       "website-onderhoud": {
-        "title": "Cosa comprende la manutenzione di un sito, e ti serve? | Manon Keeman",
+        "title": "Cosa comprende la manutenzione di un sito, e ti serve?",
         "description": "Aggiornamenti, backup, monitoraggio e piccole modifiche: cosa comprende la manutenzione, quanto costa e quando ti serve."
       },
       "website-vakantiehuis": {
-        "title": "Un sito per la tua casa vacanze: di cosa hai bisogno? | Manon Keeman",
+        "title": "Un sito per la tua casa vacanze: di cosa hai bisogno?",
         "description": "Di cosa ha bisogno un sito di affitto per una casa vacanze, con l'esperienza di Casa Reille in Abruzzo."
       },
       "phishing-en-beveiliging": {
-        "title": "Riconoscere il phishing: come tenere al sicuro sito web e posta | Manon Keeman",
+        "title": "Riconoscere il phishing: come tenere al sicuro sito web e posta",
         "description": "Come riconoscere le e-mail false e cosa faccio per proteggere siti come Villa Vredestein e The Big Three."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "La storia di Acupuncture by Saskia | Manon Keeman",
+        "description": "Come una conversazione tra colleghi in KLM ha portato a testi migliori, più visibilità e un sito WordPress per uno studio di agopuntura."
       }
     },
     "portfolio": {
@@ -328,8 +333,8 @@
         "excerpt": "Come ho tradotto la storia di una villa del 1906 a Driebergen-Rijsenburg in un sito senza fronzoli."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress o su misura: cosa si adatta alla tua attività?",
-        "excerpt": "Quando scegliere WordPress e quando un sito su misura? Consigli onesti dai miei progetti."
+        "title": "WordPress o su misura? Sempre su misura, in abbonamento o come pacchetto",
+        "excerpt": "Sempre su misura: scegliere tra abbonamento e pacchetto unico, e la tecnologia adatta."
       },
       "meertalige-website": {
         "title": "Un sito multilingue: cosa bisogna sapere?",
@@ -346,6 +351,10 @@
       "phishing-en-beveiliging": {
         "title": "Riconoscere il phishing: come tenere al sicuro sito web e posta",
         "excerpt": "Come riconoscere le e-mail false e cosa faccio per proteggere siti come Villa Vredestein e The Big Three."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "La storia di Acupuncture by Saskia: da un sito esistente a uno studio che funziona",
+        "excerpt": "Come una conversazione tra colleghi in KLM ha portato a testi migliori, più visibilità e un sito WordPress per uno studio di agopuntura."
       }
     }
   },
@@ -595,7 +604,6 @@
     ],
     "sketchTitle": "Prima vedi, poi scegli",
     "sketch": "Dopo il colloquio di conoscenza realizzo gratuitamente uno schizzo della tua home page: come potrebbe apparire il tuo sito. Vedi cosa ottieni prima di decidere, senza alcun impegno.",
-    "byline": "Design, testi e realizzazione da una sola persona, senza passaggi di consegne. Formata alla Gerrit Rietveld Academie, al SAE Institute e alla Schrijversacademie (scuola di scrittura), poi riqualificata come sviluppatrice Full Stack.",
     "more": "Ti serve di più, come un'app web con login e database (come CasaCrew), un negozio online o una soluzione su misura? Guarda i prezzi per progetto qui sotto."
   },
   "faq": {

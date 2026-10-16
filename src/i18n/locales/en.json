@@ -25,7 +25,8 @@
         "website-vakantiehuis": "A website for a holiday home",
         "meertalige-website": "A multilingual website",
         "website-onderhoud": "What website maintenance includes",
-        "phishing-en-beveiliging": "Phishing and security"
+        "phishing-en-beveiliging": "Phishing and security",
+        "verhaal-acupuncture-by-saskia": "The story of Acupuncture by Saskia"
       }
     },
     "services": "Services",
@@ -299,32 +300,36 @@
         "description": "How I built my niece Marie's website: sweet on the outside, thoughtful on the inside."
       },
       "samenwerking-the-big-three": {
-        "title": "Freedom and trust: building a website for The Big Three | Manon Keeman",
+        "title": "Freedom and trust: building a website for The Big Three",
         "description": "What happens when a client gives you room to work: the website for The Big Three, an American car garage in Nunspeet."
       },
       "website-villa-vredestein": {
-        "title": "Villa Vredestein: a house with a story, now online too | Manon Keeman",
+        "title": "Villa Vredestein: a house with a story, now online too",
         "description": "How I translated the story of a villa from 1906 in Driebergen-Rijsenburg into a website without frills."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress or custom build: which fits your business? | Manon Keeman",
-        "description": "When to choose WordPress and when a custom website? Honest advice from my own projects."
+        "title": "WordPress or custom? Always custom, as a subscription or a package",
+        "description": "Always custom: choosing between a subscription and a one-off package, and which technology fits."
       },
       "website-vakantiehuis": {
         "title": "A website for your holiday home: what do you need? | Manon Keeman",
         "description": "What a holiday home website needs, with the experience of Casa Reille in Abruzzo."
       },
       "meertalige-website": {
-        "title": "Getting a multilingual website: what does it involve? | Manon Keeman",
+        "title": "Getting a multilingual website: what does it involve?",
         "description": "When does a multilingual website make sense, what does it take technically and what does it cost? With experience from Villa Vredestein."
       },
       "website-onderhoud": {
-        "title": "What does website maintenance include, and do you need it? | Manon Keeman",
+        "title": "What does website maintenance include, and do you need it?",
         "description": "Updates, backups, monitoring and small changes: what maintenance involves, what it costs and when you need it."
       },
       "phishing-en-beveiliging": {
-        "title": "Spotting phishing: how to keep a website and mailbox safe | Manon Keeman",
+        "title": "Spotting phishing: how to keep a website and mailbox safe",
         "description": "How to recognise fake emails and what I do to keep websites like Villa Vredestein and The Big Three safe."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "The story of Acupuncture by Saskia | Manon Keeman",
+        "description": "How a conversation between colleagues at KLM led to better copy, findability and a WordPress site for an acupuncture practice."
       }
     },
     "portfolio": {
@@ -389,8 +394,8 @@
         "excerpt": "How I translated the story of a villa from 1906 in Driebergen-Rijsenburg into a website without frills."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress or custom build: which fits your business?",
-        "excerpt": "When to choose WordPress and when a custom website? Honest advice from my own projects."
+        "title": "WordPress or custom? Always custom, as a subscription or a package",
+        "excerpt": "Always custom: choosing between a subscription and a one-off package, and which technology fits."
       },
       "website-vakantiehuis": {
         "title": "A website for your holiday home: what do you need?",
@@ -407,6 +412,10 @@
       "phishing-en-beveiliging": {
         "title": "Spotting phishing: how to keep a website and mailbox safe",
         "excerpt": "How to recognise fake emails and what I do to keep websites like Villa Vredestein and The Big Three safe."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "The story of Acupuncture by Saskia: from an existing website to a thriving practice",
+        "excerpt": "How a conversation between colleagues at KLM led to better copy, findability and a WordPress site for an acupuncture practice."
       }
     }
   },
@@ -595,7 +604,6 @@
     ],
     "sketchTitle": "See first, then choose",
     "sketch": "After the intro call I make a free sketch of your homepage: how your site could look. You see what you get before you decide anything, and you're not committed to anything.",
-    "byline": "Design, copy and build by one person, no handover. Trained at the Gerrit Rietveld Academie, SAE Institute and the Schrijversacademie (writing school), and retrained as a Full Stack Developer.",
     "more": "Need more, such as a web app with login and database (like CasaCrew), a web shop or fully custom work? See the project prices below."
   },
   "faq": {

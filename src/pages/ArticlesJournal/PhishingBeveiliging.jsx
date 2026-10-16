@@ -537,8 +537,8 @@ export default function PhishingBeveiliging() {
     return (
         <BlogArticle
             id="phishing-en-beveiliging"
-            cover="/Portfolio/villa-vredestein-mockup"
-            coverAlt="Website Villa Vredestein op desktop en mobiel"
+            cover="/journal/blog-phishing"
+            coverAlt="Illustratie: een e-mail aan een vishaak naast een schild met vinkje"
             coverHeight={800}
             content={content}
         />

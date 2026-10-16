@@ -522,8 +522,8 @@ export default function MeertaligeWebsite() {
     return (
         <BlogArticle
             id="meertalige-website"
-            cover="/Portfolio/villa-vredestein-mockup"
-            coverAlt="Meertalige website Villa Vredestein op desktop en mobiel"
+            cover="/journal/blog-meertalig"
+            coverAlt="Illustratie: een wereldbol omringd door begroetingen in meerdere talen"
             coverHeight={800}
             content={content}
         />

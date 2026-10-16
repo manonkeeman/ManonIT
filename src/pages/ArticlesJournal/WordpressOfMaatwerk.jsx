@@ -3,559 +3,474 @@ import BlogArticle from "./BlogArticle.jsx";
 
 const content = {
     nl: {
-        title: "WordPress of maatwerk: wat past bij het bedrijf?",
+        title: "WordPress of maatwerk? Altijd maatwerk, als abonnement of als pakket",
         date: "2026-10-09",
         dateLabel: "9 oktober 2026",
         minutes: 4,
-        shareText: "WordPress of een maatwerk website? Zo kies je, vanuit mijn eigen ervaring met beide.",
+        shareText: "WordPress of maatwerk? Bij ManonIT is het altijd maatwerk. De keuze zit in hoe het wordt betaald.",
         Body: () => (
             <>
                 <p className="lead">
-                    Bijna elke ondernemer die een website wil, stelt me dezelfde vraag: moet het WordPress
-                    worden, of iets op maat? Het eerlijke antwoord is dat beide goed kunnen zijn. Het hangt af
-                    van wat je site moet doen.
+                    De vraag 'WordPress of maatwerk?' hoort bij een oude tegenstelling. Elke website van ManonIT
+                    is maatwerk: een eigen ontwerp, eigen teksten, gebouwd voor één opdrachtgever. De keuze die
+                    er echt toe doet, is een andere: hoe wordt de site betaald, en welke techniek past erbij.
                 </p>
 
-                <h2>Wanneer WordPress een goede keuze is</h2>
+                <h2>Altijd maatwerk</h2>
                 <p>
-                    Voor de meeste zzp'ers en kleine bedrijven werkt WordPress prima. Je site bestaat uit
-                    pagina's, teksten, foto's en misschien een blog, en je wilt dat zelf kunnen aanpassen
-                    zonder mij te bellen. Zo bouwde ik bijvoorbeeld de website van{" "}
-                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>: rustig, snel te lezen en
-                    makkelijk bij te werken.
+                    Ook een WordPress-site is geen standaardthema met andere kleuren. Ontwerp en teksten worden
+                    gemaakt voor het merk en de bezoekers. De techniek eronder is een middel, geen uitgangspunt.
                 </p>
+
+                <h2>Twee manieren om te betalen</h2>
                 <ul>
-                    <li>Je wilt zelf teksten, foto's en blogs beheren.</li>
-                    <li>Je site is vooral informatief: wie ben je, wat doe je, wat kost het, hoe neem ik contact op.</li>
-                    <li>Je budget is beperkt en je wilt snel online.</li>
-                    <li>Je wilt later makkelijk uitbreiden met een agenda, formulier of kleine webshop.</li>
+                    <li><strong>Abonnement:</strong> een eenmalige opstart en een vast bedrag per maand, vanaf €39 per maand. Hosting, beveiligingsupdates, back-ups en kleine wijzigingen zitten erin. De looptijd is 24 maanden, daarna is de website van de klant.</li>
+                    <li><strong>Pakket (project):</strong> eenmalig, met een vaste prijs vooraf, vanaf €1.200. Geen looptijd. Onderhoud is optioneel.</li>
                 </ul>
-
-                <h2>Wanneer maatwerk beter past</h2>
                 <p>
-                    Maatwerk loont als je website meer moet doen dan informeren. Denk aan inloggen, betalingen,
-                    contracten of koppelingen met andere systemen. Een voorbeeld is{" "}
-                    <Link to="/backendstudentendashboard">CasaCrew</Link>, een verhuurapp voor hospita's die ik
-                    bouwde met Spring Boot en OAuth2. Dat los je niet op met plug-ins.
-                </p>
-                <ul>
-                    <li>Gebruikers moeten veilig kunnen inloggen en eigen gegevens beheren.</li>
-                    <li>Je hebt een eigen werkwijze die in geen enkel standaardpakket past.</li>
-                    <li>Je wilt volledige controle over snelheid, veiligheid en ontwerp.</li>
-                    <li>De site is de kern van je bedrijf, niet alleen een visitekaartje.</li>
-                </ul>
-
-                <h2>Wat het verschil in de praktijk betekent</h2>
-                <p>
-                    Bij WordPress betaal je minder in het begin en kun je veel zelf. Daar staat tegenover dat
-                    updates en plug-ins onderhoud vragen. Een verouderde plug-in is de meest voorkomende reden
-                    dat een WordPress-site gehackt wordt. Bij maatwerk is de start duurder en ben je voor
-                    aanpassingen vaker van mij afhankelijk, maar je krijgt precies wat je nodig hebt en niets
-                    wat je niet gebruikt.
-                </p>
-                <p>
-                    Mijn tarieven zie je op de <Link to="/#tarieven">homepage</Link>: een basis website vanaf
-                    €1.200, een website met CMS vanaf €2.450 en volledig maatwerk vanaf €4.250, allemaal
-                    exclusief btw en met een vaste prijs in de offerte.
+                    Het verschil staat overzichtelijk op de <Link to="/tarieven">tarievenpagina</Link>. Alle prijzen
+                    zijn exclusief btw.
                 </p>
 
-                <h2>Zo kies je</h2>
+                <h2>Welke techniek past</h2>
                 <p>
-                    Stel jezelf drie vragen. Wil ik zelf teksten kunnen aanpassen? Dan WordPress of een CMS.
-                    Moeten mensen kunnen inloggen of betalen op een manier die niet standaard is? Dan maatwerk.
-                    Weet ik het nog niet? Dan is WordPress bijna altijd het veiligste begin, want je kunt later
-                    altijd groeien.
+                    <strong>WordPress of een ander CMS</strong> past als teksten, foto's en blogs zelf beheerd
+                    moeten worden. Zo bouwde ik <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>:
+                    rustig, snel te lezen en eenvoudig bij te werken.
+                </p>
+                <p>
+                    <strong>Eigen code</strong> past als de site meer moet doen dan informeren: inloggen,
+                    betalingen of koppelingen met andere systemen. Een voorbeeld is{" "}
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>, een verhuurapp voor hospita's,
+                    gebouwd met Spring Boot en OAuth2.
                 </p>
 
-                <h2>Twijfel je nog?</h2>
+                <h2>Wat dit betekent voor onderhoud</h2>
                 <p>
-                    In een gratis gesprek van 30 minuten kijk ik met je mee naar wat je nodig hebt. Soms is het
-                    antwoord dat je minder nodig hebt dan je dacht, en dat zeg ik dan ook.
+                    WordPress vraagt regelmatig updates; een verouderde plug-in is de meest voorkomende oorzaak van
+                    een gehackte site. Bij een abonnement is dat onderhoud inbegrepen. Bij een pakket kan het
+                    erbij worden genomen vanaf €120 per maand. Meer daarover staat in het blog{" "}
+                    <Link to="/journal/website-onderhoud">Wat zit er in website-onderhoud</Link>.
+                </p>
+
+                <h2>Zo kiezen</h2>
+                <p>
+                    Drie vragen helpen. Moet de site zonder gedoe online komen, met een laag instapbedrag? Dan
+                    een abonnement. Is het een uitgebreide of op maat gebouwde site, en past een eenmalige
+                    investering beter? Dan een pakket. En moeten teksten zelf aangepast kunnen worden? Dan een
+                    CMS, in beide gevallen.
+                </p>
+
+                <h2>Vragen?</h2>
+                <p>
+                    Twijfel over wat past? Plan een kennismaking van 30 minuten, vrijblijvend. Ik adviseer op wat
+                    het project nodig heeft, ook als dat minder is dan verwacht.
                 </p>
             </>
         ),
     },
     en: {
-        title: "WordPress or custom build: which fits your business?",
+        title: "WordPress or custom? Always custom, as a subscription or a package",
         date: "2026-10-09",
         dateLabel: "9 October 2026",
         minutes: 4,
-        shareText: "WordPress or a custom website? How to choose, from my own experience with both.",
+        shareText: "WordPress or custom? At ManonIT it is always custom. The choice is in how it is paid.",
         Body: () => (
             <>
                 <p className="lead">
-                    Almost every business owner who wants a website asks me the same thing: should it be
-                    WordPress, or something custom? The honest answer is that both can be right. It depends on
-                    what your site has to do.
+                    The question 'WordPress or custom?' belongs to an old opposition. Every ManonIT website is
+                    custom work: its own design, its own copy, built for one client. The choice that really
+                    matters is a different one: how the site is paid for, and which technology fits.
                 </p>
 
-                <h2>When WordPress is a good choice</h2>
+                <h2>Always custom</h2>
                 <p>
-                    For most freelancers and small businesses, WordPress works well. Your site is made of
-                    pages, text, photos and maybe a blog, and you want to edit it yourself without calling me.
-                    That is how I built the website for{" "}
-                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>: calm, easy to read and easy
-                    to update.
+                    Even a WordPress site is not a stock theme with different colours. Design and copy are made for
+                    the brand and its visitors. The technology underneath is a means, not a starting point.
                 </p>
+
+                <h2>Two ways to pay</h2>
                 <ul>
-                    <li>You want to manage your own text, photos and blog posts.</li>
-                    <li>Your site is mostly informative: who you are, what you do, what it costs, how to get in touch.</li>
-                    <li>Your budget is limited and you want to go live quickly.</li>
-                    <li>You may want to add a calendar, form or small shop later.</li>
+                    <li><strong>Subscription:</strong> a one-off setup and a fixed amount per month, from €39 per month. Hosting, security updates, backups and small changes are included. The term is 24 months, after which the website belongs to the client.</li>
+                    <li><strong>Package (project):</strong> one-off, with a fixed price in advance, from €1,200. No term. Maintenance is optional.</li>
                 </ul>
-
-                <h2>When custom fits better</h2>
                 <p>
-                    Custom pays off when your website has to do more than inform. Think logins, payments,
-                    contracts or links with other systems. An example is{" "}
-                    <Link to="/backendstudentendashboard">CasaCrew</Link>, a rental app for landladies that I
-                    built with Spring Boot and OAuth2. You cannot solve that with plug-ins.
+                    The difference is laid out on the <Link to="/tarieven">pricing page</Link>. All prices exclude VAT.
                 </p>
-                <ul>
-                    <li>Users need to log in securely and manage their own data.</li>
-                    <li>You have a way of working that fits no standard package.</li>
-                    <li>You want full control over speed, security and design.</li>
-                    <li>The site is the core of your business, not just a business card.</li>
-                </ul>
 
-                <h2>What the difference means in practice</h2>
+                <h2>Which technology fits</h2>
                 <p>
-                    With WordPress you pay less at the start and can do a lot yourself. The trade-off is that
-                    updates and plug-ins need maintenance. An outdated plug-in is the most common reason a
-                    WordPress site gets hacked. With custom work the start costs more and you depend on me more
-                    for changes, but you get exactly what you need and nothing you don't use.
+                    <strong>WordPress or another CMS</strong> fits when texts, photos and blogs need to be managed
+                    by the client. That is how I built <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>:
+                    calm, quick to read and easy to update.
                 </p>
                 <p>
-                    You can see my rates on the <Link to="/#tarieven">homepage</Link>: a basic website from
-                    €1,200, a website with CMS from €2,450 and fully custom from €4,250, all excluding VAT and
-                    with a fixed price in the quote.
+                    <strong>Custom code</strong> fits when the site has to do more than inform: logins, payments or
+                    links with other systems. An example is <Link to="/backendstudentendashboard">CasaCrew</Link>,
+                    a rental app for landladies, built with Spring Boot and OAuth2.
+                </p>
+
+                <h2>What this means for maintenance</h2>
+                <p>
+                    WordPress needs regular updates; an outdated plug-in is the most common cause of a hacked site.
+                    With a subscription that maintenance is included. With a package it can be added from €120 per
+                    month. More on this in the blog{" "}
+                    <Link to="/journal/website-onderhoud">What does website maintenance include</Link>.
                 </p>
 
                 <h2>How to choose</h2>
                 <p>
-                    Ask yourself three questions. Do I want to edit text myself? Then WordPress or a CMS. Do
-                    people need to log in or pay in a way that isn't standard? Then custom. Not sure yet? Then
-                    WordPress is almost always the safest start, because you can always grow later.
+                    Three questions help. Does the site need to get online without hassle and with a low entry
+                    price? Then a subscription. Is it a larger or custom-built site, and does a one-off investment
+                    suit better? Then a package. And do texts need to be editable by the client? Then a CMS, in
+                    both cases.
                 </p>
 
-                <h2>Still unsure?</h2>
+                <h2>Questions?</h2>
                 <p>
-                    In a free 30-minute call I'll look at what you need. Sometimes the answer is that you need
-                    less than you thought, and I'll tell you.
+                    Unsure what fits? Book a 30-minute introduction, no obligation. I advise on what the project
+                    needs, even when that is less than expected.
                 </p>
             </>
         ),
     },
     fr: {
-        title: "WordPress ou sur mesure : qu'est-ce qui convient à votre entreprise ?",
+        title: "WordPress ou sur mesure ? Toujours sur mesure, en abonnement ou en forfait",
         date: "2026-10-09",
         dateLabel: "9 octobre 2026",
         minutes: 4,
-        shareText: "WordPress ou site sur mesure ? Comment choisir, d'après mon expérience avec les deux.",
+        shareText: "WordPress ou sur mesure ? Chez ManonIT, c'est toujours du sur mesure. Le choix porte sur le mode de paiement.",
         Body: () => (
             <>
                 <p className="lead">
-                    Presque tous les entrepreneurs qui veulent un site me posent la même question :
-                    WordPress ou du sur mesure ? La réponse honnête, c'est que les deux peuvent être
-                    de bons choix. Cela dépend de ce que votre site doit faire.
+                    La question « WordPress ou sur mesure ? » relève d'une vieille opposition. Chaque site ManonIT
+                    est du sur mesure : un design propre, des textes propres, construit pour un seul client. Le
+                    choix qui compte vraiment est autre : comment le site est payé, et quelle technique convient.
                 </p>
 
-                <h2>Quand WordPress est un bon choix</h2>
-
+                <h2>Toujours sur mesure</h2>
                 <p>
-                    Pour la plupart des indépendants et des petites entreprises, WordPress
-                    fonctionne très bien. Votre site se compose de pages, de textes, de photos et
-                    peut-être d'un blog, et vous voulez le modifier vous-même sans m'appeler. C'est
-                    ainsi que j'ai construit le site de <Link to="/webdesignacupuncture">Acupuncture
-                    by Saskia</Link> : calme, facile à lire et facile à mettre à jour.
+                    Même un site WordPress n'est pas un thème standard aux couleurs changées. Le design et les
+                    textes sont créés pour la marque et ses visiteurs. La technique en dessous est un moyen, pas
+                    un point de départ.
                 </p>
 
+                <h2>Deux façons de payer</h2>
                 <ul>
-                    <li>Vous voulez gérer vous-même vos textes, vos photos et votre blog.</li>
-                    <li>Votre site est surtout informatif : qui vous êtes, ce que vous faites, combien ça coûte, comment vous contacter.</li>
-                    <li>Votre budget est limité et vous voulez être en ligne rapidement.</li>
-                    <li>Vous voulez pouvoir ajouter plus tard un agenda, un formulaire ou une petite boutique.</li>
+                    <li><strong>Abonnement :</strong> une mise en route unique et un montant fixe par mois, dès 39 € par mois. L'hébergement, les mises à jour de sécurité, les sauvegardes et les petites modifications sont inclus. La durée est de 24 mois, après quoi le site appartient au client.</li>
+                    <li><strong>Forfait (projet) :</strong> en une fois, à prix fixe annoncé d'avance, dès 1 200 €. Sans durée. La maintenance est facultative.</li>
                 </ul>
-
-                <h2>Quand le sur mesure convient mieux</h2>
-
                 <p>
-                    Le sur mesure vaut la peine quand votre site doit faire plus qu'informer :
-                    connexion, paiements, contrats ou liens avec d'autres systèmes. Un exemple :
-                    <Link to="/backendstudentendashboard">CasaCrew</Link>, une application de
-                    location pour logeuses que j'ai construite avec Spring Boot et OAuth2. Avec des
-                    extensions, ce n'est pas possible.
+                    La différence est présentée clairement sur la <Link to="/tarieven">page des tarifs</Link>. Tous
+                    les prix sont hors TVA.
                 </p>
 
-                <ul>
-                    <li>Les utilisateurs doivent pouvoir se connecter en toute sécurité et gérer leurs propres données.</li>
-                    <li>Vous avez une façon de travailler qui ne rentre dans aucun logiciel standard.</li>
-                    <li>Vous voulez un contrôle total sur la vitesse, la sécurité et le design.</li>
-                    <li>Le site est au cœur de votre activité, pas seulement une carte de visite.</li>
-                </ul>
-
-                <h2>Ce que la différence signifie en pratique</h2>
-
+                <h2>Quelle technique convient</h2>
                 <p>
-                    Avec WordPress, vous payez moins au départ et vous pouvez faire beaucoup
-                    vous-même. En contrepartie, les mises à jour et les extensions demandent de la
-                    maintenance. Une extension obsolète est la raison la plus fréquente du piratage
-                    d'un site WordPress. Avec le sur mesure, le départ coûte plus cher et vous
-                    dépendez davantage de moi pour les modifications, mais vous obtenez exactement
-                    ce qu'il vous faut et rien d'inutile.
+                    <strong>WordPress ou un autre CMS</strong> convient quand textes, photos et blog doivent être
+                    gérés par le client. C'est ainsi que j'ai construit{" "}
+                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link> : calme, rapide à lire et facile à
+                    mettre à jour.
+                </p>
+                <p>
+                    <strong>Du code sur mesure</strong> convient quand le site doit faire plus qu'informer :
+                    connexion, paiements ou liens avec d'autres systèmes. Exemple :{" "}
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>, une application de location pour
+                    logeuses, construite avec Spring Boot et OAuth2.
                 </p>
 
+                <h2>Ce que cela change pour la maintenance</h2>
                 <p>
-                    Mes tarifs figurent sur la <Link to="/#tarieven">page d'accueil</Link> : un site
-                    de base à partir de 1 200 €, un site avec CMS à partir de 2 450 € et du sur
-                    mesure complet à partir de 4 250 €, hors TVA et avec un prix fixe dans le devis.
+                    WordPress demande des mises à jour régulières ; un plug-in obsolète est la cause la plus
+                    fréquente d'un site piraté. Avec un abonnement, cette maintenance est incluse. Avec un forfait,
+                    elle peut être ajoutée dès 120 € par mois. Plus d'informations dans le blog{" "}
+                    <Link to="/journal/website-onderhoud">Que comprend la maintenance d'un site</Link>.
                 </p>
 
                 <h2>Comment choisir</h2>
-
                 <p>
-                    Posez-vous trois questions. Est-ce que je veux modifier mes textes moi-même ?
-                    Alors WordPress ou un CMS. Des personnes doivent-elles se connecter ou payer
-                    d'une manière hors norme ? Alors du sur mesure. Vous ne savez pas encore ?
-                    WordPress est presque toujours le départ le plus sûr, car vous pourrez toujours
-                    évoluer ensuite.
+                    Trois questions aident. Le site doit-il être en ligne sans souci, avec un faible coût
+                    d'entrée ? Alors un abonnement. S'agit-il d'un site plus complet ou construit sur mesure, et un
+                    investissement unique convient-il mieux ? Alors un forfait. Et les textes doivent-ils être
+                    modifiables par le client ? Alors un CMS, dans les deux cas.
                 </p>
 
-                <h2>Encore un doute ?</h2>
-
+                <h2>Des questions ?</h2>
                 <p>
-                    Lors d'un échange gratuit de 30 minutes, je regarde avec vous ce dont vous avez
-                    besoin. Parfois la réponse est que vous avez besoin de moins que ce que vous
-                    pensiez, et je vous le dis.
+                    Un doute sur ce qui convient ? Planifiez un entretien de 30 minutes, sans engagement. Je
+                    conseille ce dont le projet a besoin, même si c'est moins que prévu.
                 </p>
             </>
         ),
     },
     de: {
-        title: "WordPress oder Maßanfertigung: Was passt zu Ihrem Unternehmen?",
+        title: "WordPress oder Maßarbeit? Immer Maßarbeit, als Abonnement oder als Paket",
         date: "2026-10-09",
         dateLabel: "9. Oktober 2026",
         minutes: 4,
-        shareText: "WordPress oder eine maßgeschneiderte Website? So entscheiden Sie, aus meiner Erfahrung mit beiden.",
+        shareText: "WordPress oder Maßarbeit? Bei ManonIT ist es immer Maßarbeit. Die Wahl liegt in der Bezahlung.",
         Body: () => (
             <>
                 <p className="lead">
-                    Fast jeder Unternehmer, der eine Website möchte, stellt mir dieselbe Frage:
-                    WordPress oder etwas Maßgeschneidertes? Die ehrliche Antwort ist, dass beides
-                    richtig sein kann. Es hängt davon ab, was Ihre Website leisten soll.
+                    Die Frage „WordPress oder Maßarbeit?“ gehört zu einem alten Gegensatz. Jede ManonIT-Website
+                    ist Maßarbeit: eigenes Design, eigene Texte, gebaut für einen einzelnen Auftraggeber. Die
+                    Wahl, die wirklich zählt, ist eine andere: wie die Website bezahlt wird und welche Technik
+                    passt.
                 </p>
 
-                <h2>Wann WordPress eine gute Wahl ist</h2>
-
+                <h2>Immer Maßarbeit</h2>
                 <p>
-                    Für die meisten Selbstständigen und kleinen Unternehmen funktioniert WordPress
-                    sehr gut. Ihre Website besteht aus Seiten, Texten, Fotos und vielleicht einem
-                    Blog, und Sie möchten sie selbst anpassen, ohne mich anzurufen. So habe ich die
-                    Website von <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>
-                    gebaut: ruhig, gut lesbar und leicht zu aktualisieren.
+                    Auch eine WordPress-Seite ist kein Standardtheme mit anderen Farben. Design und Texte werden
+                    für die Marke und ihre Besucher gemacht. Die Technik darunter ist ein Mittel, kein
+                    Ausgangspunkt.
                 </p>
 
+                <h2>Zwei Arten der Bezahlung</h2>
                 <ul>
-                    <li>Sie möchten Texte, Fotos und Blogbeiträge selbst verwalten.</li>
-                    <li>Ihre Website ist vor allem informativ: wer Sie sind, was Sie tun, was es kostet, wie man Kontakt aufnimmt.</li>
-                    <li>Ihr Budget ist begrenzt und Sie möchten schnell online gehen.</li>
-                    <li>Sie möchten später einen Kalender, ein Formular oder einen kleinen Shop ergänzen können.</li>
+                    <li><strong>Abonnement:</strong> eine einmalige Einrichtung und ein fester Betrag pro Monat, ab 39 € pro Monat. Hosting, Sicherheitsupdates, Backups und kleine Änderungen sind enthalten. Die Laufzeit beträgt 24 Monate, danach gehört die Website dem Kunden.</li>
+                    <li><strong>Paket (Projekt):</strong> einmalig, mit Festpreis im Voraus, ab 1.200 €. Keine Laufzeit. Wartung ist optional.</li>
                 </ul>
-
-                <h2>Wann Maßanfertigung besser passt</h2>
-
                 <p>
-                    Maßanfertigung lohnt sich, wenn Ihre Website mehr tun soll als informieren:
-                    Login, Zahlungen, Verträge oder Verbindungen zu anderen Systemen. Ein Beispiel
-                    ist <Link to="/backendstudentendashboard">CasaCrew</Link>, eine Vermietungs-App
-                    für Vermieterinnen, die ich mit Spring Boot und OAuth2 gebaut habe. Das lässt
-                    sich nicht mit Plug-ins lösen.
+                    Der Unterschied ist auf der <Link to="/tarieven">Preisseite</Link> übersichtlich dargestellt.
+                    Alle Preise verstehen sich ohne MwSt.
                 </p>
 
-                <ul>
-                    <li>Nutzer müssen sich sicher anmelden und ihre eigenen Daten verwalten können.</li>
-                    <li>Sie haben eine Arbeitsweise, die in kein Standardpaket passt.</li>
-                    <li>Sie möchten volle Kontrolle über Geschwindigkeit, Sicherheit und Design.</li>
-                    <li>Die Website ist das Herzstück Ihres Unternehmens, nicht nur eine Visitenkarte.</li>
-                </ul>
-
-                <h2>Was der Unterschied in der Praxis bedeutet</h2>
-
+                <h2>Welche Technik passt</h2>
                 <p>
-                    Bei WordPress zahlen Sie am Anfang weniger und können vieles selbst tun. Dafür
-                    brauchen Updates und Plug-ins Pflege. Ein veraltetes Plug-in ist der häufigste
-                    Grund, warum eine WordPress-Seite gehackt wird. Bei Maßanfertigung kostet der
-                    Start mehr und Sie sind für Änderungen öfter auf mich angewiesen, aber Sie
-                    bekommen genau das, was Sie brauchen, und nichts, was Sie nicht nutzen.
+                    <strong>WordPress oder ein anderes CMS</strong> passt, wenn Texte, Fotos und Blog selbst
+                    verwaltet werden sollen. So entstand{" "}
+                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>: ruhig, schnell lesbar und
+                    leicht zu pflegen.
+                </p>
+                <p>
+                    <strong>Eigener Code</strong> passt, wenn die Website mehr leisten muss als informieren:
+                    Login, Zahlungen oder Anbindungen an andere Systeme. Ein Beispiel ist{" "}
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>, eine Vermietungs-App für Zimmerwirtinnen,
+                    gebaut mit Spring Boot und OAuth2.
                 </p>
 
+                <h2>Was das für die Wartung bedeutet</h2>
                 <p>
-                    Meine Preise finden Sie auf der <Link to="/#tarieven">Startseite</Link>: eine
-                    Basis-Website ab 1.200 €, eine Website mit CMS ab 2.450 € und komplette
-                    Maßanfertigung ab 4.250 €, jeweils zzgl. MwSt. und mit Festpreis im Angebot.
+                    WordPress braucht regelmäßige Updates; ein veraltetes Plug-in ist die häufigste Ursache für
+                    eine gehackte Seite. Beim Abonnement ist diese Wartung enthalten. Beim Paket kann sie ab 120 €
+                    pro Monat hinzugenommen werden. Mehr dazu im Blog{" "}
+                    <Link to="/journal/website-onderhoud">Was Website-Wartung umfasst</Link>.
                 </p>
 
-                <h2>So entscheiden Sie</h2>
-
+                <h2>So wählen Sie</h2>
                 <p>
-                    Stellen Sie sich drei Fragen. Möchte ich Texte selbst ändern? Dann WordPress
-                    oder ein CMS. Sollen Menschen sich anmelden oder auf eine Weise bezahlen, die
-                    nicht Standard ist? Dann Maßanfertigung. Wissen Sie es noch nicht? Dann ist
-                    WordPress fast immer der sicherste Start, denn wachsen können Sie später immer
-                    noch.
+                    Drei Fragen helfen. Soll die Website ohne Aufwand und mit niedrigem Einstiegspreis online
+                    gehen? Dann ein Abonnement. Ist sie umfangreich oder maßgeschneidert, und passt eine einmalige
+                    Investition besser? Dann ein Paket. Und sollen Texte selbst änderbar sein? Dann ein CMS, in
+                    beiden Fällen.
                 </p>
 
-                <h2>Noch unsicher?</h2>
-
+                <h2>Fragen?</h2>
                 <p>
-                    In einem kostenlosen Gespräch von 30 Minuten schaue ich mit Ihnen, was Sie
-                    brauchen. Manchmal lautet die Antwort, dass Sie weniger brauchen, als Sie
-                    dachten, und das sage ich Ihnen dann auch.
+                    Unsicher, was passt? Vereinbaren Sie ein unverbindliches Kennenlerngespräch von 30 Minuten.
+                    Ich berate nach dem, was das Projekt braucht, auch wenn das weniger ist als erwartet.
                 </p>
             </>
         ),
     },
     es: {
-        title: "WordPress o a medida: ¿qué encaja con tu negocio?",
+        title: "¿WordPress o a medida? Siempre a medida, como suscripción o como paquete",
         date: "2026-10-09",
         dateLabel: "9 de octubre de 2026",
         minutes: 4,
-        shareText: "¿WordPress o una web a medida? Cómo elegir, desde mi experiencia con ambas.",
+        shareText: "¿WordPress o a medida? En ManonIT siempre es a medida. La elección está en cómo se paga.",
         Body: () => (
             <>
                 <p className="lead">
-                    Casi todos los empresarios que quieren una web me hacen la misma pregunta:
-                    ¿WordPress o algo a medida? La respuesta sincera es que ambas opciones pueden
-                    ser buenas. Depende de lo que tu web tenga que hacer.
+                    La pregunta «¿WordPress o a medida?» pertenece a una oposición antigua. Cada sitio de ManonIT
+                    es a medida: diseño propio, textos propios, construido para un solo cliente. La elección que
+                    de verdad importa es otra: cómo se paga el sitio y qué tecnología encaja.
                 </p>
 
-                <h2>Cuándo WordPress es una buena opción</h2>
-
+                <h2>Siempre a medida</h2>
                 <p>
-                    Para la mayoría de autónomos y pequeñas empresas, WordPress funciona muy bien.
-                    Tu web se compone de páginas, textos, fotos y quizá un blog, y quieres poder
-                    editarla tú mismo sin llamarme. Así construí la web de <Link
-                    to="/webdesignacupuncture">Acupuncture by Saskia</Link>: tranquila, fácil de
-                    leer y fácil de actualizar.
+                    Incluso un sitio WordPress no es una plantilla estándar con otros colores. El diseño y los
+                    textos se crean para la marca y sus visitantes. La tecnología de debajo es un medio, no un
+                    punto de partida.
                 </p>
 
+                <h2>Dos formas de pagar</h2>
                 <ul>
-                    <li>Quieres gestionar tú mismo los textos, las fotos y el blog.</li>
-                    <li>Tu web es sobre todo informativa: quién eres, qué haces, cuánto cuesta, cómo contactar.</li>
-                    <li>Tu presupuesto es limitado y quieres estar online pronto.</li>
-                    <li>Quieres poder añadir más adelante un calendario, un formulario o una pequeña tienda.</li>
+                    <li><strong>Suscripción:</strong> una puesta en marcha única y una cuota fija al mes, desde 39 € al mes. Incluye alojamiento, actualizaciones de seguridad, copias de seguridad y cambios pequeños. La duración es de 24 meses; después el sitio es del cliente.</li>
+                    <li><strong>Paquete (proyecto):</strong> de una vez, con precio fijo de antemano, desde 1.200 €. Sin duración. El mantenimiento es opcional.</li>
                 </ul>
-
-                <h2>Cuándo encaja mejor lo a medida</h2>
-
                 <p>
-                    Lo a medida compensa cuando tu web tiene que hacer más que informar: inicio de
-                    sesión, pagos, contratos o conexiones con otros sistemas. Un ejemplo es <Link
-                    to="/backendstudentendashboard">CasaCrew</Link>, una aplicación de alquiler para
-                    propietarias que construí con Spring Boot y OAuth2. Eso no se resuelve con
-                    plugins.
+                    La diferencia se muestra con claridad en la <Link to="/tarieven">página de tarifas</Link>. Todos
+                    los precios excluyen IVA.
                 </p>
 
-                <ul>
-                    <li>Los usuarios tienen que poder iniciar sesión de forma segura y gestionar sus propios datos.</li>
-                    <li>Tienes una forma de trabajar que no encaja en ningún paquete estándar.</li>
-                    <li>Quieres control total sobre la velocidad, la seguridad y el diseño.</li>
-                    <li>La web es el núcleo de tu negocio, no solo una tarjeta de visita.</li>
-                </ul>
-
-                <h2>Qué significa la diferencia en la práctica</h2>
-
+                <h2>Qué tecnología encaja</h2>
                 <p>
-                    Con WordPress pagas menos al principio y puedes hacer mucho tú mismo. A cambio,
-                    las actualizaciones y los plugins necesitan mantenimiento. Un plugin
-                    desactualizado es la razón más habitual por la que hackean una web de WordPress.
-                    Con lo a medida el comienzo cuesta más y dependes más de mí para los cambios,
-                    pero obtienes exactamente lo que necesitas y nada que no uses.
+                    <strong>WordPress u otro CMS</strong> encaja cuando textos, fotos y blog debe gestionarlos el
+                    cliente. Así construí{" "}
+                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>: tranquilo, rápido de leer y
+                    fácil de actualizar.
+                </p>
+                <p>
+                    <strong>Código propio</strong> encaja cuando el sitio debe hacer más que informar: acceso de
+                    usuarios, pagos o conexiones con otros sistemas. Un ejemplo es{" "}
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>, una app de alquiler para anfitrionas,
+                    creada con Spring Boot y OAuth2.
                 </p>
 
+                <h2>Qué significa para el mantenimiento</h2>
                 <p>
-                    Mis tarifas están en la <Link to="/#tarieven">página de inicio</Link>: una web
-                    básica desde 1.200 €, una web con CMS desde 2.450 € y a medida completa desde
-                    4.250 €, todo sin IVA y con precio fijo en el presupuesto.
+                    WordPress necesita actualizaciones periódicas; un plug-in desactualizado es la causa más común
+                    de un sitio hackeado. Con suscripción, ese mantenimiento está incluido. Con paquete, puede
+                    añadirse desde 120 € al mes. Más información en el blog{" "}
+                    <Link to="/journal/website-onderhoud">Qué incluye el mantenimiento web</Link>.
                 </p>
 
                 <h2>Cómo elegir</h2>
-
                 <p>
-                    Hazte tres preguntas. ¿Quiero poder cambiar yo mismo los textos? Entonces
-                    WordPress o un CMS. ¿Las personas tienen que iniciar sesión o pagar de una forma
-                    no estándar? Entonces a medida. ¿Todavía no lo sabes? Entonces WordPress es casi
-                    siempre el comienzo más seguro, porque siempre puedes crecer después.
+                    Tres preguntas ayudan. ¿Debe el sitio estar en línea sin complicaciones y con poca inversión
+                    inicial? Entonces, suscripción. ¿Es un sitio más amplio o hecho a medida, y encaja mejor una
+                    inversión única? Entonces, paquete. ¿Y deben poder editarse los textos? Entonces, un CMS, en
+                    ambos casos.
                 </p>
 
-                <h2>¿Sigues dudando?</h2>
-
+                <h2>¿Preguntas?</h2>
                 <p>
-                    En una llamada gratuita de 30 minutos veo contigo lo que necesitas. A veces la
-                    respuesta es que necesitas menos de lo que pensabas, y te lo digo.
+                    ¿Dudas sobre qué encaja? Reserva una charla de 30 minutos, sin compromiso. Aconsejo según lo
+                    que el proyecto necesita, aunque sea menos de lo esperado.
                 </p>
             </>
         ),
     },
     it: {
-        title: "WordPress o su misura: cosa si adatta alla tua attività?",
+        title: "WordPress o su misura? Sempre su misura, in abbonamento o come pacchetto",
         date: "2026-10-09",
         dateLabel: "9 ottobre 2026",
         minutes: 4,
-        shareText: "WordPress o un sito su misura? Come scegliere, dalla mia esperienza con entrambi.",
+        shareText: "WordPress o su misura? Da ManonIT è sempre su misura. La scelta sta nel modo di pagare.",
         Body: () => (
             <>
                 <p className="lead">
-                    Quasi ogni imprenditore che vuole un sito mi fa la stessa domanda: WordPress o
-                    qualcosa su misura? La risposta onesta è che entrambi possono essere giusti.
-                    Dipende da ciò che il tuo sito deve fare.
+                    La domanda «WordPress o su misura?» appartiene a una vecchia contrapposizione. Ogni sito
+                    ManonIT è su misura: design proprio, testi propri, costruito per un solo cliente. La scelta
+                    che conta davvero è un'altra: come si paga il sito e quale tecnologia è adatta.
                 </p>
 
-                <h2>Quando WordPress è una buona scelta</h2>
-
+                <h2>Sempre su misura</h2>
                 <p>
-                    Per la maggior parte dei freelance e delle piccole imprese WordPress funziona
-                    benissimo. Il tuo sito è fatto di pagine, testi, foto e magari un blog, e vuoi
-                    poterlo modificare da solo senza chiamarmi. Così ho costruito il sito di <Link
-                    to="/webdesignacupuncture">Acupuncture by Saskia</Link>: tranquillo, facile da
-                    leggere e facile da aggiornare.
+                    Anche un sito WordPress non è un tema standard con altri colori. Design e testi sono creati
+                    per il marchio e i suoi visitatori. La tecnologia sotto è un mezzo, non un punto di partenza.
                 </p>
 
+                <h2>Due modi di pagare</h2>
                 <ul>
-                    <li>Vuoi gestire tu stesso testi, foto e articoli del blog.</li>
-                    <li>Il tuo sito è soprattutto informativo: chi sei, cosa fai, quanto costa, come contattarti.</li>
-                    <li>Il tuo budget è limitato e vuoi andare online in fretta.</li>
-                    <li>Vuoi poter aggiungere più avanti un calendario, un modulo o un piccolo negozio.</li>
+                    <li><strong>Abbonamento:</strong> un avvio una tantum e un importo fisso al mese, da 39 € al mese. Hosting, aggiornamenti di sicurezza, backup e piccole modifiche sono inclusi. La durata è di 24 mesi, poi il sito è del cliente.</li>
+                    <li><strong>Pacchetto (progetto):</strong> una tantum, con prezzo fisso in anticipo, da 1.200 €. Nessuna durata. La manutenzione è facoltativa.</li>
                 </ul>
-
-                <h2>Quando il su misura è più adatto</h2>
-
                 <p>
-                    Il su misura vale la pena quando il tuo sito deve fare più che informare:
-                    accesso con login, pagamenti, contratti o collegamenti con altri sistemi. Un
-                    esempio è <Link to="/backendstudentendashboard">CasaCrew</Link>, un'app di
-                    affitto per padrone di casa che ho costruito con Spring Boot e OAuth2. Con i
-                    plugin non si risolve.
+                    La differenza è illustrata con chiarezza nella <Link to="/tarieven">pagina delle tariffe</Link>.
+                    Tutti i prezzi sono IVA esclusa.
                 </p>
 
-                <ul>
-                    <li>Gli utenti devono poter accedere in sicurezza e gestire i propri dati.</li>
-                    <li>Hai un modo di lavorare che non rientra in nessun pacchetto standard.</li>
-                    <li>Vuoi il pieno controllo su velocità, sicurezza e design.</li>
-                    <li>Il sito è il cuore della tua attività, non solo un biglietto da visita.</li>
-                </ul>
-
-                <h2>Cosa significa la differenza nella pratica</h2>
-
+                <h2>Quale tecnologia è adatta</h2>
                 <p>
-                    Con WordPress paghi meno all'inizio e puoi fare molto da solo. In cambio,
-                    aggiornamenti e plugin richiedono manutenzione. Un plugin obsoleto è il motivo
-                    più comune per cui un sito WordPress viene hackerato. Con il su misura l'inizio
-                    costa di più e per le modifiche dipendi più da me, ma ottieni esattamente ciò
-                    che ti serve e nulla che non usi.
+                    <strong>WordPress o un altro CMS</strong> è adatto quando testi, foto e blog devono essere
+                    gestiti dal cliente. Così ho costruito{" "}
+                    <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>: tranquillo, veloce da leggere e
+                    facile da aggiornare.
+                </p>
+                <p>
+                    <strong>Codice proprio</strong> è adatto quando il sito deve fare più che informare: accesso
+                    utenti, pagamenti o collegamenti con altri sistemi. Un esempio è{" "}
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>, un'app per gli affitti dedicata a chi
+                    ospita studenti, costruita con Spring Boot e OAuth2.
                 </p>
 
+                <h2>Cosa significa per la manutenzione</h2>
                 <p>
-                    Le mie tariffe sono nella <Link to="/#tarieven">home page</Link>: un sito base
-                    da 1.200 €, un sito con CMS da 2.450 € e un su misura completo da 4.250 €, tutto
-                    IVA esclusa e con prezzo fisso nel preventivo.
+                    WordPress richiede aggiornamenti regolari; un plug-in obsoleto è la causa più comune di un sito
+                    violato. Con l'abbonamento questa manutenzione è inclusa. Con il pacchetto si può aggiungere da
+                    120 € al mese. Altre informazioni nel blog{" "}
+                    <Link to="/journal/website-onderhoud">Cosa comprende la manutenzione di un sito</Link>.
                 </p>
 
                 <h2>Come scegliere</h2>
-
                 <p>
-                    Fatti tre domande. Voglio poter cambiare i testi da solo? Allora WordPress o un
-                    CMS. Le persone devono accedere o pagare in un modo non standard? Allora su
-                    misura. Non lo sai ancora? Allora WordPress è quasi sempre l'inizio più sicuro,
-                    perché potrai sempre crescere dopo.
+                    Tre domande aiutano. Il sito deve andare online senza pensieri e con un basso costo iniziale?
+                    Allora un abbonamento. È un sito più ampio o costruito su misura e un investimento unico è più
+                    adatto? Allora un pacchetto. E i testi devono poter essere modificati dal cliente? Allora un
+                    CMS, in entrambi i casi.
                 </p>
 
-                <h2>Hai ancora dubbi?</h2>
-
+                <h2>Domande?</h2>
                 <p>
-                    In un colloquio gratuito di 30 minuti guardo con te di cosa hai bisogno. A volte
-                    la risposta è che ti serve meno di quanto pensavi, e te lo dico.
+                    Dubbi su cosa sia adatto? Prenota un colloquio di 30 minuti, senza impegno. Consiglio ciò di
+                    cui il progetto ha bisogno, anche se è meno del previsto.
                 </p>
             </>
         ),
     },
     uk: {
-        title: "WordPress чи індивідуальна розробка: що підходить вашому бізнесу?",
+        title: "WordPress чи індивідуальне рішення? Завжди індивідуальне: підпискою або пакетом",
         date: "2026-10-09",
         dateLabel: "9 жовтня 2026",
         minutes: 4,
-        shareText: "WordPress чи сайт на замовлення? Як обрати, з мого досвіду роботи з обома.",
+        shareText: "WordPress чи індивідуальне рішення? У ManonIT це завжди індивідуальна робота. Вибір — у способі оплати.",
         Body: () => (
             <>
                 <p className="lead">
-                    Майже кожен підприємець, який хоче сайт, ставить мені те саме запитання:
-                    WordPress чи щось індивідуальне? Чесна відповідь: обидва варіанти можуть бути
-                    правильними. Все залежить від того, що має робити ваш сайт.
+                    Питання «WordPress чи індивідуальне рішення?» належить до старої суперечності. Кожен сайт
+                    ManonIT — це індивідуальна робота: власний дизайн, власні тексти, створено для одного
+                    замовника. Справді важливий вибір інший: як оплачується сайт і яка технологія підходить.
                 </p>
 
-                <h2>Коли WordPress — хороший вибір</h2>
-
+                <h2>Завжди індивідуально</h2>
                 <p>
-                    Для більшості фрилансерів і малих компаній WordPress працює чудово. Ваш сайт
-                    складається зі сторінок, текстів, фото й, можливо, блогу, і ви хочете самі його
-                    редагувати, не телефонуючи мені. Так я зробила сайт <Link
-                    to="/webdesignacupuncture">Acupuncture by Saskia</Link>: спокійний, легкий для
-                    читання й для оновлення.
+                    Навіть сайт на WordPress — не стандартна тема з іншими кольорами. Дизайн і тексти створюються
+                    для бренду та його відвідувачів. Технологія під ними — засіб, а не відправна точка.
                 </p>
 
+                <h2>Два способи оплати</h2>
                 <ul>
-                    <li>Ви хочете самі керувати текстами, фото та блогом.</li>
-                    <li>Ваш сайт здебільшого інформаційний: хто ви, що робите, скільки це коштує, як зв'язатися.</li>
-                    <li>Ваш бюджет обмежений, і ви хочете швидко вийти в мережу.</li>
-                    <li>Ви хочете мати змогу згодом додати календар, форму чи невеликий магазин.</li>
+                    <li><strong>Підписка:</strong> разовий запуск і фіксована сума щомісяця, від 39 € на місяць. Хостинг, оновлення безпеки, резервні копії та дрібні зміни включено. Строк — 24 місяці, після чого сайт належить клієнтові.</li>
+                    <li><strong>Пакет (проєкт):</strong> разово, з фіксованою ціною наперед, від 1 200 €. Без строку. Підтримка за бажанням.</li>
                 </ul>
-
-                <h2>Коли краще підходить індивідуальна розробка</h2>
-
                 <p>
-                    Індивідуальна розробка виправдовує себе, коли сайт має робити більше, ніж
-                    інформувати: вхід в акаунт, оплата, договори чи зв'язок з іншими системами.
-                    Приклад — <Link to="/backendstudentendashboard">CasaCrew</Link>, застосунок для
-                    орендодавиць, який я створила на Spring Boot і OAuth2. Плагінами це не вирішити.
+                    Різницю наочно показано на <Link to="/tarieven">сторінці цін</Link>. Усі ціни без ПДВ.
                 </p>
 
-                <ul>
-                    <li>Користувачі мають безпечно входити й керувати власними даними.</li>
-                    <li>У вас особливий спосіб роботи, який не вписується в жоден стандартний пакет.</li>
-                    <li>Ви хочете повного контролю над швидкістю, безпекою та дизайном.</li>
-                    <li>Сайт — основа вашого бізнесу, а не просто візитівка.</li>
-                </ul>
-
-                <h2>Що ця різниця означає на практиці</h2>
-
+                <h2>Яка технологія підходить</h2>
                 <p>
-                    З WordPress ви платите менше на старті й багато можете робити самі. Натомість
-                    оновлення та плагіни потребують догляду. Застарілий плагін — найчастіша причина
-                    злому сайтів на WordPress. З індивідуальною розробкою старт коштує дорожче, і
-                    для змін ви більше залежите від мене, але отримуєте саме те, що потрібно, і
-                    нічого зайвого.
+                    <strong>WordPress або інша CMS</strong> підходить, коли тексти, фото й блог має вести сам
+                    клієнт. Так я створила <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>:
+                    спокійний, зручний для читання й простий в оновленні.
+                </p>
+                <p>
+                    <strong>Власний код</strong> підходить, коли сайт має робити більше, ніж інформувати: вхід
+                    користувачів, платежі чи зв'язок з іншими системами. Приклад —{" "}
+                    <Link to="/backendstudentendashboard">CasaCrew</Link>, застосунок для оренди, створений на
+                    Spring Boot та OAuth2.
                 </p>
 
+                <h2>Що це означає для підтримки</h2>
                 <p>
-                    Мої тарифи ви знайдете на <Link to="/#tarieven">головній сторінці</Link>:
-                    базовий сайт від 1 200 €, сайт із CMS від 2 450 € і повністю індивідуальний від
-                    4 250 €, усе без ПДВ і з фіксованою ціною в пропозиції.
+                    WordPress потребує регулярних оновлень; застарілий плагін — найчастіша причина зламаного
+                    сайту. У підписці така підтримка включена. У пакеті її можна додати від 120 € на місяць.
+                    Докладніше — у блозі <Link to="/journal/website-onderhoud">Що входить у підтримку сайту</Link>.
                 </p>
 
                 <h2>Як обрати</h2>
-
                 <p>
-                    Поставте собі три запитання. Чи хочу я самостійно змінювати тексти? Тоді
-                    WordPress або CMS. Чи мають люди входити або платити нестандартним способом?
-                    Тоді індивідуальна розробка. Ще не знаєте? Тоді WordPress майже завжди
-                    найбезпечніший початок, адже рости можна й пізніше.
+                    Допоможуть три запитання. Чи має сайт вийти в мережу без клопоту й з невеликим стартовим
+                    внеском? Тоді підписка. Чи це більший або індивідуально створений сайт, і чи краще підходить
+                    разова інвестиція? Тоді пакет. А чи мають тексти редагуватися самостійно? Тоді CMS, в обох
+                    випадках.
                 </p>
 
-                <h2>Ще вагаєтеся?</h2>
-
+                <h2>Є запитання?</h2>
                 <p>
-                    На безкоштовній розмові на 30 хвилин я разом з вами подивлюся, що вам потрібно.
-                    Іноді відповідь така: вам потрібно менше, ніж ви думали, і я так і скажу.
+                    Сумніваєтеся, що підходить? Запишіться на безкоштовну розмову на 30 хвилин, без зобов'язань.
+                    Я раджу те, що потрібно проєкту, навіть якщо це менше, ніж очікувалося.
                 </p>
             </>
         ),
@@ -566,8 +481,8 @@ export default function WordpressOfMaatwerk() {
     return (
         <BlogArticle
             id="wordpress-of-maatwerk"
-            cover="/Portfolio/acupuncture-mockup"
-            coverAlt="Website Acupuncture by Saskia op desktop en mobiel"
+            cover="/journal/blog-maatwerk"
+            coverAlt="Illustratie: standaardblokken naast een op maat gemaakt ontwerp"
             coverHeight={800}
             content={content}
         />

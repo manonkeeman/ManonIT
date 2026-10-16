@@ -25,7 +25,8 @@
         "website-vakantiehuis": "Website voor een vakantiehuis",
         "meertalige-website": "Een meertalige website",
         "website-onderhoud": "Wat zit er in website-onderhoud",
-        "phishing-en-beveiliging": "Phishing en beveiliging"
+        "phishing-en-beveiliging": "Phishing en beveiliging",
+        "verhaal-acupuncture-by-saskia": "Het verhaal van Acupuncture by Saskia"
       }
     },
     "services": "Diensten",
@@ -295,27 +296,27 @@
         "description": "Sneller bouwen, meertalig en vindbaar in ChatGPT en Claude. Zo zet ik AI in voor mijn klanten, en waar bewust niet."
       },
       "verhaal-achter-casacrew": {
-        "title": "Van Excel-sheet naar eigen app: het verhaal achter CasaCrew | Manon Keeman",
+        "title": "Van Excel-sheet naar eigen app: het verhaal achter CasaCrew",
         "description": "Hoe een volle Excel-sheet bij Villa Vredestein uitgroeide tot CasaCrew, een verhuurapp voor hospita's."
       },
       "samenwerking-the-big-three": {
-        "title": "Vrijheid en vertrouwen: een website bouwen voor The Big Three | Manon Keeman",
+        "title": "Vrijheid en vertrouwen: een website bouwen voor The Big Three",
         "description": "Wat er gebeurt als een klant de ruimte geeft: de website van The Big Three, een garage voor Amerikaanse auto's in Nunspeet."
       },
       "website-villa-vredestein": {
-        "title": "Villa Vredestein: een huis met een verhaal, nu ook online | Manon Keeman",
+        "title": "Villa Vredestein: een huis met een verhaal, nu ook online",
         "description": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress of maatwerk: wat past bij het bedrijf? | Manon Keeman",
-        "description": "Wanneer is WordPress de juiste keuze en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
+        "title": "WordPress of maatwerk? Altijd maatwerk, als abonnement of als pakket",
+        "description": "Altijd maatwerk: kiezen tussen een abonnement en een eenmalig pakket, en welke techniek daarbij past."
       },
       "website-vakantiehuis": {
-        "title": "Een website voor een vakantiehuis: wat is er nodig? | Manon Keeman",
+        "title": "Een website voor een vakantiehuis: wat is er nodig?",
         "description": "Wat een verhuursite voor een vakantiehuis nodig heeft, met de ervaring van Casa Reille in Abruzzo."
       },
       "meertalige-website": {
-        "title": "Een meertalige website laten maken: wat komt erbij kijken? | Manon Keeman",
+        "title": "Een meertalige website laten maken: wat komt erbij kijken?",
         "description": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein."
       },
       "website-onderhoud": {
@@ -323,8 +324,12 @@
         "description": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer het nodig is."
       },
       "phishing-en-beveiliging": {
-        "title": "Phishing herkennen: zo blijven website en mailbox veilig | Manon Keeman",
+        "title": "Phishing herkennen: zo blijven website en mailbox veilig",
         "description": "Hoe nepmails te herkennen zijn en wat ik doe om websites als Villa Vredestein en The Big Three veilig te houden."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "Het verhaal van Acupuncture by Saskia | Manon Keeman",
+        "description": "Hoe een gesprek tussen collega's bij KLM leidde tot betere teksten, vindbaarheid en een WordPress-site voor een acupunctuurpraktijk."
       }
     },
     "portfolio": {
@@ -389,8 +394,8 @@
         "excerpt": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress of maatwerk: wat past bij het bedrijf?",
-        "excerpt": "Wanneer is WordPress de juiste keuze en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
+        "title": "WordPress of maatwerk? Altijd maatwerk, als abonnement of als pakket",
+        "excerpt": "Altijd maatwerk: kiezen tussen een abonnement en een eenmalig pakket, en welke techniek daarbij past."
       },
       "website-vakantiehuis": {
         "title": "Een website voor een vakantiehuis: wat is er nodig?",
@@ -407,6 +412,10 @@
       "phishing-en-beveiliging": {
         "title": "Phishing herkennen: zo blijven website en mailbox veilig",
         "excerpt": "Hoe nepmails te herkennen zijn en wat ik doe om websites als Villa Vredestein en The Big Three veilig te houden."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "Het verhaal van Acupuncture by Saskia: van bestaande website naar goedlopende praktijk",
+        "excerpt": "Hoe een gesprek tussen collega's bij KLM leidde tot betere teksten, vindbaarheid en een WordPress-site voor een acupunctuurpraktijk."
       }
     }
   },
@@ -595,7 +604,6 @@
     ],
     "sketchTitle": "Eerst zien, dan kiezen",
     "sketch": "Na het kennismakingsgesprek maak ik gratis een schets van de homepage: hoe de site eruit zou kunnen zien. Zo is zichtbaar wat het wordt voordat er iets besloten is, zonder verplichting.",
-    "byline": "Ontwerp, teksten en bouw door één persoon, zonder overdracht. Opgeleid aan de Gerrit Rietveld Academie, het SAE Institute en de Schrijversacademie, en omgeschoold tot Full Stack Developer.",
     "more": "Meer nodig, zoals een webapp met inlog en database (zoals CasaCrew), een webshop of volledig maatwerk? Bekijk de projectprijzen hieronder."
   },
   "faq": {

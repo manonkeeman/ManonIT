@@ -3,6 +3,7 @@ export const CASA_REILLE_URL = "http://russo.nl/Home/";
 
 // Journal-menu: nieuwste artikel bovenaan (zelfde volgorde als het journal)
 export const JOURNAL_NAV = [
+    "verhaal-acupuncture-by-saskia",
     "phishing-en-beveiliging",
     "website-onderhoud",
     "meertalige-website",

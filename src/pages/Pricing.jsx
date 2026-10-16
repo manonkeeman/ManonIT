@@ -155,7 +155,6 @@ export default function Pricing() {
                         <div className="sub-card">
                             <h3>{t("subscription.sketchTitle")}</h3>
                             <p>{t("subscription.sketch")}</p>
-                            <p className="sub-byline">{t("subscription.byline")}</p>
                         </div>
                     </div>
 

@@ -25,7 +25,8 @@
         "website-vakantiehuis": "Website für ein Ferienhaus",
         "meertalige-website": "Eine mehrsprachige Website",
         "website-onderhoud": "Was Website-Wartung umfasst",
-        "phishing-en-beveiliging": "Phishing und Sicherheit"
+        "phishing-en-beveiliging": "Phishing und Sicherheit",
+        "verhaal-acupuncture-by-saskia": "Die Geschichte von Acupuncture by Saskia"
       }
     },
     "services": "Leistungen",
@@ -234,27 +235,27 @@
         "description": "Schneller bauen, mehrsprachig und auffindbar in ChatGPT und Claude. So setze ich KI für meine Kunden ein, und wo bewusst nicht."
       },
       "verhaal-achter-casacrew": {
-        "title": "Von der Excel-Tabelle zur eigenen App: die Geschichte hinter CasaCrew | Manon Keeman",
+        "title": "Von der Excel-Tabelle zur eigenen App: die Geschichte hinter CasaCrew",
         "description": "Wie aus einer vollen Excel-Tabelle in der Villa Vredestein CasaCrew wurde, eine Vermietungs-App für Zimmervermieter."
       },
       "samenwerking-the-big-three": {
-        "title": "Freiheit und Vertrauen: eine Website für The Big Three | Manon Keeman",
+        "title": "Freiheit und Vertrauen: eine Website für The Big Three",
         "description": "Was passiert, wenn ein Kunde dir Raum gibt: die Website von The Big Three, einer Werkstatt für amerikanische Autos in Nunspeet."
       },
       "website-villa-vredestein": {
-        "title": "Villa Vredestein: ein Haus mit Geschichte, jetzt auch online | Manon Keeman",
+        "title": "Villa Vredestein: ein Haus mit Geschichte, jetzt auch online",
         "description": "Wie ich die Geschichte einer Villa von 1906 in Driebergen-Rijsenburg in eine Website ohne Schnickschnack übersetzt habe."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress oder Maßanfertigung: Was passt zu Ihrem Unternehmen? | Manon Keeman",
-        "description": "Wann WordPress und wann eine maßgeschneiderte Website? Ehrliche Beratung aus meinen eigenen Projekten."
+        "title": "WordPress oder Maßarbeit? Immer Maßarbeit, als Abonnement oder als Paket",
+        "description": "Immer Maßarbeit: die Wahl zwischen Abonnement und Einmalpaket und die passende Technik."
       },
       "meertalige-website": {
-        "title": "Eine mehrsprachige Website erstellen lassen: Was gehört dazu? | Manon Keeman",
+        "title": "Eine mehrsprachige Website erstellen lassen: Was gehört dazu?",
         "description": "Wann ist eine mehrsprachige Website sinnvoll, was braucht sie technisch und was kostet sie? Mit Erfahrung aus der Villa Vredestein."
       },
       "website-onderhoud": {
-        "title": "Was gehört zur Website-Wartung, und brauchen Sie sie? | Manon Keeman",
+        "title": "Was gehört zur Website-Wartung, und brauchen Sie sie?",
         "description": "Updates, Backups, Monitoring und kleine Anpassungen: was Wartung umfasst, was sie kostet und wann Sie sie brauchen."
       },
       "website-vakantiehuis": {
@@ -262,8 +263,12 @@
         "description": "Was eine Vermietungs-Website für ein Ferienhaus braucht, mit der Erfahrung von Casa Reille in den Abruzzen."
       },
       "phishing-en-beveiliging": {
-        "title": "Phishing erkennen: So bleiben Website und Postfach sicher | Manon Keeman",
+        "title": "Phishing erkennen: So bleiben Website und Postfach sicher",
         "description": "Wie sich gefälschte Mails erkennen lassen und was ich tue, um Websites wie Villa Vredestein und The Big Three sicher zu halten."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "Die Geschichte von Acupuncture by Saskia | Manon Keeman",
+        "description": "Wie ein Gespräch unter Kollegen bei KLM zu besseren Texten, besserer Auffindbarkeit und einer WordPress-Seite für eine Akupunkturpraxis führte."
       }
     },
     "portfolio": {
@@ -328,8 +333,8 @@
         "excerpt": "Wie ich die Geschichte einer Villa von 1906 in Driebergen-Rijsenburg in eine Website ohne Schnickschnack übersetzt habe."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress oder Maßanfertigung: Was passt zu Ihrem Unternehmen?",
-        "excerpt": "Wann WordPress und wann eine maßgeschneiderte Website? Ehrliche Beratung aus meinen eigenen Projekten."
+        "title": "WordPress oder Maßarbeit? Immer Maßarbeit, als Abonnement oder als Paket",
+        "excerpt": "Immer Maßarbeit: die Wahl zwischen Abonnement und Einmalpaket und die passende Technik."
       },
       "meertalige-website": {
         "title": "Eine mehrsprachige Website erstellen lassen: Was gehört dazu?",
@@ -346,6 +351,10 @@
       "phishing-en-beveiliging": {
         "title": "Phishing erkennen: So bleiben Website und Postfach sicher",
         "excerpt": "Wie sich gefälschte Mails erkennen lassen und was ich tue, um Websites wie Villa Vredestein und The Big Three sicher zu halten."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "Die Geschichte von Acupuncture by Saskia: von der bestehenden Website zur gut laufenden Praxis",
+        "excerpt": "Wie ein Gespräch unter Kollegen bei KLM zu besseren Texten, besserer Auffindbarkeit und einer WordPress-Seite für eine Akupunkturpraxis führte."
       }
     }
   },
@@ -595,7 +604,6 @@
     ],
     "sketchTitle": "Erst sehen, dann entscheiden",
     "sketch": "Nach dem Kennenlerngespräch erstelle ich kostenlos eine Skizze Ihrer Startseite: wie Ihre Website aussehen könnte. Sie sehen, was Sie bekommen, bevor Sie etwas entscheiden, und binden sich an nichts.",
-    "byline": "Design, Texte und Aufbau von einer Person, ohne Übergabe. Ausgebildet an der Gerrit Rietveld Academie, am SAE Institute und an der Schrijversacademie (Schreibschule), umgeschult zur Full Stack Entwicklerin.",
     "more": "Brauchen Sie mehr, etwa eine Web-App mit Login und Datenbank (wie CasaCrew), einen Webshop oder eine komplett maßgeschneiderte Lösung? Siehe die Projektpreise unten."
   },
   "faq": {

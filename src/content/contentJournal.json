@@ -49,10 +49,10 @@
   },
   {
     "slug": "wordpress-of-maatwerk",
-    "title": "WordPress of maatwerk: wat past bij jouw bedrijf?",
+    "title": "WordPress of maatwerk? Altijd maatwerk, als abonnement of als pakket",
     "date": "2026-10-09",
-    "excerpt": "Wanneer kies je WordPress en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten.",
-    "cover": "/Portfolio/acupuncture-mockup-800w.avif",
+    "excerpt": "Altijd maatwerk: kiezen tussen een abonnement en een eenmalig pakket, en welke techniek daarbij past.",
+    "cover": "/journal/blog-maatwerk-800w.avif",
     "words": 620
   },
   {
@@ -68,7 +68,7 @@
     "title": "Een meertalige website laten maken: wat komt erbij kijken?",
     "date": "2026-10-09",
     "excerpt": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein.",
-    "cover": "/Portfolio/villa-vredestein-mockup-800w.avif",
+    "cover": "/journal/blog-meertalig-800w.avif",
     "words": 560
   },
   {
@@ -76,7 +76,7 @@
     "title": "Wat zit er in website-onderhoud, en heb je het nodig?",
     "date": "2026-10-09",
     "excerpt": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer je het nodig hebt.",
-    "cover": "/Portfolio/de-grote-drie-mockup-800w.avif",
+    "cover": "/journal/blog-onderhoud-800w.avif",
     "words": 560
   },
   {
@@ -84,7 +84,15 @@
     "title": "Phishing herkennen: zo blijven website en mailbox veilig",
     "date": "2026-10-16",
     "excerpt": "Hoe nepmails te herkennen zijn en wat ik doe om websites als Villa Vredestein en The Big Three veilig te houden.",
-    "cover": "/Portfolio/villa-vredestein-mockup-800w.avif",
+    "cover": "/journal/blog-phishing-800w.avif",
     "words": 520
+  },
+  {
+    "slug": "verhaal-acupuncture-by-saskia",
+    "title": "Het verhaal van Acupuncture by Saskia: van bestaande website naar goedlopende praktijk",
+    "date": "2026-10-16",
+    "excerpt": "Hoe een gesprek tussen collega's bij KLM leidde tot betere teksten, vindbaarheid en een WordPress-site voor een acupunctuurpraktijk.",
+    "cover": "/Portfolio/acupuncture-mockup-800w.avif",
+    "words": 330
   }
 ]

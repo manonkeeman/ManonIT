@@ -507,8 +507,8 @@ export default function WebsiteOnderhoud() {
     return (
         <BlogArticle
             id="website-onderhoud"
-            cover="/Portfolio/de-grote-drie-mockup"
-            coverAlt="Website The Big Three op desktop en mobiel"
+            cover="/journal/blog-onderhoud"
+            coverAlt="Illustratie: tandwielen en een schild met vinkje als symbool voor onderhoud en beveiliging"
             coverHeight={800}
             content={content}
         />

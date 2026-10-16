@@ -402,4 +402,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/portfolio" />
     <lastmod>2026-10-16</lastmod>
   </url>
+  <url>
+    <loc>https://manonit.com/journal/verhaal-acupuncture-by-saskia</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/verhaal-acupuncture-by-saskia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/verhaal-acupuncture-by-saskia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/verhaal-acupuncture-by-saskia" />
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/en/journal/verhaal-acupuncture-by-saskia</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/verhaal-acupuncture-by-saskia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/verhaal-acupuncture-by-saskia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/verhaal-acupuncture-by-saskia" />
+    <lastmod>2026-10-16</lastmod>
+  </url>
 </urlset>

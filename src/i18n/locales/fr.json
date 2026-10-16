@@ -25,7 +25,8 @@
         "website-vakantiehuis": "Un site pour une maison de vacances",
         "meertalige-website": "Un site multilingue",
         "website-onderhoud": "Ce que comprend la maintenance",
-        "phishing-en-beveiliging": "Phishing et sécurité"
+        "phishing-en-beveiliging": "Phishing et sécurité",
+        "verhaal-acupuncture-by-saskia": "L'histoire d'Acupuncture by Saskia"
       }
     },
     "services": "Services",
@@ -230,40 +231,44 @@
         "description": "Comment j'ai construit le site de ma nièce Marie : doux en surface, réfléchi en profondeur."
       },
       "ai-in-mijn-werk": {
-        "title": "Comment j'utilise l'IA dans mon travail (et où je ne l'utilise pas) | Manon Keeman",
+        "title": "Comment j'utilise l'IA dans mon travail (et où je ne l'utilise pas)",
         "description": "Construire plus vite, en plusieurs langues et visible dans ChatGPT et Claude. Comment j'utilise l'IA pour mes clients, et où pas."
       },
       "verhaal-achter-casacrew": {
-        "title": "Du tableur à l'application : l'histoire de CasaCrew | Manon Keeman",
+        "title": "Du tableur à l'application : l'histoire de CasaCrew",
         "description": "Comment un tableur débordant à la Villa Vredestein est devenu CasaCrew, une application pour loueurs de chambres."
       },
       "samenwerking-the-big-three": {
-        "title": "Liberté et confiance : un site web pour The Big Three | Manon Keeman",
+        "title": "Liberté et confiance : un site web pour The Big Three",
         "description": "Ce qui se passe quand un client vous laisse de la place : le site de The Big Three, garage de voitures américaines à Nunspeet."
       },
       "website-villa-vredestein": {
-        "title": "Villa Vredestein : une maison avec une histoire, désormais en ligne | Manon Keeman",
+        "title": "Villa Vredestein : une maison avec une histoire, désormais en ligne",
         "description": "Comment j'ai traduit l'histoire d'une villa de 1906 à Driebergen-Rijsenburg en un site sans fioritures."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress ou sur mesure : qu'est-ce qui convient à votre entreprise ? | Manon Keeman",
-        "description": "Quand choisir WordPress et quand un site sur mesure ? Des conseils honnêtes tirés de mes propres projets."
+        "title": "WordPress ou sur mesure ? Toujours sur mesure, en abonnement ou en forfait",
+        "description": "Toujours sur mesure : choisir entre un abonnement et un forfait unique, et la technique qui convient."
       },
       "meertalige-website": {
-        "title": "Faire créer un site multilingue : que faut-il prévoir ? | Manon Keeman",
+        "title": "Faire créer un site multilingue : que faut-il prévoir ?",
         "description": "Quand un site multilingue a-t-il du sens, que faut-il techniquement et combien ça coûte ? Avec l'expérience de Villa Vredestein."
       },
       "website-onderhoud": {
-        "title": "Que comprend la maintenance d'un site, et en avez-vous besoin ? | Manon Keeman",
+        "title": "Que comprend la maintenance d'un site, et en avez-vous besoin ?",
         "description": "Mises à jour, sauvegardes, surveillance et petites modifications : ce que comprend la maintenance, ce qu'elle coûte et quand elle est nécessaire."
       },
       "website-vakantiehuis": {
-        "title": "Un site pour votre maison de vacances : de quoi avez-vous besoin ? | Manon Keeman",
+        "title": "Un site pour votre maison de vacances : de quoi avez-vous besoin ?",
         "description": "Ce dont un site de location de maison de vacances a besoin, avec l'expérience de Casa Reille dans les Abruzzes."
       },
       "phishing-en-beveiliging": {
-        "title": "Reconnaître le phishing : garder site web et messagerie en sécurité | Manon Keeman",
+        "title": "Reconnaître le phishing : garder site web et messagerie en sécurité",
         "description": "Comment repérer les faux e-mails et ce que je fais pour sécuriser des sites comme Villa Vredestein et The Big Three."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "L'histoire d'Acupuncture by Saskia | Manon Keeman",
+        "description": "Comment une conversation entre collègues chez KLM a mené à de meilleurs textes, une meilleure visibilité et un site WordPress pour un cabinet d'acupuncture."
       }
     },
     "portfolio": {
@@ -328,8 +333,8 @@
         "excerpt": "Comment j'ai traduit l'histoire d'une villa de 1906 à Driebergen-Rijsenburg en un site sans fioritures."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress ou sur mesure : qu'est-ce qui convient à votre entreprise ?",
-        "excerpt": "Quand choisir WordPress et quand un site sur mesure ? Des conseils honnêtes tirés de mes propres projets."
+        "title": "WordPress ou sur mesure ? Toujours sur mesure, en abonnement ou en forfait",
+        "excerpt": "Toujours sur mesure : choisir entre un abonnement et un forfait unique, et la technique qui convient."
       },
       "meertalige-website": {
         "title": "Faire créer un site multilingue : que faut-il prévoir ?",
@@ -346,6 +351,10 @@
       "phishing-en-beveiliging": {
         "title": "Reconnaître le phishing : garder site web et messagerie en sécurité",
         "excerpt": "Comment repérer les faux e-mails et ce que je fais pour sécuriser des sites comme Villa Vredestein et The Big Three."
+      },
+      "verhaal-acupuncture-by-saskia": {
+        "title": "L'histoire d'Acupuncture by Saskia : d'un site existant à un cabinet qui tourne bien",
+        "excerpt": "Comment une conversation entre collègues chez KLM a mené à de meilleurs textes, une meilleure visibilité et un site WordPress pour un cabinet d'acupuncture."
       }
     }
   },
@@ -595,7 +604,6 @@
     ],
     "sketchTitle": "Voir d'abord, choisir ensuite",
     "sketch": "Après l'échange de présentation, je réalise gratuitement une esquisse de votre page d'accueil : à quoi pourrait ressembler votre site. Vous voyez ce que vous obtenez avant de décider, sans aucun engagement.",
-    "byline": "Design, textes et construction par une seule personne, sans transfert. Formée à la Gerrit Rietveld Academie, au SAE Institute et à la Schrijversacademie (école d'écriture), puis reconvertie en développeuse Full Stack.",
     "more": "Besoin de plus, comme une application web avec connexion et base de données (comme CasaCrew), une boutique en ligne ou du sur-mesure ? Consultez les prix par projet ci-dessous."
   },
   "faq": {
