@@ -291,7 +291,7 @@
     },
     "pricing": {
       "title": "Tariffe e abbonamenti | Realizzazione siti web | ManonIT",
-      "description": "Un sito da 39 € al mese o come progetto da 1.200 €. Avvio, Crescita o Marchio, con hosting, backup e sicurezza inclusi. Tutte le tariffe a colpo d'occhio."
+      "description": "Un sito da 39 € al mese o come progetto da 1.200 €. Avvio, Crescita o Marchio. Con l'abbonamento, manutenzione, backup e sicurezza sono inclusi. Tutte le tariffe a colpo d'occhio."
     },
     "faq": {
       "title": "Domande frequenti sull'abbonamento al sito web | ManonIT",
@@ -517,7 +517,7 @@
   },
   "care": {
     "label": "Manutenzione",
-    "title": "Online senza pensieri, ogni mese",
+    "title": "Manutenzione e sicurezza, ogni mese",
     "intro": "Un sito non è mai finito. Se il tuo sito è stato realizzato come progetto, un abbonamento di manutenzione lo mantiene sicuro, veloce e trovabile, su Google e nei motori di ricerca IA come ChatGPT e Claude. Tu non devi più pensarci.",
     "recommended": "Consigliato",
     "perMonth": "al mese, IVA esclusa",
@@ -553,23 +553,23 @@
   "subscription": {
     "label": "Abbonamento",
     "title": "Un sito senza un grosso investimento iniziale",
-    "intro": "Preferisci un prezzo mensile fisso a una grossa somma in una volta? Scegli un abbonamento: progetto, realizzazione, hosting, backup e modifiche sono inclusi.",
+    "intro": "Preferisci un prezzo mensile fisso a una grossa somma in una volta? Scegli un abbonamento: progetto, realizzazione, manutenzione, backup e modifiche sono inclusi.",
     "popular": "Il più scelto",
     "perMonth": "al mese, IVA esclusa",
     "setup": "avvio una tantum, IVA esclusa",
     "total": "Totale in 24 mesi: {{total}} IVA esclusa",
     "cta": "Prenota un colloquio di 30 minuti",
-    "noOtherTitle": "Nessun altro costo.",
-    "noOther": "Hosting, SSL, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile. Solo il dominio (circa 12 a 15 € all'anno) lo paghi tu, direttamente al registrar.",
+    "noOtherTitle": "Hosting e dominio.",
+    "noOther": "I costi di hosting (circa 8 a 15 € al mese) e il dominio (circa 12 a 15 € all'anno) li paga il cliente, direttamente al fornitore. Vale per un abbonamento e per un progetto. Con l'abbonamento, manutenzione, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile.",
     "plans": {
       "start": {
         "name": "Avvio",
-        "tagline": "Online in modo professionale, senza pensieri.",
+        "tagline": "Online in modo professionale, con design proprio.",
         "items": [
           "Fino a 3 pagine",
           "Realizzato sul mio sistema di design, con la tua identità visiva",
           "1 piccola modifica al mese",
-          "Hosting, backup e sicurezza inclusi"
+          "Manutenzione, backup e sicurezza inclusi"
         ]
       },
       "growth": {
@@ -580,7 +580,7 @@
           "Design completamente personalizzato",
           "SEO e GEO di base",
           "2 piccole modifiche al mese",
-          "Hosting, backup e sicurezza inclusi"
+          "Manutenzione, backup e sicurezza inclusi"
         ]
       },
       "brand": {
@@ -591,13 +591,13 @@
           "Design personalizzato più verifica dell'identità visiva o rinnovo del logo",
           "Modulo di contatto, modulo di prenotazione o multilingue",
           "4 piccole modifiche al mese più controllo trimestrale",
-          "Hosting, backup e sicurezza inclusi"
+          "Manutenzione, backup e sicurezza inclusi"
         ]
       }
     },
     "termsTitle": "Come funziona il contratto",
     "terms": [
-      "Niente leasing: dopo 24 mesi il sito è tuo. Se poi vuoi mantenere hosting e modifiche, l'abbonamento prosegue e lo disdici mensilmente.",
+      "Niente leasing: dopo 24 mesi il sito è tuo. Se poi vuoi mantenere manutenzione e modifiche, l'abbonamento prosegue e lo disdici mensilmente.",
       "Puoi smettere prima. Paghi allora la parte restante della realizzazione, circa 20 a 30 € per ogni mese rimanente.",
       "Una piccola modifica è sostituire un testo o un'immagine, al massimo 15 minuti. Non accumulabile. Un lavoro più grande riceve un prezzo fisso in anticipo.",
       "Il tuo dominio è sempre a tuo nome."
@@ -615,7 +615,7 @@
         "items": [
           {
             "q": "Ci sono altri costi?",
-            "a": "No. Hosting, SSL, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile. L'unica cosa che paghi tu è il dominio, circa 12 a 15 € all'anno, direttamente al registrar. Tutti i prezzi sono IVA esclusa."
+            "a": "Sì: hosting e dominio. L'hosting costa circa 8 a 15 € al mese e il dominio circa 12 a 15 € all'anno, entrambi pagati direttamente al fornitore, sia con l'abbonamento sia con un progetto. Con l'abbonamento, manutenzione, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile. Tutti i prezzi sono IVA esclusa."
           },
           {
             "q": "Perché costa più di un abbonamento economico o di Wix?",
@@ -739,7 +739,7 @@
           },
           {
             "q": "Dove si trova il sito e quanto è veloce?",
-            "a": "Su un hosting professionale e affidabile, con SSL, backup giornalieri e aggiornamenti di sicurezza. Il sito è ottimizzato tecnicamente per la velocità. Discuto volentieri i dettagli del fornitore di hosting in un colloquio."
+            "a": "Su un hosting professionale e affidabile, con SSL. Backup e aggiornamenti di sicurezza fanno parte della manutenzione. Il sito è ottimizzato tecnicamente per la velocità. I costi di hosting li paga il cliente. Discuto volentieri i dettagli del fornitore di hosting in un colloquio."
           },
           {
             "q": "Il sito può essere multilingue?",
@@ -775,7 +775,7 @@
   },
   "homePricing": {
     "title": "Un sito da {{price}} al mese",
-    "text": "Scegli un abbonamento con Avvio, Crescita o Marchio, oppure fai realizzare un progetto a prezzo fisso. Hosting, backup e sicurezza sono inclusi.",
+    "text": "Scegli un abbonamento con Avvio, Crescita o Marchio, oppure fai realizzare un progetto a prezzo fisso. Con l'abbonamento, manutenzione, backup e sicurezza sono inclusi. Hosting e dominio li paga il cliente.",
     "cta": "Vedi le tariffe"
   },
   "howPage": {
@@ -830,8 +830,8 @@
       },
       {
         "title": "Manutenzione",
-        "text": "Hosting, aggiornamenti, backup e piccole modifiche sono inclusi per 24 mesi nel canone mensile. Poi il sito è del cliente.",
-        "detail": "Poi disdicibile ogni mese. Ampliare è sempre possibile, con prezzo fisso in anticipo."
+        "text": "Manutenzione, aggiornamenti, backup e piccole modifiche sono inclusi per 24 mesi nel canone mensile. Poi il sito è del cliente e disdicibile ogni mese.",
+        "detail": "Hosting e dominio li paga il cliente direttamente. Ampliare è sempre possibile, con prezzo fisso in anticipo."
       }
     ],
     "facts": [
@@ -861,7 +861,8 @@
     "labels": [
       "Pagamento",
       "Durata",
-      "Hosting e sicurezza",
+      "Manutenzione e sicurezza",
+      "Hosting e dominio",
       "Piccole modifiche",
       "Il sito è del",
       "Adatto a"
@@ -874,9 +875,10 @@
         "Avvio una tantum più un importo fisso al mese",
         "24 mesi, poi disdicibile ogni mese",
         "Incluso",
+        "Li paga il cliente direttamente al fornitore (hosting circa 8 a 15 € al mese)",
         "Incluso: da 1 a 4 al mese",
         "cliente, dopo 24 mesi",
-        "Essere online senza pensieri e con un basso costo iniziale"
+        "Un sito professionale con un basso costo iniziale"
       ]
     },
     "proj": {
@@ -886,7 +888,8 @@
       "values": [
         "Una tantum, con prezzo fisso in anticipo",
         "Nessuna durata",
-        "A parte, manutenzione facoltativa da 120 € al mese",
+        "Facoltativa, da 120 € al mese",
+        "Li paga il cliente direttamente al fornitore (hosting circa 8 a 15 € al mese)",
         "A ore (65 €) o con un abbonamento di manutenzione",
         "cliente, alla consegna",
         "Un sito più ampio o su misura, con un unico investimento"

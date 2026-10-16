@@ -291,7 +291,7 @@
     },
     "pricing": {
       "title": "Preise und Abos | Website erstellen lassen | ManonIT",
-      "description": "Website ab 39 € pro Monat oder als Projekt ab 1.200 €. Start, Wachstum oder Marke, inklusive Hosting, Backups und Sicherheit. Alle Preise im Überblick."
+      "description": "Website ab 39 € pro Monat oder als Projekt ab 1.200 €. Start, Wachstum oder Marke. Beim Abo sind Wartung, Backups und Sicherheit inklusive. Alle Preise im Überblick."
     },
     "faq": {
       "title": "Häufige Fragen zum Website-Abo | ManonIT",
@@ -517,7 +517,7 @@
   },
   "care": {
     "label": "Wartung",
-    "title": "Sorgenfrei online, jeden Monat",
+    "title": "Wartung und Sicherheit, jeden Monat",
     "intro": "Eine Website ist nie fertig. Wurde deine Website als Projekt gebaut, hält ein Wartungsabo sie sicher, schnell und auffindbar, bei Google und in KI-Suchmaschinen wie ChatGPT und Claude. Du musst dich um nichts kümmern.",
     "recommended": "Empfohlen",
     "perMonth": "pro Monat, zzgl. MwSt.",
@@ -553,23 +553,23 @@
   "subscription": {
     "label": "Abo",
     "title": "Eine Website ohne große Investition vorab",
-    "intro": "Lieber einen festen Monatspreis als einen großen Betrag auf einmal? Wählen Sie ein Abo: Design, Umsetzung, Hosting, Backups und Änderungen sind enthalten.",
+    "intro": "Lieber einen festen Monatspreis als einen großen Betrag auf einmal? Wählen Sie ein Abo: Design, Umsetzung, Wartung, Backups und Änderungen sind enthalten.",
     "popular": "Am häufigsten gewählt",
     "perMonth": "pro Monat, zzgl. MwSt.",
     "setup": "einmalige Startgebühr, zzgl. MwSt.",
     "total": "Gesamt über 24 Monate: {{total}} zzgl. MwSt.",
     "cta": "30 Minuten Kennenlerngespräch planen",
-    "noOtherTitle": "Keine weiteren Kosten.",
-    "noOther": "Hosting, SSL, Backups und Sicherheitsupdates sind im Monatspreis enthalten. Nur die Domain (etwa 12 bis 15 € pro Jahr) zahlen Sie selbst, direkt beim Registrar.",
+    "noOtherTitle": "Hosting und Domain.",
+    "noOther": "Die Hosting-Kosten (etwa 8 bis 15 € pro Monat) und die Domain (etwa 12 bis 15 € pro Jahr) zahlt der Kunde selbst, direkt beim Anbieter. Das gilt für ein Abo und für ein Projekt. Beim Abo sind Wartung, Backups und Sicherheitsupdates im Monatspreis enthalten.",
     "plans": {
       "start": {
         "name": "Start",
-        "tagline": "Professionell online, ohne Aufwand.",
+        "tagline": "Professionell online, mit eigenem Design.",
         "items": [
           "Bis zu 3 Seiten",
           "Gestaltet auf meinem eigenen Designsystem, in Ihrem Corporate Design",
           "1 kleine Änderung pro Monat",
-          "Hosting, Backups und Sicherheit inklusive"
+          "Wartung, Backups und Sicherheit inklusive"
         ]
       },
       "growth": {
@@ -580,7 +580,7 @@
           "Komplett eigenes Design",
           "Basis-SEO und GEO",
           "2 kleine Änderungen pro Monat",
-          "Hosting, Backups und Sicherheit inklusive"
+          "Wartung, Backups und Sicherheit inklusive"
         ]
       },
       "brand": {
@@ -591,13 +591,13 @@
           "Eigenes Design plus Check des Corporate Designs oder Logo-Auffrischung",
           "Formular, Buchungsmodul oder Mehrsprachigkeit",
           "4 kleine Änderungen pro Monat plus Quartalscheck",
-          "Hosting, Backups und Sicherheit inklusive"
+          "Wartung, Backups und Sicherheit inklusive"
         ]
       }
     },
     "termsTitle": "So funktioniert der Vertrag",
     "terms": [
-      "Kein Leasing: Nach 24 Monaten gehört die Website Ihnen. Möchten Sie danach Hosting und Änderungen behalten, läuft das Abo weiter und ist monatlich kündbar.",
+      "Kein Leasing: Nach 24 Monaten gehört die Website Ihnen. Möchten Sie danach Wartung und Änderungen behalten, läuft das Abo weiter und ist monatlich kündbar.",
       "Früher aufhören ist möglich. Sie zahlen dann den restlichen Umsetzungsanteil, etwa 20 bis 30 € pro verbleibendem Monat.",
       "Eine kleine Änderung ist ein Text oder Bild ersetzen, höchstens 15 Minuten. Nicht ansparbar. Größere Arbeiten bekommen vorab einen Festpreis.",
       "Ihre Domain läuft immer auf Ihren Namen."
@@ -615,7 +615,7 @@
         "items": [
           {
             "q": "Gibt es weitere Kosten?",
-            "a": "Nein. Hosting, SSL, Backups und Sicherheitsupdates sind im Monatspreis enthalten. Das Einzige, was Sie selbst zahlen, ist die Domain, etwa 12 bis 15 € pro Jahr, direkt beim Registrar. Alle Preise verstehen sich zzgl. MwSt."
+            "a": "Ja: Hosting und Domain. Hosting kostet etwa 8 bis 15 € pro Monat und die Domain etwa 12 bis 15 € pro Jahr, beides direkt beim Anbieter zu zahlen, sowohl beim Abo als auch beim Projekt. Beim Abo sind Wartung, Backups und Sicherheitsupdates im Monatspreis enthalten. Alle Preise verstehen sich zzgl. MwSt."
           },
           {
             "q": "Warum ist das teurer als ein günstiges Abo oder Wix?",
@@ -739,7 +739,7 @@
           },
           {
             "q": "Wo läuft die Website und wie schnell ist sie?",
-            "a": "Auf professionellem, zuverlässigem Hosting, inklusive SSL, täglicher Backups und Sicherheitsupdates. Die Website wird technisch auf Geschwindigkeit optimiert. Details zum Hosting-Anbieter bespreche ich gern im Gespräch."
+            "a": "Auf professionellem, zuverlässigem Hosting, mit SSL. Backups und Sicherheitsupdates gehören zur Wartung. Die Website wird technisch auf Geschwindigkeit optimiert. Die Hosting-Kosten zahlt der Kunde selbst. Details zum Hosting-Anbieter bespreche ich gern im Gespräch."
           },
           {
             "q": "Kann die Website mehrsprachig sein?",
@@ -775,7 +775,7 @@
   },
   "homePricing": {
     "title": "Eine Website ab {{price}} pro Monat",
-    "text": "Ein Abo mit Start, Wachstum oder Marke wählen oder ein Projekt zum Festpreis bauen lassen. Hosting, Backups und Sicherheit sind inklusive.",
+    "text": "Ein Abo mit Start, Wachstum oder Marke wählen oder ein Projekt zum Festpreis bauen lassen. Beim Abo sind Wartung, Backups und Sicherheit inklusive. Hosting und Domain zahlt der Kunde selbst.",
     "cta": "Preise ansehen"
   },
   "howPage": {
@@ -830,8 +830,8 @@
       },
       {
         "title": "Wartung",
-        "text": "Hosting, Updates, Backups und kleine Änderungen sind 24 Monate im Monatsbetrag enthalten. Danach gehört die Website dem Kunden.",
-        "detail": "Danach monatlich kündbar. Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
+        "text": "Wartung, Updates, Backups und kleine Änderungen sind 24 Monate im Monatsbetrag enthalten. Danach gehört die Website dem Kunden und ist monatlich kündbar.",
+        "detail": "Hosting und Domain zahlt der Kunde direkt. Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
       }
     ],
     "facts": [
@@ -861,7 +861,8 @@
     "labels": [
       "Zahlung",
       "Laufzeit",
-      "Hosting und Sicherheit",
+      "Wartung und Sicherheit",
+      "Hosting und Domain",
       "Kleine Änderungen",
       "Die Website gehört",
       "Passt zu"
@@ -874,9 +875,10 @@
         "Einmalige Einrichtung plus fester Betrag pro Monat",
         "24 Monate, danach monatlich kündbar",
         "Enthalten",
+        "Zahlt der Kunde direkt beim Anbieter (Hosting etwa 8 bis 15 € pro Monat)",
         "Enthalten: 1 bis 4 pro Monat",
         "dem Kunden, nach 24 Monaten",
-        "Ohne Aufwand online gehen, mit niedrigem Einstiegspreis"
+        "Eine professionelle Website mit niedrigem Einstiegspreis"
       ]
     },
     "proj": {
@@ -886,7 +888,8 @@
       "values": [
         "Einmalig, mit Festpreis im Voraus",
         "Keine Laufzeit",
-        "Separat, Wartung optional ab 120 € pro Monat",
+        "Optional, ab 120 € pro Monat",
+        "Zahlt der Kunde direkt beim Anbieter (Hosting etwa 8 bis 15 € pro Monat)",
         "Pro Stunde (65 €) oder über ein Wartungsabo",
         "dem Kunden, nach Übergabe",
         "Eine größere oder maßgeschneiderte Website, einmal investiert"

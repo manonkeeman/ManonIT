@@ -24,7 +24,7 @@ const content = {
 
                 <h2>Twee manieren om te betalen</h2>
                 <ul>
-                    <li><strong>Abonnement:</strong> een eenmalige opstart en een vast bedrag per maand, vanaf €39 per maand. Hosting, beveiligingsupdates, back-ups en kleine wijzigingen zitten erin. De looptijd is 24 maanden, daarna is de website van de klant.</li>
+                    <li><strong>Abonnement:</strong> een eenmalige opstart en een vast bedrag per maand, vanaf €39 per maand. Onderhoud, beveiligingsupdates, back-ups en kleine wijzigingen zitten erin. Hosting en domein betaalt de klant zelf. De looptijd is 24 maanden, daarna is de website van de klant.</li>
                     <li><strong>Pakket (project):</strong> eenmalig, met een vaste prijs vooraf, vanaf €1.200. Geen looptijd. Onderhoud is optioneel.</li>
                 </ul>
                 <p>
@@ -55,7 +55,7 @@ const content = {
 
                 <h2>Zo kiezen</h2>
                 <p>
-                    Drie vragen helpen. Moet de site zonder gedoe online komen, met een laag instapbedrag? Dan
+                    Drie vragen helpen. Is een laag instapbedrag het belangrijkst? Dan
                     een abonnement. Is het een uitgebreide of op maat gebouwde site, en past een eenmalige
                     investering beter? Dan een pakket. En moeten teksten zelf aangepast kunnen worden? Dan een
                     CMS, in beide gevallen.
@@ -91,7 +91,7 @@ const content = {
 
                 <h2>Two ways to pay</h2>
                 <ul>
-                    <li><strong>Subscription:</strong> a one-off setup and a fixed amount per month, from €39 per month. Hosting, security updates, backups and small changes are included. The term is 24 months, after which the website belongs to the client.</li>
+                    <li><strong>Subscription:</strong> a one-off setup and a fixed amount per month, from €39 per month. Maintenance, security updates, backups and small changes are included. The client pays hosting and domain. The term is 24 months, after which the website belongs to the client.</li>
                     <li><strong>Package (project):</strong> one-off, with a fixed price in advance, from €1,200. No term. Maintenance is optional.</li>
                 </ul>
                 <p>
@@ -120,8 +120,7 @@ const content = {
 
                 <h2>How to choose</h2>
                 <p>
-                    Three questions help. Does the site need to get online without hassle and with a low entry
-                    price? Then a subscription. Is it a larger or custom-built site, and does a one-off investment
+                    Three questions help. Is a low entry price the most important thing? Then a subscription. Is it a larger or custom-built site, and does a one-off investment
                     suit better? Then a package. And do texts need to be editable by the client? Then a CMS, in
                     both cases.
                 </p>
@@ -157,7 +156,7 @@ const content = {
 
                 <h2>Deux façons de payer</h2>
                 <ul>
-                    <li><strong>Abonnement :</strong> une mise en route unique et un montant fixe par mois, dès 39 € par mois. L'hébergement, les mises à jour de sécurité, les sauvegardes et les petites modifications sont inclus. La durée est de 24 mois, après quoi le site appartient au client.</li>
+                    <li><strong>Abonnement :</strong> une mise en route unique et un montant fixe par mois, dès 39 € par mois. La maintenance, les mises à jour de sécurité, les sauvegardes et les petites modifications sont inclus. L'hébergement et le domaine sont à la charge du client. La durée est de 24 mois, après quoi le site appartient au client.</li>
                     <li><strong>Forfait (projet) :</strong> en une fois, à prix fixe annoncé d'avance, dès 1 200 €. Sans durée. La maintenance est facultative.</li>
                 </ul>
                 <p>
@@ -189,8 +188,7 @@ const content = {
 
                 <h2>Comment choisir</h2>
                 <p>
-                    Trois questions aident. Le site doit-il être en ligne sans souci, avec un faible coût
-                    d'entrée ? Alors un abonnement. S'agit-il d'un site plus complet ou construit sur mesure, et un
+                    Trois questions aident. Un faible coût d'entrée est-il le plus important ? Alors un abonnement. S'agit-il d'un site plus complet ou construit sur mesure, et un
                     investissement unique convient-il mieux ? Alors un forfait. Et les textes doivent-ils être
                     modifiables par le client ? Alors un CMS, dans les deux cas.
                 </p>
@@ -227,7 +225,7 @@ const content = {
 
                 <h2>Zwei Arten der Bezahlung</h2>
                 <ul>
-                    <li><strong>Abonnement:</strong> eine einmalige Einrichtung und ein fester Betrag pro Monat, ab 39 € pro Monat. Hosting, Sicherheitsupdates, Backups und kleine Änderungen sind enthalten. Die Laufzeit beträgt 24 Monate, danach gehört die Website dem Kunden.</li>
+                    <li><strong>Abonnement:</strong> eine einmalige Einrichtung und ein fester Betrag pro Monat, ab 39 € pro Monat. Wartung, Sicherheitsupdates, Backups und kleine Änderungen sind enthalten. Hosting und Domain zahlt der Kunde selbst. Die Laufzeit beträgt 24 Monate, danach gehört die Website dem Kunden.</li>
                     <li><strong>Paket (Projekt):</strong> einmalig, mit Festpreis im Voraus, ab 1.200 €. Keine Laufzeit. Wartung ist optional.</li>
                 </ul>
                 <p>
@@ -259,8 +257,7 @@ const content = {
 
                 <h2>So wählen Sie</h2>
                 <p>
-                    Drei Fragen helfen. Soll die Website ohne Aufwand und mit niedrigem Einstiegspreis online
-                    gehen? Dann ein Abonnement. Ist sie umfangreich oder maßgeschneidert, und passt eine einmalige
+                    Drei Fragen helfen. Steht ein niedriger Einstiegspreis an erster Stelle? Dann ein Abonnement. Ist sie umfangreich oder maßgeschneidert, und passt eine einmalige
                     Investition besser? Dann ein Paket. Und sollen Texte selbst änderbar sein? Dann ein CMS, in
                     beiden Fällen.
                 </p>
@@ -296,7 +293,7 @@ const content = {
 
                 <h2>Dos formas de pagar</h2>
                 <ul>
-                    <li><strong>Suscripción:</strong> una puesta en marcha única y una cuota fija al mes, desde 39 € al mes. Incluye alojamiento, actualizaciones de seguridad, copias de seguridad y cambios pequeños. La duración es de 24 meses; después el sitio es del cliente.</li>
+                    <li><strong>Suscripción:</strong> una puesta en marcha única y una cuota fija al mes, desde 39 € al mes. Incluye mantenimiento, actualizaciones de seguridad, copias de seguridad y cambios pequeños. El alojamiento y el dominio los paga el cliente. La duración es de 24 meses; después el sitio es del cliente.</li>
                     <li><strong>Paquete (proyecto):</strong> de una vez, con precio fijo de antemano, desde 1.200 €. Sin duración. El mantenimiento es opcional.</li>
                 </ul>
                 <p>
@@ -328,8 +325,7 @@ const content = {
 
                 <h2>Cómo elegir</h2>
                 <p>
-                    Tres preguntas ayudan. ¿Debe el sitio estar en línea sin complicaciones y con poca inversión
-                    inicial? Entonces, suscripción. ¿Es un sitio más amplio o hecho a medida, y encaja mejor una
+                    Tres preguntas ayudan. ¿Es lo más importante una inversión inicial baja? Entonces, suscripción. ¿Es un sitio más amplio o hecho a medida, y encaja mejor una
                     inversión única? Entonces, paquete. ¿Y deben poder editarse los textos? Entonces, un CMS, en
                     ambos casos.
                 </p>
@@ -364,7 +360,7 @@ const content = {
 
                 <h2>Due modi di pagare</h2>
                 <ul>
-                    <li><strong>Abbonamento:</strong> un avvio una tantum e un importo fisso al mese, da 39 € al mese. Hosting, aggiornamenti di sicurezza, backup e piccole modifiche sono inclusi. La durata è di 24 mesi, poi il sito è del cliente.</li>
+                    <li><strong>Abbonamento:</strong> un avvio una tantum e un importo fisso al mese, da 39 € al mese. Manutenzione, aggiornamenti di sicurezza, backup e piccole modifiche sono inclusi. Hosting e dominio li paga il cliente. La durata è di 24 mesi, poi il sito è del cliente.</li>
                     <li><strong>Pacchetto (progetto):</strong> una tantum, con prezzo fisso in anticipo, da 1.200 €. Nessuna durata. La manutenzione è facoltativa.</li>
                 </ul>
                 <p>
@@ -396,7 +392,7 @@ const content = {
 
                 <h2>Come scegliere</h2>
                 <p>
-                    Tre domande aiutano. Il sito deve andare online senza pensieri e con un basso costo iniziale?
+                    Tre domande aiutano. Un basso costo iniziale è la cosa più importante?
                     Allora un abbonamento. È un sito più ampio o costruito su misura e un investimento unico è più
                     adatto? Allora un pacchetto. E i testi devono poter essere modificati dal cliente? Allora un
                     CMS, in entrambi i casi.
@@ -432,7 +428,7 @@ const content = {
 
                 <h2>Два способи оплати</h2>
                 <ul>
-                    <li><strong>Підписка:</strong> разовий запуск і фіксована сума щомісяця, від 39 € на місяць. Хостинг, оновлення безпеки, резервні копії та дрібні зміни включено. Строк — 24 місяці, після чого сайт належить клієнтові.</li>
+                    <li><strong>Підписка:</strong> разовий запуск і фіксована сума щомісяця, від 39 € на місяць. Підтримку, оновлення безпеки, резервні копії та дрібні зміни включено. Хостинг і домен оплачує клієнт. Строк — 24 місяці, після чого сайт належить клієнтові.</li>
                     <li><strong>Пакет (проєкт):</strong> разово, з фіксованою ціною наперед, від 1 200 €. Без строку. Підтримка за бажанням.</li>
                 </ul>
                 <p>
@@ -461,8 +457,7 @@ const content = {
 
                 <h2>Як обрати</h2>
                 <p>
-                    Допоможуть три запитання. Чи має сайт вийти в мережу без клопоту й з невеликим стартовим
-                    внеском? Тоді підписка. Чи це більший або індивідуально створений сайт, і чи краще підходить
+                    Допоможуть три запитання. Чи найважливіший невеликий стартовий внесок? Тоді підписка. Чи це більший або індивідуально створений сайт, і чи краще підходить
                     разова інвестиція? Тоді пакет. А чи мають тексти редагуватися самостійно? Тоді CMS, в обох
                     випадках.
                 </p>

@@ -352,7 +352,7 @@
     },
     "pricing": {
       "title": "Pricing and subscriptions | Website design | ManonIT",
-      "description": "A website from €39 a month or as a project from €1,200. Start, Growth or Brand, with hosting, back-ups and security included. All prices at a glance."
+      "description": "A website from €39 a month or as a project from €1,200. Start, Growth or Brand. With a subscription, maintenance, back-ups and security are included. All prices at a glance."
     },
     "faq": {
       "title": "Frequently asked questions about a website subscription | ManonIT",
@@ -517,7 +517,7 @@
   },
   "care": {
     "label": "Maintenance",
-    "title": "Worry-free online, every month",
+    "title": "Maintenance and security, every month",
     "intro": "A website is never finished. If your site was built as a project, a maintenance plan keeps it secure, fast and findable, on Google and in AI search engines like ChatGPT and Claude. You don't have to think about it.",
     "recommended": "Recommended",
     "perMonth": "per month, excl. VAT",
@@ -553,23 +553,23 @@
   "subscription": {
     "label": "Subscription",
     "title": "A website without a big investment up front",
-    "intro": "Would you rather pay a fixed monthly price than a large amount at once? Choose a subscription: design, build, hosting, backups and changes are included.",
+    "intro": "Would you rather pay a fixed monthly price than a large amount at once? Choose a subscription: design, build, maintenance, backups and changes are included.",
     "popular": "Most chosen",
     "perMonth": "per month, excl. VAT",
     "setup": "one-time setup, excl. VAT",
     "total": "Total over 24 months: {{total}} excl. VAT",
     "cta": "Book a 30-minute intro call",
-    "noOtherTitle": "No other costs.",
-    "noOther": "Hosting, SSL, backups and security updates are included in the monthly price. Only the domain (about €12 to 15 a year) you pay yourself, directly to the registrar.",
+    "noOtherTitle": "Hosting and domain.",
+    "noOther": "The client pays the hosting costs (about €8 to 15 a month) and the domain (about €12 to 15 a year) directly to the provider. This applies to a subscription and to a project. With a subscription, maintenance, backups and security updates are included in the monthly price.",
     "plans": {
       "start": {
         "name": "Start",
-        "tagline": "Professionally online, no hassle.",
+        "tagline": "Professionally online, with its own design.",
         "items": [
           "Up to 3 pages",
           "Designed on my own design system, in your branding",
           "1 small change per month",
-          "Hosting, backups and security included"
+          "Maintenance, backups and security included"
         ]
       },
       "growth": {
@@ -580,7 +580,7 @@
           "Fully custom design",
           "Basic SEO and GEO",
           "2 small changes per month",
-          "Hosting, backups and security included"
+          "Maintenance, backups and security included"
         ]
       },
       "brand": {
@@ -591,13 +591,13 @@
           "Custom design plus branding check or logo refresh",
           "Form, booking module or multilingual",
           "4 small changes per month plus quarterly check",
-          "Hosting, backups and security included"
+          "Maintenance, backups and security included"
         ]
       }
     },
     "termsTitle": "How the contract works",
     "terms": [
-      "No lease: after 24 months your website is yours. If you then want to keep hosting and changes, the subscription continues and you can cancel monthly.",
+      "No lease: after 24 months your website is yours. If you then want to keep maintenance and changes, the subscription continues and you can cancel monthly.",
       "You can stop earlier. You then pay off the remaining build part, about €20 to 30 per remaining month.",
       "A small change means replacing text or an image, 15 minutes at most. It cannot be saved up. Bigger work gets a fixed price in advance.",
       "Your domain is always in your name."
@@ -615,7 +615,7 @@
         "items": [
           {
             "q": "Are there any other costs?",
-            "a": "No. Hosting, SSL, backups and security updates are included in the monthly price. The only thing you pay yourself is the domain, about €12 to 15 a year, directly to the registrar. All prices exclude VAT."
+            "a": "Yes: hosting and domain. Hosting costs about €8 to 15 a month and the domain about €12 to 15 a year, both paid directly to the provider, with a subscription as well as with a project. With a subscription, maintenance, backups and security updates are included in the monthly price. All prices exclude VAT."
           },
           {
             "q": "Why is this more expensive than a cheap subscription or Wix?",
@@ -739,7 +739,7 @@
           },
           {
             "q": "Where is the site hosted and how fast is it?",
-            "a": "On professional, reliable hosting, including SSL, daily back-ups and security updates. The site is technically optimised for speed. I'm happy to discuss details of the hosting provider in a conversation."
+            "a": "On professional, reliable hosting, with SSL. Backups and security updates are part of maintenance. The site is technically optimised for speed. The client pays the hosting costs. I'm happy to discuss details of the hosting provider in a conversation."
           },
           {
             "q": "Can the site be multilingual?",
@@ -775,7 +775,7 @@
   },
   "homePricing": {
     "title": "A website from {{price}} a month",
-    "text": "Choose a subscription with Start, Growth or Brand, or have a fixed-price project built. Hosting, back-ups and security are included.",
+    "text": "Choose a subscription with Start, Growth or Brand, or have a fixed-price project built. With a subscription, maintenance, back-ups and security are included. The client pays hosting and domain.",
     "cta": "View pricing"
   },
   "howPage": {
@@ -830,8 +830,8 @@
       },
       {
         "title": "Maintenance",
-        "text": "Hosting, updates, backups and small changes are part of the monthly fee for 24 months. After that the site belongs to the client.",
-        "detail": "After that, cancel monthly. Expanding is always possible, at a fixed price in advance."
+        "text": "Maintenance, updates, backups and small changes are part of the monthly fee for 24 months. After that the site belongs to the client and can be cancelled monthly.",
+        "detail": "The client pays hosting and domain directly. Expanding is always possible, at a fixed price in advance."
       }
     ],
     "facts": [
@@ -861,7 +861,8 @@
     "labels": [
       "Payment",
       "Term",
-      "Hosting and security",
+      "Maintenance and security",
+      "Hosting and domain",
       "Small changes",
       "The website belongs to",
       "Suits"
@@ -874,9 +875,10 @@
         "One-off setup plus a fixed amount per month",
         "24 months, then cancellable monthly",
         "Included",
+        "Paid by the client directly to the provider (hosting about €8 to 15 per month)",
         "Included: 1 to 4 per month",
         "the client, after 24 months",
-        "Getting online without hassle and with a low entry price"
+        "A professional website with a low entry price"
       ]
     },
     "proj": {
@@ -886,7 +888,8 @@
       "values": [
         "One-off, with a fixed price in advance",
         "No term",
-        "Separate, optional maintenance from €120 per month",
+        "Optional, from €120 per month",
+        "Paid by the client directly to the provider (hosting about €8 to 15 per month)",
         "Per hour (€65) or via a maintenance plan",
         "the client, on delivery",
         "A larger or custom site, invested in once"

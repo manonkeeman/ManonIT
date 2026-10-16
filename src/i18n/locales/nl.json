@@ -352,7 +352,7 @@
     },
     "pricing": {
       "title": "Tarieven en abonnementen | Website laten maken | ManonIT",
-      "description": "Website vanaf €39 per maand of als project vanaf €1.200. Start, Groei of Merk, met hosting, back-ups en beveiliging inbegrepen. Alle prijzen op een rij."
+      "description": "Website vanaf €39 per maand of als project vanaf €1.200. Start, Groei of Merk. Bij een abonnement zijn onderhoud, back-ups en beveiliging inbegrepen. Alle prijzen op een rij."
     },
     "faq": {
       "title": "Veelgestelde vragen over een website-abonnement | ManonIT",
@@ -517,7 +517,7 @@
   },
   "care": {
     "label": "Onderhoud",
-    "title": "Zorgeloos online, elke maand",
+    "title": "Onderhoud en beveiliging, elke maand",
     "intro": "Een website is nooit af. Is de site als project gebouwd, dan houdt een onderhoudsabonnement hem veilig, snel en vindbaar, in Google én in AI-zoekmachines zoals ChatGPT en Claude. Er hoeft niets meer bijgehouden te worden.",
     "recommended": "Aanbevolen",
     "perMonth": "per maand, excl. btw",
@@ -553,23 +553,23 @@
   "subscription": {
     "label": "Abonnement",
     "title": "Een website zonder grote investering vooraf",
-    "intro": "Liever een vaste maandprijs dan een groot bedrag in één keer? Kies een abonnement: ontwerp, bouw, hosting, back-ups en wijzigingen zitten erin.",
+    "intro": "Liever een vaste maandprijs dan een groot bedrag in één keer? Kies een abonnement: ontwerp, bouw, onderhoud, back-ups en wijzigingen zitten erin.",
     "popular": "Meest gekozen",
     "perMonth": "per maand, excl. btw",
     "setup": "eenmalige opstart, excl. btw",
     "total": "Totaal over 24 maanden: {{total}} excl. btw",
     "cta": "Plan een kennismaking van 30 minuten",
-    "noOtherTitle": "Geen andere kosten.",
-    "noOther": "Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein (circa €12 tot 15 per jaar) wordt apart betaald, rechtstreeks aan de registrar.",
+    "noOtherTitle": "Hosting en domein.",
+    "noOther": "De hostingkosten (circa €8 tot 15 per maand) en het domein (circa €12 tot 15 per jaar) betaalt de klant zelf, rechtstreeks aan de aanbieder. Dat geldt voor een abonnement en voor een project. Onderhoud, back-ups en beveiligingsupdates zitten bij een abonnement in de maandprijs.",
     "plans": {
       "start": {
         "name": "Start",
-        "tagline": "Professioneel online, zonder gedoe.",
+        "tagline": "Professioneel online, met eigen ontwerp.",
         "items": [
           "Tot 3 pagina's",
           "Vormgegeven op mijn eigen ontwerpsysteem, in de huisstijl",
           "1 kleine wijziging per maand",
-          "Hosting, back-ups en beveiliging inbegrepen"
+          "Onderhoud, back-ups en beveiliging inbegrepen"
         ]
       },
       "growth": {
@@ -580,7 +580,7 @@
           "Volledig eigen ontwerp",
           "Basis-SEO en GEO",
           "2 kleine wijzigingen per maand",
-          "Hosting, back-ups en beveiliging inbegrepen"
+          "Onderhoud, back-ups en beveiliging inbegrepen"
         ]
       },
       "brand": {
@@ -591,13 +591,13 @@
           "Eigen ontwerp plus huisstijlcheck of logo-opfrissing",
           "Formulier, boekingsmodule of meertaligheid",
           "4 kleine wijzigingen per maand plus kwartaalcheck",
-          "Hosting, back-ups en beveiliging inbegrepen"
+          "Onderhoud, back-ups en beveiliging inbegrepen"
         ]
       }
     },
     "termsTitle": "Zo werkt het contract",
     "terms": [
-      "Geen lease: na 24 maanden is de website van de klant. Blijven hosting en wijzigingen gewenst, dan loopt het abonnement door en is het maandelijks opzegbaar.",
+      "Geen lease: na 24 maanden is de website van de klant. Blijven onderhoud en wijzigingen gewenst, dan loopt het abonnement door en is het maandelijks opzegbaar.",
       "Eerder stoppen kan. Het resterende bouwdeel wordt dan afgerekend, ongeveer €20 tot 30 per resterende maand.",
       "Een kleine wijziging is tekst of beeld vervangen, maximaal 15 minuten. Niet opspaarbaar. Groter werk krijgt vooraf een vaste prijs.",
       "Het domein staat altijd op naam van de klant."
@@ -615,7 +615,7 @@
         "items": [
           {
             "q": "Zijn er nog andere kosten?",
-            "a": "Nee. Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein wordt apart betaald, circa €12 tot 15 per jaar, rechtstreeks aan de registrar. Alle prijzen zijn exclusief btw."
+            "a": "Ja: hosting en domein. Hosting kost circa €8 tot 15 per maand en het domein circa €12 tot 15 per jaar, beide rechtstreeks te betalen aan de aanbieder, zowel bij een abonnement als bij een project. Onderhoud, back-ups en beveiligingsupdates zitten bij een abonnement in de maandprijs. Alle prijzen zijn exclusief btw."
           },
           {
             "q": "Waarom is dit duurder dan een goedkoop abonnement of Wix?",
@@ -739,7 +739,7 @@
           },
           {
             "q": "Waar draait de site en hoe snel is hij?",
-            "a": "Op professionele, betrouwbare hosting, inclusief SSL, dagelijkse back-ups en beveiligingsupdates. De site wordt technisch geoptimaliseerd op snelheid. Details over de hostingpartij bespreek ik graag in een gesprek."
+            "a": "Op professionele, betrouwbare hosting, met SSL. Back-ups en beveiligingsupdates horen bij het onderhoud. De site wordt technisch geoptimaliseerd op snelheid. De hostingkosten betaalt de klant zelf. Details over de hostingpartij bespreek ik graag in een gesprek."
           },
           {
             "q": "Kan de site meertalig zijn?",
@@ -775,7 +775,7 @@
   },
   "homePricing": {
     "title": "Een website vanaf {{price}} per maand",
-    "text": "Kies een abonnement met Start, Groei of Merk, of laat een project met vaste prijs bouwen. Hosting, back-ups en beveiliging zijn inbegrepen.",
+    "text": "Kies een abonnement met Start, Groei of Merk, of laat een project met vaste prijs bouwen. Bij een abonnement zijn onderhoud, back-ups en beveiliging inbegrepen. Hosting en domein betaalt de klant zelf.",
     "cta": "Bekijk de tarieven"
   },
   "howPage": {
@@ -830,8 +830,8 @@
       },
       {
         "title": "Onderhoud",
-        "text": "Hosting, updates, back-ups en kleine wijzigingen zitten 24 maanden in het maandbedrag. Daarna is de site van de klant.",
-        "detail": "Daarna maandelijks opzegbaar. Uitbreiden kan altijd, tegen een vaste prijs vooraf."
+        "text": "Onderhoud, updates, back-ups en kleine wijzigingen zitten 24 maanden in het maandbedrag. Daarna is de site van de klant en maandelijks opzegbaar.",
+        "detail": "Hosting en domein betaalt de klant zelf, rechtstreeks. Uitbreiden kan altijd, met een vaste prijs vooraf."
       }
     ],
     "facts": [
@@ -861,7 +861,8 @@
     "labels": [
       "Betaling",
       "Looptijd",
-      "Hosting en beveiliging",
+      "Onderhoud en beveiliging",
+      "Hosting en domein",
       "Kleine wijzigingen",
       "De website is van",
       "Past bij"
@@ -874,9 +875,10 @@
         "Eenmalige opstart plus een vast bedrag per maand",
         "24 maanden, daarna maandelijks opzegbaar",
         "Inbegrepen",
+        "Betaalt de klant zelf, rechtstreeks aan de aanbieder (hosting circa €8 tot 15 per maand)",
         "Inbegrepen: 1 tot 4 per maand",
         "de klant, na 24 maanden",
-        "Online zonder gedoe en met een laag instapbedrag"
+        "Een professionele website met een laag instapbedrag"
       ]
     },
     "proj": {
@@ -886,7 +888,8 @@
       "values": [
         "Eenmalig, met een vaste prijs vooraf",
         "Geen looptijd",
-        "Los, onderhoud optioneel vanaf €120 per maand",
+        "Optioneel, vanaf €120 per maand",
+        "Betaalt de klant zelf, rechtstreeks aan de aanbieder (hosting circa €8 tot 15 per maand)",
         "Per uur (€65) of via een onderhoudsabonnement",
         "de klant, na oplevering",
         "Een uitgebreide of maatwerksite, eenmalig geïnvesteerd"

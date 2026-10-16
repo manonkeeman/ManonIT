@@ -291,7 +291,7 @@
     },
     "pricing": {
       "title": "Tarifas y suscripciones | Creación de webs | ManonIT",
-      "description": "Una web desde 39 € al mes o como proyecto desde 1.200 €. Inicio, Crecimiento o Marca, con alojamiento, copias de seguridad y seguridad incluidos. Todas las tarifas de un vistazo."
+      "description": "Una web desde 39 € al mes o como proyecto desde 1.200 €. Inicio, Crecimiento o Marca. Con suscripción, mantenimiento, copias de seguridad y seguridad incluidos. Todas las tarifas de un vistazo."
     },
     "faq": {
       "title": "Preguntas frecuentes sobre la suscripción web | ManonIT",
@@ -517,7 +517,7 @@
   },
   "care": {
     "label": "Mantenimiento",
-    "title": "Online sin preocupaciones, cada mes",
+    "title": "Mantenimiento y seguridad, cada mes",
     "intro": "Una web nunca está terminada. Si tu web se hizo como proyecto, un plan de mantenimiento la mantiene segura, rápida y visible, en Google y en buscadores de IA como ChatGPT y Claude. Tú ya no tienes que preocuparte.",
     "recommended": "Recomendado",
     "perMonth": "al mes, sin IVA",
@@ -553,23 +553,23 @@
   "subscription": {
     "label": "Suscripción",
     "title": "Una web sin gran inversión inicial",
-    "intro": "¿Prefieres un precio mensual fijo a pagar una gran suma de una vez? Elige una suscripción: diseño, desarrollo, alojamiento, copias de seguridad y cambios incluidos.",
+    "intro": "¿Prefieres un precio mensual fijo a pagar una gran suma de una vez? Elige una suscripción: diseño, desarrollo, mantenimiento, copias de seguridad y cambios incluidos.",
     "popular": "El más elegido",
     "perMonth": "al mes, sin IVA",
     "setup": "puesta en marcha única, sin IVA",
     "total": "Total en 24 meses: {{total}} sin IVA",
     "cta": "Reserva una llamada de 30 minutos",
-    "noOtherTitle": "Sin otros costes.",
-    "noOther": "El alojamiento, el SSL, las copias de seguridad y las actualizaciones de seguridad están incluidos en el precio mensual. Solo el dominio (unos 12 a 15 € al año) lo pagas tú, directamente al registrador.",
+    "noOtherTitle": "Alojamiento y dominio.",
+    "noOther": "Los costes de alojamiento (unos 8 a 15 € al mes) y el dominio (unos 12 a 15 € al año) los paga el cliente, directamente al proveedor. Vale para una suscripción y para un proyecto. Con suscripción, mantenimiento, copias de seguridad y actualizaciones de seguridad están incluidos en el precio mensual.",
     "plans": {
       "start": {
         "name": "Inicio",
-        "tagline": "Profesionalmente en línea, sin complicaciones.",
+        "tagline": "Profesionalmente en línea, con diseño propio.",
         "items": [
           "Hasta 3 páginas",
           "Diseñado sobre mi propio sistema de diseño, con tu imagen de marca",
           "1 cambio pequeño al mes",
-          "Alojamiento, copias de seguridad y seguridad incluidos"
+          "Mantenimiento, copias de seguridad y seguridad incluidos"
         ]
       },
       "growth": {
@@ -580,7 +580,7 @@
           "Diseño totalmente propio",
           "SEO y GEO básicos",
           "2 cambios pequeños al mes",
-          "Alojamiento, copias de seguridad y seguridad incluidos"
+          "Mantenimiento, copias de seguridad y seguridad incluidos"
         ]
       },
       "brand": {
@@ -591,13 +591,13 @@
           "Diseño propio más revisión de la imagen de marca o renovación del logo",
           "Formulario, módulo de reservas o multilingüe",
           "4 cambios pequeños al mes más revisión trimestral",
-          "Alojamiento, copias de seguridad y seguridad incluidos"
+          "Mantenimiento, copias de seguridad y seguridad incluidos"
         ]
       }
     },
     "termsTitle": "Cómo funciona el contrato",
     "terms": [
-      "Sin leasing: pasados 24 meses, tu web es tuya. Si después quieres mantener el alojamiento y los cambios, la suscripción continúa y la cancelas mensualmente.",
+      "Sin leasing: pasados 24 meses, tu web es tuya. Si después quieres mantener el mantenimiento y los cambios, la suscripción continúa y la cancelas mensualmente.",
       "Puedes parar antes. Entonces pagas la parte restante de la construcción, unos 20 a 30 € por mes restante.",
       "Un cambio pequeño es sustituir un texto o una imagen, 15 minutos como máximo. No se acumula. Un trabajo mayor recibe un precio fijo de antemano.",
       "Tu dominio siempre está a tu nombre."
@@ -615,7 +615,7 @@
         "items": [
           {
             "q": "¿Hay otros costes?",
-            "a": "No. El alojamiento, el SSL, las copias de seguridad y las actualizaciones de seguridad están incluidos en el precio mensual. Lo único que pagas tú es el dominio, unos 12 a 15 € al año, directamente al registrador. Todos los precios son sin IVA."
+            "a": "Sí: alojamiento y dominio. El alojamiento cuesta unos 8 a 15 € al mes y el dominio unos 12 a 15 € al año, ambos pagados directamente al proveedor, tanto con suscripción como con proyecto. Con suscripción, mantenimiento, copias de seguridad y actualizaciones de seguridad están incluidos en el precio mensual. Todos los precios son sin IVA."
           },
           {
             "q": "¿Por qué es más caro que una suscripción barata o Wix?",
@@ -739,7 +739,7 @@
           },
           {
             "q": "¿Dónde está alojada la web y qué tan rápida es?",
-            "a": "En un alojamiento profesional y fiable, con SSL, copias de seguridad diarias y actualizaciones de seguridad. La web se optimiza técnicamente para la velocidad. Los detalles del proveedor de alojamiento los comento con gusto en una conversación."
+            "a": "En un alojamiento profesional y fiable, con SSL. Las copias de seguridad y las actualizaciones de seguridad forman parte del mantenimiento. La web se optimiza técnicamente para la velocidad. Los costes de alojamiento los paga el cliente. Los detalles del proveedor de alojamiento los comento con gusto en una conversación."
           },
           {
             "q": "¿Puede la web ser multilingüe?",
@@ -775,7 +775,7 @@
   },
   "homePricing": {
     "title": "Una web desde {{price}} al mes",
-    "text": "Elige una suscripción con Inicio, Crecimiento o Marca, o encarga un proyecto a precio cerrado. Alojamiento, copias de seguridad y seguridad incluidos.",
+    "text": "Elige una suscripción con Inicio, Crecimiento o Marca, o encarga un proyecto a precio cerrado. Con suscripción, mantenimiento, copias de seguridad y seguridad incluidos. El alojamiento y el dominio los paga el cliente.",
     "cta": "Ver tarifas"
   },
   "howPage": {
@@ -830,8 +830,8 @@
       },
       {
         "title": "Mantenimiento",
-        "text": "Alojamiento, actualizaciones, copias y cambios pequeños van incluidos 24 meses en la cuota mensual. Después el sitio es del cliente.",
-        "detail": "Después, cancelable cada mes. Ampliar siempre es posible, con precio fijo de antemano."
+        "text": "Mantenimiento, actualizaciones, copias y cambios pequeños van incluidos 24 meses en la cuota mensual. Después el sitio es del cliente y cancelable cada mes.",
+        "detail": "El alojamiento y el dominio los paga el cliente directamente. Ampliar siempre es posible, con precio fijo de antemano."
       }
     ],
     "facts": [
@@ -861,7 +861,8 @@
     "labels": [
       "Pago",
       "Duración",
-      "Alojamiento y seguridad",
+      "Mantenimiento y seguridad",
+      "Alojamiento y dominio",
       "Cambios pequeños",
       "El sitio es de",
       "Encaja con"
@@ -874,9 +875,10 @@
         "Puesta en marcha única más una cuota fija al mes",
         "24 meses, después cancelable cada mes",
         "Incluido",
+        "Lo paga el cliente directamente al proveedor (alojamiento unos 8 a 15 € al mes)",
         "Incluido: de 1 a 4 al mes",
         "el cliente, tras 24 meses",
-        "Estar en línea sin complicaciones y con poca inversión inicial"
+        "Una web profesional con poca inversión inicial"
       ]
     },
     "proj": {
@@ -886,7 +888,8 @@
       "values": [
         "Una sola vez, con precio fijo de antemano",
         "Sin duración",
-        "Aparte, mantenimiento opcional desde 120 € al mes",
+        "Opcional, desde 120 € al mes",
+        "Lo paga el cliente directamente al proveedor (alojamiento unos 8 a 15 € al mes)",
         "Por hora (65 €) o con una suscripción de mantenimiento",
         "el cliente, tras la entrega",
         "Un sitio más amplio o a medida, con una única inversión"

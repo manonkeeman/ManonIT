@@ -291,7 +291,7 @@
     },
     "pricing": {
       "title": "Tarifs et abonnements | Création de site web | ManonIT",
-      "description": "Un site web à partir de 39 € par mois ou en projet à partir de 1 200 €. Départ, Croissance ou Marque, hébergement, sauvegardes et sécurité inclus. Tous les tarifs en un coup d'œil."
+      "description": "Un site web à partir de 39 € par mois ou en projet à partir de 1 200 €. Départ, Croissance ou Marque. Avec un abonnement, maintenance, sauvegardes et sécurité sont inclus. Tous les tarifs en un coup d'œil."
     },
     "faq": {
       "title": "Questions fréquentes sur l'abonnement site web | ManonIT",
@@ -517,7 +517,7 @@
   },
   "care": {
     "label": "Maintenance",
-    "title": "En ligne sans souci, chaque mois",
+    "title": "Maintenance et sécurité, chaque mois",
     "intro": "Un site web n'est jamais terminé. Si votre site a été réalisé en projet, un abonnement de maintenance le garde sûr, rapide et visible, sur Google comme dans les moteurs de recherche IA comme ChatGPT et Claude. Vous n'avez plus à y penser.",
     "recommended": "Recommandé",
     "perMonth": "par mois, HT",
@@ -553,23 +553,23 @@
   "subscription": {
     "label": "Abonnement",
     "title": "Un site sans gros investissement au départ",
-    "intro": "Vous préférez un prix mensuel fixe à une grosse somme d'un coup ? Choisissez un abonnement : conception, réalisation, hébergement, sauvegardes et modifications sont inclus.",
+    "intro": "Vous préférez un prix mensuel fixe à une grosse somme d'un coup ? Choisissez un abonnement : conception, réalisation, maintenance, sauvegardes et modifications sont inclus.",
     "popular": "Le plus choisi",
     "perMonth": "par mois, hors TVA",
     "setup": "mise en route unique, hors TVA",
     "total": "Total sur 24 mois : {{total}} hors TVA",
     "cta": "Planifier un échange de 30 minutes",
-    "noOtherTitle": "Aucun autre coût.",
-    "noOther": "L'hébergement, le SSL, les sauvegardes et les mises à jour de sécurité sont inclus dans le prix mensuel. Seul le domaine (environ 12 à 15 € par an) est à votre charge, directement auprès du registrar.",
+    "noOtherTitle": "Hébergement et domaine.",
+    "noOther": "Les frais d'hébergement (environ 8 à 15 € par mois) et le domaine (environ 12 à 15 € par an) sont à la charge du client, directement auprès du prestataire. Cela vaut pour un abonnement comme pour un projet. Avec un abonnement, maintenance, sauvegardes et mises à jour de sécurité sont inclus dans le prix mensuel.",
     "plans": {
       "start": {
         "name": "Départ",
-        "tagline": "En ligne, professionnellement, sans prise de tête.",
+        "tagline": "En ligne, professionnellement, avec un design propre.",
         "items": [
           "Jusqu'à 3 pages",
           "Conçu sur mon propre système de design, à votre image",
           "1 petite modification par mois",
-          "Hébergement, sauvegardes et sécurité inclus"
+          "Maintenance, sauvegardes et sécurité inclus"
         ]
       },
       "growth": {
@@ -580,7 +580,7 @@
           "Design entièrement personnalisé",
           "SEO et GEO de base",
           "2 petites modifications par mois",
-          "Hébergement, sauvegardes et sécurité inclus"
+          "Maintenance, sauvegardes et sécurité inclus"
         ]
       },
       "brand": {
@@ -591,13 +591,13 @@
           "Design personnalisé plus vérification de l'identité visuelle ou rafraîchissement du logo",
           "Formulaire, module de réservation ou multilinguisme",
           "4 petites modifications par mois plus un point trimestriel",
-          "Hébergement, sauvegardes et sécurité inclus"
+          "Maintenance, sauvegardes et sécurité inclus"
         ]
       }
     },
     "termsTitle": "Comment fonctionne le contrat",
     "terms": [
-      "Pas de location : après 24 mois, votre site est à vous. Si vous souhaitez ensuite garder l'hébergement et les modifications, l'abonnement continue et vous résiliez au mois.",
+      "Pas de location : après 24 mois, votre site est à vous. Si vous souhaitez ensuite garder la maintenance et les modifications, l'abonnement continue et vous résiliez au mois.",
       "Vous pouvez arrêter plus tôt. Vous réglez alors la part de réalisation restante, environ 20 à 30 € par mois restant.",
       "Une petite modification, c'est remplacer un texte ou une image, 15 minutes maximum. Non cumulable. Un travail plus important reçoit un prix fixe à l'avance.",
       "Votre domaine est toujours à votre nom."
@@ -615,7 +615,7 @@
         "items": [
           {
             "q": "Y a-t-il d'autres coûts ?",
-            "a": "Non. L'hébergement, le SSL, les sauvegardes et les mises à jour de sécurité sont inclus dans le prix mensuel. Seul le domaine, environ 12 à 15 € par an, est à votre charge, directement auprès du registrar. Tous les prix sont hors TVA."
+            "a": "Oui : l'hébergement et le domaine. L'hébergement coûte environ 8 à 15 € par mois et le domaine environ 12 à 15 € par an, payés directement au prestataire, avec un abonnement comme avec un projet. Avec un abonnement, maintenance, sauvegardes et mises à jour de sécurité sont inclus dans le prix mensuel. Tous les prix sont hors TVA."
           },
           {
             "q": "Pourquoi est-ce plus cher qu'un abonnement bon marché ou Wix ?",
@@ -739,7 +739,7 @@
           },
           {
             "q": "Où le site est-il hébergé et quelle est sa rapidité ?",
-            "a": "Sur un hébergement professionnel et fiable, avec SSL, sauvegardes quotidiennes et mises à jour de sécurité. Le site est optimisé techniquement pour la vitesse. Je discute volontiers des détails de l'hébergeur lors d'un échange."
+            "a": "Sur un hébergement professionnel et fiable, avec SSL. Sauvegardes et mises à jour de sécurité font partie de la maintenance. Le site est optimisé techniquement pour la vitesse. Les frais d'hébergement sont à la charge du client. Je discute volontiers des détails de l'hébergeur lors d'un échange."
           },
           {
             "q": "Le site peut-il être multilingue ?",
@@ -775,7 +775,7 @@
   },
   "homePricing": {
     "title": "Un site web à partir de {{price}} par mois",
-    "text": "Choisir un abonnement avec Départ, Croissance ou Marque, ou faire réaliser un projet à prix fixe. Hébergement, sauvegardes et sécurité sont inclus.",
+    "text": "Choisir un abonnement avec Départ, Croissance ou Marque, ou faire réaliser un projet à prix fixe. Avec un abonnement, maintenance, sauvegardes et sécurité sont inclus. L'hébergement et le domaine sont à la charge du client.",
     "cta": "Voir les tarifs"
   },
   "howPage": {
@@ -830,8 +830,8 @@
       },
       {
         "title": "Maintenance",
-        "text": "L'hébergement, les mises à jour, les sauvegardes et les petites modifications sont inclus 24 mois dans la mensualité. Ensuite, le site appartient au client.",
-        "detail": "Ensuite, résiliable chaque mois. Une extension est toujours possible, à prix fixe annoncé d'avance."
+        "text": "La maintenance, les mises à jour, les sauvegardes et les petites modifications sont inclus 24 mois dans la mensualité. Ensuite, le site appartient au client et est résiliable chaque mois.",
+        "detail": "Hébergement et domaine sont payés directement par le client. Une extension est toujours possible, à prix fixe annoncé d'avance."
       }
     ],
     "facts": [
@@ -861,7 +861,8 @@
     "labels": [
       "Paiement",
       "Durée",
-      "Hébergement et sécurité",
+      "Maintenance et sécurité",
+      "Hébergement et domaine",
       "Petites modifications",
       "Le site appartient",
       "Convient pour"
@@ -874,9 +875,10 @@
         "Mise en route unique plus un montant fixe par mois",
         "24 mois, puis résiliable chaque mois",
         "Inclus",
+        "À la charge du client, directement auprès du prestataire (hébergement environ 8 à 15 € par mois)",
         "Inclus : 1 à 4 par mois",
         "au client, après 24 mois",
-        "Être en ligne sans souci, avec un faible coût d'entrée"
+        "Un site professionnel avec un faible coût d'entrée"
       ]
     },
     "proj": {
@@ -886,7 +888,8 @@
       "values": [
         "Une seule fois, avec un prix fixe annoncé d'avance",
         "Aucune durée",
-        "À part, maintenance en option dès 120 € par mois",
+        "En option, dès 120 € par mois",
+        "À la charge du client, directement auprès du prestataire (hébergement environ 8 à 15 € par mois)",
         "À l'heure (65 €) ou via un abonnement de maintenance",
         "au client, dès la livraison",
         "Un site plus complet ou sur mesure, investi en une fois"
