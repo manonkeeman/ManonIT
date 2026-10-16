@@ -55,8 +55,9 @@ export default function Footer() {
                     <p className="footer-heading">{t('footer.navHeading')}</p>
                     <Link to="/">{t('nav.home')}</Link>
                     <a href={`${prefix}/#services`}>{t('nav.services')}</a>
-                    <a href={`${prefix}/#tarieven`}>{t('nav.pricing')}</a>
-                    <a href={`${prefix}/#onderhoud`}>{t('care.label')}</a>
+                    <Link to="/tarieven">{t('nav.pricing')}</Link>
+                    <Link to="/tarieven#onderhoud">{t('care.label')}</Link>
+                    <Link to="/faq">{t('faq.label')}</Link>
                     <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>
                     <Link to="/journal">{t('nav.journal')}</Link>
                     <Link to="/about">{t('nav.about')}</Link>

@@ -27,7 +27,8 @@
     },
     "services": "Servizi",
     "cta": "Colloquio gratuito",
-    "pricing": "Tariffe"
+    "pricing": "Tariffe",
+    "faq": "FAQ"
   },
   "share": {
     "label": "Condividi",
@@ -268,6 +269,14 @@
         "title": "Webdesign Marie Boddaert | Sito di scrittrice | ManonIT",
         "description": "Sito personale di scrittrice per Marie H. Boddaert con storie, poesie e note di diario. Design HTML/CSS con estetica letteraria."
       }
+    },
+    "pricing": {
+      "title": "Tariffe e abbonamenti | Realizzazione siti web | ManonIT",
+      "description": "Un sito da 39 € al mese o come progetto da 1.200 €. Avvio, Crescita o Marchio, con hosting, backup e sicurezza inclusi. Tutte le tariffe a colpo d'occhio."
+    },
+    "faq": {
+      "title": "Domande frequenti sull'abbonamento al sito web | ManonIT",
+      "description": "Risposte su costi, durata, dominio, testi, hosting, visibilità e multilinguismo con ManonIT."
     }
   },
   "journalSection": {
@@ -678,5 +687,17 @@
         ]
       }
     ]
+  },
+  "pricingPage": {
+    "title": "Tariffe e abbonamenti",
+    "intro": "Un importo mensile fisso con un abbonamento, o un prezzo fisso per un progetto. Tutto chiaro in anticipo, senza sorprese."
+  },
+  "faqPage": {
+    "intro": "Risposte su costi, durata, tecnica e collaborazione. Manca la tua domanda? Contattami pure."
+  },
+  "homePricing": {
+    "title": "Un sito da {{price}} al mese",
+    "text": "Scegli un abbonamento con Avvio, Crescita o Marchio, oppure fai realizzare un progetto a prezzo fisso. Hosting, backup e sicurezza sono inclusi.",
+    "cta": "Vedi le tariffe"
   }
 }

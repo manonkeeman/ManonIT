@@ -26,7 +26,8 @@ export default function Navbar() {
                 <nav className="primary-nav desktop-only" aria-label="Main navigation">
                     <NavLink to="/" end>{t('nav.home')}</NavLink>
                     <a href={`${prefix}/#services`}>{t('nav.services')}</a>
-                    <a href={`${prefix}/#tarieven`}>{t('nav.pricing')}</a>
+                    <NavLink to="/tarieven">{t('nav.pricing')}</NavLink>
+                    <NavLink to="/faq">{t('nav.faq')}</NavLink>
 
                     <div className="nav-group">
                         <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>

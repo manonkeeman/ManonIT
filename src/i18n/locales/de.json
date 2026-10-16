@@ -27,7 +27,8 @@
     },
     "services": "Leistungen",
     "cta": "Kostenloses Gespräch",
-    "pricing": "Preise"
+    "pricing": "Preise",
+    "faq": "FAQ"
   },
   "share": {
     "label": "Teilen",
@@ -268,6 +269,14 @@
         "title": "Webdesign-Konzept Marie Boddaert | Autorinnenwebsite | ManonIT",
         "description": "Persönliche Autorinnenwebsite für Marie H. Boddaert mit Geschichten, Gedichten und Tagebuchnotizen. Maßgeschneidertes HTML/CSS mit literarischer Ästhetik."
       }
+    },
+    "pricing": {
+      "title": "Preise und Abos | Website erstellen lassen | ManonIT",
+      "description": "Website ab 39 € pro Monat oder als Projekt ab 1.200 €. Start, Wachstum oder Marke, inklusive Hosting, Backups und Sicherheit. Alle Preise im Überblick."
+    },
+    "faq": {
+      "title": "Häufige Fragen zum Website-Abo | ManonIT",
+      "description": "Antworten zu Kosten, Laufzeit, Domain, Texten, Hosting, Auffindbarkeit und Mehrsprachigkeit bei ManonIT."
     }
   },
   "journalSection": {
@@ -678,5 +687,17 @@
         ]
       }
     ]
+  },
+  "pricingPage": {
+    "title": "Preise und Abos",
+    "intro": "Ein fester Monatsbetrag mit einem Abo oder ein Festpreis für ein Projekt. Alles ist vorab klar, ohne Überraschungen."
+  },
+  "faqPage": {
+    "intro": "Antworten zu Kosten, Laufzeit, Technik und Zusammenarbeit. Frage nicht dabei? Gern Kontakt aufnehmen."
+  },
+  "homePricing": {
+    "title": "Eine Website ab {{price}} pro Monat",
+    "text": "Ein Abo mit Start, Wachstum oder Marke wählen oder ein Projekt zum Festpreis bauen lassen. Hosting, Backups und Sicherheit sind inklusive.",
+    "cta": "Preise ansehen"
   }
 }

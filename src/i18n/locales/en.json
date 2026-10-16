@@ -27,7 +27,8 @@
     },
     "services": "Services",
     "cta": "Free intro call",
-    "pricing": "Pricing"
+    "pricing": "Pricing",
+    "faq": "FAQ"
   },
   "share": {
     "label": "Share",
@@ -329,6 +330,14 @@
         "title": "Web Design Marie Boddaert | Writer's Website | ManonIT",
         "description": "Personal writer's website for Marie H. Boddaert with stories, poems and diary notes. Custom HTML/CSS with a literary aesthetic."
       }
+    },
+    "pricing": {
+      "title": "Pricing and subscriptions | Website design | ManonIT",
+      "description": "A website from €39 a month or as a project from €1,200. Start, Growth or Brand, with hosting, back-ups and security included. All prices at a glance."
+    },
+    "faq": {
+      "title": "Frequently asked questions about a website subscription | ManonIT",
+      "description": "Answers about costs, term, domain, copy, hosting, findability and multilingual sites at ManonIT."
     }
   },
   "journalSection": {
@@ -678,5 +687,17 @@
         ]
       }
     ]
+  },
+  "pricingPage": {
+    "title": "Pricing and subscriptions",
+    "intro": "A fixed monthly fee with a subscription, or a fixed price for a project. Everything is clear up front, no surprises."
+  },
+  "faqPage": {
+    "intro": "Answers about costs, term, technology and working together. Question not listed? Feel free to get in touch."
+  },
+  "homePricing": {
+    "title": "A website from {{price}} a month",
+    "text": "Choose a subscription with Start, Growth or Brand, or have a fixed-price project built. Hosting, back-ups and security are included.",
+    "cta": "View pricing"
   }
 }

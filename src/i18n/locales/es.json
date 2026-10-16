@@ -27,7 +27,8 @@
     },
     "services": "Servicios",
     "cta": "Llamada gratis",
-    "pricing": "Tarifas"
+    "pricing": "Tarifas",
+    "faq": "FAQ"
   },
   "share": {
     "label": "Compartir",
@@ -268,6 +269,14 @@
         "title": "Webdesign Marie Boddaert | Web de escritora | ManonIT",
         "description": "Sitio personal de escritora para Marie H. Boddaert con historias, poemas y notas de diario. Diseño HTML/CSS con estética literaria."
       }
+    },
+    "pricing": {
+      "title": "Tarifas y suscripciones | Creación de webs | ManonIT",
+      "description": "Una web desde 39 € al mes o como proyecto desde 1.200 €. Inicio, Crecimiento o Marca, con alojamiento, copias de seguridad y seguridad incluidos. Todas las tarifas de un vistazo."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre la suscripción web | ManonIT",
+      "description": "Respuestas sobre costes, duración, dominio, textos, alojamiento, visibilidad y multilingüismo en ManonIT."
     }
   },
   "journalSection": {
@@ -678,5 +687,17 @@
         ]
       }
     ]
+  },
+  "pricingPage": {
+    "title": "Tarifas y suscripciones",
+    "intro": "Una cuota mensual fija con suscripción, o un precio cerrado para un proyecto. Todo claro desde el principio, sin sorpresas."
+  },
+  "faqPage": {
+    "intro": "Respuestas sobre costes, duración, técnica y colaboración. ¿Falta tu pregunta? No dudes en ponerte en contacto."
+  },
+  "homePricing": {
+    "title": "Una web desde {{price}} al mes",
+    "text": "Elige una suscripción con Inicio, Crecimiento o Marca, o encarga un proyecto a precio cerrado. Alojamiento, copias de seguridad y seguridad incluidos.",
+    "cta": "Ver tarifas"
   }
 }

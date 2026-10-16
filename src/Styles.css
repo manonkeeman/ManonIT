@@ -186,6 +186,14 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
   .hamburger{ order:2; margin-left:auto; }
 }
 
+/* Smalle desktop: menu iets compacter zodat de knop rechts niet wegvalt */
+@media (min-width: 980px) and (max-width: 1179.98px){
+  .primary-nav{ gap:2px }
+  .primary-nav a{ padding:8px 6px; font-size:.8rem }
+  .primary-nav a.nav-cta{ padding:8px 12px; margin-left:2px }
+  .nav-logo-link img{ width:128px; height:auto }
+}
+
 /* Extra veiligheid: verberg mobiele UI boven 980px expliciet */
 @media (min-width: 980px){
   .hamburger { display: none !important; }

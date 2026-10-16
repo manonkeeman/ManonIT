@@ -32,7 +32,9 @@
 
 ## Belangrijke pagina's
 
-- [Home, diensten en tarieven](https://manonit.com/)
+- [Home en diensten](https://manonit.com/)
+- [Tarieven en abonnementen](https://manonit.com/tarieven)
+- [Veelgestelde vragen](https://manonit.com/faq)
 - [Over Manon Keeman](https://manonit.com/about)
 - [Het verhaal achter CasaCrew](https://manonit.com/journal/verhaal-achter-casacrew)
 - [Vrijheid en vertrouwen: The Big Three](https://manonit.com/journal/samenwerking-the-big-three)

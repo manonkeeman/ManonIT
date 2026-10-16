@@ -17,25 +17,15 @@
   to = "/colofon"
   status = 301
 
-# Oude FAQ-pagina en het vervallen prijsblog: doorsturen naar de tarieven op de homepage
-[[redirects]]
-  from = "/faq"
-  to = "/#tarieven"
-  status = 301
-
-[[redirects]]
-  from = "/en/faq"
-  to = "/en#tarieven"
-  status = 301
-
+# Het vervallen prijsblog: doorsturen naar de tarievenpagina
 [[redirects]]
   from = "/journal/wat-kost-een-website"
-  to = "/#tarieven"
+  to = "/tarieven"
   status = 301
 
 [[redirects]]
   from = "/en/journal/wat-kost-een-website"
-  to = "/en#tarieven"
+  to = "/en/tarieven"
   status = 301
 
 # Verwijderde blogs: doorsturen naar het journal

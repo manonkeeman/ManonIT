@@ -19,11 +19,12 @@ import Hero from "./pages/Hero.jsx";
 const Services      = lazy(() => import("./pages/Services.jsx"));
 const Portfolio     = lazy(() => import("./pages/Portfolio.jsx"));
 const Testimonials  = lazy(() => import("./pages/Testimonials.jsx"));
-const HomeJournal   = lazy(() => import("./pages/HomeJournal.jsx"));
 const Contact       = lazy(() => import("./pages/Contact.jsx"));
 
 // Detail pages — lazy loaded (only fetched when user navigates there)
 const About        = lazy(() => import("./pages/About.jsx"));
+const Pricing      = lazy(() => import("./pages/Pricing.jsx"));
+const Faq          = lazy(() => import("./pages/Faq.jsx"));
 const Journal      = lazy(() => import("./pages/Journal.jsx"));
 const ArticleRoute = lazy(() => import("./pages/ArticlesJournal/ArticleRoute.jsx"));
 
@@ -38,9 +39,9 @@ const OfferteDavidBroeksma = lazy(() => import("./pages/Offerte.jsx"));
 const prefetch = () => {
     import("./pages/Services.jsx");
     import("./pages/Portfolio.jsx");
-    import("./pages/HomeJournal.jsx");
     import("./pages/Contact.jsx");
     import("./pages/About.jsx");
+    import("./pages/Pricing.jsx");
     import("./pages/Journal.jsx");
 };
 if (typeof requestIdleCallback !== "undefined") {
@@ -187,7 +188,6 @@ function AppRoutes() {
                                 <Services />
                                 <Portfolio />
                                 <Testimonials />
-                                <HomeJournal />
                                 <section id="contact"   className="section"><Contact /></section>
                             </Suspense>
                         </Layout>
@@ -201,6 +201,28 @@ function AppRoutes() {
                         <Layout>
                             <Suspense fallback={<PageLoader />}>
                                 <About />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+
+                                {/* Tarieven en FAQ — eigen pagina's, lazy */}
+                <Route
+                    path="/tarieven"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <Pricing />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+                <Route
+                    path="/faq"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <Faq />
                             </Suspense>
                         </Layout>
                     }

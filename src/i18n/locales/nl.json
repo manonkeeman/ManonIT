@@ -27,7 +27,8 @@
     },
     "services": "Diensten",
     "cta": "Gratis gesprek",
-    "pricing": "Tarieven"
+    "pricing": "Tarieven",
+    "faq": "FAQ"
   },
   "share": {
     "label": "Delen",
@@ -329,6 +330,14 @@
         "title": "Webdesign Marie Boddaert | Schrijverswebsite | ManonIT",
         "description": "Persoonlijke schrijverswebsite voor Marie H. Boddaert: verhalen, gedichten en dagboeknotities. Live gebouwd in HTML/CSS met Substack-integratie."
       }
+    },
+    "pricing": {
+      "title": "Tarieven en abonnementen | Website laten maken | ManonIT",
+      "description": "Website vanaf €39 per maand of als project vanaf €1.200. Start, Groei of Merk, met hosting, back-ups en beveiliging inbegrepen. Alle prijzen op een rij."
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over een website-abonnement | ManonIT",
+      "description": "Antwoorden over kosten, looptijd, domein, teksten, hosting, vindbaarheid en meertaligheid bij een website van ManonIT."
     }
   },
   "journalSection": {
@@ -678,5 +687,17 @@
         ]
       }
     ]
+  },
+  "pricingPage": {
+    "title": "Tarieven en abonnementen",
+    "intro": "Een vast maandbedrag met een abonnement, of een vaste prijs voor een project. Alles is vooraf duidelijk, zonder verrassingen."
+  },
+  "faqPage": {
+    "intro": "Antwoorden over kosten, looptijd, techniek en samenwerking. Staat de vraag er niet tussen? Neem gerust contact op."
+  },
+  "homePricing": {
+    "title": "Een website vanaf {{price}} per maand",
+    "text": "Kies een abonnement met Start, Groei of Merk, of laat een project met vaste prijs bouwen. Hosting, back-ups en beveiliging zijn inbegrepen.",
+    "cta": "Bekijk de tarieven"
   }
 }
