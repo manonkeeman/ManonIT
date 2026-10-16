@@ -31,7 +31,8 @@
     "services": "Services",
     "cta": "Free intro call",
     "pricing": "Pricing",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "how": "How it works"
   },
   "share": {
     "label": "Share",
@@ -351,6 +352,10 @@
     "faq": {
       "title": "Frequently asked questions about a website subscription | ManonIT",
       "description": "Answers about costs, term, domain, copy, hosting, findability and multilingual sites at ManonIT."
+    },
+    "how": {
+      "title": "How it works | From first call to live website | ManonIT",
+      "description": "From first conversation to a live website in 8 steps. With a free homepage sketch and two rounds of revisions."
     }
   },
   "journalSection": {
@@ -760,5 +765,43 @@
     "title": "A website from {{price}} a month",
     "text": "Choose a subscription with Start, Growth or Brand, or have a fixed-price project built. Hosting, back-ups and security are included.",
     "cta": "View pricing"
+  },
+  "howPage": {
+    "title": "Online in 8 steps",
+    "intro": "From first conversation to going live. Every step is clear in advance, with no surprises.",
+    "steps": [
+      {
+        "title": "Getting to know each other",
+        "text": "A free 30-minute conversation by phone, WhatsApp or form. First what is needed, then what I can do."
+      },
+      {
+        "title": "Supply the material",
+        "text": "Logo, photos and details for the texts, such as contact details and personal information. I write the texts myself, or existing texts are used."
+      },
+      {
+        "title": "Free sketch",
+        "text": "After the conversation you receive a no-obligation sketch of the homepage. See first, then choose."
+      },
+      {
+        "title": "Approval",
+        "text": "If the sketch fits, a proposal follows with a fixed price or a fixed monthly fee. Building starts only after approval."
+      },
+      {
+        "title": "Building",
+        "text": "I build in short rounds. What is there can be seen along the way. Two rounds of revisions are included."
+      },
+      {
+        "title": "Connecting the domain",
+        "text": "The domain is registered or transferred and connected. It is always in the client's name."
+      },
+      {
+        "title": "Live",
+        "text": "The site goes online, with a secure connection and daily backups. A short manual and a handover document follow."
+      },
+      {
+        "title": "Never quite finished",
+        "text": "Small changes are part of the subscription. Expanding is always possible, at a fixed price in advance."
+      }
+    ]
   }
 }

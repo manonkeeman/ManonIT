@@ -31,7 +31,8 @@
     "services": "Leistungen",
     "cta": "Kostenloses Gespräch",
     "pricing": "Preise",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "how": "So funktioniert es"
   },
   "share": {
     "label": "Teilen",
@@ -290,6 +291,10 @@
     "faq": {
       "title": "Häufige Fragen zum Website-Abo | ManonIT",
       "description": "Antworten zu Kosten, Laufzeit, Domain, Texten, Hosting, Auffindbarkeit und Mehrsprachigkeit bei ManonIT."
+    },
+    "how": {
+      "title": "So funktioniert es | Vom ersten Gespräch zur Website | ManonIT",
+      "description": "In 8 Schritten vom ersten Gespräch zur Website, die online ist. Mit kostenloser Skizze der Startseite und zwei Korrekturrunden."
     }
   },
   "journalSection": {
@@ -760,5 +765,43 @@
     "title": "Eine Website ab {{price}} pro Monat",
     "text": "Ein Abo mit Start, Wachstum oder Marke wählen oder ein Projekt zum Festpreis bauen lassen. Hosting, Backups und Sicherheit sind inklusive.",
     "cta": "Preise ansehen"
+  },
+  "howPage": {
+    "title": "In 8 Schritten online",
+    "intro": "Vom ersten Gespräch bis zum Livegang. Jeder Schritt ist vorher klar, ohne Überraschungen.",
+    "steps": [
+      {
+        "title": "Kennenlernen",
+        "text": "Ein kostenloses Gespräch von 30 Minuten, per Telefon, WhatsApp oder Formular. Erst, was gebraucht wird, dann, was ich tun kann."
+      },
+      {
+        "title": "Material liefern",
+        "text": "Logo, Fotos und Angaben für die Texte, etwa Kontaktdaten und persönliche Details. Die Texte schreibe ich selbst, vorhandene Texte werden übernommen."
+      },
+      {
+        "title": "Kostenlose Skizze",
+        "text": "Nach dem Gespräch folgt eine unverbindliche Skizze der Startseite. Erst sehen, dann wählen."
+      },
+      {
+        "title": "Zusage",
+        "text": "Gefällt die Skizze, folgt ein Angebot mit Festpreis oder festem Monatsbetrag. Gebaut wird erst nach der Zusage."
+      },
+      {
+        "title": "Bauen",
+        "text": "Ich baue in kurzen Runden. Zwischendurch ist zu sehen, was schon steht. Zwei Korrekturrunden sind enthalten."
+      },
+      {
+        "title": "Domain verbinden",
+        "text": "Die Domain wird registriert oder umgezogen und verbunden. Sie steht immer auf den Namen des Kunden."
+      },
+      {
+        "title": "Live",
+        "text": "Die Website geht online, mit sicherer Verbindung und täglichen Backups. Eine kurze Anleitung und eine Übergabedokumentation folgen."
+      },
+      {
+        "title": "Nie ganz fertig",
+        "text": "Kleine Änderungen sind im Abonnement enthalten. Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
+      }
+    ]
   }
 }

@@ -31,7 +31,8 @@
     "services": "Services",
     "cta": "Échange gratuit",
     "pricing": "Tarifs",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "how": "Comment ça marche"
   },
   "share": {
     "label": "Partager",
@@ -290,6 +291,10 @@
     "faq": {
       "title": "Questions fréquentes sur l'abonnement site web | ManonIT",
       "description": "Réponses sur les coûts, la durée, le domaine, les textes, l'hébergement, la visibilité et le multilinguisme chez ManonIT."
+    },
+    "how": {
+      "title": "Comment ça marche | Du premier échange au site en ligne | ManonIT",
+      "description": "En 8 étapes, du premier échange à un site en ligne. Avec une esquisse gratuite de la page d'accueil et deux séries de révisions."
     }
   },
   "journalSection": {
@@ -760,5 +765,43 @@
     "title": "Un site web à partir de {{price}} par mois",
     "text": "Choisir un abonnement avec Départ, Croissance ou Marque, ou faire réaliser un projet à prix fixe. Hébergement, sauvegardes et sécurité sont inclus.",
     "cta": "Voir les tarifs"
+  },
+  "howPage": {
+    "title": "En ligne en 8 étapes",
+    "intro": "Du premier échange à la mise en ligne. Chaque étape est claire d'avance, sans surprise.",
+    "steps": [
+      {
+        "title": "Faire connaissance",
+        "text": "Un échange gratuit de 30 minutes, par téléphone, WhatsApp ou formulaire. D'abord ce qu'il faut, ensuite ce que je peux faire."
+      },
+      {
+        "title": "Fournir le matériel",
+        "text": "Logo, photos et informations pour les textes, comme les coordonnées et des détails personnels. J'écris les textes moi-même, ou les textes existants sont repris."
+      },
+      {
+        "title": "Esquisse gratuite",
+        "text": "Après l'échange, une esquisse sans engagement de la page d'accueil. D'abord voir, ensuite choisir."
+      },
+      {
+        "title": "Accord",
+        "text": "Si l'esquisse convient, une proposition suit avec un prix fixe ou une mensualité fixe. La construction ne commence qu'après accord."
+      },
+      {
+        "title": "Construction",
+        "text": "Je construis par courtes étapes. On voit en cours de route ce qui est prêt. Deux séries de révisions sont incluses."
+      },
+      {
+        "title": "Relier le domaine",
+        "text": "Le domaine est enregistré ou transféré, puis relié. Il est toujours au nom du client."
+      },
+      {
+        "title": "En ligne",
+        "text": "Le site est mis en ligne, avec connexion sécurisée et sauvegardes quotidiennes. Un court mode d'emploi et un document de passation suivent."
+      },
+      {
+        "title": "Jamais tout à fait fini",
+        "text": "Les petites modifications sont incluses dans l'abonnement. Une extension est toujours possible, à prix fixe annoncé d'avance."
+      }
+    ]
   }
 }

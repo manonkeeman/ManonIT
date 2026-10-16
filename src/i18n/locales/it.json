@@ -31,7 +31,8 @@
     "services": "Servizi",
     "cta": "Colloquio gratuito",
     "pricing": "Tariffe",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "how": "Come funziona"
   },
   "share": {
     "label": "Condividi",
@@ -290,6 +291,10 @@
     "faq": {
       "title": "Domande frequenti sull'abbonamento al sito web | ManonIT",
       "description": "Risposte su costi, durata, dominio, testi, hosting, visibilità e multilinguismo con ManonIT."
+    },
+    "how": {
+      "title": "Come funziona | Dal primo colloquio al sito online | ManonIT",
+      "description": "In 8 passi dal primo colloquio a un sito online. Con bozza gratuita della homepage e due giri di revisioni."
     }
   },
   "journalSection": {
@@ -760,5 +765,43 @@
     "title": "Un sito da {{price}} al mese",
     "text": "Scegli un abbonamento con Avvio, Crescita o Marchio, oppure fai realizzare un progetto a prezzo fisso. Hosting, backup e sicurezza sono inclusi.",
     "cta": "Vedi le tariffe"
+  },
+  "howPage": {
+    "title": "Online in 8 passi",
+    "intro": "Dal primo colloquio alla messa online. Ogni passo è chiaro in anticipo, senza sorprese.",
+    "steps": [
+      {
+        "title": "Conoscersi",
+        "text": "Un colloquio gratuito di 30 minuti, per telefono, WhatsApp o modulo. Prima ciò che serve, poi ciò che posso fare."
+      },
+      {
+        "title": "Fornire il materiale",
+        "text": "Logo, foto e dati per i testi, come recapiti e dettagli personali. I testi li scrivo io, oppure vengono usati quelli esistenti."
+      },
+      {
+        "title": "Bozza gratuita",
+        "text": "Dopo il colloquio arriva una bozza senza impegno della homepage. Prima vedere, poi scegliere."
+      },
+      {
+        "title": "Accordo",
+        "text": "Se la bozza piace, segue una proposta con prezzo fisso o canone mensile fisso. Si costruisce solo dopo l'accordo."
+      },
+      {
+        "title": "Costruzione",
+        "text": "Costruisco a brevi tappe. Lungo il percorso si vede cosa c'è. Due giri di revisioni sono inclusi."
+      },
+      {
+        "title": "Collegare il dominio",
+        "text": "Il dominio viene registrato o trasferito e collegato. È sempre intestato al cliente."
+      },
+      {
+        "title": "Online",
+        "text": "Il sito va online, con connessione sicura e backup giornalieri. Seguono un breve manuale e un documento di passaggio."
+      },
+      {
+        "title": "Mai davvero finito",
+        "text": "Le piccole modifiche sono incluse nell'abbonamento. Ampliare è sempre possibile, con prezzo fisso in anticipo."
+      }
+    ]
   }
 }

@@ -25,6 +25,7 @@ const Contact       = lazy(() => import("./pages/Contact.jsx"));
 const About        = lazy(() => import("./pages/About.jsx"));
 const Pricing      = lazy(() => import("./pages/Pricing.jsx"));
 const Faq          = lazy(() => import("./pages/Faq.jsx"));
+const HowItWorks   = lazy(() => import("./pages/HowItWorks.jsx"));
 const Journal      = lazy(() => import("./pages/Journal.jsx"));
 const ArticleRoute = lazy(() => import("./pages/ArticlesJournal/ArticleRoute.jsx"));
 
@@ -213,6 +214,16 @@ function AppRoutes() {
                         <Layout>
                             <Suspense fallback={<PageLoader />}>
                                 <Pricing />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+                <Route
+                    path="/hoe-werkt-het"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <HowItWorks />
                             </Suspense>
                         </Layout>
                     }

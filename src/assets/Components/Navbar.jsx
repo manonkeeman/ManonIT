@@ -26,7 +26,13 @@ export default function Navbar() {
                 {/* Desktop nav */}
                 <nav className="primary-nav desktop-only" aria-label="Main navigation">
                     <NavLink to="/" end>{t('nav.home')}</NavLink>
-                    <a href={`${prefix}/#services`}>{t('nav.services')}</a>
+                    <div className="nav-group">
+                        <a href={`${prefix}/#services`}>{t('nav.services')}</a>
+                        <div className="nav-dropdown">
+                            <a href={`${prefix}/#services`}>{t('nav.services')}</a>
+                            <NavLink to="/hoe-werkt-het">{t('nav.how')}</NavLink>
+                        </div>
+                    </div>
                     <NavLink to="/tarieven">{t('nav.pricing')}</NavLink>
                     <NavLink to="/faq">{t('nav.faq')}</NavLink>
 

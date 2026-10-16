@@ -31,7 +31,8 @@
     "services": "Diensten",
     "cta": "Gratis gesprek",
     "pricing": "Tarieven",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "how": "Hoe werkt het"
   },
   "share": {
     "label": "Delen",
@@ -351,6 +352,10 @@
     "faq": {
       "title": "Veelgestelde vragen over een website-abonnement | ManonIT",
       "description": "Antwoorden over kosten, looptijd, domein, teksten, hosting, vindbaarheid en meertaligheid bij een website van ManonIT."
+    },
+    "how": {
+      "title": "Hoe werkt het | Van eerste gesprek tot live website | ManonIT",
+      "description": "In 8 stappen van eerste gesprek naar een website die online staat. Met gratis schets van de homepage en twee revisierondes."
     }
   },
   "journalSection": {
@@ -760,5 +765,43 @@
     "title": "Een website vanaf {{price}} per maand",
     "text": "Kies een abonnement met Start, Groei of Merk, of laat een project met vaste prijs bouwen. Hosting, back-ups en beveiliging zijn inbegrepen.",
     "cta": "Bekijk de tarieven"
+  },
+  "howPage": {
+    "title": "In 8 stappen online",
+    "intro": "Van eerste gesprek tot livegang. Elke stap is vooraf duidelijk, zonder verrassingen.",
+    "steps": [
+      {
+        "title": "Kennismaken",
+        "text": "Een gratis gesprek van 30 minuten, per telefoon, WhatsApp of formulier. Eerst wat er nodig is, daarna wat ik kan doen."
+      },
+      {
+        "title": "Materiaal aanleveren",
+        "text": "Logo, foto's en gegevens voor de teksten, zoals contactgegevens en persoonlijke details. De teksten schrijf ik zelf, of bestaande teksten worden verwerkt."
+      },
+      {
+        "title": "Gratis schets",
+        "text": "Na het gesprek volgt een vrijblijvende schets van de homepage. Eerst zien, dan kiezen."
+      },
+      {
+        "title": "Akkoord",
+        "text": "Bevalt de schets, dan volgt een voorstel met een vaste prijs of een vast maandbedrag. Pas na akkoord begint het bouwen."
+      },
+      {
+        "title": "Bouwen",
+        "text": "Ik bouw in korte rondes. Tussentijds is te zien wat er staat. Twee revisierondes zijn inbegrepen."
+      },
+      {
+        "title": "Domein koppelen",
+        "text": "Het domein wordt geregistreerd of verhuisd en gekoppeld. Het staat altijd op naam van de klant."
+      },
+      {
+        "title": "Live",
+        "text": "De site gaat online, met beveiligde verbinding en dagelijkse back-ups. Er volgt een korte handleiding en een overdrachtsdocument."
+      },
+      {
+        "title": "Nooit helemaal af",
+        "text": "Kleine wijzigingen zitten in het abonnement. Uitbreiden kan altijd, met een vaste prijs vooraf."
+      }
+    ]
   }
 }

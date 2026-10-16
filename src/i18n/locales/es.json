@@ -31,7 +31,8 @@
     "services": "Servicios",
     "cta": "Llamada gratis",
     "pricing": "Tarifas",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "how": "Cómo funciona"
   },
   "share": {
     "label": "Compartir",
@@ -290,6 +291,10 @@
     "faq": {
       "title": "Preguntas frecuentes sobre la suscripción web | ManonIT",
       "description": "Respuestas sobre costes, duración, dominio, textos, alojamiento, visibilidad y multilingüismo en ManonIT."
+    },
+    "how": {
+      "title": "Cómo funciona | De la primera conversación a la web en línea | ManonIT",
+      "description": "En 8 pasos, de la primera conversación a un sitio en línea. Con boceto gratuito de la página de inicio y dos rondas de revisiones."
     }
   },
   "journalSection": {
@@ -760,5 +765,43 @@
     "title": "Una web desde {{price}} al mes",
     "text": "Elige una suscripción con Inicio, Crecimiento o Marca, o encarga un proyecto a precio cerrado. Alojamiento, copias de seguridad y seguridad incluidos.",
     "cta": "Ver tarifas"
+  },
+  "howPage": {
+    "title": "En línea en 8 pasos",
+    "intro": "De la primera conversación a la puesta en marcha. Cada paso está claro de antemano, sin sorpresas.",
+    "steps": [
+      {
+        "title": "Conocernos",
+        "text": "Una conversación gratuita de 30 minutos, por teléfono, WhatsApp o formulario. Primero lo que hace falta, luego lo que puedo hacer."
+      },
+      {
+        "title": "Aportar el material",
+        "text": "Logo, fotos y datos para los textos, como datos de contacto y detalles personales. Los textos los escribo yo, o se aprovechan los existentes."
+      },
+      {
+        "title": "Boceto gratuito",
+        "text": "Tras la conversación llega un boceto sin compromiso de la página de inicio. Primero ver, luego elegir."
+      },
+      {
+        "title": "Acuerdo",
+        "text": "Si el boceto gusta, sigue una propuesta con precio fijo o cuota mensual fija. La construcción empieza solo tras el acuerdo."
+      },
+      {
+        "title": "Construcción",
+        "text": "Construyo en rondas cortas. Por el camino se ve lo que hay. Dos rondas de revisiones están incluidas."
+      },
+      {
+        "title": "Conectar el dominio",
+        "text": "El dominio se registra o se traslada y se conecta. Siempre está a nombre del cliente."
+      },
+      {
+        "title": "En línea",
+        "text": "El sitio sale en línea, con conexión segura y copias de seguridad diarias. Sigue un breve manual y un documento de traspaso."
+      },
+      {
+        "title": "Nunca del todo terminado",
+        "text": "Los cambios pequeños van incluidos en la suscripción. Ampliar siempre es posible, con precio fijo de antemano."
+      }
+    ]
   }
 }

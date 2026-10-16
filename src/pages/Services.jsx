@@ -57,6 +57,7 @@ export default function Services() {
                         </div>
                         <div className="home-pricing-actions">
                             <Link to="/tarieven" className="btn btn-primary" data-arrow>{t("homePricing.cta")}</Link>
+                            <Link to="/hoe-werkt-het" className="home-pricing-faq">{t("nav.how")}</Link>
                             <Link to="/faq" className="home-pricing-faq">{t("faq.label")}</Link>
                         </div>
                     </div>
