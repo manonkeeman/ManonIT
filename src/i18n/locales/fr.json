@@ -128,8 +128,8 @@
     "title": "Faisons connaissance",
     "personRole": "Développeuse web & designer · ManonIT",
     "points": [
-      "Une réponse personnelle sous un jour ouvré",
-      "Faire connaissance lors d'un échange de 30 minutes, gratuit et sans engagement",
+      "Une réponse personnelle, sous un jour ouvré",
+      "Faire connaissance d'abord : 30 minutes, gratuit et sans discours commercial",
       "Une proposition honnête, claire dès le départ sur ce que cela coûte"
     ],
     "whatsapp": "Envoyer un WhatsApp",
@@ -295,6 +295,10 @@
     "how": {
       "title": "Méthode | 8 étapes du premier échange au site en ligne | ManonIT",
       "description": "Comment ça marche : 8 étapes du premier échange au site en ligne, avec esquisse gratuite, deux séries de révisions et 24 mois de maintenance."
+    },
+    "portfolioPage": {
+      "title": "Portfolio | Sites web et applications par ManonIT",
+      "description": "Une sélection de sites et d'applications : d'une villa historique et d'un garage à une application de location et un blog d'écrivaine."
     }
   },
   "journalSection": {
@@ -840,5 +844,45 @@
         "l": "mois de maintenance inclus"
       }
     ]
+  },
+  "pricingCompare": {
+    "title": "Deux façons de commencer",
+    "intro": "Un montant fixe par mois, ou un prix fixe unique. Voici la différence.",
+    "tabSub": "Abonnement mensuel",
+    "tabProj": "Projet unique",
+    "labels": [
+      "Paiement",
+      "Durée",
+      "Hébergement et sécurité",
+      "Petites modifications",
+      "Le site appartient",
+      "Convient pour"
+    ],
+    "sub": {
+      "name": "Abonnement",
+      "tag": "Dès 39 € par mois",
+      "cta": "Voir les abonnements",
+      "values": [
+        "Mise en route unique plus un montant fixe par mois",
+        "24 mois, puis résiliable chaque mois",
+        "Inclus",
+        "Inclus : 1 à 4 par mois",
+        "au client, après 24 mois",
+        "Être en ligne sans souci, avec un faible coût d'entrée"
+      ]
+    },
+    "proj": {
+      "name": "Projet",
+      "tag": "Dès 1 200 € en une fois",
+      "cta": "Voir les prix des projets",
+      "values": [
+        "Une seule fois, avec un prix fixe annoncé d'avance",
+        "Aucune durée",
+        "À part, maintenance en option dès 120 € par mois",
+        "À l'heure (65 €) ou via un abonnement de maintenance",
+        "au client, dès la livraison",
+        "Un site plus complet ou sur mesure, investi en une fois"
+      ]
+    }
   }
 }

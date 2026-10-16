@@ -2,6 +2,7 @@ import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import { useTranslation } from "react-i18next";
 import { FiMail } from "react-icons/fi";
+import Seo from "../assets/Components/Seo.jsx";
 import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 import { CASA_REILLE_URL } from "../assets/Helpers/links.js";
 
@@ -72,16 +73,19 @@ const projects = [
     },
 ];
 
-export default function Portfolio() {
+export default function Portfolio({ asPage = false }) {
     const { t } = useTranslation();
     const prefix = useLangPrefix();
 
+    const Heading = asPage ? "h1" : "h2";
+
     return (
         <section id="portfolio" className="section portfolio-section">
+            {asPage && <Seo title={t("seo.portfolioPage.title")} description={t("seo.portfolioPage.description")} path="/portfolio" />}
 
             <div className="section-head">
                 <p className="eyebrow">{t('portfolio.label')}</p>
-                <h2>{t('portfolio.title')}</h2>
+                <Heading>{t('portfolio.title')}</Heading>
                 <p>{t('portfolio.intro')}</p>
             </div>
 

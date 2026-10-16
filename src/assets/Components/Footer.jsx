@@ -63,7 +63,7 @@ export default function Footer() {
                     <Link to="/tarieven">{t('nav.pricing')}</Link>
                     <Link to="/tarieven#onderhoud">{t('care.label')}</Link>
                     <Link to="/faq">{t('faq.label')}</Link>
-                    <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>
+                    <Link to="/portfolio">{t('nav.portfolio')}</Link>
                     <Link to="/journal">{t('nav.journal')}</Link>
                     <Link to="/about">{t('nav.about')}</Link>
                     <a href={`${prefix}/#contact`}>{t('nav.contact')}</a>

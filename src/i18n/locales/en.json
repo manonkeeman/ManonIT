@@ -128,8 +128,8 @@
     "title": "Let's get acquainted",
     "personRole": "Web developer & designer · ManonIT",
     "points": [
-      "A personal reply within one working day",
-      "Getting to know each other in a 30-minute call, free and without obligation",
+      "A personal reply, within one working day",
+      "Get to know each other first: 30 minutes, free and no sales pitch",
       "An honest proposal, clear up front about what it costs"
     ],
     "whatsapp": "Send a WhatsApp",
@@ -356,6 +356,10 @@
     "how": {
       "title": "Process | 8 steps from first call to live website | ManonIT",
       "description": "How it works: 8 steps from first conversation to a live website, with a free homepage sketch, two rounds of revisions and 24 months of maintenance."
+    },
+    "portfolioPage": {
+      "title": "Portfolio | Websites and apps by ManonIT",
+      "description": "A selection of websites and apps: from a historic villa and a garage to a rental app and a writer's blog."
     }
   },
   "journalSection": {
@@ -840,5 +844,45 @@
         "l": "months of maintenance included"
       }
     ]
+  },
+  "pricingCompare": {
+    "title": "Two ways to start",
+    "intro": "A fixed amount per month, or one fixed price. Here is the difference.",
+    "tabSub": "Monthly subscription",
+    "tabProj": "One-off project",
+    "labels": [
+      "Payment",
+      "Term",
+      "Hosting and security",
+      "Small changes",
+      "The website belongs to",
+      "Suits"
+    ],
+    "sub": {
+      "name": "Subscription",
+      "tag": "From €39 per month",
+      "cta": "View the subscriptions",
+      "values": [
+        "One-off setup plus a fixed amount per month",
+        "24 months, then cancellable monthly",
+        "Included",
+        "Included: 1 to 4 per month",
+        "the client, after 24 months",
+        "Getting online without hassle and with a low entry price"
+      ]
+    },
+    "proj": {
+      "name": "Project",
+      "tag": "From €1,200 one-off",
+      "cta": "View the project prices",
+      "values": [
+        "One-off, with a fixed price in advance",
+        "No term",
+        "Separate, optional maintenance from €120 per month",
+        "Per hour (€65) or via a maintenance plan",
+        "the client, on delivery",
+        "A larger or custom site, invested in once"
+      ]
+    }
   }
 }

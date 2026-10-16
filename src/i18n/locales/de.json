@@ -128,8 +128,8 @@
     "title": "Lernen wir uns kennen",
     "personRole": "Webentwicklerin & Designerin · ManonIT",
     "points": [
-      "Eine persönliche Antwort innerhalb eines Werktags",
-      "Kennenlernen in einem 30-minütigen Gespräch, kostenlos und unverbindlich",
+      "Eine persönliche Antwort, innerhalb eines Werktags",
+      "Erst kennenlernen: 30 Minuten, kostenlos und ohne Verkaufsgespräch",
       "Ein ehrliches Angebot, vorab klar darüber, was es kostet"
     ],
     "whatsapp": "WhatsApp senden",
@@ -295,6 +295,10 @@
     "how": {
       "title": "Ablauf | 8 Schritte vom ersten Gespräch zur Website | ManonIT",
       "description": "So funktioniert es: 8 Schritte vom ersten Gespräch zur Website, mit kostenloser Skizze, zwei Korrekturrunden und 24 Monaten Wartung."
+    },
+    "portfolioPage": {
+      "title": "Portfolio | Websites und Apps von ManonIT",
+      "description": "Eine Auswahl an Websites und Apps: von einer historischen Villa und einer Garage bis zu einer Vermietungs-App und einem Autorenblog."
     }
   },
   "journalSection": {
@@ -840,5 +844,45 @@
         "l": "Monate Wartung inklusive"
       }
     ]
+  },
+  "pricingCompare": {
+    "title": "Zwei Wege zum Start",
+    "intro": "Ein fester Betrag pro Monat oder ein einmaliger Festpreis. Das ist der Unterschied.",
+    "tabSub": "Monatliches Abonnement",
+    "tabProj": "Einmaliges Projekt",
+    "labels": [
+      "Zahlung",
+      "Laufzeit",
+      "Hosting und Sicherheit",
+      "Kleine Änderungen",
+      "Die Website gehört",
+      "Passt zu"
+    ],
+    "sub": {
+      "name": "Abonnement",
+      "tag": "Ab 39 € pro Monat",
+      "cta": "Abonnements ansehen",
+      "values": [
+        "Einmalige Einrichtung plus fester Betrag pro Monat",
+        "24 Monate, danach monatlich kündbar",
+        "Enthalten",
+        "Enthalten: 1 bis 4 pro Monat",
+        "dem Kunden, nach 24 Monaten",
+        "Ohne Aufwand online gehen, mit niedrigem Einstiegspreis"
+      ]
+    },
+    "proj": {
+      "name": "Projekt",
+      "tag": "Ab 1.200 € einmalig",
+      "cta": "Projektpreise ansehen",
+      "values": [
+        "Einmalig, mit Festpreis im Voraus",
+        "Keine Laufzeit",
+        "Separat, Wartung optional ab 120 € pro Monat",
+        "Pro Stunde (65 €) oder über ein Wartungsabo",
+        "dem Kunden, nach Übergabe",
+        "Eine größere oder maßgeschneiderte Website, einmal investiert"
+      ]
+    }
   }
 }

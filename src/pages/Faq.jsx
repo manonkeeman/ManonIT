@@ -28,8 +28,7 @@ export default function Faq() {
             <section className="svc-faq-section section page-head" id="veelgestelde-vragen">
                 <JsonLd data={faqSchema} />
                 <div className="container">
-                    <div className="section-head">
-                        <p className="eyebrow">ManonIT</p>
+                    <div className="section-head faq-head">
                         <h1>{t("faq.label")}</h1>
                         <p>{t("faqPage.intro")}</p>
                     </div>

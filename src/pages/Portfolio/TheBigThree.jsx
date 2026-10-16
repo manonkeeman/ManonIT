@@ -158,7 +158,7 @@ export default function TheBigThree() {
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">Home</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
-                <Link to="/#portfolio">Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
                 <span aria-current="page">The Big Three</span>
             </nav>
@@ -208,7 +208,7 @@ export default function TheBigThree() {
 
             {/* ── FOOTER ── */}
             <footer className="bt-footer">
-                <Link className="btn btn-outline" to="/#portfolio">{c.backBtn}</Link>
+                <Link className="btn btn-outline" to="/portfolio">{c.backBtn}</Link>
                 <a className="btn btn-primary" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn} ↗</a>
             </footer>
 

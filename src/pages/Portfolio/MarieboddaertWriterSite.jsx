@@ -160,7 +160,7 @@ export default function MarieboddaertWriterSite() {
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">{tr('nav.home')}</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
-                <Link to="/#portfolio">{tr('nav.portfolio')}</Link>
+                <Link to="/portfolio">{tr('nav.portfolio')}</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
                 <span aria-current="page">Marie H. Boddaert</span>
             </nav>
@@ -207,7 +207,7 @@ export default function MarieboddaertWriterSite() {
 
             {/* ── FOOTER ── */}
             <footer className="mb-footer">
-                <Link className="btn btn-outline" to="/#portfolio">{c.backBtn}</Link>
+                <Link className="btn btn-outline" to="/portfolio">{c.backBtn}</Link>
                 <a className="btn btn-primary" href={LIVE_URL} target="_blank" rel="noreferrer">{c.liveBtn}</a>
             </footer>
 

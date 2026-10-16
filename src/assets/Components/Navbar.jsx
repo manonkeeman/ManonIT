@@ -31,7 +31,7 @@ export default function Navbar() {
                     <NavLink to="/faq">{t('nav.faq')}</NavLink>
 
                     <div className="nav-group">
-                        <a href={`${prefix}/#portfolio`}>{t('nav.portfolio')}</a>
+                        <NavLink to="/portfolio">{t('nav.portfolio')}</NavLink>
                         <div className="nav-dropdown">
                             <NavLink to="/backendstudentendashboard">{t('nav.links.portfolio.backend')}</NavLink>
                             <NavLink to="/frontendvredestein">{t('nav.links.portfolio.frontend')}</NavLink>

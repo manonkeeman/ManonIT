@@ -128,8 +128,8 @@
     "title": "Conosciamoci",
     "personRole": "Web developer & designer · ManonIT",
     "points": [
-      "Una risposta personale entro un giorno lavorativo",
-      "Conoscerci in un colloquio di 30 minuti, gratuito e senza impegno",
+      "Una risposta personale, entro un giorno lavorativo",
+      "Prima conoscersi: 30 minuti, gratis e senza discorso di vendita",
       "Una proposta onesta, chiara in anticipo su quanto costa"
     ],
     "whatsapp": "Invia un WhatsApp",
@@ -295,6 +295,10 @@
     "how": {
       "title": "Metodo | 8 passi dal primo colloquio al sito online | ManonIT",
       "description": "Come funziona: 8 passi dal primo colloquio a un sito online, con bozza gratuita, due giri di revisioni e 24 mesi di manutenzione."
+    },
+    "portfolioPage": {
+      "title": "Portfolio | Siti web e app di ManonIT",
+      "description": "Una selezione di siti web e app: da una villa storica e un'autofficina a un'app per gli affitti e un blog di scrittura."
     }
   },
   "journalSection": {
@@ -840,5 +844,45 @@
         "l": "mesi di manutenzione inclusi"
       }
     ]
+  },
+  "pricingCompare": {
+    "title": "Due modi per iniziare",
+    "intro": "Un importo fisso al mese, oppure un unico prezzo fisso. Ecco la differenza.",
+    "tabSub": "Abbonamento mensile",
+    "tabProj": "Progetto una tantum",
+    "labels": [
+      "Pagamento",
+      "Durata",
+      "Hosting e sicurezza",
+      "Piccole modifiche",
+      "Il sito è del",
+      "Adatto a"
+    ],
+    "sub": {
+      "name": "Abbonamento",
+      "tag": "Da 39 € al mese",
+      "cta": "Vedi gli abbonamenti",
+      "values": [
+        "Avvio una tantum più un importo fisso al mese",
+        "24 mesi, poi disdicibile ogni mese",
+        "Incluso",
+        "Incluso: da 1 a 4 al mese",
+        "cliente, dopo 24 mesi",
+        "Essere online senza pensieri e con un basso costo iniziale"
+      ]
+    },
+    "proj": {
+      "name": "Progetto",
+      "tag": "Da 1.200 € una tantum",
+      "cta": "Vedi i prezzi dei progetti",
+      "values": [
+        "Una tantum, con prezzo fisso in anticipo",
+        "Nessuna durata",
+        "A parte, manutenzione facoltativa da 120 € al mese",
+        "A ore (65 €) o con un abbonamento di manutenzione",
+        "cliente, alla consegna",
+        "Un sito più ampio o su misura, con un unico investimento"
+      ]
+    }
   }
 }

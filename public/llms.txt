@@ -50,6 +50,8 @@
 
 ## Portfolio
 
+- [Alle projecten](https://manonit.com/portfolio)
+
 - [Villa Vredestein](https://manonit.com/frontendvredestein): webdesign voor een historische villa in Driebergen, in zes talen
 - [CasaCrew](https://manonit.com/backendstudentendashboard): verhuurapp voor hospita's, Spring Boot met OAuth2 (live op casacrew.nl)
 - [Acupuncture by Saskia](https://manonit.com/webdesignacupuncture): WordPress-website voor een acupunctuurpraktijk

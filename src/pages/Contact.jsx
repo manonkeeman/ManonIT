@@ -189,10 +189,11 @@ export default function Contact() {
         }
         .contact-person strong{ display:block; font-size:1.1rem; }
         .contact-person span{ font-size:.85rem; color:var(--muted); }
-        .contact-points{ list-style:none; margin:0; padding:0; display:grid; gap:10px; }
-        .contact-points li{ display:flex; align-items:center; gap:10px; font-size:.95rem; }
+        .contact-points{ list-style:none; margin:0; padding:0; display:grid; gap:12px; }
+        .contact-points li{ display:flex; align-items:center; gap:14px; font-size:1.02rem; font-weight:600; line-height:1.35; padding:14px 16px; background:#fff; border:1px solid var(--border); border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,.04); transition:transform .2s ease, border-color .2s ease; }
+        .contact-points li:hover{ transform:translateX(4px); border-color:color-mix(in srgb, var(--accent) 45%, var(--border)); }
         .contact-points svg{
-          flex-shrink:0; width:22px; height:22px; padding:4px; border-radius:50%;
+          flex-shrink:0; width:34px; height:34px; padding:8px; border-radius:50%;
           background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
         }
         .contact-wa{

@@ -128,8 +128,8 @@
     "title": "Laten we kennismaken",
     "personRole": "Webdeveloper & designer · ManonIT",
     "points": [
-      "Altijd een persoonlijke reactie, binnen één werkdag",
-      "Kennismaken in een gesprek van 30 minuten, gratis en vrijblijvend",
+      "Een persoonlijk antwoord, binnen één werkdag",
+      "Eerst kennismaken: 30 minuten, gratis en zonder verkooppraatje",
       "Een eerlijk voorstel, vooraf helder over wat het kost"
     ],
     "whatsapp": "Stuur een WhatsApp",
@@ -356,6 +356,10 @@
     "how": {
       "title": "Werkwijze | In 8 stappen van gesprek naar live website | ManonIT",
       "description": "Zo werkt het: 8 stappen van eerste gesprek tot website die online staat, met gratis schets van de homepage, twee revisierondes en 24 maanden onderhoud."
+    },
+    "portfolioPage": {
+      "title": "Portfolio | Websites en apps door ManonIT",
+      "description": "Een selectie van websites en apps: van een historische villa en een garage tot een verhuurapp en een schrijversblog."
     }
   },
   "journalSection": {
@@ -840,5 +844,45 @@
         "l": "maanden onderhoud inbegrepen"
       }
     ]
+  },
+  "pricingCompare": {
+    "title": "Twee manieren om te starten",
+    "intro": "Een vast bedrag per maand, of één vaste prijs. Dit is het verschil.",
+    "tabSub": "Maandelijks abonnement",
+    "tabProj": "Eenmalig project",
+    "labels": [
+      "Betaling",
+      "Looptijd",
+      "Hosting en beveiliging",
+      "Kleine wijzigingen",
+      "De website is van",
+      "Past bij"
+    ],
+    "sub": {
+      "name": "Abonnement",
+      "tag": "Vanaf €39 per maand",
+      "cta": "Bekijk de abonnementen",
+      "values": [
+        "Eenmalige opstart plus een vast bedrag per maand",
+        "24 maanden, daarna maandelijks opzegbaar",
+        "Inbegrepen",
+        "Inbegrepen: 1 tot 4 per maand",
+        "de klant, na 24 maanden",
+        "Online zonder gedoe en met een laag instapbedrag"
+      ]
+    },
+    "proj": {
+      "name": "Project",
+      "tag": "Vanaf €1.200 eenmalig",
+      "cta": "Bekijk de projectprijzen",
+      "values": [
+        "Eenmalig, met een vaste prijs vooraf",
+        "Geen looptijd",
+        "Los, onderhoud optioneel vanaf €120 per maand",
+        "Per uur (€65) of via een onderhoudsabonnement",
+        "de klant, na oplevering",
+        "Een uitgebreide of maatwerksite, eenmalig geïnvesteerd"
+      ]
+    }
   }
 }

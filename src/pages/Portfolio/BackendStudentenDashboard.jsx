@@ -224,7 +224,7 @@ export default function BackendStudentenDashboard() {
             <nav aria-label="Breadcrumb" className="breadcrumbs">
                 <Link to="/">{tr('nav.home')}</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
-                <Link to="/#portfolio">{tr('nav.portfolio')}</Link>
+                <Link to="/portfolio">{tr('nav.portfolio')}</Link>
                 <span className="breadcrumb-sep" aria-hidden="true">›</span>
                 <span aria-current="page">{c.title}</span>
             </nav>
@@ -330,7 +330,7 @@ export default function BackendStudentenDashboard() {
 
             {/* ── FOOTER ── */}
             <footer className="vr-footer">
-                <Link className="btn btn-outline" to="/#portfolio">{c.backBtn}</Link>
+                <Link className="btn btn-outline" to="/portfolio">{c.backBtn}</Link>
             </footer>
 
             <style>{`

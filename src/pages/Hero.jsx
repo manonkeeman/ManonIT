@@ -41,7 +41,7 @@ function Hero() {
 
                         <div className="hero-ctas">
                             <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t("hero.ctaContact")}</a>
-                            <a href={`${prefix}/#portfolio`} className="btn btn-ghost">{t("hero.ctaWork")}</a>
+                            <Link to="/portfolio" className="btn btn-ghost">{t("hero.ctaWork")}</Link>
                         </div>
 
                         <p className="hero-rating">

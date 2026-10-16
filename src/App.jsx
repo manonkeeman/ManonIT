@@ -229,6 +229,16 @@ function AppRoutes() {
                     }
                 />
                 <Route
+                    path="/portfolio"
+                    element={
+                        <Layout>
+                            <Suspense fallback={<PageLoader />}>
+                                <Portfolio asPage />
+                            </Suspense>
+                        </Layout>
+                    }
+                />
+                <Route
                     path="/faq"
                     element={
                         <Layout>

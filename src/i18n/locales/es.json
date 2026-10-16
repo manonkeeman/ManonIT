@@ -128,8 +128,8 @@
     "title": "Conozcámonos",
     "personRole": "Desarrolladora web y diseñadora · ManonIT",
     "points": [
-      "Una respuesta personal en un día laborable",
-      "Conocernos en una llamada de 30 minutos, gratuita y sin compromiso",
+      "Una respuesta personal, en un día laborable",
+      "Primero conocernos: 30 minutos, gratis y sin discurso de ventas",
       "Una propuesta honesta, clara desde el principio sobre lo que cuesta"
     ],
     "whatsapp": "Enviar un WhatsApp",
@@ -295,6 +295,10 @@
     "how": {
       "title": "Proceso | 8 pasos de la primera conversación a la web en línea | ManonIT",
       "description": "Así funciona: 8 pasos de la primera conversación a un sitio en línea, con boceto gratuito, dos rondas de revisiones y 24 meses de mantenimiento."
+    },
+    "portfolioPage": {
+      "title": "Portafolio | Sitios web y apps de ManonIT",
+      "description": "Una selección de sitios web y apps: de una villa histórica y un taller a una app de alquiler y un blog de escritora."
     }
   },
   "journalSection": {
@@ -840,5 +844,45 @@
         "l": "meses de mantenimiento incluidos"
       }
     ]
+  },
+  "pricingCompare": {
+    "title": "Dos formas de empezar",
+    "intro": "Una cantidad fija al mes, o un precio fijo único. Esta es la diferencia.",
+    "tabSub": "Suscripción mensual",
+    "tabProj": "Proyecto único",
+    "labels": [
+      "Pago",
+      "Duración",
+      "Alojamiento y seguridad",
+      "Cambios pequeños",
+      "El sitio es de",
+      "Encaja con"
+    ],
+    "sub": {
+      "name": "Suscripción",
+      "tag": "Desde 39 € al mes",
+      "cta": "Ver las suscripciones",
+      "values": [
+        "Puesta en marcha única más una cuota fija al mes",
+        "24 meses, después cancelable cada mes",
+        "Incluido",
+        "Incluido: de 1 a 4 al mes",
+        "el cliente, tras 24 meses",
+        "Estar en línea sin complicaciones y con poca inversión inicial"
+      ]
+    },
+    "proj": {
+      "name": "Proyecto",
+      "tag": "Desde 1.200 € de una vez",
+      "cta": "Ver los precios de proyectos",
+      "values": [
+        "Una sola vez, con precio fijo de antemano",
+        "Sin duración",
+        "Aparte, mantenimiento opcional desde 120 € al mes",
+        "Por hora (65 €) o con una suscripción de mantenimiento",
+        "el cliente, tras la entrega",
+        "Un sitio más amplio o a medida, con una única inversión"
+      ]
+    }
   }
 }

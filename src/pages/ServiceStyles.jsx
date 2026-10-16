@@ -224,6 +224,29 @@ export default function ServiceStyles() {
                 .faq-item:last-child { border-bottom: 1px solid var(--border); }
                 .faq-item summary { cursor: pointer; font-weight: 600; line-height: 1.4; }
                 .faq-item p { color: var(--muted); line-height: 1.65; margin: 10px 0 0; font-size: .95rem; }
+                .cmp-section { padding-bottom: 8px; }
+                .cmp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; max-width: 980px; margin: 0 auto; }
+                .cmp-card {
+                    background: #fff; border: 1px solid var(--border); border-radius: 24px; padding: 30px 28px;
+                    display: flex; flex-direction: column; box-shadow: 0 12px 32px rgba(0,0,0,.05);
+                }
+                .cmp-card--sub { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); box-shadow: 0 18px 44px color-mix(in srgb, var(--accent) 16%, transparent); }
+                .cmp-name { margin: 0; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
+                .cmp-tag { margin: 6px 0 18px; font-size: 1.7rem; font-weight: 800; line-height: 1.15; }
+                .cmp-rows { margin: 0 0 24px; display: grid; gap: 0; flex: 1; }
+                .cmp-row { display: grid; grid-template-columns: 9.5rem 1fr; gap: 12px; padding: 11px 0; border-top: 1px solid var(--border); }
+                .cmp-row dt { font-size: .85rem; color: var(--muted); }
+                .cmp-row dd { margin: 0; font-weight: 600; line-height: 1.4; font-size: .95rem; }
+                .cmp-tabs-wrap { display: flex; justify-content: center; padding: 28px 16px 8px; scroll-margin-top: 80px; }
+                .cmp-tabs { display: inline-flex; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 999px; padding: 5px; gap: 4px; }
+                .cmp-tabs button { border: 0; background: none; font: inherit; font-weight: 700; font-size: .92rem; padding: 10px 20px; border-radius: 999px; cursor: pointer; color: var(--muted); transition: background .2s, color .2s; }
+                .cmp-tabs button.on { background: var(--accent-ink); color: #fff; }
+                .faq-head { margin-bottom: 64px; }
+                @media (max-width: 760px) {
+                    .cmp-grid { grid-template-columns: 1fr; }
+                    .cmp-row { grid-template-columns: 1fr; gap: 2px; }
+                    .cmp-tabs button { padding: 9px 14px; font-size: .85rem; }
+                }
                 .faq-item a { color: var(--accent-ink); font-weight: 600; }
                 @media (max-width: 900px) {
                     .faq-groups { grid-template-columns: 1fr; }

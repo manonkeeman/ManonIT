@@ -388,4 +388,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/werkwijze" />
     <lastmod>2026-10-16</lastmod>
   </url>
+  <url>
+    <loc>https://manonit.com/portfolio</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/portfolio" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/portfolio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/portfolio" />
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/en/portfolio</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/portfolio" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/portfolio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/portfolio" />
+    <lastmod>2026-10-16</lastmod>
+  </url>
 </urlset>

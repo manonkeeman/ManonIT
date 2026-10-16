@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FiCheck, FiShield, FiCalendar, FiArrowRight, FiFileText } from "react-icons/fi";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
@@ -29,12 +30,20 @@ export default function Pricing() {
         { key: "growth", price: "€240", featured: true },
     ];
 
-    const steps = [
-        { nr: "01", key: "meet" },
-        { nr: "02", key: "quote" },
-        { nr: "03", key: "build" },
-        { nr: "04", key: "launch" },
-    ];
+    const [mode, setMode] = useState("sub");
+    useEffect(() => {
+        const h = window.location.hash;
+        if (h === "#onderhoud" || h === "#tarieven") setMode("proj");
+    }, []);
+    const pick = (m) => {
+        setMode(m);
+        requestAnimationFrame(() => document.getElementById("cmp-panels")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    };
+    const labels = t("pricingCompare.labels", { returnObjects: true });
+    const cmp = ["sub", "proj"].map((k) => ({
+        k,
+        values: t(`pricingCompare.${k}.values`, { returnObjects: true }),
+    }));
 
     return (
         <>
@@ -54,7 +63,45 @@ export default function Pricing() {
                 </div>
             </section>
 
+            {/* ── OVERZICHT: maandelijks of eenmalig ─────── */}
+            <section className="section cmp-section">
+                <div className="container">
+                    <div className="section-head">
+                        <h2>{t("pricingCompare.title")}</h2>
+                        <p>{t("pricingCompare.intro")}</p>
+                    </div>
+                    <div className="cmp-grid">
+                        {cmp.map(({ k, values }) => (
+                            <article key={k} className={`cmp-card cmp-card--${k}`}>
+                                <p className="cmp-name">{t(`pricingCompare.${k}.name`)}</p>
+                                <p className="cmp-tag">{t(`pricingCompare.${k}.tag`)}</p>
+                                <dl className="cmp-rows">
+                                    {Array.isArray(labels) && labels.map((l, i) => (
+                                        <div key={l} className="cmp-row">
+                                            <dt>{l}</dt>
+                                            <dd>{Array.isArray(values) ? values[i] : ""}</dd>
+                                        </div>
+                                    ))}
+                                </dl>
+                                <button type="button" className="btn sub-btn" onClick={() => pick(k)}>
+                                    <span>{t(`pricingCompare.${k}.cta`)}</span>
+                                    <FiArrowRight className="sub-btn-arrow" aria-hidden="true"/>
+                                </button>
+                            </article>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <div id="cmp-panels" className="cmp-tabs-wrap">
+                <div className="cmp-tabs" role="tablist">
+                    <button type="button" role="tab" aria-selected={mode === "sub"} className={mode === "sub" ? "on" : ""} onClick={() => setMode("sub")}>{t("pricingCompare.tabSub")}</button>
+                    <button type="button" role="tab" aria-selected={mode === "proj"} className={mode === "proj" ? "on" : ""} onClick={() => setMode("proj")}>{t("pricingCompare.tabProj")}</button>
+                </div>
+            </div>
+
             {/* ── ABONNEMENT ──────────────────────────────── */}
+            <div hidden={mode !== "sub"}>
             <section className="svc-price-section section section-alt" id="abonnement">
                 <div className="container">
                     <div className="section-head">
@@ -120,7 +167,10 @@ export default function Pricing() {
             </section>
 
 
+            </div>
+
             {/* ── TARIEVEN ────────────────────────────────── */}
+            <div hidden={mode !== "proj"}>
             <section className="svc-price-section section" id="tarieven">
                 <div className="container">
                     <div className="section-head">
@@ -203,30 +253,7 @@ export default function Pricing() {
             </section>
 
 
-            {/* ── ZO WERKT HET ────────────────────────────── */}
-            <section className="svc-steps-section section section-alt" id="hoe-werkt-het">
-                <div className="container">
-                    <div className="section-head">
-                        <p className="eyebrow">{t("howItWorks.label")}</p>
-                        <h2>{t("howItWorks.title")}</h2>
-                        <p>{t("howItWorks.intro")}</p>
-                    </div>
-
-                    <div className="svc-steps">
-                        {steps.map((s) => (
-                            <div key={s.key} className="svc-step">
-                                <div className="svc-step-nr">{s.nr}</div>
-                                <h3 className="svc-step-title">{t(`howItWorks.steps.${s.key}.title`)}</h3>
-                                <p className="svc-step-text">{t(`howItWorks.steps.${s.key}.text`)}</p>
-                            </div>
-                        ))}
-                    </div>
-
-                    <div className="svc-steps-cta">
-                        <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t("howItWorks.cta")}</a>
-                    </div>
-                </div>
-            </section>
+            </div>
 
             <ServiceStyles />
         </>
