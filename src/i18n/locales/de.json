@@ -34,9 +34,9 @@
     "copied": "Link kopiert!"
   },
   "hero": {
-    "greeting": "Website erstellen lassen, die Kunden anzieht?",
+    "greeting": "Ihre Website sollte kein Projekt sein, sondern ein Mitarbeiter, der immer arbeitet.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Hinter jeder schönen Website steckt jemand, der den Unterschied macht. Ich entwerfe, texte und baue Websites, die schnell sind, bei Google gefunden werden und Besucher in Kunden verwandeln. Von Design und Code bis zu Texten und SEO, alles aus einer Hand. Damit Sie sich auf das konzentrieren können, was Sie am besten können.",
+    "bio": "Keine große Summe im Voraus und danach nie wieder etwas hören. Mit einem Abo baue ich Ihre Website, halte sie online und lasse sie mit Ihrem Unternehmen wachsen. Ein fester Monatsbetrag, ein Ansprechpartner.",
     "roles": "Webentwicklung • Webdesign • Texte • SEO • React",
     "projects": "Meine Arbeit ansehen",
     "journal": "Journal",
@@ -44,9 +44,10 @@
     "ctaWork": "Meine Arbeiten",
     "ctaContact": "Kostenloses Gespräch buchen",
     "points": [
-      "Design, Entwicklung und Texte aus einer Hand",
-      "Schnell, mobilfreundlich und bei Google auffindbar",
-      "Klares Angebot vorab, keine Überraschungen"
+      "Design, Entwicklung und Texte von derselben Person",
+      "Schnell, mobilfreundlich und auffindbar",
+      "Start, Wachstum oder Marke: Beginnen Sie klein und bauen Sie aus, wann Sie möchten",
+      "Keine versteckten Kosten"
     ],
     "ratingLine": "5,0 im Schnitt aus Kundenbewertungen",
     "trust": {
@@ -59,8 +60,8 @@
         "text": "Design, Code und Text"
       },
       "seo": {
-        "title": "SEO inklusive",
-        "text": "Gebaut, um gefunden zu werden"
+        "title": "Gebaut, um gefunden zu werden",
+        "text": "Bereit für Google und KI-Suche"
       },
       "free": {
         "title": "Kostenloses Erstgespräch",
@@ -106,7 +107,7 @@
     "points": [
       "Antwort innerhalb von 1 Werktag",
       "Kostenloses 30-Minuten-Gespräch",
-      "Klares Angebot, unverbindlich"
+      "Vorab klar, was Sie zahlen, unverbindlich"
     ],
     "whatsapp": "WhatsApp senden",
     "formTitle": "Nachricht senden",
@@ -373,8 +374,8 @@
         "text": "Wir vereinbaren ein 30-minütiges Gespräch. Kostenlos, unverbindlich. Du erzählst, was du brauchst, ich erkläre, was ich tun kann."
       },
       "quote": {
-        "title": "Angebot",
-        "text": "Du erhältst ein klares Angebot mit Preis, Zeitplan und genau dem, was du bekommst. Nach der Zustimmung legen wir los."
+        "title": "Vorschlag",
+        "text": "Du erhältst einen klaren Vorschlag: ein fester Monatsbetrag beim Abo oder ein Festpreis für ein Projekt. Du siehst genau, was du bekommst. Nach der Zustimmung legen wir los."
       },
       "build": {
         "title": "Entwicklung",
@@ -472,7 +473,7 @@
     "alwaysTitle": "Immer inklusive:",
     "always": "Erstgespräch, Designvorschlag, SEO-Grundlagen, Cookie- und Datenschutzerklärung (DSGVO), zwei Korrekturrunden und 30 Tage Garantie auf Fehler.",
     "extrasTitle": "Zusätzliche Kosten:",
-    "extras": "Änderungen ohne Abo €65 pro Stunde, zusätzliche Sprache ab €150, Domain €12 bis 15 pro Jahr, Hosting ca. €8 bis 15 pro Monat."
+    "extras": "Änderungen ohne Wartungsabo €65 pro Stunde, zusätzliche Sprache ab €150, Domain €12 bis 15 pro Jahr, Hosting ca. €8 bis 15 pro Monat."
   },
   "cookies": {
     "title": "Cookies",
@@ -485,7 +486,7 @@
   "care": {
     "label": "Wartung",
     "title": "Sorgenfrei online, jeden Monat",
-    "intro": "Eine Website ist nie fertig. Mit einem Wartungsabo bleibt deine Website sicher, schnell und auffindbar, bei Google und in KI-Suchmaschinen wie ChatGPT und Claude. Du musst dich um nichts kümmern.",
+    "intro": "Eine Website ist nie fertig. Wurde deine Website als Projekt gebaut, hält ein Wartungsabo sie sicher, schnell und auffindbar, bei Google und in KI-Suchmaschinen wie ChatGPT und Claude. Du musst dich um nichts kümmern.",
     "recommended": "Empfohlen",
     "perMonth": "pro Monat, zzgl. MwSt.",
     "cta": "Wartung starten",
@@ -525,7 +526,7 @@
     "perMonth": "pro Monat, zzgl. MwSt.",
     "setup": "einmalige Startgebühr, zzgl. MwSt.",
     "total": "Gesamt über 24 Monate: {{total}} zzgl. MwSt.",
-    "cta": "20 Minuten Kennenlerngespräch planen",
+    "cta": "30 Minuten Kennenlerngespräch planen",
     "noOtherTitle": "Keine weiteren Kosten.",
     "noOther": "Hosting, SSL, Backups und Sicherheitsupdates sind im Monatspreis enthalten. Nur die Domain (etwa 12 bis 15 € pro Jahr) zahlen Sie selbst, direkt beim Registrar.",
     "plans": {
@@ -587,7 +588,7 @@
           },
           {
             "q": "Warum ist das teurer als ein günstiges Abo oder Wix?",
-            "a": "Bei günstigen Abos liefern Sie die Texte selbst und bekommen eine Standardseite, die beim Anbieter bleibt. Bei mir bekommen Sie ein Design, das zu Ihrer Marke passt, von einer Person gemacht, die es auch baut, und nach 24 Monaten gehört die Website Ihnen."
+            "a": "Bei günstigen Abos bekommen Sie eine Standardseite, die beim Anbieter bleibt. Bei mir bekommen Sie ein Design, das zu Ihrer Marke passt, mit Texten und Aufbau von derselben Person, und nach 24 Monaten gehört die Website Ihnen."
           }
         ]
       },
@@ -630,7 +631,7 @@
         "items": [
           {
             "q": "Wer schreibt die Texte?",
-            "a": "Sie liefern die Texte, oder ich helfe beim Lektorat für einen Festpreis."
+            "a": "Ich schreibe sie für Sie, auf Basis unseres Gesprächs. Haben Sie schon Texte, arbeite ich sie ein. So klingt Ihre Website nach Ihnen, ohne dass Sie vor einer leeren Seite sitzen."
           },
           {
             "q": "Kann ich selbst etwas ändern?",

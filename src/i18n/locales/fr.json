@@ -34,9 +34,9 @@
     "copied": "Lien copié !"
   },
   "hero": {
-    "greeting": "Vous cherchez un site web qui attire des clients?",
+    "greeting": "Votre site web ne devrait pas être un projet, mais un collaborateur qui travaille sans relâche.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Derrière chaque beau site web, il y a quelqu'un qui fait la différence. Je conçois, rédige et construis des sites web rapides, visibles sur Google et pensés pour convertir les visiteurs en clients. Du design au code, des textes au SEO, tout sous un même toit. Pour que vous puissiez vous concentrer sur ce que vous faites le mieux.",
+    "bio": "Pas de grosse somme à l'avance, puis plus aucune nouvelle. Avec un abonnement, je construis votre site, je le maintiens en ligne et il évolue avec votre entreprise. Un montant mensuel fixe, un seul interlocuteur.",
     "roles": "Développement web • Webdesign • Rédaction • SEO • React",
     "projects": "Voir mes projets",
     "journal": "Journal",
@@ -44,9 +44,10 @@
     "ctaWork": "Voir mes projets",
     "ctaContact": "Planifier un appel gratuit",
     "points": [
-      "Design, développement et textes par une seule personne",
-      "Rapide, adapté au mobile et visible sur Google",
-      "Un devis clair à l'avance, sans surprises"
+      "Design, développement et textes par la même personne",
+      "Rapide, adapté au mobile et visible",
+      "Départ, Croissance ou Marque : commencez petit et évoluez quand vous voulez",
+      "Pas de frais cachés"
     ],
     "ratingLine": "5,0 en moyenne selon les avis clients",
     "trust": {
@@ -59,8 +60,8 @@
         "text": "Design, code et textes"
       },
       "seo": {
-        "title": "SEO inclus",
-        "text": "Conçu pour être trouvé"
+        "title": "Conçu pour être trouvé",
+        "text": "Prêt pour Google et la recherche IA"
       },
       "free": {
         "title": "Premier échange gratuit",
@@ -106,7 +107,7 @@
     "points": [
       "Réponse sous 1 jour ouvré",
       "Premier échange gratuit de 30 minutes",
-      "Devis clair, sans engagement"
+      "Clair dès le départ sur ce que vous payez, sans engagement"
     ],
     "whatsapp": "Envoyer un WhatsApp",
     "formTitle": "Envoyer un message",
@@ -373,8 +374,8 @@
         "text": "On planifie un appel de 30 minutes. Gratuit, sans engagement. Vous expliquez ce dont vous avez besoin, j'explique ce que je peux faire."
       },
       "quote": {
-        "title": "Devis",
-        "text": "Vous recevez un devis clair avec le prix, le planning et exactement ce que vous obtenez. Après accord, on commence."
+        "title": "Proposition",
+        "text": "Vous recevez une proposition claire : un montant mensuel fixe avec un abonnement, ou un prix fixe pour un projet. Vous voyez exactement ce que vous obtenez. Après accord, on commence."
       },
       "build": {
         "title": "Construction",
@@ -472,7 +473,7 @@
     "alwaysTitle": "Toujours inclus :",
     "always": "entretien de lancement, proposition de design, bases SEO, déclaration cookies et confidentialité (RGPD), deux cycles de révision et 30 jours de garantie sur les bugs.",
     "extrasTitle": "Frais séparés :",
-    "extras": "modifications sans abonnement 65 € de l'heure, langue supplémentaire à partir de 150 €, domaine 12 à 15 € par an, hébergement env. 8 à 15 € par mois."
+    "extras": "modifications sans abonnement de maintenance 65 € de l'heure, langue supplémentaire à partir de 150 €, domaine 12 à 15 € par an, hébergement env. 8 à 15 € par mois."
   },
   "cookies": {
     "title": "Cookies",
@@ -485,7 +486,7 @@
   "care": {
     "label": "Maintenance",
     "title": "En ligne sans souci, chaque mois",
-    "intro": "Un site web n'est jamais terminé. Avec un abonnement de maintenance, votre site reste sûr, rapide et visible, sur Google comme dans les moteurs de recherche IA comme ChatGPT et Claude. Vous n'avez plus à y penser.",
+    "intro": "Un site web n'est jamais terminé. Si votre site a été réalisé en projet, un abonnement de maintenance le garde sûr, rapide et visible, sur Google comme dans les moteurs de recherche IA comme ChatGPT et Claude. Vous n'avez plus à y penser.",
     "recommended": "Recommandé",
     "perMonth": "par mois, HT",
     "cta": "Démarrer la maintenance",
@@ -525,7 +526,7 @@
     "perMonth": "par mois, hors TVA",
     "setup": "mise en route unique, hors TVA",
     "total": "Total sur 24 mois : {{total}} hors TVA",
-    "cta": "Planifier un échange de 20 minutes",
+    "cta": "Planifier un échange de 30 minutes",
     "noOtherTitle": "Aucun autre coût.",
     "noOther": "L'hébergement, le SSL, les sauvegardes et les mises à jour de sécurité sont inclus dans le prix mensuel. Seul le domaine (environ 12 à 15 € par an) est à votre charge, directement auprès du registrar.",
     "plans": {
@@ -587,7 +588,7 @@
           },
           {
             "q": "Pourquoi est-ce plus cher qu'un abonnement bon marché ou Wix ?",
-            "a": "Avec les abonnements bon marché, vous fournissez vous-même les textes et recevez un site standard qui reste chez le prestataire. Chez moi, vous obtenez un design adapté à votre marque, réalisé par une seule personne qui le construit aussi, et après 24 mois le site est à vous."
+            "a": "Avec les abonnements bon marché, vous obtenez un site standard qui reste chez le prestataire. Chez moi, vous obtenez un design adapté à votre marque, avec textes et construction par la même personne, et après 24 mois le site est à vous."
           }
         ]
       },
@@ -630,7 +631,7 @@
         "items": [
           {
             "q": "Qui rédige les textes ?",
-            "a": "Vous fournissez les textes, ou je vous aide à les relire et les améliorer pour un montant fixe."
+            "a": "Je les rédige pour vous, à partir de notre échange. Si vous avez déjà des textes, je les intègre. Votre site vous ressemble ainsi, sans page blanche à remplir."
           },
           {
             "q": "Puis-je modifier des choses moi-même ?",

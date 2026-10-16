@@ -34,9 +34,9 @@
     "copied": "¡Enlace copiado!"
   },
   "hero": {
-    "greeting": "¿Necesitas una web que atraiga clientes de verdad?",
+    "greeting": "Tu web no debería ser un proyecto, sino un empleado que trabaja siempre.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Detrás de cada web bonita hay alguien que marca la diferencia. Diseño, escribo y construyo webs rápidas, visibles en Google y pensadas para convertir visitantes en clientes. Desde el diseño y el código hasta los textos y el SEO, todo bajo un mismo techo. Para que puedas dedicarte a lo que mejor sabes hacer.",
+    "bio": "Nada de una gran suma por adelantado y luego silencio. Con una suscripción construyo tu web, la mantengo en marcha y crece con tu negocio. Una cuota mensual fija, una sola persona de contacto.",
     "roles": "Desarrollo web • Diseño web • Redacción • SEO • React",
     "projects": "Ver mi trabajo",
     "journal": "Diario",
@@ -44,9 +44,10 @@
     "ctaWork": "Ver mi trabajo",
     "ctaContact": "Reservar una llamada gratuita",
     "points": [
-      "Diseño, desarrollo y textos por una sola persona",
-      "Rápida, adaptada a móvil y visible en Google",
-      "Presupuesto claro desde el inicio, sin sorpresas"
+      "Diseño, desarrollo y textos por la misma persona",
+      "Rápida, adaptada a móvil y visible",
+      "Inicio, Crecimiento o Marca: empieza pequeño y amplía cuando quieras",
+      "Sin costes ocultos"
     ],
     "ratingLine": "5,0 de media en reseñas de clientes",
     "trust": {
@@ -59,8 +60,8 @@
         "text": "Diseño, código y textos"
       },
       "seo": {
-        "title": "SEO incluido",
-        "text": "Hecho para ser encontrado"
+        "title": "Hecho para ser encontrado",
+        "text": "Lista para Google y la búsqueda con IA"
       },
       "free": {
         "title": "Primera llamada gratis",
@@ -106,7 +107,7 @@
     "points": [
       "Respuesta en 1 día laborable",
       "Llamada gratuita de 30 minutos",
-      "Presupuesto claro, sin compromiso"
+      "Claro desde el principio lo que pagas, sin compromiso"
     ],
     "whatsapp": "Enviar un WhatsApp",
     "formTitle": "Envía un mensaje",
@@ -373,8 +374,8 @@
         "text": "Programamos una llamada de 30 minutos. Gratis, sin compromiso. Tú cuentas lo que necesitas, yo explico lo que puedo hacer."
       },
       "quote": {
-        "title": "Presupuesto",
-        "text": "Recibes un presupuesto claro con precio, calendario y exactamente lo que obtendrás. Tras el acuerdo, empezamos."
+        "title": "Propuesta",
+        "text": "Recibes una propuesta clara: una cuota mensual fija con suscripción, o un precio cerrado para un proyecto. Ves exactamente lo que obtienes. Tras el acuerdo, empezamos."
       },
       "build": {
         "title": "Construcción",
@@ -472,7 +473,7 @@
     "alwaysTitle": "Siempre incluido:",
     "always": "reunión inicial, propuesta de diseño, SEO básico, aviso de cookies y privacidad (RGPD), dos rondas de revisión y 30 días de garantía ante errores.",
     "extrasTitle": "Costes aparte:",
-    "extras": "cambios sin plan 65 € por hora, idioma adicional desde 150 €, dominio 12 a 15 € al año, hosting aprox. 8 a 15 € al mes."
+    "extras": "cambios sin plan de mantenimiento 65 € por hora, idioma adicional desde 150 €, dominio 12 a 15 € al año, hosting aprox. 8 a 15 € al mes."
   },
   "cookies": {
     "title": "Cookies",
@@ -485,7 +486,7 @@
   "care": {
     "label": "Mantenimiento",
     "title": "Online sin preocupaciones, cada mes",
-    "intro": "Una web nunca está terminada. Con un plan de mantenimiento tu web sigue segura, rápida y visible, en Google y en buscadores de IA como ChatGPT y Claude. Tú ya no tienes que preocuparte.",
+    "intro": "Una web nunca está terminada. Si tu web se hizo como proyecto, un plan de mantenimiento la mantiene segura, rápida y visible, en Google y en buscadores de IA como ChatGPT y Claude. Tú ya no tienes que preocuparte.",
     "recommended": "Recomendado",
     "perMonth": "al mes, sin IVA",
     "cta": "Empezar mantenimiento",
@@ -525,7 +526,7 @@
     "perMonth": "al mes, sin IVA",
     "setup": "puesta en marcha única, sin IVA",
     "total": "Total en 24 meses: {{total}} sin IVA",
-    "cta": "Reserva una llamada de 20 minutos",
+    "cta": "Reserva una llamada de 30 minutos",
     "noOtherTitle": "Sin otros costes.",
     "noOther": "El alojamiento, el SSL, las copias de seguridad y las actualizaciones de seguridad están incluidos en el precio mensual. Solo el dominio (unos 12 a 15 € al año) lo pagas tú, directamente al registrador.",
     "plans": {
@@ -587,7 +588,7 @@
           },
           {
             "q": "¿Por qué es más caro que una suscripción barata o Wix?",
-            "a": "En las suscripciones baratas aportas tú los textos y recibes una web estándar que sigue siendo del proveedor. Conmigo recibes un diseño que encaja con tu marca, hecho por una sola persona que además lo construye, y pasados 24 meses la web es tuya."
+            "a": "En las suscripciones baratas recibes una web estándar que sigue siendo del proveedor. Conmigo recibes un diseño que encaja con tu marca, con textos y construcción de la misma persona, y pasados 24 meses la web es tuya."
           }
         ]
       },
@@ -630,7 +631,7 @@
         "items": [
           {
             "q": "¿Quién escribe los textos?",
-            "a": "Tú aportas los textos, o te ayudo con la revisión editorial por un importe fijo."
+            "a": "Los escribo yo por ti, a partir de nuestra conversación. Si ya tienes textos, los integro. Así tu web suena a ti, sin tener que enfrentarte a una página en blanco."
           },
           {
             "q": "¿Puedo cambiar cosas yo mismo?",

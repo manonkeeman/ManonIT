@@ -34,9 +34,9 @@
     "copied": "Link copied!"
   },
   "hero": {
-    "greeting": "Need a website that actually brings in clients?",
+    "greeting": "Your website shouldn't be a project. It should be an employee who never stops working.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Is your website not doing what you need? Or don't you have one yet? I solve that. I figure out the solution, design the site, write the copy and build it myself. Fast, findable on Google, and built to turn visitors into clients.",
+    "bio": "No big sum upfront and then silence. With a subscription I build your site, keep it running and grow it with your business. One fixed monthly fee, one point of contact.",
     "roles": "Web Development • Web Design • Copywriting • SEO • React",
     "projects": "View my work",
     "journal": "Journal",
@@ -44,9 +44,10 @@
     "ctaWork": "View my work",
     "ctaContact": "Book a free call",
     "points": [
-      "Design, development and copy by one person",
-      "Fast, mobile-friendly and findable on Google",
-      "A clear quote upfront, no surprises"
+      "Design, build and copy by the same person",
+      "Fast, mobile-friendly and findable",
+      "Start, Growth or Brand: start small and grow when you want",
+      "No hidden costs"
     ],
     "ratingLine": "5.0 average from client reviews",
     "trust": {
@@ -59,8 +60,8 @@
         "text": "Design, code and copy"
       },
       "seo": {
-        "title": "SEO included by default",
-        "text": "Built to be found"
+        "title": "Built to be found",
+        "text": "Ready for Google and AI search"
       },
       "free": {
         "title": "Free intro call",
@@ -106,7 +107,7 @@
     "points": [
       "Reply within 1 business day",
       "Free 30-minute intro call",
-      "Clear quote, no obligations"
+      "Clear up front what you pay, no obligations"
     ],
     "whatsapp": "Send a WhatsApp",
     "formTitle": "Send a message",
@@ -171,8 +172,8 @@
         "text": "We schedule a 30-minute call. Free, no obligations. You tell me what you need, I tell you what I can do."
       },
       "quote": {
-        "title": "Quote",
-        "text": "You receive a clear quote with price, timeline and exactly what you'll get. Once agreed, we get started."
+        "title": "Proposal",
+        "text": "You receive a clear proposal: a fixed monthly fee with a subscription, or a fixed price for a project. You see exactly what you get. Once agreed, we get started."
       },
       "build": {
         "title": "Building",
@@ -246,8 +247,8 @@
   },
   "seo": {
     "home": {
-      "title": "Website design from €1,200 | Web design & SEO | ManonIT",
-      "description": "Get a website built by one dedicated designer and developer. Fast, findable on Google and in AI, from €1,200. Based in the Netherlands."
+      "title": "Website design from €39 a month | Web design & SEO | ManonIT",
+      "description": "Get a website built by one designer and developer. From €39 a month or as a project from €1,200. Fast, findable on Google and in AI."
     },
     "about": {
       "title": "About me | Manon Keeman | Full Stack Developer",
@@ -472,7 +473,7 @@
     "alwaysTitle": "Always included:",
     "always": "intake meeting, design proposal, SEO basics, cookie and privacy statement (GDPR), two revision rounds and 30 days of bug-fix warranty.",
     "extrasTitle": "Separate costs:",
-    "extras": "changes without a plan €65 per hour, extra language from €150, domain €12 to 15 per year, hosting approx. €8 to 15 per month."
+    "extras": "changes without a maintenance plan €65 per hour, extra language from €150, domain €12 to 15 per year, hosting approx. €8 to 15 per month."
   },
   "cookies": {
     "title": "Cookies",
@@ -485,7 +486,7 @@
   "care": {
     "label": "Maintenance",
     "title": "Worry-free online, every month",
-    "intro": "A website is never finished. With a maintenance plan your site stays secure, fast and findable, on Google and in AI search engines like ChatGPT and Claude. You don't have to think about it.",
+    "intro": "A website is never finished. If your site was built as a project, a maintenance plan keeps it secure, fast and findable, on Google and in AI search engines like ChatGPT and Claude. You don't have to think about it.",
     "recommended": "Recommended",
     "perMonth": "per month, excl. VAT",
     "cta": "Start maintenance",
@@ -525,7 +526,7 @@
     "perMonth": "per month, excl. VAT",
     "setup": "one-time setup, excl. VAT",
     "total": "Total over 24 months: {{total}} excl. VAT",
-    "cta": "Book a 20-minute intro call",
+    "cta": "Book a 30-minute intro call",
     "noOtherTitle": "No other costs.",
     "noOther": "Hosting, SSL, backups and security updates are included in the monthly price. Only the domain (about €12 to 15 a year) you pay yourself, directly to the registrar.",
     "plans": {
@@ -587,7 +588,7 @@
           },
           {
             "q": "Why is this more expensive than a cheap subscription or Wix?",
-            "a": "With cheap subscriptions you supply the texts yourself and get a standard site that stays with the provider. With me you get a design that fits your brand, made by one person who also builds it, and after 24 months the website is yours."
+            "a": "With cheap subscriptions you get a standard site that stays with the provider. With me you get a design that fits your brand, with copy and build from the same person, and after 24 months the website is yours."
           }
         ]
       },
@@ -630,7 +631,7 @@
         "items": [
           {
             "q": "Who writes the text?",
-            "a": "You supply the text, or I help with copy editing for a fixed price."
+            "a": "I write it for you, based on our conversation. If you already have text, I'll work it in. That way your site sounds like you, without you facing a blank page."
           },
           {
             "q": "Can I change things myself?",

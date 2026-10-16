@@ -34,9 +34,9 @@
     "copied": "Link gekopieerd!"
   },
   "hero": {
-    "greeting": "Website laten maken die klanten trekt?",
+    "greeting": "Je website hoort geen project te zijn. Maar een medewerker die altijd werkt.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Werkt je website niet zoals je wilt? Of heb je er nog geen? Ik los dat op. Ik bedenk de oplossing, ontwerp de site, schrijf de teksten en bouw het zelf. Snel, vindbaar in Google en gemaakt om bezoekers om te zetten in klanten.",
+    "bio": "Geen grote som vooraf en daarna nooit meer iets horen. Met een abonnement bouw ik je site, houd ik hem in de lucht en groeit hij mee met je bedrijf. Eén vast maandbedrag, één aanspreekpunt.",
     "roles": "Webdevelopment • Webdesign • Copywriting • SEO • React",
     "projects": "Bekijk mijn werk",
     "journal": "Journal",
@@ -44,9 +44,10 @@
     "ctaWork": "Bekijk mijn werk",
     "ctaContact": "Plan een gratis gesprek",
     "points": [
-      "Ontwerp, bouw én teksten door één persoon",
-      "Snel, mobielvriendelijk en vindbaar in Google",
-      "Heldere offerte vooraf, geen verrassingen"
+      "Ontwerp, bouw én teksten door dezelfde persoon",
+      "Snel, mobielvriendelijk en vindbaar",
+      "Start, Groei of Merk: begin klein en bouw uit wanneer jij wilt",
+      "Geen verborgen kosten"
     ],
     "ratingLine": "5,0 gemiddeld uit klantreviews",
     "trust": {
@@ -59,8 +60,8 @@
         "text": "Design, code en copy"
       },
       "seo": {
-        "title": "SEO standaard inbegrepen",
-        "text": "Gebouwd om gevonden te worden"
+        "title": "Vindbaar gebouwd",
+        "text": "Klaar voor Google en AI-zoekmachines"
       },
       "free": {
         "title": "Gratis kennismaking",
@@ -106,7 +107,7 @@
     "points": [
       "Reactie binnen 1 werkdag",
       "Gratis kennismaking van 30 minuten",
-      "Heldere offerte, geen verplichtingen"
+      "Vooraf duidelijk wat je betaalt, geen verplichtingen"
     ],
     "whatsapp": "Stuur een WhatsApp",
     "formTitle": "Stuur een bericht",
@@ -171,8 +172,8 @@
         "text": "We plannen een gesprek van 30 minuten. Gratis, vrijblijvend. Jij vertelt wat je nodig hebt, ik vertel wat ik kan doen."
       },
       "quote": {
-        "title": "Offerte",
-        "text": "Je ontvangt een heldere offerte met prijs, planning en wat je precies krijgt. Na akkoord gaan we aan de slag."
+        "title": "Voorstel",
+        "text": "Je ontvangt een helder voorstel: een vast maandbedrag met een abonnement, of een vaste prijs voor een project. Je ziet precies wat je krijgt. Na akkoord gaan we aan de slag."
       },
       "build": {
         "title": "Bouwen",
@@ -246,8 +247,8 @@
   },
   "seo": {
     "home": {
-      "title": "Website laten maken vanaf €1.200 | Webdesign & SEO | ManonIT",
-      "description": "Website laten maken bij één vaste webdesigner en developer. Snel, vindbaar in Google en AI, vanaf €1.200. Vanuit Bakkum en Driebergen, voor heel Nederland."
+      "title": "Website laten maken vanaf €39 per maand | Webdesign & SEO | ManonIT",
+      "description": "Website laten maken door één webdesigner en developer. Vanaf €39 per maand of als project vanaf €1.200. Snel en vindbaar in Google en AI."
     },
     "about": {
       "title": "Over mij | Manon Keeman | Full Stack Developer",
@@ -472,7 +473,7 @@
     "alwaysTitle": "Altijd inbegrepen:",
     "always": "intakegesprek, ontwerpvoorstel, basis-SEO, cookie- en privacyverklaring (AVG), twee revisierondes en 30 dagen garantie op fouten.",
     "extrasTitle": "Losse kosten:",
-    "extras": "aanpassingen zonder abonnement €65 per uur, extra taal vanaf €150, domein €12 tot 15 per jaar, hosting ca. €8 tot 15 per maand."
+    "extras": "aanpassingen zonder onderhoudsabonnement €65 per uur, extra taal vanaf €150, domein €12 tot 15 per jaar, hosting ca. €8 tot 15 per maand."
   },
   "cookies": {
     "title": "Cookies",
@@ -485,7 +486,7 @@
   "care": {
     "label": "Onderhoud",
     "title": "Zorgeloos online, elke maand",
-    "intro": "Een website is nooit af. Met een onderhoudsabonnement blijft je site veilig, snel en vindbaar, in Google én in AI-zoekmachines zoals ChatGPT en Claude. Jij hoeft er niet meer aan te denken.",
+    "intro": "Een website is nooit af. Heb je je site als project laten bouwen, dan houdt een onderhoudsabonnement hem veilig, snel en vindbaar, in Google én in AI-zoekmachines zoals ChatGPT en Claude. Jij hoeft er niet meer aan te denken.",
     "recommended": "Aanbevolen",
     "perMonth": "per maand, excl. btw",
     "cta": "Start met onderhoud",
@@ -525,7 +526,7 @@
     "perMonth": "per maand, excl. btw",
     "setup": "eenmalige opstart, excl. btw",
     "total": "Totaal over 24 maanden: {{total}} excl. btw",
-    "cta": "Plan een kennismaking van 20 minuten",
+    "cta": "Plan een kennismaking van 30 minuten",
     "noOtherTitle": "Geen andere kosten.",
     "noOther": "Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein (circa €12 tot 15 per jaar) betaal je zelf, rechtstreeks aan de registrar.",
     "plans": {
@@ -587,7 +588,7 @@
           },
           {
             "q": "Waarom is dit duurder dan een goedkoop abonnement of Wix?",
-            "a": "Bij goedkope abonnementen lever je zelf de teksten aan en krijg je een standaardsite die van de aanbieder blijft. Bij mij krijg je een ontwerp dat bij jouw merk past, gemaakt door één persoon die het ook bouwt, en na 24 maanden is de website van jou."
+            "a": "Bij goedkope abonnementen krijg je een standaardsite die van de aanbieder blijft. Bij mij krijg je een ontwerp dat bij jouw merk past, met teksten en bouw door dezelfde persoon, en na 24 maanden is de website van jou."
           }
         ]
       },
@@ -630,7 +631,7 @@
         "items": [
           {
             "q": "Wie schrijft de teksten?",
-            "a": "Jij levert de teksten aan, of ik help met tekstredactie voor een vast bedrag."
+            "a": "Ik schrijf ze voor je, op basis van ons gesprek. Heb je zelf al teksten, dan verwerk ik die. Zo klinkt je site als jou, zonder dat je een blanco pagina hoeft te vullen."
           },
           {
             "q": "Kan ik zelf dingen aanpassen?",

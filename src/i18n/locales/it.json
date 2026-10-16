@@ -34,9 +34,9 @@
     "copied": "Link copiato!"
   },
   "hero": {
-    "greeting": "Hai bisogno di un sito web che attiri davvero clienti?",
+    "greeting": "Il tuo sito non dovrebbe essere un progetto, ma un collaboratore che lavora sempre.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Dietro ogni bel sito web c'è qualcuno che fa la differenza. Progetto, scrivo e costruisco siti web veloci, visibili su Google e pensati per convertire i visitatori in clienti. Dal design al codice, dai testi alla SEO, tutto sotto un unico tetto. Così puoi concentrarti su quello che sai fare meglio.",
+    "bio": "Niente grossa cifra anticipata e poi il silenzio. Con un abbonamento costruisco il tuo sito, lo tengo online e cresce insieme alla tua attività. Un importo mensile fisso, un unico referente.",
     "roles": "Sviluppo web • Web design • Copywriting • SEO • React",
     "projects": "Guarda il mio lavoro",
     "journal": "Diario",
@@ -44,9 +44,10 @@
     "ctaWork": "Guarda i miei lavori",
     "ctaContact": "Prenota una chiamata gratuita",
     "points": [
-      "Design, sviluppo e testi da un'unica persona",
-      "Veloce, mobile-friendly e visibile su Google",
-      "Preventivo chiaro in anticipo, nessuna sorpresa"
+      "Design, sviluppo e testi dalla stessa persona",
+      "Veloce, mobile-friendly e trovabile",
+      "Avvio, Crescita o Marchio: inizia in piccolo e amplia quando vuoi",
+      "Nessun costo nascosto"
     ],
     "ratingLine": "5,0 di media dalle recensioni dei clienti",
     "trust": {
@@ -59,8 +60,8 @@
         "text": "Design, codice e testi"
       },
       "seo": {
-        "title": "SEO incluso",
-        "text": "Costruito per essere trovato"
+        "title": "Costruito per essere trovato",
+        "text": "Pronto per Google e la ricerca con IA"
       },
       "free": {
         "title": "Primo colloquio gratuito",
@@ -106,7 +107,7 @@
     "points": [
       "Risposta entro 1 giorno lavorativo",
       "Colloquio gratuito di 30 minuti",
-      "Preventivo chiaro, senza impegno"
+      "Chiaro in anticipo cosa paghi, senza impegno"
     ],
     "whatsapp": "Invia un WhatsApp",
     "formTitle": "Invia un messaggio",
@@ -373,8 +374,8 @@
         "text": "Pianifichiamo una chiamata di 30 minuti. Gratuita, senza impegno. Tu racconti cosa ti serve, io spiego cosa posso fare."
       },
       "quote": {
-        "title": "Preventivo",
-        "text": "Ricevi un preventivo chiaro con prezzo, tempi e esattamente quello che otterrai. Dopo l'accordo, si inizia."
+        "title": "Proposta",
+        "text": "Ricevi una proposta chiara: un importo mensile fisso con l'abbonamento, o un prezzo fisso per un progetto. Vedi esattamente cosa ottieni. Dopo l'accordo, si inizia."
       },
       "build": {
         "title": "Sviluppo",
@@ -472,7 +473,7 @@
     "alwaysTitle": "Sempre incluso:",
     "always": "colloquio iniziale, proposta di design, SEO di base, informativa cookie e privacy (GDPR), due cicli di revisione e 30 giorni di garanzia sui bug.",
     "extrasTitle": "Costi a parte:",
-    "extras": "modifiche senza abbonamento €65 l'ora, lingua aggiuntiva da €150, dominio €12 a 15 l'anno, hosting ca. €8 a 15 al mese."
+    "extras": "modifiche senza abbonamento di manutenzione €65 l'ora, lingua aggiuntiva da €150, dominio €12 a 15 l'anno, hosting ca. €8 a 15 al mese."
   },
   "cookies": {
     "title": "Cookie",
@@ -485,7 +486,7 @@
   "care": {
     "label": "Manutenzione",
     "title": "Online senza pensieri, ogni mese",
-    "intro": "Un sito non è mai finito. Con un abbonamento di manutenzione il tuo sito resta sicuro, veloce e trovabile, su Google e nei motori di ricerca IA come ChatGPT e Claude. Tu non devi più pensarci.",
+    "intro": "Un sito non è mai finito. Se il tuo sito è stato realizzato come progetto, un abbonamento di manutenzione lo mantiene sicuro, veloce e trovabile, su Google e nei motori di ricerca IA come ChatGPT e Claude. Tu non devi più pensarci.",
     "recommended": "Consigliato",
     "perMonth": "al mese, IVA esclusa",
     "cta": "Inizia la manutenzione",
@@ -525,7 +526,7 @@
     "perMonth": "al mese, IVA esclusa",
     "setup": "avvio una tantum, IVA esclusa",
     "total": "Totale in 24 mesi: {{total}} IVA esclusa",
-    "cta": "Prenota un colloquio di 20 minuti",
+    "cta": "Prenota un colloquio di 30 minuti",
     "noOtherTitle": "Nessun altro costo.",
     "noOther": "Hosting, SSL, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile. Solo il dominio (circa 12 a 15 € all'anno) lo paghi tu, direttamente al registrar.",
     "plans": {
@@ -587,7 +588,7 @@
           },
           {
             "q": "Perché costa più di un abbonamento economico o di Wix?",
-            "a": "Con gli abbonamenti economici i testi li fornisci tu e ottieni un sito standard che resta del fornitore. Con me ottieni un design adatto al tuo marchio, fatto da una sola persona che lo costruisce anche, e dopo 24 mesi il sito è tuo."
+            "a": "Con gli abbonamenti economici ottieni un sito standard che resta del fornitore. Con me ottieni un design adatto al tuo marchio, con testi e realizzazione dalla stessa persona, e dopo 24 mesi il sito è tuo."
           }
         ]
       },
@@ -630,7 +631,7 @@
         "items": [
           {
             "q": "Chi scrive i testi?",
-            "a": "Li fornisci tu, oppure ti aiuto con la revisione editoriale a un importo fisso."
+            "a": "Li scrivo io per te, partendo dalla nostra conversazione. Se hai già dei testi, li integro. Così il tuo sito parla come te, senza dover affrontare una pagina bianca."
           },
           {
             "q": "Posso modificare qualcosa da solo?",
