@@ -144,14 +144,14 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
 .primary-nav a:hover, .primary-nav a.active { color: var(--accent-ink); text-decoration:none; }
 .primary-nav .nav-group { position:relative; display:inline-block; }
 .primary-nav .nav-group:hover .nav-dropdown,
-.primary-nav .nav-group:focus-within .nav-dropdown { opacity:1; transform: translateY(0); pointer-events:auto; visibility:visible; }
+.primary-nav .nav-group:focus-within .nav-dropdown { opacity:1; transform: translateX(-50%) translateY(0); pointer-events:auto; visibility:visible; }
 /* onzichtbare brug, zodat het menu open blijft als de muis tussen link en menu beweegt */
 .primary-nav .nav-dropdown::before { content:""; position:absolute; left:0; right:0; top:-12px; height:12px; }
 .primary-nav .nav-dropdown {
-  position:absolute; right:0; left:auto; top:calc(100% + 2px); background:var(--bg);
+  position:absolute; left:50%; top:calc(100% + 2px); background:var(--bg);
   visibility:hidden; max-height:min(70vh, 560px); overflow-y:auto; width:max-content; max-width:min(340px, 90vw);
   border:1px solid var(--border); border-radius:12px; padding:8px;
-  opacity:0; transform: translateY(6px); pointer-events:none; min-width:240px;
+  opacity:0; transform: translateX(-50%) translateY(6px); pointer-events:none; min-width:240px;
   box-shadow: var(--shadow); z-index:100;
   transition: opacity .15s ease, transform .15s ease;
 }
