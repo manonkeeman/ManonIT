@@ -1,6 +1,7 @@
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import { useTranslation } from "react-i18next";
+import { FiMail } from "react-icons/fi";
 import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 
 
@@ -61,6 +62,7 @@ const projects = [
     },
     {
         key: "casareille",
+        status: "inDevelopment",
         title: "Webdesign · Casa Reille",
         tags: ["webdesign", "uxui", "booking", "multilingual", "seogeo"],
         base: "/Portfolio/casa-reille-mockup",
@@ -92,7 +94,10 @@ export default function Portfolio() {
                                     <MockupPicture base={p.base} alt={p.title} sizes="(max-width: 600px) 92vw, (max-width: 920px) 46vw, 380px" />
                                 </div>
                                 <div className="card-body">
-                                    <span className="card-num">{p.num}</span>
+                                    <span className="card-num">
+                                        {p.num}
+                                        {p.status && <span className="card-status">{t(`portfolio.status.${p.status}`)}</span>}
+                                    </span>
                                     <h3 className="card-title">{p.title}</h3>
                                     <p className="card-desc">{desc}</p>
                                     <div className="card-tags">
@@ -123,7 +128,7 @@ export default function Portfolio() {
                         <p className="cta-card-label">{t('portfolio.cta.label')}</p>
                         <h3>{t('portfolio.cta.title')}</h3>
                         <p className="cta-card-sub">{t('portfolio.cta.sub')}</p>
-                        <a href={`${prefix}/#contact`} className="btn-cta-solid">{t('portfolio.cta.btn')} →</a>
+                        <a href={`${prefix}/#contact`} className="btn btn-primary cta-card-btn" data-arrow><FiMail aria-hidden="true"/>{t('portfolio.cta.btn')}</a>
                     </div>
                 </article>
             </div>
@@ -193,6 +198,17 @@ export default function Portfolio() {
           text-transform: uppercase;
           margin-bottom: 8px;
           display: block;
+        }
+        .card-status {
+          margin-left: 10px;
+          padding: 3px 9px;
+          border-radius: 980px;
+          background: var(--bg-alt);
+          color: var(--muted);
+          font-size: .7rem;
+          letter-spacing: .04em;
+          text-transform: none;
+          font-weight: 600;
         }
         .card-title {
           font-size: 1.15rem;
@@ -280,24 +296,7 @@ export default function Portfolio() {
         }
         .cta-card-inner h3 { margin: 0; font-size: 1.4rem; }
         .cta-card-sub { color: var(--muted); font-size: .92rem; line-height: 1.6; margin: 0; }
-        .btn-cta-solid {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          margin-top: 8px;
-          padding: 12px 22px;
-          background: var(--bordeaux);
-          color: var(--bg);
-          border-radius: 980px;
-          font-weight: 600;
-          font-size: .95rem;
-          text-decoration: none;
-          border: 1px solid var(--bordeaux);
-          cursor: pointer;
-          width: fit-content;
-          transition: background .2s, border-color .2s, color .2s, transform .15s;
-        }
-        .btn-cta-solid:hover { background:var(--accent); border-color:var(--accent); color:#fff; text-decoration:none; }
+        .cta-card-btn { margin-top: 8px; }
 
         @media (max-width: 920px) {
           .portfolio-track { grid-template-columns: 1fr 1fr; gap: 20px; }
