@@ -3,7 +3,7 @@ import BlogArticle from "./BlogArticle.jsx";
 
 const content = {
     nl: {
-        title: "Wat zit er in website-onderhoud, en heb je het nodig?",
+        title: "Wat zit er in website-onderhoud, en is het nodig?",
         date: "2026-10-09",
         dateLabel: "9 oktober 2026",
         minutes: 4,

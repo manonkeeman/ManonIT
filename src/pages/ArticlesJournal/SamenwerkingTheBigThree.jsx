@@ -9,7 +9,7 @@ const content = {
         date: "2026-09-28",
         dateLabel: "28 september 2026",
         minutes: 3,
-        shareText: "Wat er gebeurt als een klant je de ruimte geeft: de website van The Big Three in Nunspeet.",
+        shareText: "Wat er gebeurt als een klant de ruimte geeft: de website van The Big Three in Nunspeet.",
         Body: () => (
             <>
                 <p className="lead">

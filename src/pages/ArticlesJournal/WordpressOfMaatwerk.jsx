@@ -3,7 +3,7 @@ import BlogArticle from "./BlogArticle.jsx";
 
 const content = {
     nl: {
-        title: "WordPress of maatwerk: wat past bij jouw bedrijf?",
+        title: "WordPress of maatwerk: wat past bij het bedrijf?",
         date: "2026-10-09",
         dateLabel: "9 oktober 2026",
         minutes: 4,

@@ -3,7 +3,7 @@ import BlogArticle from "./BlogArticle.jsx";
 
 const content = {
     nl: {
-        title: "Een website voor je vakantiehuis: wat heb je nodig?",
+        title: "Een website voor een vakantiehuis: wat is er nodig?",
         date: "2026-10-09",
         dateLabel: "9 oktober 2026",
         minutes: 4,

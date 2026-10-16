@@ -99,13 +99,13 @@ const ARTICLE_META = {
     },
     "wordpress-of-maatwerk": {
         date: "2026-10-09",
-        title: "WordPress of maatwerk: wat past bij jouw bedrijf?",
+        title: "WordPress of maatwerk: wat past bij het bedrijf?",
         image: "https://manonit.com/og/project-acupuncture.jpg",
         words: 620,
     },
     "website-vakantiehuis": {
         date: "2026-10-09",
-        title: "Een website voor je vakantiehuis: wat heb je nodig?",
+        title: "Een website voor een vakantiehuis: wat is er nodig?",
         image: "https://manonit.com/og/default.jpg",
         words: 640,
     },
@@ -117,7 +117,7 @@ const ARTICLE_META = {
     },
     "website-onderhoud": {
         date: "2026-10-09",
-        title: "Wat zit er in website-onderhoud, en heb je het nodig?",
+        title: "Wat zit er in website-onderhoud, en is het nodig?",
         image: "https://manonit.com/og/project-the-big-three.jpg",
         words: 560,
     },

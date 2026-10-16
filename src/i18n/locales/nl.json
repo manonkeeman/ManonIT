@@ -34,9 +34,9 @@
     "copied": "Link gekopieerd!"
   },
   "hero": {
-    "greeting": "Uw website hoort geen project te zijn. Maar een medewerker die altijd werkt.",
+    "greeting": "Een website hoort geen project te zijn, maar een medewerker die altijd werkt.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Geen grote som vooraf en daarna nooit meer iets horen. Met een abonnement bouw ik uw site, houd ik hem in de lucht en groeit hij mee met uw bedrijf. Eén vast maandbedrag, één aanspreekpunt.",
+    "bio": "Geen grote som vooraf en daarna nooit meer iets horen. Met een abonnement bouw ik de website, houd ik hem online en groeit hij mee met het bedrijf. Eén vast maandbedrag, één aanspreekpunt.",
     "roles": "Webdevelopment • Webdesign • Copywriting • SEO • React",
     "projects": "Bekijk mijn werk",
     "journal": "Journal",
@@ -46,7 +46,7 @@
     "points": [
       "Ontwerp, bouw én teksten door dezelfde persoon",
       "Snel, mobielvriendelijk en vindbaar",
-      "Start, Groei of Merk: klein beginnen en uitbreiden wanneer u wilt",
+      "Start, Groei of Merk: klein beginnen en uitbreiden wanneer nodig",
       "Geen verborgen kosten"
     ],
     "ratingLine": "5,0 gemiddeld uit klantreviews",
@@ -89,14 +89,14 @@
   },
   "contact": {
     "label": "Contact",
-    "intro": "Fijn dat u er bent. Wilt u eerst kort overleggen, of direct iets samen bouwen?",
+    "intro": "Welkom. Eerst kort overleggen of direct samen iets bouwen? Beide kan.",
     "form": {
       "name": "Naam",
       "email": "E-mail",
       "message": "Bericht",
-      "namePlaceholder": "Uw naam",
-      "emailPlaceholder": "uw@email.nl",
-      "messagePlaceholder": "Vertel mij waar u mee bezig bent...",
+      "namePlaceholder": "Naam",
+      "emailPlaceholder": "naam@email.nl",
+      "messagePlaceholder": "Vertel kort waar het om gaat...",
       "send": "Versturen",
       "sending": "Versturen...",
       "success": "Bedankt! Ik neem zo snel mogelijk contact op.",
@@ -107,27 +107,27 @@
     "points": [
       "Reactie binnen 1 werkdag",
       "Gratis kennismaking van 30 minuten",
-      "Vooraf duidelijk wat u betaalt, geen verplichtingen"
+      "Vooraf duidelijk wat het kost, geen verplichtingen"
     ],
     "whatsapp": "Stuur een WhatsApp",
     "formTitle": "Stuur een bericht",
-    "formSub": "Vertel kort wat u nodig heeft. Ik reageer binnen één werkdag.",
-    "onLocation": "Ik kom bij u op locatie",
+    "formSub": "Een korte omschrijving is genoeg. Reactie binnen één werkdag.",
+    "onLocation": "Ook op locatie mogelijk",
     "follow": "Volg mijn werk en verhalen:"
   },
   "newsletter": {
-    "label": "Nieuwe artikelen in uw inbox",
+    "label": "Nieuwe artikelen in de inbox",
     "sub": "Geen spam. Alleen als er iets nieuws is.",
-    "placeholder": "uw@email.nl",
+    "placeholder": "naam@email.nl",
     "btn": "Inschrijven",
     "sending": "Moment...",
-    "success": "Gelukt! U staat op de lijst.",
+    "success": "Gelukt! Het e-mailadres staat op de lijst.",
     "error": "Oeps, probeer het opnieuw."
   },
   "services": {
     "label": "Wat ik doe",
     "title": "Alles onder één dak",
-    "intro": "Alles wat een website nodig heeft, op één plek. U hoeft alleen te vertellen wat u wilt.",
+    "intro": "Alles wat een website nodig heeft, op één plek. Alleen de wensen zijn nodig, de rest regel ik.",
     "items": {
       "websites": {
         "name": "Websites & Apps",
@@ -136,27 +136,27 @@
       },
       "design": {
         "name": "Webdesign",
-        "desc": "Een site die er goed uitziet én bij u past: een ontwerp dat uw merk laat zien.",
+        "desc": "Een site die er goed uitziet én past bij het bedrijf: een ontwerp dat het merk laat zien.",
         "tags": "UX/UI, huisstijl, Figma"
       },
       "copy": {
         "name": "Copywriting",
-        "desc": "Teksten die kloppen. Helder, to the point en geschreven voor de mensen die u wilt bereiken.",
+        "desc": "Teksten die kloppen. Helder, to the point en geschreven voor de doelgroep.",
         "tags": "webteksten, over mij, servicepagina's"
       },
       "seo": {
         "name": "SEO & GEO",
-        "desc": "Gevonden worden in Google én in AI-zoekmachines zoals ChatGPT, Claude en Perplexity. Ik zorg dat uw site technisch en inhoudelijk klaar is voor beide.",
+        "desc": "Gevonden worden in Google én in AI-zoekmachines zoals ChatGPT, Claude en Perplexity. Ik zorg dat de site technisch en inhoudelijk klaar is voor beide.",
         "tags": "technische SEO, zoekwoorden, AI-zoekmachines (GEO)"
       },
       "media": {
         "name": "Foto & video",
-        "desc": "Ik werk samen met vaste fotografen en videografen. U hoeft niemand te zoeken, ik regel het voor u.",
+        "desc": "Ik werk samen met vaste fotografen en videografen en regel het geheel.",
         "tags": "portretfoto, productfoto, bedrijfsvideo"
       },
       "social": {
         "name": "Social media",
-        "desc": "Van strategie tot content. Ik help u met een aanpak die past bij uw merk en die u ook vol kunt houden.",
+        "desc": "Van strategie tot content. Een aanpak die past bij het merk en vol te houden is.",
         "tags": "Instagram, LinkedIn, content planning"
       }
     }
@@ -169,19 +169,19 @@
     "steps": {
       "meet": {
         "title": "Kennismaken",
-        "text": "We plannen een gesprek van 30 minuten. Gratis, vrijblijvend. U vertelt wat u nodig heeft, ik vertel wat ik kan doen."
+        "text": "We plannen een gesprek van 30 minuten. Gratis, vrijblijvend. Eerst wat er nodig is, daarna wat ik kan doen."
       },
       "quote": {
         "title": "Voorstel",
-        "text": "U ontvangt een helder voorstel: een vast maandbedrag met een abonnement, of een vaste prijs voor een project. U ziet precies wat u krijgt. Na akkoord gaan we aan de slag."
+        "text": "Een helder voorstel: een vast maandbedrag met een abonnement, of een vaste prijs voor een project. Vooraf is duidelijk wat erbij hoort. Na akkoord gaan we aan de slag."
       },
       "build": {
         "title": "Bouwen",
-        "text": "Ik werk in korte rondes. U ziet tussentijds wat er staat, geeft feedback en het wordt beter en beter."
+        "text": "Ik werk in korte rondes. Tussentijds is zichtbaar wat er staat, feedback is welkom en het wordt beter en beter."
       },
       "launch": {
         "title": "Live",
-        "text": "De site gaat live. U krijgt een korte handleiding, zodat u zelf kleine dingen kunt bijhouden. En ik blijf bereikbaar."
+        "text": "De site gaat live. Een korte handleiding is inbegrepen voor kleine aanpassingen. En ik blijf bereikbaar."
       }
     }
   },
@@ -289,18 +289,18 @@
       },
       "samenwerking-the-big-three": {
         "title": "Vrijheid en vertrouwen: een website bouwen voor The Big Three | Manon Keeman",
-        "description": "Wat er gebeurt als een klant je de ruimte geeft: de website van The Big Three, een garage voor Amerikaanse auto's in Nunspeet."
+        "description": "Wat er gebeurt als een klant de ruimte geeft: de website van The Big Three, een garage voor Amerikaanse auto's in Nunspeet."
       },
       "website-villa-vredestein": {
         "title": "Villa Vredestein: een huis met een verhaal, nu ook online | Manon Keeman",
         "description": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress of maatwerk: wat past bij jouw bedrijf? | Manon Keeman",
-        "description": "Wanneer kies je WordPress en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
+        "title": "WordPress of maatwerk: wat past bij het bedrijf? | Manon Keeman",
+        "description": "Wanneer is WordPress de juiste keuze en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
       },
       "website-vakantiehuis": {
-        "title": "Een website voor je vakantiehuis: wat heb je nodig? | Manon Keeman",
+        "title": "Een website voor een vakantiehuis: wat is er nodig? | Manon Keeman",
         "description": "Wat een verhuursite voor een vakantiehuis nodig heeft, met de ervaring van Casa Reille in Abruzzo."
       },
       "meertalige-website": {
@@ -308,8 +308,8 @@
         "description": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein."
       },
       "website-onderhoud": {
-        "title": "Wat zit er in website-onderhoud, en heb je het nodig? | Manon Keeman",
-        "description": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer je het nodig hebt."
+        "title": "Wat zit er in website-onderhoud, en is het nodig? | Manon Keeman",
+        "description": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer het nodig is."
       }
     },
     "portfolio": {
@@ -363,18 +363,18 @@
       },
       "samenwerking-the-big-three": {
         "title": "Vrijheid en vertrouwen: een website bouwen voor The Big Three",
-        "excerpt": "Wat er gebeurt als een klant je de ruimte geeft: de website van The Big Three, een garage voor Amerikaanse auto's in Nunspeet."
+        "excerpt": "Wat er gebeurt als een klant de ruimte geeft: de website van The Big Three, een garage voor Amerikaanse auto's in Nunspeet."
       },
       "website-villa-vredestein": {
         "title": "Villa Vredestein: een huis met een verhaal, nu ook online",
         "excerpt": "Hoe ik het verhaal van een villa uit 1906 in Driebergen-Rijsenburg vertaalde naar een website zonder opsmuk."
       },
       "wordpress-of-maatwerk": {
-        "title": "WordPress of maatwerk: wat past bij jouw bedrijf?",
-        "excerpt": "Wanneer kies je WordPress en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
+        "title": "WordPress of maatwerk: wat past bij het bedrijf?",
+        "excerpt": "Wanneer is WordPress de juiste keuze en wanneer een website op maat? Eerlijk advies uit mijn eigen projecten."
       },
       "website-vakantiehuis": {
-        "title": "Een website voor je vakantiehuis: wat heb je nodig?",
+        "title": "Een website voor een vakantiehuis: wat is er nodig?",
         "excerpt": "Wat een verhuursite voor een vakantiehuis nodig heeft, met de ervaring van Casa Reille in Abruzzo."
       },
       "meertalige-website": {
@@ -382,14 +382,14 @@
         "excerpt": "Wanneer is een website in meerdere talen zinvol, wat is er technisch voor nodig en wat kost het? Met ervaring uit Villa Vredestein."
       },
       "website-onderhoud": {
-        "title": "Wat zit er in website-onderhoud, en heb je het nodig?",
-        "excerpt": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer je het nodig hebt."
+        "title": "Wat zit er in website-onderhoud, en is het nodig?",
+        "excerpt": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer het nodig is."
       }
     }
   },
   "article": {
     "notFound": "Artikel niet gevonden",
-    "notFoundText": "Het artikel dat u zoekt bestaat niet."
+    "notFoundText": "Dit artikel bestaat niet."
   },
   "articleFooter": {
     "substack": "Volg mij op Substack",
@@ -424,7 +424,7 @@
   "pricing": {
     "label": "Tarieven",
     "title": "Heldere prijzen, geen verrassingen",
-    "intro": "Drie pakketten als startpunt. U ontvangt altijd eerst een offerte met een vaste prijs.",
+    "intro": "Drie pakketten als startpunt. Altijd eerst een offerte met een vaste prijs.",
     "popular": "Meest gekozen",
     "from": "vanaf",
     "vat": "excl. btw",
@@ -439,7 +439,7 @@
           "Werkt op mobiel, tablet en desktop",
           "Contactformulier",
           "SEO-basis ingebouwd",
-          "Wijzigingen voer ik voor u uit (uurtarief)"
+          "Wijzigingen voer ik uit (uurtarief)"
         ],
         "time": "Klaar in 3 tot 4 weken"
       },
@@ -462,7 +462,7 @@
         "items": [
           "Onbeperkt pagina's",
           "Ontwerp vanaf nul",
-          "Eigen CMS, passend bij uw bedrijf",
+          "Eigen CMS, passend bij het bedrijf",
           "Webshop, klantportaal of koppelingen mogelijk",
           "Meerdere talen mogelijk",
           "Logo en huisstijl inbegrepen"
@@ -477,7 +477,7 @@
   },
   "cookies": {
     "title": "Cookies",
-    "text": "Met uw toestemming gebruik ik Google Analytics om te zien hoe de site gebruikt wordt. Dat plaatst cookies van Google.",
+    "text": "Met toestemming gebruik ik Google Analytics om te zien hoe de site gebruikt wordt. Dat plaatst cookies van Google.",
     "more": "Meer in het privacybeleid",
     "accept": "Accepteren",
     "decline": "Weigeren",
@@ -486,7 +486,7 @@
   "care": {
     "label": "Onderhoud",
     "title": "Zorgeloos online, elke maand",
-    "intro": "Een website is nooit af. Heeft u uw site als project laten bouwen, dan houdt een onderhoudsabonnement hem veilig, snel en vindbaar, in Google én in AI-zoekmachines zoals ChatGPT en Claude. U hoeft er niet meer aan te denken.",
+    "intro": "Een website is nooit af. Is de site als project gebouwd, dan houdt een onderhoudsabonnement hem veilig, snel en vindbaar, in Google én in AI-zoekmachines zoals ChatGPT en Claude. Er hoeft niets meer bijgehouden te worden.",
     "recommended": "Aanbevolen",
     "perMonth": "per maand, excl. btw",
     "cta": "Start met onderhoud",
@@ -497,8 +497,8 @@
         "items": [
           "Aanpassingen aan teksten, foto's en pagina's",
           "Updates en beveiliging bijhouden",
-          "Back-ups van uw website",
-          "Monitoring: ik zie het als uw site offline gaat",
+          "Back-ups van de website",
+          "Monitoring: ik zie het zodra de site offline gaat",
           "Maandelijkse check van snelheid en SEO",
           "Reactie binnen 1 werkdag"
         ]
@@ -511,7 +511,7 @@
           "SEO: zoekwoorden, content en pagina's verbeteren",
           "GEO: zichtbaar in ChatGPT, Claude, Perplexity en Google AI-overzichten",
           "Maandelijks rapport met bezoekers en resultaten",
-          "Advies over nieuwe kansen voor uw website",
+          "Advies over nieuwe kansen voor de website",
           "Voorrang bij vragen en aanpassingen"
         ]
       }
@@ -528,21 +528,21 @@
     "total": "Totaal over 24 maanden: {{total}} excl. btw",
     "cta": "Plan een kennismaking van 30 minuten",
     "noOtherTitle": "Geen andere kosten.",
-    "noOther": "Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein (circa €12 tot 15 per jaar) betaalt u zelf, rechtstreeks aan de registrar.",
+    "noOther": "Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein (circa €12 tot 15 per jaar) wordt apart betaald, rechtstreeks aan de registrar.",
     "plans": {
       "start": {
         "name": "Start",
         "tagline": "Professioneel online, zonder gedoe.",
         "items": [
           "Tot 3 pagina's",
-          "Vormgegeven op mijn eigen ontwerpsysteem, in uw huisstijl",
+          "Vormgegeven op mijn eigen ontwerpsysteem, in de huisstijl",
           "1 kleine wijziging per maand",
           "Hosting, back-ups en beveiliging inbegrepen"
         ]
       },
       "growth": {
         "name": "Groei",
-        "tagline": "Een eigen ontwerp dat bij u past.",
+        "tagline": "Een eigen ontwerp dat past bij het bedrijf.",
         "items": [
           "Tot 7 pagina's",
           "Volledig eigen ontwerp",
@@ -553,7 +553,7 @@
       },
       "brand": {
         "name": "Merk",
-        "tagline": "Volledig afgestemd op uw merk.",
+        "tagline": "Volledig afgestemd op het merk.",
         "items": [
           "Tot 12 pagina's",
           "Eigen ontwerp plus huisstijlcheck of logo-opfrissing",
@@ -565,30 +565,30 @@
     },
     "termsTitle": "Zo werkt het contract",
     "terms": [
-      "Geen lease: na 24 maanden is uw website van u. Wilt u daarna hosting en wijzigingen houden, dan loopt het abonnement door en zegt u maandelijks op.",
-      "Eerder stoppen kan. U betaalt dan het resterende bouwdeel af, ongeveer €20 tot 30 per resterende maand.",
+      "Geen lease: na 24 maanden is de website van de klant. Blijven hosting en wijzigingen gewenst, dan loopt het abonnement door en is het maandelijks opzegbaar.",
+      "Eerder stoppen kan. Het resterende bouwdeel wordt dan afgerekend, ongeveer €20 tot 30 per resterende maand.",
       "Een kleine wijziging is tekst of beeld vervangen, maximaal 15 minuten. Niet opspaarbaar. Groter werk krijgt vooraf een vaste prijs.",
-      "Uw domein staat altijd op uw naam."
+      "Het domein staat altijd op naam van de klant."
     ],
     "sketchTitle": "Eerst zien, dan kiezen",
-    "sketch": "Na het kennismakingsgesprek maak ik gratis een schets van uw homepage: hoe uw site eruit zou kunnen zien. U ziet wat u krijgt voordat u iets besluit, en u zit nergens aan vast.",
+    "sketch": "Na het kennismakingsgesprek maak ik gratis een schets van de homepage: hoe de site eruit zou kunnen zien. Zo is zichtbaar wat het wordt voordat er iets besloten is, zonder verplichting.",
     "byline": "Ontwerp, teksten en bouw door één persoon, zonder overdracht. Opgeleid aan de Gerrit Rietveld Academie, het SAE Institute en de Schrijversacademie, en omgeschoold tot Full Stack Developer.",
     "more": "Meer nodig, zoals een webapp met inlog en database (zoals CasaCrew), een webshop of volledig maatwerk? Bekijk de projectprijzen hieronder."
   },
   "faq": {
     "label": "Veelgestelde vragen",
-    "title": "Vragen die u misschien nog heeft",
+    "title": "Vragen die er nog kunnen zijn",
     "groups": [
       {
         "title": "Kosten",
         "items": [
           {
             "q": "Zijn er nog andere kosten?",
-            "a": "Nee. Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Het enige wat u zelf betaalt is het domein, circa €12 tot 15 per jaar, rechtstreeks aan de registrar. Alle prijzen zijn exclusief btw."
+            "a": "Nee. Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein wordt apart betaald, circa €12 tot 15 per jaar, rechtstreeks aan de registrar. Alle prijzen zijn exclusief btw."
           },
           {
             "q": "Waarom is dit duurder dan een goedkoop abonnement of Wix?",
-            "a": "Bij goedkope abonnementen krijgt u een standaardsite die van de aanbieder blijft. Bij mij krijgt u een ontwerp dat bij uw merk past, met teksten en bouw door dezelfde persoon, en na 24 maanden is de website van u."
+            "a": "Bij goedkope abonnementen is het een standaardsite die van de aanbieder blijft. Bij mij is het een ontwerp dat past bij het merk, met teksten en bouw door dezelfde persoon, en na 24 maanden is de website van de klant."
           }
         ]
       },
@@ -597,19 +597,19 @@
         "items": [
           {
             "q": "Wat is de looptijd?",
-            "a": "24 maanden. Daarna is het abonnement maandelijks opzegbaar en is uw website van u."
+            "a": "24 maanden. Daarna is het abonnement maandelijks opzegbaar en is de website van de klant."
           },
           {
             "q": "Ik wil liever geen abonnement.",
-            "a": "Dan kijkt u naar de projectprijzen: een website voor een vast bedrag, zonder looptijd. Die staan hieronder onder tarieven."
+            "a": "Dan zijn de projectprijzen het alternatief: een website voor een vast bedrag, zonder looptijd. Die staan hieronder onder tarieven."
           },
           {
             "q": "Kan ik eerder stoppen?",
-            "a": "Ja. U betaalt dan het resterende bouwdeel af, ongeveer €20 tot 30 per resterende maand. Na 24 maanden is dat niet meer nodig."
+            "a": "Ja. Het resterende bouwdeel wordt dan afgerekend, ongeveer €20 tot 30 per resterende maand. Na 24 maanden is dat niet meer nodig."
           },
           {
             "q": "Kan ik later uitbreiden?",
-            "a": "Ja, met een vaste prijs vooraf. U kunt ook doorgroeien naar een volgend pakket."
+            "a": "Ja, met een vaste prijs vooraf. Doorgroeien naar een volgend pakket kan ook."
           }
         ]
       },
@@ -618,11 +618,11 @@
         "items": [
           {
             "q": "Staat het domein op mijn naam?",
-            "a": "Ja. Uw domein staat altijd op uw naam."
+            "a": "Ja. Het domein staat altijd op naam van de klant."
           },
           {
-            "q": "Wat als u ziek wordt of stopt?",
-            "a": "Uw domein staat op uw naam, er worden dagelijks back-ups gemaakt en bij elke site hoort een overdrachtsdocument. U kunt alles meenemen."
+            "q": "Wat als ManonIT uitvalt of stopt?",
+            "a": "Het domein staat op naam van de klant, er worden dagelijks back-ups gemaakt en bij elke site hoort een overdrachtsdocument. Alles kan worden meegenomen."
           }
         ]
       },
@@ -631,11 +631,11 @@
         "items": [
           {
             "q": "Wie schrijft de teksten?",
-            "a": "Ik schrijf ze voor u, op basis van ons gesprek. Heeft u zelf al teksten, dan verwerk ik die. Zo klinkt uw site als u, zonder dat u een blanco pagina hoeft te vullen."
+            "a": "Ik schrijf ze, op basis van ons gesprek. Zijn er al teksten, dan verwerk ik die. Zo klinkt de site als het bedrijf zelf, zonder blanco pagina."
           },
           {
             "q": "Kan ik zelf dingen aanpassen?",
-            "a": "Kleine wijzigingen voer ik voor u uit, binnen uw wijzigingen per maand. Wilt u zelf teksten, foto's en blog beheren, dan past een website met CMS uit de projectprijzen beter."
+            "a": "Kleine wijzigingen voer ik uit, binnen het aantal wijzigingen per maand. Is zelf beheren van teksten, foto's en blog gewenst, dan past een website met CMS uit de projectprijzen beter."
           },
           {
             "q": "Wat als ik niet tevreden ben over het ontwerp?",
