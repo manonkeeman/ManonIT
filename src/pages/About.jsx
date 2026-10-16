@@ -92,13 +92,6 @@ export default function About() {
                   <li key={k}><FiCheck aria-hidden="true" />{t(`about.skills.${k}`)}</li>
                 ))}
               </ul>
-
-              {/* Tech stack icons met tooltip */}
-              <div className="about-stack" aria-label="Tech stack">
-{STACK.map(([name, Icon]) => (
-                  <span key={name} data-tooltip={name} tabIndex={0}><Icon aria-label={name} /></span>
-                ))}
-              </div>
             </div>
           </div>
 
@@ -131,6 +124,13 @@ export default function About() {
               <p className="about-journal-tagline">{t('about.journalCta')}</p>
               <Link to="/journal" className="btn btn-primary" data-arrow>{t('about.journalBtn')}</Link>
             </div>
+
+          {/* Tech stack: alle iconen in één rij onder beide kolommen, naam bij hover */}
+          <div className="about-stack" aria-label="Tech stack">
+            {STACK.map(([name, Icon]) => (
+              <span key={name} data-tooltip={name} tabIndex={0}><Icon aria-label={name} /></span>
+            ))}
+          </div>
         </div>
 
         <style>{`
@@ -140,12 +140,13 @@ export default function About() {
           grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
           gap: 20px clamp(32px, 5vw, 72px);
           align-items:start;
-          grid-template-areas: "copy photo" "copy journal";
-          grid-template-rows: auto 1fr;
+          grid-template-areas: "copy photo" "copy journal" "stack stack";
+          grid-template-rows: auto 1fr auto;
         }
         .about-copy{ grid-area: copy; }
         .about-photo{ grid-area: photo; }
         .about-journal-cta{ grid-area: journal; }
+        .about-stack{ grid-area: stack; }
         .about-title{ margin: 0 0 16px; font-size: clamp(2.1rem, 4.4vw, 3.3rem); line-height:1.08; }
         .about-quote{
           margin: 0 0 28px; padding: 4px 0 4px 18px;
@@ -172,7 +173,7 @@ export default function About() {
           background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
         }
 
-        .about-stack{ display:flex; gap:12px; margin: 20px 0 0; flex-wrap:wrap; }
+        .about-stack{ display:flex; flex-wrap:nowrap; gap:12px; margin: 12px 0 0; padding-top:28px; border-top:1px solid var(--border); }
         .about-stack span{
           position:relative; display:flex; align-items:center; justify-content:center;
           width:46px; height:46px; border-radius:12px; font-size:1.4rem;
@@ -207,7 +208,8 @@ export default function About() {
         .about-journal-tagline{ margin:0; color: var(--muted); line-height:1.55; }
 
         @media (max-width: 920px){
-          .about-grid{ grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "photo" "copy" "journal"; }
+          .about-grid{ grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "photo" "copy" "journal" "stack"; }
+          .about-stack{ flex-wrap: wrap; }
           .about-photo{ max-width: 420px; justify-self: center; width: 100%; }
         }
         @media (max-width: 480px){
