@@ -32,7 +32,7 @@
     "cta": "Gratis gesprek",
     "pricing": "Tarieven",
     "faq": "FAQ",
-    "how": "Hoe werkt het"
+    "how": "Werkwijze"
   },
   "share": {
     "label": "Delen",
@@ -354,8 +354,8 @@
       "description": "Antwoorden over kosten, looptijd, domein, teksten, hosting, vindbaarheid en meertaligheid bij een website van ManonIT."
     },
     "how": {
-      "title": "Hoe werkt het | Van eerste gesprek tot live website | ManonIT",
-      "description": "In 8 stappen van eerste gesprek naar een website die online staat. Met gratis schets van de homepage en twee revisierondes."
+      "title": "Werkwijze | In 8 stappen van gesprek naar live website | ManonIT",
+      "description": "Zo werkt het: 8 stappen van eerste gesprek tot website die online staat, met gratis schets van de homepage, twee revisierondes en 24 maanden onderhoud."
     }
   },
   "journalSection": {
@@ -767,40 +767,59 @@
     "cta": "Bekijk de tarieven"
   },
   "howPage": {
-    "title": "In 8 stappen online",
-    "intro": "Van eerste gesprek tot livegang. Elke stap is vooraf duidelijk, zonder verrassingen.",
+    "eyebrow": "Werkwijze",
+    "title": "Van eerste idee naar live website, in 8 stappen",
+    "intro": "Geen gedoe en geen verrassingen. Zo gaat het van het eerste gesprek tot een website die staat.",
+    "who": {
+      "me": "Ik",
+      "together": "Samen",
+      "client": "Klant"
+    },
+    "step": "Stap",
+    "expand": "Alles openen",
+    "collapse": "Alles sluiten",
+    "endTitle": "Klaar om te beginnen?",
+    "endText": "Stap 1 kost niets: een gesprek van 30 minuten, vrijblijvend.",
     "steps": [
       {
-        "title": "Kennismaken",
-        "text": "Een gratis gesprek van 30 minuten, per telefoon, WhatsApp of formulier. Eerst wat er nodig is, daarna wat ik kan doen."
+        "title": "Neem contact op",
+        "text": "Bellen, appen, mailen of het formulier invullen. Een gratis gesprek van 30 minuten om te horen wat er speelt en wat er nodig is.",
+        "detail": "Geen verplichtingen en geen verkooppraatje."
       },
       {
-        "title": "Materiaal aanleveren",
-        "text": "Logo, foto's en gegevens voor de teksten, zoals contactgegevens en persoonlijke details. De teksten schrijf ik zelf, of bestaande teksten worden verwerkt."
+        "title": "Lever de basis aan",
+        "text": "Logo, foto's en een paar gegevens, zoals contactinfo en persoonlijke details. De teksten schrijf ik zelf, of bestaande teksten worden verwerkt.",
+        "detail": "Ontbreken er foto's, dan werk ik samen met vaste fotografen."
       },
       {
-        "title": "Gratis schets",
-        "text": "Na het gesprek volgt een vrijblijvende schets van de homepage. Eerst zien, dan kiezen."
+        "title": "Ik duik erin",
+        "text": "Alles wordt doorgenomen. Is er iets onduidelijk, dan volgt een vraag. Vaak komt er meteen een idee bij.",
+        "detail": "Zo past het ontwerp bij het merk en niet bij een standaardsjabloon."
       },
       {
-        "title": "Akkoord",
-        "text": "Bevalt de schets, dan volgt een voorstel met een vaste prijs of een vast maandbedrag. Pas na akkoord begint het bouwen."
+        "title": "Gratis schets van de homepage",
+        "text": "Een vrijblijvende eerste opzet, om te zien waar het heen gaat. Eerst zien, dan kiezen.",
+        "detail": "Past het niet, dan stopt het hier, zonder kosten."
       },
       {
-        "title": "Bouwen",
-        "text": "Ik bouw in korte rondes. Tussentijds is te zien wat er staat. Twee revisierondes zijn inbegrepen."
+        "title": "Akkoord en start",
+        "text": "Bevalt de schets, dan volgt een voorstel met een vaste prijs of een vast maandbedrag. Na akkoord begint het bouwen.",
+        "detail": "Bij een abonnement is de opstart eenmalig (€295, €495 of €795), daarna volgt het maandbedrag."
       },
       {
-        "title": "Domein koppelen",
-        "text": "Het domein wordt geregistreerd of verhuisd en gekoppeld. Het staat altijd op naam van de klant."
+        "title": "Bouwen en bijsturen",
+        "text": "De voorpagina wordt als eerste afgebouwd, daarna de rest. Onderweg is mee te kijken. Twee revisierondes zijn inbegrepen.",
+        "detail": "Kort lijntje: tussendoor appen of mailen kan altijd."
       },
       {
-        "title": "Live",
-        "text": "De site gaat online, met beveiligde verbinding en dagelijkse back-ups. Er volgt een korte handleiding en een overdrachtsdocument."
+        "title": "Domein en livegang",
+        "text": "Het domein wordt geregistreerd of verhuisd en gekoppeld, altijd op naam van de klant. Dan gaat de site live, met beveiligde verbinding en dagelijkse back-ups.",
+        "detail": "Een korte handleiding en een overdrachtsdocument horen erbij."
       },
       {
-        "title": "Nooit helemaal af",
-        "text": "Kleine wijzigingen zitten in het abonnement. Uitbreiden kan altijd, met een vaste prijs vooraf."
+        "title": "Onderhoud: 24 maanden inbegrepen",
+        "text": "Hosting, beveiligingsupdates, back-ups en kleine wijzigingen zitten 24 maanden in het maandbedrag. Daarna is de website van de klant en is het abonnement maandelijks opzegbaar.",
+        "detail": "Uitbreiden kan altijd, met een vaste prijs vooraf."
       }
     ]
   }

@@ -32,7 +32,7 @@
     "cta": "Colloquio gratuito",
     "pricing": "Tariffe",
     "faq": "FAQ",
-    "how": "Come funziona"
+    "how": "Metodo"
   },
   "share": {
     "label": "Condividi",
@@ -293,8 +293,8 @@
       "description": "Risposte su costi, durata, dominio, testi, hosting, visibilità e multilinguismo con ManonIT."
     },
     "how": {
-      "title": "Come funziona | Dal primo colloquio al sito online | ManonIT",
-      "description": "In 8 passi dal primo colloquio a un sito online. Con bozza gratuita della homepage e due giri di revisioni."
+      "title": "Metodo | 8 passi dal primo colloquio al sito online | ManonIT",
+      "description": "Come funziona: 8 passi dal primo colloquio a un sito online, con bozza gratuita, due giri di revisioni e 24 mesi di manutenzione."
     }
   },
   "journalSection": {
@@ -767,40 +767,59 @@
     "cta": "Vedi le tariffe"
   },
   "howPage": {
-    "title": "Online in 8 passi",
-    "intro": "Dal primo colloquio alla messa online. Ogni passo è chiaro in anticipo, senza sorprese.",
+    "eyebrow": "Metodo",
+    "title": "Dalla prima idea al sito online, in 8 passi",
+    "intro": "Senza complicazioni e senza sorprese. Ecco il percorso, dal primo colloquio a un sito che funziona.",
+    "who": {
+      "me": "Io",
+      "together": "Insieme",
+      "client": "Cliente"
+    },
+    "step": "Passo",
+    "expand": "Apri tutto",
+    "collapse": "Chiudi tutto",
+    "endTitle": "Pronti a iniziare?",
+    "endText": "Il passo 1 non costa nulla: un colloquio di 30 minuti, senza impegno.",
     "steps": [
       {
-        "title": "Conoscersi",
-        "text": "Un colloquio gratuito di 30 minuti, per telefono, WhatsApp o modulo. Prima ciò che serve, poi ciò che posso fare."
+        "title": "Mettersi in contatto",
+        "text": "Telefonare, scrivere su WhatsApp, mandare un'e-mail o compilare il modulo. Un colloquio gratuito di 30 minuti per capire la situazione e le esigenze.",
+        "detail": "Nessun obbligo e nessun discorso di vendita."
       },
       {
-        "title": "Fornire il materiale",
-        "text": "Logo, foto e dati per i testi, come recapiti e dettagli personali. I testi li scrivo io, oppure vengono usati quelli esistenti."
+        "title": "Fornire le basi",
+        "text": "Logo, foto e qualche dato, come recapiti e dettagli personali. I testi li scrivo io, oppure vengono usati quelli esistenti.",
+        "detail": "Se mancano foto, collaboro con fotografi di fiducia."
       },
       {
-        "title": "Bozza gratuita",
-        "text": "Dopo il colloquio arriva una bozza senza impegno della homepage. Prima vedere, poi scegliere."
+        "title": "Mi immergo",
+        "text": "Si esamina tutto. Se qualcosa non è chiaro, arriva una domanda. Spesso nasce subito un'idea.",
+        "detail": "Così il design si adatta al marchio e non a un modello standard."
       },
       {
-        "title": "Accordo",
-        "text": "Se la bozza piace, segue una proposta con prezzo fisso o canone mensile fisso. Si costruisce solo dopo l'accordo."
+        "title": "Bozza gratuita della homepage",
+        "text": "Una prima bozza senza impegno, per vedere dove si va. Prima vedere, poi scegliere.",
+        "detail": "Se non convince, finisce qui, senza costi."
       },
       {
-        "title": "Costruzione",
-        "text": "Costruisco a brevi tappe. Lungo il percorso si vede cosa c'è. Due giri di revisioni sono inclusi."
+        "title": "Accordo e avvio",
+        "text": "Se la bozza piace, segue una proposta con prezzo fisso o canone mensile fisso. Dopo l'accordo inizia la costruzione.",
+        "detail": "Con l'abbonamento l'avvio è una tantum (295 €, 495 € o 795 €), poi arriva il canone mensile."
       },
       {
-        "title": "Collegare il dominio",
-        "text": "Il dominio viene registrato o trasferito e collegato. È sempre intestato al cliente."
+        "title": "Costruire e rifinire",
+        "text": "Prima si completa la homepage, poi il resto. Lungo il percorso si può seguire l'avanzamento. Due giri di revisioni sono inclusi.",
+        "detail": "Contatto diretto: un messaggio o un'e-mail nel frattempo è sempre possibile."
       },
       {
-        "title": "Online",
-        "text": "Il sito va online, con connessione sicura e backup giornalieri. Seguono un breve manuale e un documento di passaggio."
+        "title": "Dominio e messa online",
+        "text": "Il dominio viene registrato o trasferito e collegato, sempre intestato al cliente. Poi il sito va online, con connessione sicura e backup giornalieri.",
+        "detail": "Sono inclusi un breve manuale e un documento di passaggio."
       },
       {
-        "title": "Mai davvero finito",
-        "text": "Le piccole modifiche sono incluse nell'abbonamento. Ampliare è sempre possibile, con prezzo fisso in anticipo."
+        "title": "Manutenzione: 24 mesi inclusi",
+        "text": "Hosting, aggiornamenti di sicurezza, backup e piccole modifiche sono inclusi per 24 mesi nel canone mensile. Poi il sito è del cliente e l'abbonamento si può disdire ogni mese.",
+        "detail": "Ampliare è sempre possibile, con prezzo fisso in anticipo."
       }
     ]
   }

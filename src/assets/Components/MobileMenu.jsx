@@ -55,10 +55,7 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/" end onClick={onClose} className="mob-link mob-link--main">
                         {t('nav.home')}
                     </NavLink>
-                    <NavLink to="/#services" onClick={onClose} className="mob-link mob-link--main">
-                        {t('nav.services')}
-                    </NavLink>
-                    <NavLink to="/hoe-werkt-het" onClick={onClose} className="mob-link mob-link--main">
+                    <NavLink to="/werkwijze" onClick={onClose} className="mob-link mob-link--main">
                         {t('nav.how')}
                     </NavLink>
                     <NavLink to="/tarieven" onClick={onClose} className="mob-link mob-link--main">

@@ -32,7 +32,7 @@
     "cta": "Free intro call",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "how": "How it works"
+    "how": "Process"
   },
   "share": {
     "label": "Share",
@@ -354,8 +354,8 @@
       "description": "Answers about costs, term, domain, copy, hosting, findability and multilingual sites at ManonIT."
     },
     "how": {
-      "title": "How it works | From first call to live website | ManonIT",
-      "description": "From first conversation to a live website in 8 steps. With a free homepage sketch and two rounds of revisions."
+      "title": "Process | 8 steps from first call to live website | ManonIT",
+      "description": "How it works: 8 steps from first conversation to a live website, with a free homepage sketch, two rounds of revisions and 24 months of maintenance."
     }
   },
   "journalSection": {
@@ -767,40 +767,59 @@
     "cta": "View pricing"
   },
   "howPage": {
-    "title": "Online in 8 steps",
-    "intro": "From first conversation to going live. Every step is clear in advance, with no surprises.",
+    "eyebrow": "Process",
+    "title": "From first idea to live website, in 8 steps",
+    "intro": "No hassle and no surprises. This is how it goes, from the first conversation to a website that is up and running.",
+    "who": {
+      "me": "Me",
+      "together": "Together",
+      "client": "Client"
+    },
+    "step": "Step",
+    "expand": "Open all",
+    "collapse": "Close all",
+    "endTitle": "Ready to start?",
+    "endText": "Step 1 costs nothing: a 30-minute conversation, no strings attached.",
     "steps": [
       {
-        "title": "Getting to know each other",
-        "text": "A free 30-minute conversation by phone, WhatsApp or form. First what is needed, then what I can do."
+        "title": "Get in touch",
+        "text": "Call, WhatsApp, email or fill in the form. A free 30-minute conversation to hear what is going on and what is needed.",
+        "detail": "No obligations and no sales pitch."
       },
       {
-        "title": "Supply the material",
-        "text": "Logo, photos and details for the texts, such as contact details and personal information. I write the texts myself, or existing texts are used."
+        "title": "Supply the basics",
+        "text": "Logo, photos and a few details, such as contact info and personal information. I write the texts myself, or existing texts are used.",
+        "detail": "If photos are missing, I work with regular photographers."
       },
       {
-        "title": "Free sketch",
-        "text": "After the conversation you receive a no-obligation sketch of the homepage. See first, then choose."
+        "title": "I dive in",
+        "text": "Everything is reviewed. If something is unclear, a question follows. Often an idea comes up straight away.",
+        "detail": "That way the design fits the brand instead of a standard template."
       },
       {
-        "title": "Approval",
-        "text": "If the sketch fits, a proposal follows with a fixed price or a fixed monthly fee. Building starts only after approval."
+        "title": "Free homepage sketch",
+        "text": "A no-obligation first draft, to see where it is heading. See first, then choose.",
+        "detail": "If it doesn't fit, it ends here at no cost."
       },
       {
-        "title": "Building",
-        "text": "I build in short rounds. What is there can be seen along the way. Two rounds of revisions are included."
+        "title": "Approval and start",
+        "text": "If the sketch fits, a proposal follows with a fixed price or a fixed monthly fee. Building starts after approval.",
+        "detail": "With a subscription the setup is a one-off (€295, €495 or €795), followed by the monthly fee."
       },
       {
-        "title": "Connecting the domain",
-        "text": "The domain is registered or transferred and connected. It is always in the client's name."
+        "title": "Building and adjusting",
+        "text": "The front page is finished first, then the rest. You can follow along. Two rounds of revisions are included.",
+        "detail": "Short lines: a message or an email in between is always fine."
       },
       {
-        "title": "Live",
-        "text": "The site goes online, with a secure connection and daily backups. A short manual and a handover document follow."
+        "title": "Domain and going live",
+        "text": "The domain is registered or transferred and connected, always in the client's name. Then the site goes live, with a secure connection and daily backups.",
+        "detail": "A short manual and a handover document are included."
       },
       {
-        "title": "Never quite finished",
-        "text": "Small changes are part of the subscription. Expanding is always possible, at a fixed price in advance."
+        "title": "Maintenance: 24 months included",
+        "text": "Hosting, security updates, backups and small changes are part of the monthly fee for 24 months. After that the website belongs to the client and the subscription can be cancelled monthly.",
+        "detail": "Expanding is always possible, at a fixed price in advance."
       }
     ]
   }

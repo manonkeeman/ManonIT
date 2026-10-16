@@ -32,7 +32,7 @@
     "cta": "Échange gratuit",
     "pricing": "Tarifs",
     "faq": "FAQ",
-    "how": "Comment ça marche"
+    "how": "Méthode"
   },
   "share": {
     "label": "Partager",
@@ -293,8 +293,8 @@
       "description": "Réponses sur les coûts, la durée, le domaine, les textes, l'hébergement, la visibilité et le multilinguisme chez ManonIT."
     },
     "how": {
-      "title": "Comment ça marche | Du premier échange au site en ligne | ManonIT",
-      "description": "En 8 étapes, du premier échange à un site en ligne. Avec une esquisse gratuite de la page d'accueil et deux séries de révisions."
+      "title": "Méthode | 8 étapes du premier échange au site en ligne | ManonIT",
+      "description": "Comment ça marche : 8 étapes du premier échange au site en ligne, avec esquisse gratuite, deux séries de révisions et 24 mois de maintenance."
     }
   },
   "journalSection": {
@@ -767,40 +767,59 @@
     "cta": "Voir les tarifs"
   },
   "howPage": {
-    "title": "En ligne en 8 étapes",
-    "intro": "Du premier échange à la mise en ligne. Chaque étape est claire d'avance, sans surprise.",
+    "eyebrow": "Méthode",
+    "title": "De la première idée au site en ligne, en 8 étapes",
+    "intro": "Sans tracas et sans surprise. Voici le parcours, du premier échange à un site qui tourne.",
+    "who": {
+      "me": "Moi",
+      "together": "Ensemble",
+      "client": "Client"
+    },
+    "step": "Étape",
+    "expand": "Tout ouvrir",
+    "collapse": "Tout fermer",
+    "endTitle": "Prêt à commencer ?",
+    "endText": "L'étape 1 ne coûte rien : un échange de 30 minutes, sans engagement.",
     "steps": [
       {
-        "title": "Faire connaissance",
-        "text": "Un échange gratuit de 30 minutes, par téléphone, WhatsApp ou formulaire. D'abord ce qu'il faut, ensuite ce que je peux faire."
+        "title": "Prendre contact",
+        "text": "Appeler, écrire sur WhatsApp, envoyer un e-mail ou remplir le formulaire. Un échange gratuit de 30 minutes pour comprendre la situation et les besoins.",
+        "detail": "Aucune obligation et aucun discours commercial."
       },
       {
-        "title": "Fournir le matériel",
-        "text": "Logo, photos et informations pour les textes, comme les coordonnées et des détails personnels. J'écris les textes moi-même, ou les textes existants sont repris."
+        "title": "Fournir les bases",
+        "text": "Logo, photos et quelques informations, comme les coordonnées et des détails personnels. J'écris les textes moi-même, ou les textes existants sont repris.",
+        "detail": "S'il manque des photos, je travaille avec des photographes habituels."
       },
       {
-        "title": "Esquisse gratuite",
-        "text": "Après l'échange, une esquisse sans engagement de la page d'accueil. D'abord voir, ensuite choisir."
+        "title": "Je plonge dedans",
+        "text": "Tout est passé en revue. Si quelque chose n'est pas clair, une question suit. Souvent, une idée vient tout de suite.",
+        "detail": "Ainsi le design correspond à la marque, pas à un modèle standard."
       },
       {
-        "title": "Accord",
-        "text": "Si l'esquisse convient, une proposition suit avec un prix fixe ou une mensualité fixe. La construction ne commence qu'après accord."
+        "title": "Esquisse gratuite de la page d'accueil",
+        "text": "Une première ébauche sans engagement, pour voir où cela mène. D'abord voir, ensuite choisir.",
+        "detail": "Si cela ne convient pas, tout s'arrête ici, sans frais."
       },
       {
-        "title": "Construction",
-        "text": "Je construis par courtes étapes. On voit en cours de route ce qui est prêt. Deux séries de révisions sont incluses."
+        "title": "Accord et démarrage",
+        "text": "Si l'esquisse convient, une proposition suit avec un prix fixe ou une mensualité fixe. La construction commence après l'accord.",
+        "detail": "Avec un abonnement, la mise en route est unique (295 €, 495 € ou 795 €), puis vient la mensualité."
       },
       {
-        "title": "Relier le domaine",
-        "text": "Le domaine est enregistré ou transféré, puis relié. Il est toujours au nom du client."
+        "title": "Construire et ajuster",
+        "text": "La page d'accueil est terminée en premier, puis le reste. On peut suivre l'avancement. Deux séries de révisions sont incluses.",
+        "detail": "Contact direct : un message ou un e-mail entre-temps est toujours possible."
       },
       {
-        "title": "En ligne",
-        "text": "Le site est mis en ligne, avec connexion sécurisée et sauvegardes quotidiennes. Un court mode d'emploi et un document de passation suivent."
+        "title": "Domaine et mise en ligne",
+        "text": "Le domaine est enregistré ou transféré et relié, toujours au nom du client. Puis le site passe en ligne, avec connexion sécurisée et sauvegardes quotidiennes.",
+        "detail": "Un court mode d'emploi et un document de passation sont inclus."
       },
       {
-        "title": "Jamais tout à fait fini",
-        "text": "Les petites modifications sont incluses dans l'abonnement. Une extension est toujours possible, à prix fixe annoncé d'avance."
+        "title": "Maintenance : 24 mois incluse",
+        "text": "L'hébergement, les mises à jour de sécurité, les sauvegardes et les petites modifications sont inclus 24 mois dans la mensualité. Ensuite, le site appartient au client et l'abonnement est résiliable chaque mois.",
+        "detail": "Une extension est toujours possible, à prix fixe annoncé d'avance."
       }
     ]
   }

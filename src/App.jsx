@@ -219,7 +219,7 @@ function AppRoutes() {
                     }
                 />
                 <Route
-                    path="/hoe-werkt-het"
+                    path="/werkwijze"
                     element={
                         <Layout>
                             <Suspense fallback={<PageLoader />}>

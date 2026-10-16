@@ -32,7 +32,7 @@
     "cta": "Kostenloses Gespräch",
     "pricing": "Preise",
     "faq": "FAQ",
-    "how": "So funktioniert es"
+    "how": "Ablauf"
   },
   "share": {
     "label": "Teilen",
@@ -293,8 +293,8 @@
       "description": "Antworten zu Kosten, Laufzeit, Domain, Texten, Hosting, Auffindbarkeit und Mehrsprachigkeit bei ManonIT."
     },
     "how": {
-      "title": "So funktioniert es | Vom ersten Gespräch zur Website | ManonIT",
-      "description": "In 8 Schritten vom ersten Gespräch zur Website, die online ist. Mit kostenloser Skizze der Startseite und zwei Korrekturrunden."
+      "title": "Ablauf | 8 Schritte vom ersten Gespräch zur Website | ManonIT",
+      "description": "So funktioniert es: 8 Schritte vom ersten Gespräch zur Website, mit kostenloser Skizze, zwei Korrekturrunden und 24 Monaten Wartung."
     }
   },
   "journalSection": {
@@ -767,40 +767,59 @@
     "cta": "Preise ansehen"
   },
   "howPage": {
-    "title": "In 8 Schritten online",
-    "intro": "Vom ersten Gespräch bis zum Livegang. Jeder Schritt ist vorher klar, ohne Überraschungen.",
+    "eyebrow": "Ablauf",
+    "title": "Von der ersten Idee zur Website, in 8 Schritten",
+    "intro": "Ohne Aufwand und ohne Überraschungen. So läuft es vom ersten Gespräch bis zur fertigen Website.",
+    "who": {
+      "me": "Ich",
+      "together": "Gemeinsam",
+      "client": "Kunde"
+    },
+    "step": "Schritt",
+    "expand": "Alle öffnen",
+    "collapse": "Alle schließen",
+    "endTitle": "Bereit für den Start?",
+    "endText": "Schritt 1 kostet nichts: ein Gespräch von 30 Minuten, unverbindlich.",
     "steps": [
       {
-        "title": "Kennenlernen",
-        "text": "Ein kostenloses Gespräch von 30 Minuten, per Telefon, WhatsApp oder Formular. Erst, was gebraucht wird, dann, was ich tun kann."
+        "title": "Kontakt aufnehmen",
+        "text": "Anrufen, per WhatsApp oder Mail melden oder das Formular ausfüllen. Ein kostenloses Gespräch von 30 Minuten, um zu hören, was los ist und was gebraucht wird.",
+        "detail": "Keine Verpflichtung und kein Verkaufsgespräch."
       },
       {
-        "title": "Material liefern",
-        "text": "Logo, Fotos und Angaben für die Texte, etwa Kontaktdaten und persönliche Details. Die Texte schreibe ich selbst, vorhandene Texte werden übernommen."
+        "title": "Die Basis liefern",
+        "text": "Logo, Fotos und ein paar Angaben, etwa Kontaktdaten und persönliche Details. Die Texte schreibe ich selbst, vorhandene Texte werden übernommen.",
+        "detail": "Fehlen Fotos, arbeite ich mit festen Fotografen zusammen."
       },
       {
-        "title": "Kostenlose Skizze",
-        "text": "Nach dem Gespräch folgt eine unverbindliche Skizze der Startseite. Erst sehen, dann wählen."
+        "title": "Ich tauche ein",
+        "text": "Alles wird durchgesehen. Ist etwas unklar, folgt eine Frage. Oft kommt gleich eine Idee dazu.",
+        "detail": "So passt das Design zur Marke und nicht zu einer Standardvorlage."
       },
       {
-        "title": "Zusage",
-        "text": "Gefällt die Skizze, folgt ein Angebot mit Festpreis oder festem Monatsbetrag. Gebaut wird erst nach der Zusage."
+        "title": "Kostenlose Skizze der Startseite",
+        "text": "Ein unverbindlicher erster Entwurf, um zu sehen, wohin es geht. Erst sehen, dann wählen.",
+        "detail": "Passt es nicht, endet es hier, ohne Kosten."
       },
       {
-        "title": "Bauen",
-        "text": "Ich baue in kurzen Runden. Zwischendurch ist zu sehen, was schon steht. Zwei Korrekturrunden sind enthalten."
+        "title": "Zusage und Start",
+        "text": "Gefällt die Skizze, folgt ein Angebot mit Festpreis oder festem Monatsbetrag. Nach der Zusage beginnt der Bau.",
+        "detail": "Beim Abonnement fällt die Einrichtung einmalig an (295 €, 495 € oder 795 €), danach der Monatsbetrag."
       },
       {
-        "title": "Domain verbinden",
-        "text": "Die Domain wird registriert oder umgezogen und verbunden. Sie steht immer auf den Namen des Kunden."
+        "title": "Bauen und nachjustieren",
+        "text": "Die Startseite wird zuerst fertig, dann der Rest. Zwischendurch lässt sich mitschauen. Zwei Korrekturrunden sind enthalten.",
+        "detail": "Kurzer Draht: eine Nachricht oder Mail zwischendurch ist immer möglich."
       },
       {
-        "title": "Live",
-        "text": "Die Website geht online, mit sicherer Verbindung und täglichen Backups. Eine kurze Anleitung und eine Übergabedokumentation folgen."
+        "title": "Domain und Livegang",
+        "text": "Die Domain wird registriert oder umgezogen und verbunden, immer auf den Namen des Kunden. Dann geht die Website live, mit sicherer Verbindung und täglichen Backups.",
+        "detail": "Eine kurze Anleitung und eine Übergabedokumentation gehören dazu."
       },
       {
-        "title": "Nie ganz fertig",
-        "text": "Kleine Änderungen sind im Abonnement enthalten. Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
+        "title": "Wartung: 24 Monate inklusive",
+        "text": "Hosting, Sicherheitsupdates, Backups und kleine Änderungen sind 24 Monate im Monatsbetrag enthalten. Danach gehört die Website dem Kunden, und das Abonnement ist monatlich kündbar.",
+        "detail": "Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
       }
     ]
   }

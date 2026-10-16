@@ -5,6 +5,16 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[[redirects]]
+  from = "/hoe-werkt-het"
+  to = "/werkwijze"
+  status = 301
+
+[[redirects]]
+  from = "/en/hoe-werkt-het"
+  to = "/en/werkwijze"
+  status = 301
+
 # Privacy/Colofon zijn NL-only (geen EN-content) — /en/... was per ongeluk
 # bereikbaar en indexeerbaar, wat Google als duplicate content zag
 [[redirects]]
