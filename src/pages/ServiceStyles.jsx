@@ -241,7 +241,7 @@ export default function ServiceStyles() {
                 .cmp-tabs { display: inline-flex; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 999px; padding: 5px; gap: 4px; }
                 .cmp-tabs button { border: 0; background: none; font: inherit; font-weight: 700; font-size: .92rem; padding: 10px 20px; border-radius: 999px; cursor: pointer; color: var(--muted); transition: background .2s, color .2s; }
                 .cmp-tabs button.on { background: var(--accent-ink); color: #fff; }
-                .faq-head { margin-bottom: 64px; }
+                .page-head .section-head.faq-head { margin-bottom: 72px; }
                 @media (max-width: 760px) {
                     .cmp-grid { grid-template-columns: 1fr; }
                     .cmp-row { grid-template-columns: 1fr; gap: 2px; }
