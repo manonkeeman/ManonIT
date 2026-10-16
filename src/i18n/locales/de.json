@@ -690,6 +690,23 @@
             "a": "Mehrsprachigkeit ist Teil des Pakets Marke. Bei Start und Wachstum ist sie nicht enthalten."
           }
         ]
+      },
+      {
+        "title": "Sicherheit und Datenschutz",
+        "items": [
+          {
+            "q": "Ist die Website sicher?",
+            "a": "Ja. Jede Website läuft über eine gesicherte Verbindung (SSL), Sicherheitsupdates sind im Abo enthalten und täglich werden Backups erstellt."
+          },
+          {
+            "q": "Was passiert bei einer Störung oder einem Angriff?",
+            "a": "Dank der täglichen Backups kann die Website wiederhergestellt werden. Mit einem Wartungsabo wird die Website zusätzlich überwacht, sodass eine Störung sofort auffällt."
+          },
+          {
+            "q": "Wie sieht es mit Datenschutz und DSGVO aus?",
+            "a": "Zu jeder Website gehören eine Cookie- und Datenschutzerklärung nach DSGVO. Die Domain läuft auf den Namen des Kunden."
+          }
+        ]
       }
     ]
   },

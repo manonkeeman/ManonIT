@@ -690,6 +690,23 @@
             "a": "El multilingüismo forma parte del plan Marca. No está incluido en Inicio ni en Crecimiento."
           }
         ]
+      },
+      {
+        "title": "Seguridad y privacidad",
+        "items": [
+          {
+            "q": "¿Es segura la web?",
+            "a": "Sí. Cada web funciona con una conexión segura (SSL), las actualizaciones de seguridad están incluidas en la suscripción y se hacen copias de seguridad a diario."
+          },
+          {
+            "q": "¿Qué pasa en caso de fallo o ataque?",
+            "a": "Gracias a las copias de seguridad diarias, la web puede restaurarse. Con un plan de mantenimiento, además, la web se monitoriza para que un fallo se detecte de inmediato."
+          },
+          {
+            "q": "¿Qué hay de la privacidad y el RGPD?",
+            "a": "Cada web incluye una declaración de cookies y privacidad conforme al RGPD. El dominio está a nombre del cliente."
+          }
+        ]
       }
     ]
   },

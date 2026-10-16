@@ -690,6 +690,23 @@
             "a": "Il multilinguismo fa parte del piano Marchio. Non è incluso in Avvio e Crescita."
           }
         ]
+      },
+      {
+        "title": "Sicurezza e privacy",
+        "items": [
+          {
+            "q": "Il sito è sicuro?",
+            "a": "Sì. Ogni sito funziona tramite una connessione sicura (SSL), gli aggiornamenti di sicurezza sono inclusi nell'abbonamento e vengono eseguiti backup ogni giorno."
+          },
+          {
+            "q": "Cosa succede in caso di guasto o attacco?",
+            "a": "Grazie ai backup giornalieri il sito può essere ripristinato. Con un abbonamento di manutenzione il sito viene inoltre monitorato, così un guasto si nota subito."
+          },
+          {
+            "q": "Come funziona la privacy e il GDPR?",
+            "a": "Ogni sito include un'informativa su cookie e privacy conforme al GDPR. Il dominio è intestato al cliente."
+          }
+        ]
       }
     ]
   },

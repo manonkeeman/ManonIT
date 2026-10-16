@@ -690,6 +690,23 @@
             "a": "Le multilinguisme fait partie de la formule Marque. Il n'est pas inclus dans Départ et Croissance."
           }
         ]
+      },
+      {
+        "title": "Sécurité et confidentialité",
+        "items": [
+          {
+            "q": "Le site est-il sécurisé ?",
+            "a": "Oui. Chaque site fonctionne via une connexion sécurisée (SSL), les mises à jour de sécurité sont comprises dans l'abonnement et des sauvegardes sont réalisées chaque jour."
+          },
+          {
+            "q": "Que se passe-t-il en cas de panne ou d'attaque ?",
+            "a": "Grâce aux sauvegardes quotidiennes, le site peut être restauré. Avec un abonnement de maintenance, le site est en plus surveillé, afin qu'une panne soit repérée immédiatement."
+          },
+          {
+            "q": "Qu'en est-il de la confidentialité et du RGPD ?",
+            "a": "Chaque site est livré avec une déclaration de cookies et de confidentialité conforme au RGPD. Le domaine est au nom du client."
+          }
+        ]
       }
     ]
   },

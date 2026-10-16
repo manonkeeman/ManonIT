@@ -690,6 +690,23 @@
             "a": "Multilingual is part of the Brand plan. It is not included in Start and Growth."
           }
         ]
+      },
+      {
+        "title": "Security and privacy",
+        "items": [
+          {
+            "q": "Is the website secure?",
+            "a": "Yes. Every site runs over a secure connection (SSL), security updates are part of the subscription and back-ups are made daily."
+          },
+          {
+            "q": "What happens in case of an outage or attack?",
+            "a": "Thanks to the daily back-ups the site can be restored. With a maintenance plan the site is also monitored, so an outage is noticed immediately."
+          },
+          {
+            "q": "What about privacy and GDPR?",
+            "a": "Every site comes with a cookie and privacy statement in line with the GDPR. The domain is registered in the client's name."
+          }
+        ]
       }
     ]
   },

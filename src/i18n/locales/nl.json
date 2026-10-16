@@ -690,6 +690,23 @@
             "a": "Meertaligheid is onderdeel van het pakket Merk. Bij Start en Groei is dit niet inbegrepen."
           }
         ]
+      },
+      {
+        "title": "Beveiliging en privacy",
+        "items": [
+          {
+            "q": "Is de website veilig?",
+            "a": "Ja. Elke site draait via een beveiligde verbinding (SSL), beveiligingsupdates zitten in het abonnement en er worden dagelijks back-ups gemaakt."
+          },
+          {
+            "q": "Wat gebeurt er bij een storing of aanval?",
+            "a": "Dankzij de dagelijkse back-ups kan de site worden hersteld. Bij een onderhoudsabonnement wordt de site daarnaast gemonitord, zodat een storing direct opvalt."
+          },
+          {
+            "q": "Hoe zit het met privacy en de AVG?",
+            "a": "Bij elke site hoort een cookie- en privacyverklaring volgens de AVG. Het domein staat op naam van de klant."
+          }
+        ]
       }
     ]
   },
