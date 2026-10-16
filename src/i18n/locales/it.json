@@ -768,8 +768,8 @@
   },
   "howPage": {
     "eyebrow": "Metodo",
-    "title": "Dalla prima idea al sito online, in 8 passi",
-    "intro": "Senza complicazioni e senza sorprese. Ecco il percorso, dal primo colloquio a un sito che funziona.",
+    "title": "Dalla prima idea a un sito che funziona",
+    "intro": "Mi occupo di design, testi e tecnica. Servono solo un'idea e un colloquio.",
     "who": {
       "me": "Io",
       "together": "Insieme",
@@ -782,44 +782,62 @@
     "endText": "Il passo 1 non costa nulla: un colloquio di 30 minuti, senza impegno.",
     "steps": [
       {
-        "title": "Mettersi in contatto",
-        "text": "Telefonare, scrivere su WhatsApp, mandare un'e-mail o compilare il modulo. Un colloquio gratuito di 30 minuti per capire la situazione e le esigenze.",
-        "detail": "Nessun obbligo e nessun discorso di vendita."
+        "title": "Conoscersi",
+        "text": "Un colloquio gratuito di 30 minuti. Prima ascolto, poi ragiono insieme.",
+        "detail": "Telefono, WhatsApp o e-mail: come preferite."
       },
       {
         "title": "Fornire le basi",
-        "text": "Logo, foto e qualche dato, come recapiti e dettagli personali. I testi li scrivo io, oppure vengono usati quelli esistenti.",
-        "detail": "Se mancano foto, collaboro con fotografi di fiducia."
+        "text": "Logo, foto e qualche dato. I testi li scrivo io.",
+        "detail": "Mancano foto? Collaboro con fotografi di fiducia."
       },
       {
         "title": "Mi immergo",
-        "text": "Si esamina tutto. Se qualcosa non è chiaro, arriva una domanda. Spesso nasce subito un'idea.",
-        "detail": "Così il design si adatta al marchio e non a un modello standard."
+        "text": "Mi immergo nella storia del luogo, del marchio o dell'idea.",
+        "detail": "Così il design si adatta a chi c'è dietro, non a un modello."
       },
       {
-        "title": "Bozza gratuita della homepage",
-        "text": "Una prima bozza senza impegno, per vedere dove si va. Prima vedere, poi scegliere.",
+        "title": "Bozza gratuita",
+        "text": "Una prima bozza della homepage, senza impegno. Prima vedere, poi scegliere.",
         "detail": "Se non convince, finisce qui, senza costi."
       },
       {
-        "title": "Accordo e avvio",
-        "text": "Se la bozza piace, segue una proposta con prezzo fisso o canone mensile fisso. Dopo l'accordo inizia la costruzione.",
-        "detail": "Con l'abbonamento l'avvio è una tantum (295 €, 495 € o 795 €), poi arriva il canone mensile."
+        "title": "Accordo",
+        "text": "Se la bozza piace, segue una proposta con prezzo fisso o canone mensile fisso.",
+        "detail": "Con abbonamento: avvio una tantum (295 €, 495 € o 795 €), poi il canone mensile."
       },
       {
-        "title": "Costruire e rifinire",
-        "text": "Prima si completa la homepage, poi il resto. Lungo il percorso si può seguire l'avanzamento. Due giri di revisioni sono inclusi.",
-        "detail": "Contatto diretto: un messaggio o un'e-mail nel frattempo è sempre possibile."
+        "title": "Costruzione",
+        "text": "Prima la homepage, poi il resto. Si può seguire l'avanzamento e due giri di revisione sono inclusi.",
+        "detail": "Sempre un solo referente: io, direttamente."
       },
       {
-        "title": "Dominio e messa online",
-        "text": "Il dominio viene registrato o trasferito e collegato, sempre intestato al cliente. Poi il sito va online, con connessione sicura e backup giornalieri.",
-        "detail": "Sono inclusi un breve manuale e un documento di passaggio."
+        "title": "Online",
+        "text": "Dominio collegato e sito online, protetto e con backup giornalieri. Il dominio è intestato al cliente.",
+        "detail": "Con un breve manuale e un documento di passaggio."
       },
       {
-        "title": "Manutenzione: 24 mesi inclusi",
-        "text": "Hosting, aggiornamenti di sicurezza, backup e piccole modifiche sono inclusi per 24 mesi nel canone mensile. Poi il sito è del cliente e l'abbonamento si può disdire ogni mese.",
-        "detail": "Ampliare è sempre possibile, con prezzo fisso in anticipo."
+        "title": "Manutenzione",
+        "text": "Hosting, aggiornamenti, backup e piccole modifiche sono inclusi per 24 mesi nel canone mensile. Poi il sito è del cliente.",
+        "detail": "Poi disdicibile ogni mese. Ampliare è sempre possibile, con prezzo fisso in anticipo."
+      }
+    ],
+    "facts": [
+      {
+        "v": "30'",
+        "l": "incontro conoscitivo gratuito"
+      },
+      {
+        "v": "0 €",
+        "l": "bozza della homepage"
+      },
+      {
+        "v": "2×",
+        "l": "giri di revisione inclusi"
+      },
+      {
+        "v": "24",
+        "l": "mesi di manutenzione inclusi"
       }
     ]
   }

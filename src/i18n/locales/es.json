@@ -768,8 +768,8 @@
   },
   "howPage": {
     "eyebrow": "Proceso",
-    "title": "De la primera idea a la web en línea, en 8 pasos",
-    "intro": "Sin complicaciones y sin sorpresas. Así es el camino, de la primera conversación a un sitio funcionando.",
+    "title": "De la primera idea a una web que funciona",
+    "intro": "Me ocupo del diseño, los textos y la técnica. Solo hace falta una idea y una conversación.",
     "who": {
       "me": "Yo",
       "together": "Juntos",
@@ -782,44 +782,62 @@
     "endText": "El paso 1 no cuesta nada: una conversación de 30 minutos, sin compromiso.",
     "steps": [
       {
-        "title": "Ponerse en contacto",
-        "text": "Llamar, escribir por WhatsApp, enviar un correo o rellenar el formulario. Una conversación gratuita de 30 minutos para saber qué pasa y qué hace falta.",
-        "detail": "Sin obligaciones y sin discurso de ventas."
+        "title": "Conocernos",
+        "text": "Una conversación gratuita de 30 minutos. Primero escucho, luego pienso con vosotros.",
+        "detail": "Teléfono, WhatsApp o correo: lo que más convenga."
       },
       {
         "title": "Aportar lo básico",
-        "text": "Logo, fotos y algunos datos, como contacto y detalles personales. Los textos los escribo yo, o se aprovechan los existentes.",
-        "detail": "Si faltan fotos, trabajo con fotógrafos de confianza."
+        "text": "Logo, fotos y algunos datos. Los textos los escribo yo.",
+        "detail": "¿Faltan fotos? Trabajo con fotógrafos de confianza."
       },
       {
         "title": "Me sumerjo",
-        "text": "Se revisa todo. Si algo no está claro, llega una pregunta. A menudo surge enseguida una idea.",
-        "detail": "Así el diseño encaja con la marca y no con una plantilla estándar."
+        "text": "Me sumerjo en la historia del lugar, la marca o la idea.",
+        "detail": "Así el diseño encaja con quien lo creó, no con una plantilla."
       },
       {
-        "title": "Boceto gratuito de la página de inicio",
-        "text": "Un primer borrador sin compromiso, para ver hacia dónde va. Primero ver, luego elegir.",
+        "title": "Boceto gratuito",
+        "text": "Un primer borrador de la página de inicio, sin compromiso. Primero ver, luego elegir.",
         "detail": "Si no encaja, termina aquí, sin coste."
       },
       {
-        "title": "Acuerdo e inicio",
-        "text": "Si el boceto gusta, sigue una propuesta con precio fijo o cuota mensual fija. Tras el acuerdo empieza la construcción.",
-        "detail": "Con suscripción, la puesta en marcha es única (295 €, 495 € u 795 €) y después viene la cuota mensual."
+        "title": "Acuerdo",
+        "text": "Si el boceto gusta, sigue una propuesta con precio fijo o cuota mensual fija.",
+        "detail": "Con suscripción: puesta en marcha única (295 €, 495 € u 795 €) y después la cuota mensual."
       },
       {
-        "title": "Construir y ajustar",
-        "text": "Primero se termina la página de inicio y luego el resto. Por el camino se puede seguir el avance. Dos rondas de revisiones están incluidas.",
-        "detail": "Trato directo: un mensaje o correo entre medias siempre es posible."
+        "title": "Construcción",
+        "text": "Primero la página de inicio, luego el resto. Se puede seguir el avance y hay dos rondas de revisión.",
+        "detail": "Siempre un solo interlocutor: yo, directamente."
       },
       {
-        "title": "Dominio y puesta en línea",
-        "text": "El dominio se registra o se traslada y se conecta, siempre a nombre del cliente. Luego el sitio sale en línea, con conexión segura y copias de seguridad diarias.",
-        "detail": "Se incluyen un breve manual y un documento de traspaso."
+        "title": "En línea",
+        "text": "Dominio conectado y sitio en línea, protegido y con copias de seguridad diarias. El dominio está a nombre del cliente.",
+        "detail": "Con un breve manual y un documento de traspaso."
       },
       {
-        "title": "Mantenimiento: 24 meses incluidos",
-        "text": "El alojamiento, las actualizaciones de seguridad, las copias y los cambios pequeños van incluidos 24 meses en la cuota mensual. Después el sitio es del cliente y la suscripción se puede cancelar cada mes.",
-        "detail": "Ampliar siempre es posible, con precio fijo de antemano."
+        "title": "Mantenimiento",
+        "text": "Alojamiento, actualizaciones, copias y cambios pequeños van incluidos 24 meses en la cuota mensual. Después el sitio es del cliente.",
+        "detail": "Después, cancelable cada mes. Ampliar siempre es posible, con precio fijo de antemano."
+      }
+    ],
+    "facts": [
+      {
+        "v": "30'",
+        "l": "charla inicial gratuita"
+      },
+      {
+        "v": "0 €",
+        "l": "boceto de la página de inicio"
+      },
+      {
+        "v": "2×",
+        "l": "rondas de revisión incluidas"
+      },
+      {
+        "v": "24",
+        "l": "meses de mantenimiento incluidos"
       }
     ]
   }

@@ -768,8 +768,8 @@
   },
   "howPage": {
     "eyebrow": "Ablauf",
-    "title": "Von der ersten Idee zur Website, in 8 Schritten",
-    "intro": "Ohne Aufwand und ohne Überraschungen. So läuft es vom ersten Gespräch bis zur fertigen Website.",
+    "title": "Von der ersten Idee zur Website, die funktioniert",
+    "intro": "Ich kümmere mich um Design, Texte und Technik. Nötig sind nur eine Idee und ein Gespräch.",
     "who": {
       "me": "Ich",
       "together": "Gemeinsam",
@@ -782,44 +782,62 @@
     "endText": "Schritt 1 kostet nichts: ein Gespräch von 30 Minuten, unverbindlich.",
     "steps": [
       {
-        "title": "Kontakt aufnehmen",
-        "text": "Anrufen, per WhatsApp oder Mail melden oder das Formular ausfüllen. Ein kostenloses Gespräch von 30 Minuten, um zu hören, was los ist und was gebraucht wird.",
-        "detail": "Keine Verpflichtung und kein Verkaufsgespräch."
+        "title": "Kennenlernen",
+        "text": "Ein kostenloses Gespräch von 30 Minuten. Ich höre zuerst zu, dann denke ich mit.",
+        "detail": "Telefon, WhatsApp oder Mail: was besser passt."
       },
       {
-        "title": "Die Basis liefern",
-        "text": "Logo, Fotos und ein paar Angaben, etwa Kontaktdaten und persönliche Details. Die Texte schreibe ich selbst, vorhandene Texte werden übernommen.",
-        "detail": "Fehlen Fotos, arbeite ich mit festen Fotografen zusammen."
+        "title": "Basis liefern",
+        "text": "Logo, Fotos und ein paar Angaben. Die Texte schreibe ich selbst.",
+        "detail": "Fehlen Fotos? Dann arbeite ich mit festen Fotografen."
       },
       {
         "title": "Ich tauche ein",
-        "text": "Alles wird durchgesehen. Ist etwas unklar, folgt eine Frage. Oft kommt gleich eine Idee dazu.",
-        "detail": "So passt das Design zur Marke und nicht zu einer Standardvorlage."
+        "text": "Ich vertiefe mich in die Geschichte hinter dem Ort, der Marke oder der Idee.",
+        "detail": "So passt das Design zum Menschen dahinter, nicht zu einer Vorlage."
       },
       {
-        "title": "Kostenlose Skizze der Startseite",
-        "text": "Ein unverbindlicher erster Entwurf, um zu sehen, wohin es geht. Erst sehen, dann wählen.",
-        "detail": "Passt es nicht, endet es hier, ohne Kosten."
+        "title": "Kostenlose Skizze",
+        "text": "Ein erster Entwurf der Startseite, unverbindlich. Erst sehen, dann wählen.",
+        "detail": "Passt er nicht, endet es hier, ohne Kosten."
       },
       {
-        "title": "Zusage und Start",
-        "text": "Gefällt die Skizze, folgt ein Angebot mit Festpreis oder festem Monatsbetrag. Nach der Zusage beginnt der Bau.",
-        "detail": "Beim Abonnement fällt die Einrichtung einmalig an (295 €, 495 € oder 795 €), danach der Monatsbetrag."
+        "title": "Zusage",
+        "text": "Gefällt die Skizze, folgt ein Angebot mit Festpreis oder festem Monatsbetrag.",
+        "detail": "Beim Abonnement: einmalige Einrichtung (295 €, 495 € oder 795 €), danach der Monatsbetrag."
       },
       {
-        "title": "Bauen und nachjustieren",
-        "text": "Die Startseite wird zuerst fertig, dann der Rest. Zwischendurch lässt sich mitschauen. Zwei Korrekturrunden sind enthalten.",
-        "detail": "Kurzer Draht: eine Nachricht oder Mail zwischendurch ist immer möglich."
+        "title": "Bauen",
+        "text": "Erst die Startseite, dann der Rest. Mitschauen ist möglich, zwei Korrekturrunden sind enthalten.",
+        "detail": "Immer ein Ansprechpartner: ich, direkt."
       },
       {
-        "title": "Domain und Livegang",
-        "text": "Die Domain wird registriert oder umgezogen und verbunden, immer auf den Namen des Kunden. Dann geht die Website live, mit sicherer Verbindung und täglichen Backups.",
-        "detail": "Eine kurze Anleitung und eine Übergabedokumentation gehören dazu."
+        "title": "Live",
+        "text": "Domain verbunden und online, gesichert und mit täglichen Backups. Die Domain steht auf den Namen des Kunden.",
+        "detail": "Mit kurzer Anleitung und Übergabedokumentation."
       },
       {
-        "title": "Wartung: 24 Monate inklusive",
-        "text": "Hosting, Sicherheitsupdates, Backups und kleine Änderungen sind 24 Monate im Monatsbetrag enthalten. Danach gehört die Website dem Kunden, und das Abonnement ist monatlich kündbar.",
-        "detail": "Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
+        "title": "Wartung",
+        "text": "Hosting, Updates, Backups und kleine Änderungen sind 24 Monate im Monatsbetrag enthalten. Danach gehört die Website dem Kunden.",
+        "detail": "Danach monatlich kündbar. Erweitern ist jederzeit möglich, mit Festpreis im Voraus."
+      }
+    ],
+    "facts": [
+      {
+        "v": "30'",
+        "l": "kostenloses Kennenlernen"
+      },
+      {
+        "v": "0 €",
+        "l": "Skizze der Startseite"
+      },
+      {
+        "v": "2×",
+        "l": "Korrekturrunden inklusive"
+      },
+      {
+        "v": "24",
+        "l": "Monate Wartung inklusive"
       }
     ]
   }

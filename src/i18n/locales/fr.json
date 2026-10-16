@@ -768,8 +768,8 @@
   },
   "howPage": {
     "eyebrow": "Méthode",
-    "title": "De la première idée au site en ligne, en 8 étapes",
-    "intro": "Sans tracas et sans surprise. Voici le parcours, du premier échange à un site qui tourne.",
+    "title": "De la première idée à un site qui fonctionne",
+    "intro": "Je m'occupe du design, des textes et de la technique. Il suffit d'une idée et d'une conversation.",
     "who": {
       "me": "Moi",
       "together": "Ensemble",
@@ -782,44 +782,62 @@
     "endText": "L'étape 1 ne coûte rien : un échange de 30 minutes, sans engagement.",
     "steps": [
       {
-        "title": "Prendre contact",
-        "text": "Appeler, écrire sur WhatsApp, envoyer un e-mail ou remplir le formulaire. Un échange gratuit de 30 minutes pour comprendre la situation et les besoins.",
-        "detail": "Aucune obligation et aucun discours commercial."
+        "title": "Faire connaissance",
+        "text": "Un échange gratuit de 30 minutes. J'écoute d'abord, puis je réfléchis avec vous.",
+        "detail": "Téléphone, WhatsApp ou e-mail : au choix."
       },
       {
         "title": "Fournir les bases",
-        "text": "Logo, photos et quelques informations, comme les coordonnées et des détails personnels. J'écris les textes moi-même, ou les textes existants sont repris.",
-        "detail": "S'il manque des photos, je travaille avec des photographes habituels."
+        "text": "Logo, photos et quelques informations. J'écris les textes moi-même.",
+        "detail": "Il manque des photos ? Je travaille avec des photographes habituels."
       },
       {
         "title": "Je plonge dedans",
-        "text": "Tout est passé en revue. Si quelque chose n'est pas clair, une question suit. Souvent, une idée vient tout de suite.",
-        "detail": "Ainsi le design correspond à la marque, pas à un modèle standard."
+        "text": "Je m'immerge dans l'histoire du lieu, de la marque ou de l'idée.",
+        "detail": "Ainsi le design correspond au créateur, pas à un modèle."
       },
       {
-        "title": "Esquisse gratuite de la page d'accueil",
-        "text": "Une première ébauche sans engagement, pour voir où cela mène. D'abord voir, ensuite choisir.",
+        "title": "Esquisse gratuite",
+        "text": "Une première ébauche de la page d'accueil, sans engagement. D'abord voir, ensuite choisir.",
         "detail": "Si cela ne convient pas, tout s'arrête ici, sans frais."
       },
       {
-        "title": "Accord et démarrage",
-        "text": "Si l'esquisse convient, une proposition suit avec un prix fixe ou une mensualité fixe. La construction commence après l'accord.",
-        "detail": "Avec un abonnement, la mise en route est unique (295 €, 495 € ou 795 €), puis vient la mensualité."
+        "title": "Accord",
+        "text": "Si l'esquisse convient, une proposition suit, à prix fixe ou à mensualité fixe.",
+        "detail": "Avec un abonnement : mise en route unique (295 €, 495 € ou 795 €), puis la mensualité."
       },
       {
-        "title": "Construire et ajuster",
-        "text": "La page d'accueil est terminée en premier, puis le reste. On peut suivre l'avancement. Deux séries de révisions sont incluses.",
-        "detail": "Contact direct : un message ou un e-mail entre-temps est toujours possible."
+        "title": "Construction",
+        "text": "La page d'accueil d'abord, puis le reste. On peut suivre l'avancement, deux séries de révisions sont incluses.",
+        "detail": "Un seul interlocuteur : moi, directement."
       },
       {
-        "title": "Domaine et mise en ligne",
-        "text": "Le domaine est enregistré ou transféré et relié, toujours au nom du client. Puis le site passe en ligne, avec connexion sécurisée et sauvegardes quotidiennes.",
-        "detail": "Un court mode d'emploi et un document de passation sont inclus."
+        "title": "En ligne",
+        "text": "Domaine relié et site en ligne, sécurisé et avec sauvegardes quotidiennes. Le domaine est au nom du client.",
+        "detail": "Avec un court mode d'emploi et un document de passation."
       },
       {
-        "title": "Maintenance : 24 mois incluse",
-        "text": "L'hébergement, les mises à jour de sécurité, les sauvegardes et les petites modifications sont inclus 24 mois dans la mensualité. Ensuite, le site appartient au client et l'abonnement est résiliable chaque mois.",
-        "detail": "Une extension est toujours possible, à prix fixe annoncé d'avance."
+        "title": "Maintenance",
+        "text": "L'hébergement, les mises à jour, les sauvegardes et les petites modifications sont inclus 24 mois dans la mensualité. Ensuite, le site appartient au client.",
+        "detail": "Ensuite, résiliable chaque mois. Une extension est toujours possible, à prix fixe annoncé d'avance."
+      }
+    ],
+    "facts": [
+      {
+        "v": "30'",
+        "l": "échange de découverte gratuit"
+      },
+      {
+        "v": "0 €",
+        "l": "esquisse de la page d'accueil"
+      },
+      {
+        "v": "2×",
+        "l": "séries de révisions incluses"
+      },
+      {
+        "v": "24",
+        "l": "mois de maintenance inclus"
       }
     ]
   }
