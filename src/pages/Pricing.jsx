@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FiCheck, FiShield, FiCalendar, FiArrowRight, FiFileText } from "react-icons/fi";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import Seo from "../assets/Components/Seo.jsx";
+import JsonLd from "../assets/Components/JsonLd.jsx";
 import ServiceStyles from "./ServiceStyles.jsx";
 
 // Abonnement: bedragen zijn cijfers, de teksten komen uit de vertaalbestanden.
@@ -45,8 +46,44 @@ export default function Pricing() {
         values: t(`pricingCompare.${k}.values`, { returnObjects: true }),
     }));
 
+    const offerSchema = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": t("pricingPage.title"),
+        "itemListElement": [
+            ...SUB_PLANS.map((p, i) => ({
+                "@type": "ListItem",
+                "position": i + 1,
+                "item": {
+                    "@type": "Offer",
+                    "name": t(`subscription.plans.${p.key}.name`),
+                    "description": t(`subscription.plans.${p.key}.tagline`),
+                    "priceCurrency": "EUR",
+                    "priceSpecification": [
+                        { "@type": "UnitPriceSpecification", "price": String(p.monthly), "priceCurrency": "EUR", "valueAddedTaxIncluded": false, "unitText": "MON", "billingDuration": "P24M" },
+                        { "@type": "UnitPriceSpecification", "price": String(p.setup), "priceCurrency": "EUR", "valueAddedTaxIncluded": false },
+                    ],
+                    "seller": { "@id": "https://manonit.com/#manon" },
+                },
+            })),
+            ...packages.map((p, i) => ({
+                "@type": "ListItem",
+                "position": SUB_PLANS.length + i + 1,
+                "item": {
+                    "@type": "Offer",
+                    "name": t(`pricing.packages.${p.key}.name`),
+                    "description": t(`pricing.packages.${p.key}.tagline`),
+                    "priceCurrency": "EUR",
+                    "priceSpecification": { "@type": "UnitPriceSpecification", "price": p.price.replace(/\D/g, ""), "priceCurrency": "EUR", "valueAddedTaxIncluded": false, "minPrice": p.price.replace(/\D/g, "") },
+                    "seller": { "@id": "https://manonit.com/#manon" },
+                },
+            })),
+        ],
+    };
+
     return (
         <>
+            <JsonLd data={offerSchema} />
             <Seo
                 title={t("seo.pricing.title")}
                 description={t("seo.pricing.description")}
