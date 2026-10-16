@@ -74,7 +74,7 @@
     "quote": "Je construis ce que je devais autrefois expliquer.\nDe l'idée au design jusqu'au code fonctionnel.",
     "bio1": "J'adore quand quelque chose fonctionne vraiment. Quand une idée, un design et l'exécution s'emboîtent parfaitement.",
     "bio2": "Mon parcours était tout sauf linéaire. De la Gerrit Rietveld Academie au SAE Institute et à la Schrijversacademie, toujours à la recherche de comment rendre quelque chose non seulement beau, mais aussi compréhensible.",
-    "bio3": "Après des années à travailler dans le secteur automobile (Renault, Pieter Smit) et pour des clients comme la Commune d'Amsterdam et KLM, j'ai remarqué quelque chose de frustrant : je voyais exactement ce qui pouvait être amélioré… mais je ne pouvais pas toujours le construire moi-même.",
+    "bio3": "Après des années à travailler dans le secteur automobile (Renault, Pieter Smit) et pour des clients comme la Commune d'Amsterdam (design) et KLM (newsletters et blogs), j'ai remarqué quelque chose de frustrant : je voyais exactement ce qui pouvait être amélioré… mais je ne pouvais pas toujours le construire moi-même.",
     "bio4": "Alors j'ai décidé de changer ça. Je me suis reconvertie en développeuse Full Stack au NOVI College. Parce que je ne voulais plus de dépendance entre l'idée et l'exécution.",
     "bio5": "Maintenant je conçois, j'écris et je construis moi-même. Et je veille à ce que ce que vous créez non seulement tienne la route, mais touche vraiment les personnes à qui c'est destiné.",
     "journalCta": "Curieux de savoir comment je pense et travaille ? Dans mon journal, j'écris sur le code, le design et mon parcours vers le développement.",
@@ -571,9 +571,9 @@
       "Votre domaine est toujours à votre nom."
     ],
     "sketchTitle": "Voir d'abord, choisir ensuite",
-    "sketch": "Après l'échange de présentation, je réalise gratuitement une esquisse de votre page d'accueil, pour que vous voyiez ce que vous obtenez avant de décider.",
-    "byline": "Conçu par une graphiste avec 20 ans d'expérience (KLM, Ville d'Amsterdam). Réalisé par une développeuse. Une seule personne, aucun transfert.",
-    "more": "Besoin de plus, comme une application web, une boutique ou du sur mesure complet ? Voyez les prix par projet ci-dessous."
+    "sketch": "Après l'échange de présentation, je réalise gratuitement une esquisse de votre page d'accueil : à quoi pourrait ressembler votre site. Vous voyez ce que vous obtenez avant de décider, sans aucun engagement.",
+    "byline": "Design, textes et construction par une seule personne, sans transfert. Formée à la Gerrit Rietveld Academie, au SAE Institute et à la Schrijversvakschool Amsterdam (école d'écriture), puis reconvertie en développeuse Full Stack.",
+    "more": "Besoin de plus, comme une application web avec connexion et base de données (comme CasaCrew), une boutique en ligne ou du sur-mesure ? Consultez les prix par projet ci-dessous."
   },
   "faq": {
     "label": "Questions fréquentes",

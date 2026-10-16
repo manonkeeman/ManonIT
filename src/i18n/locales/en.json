@@ -74,7 +74,7 @@
     "quote": "I build what I used to have to explain.\nFrom idea to design to working code.",
     "bio1": "I love it when something just works. When an idea, a design and the execution fit together seamlessly.",
     "bio2": "My path was anything but straight. From the Gerrit Rietveld Academie to SAE Institute and the Schrijversacademie, always searching for how to make something not just beautiful, but also understandable.",
-    "bio3": "After years working in the automotive industry (Renault, Pieter Smit) and for clients like the Municipality of Amsterdam and KLM, I noticed something frustrating: I could see exactly what could be better… but I couldn't always build it myself.",
+    "bio3": "After years working in the automotive industry (Renault, Pieter Smit) and for clients like the Municipality of Amsterdam (design) and KLM (newsletters and blogs), I noticed something frustrating: I could see exactly what could be better… but I couldn't always build it myself.",
     "bio4": "So I decided to change that. I retrained as a Full Stack Developer at NOVI College. Because I no longer wanted a gap between idea and execution.",
     "bio5": "In plain terms: I solve technical problems and build the website that goes with the solution. No detours, no separate specialists working past each other. One person who takes it from idea to launch.",
     "journalCta": "Curious how I think and work? In my journal I write about code, design and my path into development.",
@@ -571,9 +571,9 @@
       "Your domain is always in your name."
     ],
     "sketchTitle": "See first, then choose",
-    "sketch": "After the intro call I make a free sketch of your homepage, so you see what you get before you decide anything.",
-    "byline": "Designed by a designer with 20 years of experience (KLM, City of Amsterdam). Built by a developer. One person, no handover.",
-    "more": "Need more, like a web app, shop or fully custom work? See the project prices below."
+    "sketch": "After the intro call I make a free sketch of your homepage: how your site could look. You see what you get before you decide anything, and you're not committed to anything.",
+    "byline": "Design, copy and build by one person, no handover. Trained at the Gerrit Rietveld Academie, SAE Institute and the Schrijversvakschool Amsterdam (writing school), and retrained as a Full Stack Developer.",
+    "more": "Need more, such as a web app with login and database (like CasaCrew), a web shop or fully custom work? See the project prices below."
   },
   "faq": {
     "label": "Frequently asked questions",

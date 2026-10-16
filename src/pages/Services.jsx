@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield } from "react-icons/fi";
+import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield, FiCalendar, FiArrowRight } from "react-icons/fi";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import JsonLd from "../assets/Components/JsonLd.jsx";
 
@@ -116,8 +116,10 @@ export default function Services() {
                                     <p className="price-time">
                                         {t("subscription.total", { total: euro(p.setup + p.monthly * SUB_MONTHS) })}
                                     </p>
-                                    <a href={`${prefix}/#contact`} className={`btn ${p.featured ? "btn-primary" : "btn-ghost"} price-btn`}>
-                                        {t("subscription.cta")}
+                                    <a href={`${prefix}/#contact`} className="btn sub-btn">
+                                        <FiCalendar aria-hidden="true"/>
+                                        <span>{t("subscription.cta")}</span>
+                                        <FiArrowRight className="sub-btn-arrow" aria-hidden="true"/>
                                     </a>
                                 </article>
                             );
@@ -276,6 +278,21 @@ export default function Services() {
             </section>
 
             <style>{`
+                .sub-btn{
+                    width:100%; margin-top:auto; padding:14px 20px;
+                    background:linear-gradient(135deg, var(--accent-ink), #D9480F);
+                    color:#fff; border-color:transparent; text-align:left;
+                    box-shadow:0 10px 22px -10px rgba(185,58,9,.65);
+                    transition:transform .15s ease, box-shadow .2s ease, filter .2s ease;
+                }
+                .sub-btn span{ flex:1; line-height:1.25 }
+                .sub-btn svg{ flex-shrink:0; width:18px; height:18px }
+                .sub-btn-arrow{ transition:transform .2s ease }
+                .sub-btn:hover, .sub-btn:focus-visible{
+                    color:#fff; filter:brightness(1.08); transform:translateY(-2px);
+                    box-shadow:0 16px 28px -12px rgba(185,58,9,.75);
+                }
+                .sub-btn:hover .sub-btn-arrow{ transform:translateX(4px) }
                 .svc-section {
                     padding: clamp(56px, 8vw, 96px) 20px;
                 }

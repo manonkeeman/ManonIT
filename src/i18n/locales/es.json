@@ -74,7 +74,7 @@
     "quote": "Construyo lo que antes tenía que explicar.\nDe la idea al diseño hasta el código funcional.",
     "bio1": "Me encanta cuando algo simplemente funciona. Cuando una idea, un diseño y la ejecución encajan a la perfección.",
     "bio2": "Mi camino fue todo menos recto. De la Gerrit Rietveld Academie al SAE Institute y la Schrijversacademie, siempre buscando cómo hacer algo no solo hermoso, sino también comprensible.",
-    "bio3": "Después de años trabajando en el sector automovilístico (Renault, Pieter Smit) y para clientes como el Ayuntamiento de Ámsterdam y KLM, noté algo frustrante: veía exactamente lo que podía mejorar… pero no siempre podía construirlo yo misma.",
+    "bio3": "Después de años trabajando en el sector automovilístico (Renault, Pieter Smit) y para clientes como el Ayuntamiento de Ámsterdam (diseño) y KLM (newsletters y blogs), noté algo frustrante: veía exactamente lo que podía mejorar… pero no siempre podía construirlo yo misma.",
     "bio4": "Así que decidí cambiar eso. Me reconvertí en desarrolladora Full Stack en el NOVI College. Porque ya no quería depender de otros entre la idea y la ejecución.",
     "bio5": "Ahora diseño, escribo y construyo yo misma. Y me aseguro de que lo que creas no solo tenga sentido, sino que también llegue de verdad a las personas a quienes va dirigido.",
     "journalCta": "¿Quieres saber cómo pienso y trabajo? En mi journal escribo sobre código, diseño y mi camino hacia el desarrollo.",
@@ -571,9 +571,9 @@
       "Tu dominio siempre está a tu nombre."
     ],
     "sketchTitle": "Primero ver, luego elegir",
-    "sketch": "Tras la llamada de presentación hago gratis un boceto de tu página de inicio, para que veas lo que obtienes antes de decidir nada.",
-    "byline": "Diseñado por una diseñadora con 20 años de experiencia (KLM, Ayuntamiento de Ámsterdam). Construido por una desarrolladora. Una sola persona, sin traspasos.",
-    "more": "¿Necesitas más, como una aplicación web, una tienda o un proyecto totalmente a medida? Mira los precios por proyecto más abajo."
+    "sketch": "Tras la llamada de presentación hago gratis un boceto de tu página de inicio: cómo podría verse tu web. Ves lo que obtienes antes de decidir nada, y sin ningún compromiso.",
+    "byline": "Diseño, textos y construcción por una sola persona, sin traspasos. Formada en la Gerrit Rietveld Academie, el SAE Institute y la Schrijversvakschool Amsterdam (escuela de escritura), y reconvertida en desarrolladora Full Stack.",
+    "more": "¿Necesitas más, como una aplicación web con inicio de sesión y base de datos (como CasaCrew), una tienda online o un desarrollo a medida? Mira los precios por proyecto más abajo."
   },
   "faq": {
     "label": "Preguntas frecuentes",

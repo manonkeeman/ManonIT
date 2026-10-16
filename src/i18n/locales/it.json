@@ -74,7 +74,7 @@
     "quote": "Costruisco quello che prima dovevo spiegare.\nDall'idea al design fino al codice funzionante.",
     "bio1": "Amo quando qualcosa funziona davvero. Quando un'idea, un design e l'esecuzione si incastrano perfettamente.",
     "bio2": "Il mio percorso è stato tutto fuorché lineare. Dalla Gerrit Rietveld Academie al SAE Institute e alla Schrijversacademie, sempre alla ricerca di come rendere qualcosa non solo bello, ma anche comprensibile.",
-    "bio3": "Dopo anni di lavoro nel settore automobilistico (Renault, Pieter Smit) e per clienti come il Comune di Amsterdam e KLM, ho notato qualcosa di frustrante: vedevo esattamente cosa poteva migliorare… ma non riuscivo sempre a costruirlo da sola.",
+    "bio3": "Dopo anni di lavoro nel settore automobilistico (Renault, Pieter Smit) e per clienti come il Comune di Amsterdam (design) e KLM (newsletter e blog), ho notato qualcosa di frustrante: vedevo esattamente cosa poteva migliorare… ma non riuscivo sempre a costruirlo da sola.",
     "bio4": "Così ho deciso di cambiare le cose. Mi sono riqualificata come sviluppatrice Full Stack al NOVI College. Perché non volevo più dipendere da altri tra l'idea e l'esecuzione.",
     "bio5": "Ora progetto, scrivo e costruisco da sola. E mi assicuro che quello che crei non solo abbia senso, ma arrivi davvero alle persone a cui è destinato.",
     "journalCta": "Curioso di sapere come penso e lavoro? Nel mio journal scrivo di codice, design e del mio percorso verso lo sviluppo.",
@@ -571,9 +571,9 @@
       "Il tuo dominio è sempre a tuo nome."
     ],
     "sketchTitle": "Prima vedi, poi scegli",
-    "sketch": "Dopo il colloquio di conoscenza realizzo gratuitamente uno schizzo della tua home page, così vedi cosa ottieni prima di decidere.",
-    "byline": "Progettato da una designer con 20 anni di esperienza (KLM, Comune di Amsterdam). Realizzato da una sviluppatrice. Una sola persona, nessun passaggio di consegne.",
-    "more": "Ti serve di più, come un'app web, un negozio o un su misura completo? Guarda i prezzi per progetto qui sotto."
+    "sketch": "Dopo il colloquio di conoscenza realizzo gratuitamente uno schizzo della tua home page: come potrebbe apparire il tuo sito. Vedi cosa ottieni prima di decidere, senza alcun impegno.",
+    "byline": "Design, testi e realizzazione da una sola persona, senza passaggi di consegne. Formata alla Gerrit Rietveld Academie, al SAE Institute e alla Schrijversvakschool Amsterdam (scuola di scrittura), poi riqualificata come sviluppatrice Full Stack.",
+    "more": "Ti serve di più, come un'app web con login e database (come CasaCrew), un negozio online o una soluzione su misura? Guarda i prezzi per progetto qui sotto."
   },
   "faq": {
     "label": "Domande frequenti",

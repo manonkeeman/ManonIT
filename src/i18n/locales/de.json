@@ -74,7 +74,7 @@
     "quote": "Ich baue, was ich früher erklären musste.\nVon der Idee über das Design zum funktionierenden Code.",
     "bio1": "Ich liebe es, wenn etwas einfach stimmt. Wenn eine Idee, ein Design und die Umsetzung nahtlos ineinandergreifen.",
     "bio2": "Mein Weg war alles andere als geradlinig. Von der Gerrit Rietveld Academie zum SAE Institute und der Schrijversacademie, immer auf der Suche danach, wie man etwas nicht nur schön, sondern auch verständlich macht.",
-    "bio3": "Nach Jahren der Arbeit in der Automobilbranche (Renault, Pieter Smit) und für Kunden wie die Gemeinde Amsterdam und KLM bemerkte ich etwas Frustrierendes: Ich sah genau, was besser werden könnte… aber konnte es nicht immer selbst bauen.",
+    "bio3": "Nach Jahren der Arbeit in der Automobilbranche (Renault, Pieter Smit) und für Kunden wie die Gemeinde Amsterdam (Design) und KLM (Newsletter und Blogs) bemerkte ich etwas Frustrierendes: Ich sah genau, was besser werden könnte… aber konnte es nicht immer selbst bauen.",
     "bio4": "Also beschloss ich, das zu ändern. Ich ließ mich zur Full Stack Entwicklerin am NOVI College umschulen. Weil ich keine Abhängigkeit mehr zwischen Idee und Umsetzung wollte.",
     "bio5": "Jetzt entwerfe, schreibe und baue ich selbst. Und sorge dafür, dass das, was du erstellst, nicht nur stimmt, sondern auch wirklich bei den Menschen ankommt, für die es gedacht ist.",
     "journalCta": "Neugierig, wie ich denke und arbeite? In meinem Journal schreibe ich über Code, Design und meinen Weg in die Entwicklung.",
@@ -571,9 +571,9 @@
       "Ihre Domain läuft immer auf Ihren Namen."
     ],
     "sketchTitle": "Erst sehen, dann entscheiden",
-    "sketch": "Nach dem Kennenlerngespräch erstelle ich kostenlos eine Skizze Ihrer Startseite, damit Sie sehen, was Sie bekommen, bevor Sie etwas entscheiden.",
-    "byline": "Gestaltet von einer Designerin mit 20 Jahren Erfahrung (KLM, Gemeinde Amsterdam). Gebaut von einer Entwicklerin. Eine Person, keine Übergabe.",
-    "more": "Brauchen Sie mehr, etwa eine Web-App, einen Shop oder komplette Maßanfertigung? Sehen Sie die Projektpreise unten."
+    "sketch": "Nach dem Kennenlerngespräch erstelle ich kostenlos eine Skizze Ihrer Startseite: wie Ihre Website aussehen könnte. Sie sehen, was Sie bekommen, bevor Sie etwas entscheiden, und binden sich an nichts.",
+    "byline": "Design, Texte und Aufbau von einer Person, ohne Übergabe. Ausgebildet an der Gerrit Rietveld Academie, am SAE Institute und an der Schrijversvakschool Amsterdam (Schreibschule), umgeschult zur Full Stack Entwicklerin.",
+    "more": "Brauchen Sie mehr, etwa eine Web-App mit Login und Datenbank (wie CasaCrew), einen Webshop oder eine komplett maßgeschneiderte Lösung? Siehe die Projektpreise unten."
   },
   "faq": {
     "label": "Häufige Fragen",
