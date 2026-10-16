@@ -589,6 +589,23 @@
           {
             "q": "Warum ist das teurer als ein günstiges Abo oder Wix?",
             "a": "Bei günstigen Abos bekommen Sie eine Standardseite, die beim Anbieter bleibt. Bei mir bekommen Sie ein Design, das zu Ihrer Marke passt, mit Texten und Aufbau von derselben Person, und nach 24 Monaten gehört die Website Ihnen."
+          },
+          {
+            "q": "Wie wird abgerechnet?",
+            "a": "Monatlich. Der Monatsbetrag wird jeden Monat berechnet; die einmalige Startgebühr ist beim jeweiligen Paket gesondert aufgeführt. Alle Preise verstehen sich zuzüglich MwSt."
+          }
+        ]
+      },
+      {
+        "title": "Erste Schritte",
+        "items": [
+          {
+            "q": "Wie lange dauert es, bis die Website online ist?",
+            "a": "Ab einer Woche, je nach Umfang der Website. Eine kleine Website ist schneller fertig als eine umfangreiche. Nach dem Kennenlerngespräch folgt ein konkreter Zeitplan."
+          },
+          {
+            "q": "Was wird für den Start benötigt?",
+            "a": "Logos und Fotos sowie Angaben für die Texte, etwa Unternehmensdaten, persönliche Angaben und die gewünschten Inhalte. Fehlen Fotos, arbeite ich mit festen Fotografen zusammen."
           }
         ]
       },
@@ -640,6 +657,23 @@
           {
             "q": "Was, wenn mir das Design nicht gefällt?",
             "a": "Zwei Korrekturrunden sind enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Technik und Auffindbarkeit",
+        "items": [
+          {
+            "q": "Wird die Website bei Google gefunden?",
+            "a": "Das hängt vom Abo und vom Paket ab. Wachstum enthält Basis-SEO und GEO, für die Auffindbarkeit bei Google und in KI-Suchmaschinen. Was für Start und Marke sinnvoll ist, wird im Kennenlerngespräch besprochen."
+          },
+          {
+            "q": "Wo läuft die Website und wie schnell ist sie?",
+            "a": "Auf professionellem, zuverlässigem Hosting, inklusive SSL, täglicher Backups und Sicherheitsupdates. Die Website wird technisch auf Geschwindigkeit optimiert. Details zum Hosting-Anbieter bespreche ich gern im Gespräch."
+          },
+          {
+            "q": "Kann die Website mehrsprachig sein?",
+            "a": "Mehrsprachigkeit ist Teil des Pakets Marke. Bei Start und Wachstum ist sie nicht enthalten."
           }
         ]
       }

@@ -589,6 +589,23 @@
           {
             "q": "¿Por qué es más caro que una suscripción barata o Wix?",
             "a": "En las suscripciones baratas recibes una web estándar que sigue siendo del proveedor. Conmigo recibes un diseño que encaja con tu marca, con textos y construcción de la misma persona, y pasados 24 meses la web es tuya."
+          },
+          {
+            "q": "¿Cómo se factura?",
+            "a": "Mensualmente. La cuota mensual se factura cada mes; el coste único de puesta en marcha figura aparte en cada plan. Todos los precios son sin IVA."
+          }
+        ]
+      },
+      {
+        "title": "Primeros pasos",
+        "items": [
+          {
+            "q": "¿Cuánto tarda en estar online la web?",
+            "a": "Desde una semana, según el tamaño de la web. Una web pequeña está lista antes que una extensa. Tras la llamada de presentación se acuerda un calendario concreto."
+          },
+          {
+            "q": "¿Qué hace falta para empezar?",
+            "a": "Logotipos y fotos, además de datos para los textos, como información de la empresa, datos personales y lo que debe aparecer en la web. Si faltan fotos, trabajo con fotógrafos habituales."
           }
         ]
       },
@@ -640,6 +657,23 @@
           {
             "q": "¿Y si no estoy contento con el diseño?",
             "a": "Se incluyen dos rondas de revisión."
+          }
+        ]
+      },
+      {
+        "title": "Técnica y visibilidad",
+        "items": [
+          {
+            "q": "¿Aparecerá la web en Google?",
+            "a": "Depende de la suscripción y del plan. Crecimiento incluye SEO básico y GEO, para aparecer en Google y en buscadores de IA. Lo que encaja con Inicio y Marca se habla en la llamada de presentación."
+          },
+          {
+            "q": "¿Dónde está alojada la web y qué tan rápida es?",
+            "a": "En un alojamiento profesional y fiable, con SSL, copias de seguridad diarias y actualizaciones de seguridad. La web se optimiza técnicamente para la velocidad. Los detalles del proveedor de alojamiento los comento con gusto en una conversación."
+          },
+          {
+            "q": "¿Puede la web ser multilingüe?",
+            "a": "El multilingüismo forma parte del plan Marca. No está incluido en Inicio ni en Crecimiento."
           }
         ]
       }

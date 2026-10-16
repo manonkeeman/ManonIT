@@ -589,6 +589,23 @@
           {
             "q": "Pourquoi est-ce plus cher qu'un abonnement bon marché ou Wix ?",
             "a": "Avec les abonnements bon marché, vous obtenez un site standard qui reste chez le prestataire. Chez moi, vous obtenez un design adapté à votre marque, avec textes et construction par la même personne, et après 24 mois le site est à vous."
+          },
+          {
+            "q": "Comment se fait la facturation ?",
+            "a": "Mensuellement. Le montant mensuel est facturé chaque mois ; les frais de démarrage uniques sont indiqués séparément pour chaque formule. Tous les prix sont hors TVA."
+          }
+        ]
+      },
+      {
+        "title": "Pour démarrer",
+        "items": [
+          {
+            "q": "Combien de temps avant la mise en ligne du site ?",
+            "a": "À partir d'une semaine, selon la taille du site. Un petit site est prêt plus vite qu'un site étendu. Un planning concret suit après l'échange de présentation."
+          },
+          {
+            "q": "Que faut-il pour démarrer ?",
+            "a": "Logos et photos, ainsi que les informations pour les textes : données de l'entreprise, détails personnels et contenu souhaité. S'il manque des photos, je travaille avec des photographes attitrés."
           }
         ]
       },
@@ -640,6 +657,23 @@
           {
             "q": "Et si je ne suis pas satisfait du design ?",
             "a": "Deux séries de corrections sont incluses."
+          }
+        ]
+      },
+      {
+        "title": "Technique et visibilité",
+        "items": [
+          {
+            "q": "Le site sera-t-il visible sur Google ?",
+            "a": "Cela dépend de l'abonnement et de la formule. Croissance comprend le SEO de base et le GEO, pour être visible sur Google et dans les moteurs de recherche IA. Ce qui convient à Départ et Marque est discuté lors de l'échange de présentation."
+          },
+          {
+            "q": "Où le site est-il hébergé et quelle est sa rapidité ?",
+            "a": "Sur un hébergement professionnel et fiable, avec SSL, sauvegardes quotidiennes et mises à jour de sécurité. Le site est optimisé techniquement pour la vitesse. Je discute volontiers des détails de l'hébergeur lors d'un échange."
+          },
+          {
+            "q": "Le site peut-il être multilingue ?",
+            "a": "Le multilinguisme fait partie de la formule Marque. Il n'est pas inclus dans Départ et Croissance."
           }
         ]
       }

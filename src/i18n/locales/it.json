@@ -589,6 +589,23 @@
           {
             "q": "Perché costa più di un abbonamento economico o di Wix?",
             "a": "Con gli abbonamenti economici ottieni un sito standard che resta del fornitore. Con me ottieni un design adatto al tuo marchio, con testi e realizzazione dalla stessa persona, e dopo 24 mesi il sito è tuo."
+          },
+          {
+            "q": "Come avviene la fatturazione?",
+            "a": "Mensilmente. L'importo mensile viene fatturato ogni mese; il costo iniziale una tantum è indicato a parte in ogni piano. Tutti i prezzi sono IVA esclusa."
+          }
+        ]
+      },
+      {
+        "title": "Per iniziare",
+        "items": [
+          {
+            "q": "Quanto tempo ci vuole prima che il sito sia online?",
+            "a": "Da una settimana, a seconda delle dimensioni del sito. Un sito piccolo è pronto prima di uno ampio. Dopo il colloquio di conoscenza segue una pianificazione concreta."
+          },
+          {
+            "q": "Cosa serve per iniziare?",
+            "a": "Loghi e foto, più i dati per i testi, come informazioni sull'azienda, dettagli personali e cosa deve comparire sul sito. Se mancano le foto, collaboro con fotografi di fiducia."
           }
         ]
       },
@@ -640,6 +657,23 @@
           {
             "q": "E se non sono soddisfatto del design?",
             "a": "Sono incluse due revisioni."
+          }
+        ]
+      },
+      {
+        "title": "Tecnica e visibilità",
+        "items": [
+          {
+            "q": "Il sito sarà trovato su Google?",
+            "a": "Dipende dall'abbonamento e dal piano. Crescita include SEO di base e GEO, per essere visibili su Google e nei motori di ricerca IA. Cosa è adatto a Avvio e Marchio si discute nel colloquio di conoscenza."
+          },
+          {
+            "q": "Dove si trova il sito e quanto è veloce?",
+            "a": "Su un hosting professionale e affidabile, con SSL, backup giornalieri e aggiornamenti di sicurezza. Il sito è ottimizzato tecnicamente per la velocità. Discuto volentieri i dettagli del fornitore di hosting in un colloquio."
+          },
+          {
+            "q": "Il sito può essere multilingue?",
+            "a": "Il multilinguismo fa parte del piano Marchio. Non è incluso in Avvio e Crescita."
           }
         ]
       }

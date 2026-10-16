@@ -589,6 +589,23 @@
           {
             "q": "Why is this more expensive than a cheap subscription or Wix?",
             "a": "With cheap subscriptions you get a standard site that stays with the provider. With me you get a design that fits your brand, with copy and build from the same person, and after 24 months the website is yours."
+          },
+          {
+            "q": "How is billing done?",
+            "a": "Monthly. The monthly fee is invoiced each month; the one-off setup fee is listed separately with each plan. All prices exclude VAT."
+          }
+        ]
+      },
+      {
+        "title": "Getting started",
+        "items": [
+          {
+            "q": "How long until the site is live?",
+            "a": "From one week, depending on the size of the site. A small site is ready sooner than an extensive one. A concrete schedule follows after the intro call."
+          },
+          {
+            "q": "What is needed to get started?",
+            "a": "Logos and photos, plus details for the copy, such as company information, personal details and what should go on the site. If photos are missing, I work with regular photographers."
           }
         ]
       },
@@ -640,6 +657,23 @@
           {
             "q": "What if I'm not happy with the design?",
             "a": "Two revision rounds are included."
+          }
+        ]
+      },
+      {
+        "title": "Technology and visibility",
+        "items": [
+          {
+            "q": "Will the site be found on Google?",
+            "a": "That depends on the subscription and plan. Growth includes basic SEO and GEO, for visibility on Google and in AI search engines. What else suits Start and Brand is discussed in the intro call."
+          },
+          {
+            "q": "Where is the site hosted and how fast is it?",
+            "a": "On professional, reliable hosting, including SSL, daily back-ups and security updates. The site is technically optimised for speed. I'm happy to discuss details of the hosting provider in a conversation."
+          },
+          {
+            "q": "Can the site be multilingual?",
+            "a": "Multilingual is part of the Brand plan. It is not included in Start and Growth."
           }
         ]
       }

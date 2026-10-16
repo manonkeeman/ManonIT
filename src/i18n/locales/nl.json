@@ -589,6 +589,23 @@
           {
             "q": "Waarom is dit duurder dan een goedkoop abonnement of Wix?",
             "a": "Bij goedkope abonnementen is het een standaardsite die van de aanbieder blijft. Bij mij is het een ontwerp dat past bij het merk, met teksten en bouw door dezelfde persoon, en na 24 maanden is de website van de klant."
+          },
+          {
+            "q": "Hoe wordt er gefactureerd?",
+            "a": "Per maand. Het maandbedrag wordt maandelijks gefactureerd; de eenmalige opstartkosten staan los daarvan bij het pakket vermeld. Alle prijzen zijn exclusief btw."
+          }
+        ]
+      },
+      {
+        "title": "Aan de slag",
+        "items": [
+          {
+            "q": "Hoe lang duurt het voordat de site live is?",
+            "a": "Vanaf één week, afhankelijk van de omvang van de site. Een kleine site is sneller klaar dan een uitgebreide. Na het kennismakingsgesprek volgt een concrete planning."
+          },
+          {
+            "q": "Wat is er nodig om te starten?",
+            "a": "Logo's en foto's, plus gegevens voor de teksten, zoals bedrijfsgegevens, persoonlijke details en wat er op de site moet komen. Ontbreken er foto's, dan werk ik samen met vaste fotografen."
           }
         ]
       },
@@ -640,6 +657,23 @@
           {
             "q": "Wat als ik niet tevreden ben over het ontwerp?",
             "a": "Twee revisierondes zijn inbegrepen."
+          }
+        ]
+      },
+      {
+        "title": "Techniek en vindbaarheid",
+        "items": [
+          {
+            "q": "Wordt de site gevonden in Google?",
+            "a": "Dat hangt af van het abonnement en het pakket. Groei bevat basis-SEO en GEO, voor vindbaarheid in Google en in AI-zoekmachines. Wat daarnaast past bij Start en Merk, wordt besproken in het kennismakingsgesprek."
+          },
+          {
+            "q": "Waar draait de site en hoe snel is hij?",
+            "a": "Op professionele, betrouwbare hosting, inclusief SSL, dagelijkse back-ups en beveiligingsupdates. De site wordt technisch geoptimaliseerd op snelheid. Details over de hostingpartij bespreek ik graag in een gesprek."
+          },
+          {
+            "q": "Kan de site meertalig zijn?",
+            "a": "Meertaligheid is onderdeel van het pakket Merk. Bij Start en Groei is dit niet inbegrepen."
           }
         ]
       }
