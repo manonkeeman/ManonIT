@@ -15,10 +15,7 @@
         "casareille": "Web design · Casa Reille"
       },
       "journal": {
-        "designchaos": "Design Chaos",
-        "storytelling": "Storytelling",
         "pastelvanbuiten": "Pastello fuori, sorprendente dentro",
-        "toekomsttech": "Futuro & Tech",
         "365korteverhalen": "365 Racconti brevi",
         "ai-in-mijn-werk": "AI in my work",
         "verhaal-achter-casacrew": "The story behind CasaCrew",
@@ -40,9 +37,9 @@
     "copied": "Link copiato!"
   },
   "hero": {
-    "greeting": "Il tuo sito non dovrebbe essere un progetto, ma un collaboratore che lavora sempre.",
+    "greeting": "Un posto tutto tuo online, per ogni idea, ogni storia e ogni luogo in cui sentirsi a casa.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Niente grossa cifra anticipata e poi il silenzio. Con un abbonamento costruisco il tuo sito, lo tengo online e cresce insieme alla tua attività. Un importo mensile fisso, un unico referente.",
+    "bio": "Niente grossa cifra anticipata e poi il silenzio. Con un abbonamento costruisco il tuo sito, lo tengo online e cresce insieme al tuo progetto. Un importo mensile fisso, un unico referente.",
     "roles": "Sviluppo web • Web design • Copywriting • SEO • React",
     "projects": "Guarda il mio lavoro",
     "journal": "Diario",
@@ -73,6 +70,24 @@
         "title": "Primo colloquio gratuito",
         "text": "30 minuti, senza impegno"
       }
+    },
+    "forWho": {
+      "business": {
+        "title": "Per le attività",
+        "text": "Come The Big Three, un'officina a Nunspeet"
+      },
+      "stay": {
+        "title": "Per case vacanza e soggiorni",
+        "text": "Come Villa Vredestein e Casa Reille"
+      },
+      "makers": {
+        "title": "Per scrittori e creativi",
+        "text": "Come il sito di Marie H. Boddaert"
+      },
+      "apps": {
+        "title": "Per app e piattaforme",
+        "text": "Come CasaCrew, un'app per affitti"
+      }
     }
   },
   "about": {
@@ -80,17 +95,17 @@
     "quote": "Costruisco quello che prima dovevo spiegare.\nDall'idea al design fino al codice funzionante.",
     "bio1": "Amo quando qualcosa funziona davvero. Quando un'idea, un design e l'esecuzione si incastrano perfettamente.",
     "bio2": "Il mio percorso è stato tutto fuorché lineare. Dalla Gerrit Rietveld Academie al SAE Institute e alla Schrijversacademie, sempre alla ricerca di come rendere qualcosa non solo bello, ma anche comprensibile.",
-    "bio3": "Dopo anni di lavoro nel settore automobilistico (Renault, Pieter Smit) e per clienti come il Comune di Amsterdam (design) e KLM (newsletter e blog), ho notato qualcosa di frustrante: vedevo esattamente cosa poteva migliorare… ma non riuscivo sempre a costruirlo da sola.",
+    "bio3": "Dopo anni di lavoro nel settore automobilistico (Renault, Pieter Smit) e per clienti come il Comune di Amsterdam (design grafico e comunicazione) e KLM (newsletter e blog), ho notato qualcosa di frustrante: vedevo esattamente cosa poteva migliorare… ma non riuscivo sempre a costruirlo da sola.",
     "bio4": "Così ho deciso di cambiare le cose. Mi sono riqualificata come sviluppatrice Full Stack al NOVI College. Perché non volevo più dipendere da altri tra l'idea e l'esecuzione.",
-    "bio5": "Ora progetto, scrivo e costruisco da sola. E mi assicuro che quello che crei non solo abbia senso, ma arrivi davvero alle persone a cui è destinato.",
+    "bio5": "Un'idea, un'attività, qualcosa che deve andare online ma nessuno sa bene come? Raccontamelo. Capisco cosa serve, lo progetto, scrivo i testi e lo costruisco io stessa. Niente giri di parole, niente specialisti sparsi che lavorano ognuno per conto suo: una sola persona, dalla prima idea al giorno della messa online. Se qualcosa esce dal mio campo, lo dico onestamente. Dall'idea a qualcosa che funziona davvero: è questo che mi rende felice.",
     "journalCta": "Curioso di sapere come penso e lavoro? Nel mio journal scrivo di codice, design e del mio percorso verso lo sviluppo.",
     "journalBtn": "Al journal",
-    "skillsTitle": "Competenze",
+    "skillsTitle": "In cosa sono brava",
     "skills": {
-      "stack": "Full stack: React, Spring Boot, Git",
-      "systems": "Pensiero sistemico & architettura",
-      "uxui": "UX/UI, SEO & design grafico",
-      "storytelling": "Copywriting & strategia dei contenuti"
+      "stack": "Siti e app veloci e sicuri",
+      "systems": "Rendere semplici e chiare le cose difficili",
+      "uxui": "Un design bello, facile e ben trovabile",
+      "storytelling": "Testi chiari che parlano alle persone"
     }
   },
   "contact": {
@@ -111,9 +126,9 @@
     "title": "Conosciamoci",
     "personRole": "Web developer & designer · ManonIT",
     "points": [
-      "Risposta entro 1 giorno lavorativo",
-      "Colloquio gratuito di 30 minuti",
-      "Chiaro in anticipo cosa paghi, senza impegno"
+      "Una risposta personale entro un giorno lavorativo",
+      "Conoscerci in un colloquio di 30 minuti, gratuito e senza impegno",
+      "Una proposta onesta, chiara in anticipo su quanto costa"
     ],
     "whatsapp": "Invia un WhatsApp",
     "formTitle": "Invia un messaggio",
@@ -204,21 +219,9 @@
       "description": "Articoli su sviluppo full stack, storytelling, design e il mio percorso da KLM al codice. Onesto, personale e pratico."
     },
     "journal": {
-      "designchaos": {
-        "title": "Ordinare il caos con il codice e il design | Manon Keeman",
-        "description": "Perché la struttura non è noiosa ma dona libertà."
-      },
-      "storytelling": {
-        "title": "Storytelling nell'IT | Manon Keeman",
-        "description": "Perché le storie sono indispensabili nella tecnologia."
-      },
       "365korteverhalen": {
         "title": "365 Racconti brevi: dall'idea al libro | Manon Keeman",
         "description": "Un libro in divenire: 365 scene di assurdità e sopravvivenza."
-      },
-      "toekomsttech": {
-        "title": "Il futuro della tecnologia | Manon Keeman",
-        "description": "L'IA, il lavoro da remoto e il ruolo della creatività."
       },
       "pastelvanbuiten": {
         "title": "Pastello fuori, sorprendente dentro | Manon Keeman",
@@ -286,21 +289,9 @@
   },
   "journalSection": {
     "articles": {
-      "designchaos": {
-        "title": "Ordinare il caos con il codice e il design",
-        "excerpt": "Perché la struttura non è noiosa ma dona libertà."
-      },
-      "storytelling": {
-        "title": "Storytelling nell'IT",
-        "excerpt": "Perché le storie sono indispensabili nella tecnologia."
-      },
       "365korteverhalen": {
         "title": "365 Racconti brevi: dall'idea al libro",
         "excerpt": "Un libro in divenire: 365 scene di assurdità e sopravvivenza."
-      },
-      "ToekomstTech": {
-        "title": "Il futuro della tecnologia",
-        "excerpt": "L'IA, il lavoro da remoto e il ruolo della creatività."
       },
       "pastelvanbuiten": {
         "title": "Pastello fuori, sorprendente dentro",
@@ -352,7 +343,7 @@
       },
       "design": {
         "name": "Web design",
-        "desc": "Un sito che ha un bell'aspetto e che ti rappresenta davvero: un design che mostra il tuo brand.",
+        "desc": "Un sito che ha un bell'aspetto e che ti rappresenta davvero: un design che mostra chi sei.",
         "tags": "UX/UI, identità visiva, Figma"
       },
       "copy": {
@@ -372,7 +363,7 @@
       },
       "social": {
         "name": "Social media",
-        "desc": "Dalla strategia ai contenuti. Ti aiuto con un approccio adatto al tuo brand e che riesci a mantenere nel tempo.",
+        "desc": "Dalla strategia ai contenuti. Ti aiuto con un approccio adatto al tuo stile e che riesci a mantenere nel tempo.",
         "tags": "Instagram, LinkedIn, pianificazione contenuti"
       }
     }
@@ -476,7 +467,7 @@
         "items": [
           "Pagine illimitate",
           "Design da zero",
-          "CMS su misura per la tua azienda",
+          "CMS su misura per il tuo progetto",
           "Possibili e-commerce, area clienti o integrazioni",
           "Possibili più lingue",
           "Logo e identità visiva inclusi"
@@ -567,7 +558,7 @@
       },
       "brand": {
         "name": "Marchio",
-        "tagline": "Su misura per il tuo marchio.",
+        "tagline": "Su misura per il tuo stile.",
         "items": [
           "Fino a 12 pagine",
           "Design personalizzato più verifica dell'identità visiva o rinnovo del logo",
@@ -602,7 +593,7 @@
           },
           {
             "q": "Perché costa più di un abbonamento economico o di Wix?",
-            "a": "Con gli abbonamenti economici ottieni un sito standard che resta del fornitore. Con me ottieni un design adatto al tuo marchio, con testi e realizzazione dalla stessa persona, e dopo 24 mesi il sito è tuo."
+            "a": "Con gli abbonamenti economici ottieni un sito standard che resta del fornitore. Con me ottieni un design adatto al tuo stile, con testi e realizzazione dalla stessa persona, e dopo 24 mesi il sito è tuo."
           },
           {
             "q": "Come avviene la fatturazione?",
@@ -619,7 +610,28 @@
           },
           {
             "q": "Cosa serve per iniziare?",
-            "a": "Loghi e foto, più i dati per i testi, come informazioni sull'azienda, dettagli personali e cosa deve comparire sul sito. Se mancano le foto, collaboro con fotografi di fiducia."
+            "a": "Loghi e foto, più i dati per i testi, come dati di contatto, dettagli personali e cosa deve comparire sul sito. Se mancano le foto, collaboro con fotografi di fiducia."
+          }
+        ]
+      },
+      {
+        "title": "Tipi di siti web e costi",
+        "items": [
+          {
+            "q": "Quali tipi di siti web sono possibili?",
+            "a": "Da un sito aziendale di poche pagine a un blog, un sito di prenotazione per una casa vacanze o un immobile in affitto, un negozio online, un portale clienti o un'app web. Cosa è adatto dipende da ciò che il sito deve fare. Se ne parla nel colloquio di conoscenza."
+          },
+          {
+            "q": "Quale sito corrisponde a quale tariffa?",
+            "a": "Sito aziendale di poche pagine: abbonamento Avvio, oppure un progetto come Sito base (da €1.200). Blog o sito gestito in autonomia: Sito con CMS (da €2.450). Sito di prenotazione con modulo di prenotazione: abbonamento Marchio, oppure soluzione completamente su misura. Negozio online, portale clienti o collegamenti con altri sistemi: Completamente su misura (da €4.250). Tutti i prezzi sono IVA esclusa. Per un progetto si riceve sempre prima un preventivo a prezzo fisso."
+          },
+          {
+            "q": "Cos'è un CMS?",
+            "a": "CMS sta per content management system: un'area di gestione in cui testi, foto e articoli del blog si possono modificare senza conoscenze di programmazione. WordPress è l'esempio più noto. Si può anche costruire un CMS proprio su misura."
+          },
+          {
+            "q": "Qual è la differenza di costo con e senza CMS?",
+            "a": "Senza CMS un sito è pronto prima e costa meno (Sito base da €1.200). Le modifiche le faccio io, a tariffa oraria o all'interno di un abbonamento. Con CMS (da €2.450) c'è più lavoro di costruzione e un design proprio, e testi, foto e blog si possono gestire in autonomia. Un CMS costruito su misura fa parte di Completamente su misura (da €4.250)."
           }
         ]
       },

@@ -30,6 +30,36 @@
 
 # Verwijderde blogs: doorsturen naar het journal
 [[redirects]]
+  from = "/journal/designchaos"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/designchaos"
+  to = "/en/journal"
+  status = 301
+
+[[redirects]]
+  from = "/journal/storytelling"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/storytelling"
+  to = "/en/journal"
+  status = 301
+
+[[redirects]]
+  from = "/journal/toekomsttech"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/toekomsttech"
+  to = "/en/journal"
+  status = 301
+
+[[redirects]]
   from = "/journal/fullstackdeveloper"
   to = "/journal"
   status = 301

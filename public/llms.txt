@@ -1,6 +1,6 @@
 # ManonIT
 
-> ManonIT is het bedrijf van Manon Keeman, freelance webdeveloper en webdesigner in Nederland (Bakkum en Driebergen). Ze ontwerpt, schrijft en bouwt websites en webapps voor zzp'ers en mkb, en zorgt dat ze gevonden worden in Google en in AI-assistenten zoals ChatGPT, Claude en Perplexity. Klanten praten rechtstreeks met de persoon die ontwerpt, schrijft en bouwt.
+> ManonIT is het bedrijf van Manon Keeman, freelance webdeveloper en webdesigner. Ze ontwerpt, schrijft en bouwt websites en webapps voor ondernemers, verhuurders en makers, en zorgt dat ze gevonden worden in Google en in AI-assistenten zoals ChatGPT, Claude en Perplexity. Klanten praten rechtstreeks met de persoon die ontwerpt, schrijft en bouwt.
 
 ## Diensten
 
@@ -59,5 +59,4 @@
 
 - E-mail: lets@manonit.com
 - WhatsApp: +31 6 24766568
-- Locaties: Bakkum (Noord-Holland) en Driebergen (Utrecht)
 - KvK: 42053266

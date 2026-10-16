@@ -210,42 +210,6 @@
 
   <!-- Journal -->
   <url>
-    <loc>https://manonit.com/journal/designchaos</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/designchaos" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/designchaos" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/designchaos" />
-    <lastmod>2025-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/en/journal/designchaos</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/designchaos" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/designchaos" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/designchaos" />
-    <lastmod>2025-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/journal/storytelling</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/storytelling" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/storytelling" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/storytelling" />
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/en/journal/storytelling</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/storytelling" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/storytelling" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/storytelling" />
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://manonit.com/journal/365korteverhalen</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/365korteverhalen" />
     <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/365korteverhalen" />
@@ -260,24 +224,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/365korteverhalen" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/365korteverhalen" />
     <lastmod>2025-09-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/journal/toekomsttech</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/toekomsttech" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/toekomsttech" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/toekomsttech" />
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://manonit.com/en/journal/toekomsttech</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/toekomsttech" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/toekomsttech" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/toekomsttech" />
-    <lastmod>2025-09-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

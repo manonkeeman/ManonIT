@@ -6,9 +6,6 @@ import Seo from "../../assets/Components/Seo.jsx";
 import JsonLd from "../../assets/Components/JsonLd.jsx";
 
 // Artikelen — elk apart lazy geladen
-const StorytellingForDevelopers = lazy(() => import("./Storytelling.jsx"));
-const DesignChaos                = lazy(() => import("./DesignChaos.jsx"));
-const ToekomstTech               = lazy(() => import("./ToekomstTech.jsx"));
 const Korteverhalen365           = lazy(() => import("./365Korteverhalen.jsx"));
 const PastelVanBuiten            = lazy(() => import("./PastelVanBuiten.jsx"));
 const AiInMijnWerk               = lazy(() => import("./AiInMijnWerk.jsx"));
@@ -43,29 +40,11 @@ const normalize = (s = "") =>
         .replace(/[^a-z0-9-]/g, "");
 
 const ARTICLE_META = {
-    designchaos: {
-        date: "2025-09-01",
-        title: "Chaos ordenen met code en design",
-        image: "https://manonit.com/og/journal-designchaos.jpg",
-        words: 480,
-    },
-    storytelling: {
-        date: "2025-09-05",
-        title: "Storytelling in IT",
-        image: "https://manonit.com/og/journal-storytelling.jpg",
-        words: 530,
-    },
     "365korteverhalen": {
         date: "2025-09-12",
         title: "365 Korte verhalen: van idee naar boek",
         image: "https://manonit.com/og/journal-365korteverhalen.jpg",
         words: 400,
-    },
-    toekomsttech: {
-        date: "2025-09-18",
-        title: "De toekomst van tech",
-        image: "https://manonit.com/og/journal-toekomsttech.jpg",
-        words: 700,
     },
     pastelvanbuiten: {
         date: "2026-06-19",
@@ -129,9 +108,6 @@ export default function ArticleRoute() {
     const key = normalize(slug);
 
     const views = {
-        storytelling: <StorytellingForDevelopers />,
-        designchaos: <DesignChaos />,
-        toekomsttech: <ToekomstTech />,
         "365korteverhalen": <Korteverhalen365 />,
         pastelvanbuiten: <PastelVanBuiten />,
         "ai-in-mijn-werk": <AiInMijnWerk />,

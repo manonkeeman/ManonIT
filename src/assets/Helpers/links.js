@@ -12,8 +12,5 @@ export const JOURNAL_NAV = [
     "samenwerking-the-big-three",
     "website-villa-vredestein",
     "pastelvanbuiten",
-    "toekomsttech",
     "365korteverhalen",
-    "storytelling",
-    "designchaos",
 ];

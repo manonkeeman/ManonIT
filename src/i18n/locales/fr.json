@@ -15,10 +15,7 @@
         "casareille": "Webdesign · Casa Reille"
       },
       "journal": {
-        "designchaos": "Design Chaos",
-        "storytelling": "Storytelling",
         "pastelvanbuiten": "Pastel en apparence, surprenant en profondeur",
-        "toekomsttech": "Avenir & Tech",
         "365korteverhalen": "365 Histoires courtes",
         "ai-in-mijn-werk": "AI in my work",
         "verhaal-achter-casacrew": "The story behind CasaCrew",
@@ -40,9 +37,9 @@
     "copied": "Lien copié !"
   },
   "hero": {
-    "greeting": "Votre site web ne devrait pas être un projet, mais un collaborateur qui travaille sans relâche.",
+    "greeting": "Une place à soi en ligne, pour chaque idée, chaque histoire et chaque endroit où l'on se sent chez soi.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "Pas de grosse somme à l'avance, puis plus aucune nouvelle. Avec un abonnement, je construis votre site, je le maintiens en ligne et il évolue avec votre entreprise. Un montant mensuel fixe, un seul interlocuteur.",
+    "bio": "Pas de grosse somme à l'avance, puis plus aucune nouvelle. Avec un abonnement, je construis votre site, je le maintiens en ligne et il évolue avec votre projet. Un montant mensuel fixe, un seul interlocuteur.",
     "roles": "Développement web • Webdesign • Rédaction • SEO • React",
     "projects": "Voir mes projets",
     "journal": "Journal",
@@ -73,6 +70,24 @@
         "title": "Premier échange gratuit",
         "text": "30 minutes, sans engagement"
       }
+    },
+    "forWho": {
+      "business": {
+        "title": "Pour les entreprises",
+        "text": "Comme The Big Three, un garage à Nunspeet"
+      },
+      "stay": {
+        "title": "Pour les maisons de vacances et séjours",
+        "text": "Comme Villa Vredestein et Casa Reille"
+      },
+      "makers": {
+        "title": "Pour les écrivains et créateurs",
+        "text": "Comme le site de Marie H. Boddaert"
+      },
+      "apps": {
+        "title": "Pour les applications et plateformes",
+        "text": "Comme CasaCrew, une application de location"
+      }
     }
   },
   "about": {
@@ -80,17 +95,17 @@
     "quote": "Je construis ce que je devais autrefois expliquer.\nDe l'idée au design jusqu'au code fonctionnel.",
     "bio1": "J'adore quand quelque chose fonctionne vraiment. Quand une idée, un design et l'exécution s'emboîtent parfaitement.",
     "bio2": "Mon parcours était tout sauf linéaire. De la Gerrit Rietveld Academie au SAE Institute et à la Schrijversacademie, toujours à la recherche de comment rendre quelque chose non seulement beau, mais aussi compréhensible.",
-    "bio3": "Après des années à travailler dans le secteur automobile (Renault, Pieter Smit) et pour des clients comme la Commune d'Amsterdam (design) et KLM (newsletters et blogs), j'ai remarqué quelque chose de frustrant : je voyais exactement ce qui pouvait être amélioré… mais je ne pouvais pas toujours le construire moi-même.",
+    "bio3": "Après des années à travailler dans le secteur automobile (Renault, Pieter Smit) et pour des clients comme la Commune d'Amsterdam (design graphique et communication) et KLM (newsletters et blogs), j'ai remarqué quelque chose de frustrant : je voyais exactement ce qui pouvait être amélioré… mais je ne pouvais pas toujours le construire moi-même.",
     "bio4": "Alors j'ai décidé de changer ça. Je me suis reconvertie en développeuse Full Stack au NOVI College. Parce que je ne voulais plus de dépendance entre l'idée et l'exécution.",
-    "bio5": "Maintenant je conçois, j'écris et je construis moi-même. Et je veille à ce que ce que vous créez non seulement tienne la route, mais touche vraiment les personnes à qui c'est destiné.",
+    "bio5": "Une idée, une entreprise, quelque chose qui doit aller en ligne mais personne ne sait trop comment ? Racontez-moi. Je cherche ce qu'il faut, je le conçois, j'écris les textes et je le construis moi-même. Pas de détours, pas de spécialistes isolés qui travaillent chacun de leur côté : une seule personne, de la première idée au jour de la mise en ligne. Si quelque chose sort de mon domaine, je le dis honnêtement. De l'idée à quelque chose qui fonctionne vraiment : c'est ce qui me rend heureuse.",
     "journalCta": "Curieux de savoir comment je pense et travaille ? Dans mon journal, j'écris sur le code, le design et mon parcours vers le développement.",
     "journalBtn": "Vers le journal",
-    "skillsTitle": "Compétences",
+    "skillsTitle": "Ce que je fais bien",
     "skills": {
-      "stack": "Full stack : React, Spring Boot, Git",
-      "systems": "Pensée systémique & architecture",
-      "uxui": "UX/UI, SEO & design graphique",
-      "storytelling": "Copywriting & stratégie de contenu"
+      "stack": "Des sites et des applications rapides et sûrs",
+      "systems": "Rendre les choses compliquées simples et claires",
+      "uxui": "Un design beau, simple et bien référencé",
+      "storytelling": "Des textes clairs qui parlent aux gens"
     }
   },
   "contact": {
@@ -111,9 +126,9 @@
     "title": "Faisons connaissance",
     "personRole": "Développeuse web & designer · ManonIT",
     "points": [
-      "Réponse sous 1 jour ouvré",
-      "Premier échange gratuit de 30 minutes",
-      "Clair dès le départ sur ce que vous payez, sans engagement"
+      "Une réponse personnelle sous un jour ouvré",
+      "Faire connaissance lors d'un échange de 30 minutes, gratuit et sans engagement",
+      "Une proposition honnête, claire dès le départ sur ce que cela coûte"
     ],
     "whatsapp": "Envoyer un WhatsApp",
     "formTitle": "Envoyer un message",
@@ -204,21 +219,9 @@
       "description": "Articles sur le développement full stack, le storytelling, le design et mon chemin de KLM au code. Honnête, personnel et pratique."
     },
     "journal": {
-      "designchaos": {
-        "title": "Mettre de l'ordre dans le chaos avec le code et le design | Manon Keeman",
-        "description": "Pourquoi la structure n'est pas ennuyeuse mais libératrice."
-      },
-      "storytelling": {
-        "title": "Storytelling dans l'IT | Manon Keeman",
-        "description": "Pourquoi les histoires sont indispensables en technologie."
-      },
       "365korteverhalen": {
         "title": "365 Histoires courtes : de l'idée au livre | Manon Keeman",
         "description": "Un livre en cours : 365 scènes d'absurdité et de survie."
-      },
-      "toekomsttech": {
-        "title": "L'avenir de la tech | Manon Keeman",
-        "description": "L'IA, le travail à distance et le rôle de la créativité."
       },
       "pastelvanbuiten": {
         "title": "Pastel en apparence, surprenant en profondeur | Manon Keeman",
@@ -286,21 +289,9 @@
   },
   "journalSection": {
     "articles": {
-      "designchaos": {
-        "title": "Mettre de l'ordre dans le chaos avec le code et le design",
-        "excerpt": "Pourquoi la structure n'est pas ennuyeuse mais libératrice."
-      },
-      "storytelling": {
-        "title": "Storytelling dans l'IT",
-        "excerpt": "Pourquoi les histoires sont indispensables en technologie."
-      },
       "365korteverhalen": {
         "title": "365 Histoires courtes : de l'idée au livre",
         "excerpt": "Un livre en cours : 365 scènes d'absurdité et de survie."
-      },
-      "ToekomstTech": {
-        "title": "L'avenir de la tech",
-        "excerpt": "L'IA, le travail à distance et le rôle de la créativité."
       },
       "pastelvanbuiten": {
         "title": "Pastel en apparence, surprenant en profondeur",
@@ -352,7 +343,7 @@
       },
       "design": {
         "name": "Webdesign",
-        "desc": "Un site qui a l'air bien et qui vous ressemble vraiment : un design qui montre votre marque.",
+        "desc": "Un site qui a l'air bien et qui vous ressemble vraiment : un design qui montre qui vous êtes.",
         "tags": "UX/UI, identité visuelle, Figma"
       },
       "copy": {
@@ -372,7 +363,7 @@
       },
       "social": {
         "name": "Réseaux sociaux",
-        "desc": "De la stratégie au contenu. Je vous aide avec une approche qui correspond à votre marque et que vous pouvez maintenir.",
+        "desc": "De la stratégie au contenu. Je vous aide avec une approche qui correspond à votre style et que vous pouvez maintenir.",
         "tags": "Instagram, LinkedIn, planning de contenu"
       }
     }
@@ -476,7 +467,7 @@
         "items": [
           "Pages illimitées",
           "Design créé de zéro",
-          "CMS sur mesure adapté à votre entreprise",
+          "CMS sur mesure adapté à votre projet",
           "Boutique en ligne, portail client ou intégrations possibles",
           "Plusieurs langues possibles",
           "Logo et identité visuelle inclus"
@@ -567,7 +558,7 @@
       },
       "brand": {
         "name": "Marque",
-        "tagline": "Entièrement adapté à votre marque.",
+        "tagline": "Entièrement adapté à votre style.",
         "items": [
           "Jusqu'à 12 pages",
           "Design personnalisé plus vérification de l'identité visuelle ou rafraîchissement du logo",
@@ -602,7 +593,7 @@
           },
           {
             "q": "Pourquoi est-ce plus cher qu'un abonnement bon marché ou Wix ?",
-            "a": "Avec les abonnements bon marché, vous obtenez un site standard qui reste chez le prestataire. Chez moi, vous obtenez un design adapté à votre marque, avec textes et construction par la même personne, et après 24 mois le site est à vous."
+            "a": "Avec les abonnements bon marché, vous obtenez un site standard qui reste chez le prestataire. Chez moi, vous obtenez un design adapté à votre style, avec textes et construction par la même personne, et après 24 mois le site est à vous."
           },
           {
             "q": "Comment se fait la facturation ?",
@@ -619,7 +610,28 @@
           },
           {
             "q": "Que faut-il pour démarrer ?",
-            "a": "Logos et photos, ainsi que les informations pour les textes : données de l'entreprise, détails personnels et contenu souhaité. S'il manque des photos, je travaille avec des photographes attitrés."
+            "a": "Logos et photos, ainsi que les informations pour les textes : coordonnées, détails personnels et contenu souhaité. S'il manque des photos, je travaille avec des photographes attitrés."
+          }
+        ]
+      },
+      {
+        "title": "Types de sites web et coûts",
+        "items": [
+          {
+            "q": "Quels types de sites web sont possibles ?",
+            "a": "D'un site d'entreprise de quelques pages à un blog, un site de réservation pour une maison de vacances ou un bien en location, une boutique en ligne, un portail client ou une application web. Ce qui convient dépend de ce que le site doit faire. Cela se discute lors de l'échange de présentation."
+          },
+          {
+            "q": "Quel site correspond à quel tarif ?",
+            "a": "Site d'entreprise de quelques pages : abonnement Départ, ou un projet Site de base (à partir de 1 200 €). Blog ou site géré soi-même : Site avec CMS (à partir de 2 450 €). Site de réservation avec module de réservation : abonnement Marque, ou sur-mesure complet. Boutique en ligne, portail client ou liens avec d'autres systèmes : Entièrement sur mesure (à partir de 4 250 €). Tous les prix sont hors TVA. Pour un projet, un devis à prix fixe est toujours fourni d'abord."
+          },
+          {
+            "q": "Qu'est-ce qu'un CMS ?",
+            "a": "CMS signifie système de gestion de contenu : un espace d'administration où textes, photos et articles de blog peuvent être modifiés sans connaissances en programmation. WordPress en est l'exemple le plus connu. Un CMS sur mesure peut aussi être développé."
+          },
+          {
+            "q": "Quelle différence de coût avec et sans CMS ?",
+            "a": "Sans CMS, un site est prêt plus vite et coûte moins cher (Site de base à partir de 1 200 €). Les modifications sont alors faites par moi, à un tarif horaire ou dans le cadre d'un abonnement. Avec CMS (à partir de 2 450 €), il y a plus de travail de construction et un design sur mesure, et textes, photos et blog peuvent être gérés soi-même. Un CMS développé sur mesure fait partie de Entièrement sur mesure (à partir de 4 250 €)."
           }
         ]
       },

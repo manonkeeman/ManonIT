@@ -30,7 +30,6 @@ export default function Privacy() {
                         <li><strong>KvK-nummer:</strong> 42053266</li>
                         <li><strong>BTW-nummer:</strong> NL005459093B94</li>
                         <li><strong>E-mail:</strong> <a href="mailto:lets@manonit.com">lets@manonit.com</a></li>
-                        <li><strong>Locaties:</strong> Bakkum &amp; Driebergen, Nederland</li>
                     </ul>
 
                     <hr className="rule" />

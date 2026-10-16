@@ -82,7 +82,6 @@ export default function Footer() {
                     <a href="https://wa.me/31624766568" target="_blank" rel="noreferrer" className="footer-icon-link">
                         <FaWhatsapp aria-hidden="true"/> +31 6 24766568
                     </a>
-                    <p className="footer-text">Bakkum · Driebergen</p>
                     <p className="footer-text">KVK: 42053266</p>
                     <p className="footer-text">BTW: NL005459093B94</p>
                 </div>

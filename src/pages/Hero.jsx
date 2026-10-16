@@ -1,14 +1,15 @@
 import { memo } from "react";
 import { useTranslation } from "react-i18next";
-import { FiCheck, FiStar, FiLayers, FiSearch, FiMessageCircle, FiCalendar } from "react-icons/fi";
+import { FiCheck, FiBriefcase, FiHome, FiFeather, FiSmartphone, FiCalendar } from "react-icons/fi";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 
-const TRUST = [
-    { key: "rating",  Icon: FiStar },
-    { key: "oneStop", Icon: FiLayers },
-    { key: "seo",     Icon: FiSearch },
-    { key: "free",    Icon: FiMessageCircle },
+// "Voor wie": elk blok verwijst naar een eigen project als bewijs
+const FOR_WHO = [
+    { key: "business", Icon: FiBriefcase,  to: "/thebigthree" },
+    { key: "stay",     Icon: FiHome,       to: "/frontendvredestein" },
+    { key: "makers",   Icon: FiFeather,    to: "/marieboddaert" },
+    { key: "apps",     Icon: FiSmartphone, to: "/backendstudentendashboard" },
 ];
 
 function Hero() {
@@ -87,16 +88,18 @@ function Hero() {
                 </div>
             </div>
 
-            {/* VERTROUWENSBALK */}
+            {/* VOOR WIE */}
             <div className="trust-bar">
                 <ul className="trust-grid">
-                    {TRUST.map(({ key, Icon }) => (
-                        <li key={key} className="trust-item">
-                            <span className="trust-icon"><Icon aria-hidden="true"/></span>
-                            <span>
-                                <strong>{t(`hero.trust.${key}.title`)}</strong>
-                                <small>{t(`hero.trust.${key}.text`)}</small>
-                            </span>
+                    {FOR_WHO.map(({ key, Icon, to }) => (
+                        <li key={key}>
+                            <Link to={to} className="trust-item trust-link">
+                                <span className="trust-icon"><Icon aria-hidden="true"/></span>
+                                <span>
+                                    <strong>{t(`hero.forWho.${key}.title`)}</strong>
+                                    <small>{t(`hero.forWho.${key}.text`)}</small>
+                                </span>
+                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -203,6 +206,9 @@ function Hero() {
           border-top: 1px solid var(--border);
         }
         .trust-item{ display:flex; align-items:center; gap:14px; }
+        .trust-link{ color:inherit; text-decoration:none; border-radius:14px; padding:6px; margin:-6px; transition: background .2s ease, transform .2s ease; }
+        .trust-link:hover, .trust-link:focus-visible{ background: var(--bg-alt); transform: translateY(-2px); }
+        .trust-link:hover .trust-icon{ color:#fff; background: var(--accent-ink); }
         .trust-item strong{ display:block; font-size:1rem; font-weight:700; }
         .trust-item strong{ font-weight:600 !important; }
         .trust-item small{ display:block; font-size:.85rem; color:var(--muted); line-height:1.4; }

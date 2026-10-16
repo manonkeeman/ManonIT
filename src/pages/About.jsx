@@ -1,10 +1,21 @@
-import { FaReact, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaGitAlt, FaJava } from "react-icons/fa";
 import { FiCheck, FiBookOpen } from "react-icons/fi";
-import { SiSpringboot, SiPostgresql, SiFigma } from "react-icons/si";
+import {
+  SiSpringboot, SiPostgresql, SiFigma, SiJavascript, SiHtml5, SiCss, SiVite, SiGithub,
+  SiWordpress, SiNetlify, SiClaude, SiGoogleanalytics,
+} from "react-icons/si";
 import { useTranslation } from "react-i18next";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import Seo from "../assets/Components/Seo.jsx";
 import JsonLd from "../assets/Components/JsonLd.jsx";
+
+// Tools en talen met naam in de tooltip (alleen wat daadwerkelijk gebruikt wordt)
+const STACK = [
+  ["React", FaReact], ["JavaScript", SiJavascript], ["HTML", SiHtml5], ["CSS", SiCss], ["Vite", SiVite],
+  ["Java", FaJava], ["Spring Boot", SiSpringboot], ["PostgreSQL", SiPostgresql],
+  ["Git", FaGitAlt], ["GitHub", SiGithub], ["Figma", SiFigma],
+  ["WordPress", SiWordpress], ["Netlify", SiNetlify], ["Google Analytics", SiGoogleanalytics], ["Claude", SiClaude],
+];
 
 const ABOUT_SCHEMA = {
     "@context": "https://schema.org",
@@ -20,10 +31,6 @@ const ABOUT_SCHEMA = {
         "jobTitle": "Full Stack Developer & Webdesigner",
         "description": "Manon Keeman is een freelance full stack developer en webdesigner met een achtergrond in grafisch ontwerp, interne communicatie en luchtvaart. Ze studeerde aan de Gerrit Rietveld Academie, het SAE Institute en de Schrijversacademie, en rondde haar opleiding Full Stack Development af aan het NOVI College.",
         "email": "mailto:lets@manonit.com",
-        "address": [
-            { "@type": "PostalAddress", "addressLocality": "Bakkum", "addressCountry": "NL" },
-            { "@type": "PostalAddress", "addressLocality": "Driebergen", "addressCountry": "NL" },
-        ],
         "sameAs": [
             "https://www.linkedin.com/in/manonkeeman/",
             "https://github.com/manonkeeman",
@@ -88,11 +95,9 @@ export default function About() {
 
               {/* Tech stack icons met tooltip */}
               <div className="about-stack" aria-label="Tech stack">
-                <span data-tooltip="React"><FaReact /></span>
-                <span data-tooltip="Spring Boot"><SiSpringboot /></span>
-                <span data-tooltip="PostgreSQL"><SiPostgresql /></span>
-                <span data-tooltip="Git"><FaGitAlt /></span>
-                <span data-tooltip="Figma"><SiFigma /></span>
+{STACK.map(([name, Icon]) => (
+                  <span key={name} data-tooltip={name} tabIndex={0}><Icon aria-label={name} /></span>
+                ))}
               </div>
             </div>
           </div>
@@ -113,7 +118,7 @@ export default function About() {
                 <img
                     src="/about-portrait-800w.webp"
                     width="800"
-                    height="600"
+                    height="1200"
                     alt="Portrait Manon"
                     decoding="async"
                 />
@@ -185,10 +190,10 @@ export default function About() {
           white-space:nowrap; opacity:0; pointer-events:none; transition: opacity .18s ease;
           box-shadow: var(--shadow);
         }
-        .about-stack span:hover::after{ opacity:1; }
+        .about-stack span:hover::after, .about-stack span:focus-visible::after{ opacity:1; }
 
         .about-photo img{
-          display:block; width:100%; height:auto; aspect-ratio: 4 / 5; object-fit:cover; object-position: 58% center;
+          display:block; width:100%; height:auto; aspect-ratio: 800 / 968; object-fit:cover; object-position: 50% 48.3%; /* bronbestand heeft transparante randen boven en onder */
           border-radius: 20px; box-shadow: 0 30px 60px -30px rgba(0,0,0,.35);
         }
         .about-journal-cta{
@@ -203,7 +208,7 @@ export default function About() {
 
         @media (max-width: 920px){
           .about-grid{ grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "photo" "copy" "journal"; }
-          .about-photo img{ aspect-ratio: 4 / 3; }
+          .about-photo{ max-width: 420px; justify-self: center; width: 100%; }
         }
         @media (max-width: 480px){
           .about-skills{ grid-template-columns: 1fr; }

@@ -15,9 +15,6 @@
         "casareille": "Web design · Casa Reille"
       },
       "journal": {
-        "designchaos": "Design Chaos",
-        "storytelling": "Storytelling",
-        "toekomsttech": "Future of Tech",
         "365korteverhalen": "365 Short Stories",
         "pastelvanbuiten": "Pastel on the outside, surprising on the inside",
         "ai-in-mijn-werk": "AI in my work",
@@ -40,9 +37,9 @@
     "copied": "Link copied!"
   },
   "hero": {
-    "greeting": "Your website shouldn't be a project. It should be an employee who never stops working.",
+    "greeting": "A place of your own online, for every idea, every story and every place to feel at home.",
     "tagline": "You dream it, I Manon it.",
-    "bio": "No big sum upfront and then silence. With a subscription I build your site, keep it running and grow it with your business. One fixed monthly fee, one point of contact.",
+    "bio": "No big sum upfront and then silence. With a subscription I build your site, keep it running and grow it with your project. One fixed monthly fee, one point of contact.",
     "roles": "Web Development • Web Design • Copywriting • SEO • React",
     "projects": "View my work",
     "journal": "Journal",
@@ -73,6 +70,24 @@
         "title": "Free intro call",
         "text": "30 minutes, no obligation"
       }
+    },
+    "forWho": {
+      "business": {
+        "title": "For businesses",
+        "text": "Like The Big Three, a garage in Nunspeet"
+      },
+      "stay": {
+        "title": "For holiday homes and stays",
+        "text": "Like Villa Vredestein and Casa Reille"
+      },
+      "makers": {
+        "title": "For writers and makers",
+        "text": "Like the site of Marie H. Boddaert"
+      },
+      "apps": {
+        "title": "For apps and platforms",
+        "text": "Like CasaCrew, a rental app"
+      }
     }
   },
   "about": {
@@ -80,17 +95,17 @@
     "quote": "I build what I used to have to explain.\nFrom idea to design to working code.",
     "bio1": "I love it when something just works. When an idea, a design and the execution fit together seamlessly.",
     "bio2": "My path was anything but straight. From the Gerrit Rietveld Academie to SAE Institute and the Schrijversacademie, always searching for how to make something not just beautiful, but also understandable.",
-    "bio3": "After years working in the automotive industry (Renault, Pieter Smit) and for clients like the Municipality of Amsterdam (design) and KLM (newsletters and blogs), I noticed something frustrating: I could see exactly what could be better… but I couldn't always build it myself.",
+    "bio3": "After years working in the automotive industry (Renault, Pieter Smit) and for clients like the Municipality of Amsterdam (graphic design and communications) and KLM (newsletters and blogs), I noticed something frustrating: I could see exactly what could be better… but I couldn't always build it myself.",
     "bio4": "So I decided to change that. I retrained as a Full Stack Developer at NOVI College. Because I no longer wanted a gap between idea and execution.",
-    "bio5": "In plain terms: I solve technical problems and build the website that goes with the solution. No detours, no separate specialists working past each other. One person who takes it from idea to launch.",
+    "bio5": "An idea, a business, something that needs to go online but nobody quite knows how? Tell me. I work out what is needed, design it, write the copy and build it myself. No detours, no separate specialists working past each other: one person, from first idea to the day it goes live. If something falls outside my field, I'll say so honestly. From idea to something that really works: that's what makes me happy.",
     "journalCta": "Curious how I think and work? In my journal I write about code, design and my path into development.",
     "journalBtn": "Go to the journal",
-    "skillsTitle": "Skills",
+    "skillsTitle": "What I'm good at",
     "skills": {
-      "stack": "Full stack: React, Spring Boot, Git",
-      "systems": "Systems thinking & architecture",
-      "uxui": "UX/UI, SEO & graphic design",
-      "storytelling": "Copywriting & content strategy"
+      "stack": "Websites and apps that are fast and safe",
+      "systems": "Making difficult things simple and clear",
+      "uxui": "A good-looking, easy design that gets found",
+      "storytelling": "Text that is clear and appealing"
     }
   },
   "contact": {
@@ -111,9 +126,9 @@
     "title": "Let's get acquainted",
     "personRole": "Web developer & designer · ManonIT",
     "points": [
-      "Reply within 1 business day",
-      "Free 30-minute intro call",
-      "Clear up front what you pay, no obligations"
+      "A personal reply within one working day",
+      "Getting to know each other in a 30-minute call, free and without obligation",
+      "An honest proposal, clear up front about what it costs"
     ],
     "whatsapp": "Send a WhatsApp",
     "formTitle": "Send a message",
@@ -142,7 +157,7 @@
       },
       "design": {
         "name": "Web Design",
-        "desc": "A site that looks great and actually fits you: a design that shows your brand.",
+        "desc": "A site that looks great and actually fits you: a design that shows who you are.",
         "tags": "UX/UI, branding, Figma"
       },
       "copy": {
@@ -162,7 +177,7 @@
       },
       "social": {
         "name": "Social media",
-        "desc": "From strategy to content. I help you with an approach that fits your brand and that you can actually keep up.",
+        "desc": "From strategy to content. I help you with an approach that fits your style and that you can actually keep up.",
         "tags": "Instagram, LinkedIn, content planning"
       }
     }
@@ -265,21 +280,9 @@
       "description": "Articles about full stack development, storytelling, design and my path from KLM to code. Honest, personal and practical."
     },
     "journal": {
-      "designchaos": {
-        "title": "Ordering chaos with code and design | Manon Keeman",
-        "description": "Why structure is not boring but gives freedom."
-      },
-      "storytelling": {
-        "title": "Storytelling in IT | Manon Keeman",
-        "description": "Why stories are indispensable in technology."
-      },
       "365korteverhalen": {
         "title": "365 Short stories: from idea to book | Manon Keeman",
         "description": "A book in the making: 365 scenes of absurdity and survival."
-      },
-      "toekomsttech": {
-        "title": "The future of tech | Manon Keeman",
-        "description": "AI, remote work and the role of creativity."
       },
       "ai-in-mijn-werk": {
         "title": "How I use AI in my work (and where I don't) | Manon Keeman",
@@ -347,21 +350,9 @@
   },
   "journalSection": {
     "articles": {
-      "designchaos": {
-        "title": "Ordering chaos with code and design",
-        "excerpt": "Why structure is not boring but gives freedom."
-      },
-      "storytelling": {
-        "title": "Storytelling in IT",
-        "excerpt": "Why stories are indispensable in technology."
-      },
       "365korteverhalen": {
         "title": "365 Short stories: from idea to book",
         "excerpt": "A book in the making: 365 scenes of absurdity and survival."
-      },
-      "ToekomstTech": {
-        "title": "The future of tech",
-        "excerpt": "AI, remote work and the role of creativity."
       },
       "ai-in-mijn-werk": {
         "title": "How I use AI in my work (and where I don't)",
@@ -476,7 +467,7 @@
         "items": [
           "Unlimited pages",
           "Designed from scratch",
-          "Custom CMS tailored to your business",
+          "Custom CMS tailored to your project",
           "Webshop, client portal or integrations possible",
           "Multiple languages possible",
           "Logo and brand identity included"
@@ -567,7 +558,7 @@
       },
       "brand": {
         "name": "Brand",
-        "tagline": "Fully tailored to your brand.",
+        "tagline": "Fully tailored to your style.",
         "items": [
           "Up to 12 pages",
           "Custom design plus branding check or logo refresh",
@@ -602,7 +593,7 @@
           },
           {
             "q": "Why is this more expensive than a cheap subscription or Wix?",
-            "a": "With cheap subscriptions you get a standard site that stays with the provider. With me you get a design that fits your brand, with copy and build from the same person, and after 24 months the website is yours."
+            "a": "With cheap subscriptions you get a standard site that stays with the provider. With me you get a design that fits your style, with copy and build from the same person, and after 24 months the website is yours."
           },
           {
             "q": "How is billing done?",
@@ -619,7 +610,28 @@
           },
           {
             "q": "What is needed to get started?",
-            "a": "Logos and photos, plus details for the copy, such as company information, personal details and what should go on the site. If photos are missing, I work with regular photographers."
+            "a": "Logos and photos, plus details for the copy, such as contact details, personal details and what should go on the site. If photos are missing, I work with regular photographers."
+          }
+        ]
+      },
+      {
+        "title": "Types of websites and costs",
+        "items": [
+          {
+            "q": "What kinds of websites are possible?",
+            "a": "From a business site of a few pages to a blog, a booking site for a holiday home or rental property, a web shop, a client portal or a web app. What fits depends on what the site needs to do. That is discussed in the intro call."
+          },
+          {
+            "q": "Which site goes with which price?",
+            "a": "A business site of a few pages: the Start subscription, or a project as Basic website (from €1,200). A blog or a site that can be managed by the owner: Website with CMS (from €2,450). A booking site with a booking module: the Brand subscription, or fully custom work. A web shop, client portal or links with other systems: Fully custom (from €4,250). All prices exclude VAT. For a project you always get a fixed-price quote first."
+          },
+          {
+            "q": "What is a CMS?",
+            "a": "CMS stands for content management system: an admin area where text, photos and blog posts can be edited without programming knowledge. WordPress is the best-known example. A custom CMS can also be built."
+          },
+          {
+            "q": "What is the cost difference with and without a CMS?",
+            "a": "Without a CMS a site is ready sooner and cheaper (Basic website from €1,200). Changes are then made by me, at an hourly rate or within a subscription. With a CMS (from €2,450) there is more build work and a custom design, and text, photos and blog can be managed by the owner. A custom-built CMS is part of Fully custom (from €4,250)."
           }
         ]
       },

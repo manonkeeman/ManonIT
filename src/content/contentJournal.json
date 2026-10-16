@@ -1,36 +1,11 @@
 [
   {
-    "slug": "designchaos",
-    "title": "Chaos ordenen met code en design",
-    "date": "2025-09-01",
-    "excerpt": "Waarom structuur niet saai is maar vrijheid geeft.",
-    "cover": "/journal/Design-Chaos-800w.avif",
-    "words": 480
-  },
-  {
-    "slug": "storytelling",
-    "title": "Storytelling in IT",
-    "date": "2025-09-05",
-    "excerpt": "Waarom verhalen onmisbaar zijn in technologie.",
-    "cover": "/journal/storytelling-it-800w.avif",
-    "words": 530
-  },
-  {
     "slug": "365korteverhalen",
     "title": "365 Korte verhalen: van idee naar boek",
     "date": "2025-09-12",
     "excerpt": "Een boek in wording: 365 scènes van absurdititeit en overleven.",
     "cover": "/journal/cover365fragmenten-800w.avif",
     "words": 700
-  },
-  {
-    "slug": "ToekomstTech",
-    "title": "De toekomst van tech",
-    "date": "2025-09-18",
-    "excerpt": "AI, remote werken en de rol van creativiteit.",
-    "cover": "/journal/toekomst-it-800w.avif",
-    "words": 700,
-    "imgPosition": "top center"
   },
   {
     "slug": "pastelvanbuiten",
