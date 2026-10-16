@@ -13,12 +13,15 @@ export default function Footer() {
     const { t } = useTranslation();
     const prefix = useLangPrefix();
     // Op de homepage staat het contactformulier al direct boven de footer
-    const isHome = stripEnPrefix(useLocation().pathname) === "/";
+    const path = stripEnPrefix(useLocation().pathname);
+    const isHome = path === "/";
+    // De werkwijze-pagina heeft zelf een afsluitende CTA
+    const hideCta = isHome || path === "/werkwijze";
 
     return (
         <footer className="footer">
             {/* CTA-strook */}
-            {!isHome && <div className="footer-cta">
+            {!hideCta && <div className="footer-cta">
                 <div>
                     <h2>{t('footer.ctaTitle')}</h2>
                     <p>{t('footer.ctaSub')}</p>
