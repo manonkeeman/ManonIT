@@ -20,7 +20,7 @@ const content = {
                 <p>
                     Voor Casa Reille bouw ik een voordelige website voor de verhuur van een vakantiehuis bij
                     Atri in Abruzzo, Italië. Geen webshop, geen ingewikkeld systeem, maar een rustige site die
-                    het huis laat zien en gasten laat contact opnemen. De site is nog in ontwikkeling. De
+                    het huis laat zien en waarmee gasten gemakkelijk contact kunnen opnemen. De site is nog in ontwikkeling. De
                     huidige versie staat op <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
                 </p>
                 <p>
@@ -70,7 +70,7 @@ const content = {
                 <p>
                     Een eenvoudige verhuursite past in mijn basispakket, vanaf €1.200 exclusief btw voor tot 5
                     pagina's. Wil je zelf teksten en foto's kunnen aanpassen, dan kijken we naar een site met
-                    CMS. Alle tarieven staan op de <Link to="/#tarieven">homepage</Link>.
+                    CMS. Mijn tarieven staan op de <Link to="/tarieven">pagina Tarieven</Link>.
                 </p>
 
                 <h2>Wil je dit ook?</h2>
@@ -148,7 +148,7 @@ const content = {
                 <p>
                     A simple rental site fits my basic package, from €1,200 excluding VAT for up to 5 pages. If
                     you want to edit text and photos yourself, we look at a site with a CMS. All rates are on
-                    the <Link to="/#tarieven">homepage</Link>.
+                    the <Link to="/tarieven">Pricing page</Link>.
                 </p>
 
                 <h2>Want this too?</h2>
@@ -233,7 +233,7 @@ const content = {
                     Un site de location simple entre dans ma formule de base, à partir de 1 200 €
                     hors TVA pour jusqu'à 5 pages. Si vous voulez modifier vous-même textes et
                     photos, nous regardons un site avec CMS. Tous les tarifs figurent sur la <Link
-                    to="/#tarieven">page d'accueil</Link>.
+                    to="/tarieven">page Tarifs</Link>.
                 </p>
 
                 <h2>Envie de la même chose ?</h2>
@@ -320,7 +320,7 @@ const content = {
                     Eine einfache Vermietungs-Website passt in mein Basispaket, ab 1.200 € zzgl.
                     MwSt. für bis zu 5 Seiten. Möchten Sie Texte und Fotos selbst ändern, schauen
                     wir uns eine Seite mit CMS an. Alle Preise stehen auf der <Link
-                    to="/#tarieven">Startseite</Link>.
+                    to="/tarieven">Seite Preise</Link>.
                 </p>
 
                 <h2>Möchten Sie das auch?</h2>
@@ -405,8 +405,7 @@ const content = {
                 <p>
                     Una web de alquiler sencilla encaja en mi paquete básico, desde 1.200 € sin IVA
                     para hasta 5 páginas. Si quieres cambiar tú mismo textos y fotos, miramos una
-                    web con CMS. Todas las tarifas están en la <Link to="/#tarieven">página de
-                    inicio</Link>.
+                    web con CMS. Todas las tarifas están en la <Link to="/tarieven">página de Tarifas</Link>.
                 </p>
 
                 <h2>¿Quieres lo mismo?</h2>
@@ -491,7 +490,7 @@ const content = {
                     Un semplice sito di affitto rientra nel mio pacchetto base, da 1.200 € IVA
                     esclusa per un massimo di 5 pagine. Se vuoi modificare tu stesso testi e foto,
                     valutiamo un sito con CMS. Tutte le tariffe sono nella <Link
-                    to="/#tarieven">home page</Link>.
+                    to="/tarieven">pagina Tariffe</Link>.
                 </p>
 
                 <h2>Vuoi lo stesso anche tu?</h2>
@@ -575,7 +574,7 @@ const content = {
                 <p>
                     Простий сайт для оренди вписується в мій базовий пакет, від 1 200 € без ПДВ до 5
                     сторінок. Якщо ви хочете самі змінювати тексти та фото, розглянемо сайт із CMS.
-                    Усі тарифи — на <Link to="/#tarieven">головній сторінці</Link>.
+                    Усі тарифи — на <Link to="/tarieven">сторінці «Тарифи»</Link>.
                 </p>
 
                 <h2>Хочете так само?</h2>

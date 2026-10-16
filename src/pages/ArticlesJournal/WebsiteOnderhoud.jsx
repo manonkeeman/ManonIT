@@ -31,7 +31,7 @@ const content = {
                     en monitoring. <strong>Onderhoud &amp; Groei</strong> kost €240 per maand en bevat 4 uur
                     werk, plus SEO en GEO en een maandrapport. Beide abonnementen lopen minimaal 3 maanden en
                     zijn daarna maandelijks opzegbaar. Losse uren kosten €65. Alle prijzen zijn exclusief btw,
-                    en je vindt ze ook op de <Link to="/#tarieven">homepage</Link>.
+                    en je vindt ze ook op de <Link to="/tarieven">pagina Tarieven</Link>.
                 </p>
 
                 <h2>Heb je onderhoud nodig?</h2>
@@ -94,7 +94,7 @@ const content = {
                     updates, backups and monitoring. <strong>Maintenance &amp; Growth</strong> costs €240 per
                     month and includes 4 hours of work, plus SEO and GEO and a monthly report. Both plans run
                     for at least 3 months and can be cancelled monthly after that. Extra hours cost €65. All
-                    prices exclude VAT, and you can also find them on the <Link to="/#tarieven">homepage</Link>.
+                    prices exclude VAT, and you can also find them on the <Link to="/tarieven">Pricing page</Link>.
                 </p>
 
                 <h2>Do you need maintenance?</h2>
@@ -163,7 +163,7 @@ const content = {
                     heures de travail, plus le SEO et le GEO et un rapport mensuel. Les deux
                     formules durent au moins 3 mois, puis sont résiliables chaque mois. Les heures
                     supplémentaires coûtent 65 €. Tous les prix sont hors TVA et figurent aussi sur
-                    la <Link to="/#tarieven">page d'accueil</Link>.
+                    la <Link to="/tarieven">page Tarifs</Link>.
                 </p>
 
                 <h2>En avez-vous besoin ?</h2>
@@ -240,7 +240,7 @@ const content = {
                     kostet 240 € pro Monat und enthält 4 Stunden Arbeit, dazu SEO und GEO sowie
                     einen Monatsbericht. Beide Abos laufen mindestens 3 Monate und sind danach
                     monatlich kündbar. Einzelne Stunden kosten 65 €. Alle Preise verstehen sich
-                    zzgl. MwSt. und stehen auch auf der <Link to="/#tarieven">Startseite</Link>.
+                    zzgl. MwSt. und stehen auch auf der <Link to="/tarieven">Seite Preise</Link>.
                 </p>
 
                 <h2>Brauchen Sie Wartung?</h2>
@@ -316,7 +316,7 @@ const content = {
                     horas de trabajo, más SEO y GEO y un informe mensual. Ambas suscripciones duran
                     al menos 3 meses y después se pueden cancelar mensualmente. Las horas sueltas
                     cuestan 65 €. Todos los precios son sin IVA y también están en la <Link
-                    to="/#tarieven">página de inicio</Link>.
+                    to="/tarieven">página de Tarifas</Link>.
                 </p>
 
                 <h2>¿Necesitas mantenimiento?</h2>
@@ -390,7 +390,7 @@ const content = {
                     Crescita</strong> costa 240 € al mese e comprende 4 ore di lavoro, più SEO e GEO
                     e un report mensile. Entrambi gli abbonamenti durano almeno 3 mesi e poi sono
                     disdicibili mensilmente. Le ore singole costano 65 €. Tutti i prezzi sono IVA
-                    esclusa e si trovano anche nella <Link to="/#tarieven">home page</Link>.
+                    esclusa e si trovano anche nella <Link to="/tarieven">pagina Tariffe</Link>.
                 </p>
 
                 <h2>Ti serve la manutenzione?</h2>
@@ -462,7 +462,7 @@ const content = {
                     Зростання</strong> коштує 240 € на місяць і включає 4 години роботи, а також
                     SEO, GEO та щомісячний звіт. Обидві підписки діють щонайменше 3 місяці, а потім
                     їх можна скасувати щомісяця. Окремі години коштують 65 €. Усі ціни без ПДВ, їх
-                    також видно на <Link to="/#tarieven">головній сторінці</Link>.
+                    також видно на <Link to="/tarieven">сторінці «Тарифи»</Link>.
                 </p>
 
                 <h2>Чи потрібна вам підтримка?</h2>

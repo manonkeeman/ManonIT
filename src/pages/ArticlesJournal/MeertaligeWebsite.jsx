@@ -44,12 +44,16 @@ const content = {
                     snapt, laat dan altijd een moedertaalspreker meelezen.
                 </p>
 
+                <p>
+                    Ik heb zelf in München gewoond en op mijn zestiende stage gelopen in Frankrijk. Daar hield ik een groepje vaste vrienden aan over, met wie ik nog steeds contact heb. Zo onderhoud ik mijn Duits en Frans. Dat helpt bij mijn werk: ik hoor meteen als een zin klopt maar niet klinkt zoals iemand het echt zegt. Beleefdheidsvormen, uitdrukkingen en toon (u of je, Sie of du, vous of tu) leer je niet uit een woordenboek. Bij die twee talen kan ik dus zelf controleren, in plaats van alleen op de vertaling te vertrouwen.
+                </p>
+
                 <h2>Wat het kost</h2>
                 <p>
                     Elke extra taal betekent meer tekst om te vertalen, te controleren en later bij te houden.
                     Daarom reken ik meertaligheid mee in de offerte, meestal bij volledig maatwerk of een site
                     met CMS. Een tweede taal is overzichtelijk. Zes talen vraagt echt om een goede opzet. Mijn
-                    tarieven staan op de <Link to="/#tarieven">homepage</Link>.
+                    tarieven staan op de <Link to="/tarieven">pagina Tarieven</Link>.
                 </p>
 
                 <h2>Het voorbeeld Villa Vredestein</h2>
@@ -109,12 +113,16 @@ const content = {
                     have a native speaker read along.
                 </p>
 
+                <p>
+                    I lived in Munich myself and did an internship in France when I was 16. That left me with a small group of lasting friends I am still in touch with, which is how I keep my German and French alive. It helps in my work: I hear at once when a sentence is correct but doesn't sound like something a person would really say. Forms of address, idioms and tone (Sie or du, vous or tu) are not something you learn from a dictionary. For those two languages I can check things myself instead of relying on the translation alone.
+                </p>
+
                 <h2>What it costs</h2>
                 <p>
                     Every extra language means more text to translate, check and keep up to date later. That is
                     why I include multilingual work in the quote, usually with fully custom builds or a site
                     with CMS. A second language is manageable. Six languages needs a proper set-up. My rates are
-                    on the <Link to="/#tarieven">homepage</Link>.
+                    on the <Link to="/tarieven">Pricing page</Link>.
                 </p>
 
                 <h2>The Villa Vredestein example</h2>
@@ -182,6 +190,10 @@ const content = {
                     toujours relire par un locuteur natif.
                 </p>
 
+                <p>
+                    J'ai moi-même vécu à Munich et fait un stage en France à 16 ans. J'en ai gardé un petit groupe d'amis fidèles, avec qui je suis toujours en contact, et c'est ainsi que j'entretiens mon allemand et mon français. Cela aide dans mon travail : j'entends tout de suite quand une phrase est correcte mais ne sonne pas comme quelqu'un la dirait vraiment. Les formules de politesse, les expressions et le ton (Sie ou du, vous ou tu) ne s'apprennent pas dans un dictionnaire. Pour ces deux langues, je peux donc vérifier moi-même au lieu de me fier uniquement à la traduction.
+                </p>
+
                 <h2>Ce que ça coûte</h2>
 
                 <p>
@@ -189,7 +201,7 @@ const content = {
                     tenir à jour. C'est pourquoi j'inclus le multilinguisme dans le devis, en
                     général pour du sur mesure complet ou un site avec CMS. Une deuxième langue
                     reste simple. Six langues demandent une vraie structure. Mes tarifs sont sur la
-                    <Link to="/#tarieven">page d'accueil</Link>.
+                    <Link to="/tarieven">page Tarifs</Link>.
                 </p>
 
                 <h2>L'exemple de Villa Vredestein</h2>
@@ -259,6 +271,10 @@ const content = {
                     einen Muttersprachler mitlesen.
                 </p>
 
+                <p>
+                    Ich habe selbst in München gewohnt und mit 16 ein Praktikum in Frankreich gemacht. Daraus ist ein fester Freundeskreis entstanden, mit dem ich bis heute in Kontakt bin, und so halte ich mein Deutsch und Französisch lebendig. Das hilft bei meiner Arbeit: Ich höre sofort, wenn ein Satz richtig ist, aber nicht so klingt, wie ihn jemand wirklich sagen würde. Anredeformen, Redewendungen und Ton (Sie oder du, vous oder tu) lernt man nicht aus dem Wörterbuch. Bei diesen beiden Sprachen kann ich also selbst prüfen, statt mich nur auf die Übersetzung zu verlassen.
+                </p>
+
                 <h2>Was es kostet</h2>
 
                 <p>
@@ -266,7 +282,7 @@ const content = {
                     aktuell gehalten werden muss. Deshalb rechne ich Mehrsprachigkeit im Angebot
                     mit, meist bei kompletter Maßanfertigung oder einer Seite mit CMS. Eine zweite
                     Sprache ist überschaubar. Sechs Sprachen brauchen einen guten Aufbau. Meine
-                    Preise stehen auf der <Link to="/#tarieven">Startseite</Link>.
+                    Preise stehen auf der <Link to="/tarieven">Seite Preise</Link>.
                 </p>
 
                 <h2>Das Beispiel Villa Vredestein</h2>
@@ -335,14 +351,17 @@ const content = {
                     Si no hablas un idioma, pide siempre que lo lea un hablante nativo.
                 </p>
 
+                <p>
+                    Yo misma viví en Múnich y hice unas prácticas en Francia a los 16 años. De ahí me quedó un pequeño grupo de amigos fijos con los que sigo en contacto, y así mantengo vivos mi alemán y mi francés. Eso ayuda en mi trabajo: oigo enseguida cuando una frase es correcta pero no suena como la diría alguien de verdad. Las formas de trato, las expresiones y el tono (Sie o du, vous o tu) no se aprenden en un diccionario. En esos dos idiomas puedo comprobarlo yo misma, en lugar de fiarme solo de la traducción.
+                </p>
+
                 <h2>Cuánto cuesta</h2>
 
                 <p>
                     Cada idioma extra significa más texto que traducir, revisar y mantener al día.
                     Por eso incluyo la multilingüidad en el presupuesto, normalmente en proyectos a
                     medida o con CMS. Un segundo idioma es manejable. Seis idiomas requieren una
-                    buena estructura. Mis tarifas están en la <Link to="/#tarieven">página de
-                    inicio</Link>.
+                    buena estructura. Mis tarifas están en la <Link to="/tarieven">página de Tarifas</Link>.
                 </p>
 
                 <h2>El ejemplo de Villa Vredestein</h2>
@@ -411,6 +430,10 @@ const content = {
                     conosci una lingua, fai sempre leggere il testo a un madrelingua.
                 </p>
 
+                <p>
+                    Ho vissuto io stessa a Monaco di Baviera e a 16 anni ho fatto uno stage in Francia. Me ne è rimasto un piccolo gruppo di amici fissi con cui sono ancora in contatto, ed è così che tengo vivi il mio tedesco e il mio francese. Aiuta nel mio lavoro: sento subito quando una frase è corretta ma non suona come la direbbe davvero una persona. Le forme di cortesia, le espressioni e il tono (Sie o du, vous o tu) non si imparano dal dizionario. In queste due lingue posso quindi controllare io stessa, invece di fidarmi solo della traduzione.
+                </p>
+
                 <h2>Quanto costa</h2>
 
                 <p>
@@ -418,7 +441,7 @@ const content = {
                     aggiornato. Per questo includo il multilinguismo nel preventivo, di solito con
                     un su misura completo o un sito con CMS. Una seconda lingua è gestibile. Sei
                     lingue richiedono una buona impostazione. Le mie tariffe sono nella <Link
-                    to="/#tarieven">home page</Link>.
+                    to="/tarieven">pagina Tariffe</Link>.
                 </p>
 
                 <h2>L'esempio di Villa Vredestein</h2>
@@ -487,6 +510,10 @@ const content = {
                     мови, завжди просіть носія прочитати текст.
                 </p>
 
+                <p>
+                    Я сама жила в Мюнхені й у 16 років проходила стажування у Франції. Звідти в мене залишилося невелике коло постійних друзів, з якими я досі на зв'язку, і так я підтримую німецьку та французьку. Це допомагає в роботі: я одразу чую, коли речення правильне, але звучить не так, як сказала б жива людина. Форми звертання, вислови й тон (Sie чи du, vous чи tu) не вивчиш зі словника. Тож у цих двох мовах я можу перевірити сама, а не покладатися лише на переклад.
+                </p>
+
                 <h2>Скільки це коштує</h2>
 
                 <p>
@@ -494,7 +521,7 @@ const content = {
                     пізніше підтримувати. Тому я враховую багатомовність у пропозиції, зазвичай для
                     повністю індивідуальних проєктів або сайтів із CMS. Друга мова — це зрозуміло й
                     керовано. Шість мов потребують продуманої структури. Мої тарифи — на <Link
-                    to="/#tarieven">головній сторінці</Link>.
+                    to="/tarieven">сторінці «Тарифи»</Link>.
                 </p>
 
                 <h2>Приклад Villa Vredestein</h2>

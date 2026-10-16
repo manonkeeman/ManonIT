@@ -25,14 +25,15 @@ const content = {
                     en figuurlijk openstaat.
                 </p>
 
-                <h2>Wat we wilden voelen</h2>
+                <h2>Ons eigen project</h2>
                 <p>
-                    Voor mij was dit geen gewone opdracht. Maxim is mijn partner, en Villa Vredestein is een plek die me na aan het hart ligt. We wilden allebei hetzelfde: een site die voelt zoals het huis zelf. Warm, eerlijk en zonder poespas. Geen visitekaartje dat indruk moet maken, maar een plek waar je graag even blijft.
+                    Villa Vredestein is ons eigen project. We verhuren kamers aan studenten en verbouwen het huis zo dat er op den duur ook een luxe Airbnb kan komen. Daarnaast willen we het huis aantrekkelijk maken voor fotoshoots en filmopnames.
                 </p>
                 <p>
-                    Toch dacht Maxim dat een paar pagina's genoeg waren. Ik vroeg door: over de geschiedenis
-                    van het huis, de mensen die er wonen en wat bezoekers moeten voelen als ze de site openen.
-                    Maxim zei het later zelf in zijn review:
+                    Het is een klushuis dat van binnen volledig is verbouwd en gemoderniseerd, van isolatie tot vloerverwarming. De oude details komen terug of blijven behouden. De website vertelt het verhaal van die hele rebuild.
+                </p>
+                <p>
+                    We wilden een site die voelt zoals het huis zelf: warm, eerlijk en zonder poespas. Geen visitekaartje dat indruk moet maken, maar een plek waar je graag even blijft. Een paar pagina's leek genoeg, maar ik vroeg door: over de geschiedenis van het huis, de mensen die er wonen en wat bezoekers moeten voelen als ze de site openen. In een review stond:
                 </p>
                 <p className="note">
                     "Manon vroeg door tot ze het verhaal van Villa Vredestein beter kon vertellen dan ikzelf aan
@@ -42,6 +43,7 @@ const content = {
 
                 <h2>Wat er op de site staat</h2>
                 <ul>
+                    <li>Het verhaal van de verbouwing, van isolatie tot vloerverwarming</li>
                     <li>Een tijdlijn met de geschiedenis van het huis sinds 1906</li>
                     <li>Een galerij met foto's van binnen en buiten</li>
                     <li>De omgeving van de Utrechtse Heuvelrug</li>
@@ -93,14 +95,15 @@ const content = {
                     figuratively.
                 </p>
 
-                <h2>What we wanted it to feel like</h2>
+                <h2>Our own project</h2>
                 <p>
-                    For me this wasn't an ordinary project. Maxim is my partner, and Villa Vredestein is a place close to my heart. We both wanted the same thing: a site that feels like the house itself. Warm, honest and without fuss. Not a business card meant to impress, but a place where you like to stay a while.
+                    Villa Vredestein is our own project. We rent rooms to students and are renovating the house so that in time it can also become a luxury Airbnb. We also want to make the house attractive for photo shoots and film shoots.
                 </p>
                 <p>
-                    Still, Maxim thought a few pages would do. I kept asking: about the history of the house,
-                    the people who live there and what visitors should feel when they open the site. Maxim
-                    later put it himself in his review:
+                    It is a fixer-upper that has been completely renovated and modernised inside, from insulation to underfloor heating. The old details come back or are preserved. The website tells the story of the whole rebuild.
+                </p>
+                <p>
+                    We wanted a site that feels like the house itself: warm, honest and without fuss. Not a business card meant to impress, but a place where you like to stay a while. A few pages seemed enough, but I kept asking: about the history of the house, the people who live there and what visitors should feel when they open the site. A review said:
                 </p>
                 <p className="note">
                     "Manon kept asking questions until she could tell the story of Villa Vredestein better than
@@ -110,6 +113,7 @@ const content = {
 
                 <h2>What's on the site</h2>
                 <ul>
+                    <li>The story of the renovation, from insulation to underfloor heating</li>
                     <li>A timeline with the history of the house since 1906</li>
                     <li>A gallery with photos inside and out</li>
                     <li>The surroundings of the Utrechtse Heuvelrug</li>
@@ -159,14 +163,15 @@ const content = {
                     Sinn offen steht.
                 </p>
 
-                <h2>Wie es sich anfühlen sollte</h2>
+                <h2>Unser eigenes Projekt</h2>
                 <p>
-                    Für mich war das kein gewöhnlicher Auftrag. Maxim ist mein Partner, und die Villa Vredestein liegt mir sehr am Herzen. Wir wollten beide dasselbe: eine Website, die sich anfühlt wie das Haus selbst. Warm, ehrlich und ohne Schnörkel. Keine Visitenkarte, die beeindrucken soll, sondern ein Ort, an dem man gern ein wenig bleibt.
+                    Die Villa Vredestein ist unser eigenes Projekt. Wir vermieten Zimmer an Studierende und bauen das Haus so um, dass mit der Zeit auch ein luxuriöses Airbnb entstehen kann. Außerdem möchten wir das Haus für Fotoshootings und Filmaufnahmen attraktiv machen.
                 </p>
                 <p>
-                    Trotzdem dachte Maxim, ein paar Seiten würden reichen. Ich fragte nach: nach der Geschichte des
-                    Hauses, den Menschen, die dort wohnen, und dem, was Besucher beim Öffnen der Website fühlen
-                    sollen. Maxim sagte es später selbst in seiner Bewertung:
+                    Es ist ein Renovierungsobjekt, das innen komplett umgebaut und modernisiert wurde, von der Dämmung bis zur Fußbodenheizung. Die alten Details kehren zurück oder bleiben erhalten. Die Website erzählt die Geschichte des gesamten Umbaus.
+                </p>
+                <p>
+                    Wir wollten eine Seite, die sich anfühlt wie das Haus selbst: warm, ehrlich und ohne Schnickschnack. Keine Visitenkarte, die beeindrucken soll, sondern ein Ort, an dem man gern verweilt. Ein paar Seiten schienen zu reichen, aber ich fragte nach: nach der Geschichte des Hauses, den Menschen, die dort wohnen, und was Besucher fühlen sollen, wenn sie die Seite öffnen. In einer Bewertung stand:
                 </p>
                 <p className="note">
                     "Manon hat so lange nachgefragt, bis sie die Geschichte der Villa Vredestein besser erzählen
@@ -176,6 +181,7 @@ const content = {
 
                 <h2>Was auf der Website steht</h2>
                 <ul>
+                    <li>Die Geschichte des Umbaus, von der Dämmung bis zur Fußbodenheizung</li>
                     <li>Eine Zeitleiste mit der Geschichte des Hauses seit 1906</li>
                     <li>Eine Galerie mit Fotos von innen und außen</li>
                     <li>Die Umgebung des Utrechtse Heuvelrug</li>
@@ -226,14 +232,15 @@ const content = {
                     Un lieu pour vivre, séjourner et se rencontrer, avec une porte ouverte au sens propre comme au figuré.
                 </p>
 
-                <h2>Ce que nous voulions ressentir</h2>
+                <h2>Notre propre projet</h2>
                 <p>
-                    Pour moi, ce n'était pas une mission ordinaire. Maxim est mon compagnon, et la Villa Vredestein est un lieu qui me tient à cœur. Nous voulions tous les deux la même chose : un site qui ressemble à la maison elle-même. Chaleureux, sincère et sans chichis. Pas une carte de visite pour impressionner, mais un endroit où l'on aime s'attarder.
+                    La Villa Vredestein est notre propre projet. Nous louons des chambres à des étudiants et rénovons la maison pour qu'elle puisse à terme devenir aussi un Airbnb de luxe. Nous voulons aussi la rendre attrayante pour des séances photo et des tournages.
                 </p>
                 <p>
-                    Pourtant, Maxim pensait que quelques pages suffiraient. J'ai posé des questions : sur
-                    l'histoire de la maison, les gens qui y vivent et ce que les visiteurs doivent ressentir en
-                    ouvrant le site. Maxim l'a dit lui-même plus tard dans son avis :
+                    C'est une maison à rénover, entièrement transformée et modernisée à l'intérieur, de l'isolation au chauffage au sol. Les détails anciens reviennent ou sont conservés. Le site raconte l'histoire de toute cette rénovation.
+                </p>
+                <p>
+                    Nous voulions un site qui ressemble à la maison : chaleureux, honnête et sans chichis. Pas une carte de visite qui cherche à impressionner, mais un endroit où l'on aime s'attarder. Quelques pages semblaient suffire, mais j'ai posé des questions : sur l'histoire de la maison, les gens qui y vivent et ce que les visiteurs doivent ressentir en ouvrant le site. Un avis disait :
                 </p>
                 <p className="note">
                     « Manon a posé des questions jusqu'à ce qu'elle puisse raconter l'histoire de la Villa
@@ -243,6 +250,7 @@ const content = {
 
                 <h2>Ce que contient le site</h2>
                 <ul>
+                    <li>L'histoire de la rénovation, de l'isolation au chauffage au sol</li>
                     <li>Une frise chronologique de l'histoire de la maison depuis 1906</li>
                     <li>Une galerie de photos, intérieur et extérieur</li>
                     <li>Les environs de l'Utrechtse Heuvelrug</li>
@@ -292,14 +300,15 @@ const content = {
                     para vivir, alojarse y encontrarse, con una puerta abierta en sentido literal y figurado.
                 </p>
 
-                <h2>Lo que queríamos sentir</h2>
+                <h2>Nuestro propio proyecto</h2>
                 <p>
-                    Para mí no era un encargo cualquiera. Maxim es mi pareja, y Villa Vredestein es un lugar que llevo en el corazón. Los dos queríamos lo mismo: una web que se sintiera como la propia casa. Cálida, sincera y sin florituras. No una tarjeta de visita para impresionar, sino un lugar donde apetece quedarse un rato.
+                    Villa Vredestein es nuestro propio proyecto. Alquilamos habitaciones a estudiantes y reformamos la casa para que con el tiempo pueda ser también un Airbnb de lujo. Además queremos que la casa resulte atractiva para sesiones de fotos y rodajes.
                 </p>
                 <p>
-                    Aun así, Maxim pensaba que bastaba con unas pocas páginas. Yo seguí preguntando: por la historia
-                    de la casa, las personas que viven allí y lo que los visitantes deben sentir al abrir la web.
-                    Maxim lo dijo él mismo más tarde en su reseña:
+                    Es una casa de reforma, completamente renovada y modernizada por dentro, del aislamiento a la calefacción por suelo radiante. Los detalles antiguos vuelven o se conservan. La web cuenta la historia de toda la reforma.
+                </p>
+                <p>
+                    Queríamos una web que se sintiera como la propia casa: cálida, honesta y sin florituras. No una tarjeta de visita que quiere impresionar, sino un lugar donde apetece quedarse un rato. Unas pocas páginas parecían suficientes, pero yo seguí preguntando: por la historia de la casa, las personas que viven allí y lo que deben sentir los visitantes al abrir la web. En una reseña se leía:
                 </p>
                 <p className="note">
                     "Manon siguió preguntando hasta que pudo contar la historia de Villa Vredestein mejor que yo
@@ -309,6 +318,7 @@ const content = {
 
                 <h2>Qué hay en la web</h2>
                 <ul>
+                    <li>La historia de la reforma, del aislamiento a la calefacción por suelo radiante</li>
                     <li>Una línea de tiempo con la historia de la casa desde 1906</li>
                     <li>Una galería con fotos de dentro y de fuera</li>
                     <li>El entorno de la Utrechtse Heuvelrug</li>
@@ -358,14 +368,15 @@ const content = {
                     vivere, soggiornare e incontrarsi, con una porta aperta in senso letterale e figurato.
                 </p>
 
-                <h2>Cosa volevamo trasmettere</h2>
+                <h2>Il nostro progetto</h2>
                 <p>
-                    Per me non era un incarico qualunque. Maxim è il mio compagno, e Villa Vredestein è un luogo a cui tengo molto. Volevamo entrambi la stessa cosa: un sito che trasmettesse la sensazione della casa stessa. Caldo, sincero e senza fronzoli. Non un biglietto da visita per fare colpo, ma un posto dove si resta volentieri.
+                    Villa Vredestein è il nostro progetto. Affittiamo stanze a studenti e stiamo ristrutturando la casa perché col tempo possa diventare anche un Airbnb di lusso. Vogliamo inoltre renderla attraente per servizi fotografici e riprese cinematografiche.
                 </p>
                 <p>
-                    Eppure Maxim pensava che bastassero poche pagine. Io ho continuato a chiedere: della
-                    storia della casa, delle persone che ci vivono e di cosa devono provare i visitatori aprendo
-                    il sito. Maxim l'ha detto lui stesso più tardi nella sua recensione:
+                    È una casa da ristrutturare, completamente rinnovata e modernizzata all'interno, dall'isolamento al riscaldamento a pavimento. I dettagli originali tornano o vengono conservati. Il sito racconta la storia dell'intera ristrutturazione.
+                </p>
+                <p>
+                    Volevamo un sito che si sentisse come la casa stessa: caldo, onesto e senza fronzoli. Non un biglietto da visita che vuole fare colpo, ma un posto dove ci si ferma volentieri. Poche pagine sembravano bastare, ma io ho continuato a chiedere: della storia della casa, delle persone che ci vivono e di cosa devono provare i visitatori aprendo il sito. In una recensione si leggeva:
                 </p>
                 <p className="note">
                     "Manon ha continuato a fare domande finché non ha saputo raccontare la storia di Villa
@@ -375,6 +386,7 @@ const content = {
 
                 <h2>Cosa c'è sul sito</h2>
                 <ul>
+                    <li>La storia della ristrutturazione, dall'isolamento al riscaldamento a pavimento</li>
                     <li>Una linea del tempo con la storia della casa dal 1906</li>
                     <li>Una galleria di foto dell'interno e dell'esterno</li>
                     <li>I dintorni dell'Utrechtse Heuvelrug</li>
@@ -424,14 +436,15 @@ const content = {
                     Це місце, щоб жити, гостювати й зустрічатися, з дверима, відчиненими в прямому й переносному сенсі.
                 </p>
 
-                <h2>Що ми хотіли відчути</h2>
+                <h2>Наш власний проєкт</h2>
                 <p>
-                    Для мене це було не звичайне замовлення. Максим мій партнер, а Villa Vredestein місце, яке мені дуже дороге. Ми обоє хотіли одного: сайту, який відчувається як сам дім. Теплого, щирого й без зайвого. Не візитівки, що має вражати, а місця, де хочеться трохи затриматися.
+                    Villa Vredestein це наш власний проєкт. Ми здаємо кімнати студентам і перебудовуємо будинок так, щоб згодом тут могло з'явитися й розкішне Airbnb. Крім того, ми хочемо зробити будинок привабливим для фотосесій і зйомок фільмів.
                 </p>
                 <p>
-                    Проте Максим думав, що кількох сторінок вистачить. Я розпитувала: про історію будинку,
-                    людей, які там живуть, і що мають відчувати відвідувачі, відкриваючи сайт. Згодом Максим
-                    сам написав у відгуку:
+                    Це будинок під ремонт, який усередині повністю перебудовано й модернізовано: від утеплення до теплої підлоги. Старі деталі повертаються або зберігаються. Сайт розповідає історію всієї цієї реконструкції.
+                </p>
+                <p>
+                    Ми хотіли сайт, що відчувається так само, як сам будинок: теплий, чесний і без пафосу. Не візитівка, що має вразити, а місце, де приємно затриматися. Кількох сторінок здавалося досить, але я розпитувала далі: про історію будинку, людей, які там живуть, і що мають відчути відвідувачі, відкриваючи сайт. У відгуку було сказано:
                 </p>
                 <p className="note">
                     «Манон розпитувала доти, доки не змогла розповісти історію Villa Vredestein краще, ніж я
@@ -441,6 +454,7 @@ const content = {
 
                 <h2>Що є на сайті</h2>
                 <ul>
+                    <li>Історія реконструкції: від утеплення до теплої підлоги</li>
                     <li>Хронологія історії будинку з 1906 року</li>
                     <li>Галерея фото зсередини й ззовні</li>
                     <li>Околиці Утрехтсе Хьовелрюг</li>

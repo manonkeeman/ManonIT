@@ -61,7 +61,7 @@ const content = {
                 <h3>Meten of het werkt</h3>
                 <p>
                     Elke maand stel ik voor die klanten dezelfde vragen aan verschillende AI-assistenten.
-                    Bijvoorbeeld: welke acupuncturist in Bakkum raad je aan? Wordt de klant genoemd, of
+                    Bijvoorbeeld: welke acupuncturist in Amsterdam raad je aan? Wordt de klant genoemd, of
                     niet? Zo zie je zwart op wit of je zichtbaar bent op de plekken waar je klanten
                     tegenwoordig zoeken.
                 </p>
@@ -82,6 +82,27 @@ const content = {
                         en gebruik AI hooguit als klankbord.
                     </li>
                 </ul>
+
+                <h2>Neemt AI het werk niet over?</h2>
+                <p>
+                    Die vraag krijg ik vaak: ben je niet bang dat AI jouw werk overneemt? Een website bouwt het toch zo in elkaar. Dat klopt: in een paar minuten staat er iets op het scherm. Maar iets dat er goed uitziet, is nog geen goede website.
+                </p>
+                <p>
+                    Ik zie mezelf als dirigent. AI is een orkest van razendsnelle muzikanten. Zonder dirigent speelt iedereen door elkaar. Ik bepaal wat er gespeeld wordt en in welk tempo, en ik hoor meteen wanneer iets vals klinkt. AI mist dat overzicht, en ook de verantwoordelijkheid voor wat er live gaat.
+                </p>
+                <p>
+                    Een website online zetten is pas het begin. Een professionele website moet:
+                </p>
+                <ul>
+                    <li><strong>Veilig zijn:</strong> een versleutelde verbinding, beveiligde formulieren, beveiligingsinstellingen en updates, zodat niemand ongezien binnenkomt.</li>
+                    <li><strong>Snel zijn:</strong> goed gecomprimeerde beelden en slanke code, want bezoekers haken af bij een trage site.</li>
+                    <li><strong>Gevonden worden:</strong> zoekmachine-optimalisatie, gestructureerde gegevens en teksten die ook AI-assistenten begrijpen.</li>
+                    <li><strong>Aan de wet voldoen:</strong> privacyverklaring, cookies, AVG, toegankelijkheid en de juiste bedrijfsgegevens.</li>
+                    <li><strong>Onderhouden worden:</strong> updates, back-ups en controle, ook als niemand er meer naar kijkt.</li>
+                </ul>
+                <p>
+                    Dat is het verschil tussen een leek en een professionele website. Een leek, met of zonder AI, ziet vooral wat er op het scherm staat. Een professional denkt ook aan alles wat eronder ligt, en blijft verantwoordelijk als er iets misgaat.
+                </p>
 
                 <h2>Wat heb jij eraan?</h2>
                 <p>
@@ -153,7 +174,7 @@ const content = {
                 <h3>Measuring whether it works</h3>
                 <p>
                     Every month I ask several AI assistants the same questions for those clients. For
-                    example: which acupuncturist in Bakkum would you recommend? Is the client mentioned
+                    example: which acupuncturist in Amsterdam would you recommend? Is the client mentioned
                     or not? That shows in black and white whether you are visible where your customers
                     are searching today.
                 </p>
@@ -174,6 +195,27 @@ const content = {
                         myself and use AI as a sounding board at most.
                     </li>
                 </ul>
+
+                <h2>Won't AI take over the work?</h2>
+                <p>
+                    I get this question a lot: aren't you afraid AI will take over your work? It can build a website in no time. True: within minutes something appears on the screen. But something that looks good is not yet a good website.
+                </p>
+                <p>
+                    I see myself as the conductor. AI is an orchestra of lightning-fast musicians. Without a conductor everyone plays at once. I decide what is played and at what tempo, and I hear straight away when something sounds off. AI lacks that overview, and the responsibility for what goes live.
+                </p>
+                <p>
+                    Putting a website online is only the beginning. A professional website has to be:
+                </p>
+                <ul>
+                    <li><strong>Secure:</strong> an encrypted connection, protected forms, security settings and updates, so nobody gets in unnoticed.</li>
+                    <li><strong>Fast:</strong> well-compressed images and lean code, because visitors leave a slow site.</li>
+                    <li><strong>Findable:</strong> search engine optimisation, structured data and copy that AI assistants can understand too.</li>
+                    <li><strong>Legally compliant:</strong> privacy statement, cookies, GDPR, accessibility and the right company details.</li>
+                    <li><strong>Maintained:</strong> updates, backups and monitoring, even when nobody is looking any more.</li>
+                </ul>
+                <p>
+                    That is the difference between an amateur and a professional website. An amateur, with or without AI, mostly sees what is on the screen. A professional also thinks about everything underneath, and stays responsible when something goes wrong.
+                </p>
 
                 <h2>What's in it for you?</h2>
                 <p>
@@ -246,7 +288,7 @@ const content = {
                 <h3>Messen, ob es wirkt</h3>
                 <p>
                     Jeden Monat stelle ich für diese Kunden verschiedenen KI-Assistenten dieselben Fragen.
-                    Zum Beispiel: Welche Akupunkteurin in Bakkum empfiehlst du? Wird der Kunde genannt oder
+                    Zum Beispiel: Welche Akupunkteurin in Amsterdam empfiehlst du? Wird der Kunde genannt oder
                     nicht? So siehst du schwarz auf weiß, ob du dort sichtbar bist, wo deine Kunden heute suchen.
                 </p>
 
@@ -266,6 +308,27 @@ const content = {
                         selbst und nutze KI höchstens als Sparringspartner.
                     </li>
                 </ul>
+
+                <h2>Übernimmt KI nicht die Arbeit?</h2>
+                <p>
+                    Diese Frage höre ich oft: Hast du keine Angst, dass KI deine Arbeit übernimmt? Eine Website baut sie doch im Handumdrehen. Stimmt: In ein paar Minuten steht etwas auf dem Bildschirm. Aber etwas, das gut aussieht, ist noch keine gute Website.
+                </p>
+                <p>
+                    Ich sehe mich als Dirigentin. KI ist ein Orchester blitzschneller Musiker. Ohne Dirigentin spielen alle durcheinander. Ich bestimme, was gespielt wird und in welchem Tempo, und ich höre sofort, wenn etwas schief klingt. KI fehlt dieser Überblick, und auch die Verantwortung für das, was online geht.
+                </p>
+                <p>
+                    Eine Website online zu stellen ist erst der Anfang. Eine professionelle Website muss:
+                </p>
+                <ul>
+                    <li><strong>Sicher sein:</strong> eine verschlüsselte Verbindung, geschützte Formulare, Sicherheitseinstellungen und Updates, damit niemand unbemerkt hereinkommt.</li>
+                    <li><strong>Schnell sein:</strong> gut komprimierte Bilder und schlanker Code, denn Besucher verlassen langsame Seiten.</li>
+                    <li><strong>Gefunden werden:</strong> Suchmaschinenoptimierung, strukturierte Daten und Texte, die auch KI-Assistenten verstehen.</li>
+                    <li><strong>Gesetzlich konform sein:</strong> Datenschutzerklärung, Cookies, DSGVO, Barrierefreiheit und die richtigen Unternehmensangaben.</li>
+                    <li><strong>Gepflegt werden:</strong> Updates, Backups und Kontrolle, auch wenn niemand mehr hinschaut.</li>
+                </ul>
+                <p>
+                    Das ist der Unterschied zwischen einer Laienseite und einer professionellen Website. Ein Laie, mit oder ohne KI, sieht vor allem, was auf dem Bildschirm steht. Eine Profi denkt auch an alles darunter und bleibt verantwortlich, wenn etwas schiefgeht.
+                </p>
 
                 <h2>Was hast du davon?</h2>
                 <p>
@@ -337,7 +400,7 @@ const content = {
                 <h3>Mesurer si ça marche</h3>
                 <p>
                     Chaque mois, je pose pour ces clients les mêmes questions à plusieurs assistants IA. Par
-                    exemple : quelle acupunctrice à Bakkum recommandes-tu ? Le client est-il cité ou non ?
+                    exemple : quelle acupunctrice à Amsterdam recommandes-tu ? Le client est-il cité ou non ?
                     Vous voyez ainsi noir sur blanc si vous êtes visible là où vos clients cherchent aujourd'hui.
                 </p>
 
@@ -357,6 +420,27 @@ const content = {
                         moi-même et j'utilise l'IA tout au plus comme interlocutrice.
                     </li>
                 </ul>
+
+                <h2>L'IA ne va-t-elle pas prendre le travail ?</h2>
+                <p>
+                    On me pose souvent la question : tu n'as pas peur que l'IA prenne ton travail ? Un site, elle le monte en un rien de temps. C'est vrai : en quelques minutes, quelque chose apparaît à l'écran. Mais quelque chose de joli n'est pas encore un bon site.
+                </p>
+                <p>
+                    Je me vois comme un chef d'orchestre. L'IA est un orchestre de musiciens ultra-rapides. Sans chef, tout le monde joue en même temps. Je décide de ce qui est joué et à quel tempo, et j'entends tout de suite quand quelque chose sonne faux. L'IA n'a pas cette vue d'ensemble, ni la responsabilité de ce qui est mis en ligne.
+                </p>
+                <p>
+                    Mettre un site en ligne n'est que le début. Un site professionnel doit être :
+                </p>
+                <ul>
+                    <li><strong>Sûr :</strong> connexion chiffrée, formulaires protégés, paramètres de sécurité et mises à jour, pour que personne n'entre sans être vu.</li>
+                    <li><strong>Rapide :</strong> images bien compressées et code léger, car les visiteurs quittent un site lent.</li>
+                    <li><strong>Trouvable :</strong> optimisation pour les moteurs de recherche, données structurées et textes que les assistants IA comprennent aussi.</li>
+                    <li><strong>Conforme à la loi :</strong> politique de confidentialité, cookies, RGPD, accessibilité et mentions légales correctes.</li>
+                    <li><strong>Entretenu :</strong> mises à jour, sauvegardes et contrôle, même quand plus personne n'y regarde.</li>
+                </ul>
+                <p>
+                    C'est la différence entre un site d'amateur et un site professionnel. Un amateur, avec ou sans IA, voit surtout ce qui est à l'écran. Un professionnel pense aussi à tout ce qui se trouve dessous, et reste responsable quand quelque chose tourne mal.
+                </p>
 
                 <h2>Qu'est-ce que vous y gagnez ?</h2>
                 <p>
@@ -428,7 +512,7 @@ const content = {
                 <h3>Medir si funciona</h3>
                 <p>
                     Cada mes hago a varios asistentes de IA las mismas preguntas para esos clientes. Por
-                    ejemplo: ¿qué acupuntora en Bakkum me recomiendas? ¿Mencionan al cliente o no? Así ves
+                    ejemplo: ¿qué acupuntora en Amsterdam me recomiendas? ¿Mencionan al cliente o no? Así ves
                     negro sobre blanco si eres visible donde tus clientes buscan hoy.
                 </p>
 
@@ -448,6 +532,27 @@ const content = {
                         partes. Escribo yo misma y uso la IA como mucho para contrastar ideas.
                     </li>
                 </ul>
+
+                <h2>¿No acabará la IA con este trabajo?</h2>
+                <p>
+                    Me hacen mucho esta pregunta: ¿no te da miedo que la IA se quede con tu trabajo? Una web la monta en un momento. Es cierto: en unos minutos aparece algo en la pantalla. Pero algo que se ve bien aún no es una buena web.
+                </p>
+                <p>
+                    Me veo como la directora de orquesta. La IA es una orquesta de músicos rapidísimos. Sin directora, todos tocan a la vez. Yo decido qué se toca y a qué ritmo, y oigo enseguida cuando algo desafina. A la IA le falta esa visión de conjunto, y también la responsabilidad de lo que se publica.
+                </p>
+                <p>
+                    Poner una web en línea es solo el principio. Una web profesional debe ser:
+                </p>
+                <ul>
+                    <li><strong>Segura:</strong> conexión cifrada, formularios protegidos, ajustes de seguridad y actualizaciones, para que nadie entre sin ser visto.</li>
+                    <li><strong>Rápida:</strong> imágenes bien comprimidas y código ligero, porque los visitantes abandonan una web lenta.</li>
+                    <li><strong>Fácil de encontrar:</strong> optimización para buscadores, datos estructurados y textos que también entienden los asistentes de IA.</li>
+                    <li><strong>Conforme a la ley:</strong> política de privacidad, cookies, RGPD, accesibilidad y los datos de empresa correctos.</li>
+                    <li><strong>Mantenida:</strong> actualizaciones, copias de seguridad y control, incluso cuando ya nadie la mira.</li>
+                </ul>
+                <p>
+                    Esa es la diferencia entre una web de aficionado y una web profesional. Un aficionado, con o sin IA, ve sobre todo lo que hay en la pantalla. Una profesional piensa también en todo lo que hay debajo, y sigue siendo responsable cuando algo sale mal.
+                </p>
 
                 <h2>¿Qué ganas tú?</h2>
                 <p>
@@ -517,7 +622,7 @@ const content = {
                 <h3>Misurare se funziona</h3>
                 <p>
                     Ogni mese faccio per questi clienti le stesse domande a diversi assistenti IA. Per
-                    esempio: quale agopuntrice a Bakkum mi consigli? Il cliente viene citato o no? Così vedi
+                    esempio: quale agopuntrice a Amsterdam mi consigli? Il cliente viene citato o no? Così vedi
                     nero su bianco se sei visibile dove i tuoi clienti cercano oggi.
                 </p>
 
@@ -537,6 +642,27 @@ const content = {
                         ovunque. Scrivo io e uso l'IA al massimo come interlocutrice.
                     </li>
                 </ul>
+
+                <h2>L'IA non prenderà il posto del mio lavoro?</h2>
+                <p>
+                    Me lo chiedono spesso: non hai paura che l'IA ti porti via il lavoro? Un sito lo monta in un attimo. È vero: in pochi minuti compare qualcosa sullo schermo. Ma qualcosa che sembra bello non è ancora un buon sito.
+                </p>
+                <p>
+                    Mi vedo come la direttrice d'orchestra. L'IA è un'orchestra di musicisti velocissimi. Senza direttrice suonano tutti insieme. Io decido cosa si suona e con quale tempo, e sento subito quando qualcosa è stonato. All'IA manca quella visione d'insieme, e anche la responsabilità di ciò che va online.
+                </p>
+                <p>
+                    Mettere online un sito è solo l'inizio. Un sito professionale deve essere:
+                </p>
+                <ul>
+                    <li><strong>Sicuro:</strong> connessione cifrata, moduli protetti, impostazioni di sicurezza e aggiornamenti, perché nessuno entri senza essere visto.</li>
+                    <li><strong>Veloce:</strong> immagini ben compresse e codice leggero, perché i visitatori abbandonano un sito lento.</li>
+                    <li><strong>Trovabile:</strong> ottimizzazione per i motori di ricerca, dati strutturati e testi comprensibili anche per gli assistenti IA.</li>
+                    <li><strong>Conforme alla legge:</strong> informativa sulla privacy, cookie, GDPR, accessibilità e i dati aziendali corretti.</li>
+                    <li><strong>Mantenuto:</strong> aggiornamenti, backup e controlli, anche quando nessuno lo guarda più.</li>
+                </ul>
+                <p>
+                    Questa è la differenza tra un sito da dilettanti e un sito professionale. Un dilettante, con o senza IA, vede soprattutto ciò che c'è sullo schermo. Una professionista pensa anche a tutto ciò che c'è sotto, e resta responsabile quando qualcosa va storto.
+                </p>
 
                 <h2>Cosa ci guadagni?</h2>
                 <p>
@@ -607,7 +733,7 @@ const content = {
                 <h3>Вимірювати, чи це працює</h3>
                 <p>
                     Щомісяця я ставлю різним ШІ-асистентам однакові запитання для цих клієнтів. Наприклад:
-                    якого акупунктуриста в Баккумі ти порадиш? Чи згадують клієнта? Так ви чорним по білому
+                    якого акупунктуриста в Амстердамі ти порадиш? Чи згадують клієнта? Так ви чорним по білому
                     бачите, чи помітні там, де сьогодні шукають ваші клієнти.
                 </p>
 
@@ -627,6 +753,27 @@ const content = {
                         використовую ШІ щонайбільше як співрозмовника.
                     </li>
                 </ul>
+
+                <h2>Чи не забере ШІ цю роботу?</h2>
+                <p>
+                    Мене часто про це питають: ти не боїшся, що ШІ забере твою роботу? Сайт він збирає за одну мить. Так: за кілька хвилин на екрані щось з'являється. Але те, що гарно виглядає, ще не є хорошим сайтом.
+                </p>
+                <p>
+                    Я бачу себе диригенткою. ШІ це оркестр надшвидких музикантів. Без диригента кожен грає своє. Я вирішую, що грати і в якому темпі, і одразу чую, коли щось фальшивить. ШІ бракує цього огляду, а ще відповідальності за те, що йде в публікацію.
+                </p>
+                <p>
+                    Опублікувати сайт це лише початок. Професійний сайт має бути:
+                </p>
+                <ul>
+                    <li><strong>Безпечним:</strong> зашифроване з'єднання, захищені форми, налаштування безпеки й оновлення, щоб ніхто не зайшов непомітно.</li>
+                    <li><strong>Швидким:</strong> добре стиснені зображення й легкий код, адже відвідувачі залишають повільні сайти.</li>
+                    <li><strong>Видимим у пошуку:</strong> оптимізація для пошукових систем, структуровані дані й тексти, зрозумілі також ШІ-асистентам.</li>
+                    <li><strong>Відповідним закону:</strong> політика конфіденційності, cookies, GDPR, доступність і правильні дані компанії.</li>
+                    <li><strong>Підтримуваним:</strong> оновлення, резервні копії та перевірки, навіть коли ніхто вже не дивиться.</li>
+                </ul>
+                <p>
+                    У цьому різниця між аматорським і професійним сайтом. Аматор, з ШІ чи без, бачить переважно те, що на екрані. Професіонал думає й про все, що під ним, і лишається відповідальним, коли щось іде не так.
+                </p>
 
                 <h2>Що це дає вам?</h2>
                 <p>
