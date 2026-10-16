@@ -6,7 +6,7 @@ const content = {
         title: "Een website voor een vakantiehuis: wat is er nodig?",
         date: "2026-10-09",
         dateLabel: "9 oktober 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "Wat heeft een website voor een vakantiehuis nodig? Mijn ervaring met Casa Reille in Abruzzo.",
         Body: () => (
             <>
@@ -18,10 +18,24 @@ const content = {
 
                 <h2>Het voorbeeld: Casa Reille in Abruzzo</h2>
                 <p>
-                    Voor Casa Reille bouwde ik een voordelige website voor de verhuur van een vakantiehuis bij
+                    Voor Casa Reille bouw ik een voordelige website voor de verhuur van een vakantiehuis bij
                     Atri in Abruzzo, Italië. Geen webshop, geen ingewikkeld systeem, maar een rustige site die
-                    het huis laat zien en gasten laat contact opnemen. Je kunt de site bekijken op{" "}
-                    <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                    het huis laat zien en gasten laat contact opnemen. De site is nog in ontwikkeling. De
+                    huidige versie staat op <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    Het is een huis waar wij zelf graag komen. Het contact ontstond doordat ik er een paar
+                    jaar geleden heb meegeholpen met het plukken van de olijven. We werden verliefd op de
+                    streek: bergen en zee dicht bij elkaar, een ruig landschap, authentieke Italianen en weinig
+                    toeristen.
+                </p>
+
+                <h2>Een site die de streek laat voelen</h2>
+                <p>
+                    Die sfeer moet terugkomen in de site: geen glimmende brochure, maar rust, echte foto's en
+                    ruimte voor het landschap. Abruzzo is voor veel gasten nog onbekend. De site legt daarom
+                    ook uit waarom de streek de moeite waard is, van wandelen in de bergen tot een dag aan zee
+                    en de dorpen rond Atri.
                 </p>
 
                 <h2>Wat gasten willen weten</h2>
@@ -36,7 +50,11 @@ const content = {
                 <h2>Denk aan de taal van je gasten</h2>
                 <p>
                     Verhuur je aan gasten uit Nederland, Duitsland of Frankrijk? Dan scoort een site in hun
-                    taal veel beter dan alleen Nederlands. Lees meer in{" "}
+                    taal veel beter dan alleen Nederlands. Bij Casa Reille houd ik daar vanaf het begin
+                    rekening mee, in de opbouw én in de SEO: per taal eigen teksten, titels en beschrijvingen,
+                    zodat gasten die zoeken op bijvoorbeeld "vakantiehuis Abruzzo" of "Ferienhaus Abruzzen" de
+                    site in hun eigen taal vinden. Omdat Abruzzo minder bekend is dan Toscane, zijn zoektermen
+                    op streek en dorp minstens zo belangrijk als op het huis zelf. Lees meer in{" "}
                     <Link to="/journal/meertalige-website">een meertalige website laten maken</Link>.
                 </p>
 
@@ -67,7 +85,7 @@ const content = {
         title: "A website for your holiday home: what do you need?",
         date: "2026-10-09",
         dateLabel: "9 October 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "What does a holiday home website need? My experience with Casa Reille in Abruzzo.",
         Body: () => (
             <>
@@ -79,10 +97,23 @@ const content = {
 
                 <h2>The example: Casa Reille in Abruzzo</h2>
                 <p>
-                    For Casa Reille I built an affordable website for renting out a holiday home near Atri in
-                    Abruzzo, Italy. No shop, no complicated system, but a calm site that shows the house and
-                    lets guests get in touch. You can see it at{" "}
-                    <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                    For Casa Reille I am building an affordable website for renting out a holiday home near
+                    Atri in Abruzzo, Italy. No shop, no complicated system, but a calm site that shows the
+                    house and lets guests get in touch. The site is still in progress. The current version is
+                    at <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    It is a house we love to visit ourselves. We got in touch because a few years ago I helped
+                    pick the olives there. We fell in love with the region: mountains and sea close together,
+                    a rugged landscape, authentic Italians and few tourists.
+                </p>
+
+                <h2>A site that lets you feel the region</h2>
+                <p>
+                    That atmosphere has to come through in the site: not a glossy brochure, but calm, real
+                    photos and room for the landscape. Abruzzo is still unknown to many guests, so the site
+                    also explains why the region is worth a visit, from hiking in the mountains to a day at
+                    the sea and the villages around Atri.
                 </p>
 
                 <h2>What guests want to know</h2>
@@ -97,7 +128,11 @@ const content = {
                 <h2>Think about your guests' language</h2>
                 <p>
                     Do you rent to guests from the Netherlands, Germany or France? Then a site in their
-                    language works far better than Dutch alone. Read more in{" "}
+                    language works far better than Dutch alone. For Casa Reille I take this into account from
+                    the start, in the structure and in the SEO: separate texts, titles and descriptions per
+                    language, so guests searching for "vakantiehuis Abruzzo" or "Ferienhaus Abruzzen" find the
+                    site in their own language. Because Abruzzo is less known than Tuscany, search terms for
+                    the region and village matter at least as much as those for the house itself. Read more in{" "}
                     <Link to="/journal/meertalige-website">getting a multilingual website</Link>.
                 </p>
 
@@ -128,7 +163,7 @@ const content = {
         title: "Un site pour votre maison de vacances : de quoi avez-vous besoin ?",
         date: "2026-10-09",
         dateLabel: "9 octobre 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "De quoi un site de maison de vacances a-t-il besoin ? Mon expérience avec Casa Reille dans les Abruzzes.",
         Body: () => (
             <>
@@ -139,13 +174,25 @@ const content = {
                 </p>
 
                 <h2>L'exemple : Casa Reille dans les Abruzzes</h2>
-
                 <p>
-                    Pour Casa Reille, j'ai construit un site abordable pour la location d'une maison
-                    de vacances près d'Atri, dans les Abruzzes, en Italie. Pas de boutique, pas de
-                    système compliqué, mais un site calme qui montre la maison et permet aux hôtes
-                    de prendre contact. Vous pouvez le voir sur <a href="http://russo.nl/Home/"
-                    target="_blank" rel="noreferrer">russo.nl</a>.
+                    Pour Casa Reille, je construis un site abordable pour la location d'une maison de
+                    vacances près d'Atri, dans les Abruzzes, en Italie. Pas de boutique, pas de système
+                    compliqué, mais un site calme qui montre la maison et permet aux hôtes de prendre contact.
+                    Le site est encore en cours de réalisation. La version actuelle est sur <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    C'est une maison où nous aimons venir nous-mêmes. Le contact est né parce que j'y ai aidé
+                    à cueillir les olives il y a quelques années. Nous sommes tombés amoureux de la région :
+                    montagnes et mer côte à côte, un paysage sauvage, des Italiens authentiques et peu de
+                    touristes.
+                </p>
+
+                <h2>Un site qui fait sentir la région</h2>
+                <p>
+                    Cette atmosphère doit se retrouver dans le site : pas une brochure clinquante, mais du
+                    calme, de vraies photos et de la place pour le paysage. Les Abruzzes sont encore peu
+                    connues de nombreux hôtes. Le site explique donc aussi pourquoi la région vaut le détour,
+                    de la randonnée en montagne à une journée à la mer et aux villages autour d'Atri.
                 </p>
 
                 <h2>Ce que les hôtes veulent savoir</h2>
@@ -159,12 +206,15 @@ const content = {
                 </ul>
 
                 <h2>Pensez à la langue de vos hôtes</h2>
-
                 <p>
-                    Louez-vous à des hôtes des Pays-Bas, d'Allemagne ou de France ? Alors un site
-                    dans leur langue fonctionne bien mieux que le néerlandais seul. Lisez-en plus
-                    dans <Link to="/journal/meertalige-website">faire créer un site
-                    multilingue</Link>.
+                    Louez-vous à des hôtes des Pays-Bas, d'Allemagne ou de France ? Alors un site dans leur
+                    langue fonctionne bien mieux que le néerlandais seul. Pour Casa Reille, j'en tiens compte
+                    dès le départ, dans la structure et dans le SEO : textes, titres et descriptions propres à
+                    chaque langue, pour que les hôtes qui cherchent « vakantiehuis Abruzzo » ou « Ferienhaus
+                    Abruzzen » trouvent le site dans leur langue. Les Abruzzes étant moins connues que la
+                    Toscane, les mots-clés sur la région et le village comptent au moins autant que ceux de la
+                    maison elle-même. Lisez-en plus dans{" "}
+                    <Link to="/journal/meertalige-website">faire créer un site multilingue</Link>.
                 </p>
 
                 <h2>Réserver en direct ou via des plateformes ?</h2>
@@ -200,7 +250,7 @@ const content = {
         title: "Eine Website für Ihr Ferienhaus: Was brauchen Sie?",
         date: "2026-10-09",
         dateLabel: "9. Oktober 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "Was braucht eine Ferienhaus-Website? Meine Erfahrung mit Casa Reille in den Abruzzen.",
         Body: () => (
             <>
@@ -211,13 +261,25 @@ const content = {
                 </p>
 
                 <h2>Das Beispiel: Casa Reille in den Abruzzen</h2>
-
                 <p>
-                    Für Casa Reille habe ich eine günstige Website für die Vermietung eines
-                    Ferienhauses bei Atri in den Abruzzen, Italien, gebaut. Kein Shop, kein
-                    kompliziertes System, sondern eine ruhige Seite, die das Haus zeigt und Gäste
-                    Kontakt aufnehmen lässt. Sie können sie sich auf <a href="http://russo.nl/Home/"
-                    target="_blank" rel="noreferrer">russo.nl</a> ansehen.
+                    Für Casa Reille baue ich eine günstige Website für die Vermietung eines Ferienhauses bei
+                    Atri in den Abruzzen, Italien. Kein Shop, kein kompliziertes System, sondern eine ruhige
+                    Seite, die das Haus zeigt und Gäste Kontakt aufnehmen lässt. Die Seite ist noch in
+                    Arbeit. Die aktuelle Version steht auf <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    Es ist ein Haus, in das wir selbst gern kommen. Der Kontakt entstand, weil ich dort vor
+                    einigen Jahren beim Pflücken der Oliven geholfen habe. Wir haben uns in die Gegend
+                    verliebt: Berge und Meer nah beieinander, eine raue Landschaft, authentische Italiener und
+                    wenige Touristen.
+                </p>
+
+                <h2>Eine Seite, die die Gegend spüren lässt</h2>
+                <p>
+                    Diese Stimmung soll sich in der Seite wiederfinden: keine Hochglanzbroschüre, sondern
+                    Ruhe, echte Fotos und Raum für die Landschaft. Die Abruzzen sind vielen Gästen noch
+                    unbekannt. Die Seite erklärt deshalb auch, warum sich die Gegend lohnt, vom Wandern in den
+                    Bergen über einen Tag am Meer bis zu den Dörfern rund um Atri.
                 </p>
 
                 <h2>Was Gäste wissen wollen</h2>
@@ -231,12 +293,15 @@ const content = {
                 </ul>
 
                 <h2>Denken Sie an die Sprache Ihrer Gäste</h2>
-
                 <p>
                     Vermieten Sie an Gäste aus den Niederlanden, Deutschland oder Frankreich? Dann
-                    funktioniert eine Seite in deren Sprache viel besser als nur Niederländisch.
-                    Mehr dazu in <Link to="/journal/meertalige-website">eine mehrsprachige Website
-                    erstellen lassen</Link>.
+                    funktioniert eine Seite in deren Sprache viel besser als nur Niederländisch. Bei Casa
+                    Reille berücksichtige ich das von Anfang an, im Aufbau und in der SEO: eigene Texte,
+                    Titel und Beschreibungen pro Sprache, damit Gäste, die nach "vakantiehuis Abruzzo" oder
+                    "Ferienhaus Abruzzen" suchen, die Seite in ihrer Sprache finden. Da die Abruzzen weniger
+                    bekannt sind als die Toskana, sind Suchbegriffe zu Region und Dorf mindestens so wichtig
+                    wie die zum Haus selbst. Mehr dazu in{" "}
+                    <Link to="/journal/meertalige-website">eine mehrsprachige Website erstellen lassen</Link>.
                 </p>
 
                 <h2>Direkt buchen oder über Plattformen?</h2>
@@ -272,7 +337,7 @@ const content = {
         title: "Una web para tu casa de vacaciones: ¿qué necesitas?",
         date: "2026-10-09",
         dateLabel: "9 de octubre de 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "¿Qué necesita una web para una casa de vacaciones? Mi experiencia con Casa Reille en los Abruzos.",
         Body: () => (
             <>
@@ -283,13 +348,24 @@ const content = {
                 </p>
 
                 <h2>El ejemplo: Casa Reille en los Abruzos</h2>
-
                 <p>
-                    Para Casa Reille construí una web económica para el alquiler de una casa de
-                    vacaciones cerca de Atri, en los Abruzos, Italia. Sin tienda, sin sistemas
-                    complicados, sino una web tranquila que muestra la casa y permite a los
-                    huéspedes ponerse en contacto. Puedes verla en <a href="http://russo.nl/Home/"
-                    target="_blank" rel="noreferrer">russo.nl</a>.
+                    Para Casa Reille estoy construyendo una web económica para el alquiler de una casa de
+                    vacaciones cerca de Atri, en los Abruzos, Italia. Sin tienda, sin sistemas complicados,
+                    sino una web tranquila que muestra la casa y permite a los huéspedes ponerse en contacto.
+                    La web aún está en desarrollo. La versión actual está en <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    Es una casa a la que nos gusta ir. El contacto surgió porque hace unos años ayudé allí a
+                    recoger las aceitunas. Nos enamoramos de la región: montañas y mar muy cerca, un paisaje
+                    agreste, italianos auténticos y pocos turistas.
+                </p>
+
+                <h2>Una web que deja sentir la región</h2>
+                <p>
+                    Esa atmósfera debe reflejarse en la web: no un folleto brillante, sino calma, fotos
+                    reales y espacio para el paisaje. Los Abruzos todavía son desconocidos para muchos
+                    huéspedes. Por eso la web también explica por qué merece la pena la región, desde las
+                    rutas por la montaña hasta un día en el mar y los pueblos de los alrededores de Atri.
                 </p>
 
                 <h2>Lo que los huéspedes quieren saber</h2>
@@ -303,11 +379,15 @@ const content = {
                 </ul>
 
                 <h2>Piensa en el idioma de tus huéspedes</h2>
-
                 <p>
-                    ¿Alquilas a huéspedes de los Países Bajos, Alemania o Francia? Entonces una web
-                    en su idioma funciona mucho mejor que solo en neerlandés. Lee más en <Link
-                    to="/journal/meertalige-website">una web multilingüe</Link>.
+                    ¿Alquilas a huéspedes de los Países Bajos, Alemania o Francia? Entonces una web en su
+                    idioma funciona mucho mejor que solo en neerlandés. En Casa Reille lo tengo en cuenta
+                    desde el principio, en la estructura y en el SEO: textos, títulos y descripciones propios
+                    por idioma, para que los huéspedes que buscan "vakantiehuis Abruzzo" o "Ferienhaus
+                    Abruzzen" encuentren la web en su idioma. Como los Abruzos son menos conocidos que la
+                    Toscana, las palabras clave de la región y del pueblo importan al menos tanto como las de
+                    la propia casa. Lee más en{" "}
+                    <Link to="/journal/meertalige-website">una web multilingüe</Link>.
                 </p>
 
                 <h2>¿Reserva directa o a través de plataformas?</h2>
@@ -343,7 +423,7 @@ const content = {
         title: "Un sito per la tua casa vacanze: di cosa hai bisogno?",
         date: "2026-10-09",
         dateLabel: "9 ottobre 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "Di cosa ha bisogno il sito di una casa vacanze? La mia esperienza con Casa Reille in Abruzzo.",
         Body: () => (
             <>
@@ -354,13 +434,24 @@ const content = {
                 </p>
 
                 <h2>L'esempio: Casa Reille in Abruzzo</h2>
-
                 <p>
-                    Per Casa Reille ho costruito un sito economico per l'affitto di una casa vacanze
-                    vicino ad Atri, in Abruzzo. Niente negozio, niente sistemi complicati, ma un
-                    sito tranquillo che mostra la casa e permette agli ospiti di mettersi in
-                    contatto. Puoi vederlo su <a href="http://russo.nl/Home/" target="_blank"
-                    rel="noreferrer">russo.nl</a>.
+                    Per Casa Reille sto costruendo un sito economico per l'affitto di una casa vacanze vicino
+                    ad Atri, in Abruzzo. Niente negozio, niente sistemi complicati, ma un sito tranquillo che
+                    mostra la casa e permette agli ospiti di mettersi in contatto. Il sito è ancora in
+                    sviluppo. La versione attuale è su <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    È una casa dove andiamo volentieri anche noi. Il contatto è nato perché qualche anno fa ho
+                    aiutato a raccogliere le olive. Ci siamo innamorati della zona: montagne e mare vicini, un
+                    paesaggio aspro, italiani autentici e pochi turisti.
+                </p>
+
+                <h2>Un sito che fa sentire il territorio</h2>
+                <p>
+                    Questa atmosfera deve riflettersi nel sito: non un opuscolo patinato, ma calma, foto vere
+                    e spazio per il paesaggio. L'Abruzzo è ancora poco conosciuto da molti ospiti. Il sito
+                    spiega quindi anche perché il territorio vale la visita, dalle escursioni in montagna a
+                    una giornata al mare e ai borghi intorno ad Atri.
                 </p>
 
                 <h2>Cosa vogliono sapere gli ospiti</h2>
@@ -374,11 +465,14 @@ const content = {
                 </ul>
 
                 <h2>Pensa alla lingua dei tuoi ospiti</h2>
-
                 <p>
-                    Affitti a ospiti di Paesi Bassi, Germania o Francia? Allora un sito nella loro
-                    lingua funziona molto meglio del solo olandese. Leggi di più in <Link
-                    to="/journal/meertalige-website">un sito multilingue</Link>.
+                    Affitti a ospiti di Paesi Bassi, Germania o Francia? Allora un sito nella loro lingua
+                    funziona molto meglio del solo olandese. Per Casa Reille ne tengo conto fin dall'inizio,
+                    nella struttura e nella SEO: testi, titoli e descrizioni propri per ogni lingua, così gli
+                    ospiti che cercano "vakantiehuis Abruzzo" o "Ferienhaus Abruzzen" trovano il sito nella
+                    loro lingua. Poiché l'Abruzzo è meno noto della Toscana, le parole chiave su zona e
+                    paese contano almeno quanto quelle sulla casa. Leggi di più in{" "}
+                    <Link to="/journal/meertalige-website">un sito multilingue</Link>.
                 </p>
 
                 <h2>Prenotare direttamente o tramite piattaforme?</h2>
@@ -414,7 +508,7 @@ const content = {
         title: "Сайт для вашого будинку відпочинку: що вам потрібно?",
         date: "2026-10-09",
         dateLabel: "9 жовтня 2026",
-        minutes: 4,
+        minutes: 5,
         shareText: "Що потрібно сайту будинку відпочинку? Мій досвід із Casa Reille в Абруццо.",
         Body: () => (
             <>
@@ -425,12 +519,24 @@ const content = {
                 </p>
 
                 <h2>Приклад: Casa Reille в Абруццо</h2>
-
                 <p>
-                    Для Casa Reille я створила недорогий сайт для оренди будинку відпочинку поблизу
-                    Атрі в Абруццо, Італія. Без магазину, без складних систем, а спокійний сайт,
-                    який показує будинок і дає гостям змогу зв'язатися. Подивитися його можна на <a
-                    href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                    Для Casa Reille я створюю недорогий сайт для оренди будинку відпочинку поблизу Атрі в
+                    Абруццо, Італія. Без магазину, без складних систем, а спокійний сайт, який показує
+                    будинок і дає гостям змогу зв'язатися. Сайт ще в розробці. Поточну версію можна
+                    побачити на <a href="http://russo.nl/Home/" target="_blank" rel="noreferrer">russo.nl</a>.
+                </p>
+                <p>
+                    Це будинок, куди ми самі любимо приїздити. Знайомство відбулося тому, що кілька років
+                    тому я допомагала там збирати оливки. Ми закохалися в цей край: гори й море поруч,
+                    суворий краєвид, справжні італійці та мало туристів.
+                </p>
+
+                <h2>Сайт, який дає відчути край</h2>
+                <p>
+                    Ця атмосфера має відображатися на сайті: не глянцева брошура, а спокій, справжні фото
+                    та місце для краєвиду. Абруццо для багатьох гостей ще невідоме. Тому сайт також
+                    пояснює, чому цей край вартий візиту: від походів у горах до дня на морі та сіл навколо
+                    Атрі.
                 </p>
 
                 <h2>Що хочуть знати гості</h2>
@@ -444,11 +550,14 @@ const content = {
                 </ul>
 
                 <h2>Подумайте про мову ваших гостей</h2>
-
                 <p>
-                    Здаєте гостям із Нідерландів, Німеччини чи Франції? Тоді сайт їхньою мовою
-                    працює набагато краще, ніж лише нідерландською. Читайте більше в статті <Link
-                    to="/journal/meertalige-website">багатомовний сайт</Link>.
+                    Здаєте гостям із Нідерландів, Німеччини чи Франції? Тоді сайт їхньою мовою працює
+                    набагато краще, ніж лише нідерландською. Для Casa Reille я враховую це від початку, і в
+                    структурі, і в SEO: окремі тексти, заголовки й описи для кожної мови, щоб гості, які
+                    шукають "vakantiehuis Abruzzo" чи "Ferienhaus Abruzzen", знаходили сайт своєю мовою.
+                    Оскільки Абруццо менш відоме, ніж Тоскана, пошукові запити про край і село не менш
+                    важливі, ніж про сам будинок. Читайте більше в статті{" "}
+                    <Link to="/journal/meertalige-website">багатомовний сайт</Link>.
                 </p>
 
                 <h2>Бронювати напряму чи через платформи?</h2>
