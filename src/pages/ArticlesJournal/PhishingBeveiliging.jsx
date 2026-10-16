@@ -52,6 +52,19 @@ const content = {
                     <li><strong>Cookie- en privacyverklaring volgens de AVG</strong> bij elke site.</li>
                 </ul>
 
+                <h2>Formulieren en contact via de website</h2>
+                <p>
+                    Ook een contactformulier kan een zwakke plek zijn: nepberichten, spam en bezoekers die persoonlijke gegevens invullen op een onveilige pagina. Zo bouw ik formulieren en contact:
+                </p>
+                <ul>
+                    <li><strong>Verborgen spamveld (honeypot):</strong> geautomatiseerde berichten worden tegengehouden zonder dat bezoekers een puzzel hoeven op te lossen.</li>
+                    <li><strong>Beveiligde verbinding:</strong> formuliergegevens gaan versleuteld (HTTPS) naar een beveiligde formulierdienst.</li>
+                    <li><strong>Alleen wat nodig is:</strong> naam, e-mailadres en bericht. Een formulier vraagt nooit om een wachtwoord, pincode of betaalgegevens.</li>
+                    <li><strong>Beperkte bewaartermijn:</strong> gegevens worden niet langer bewaard dan nodig (bij ManonIT maximaal een jaar), zoals in het privacybeleid staat.</li>
+                    <li><strong>Serverinstellingen:</strong> beveiligingsheaders voorkomen dat de website in een nepsite wordt ingeladen en beperken welke scripts mogen draaien.</li>
+                    <li><strong>Contact via WhatsApp of mail:</strong> antwoorden komen altijd van lets@manonit.com of via WhatsApp.</li>
+                </ul>
+
                 <h2>Een voorbeeld uit de praktijk</h2>
                 <p>
                     Bij <Link to="/frontendvredestein">Villa Vredestein</Link> en{" "}
@@ -126,6 +139,19 @@ const content = {
                     <li><strong>Monitoring</strong> with maintenance plans, so a problem is noticed right away.</li>
                     <li><strong>Domain in the client's name.</strong> No one else can renew, transfer or let it expire without the client knowing.</li>
                     <li><strong>Cookie and privacy statement under the GDPR</strong> on every site.</li>
+                </ul>
+
+                <h2>Forms and contact through the website</h2>
+                <p>
+                    A contact form can also be a weak spot: fake messages, spam and visitors who enter personal details on an unsafe page. This is how I build forms and contact:
+                </p>
+                <ul>
+                    <li><strong>Hidden spam field (honeypot):</strong> automated messages are stopped without visitors having to solve a puzzle.</li>
+                    <li><strong>Secure connection:</strong> form data is sent encrypted (HTTPS) to a secure form service.</li>
+                    <li><strong>Only what is needed:</strong> name, email address and message. A form never asks for a password, PIN or payment details.</li>
+                    <li><strong>Limited retention:</strong> data is not kept longer than necessary (at ManonIT a maximum of one year), as stated in the privacy policy.</li>
+                    <li><strong>Server settings:</strong> security headers prevent the website from being loaded inside a fake site and limit which scripts may run.</li>
+                    <li><strong>Contact by WhatsApp or email:</strong> replies always come from lets@manonit.com or via WhatsApp.</li>
                 </ul>
 
                 <h2>An example from practice</h2>
@@ -205,6 +231,19 @@ const content = {
                     <li><strong>Déclaration de cookies et de confidentialité conforme au RGPD</strong> sur chaque site.</li>
                 </ul>
 
+                <h2>Formulaires et contact via le site</h2>
+                <p>
+                    Un formulaire de contact peut aussi être un point faible : faux messages, spam et visiteurs qui saisissent des données personnelles sur une page peu sûre. Voici comment je construis formulaires et contact :
+                </p>
+                <ul>
+                    <li><strong>Champ anti-spam caché (honeypot) :</strong> les messages automatisés sont bloqués sans que les visiteurs aient à résoudre une énigme.</li>
+                    <li><strong>Connexion sécurisée :</strong> les données du formulaire sont envoyées chiffrées (HTTPS) vers un service de formulaires sécurisé.</li>
+                    <li><strong>Seulement le nécessaire :</strong> nom, adresse e-mail et message. Un formulaire ne demande jamais de mot de passe, de code PIN ni de données de paiement.</li>
+                    <li><strong>Durée de conservation limitée :</strong> les données ne sont pas conservées plus longtemps que nécessaire (chez ManonIT, un an maximum), comme indiqué dans la politique de confidentialité.</li>
+                    <li><strong>Paramètres du serveur :</strong> les en-têtes de sécurité empêchent le site d'être chargé dans un faux site et limitent les scripts autorisés.</li>
+                    <li><strong>Contact par WhatsApp ou e-mail :</strong> les réponses viennent toujours de lets@manonit.com ou via WhatsApp.</li>
+                </ul>
+
                 <h2>Un exemple concret</h2>
                 <p>
                     Pour <Link to="/frontendvredestein">Villa Vredestein</Link> et{" "}
@@ -279,6 +318,19 @@ const content = {
                     <li><strong>Überwachung</strong> bei Wartungsabonnements, damit eine Störung sofort auffällt.</li>
                     <li><strong>Domain auf den Namen des Kunden.</strong> Niemand sonst kann sie verlängern, übertragen oder auslaufen lassen, ohne dass der Kunde es merkt.</li>
                     <li><strong>Cookie- und Datenschutzerklärung nach DSGVO</strong> bei jeder Website.</li>
+                </ul>
+
+                <h2>Formulare und Kontakt über die Website</h2>
+                <p>
+                    Auch ein Kontaktformular kann eine Schwachstelle sein: gefälschte Nachrichten, Spam und Besucher, die persönliche Daten auf einer unsicheren Seite eingeben. So baue ich Formulare und Kontakt:
+                </p>
+                <ul>
+                    <li><strong>Verstecktes Spam-Feld (Honeypot):</strong> automatisierte Nachrichten werden abgefangen, ohne dass Besucher ein Rätsel lösen müssen.</li>
+                    <li><strong>Sichere Verbindung:</strong> Formulardaten werden verschlüsselt (HTTPS) an einen sicheren Formulardienst gesendet.</li>
+                    <li><strong>Nur das Nötige:</strong> Name, E-Mail-Adresse und Nachricht. Ein Formular fragt nie nach Passwort, PIN oder Zahlungsdaten.</li>
+                    <li><strong>Begrenzte Speicherdauer:</strong> Daten werden nicht länger gespeichert als nötig (bei ManonIT höchstens ein Jahr), wie in der Datenschutzerklärung steht.</li>
+                    <li><strong>Servereinstellungen:</strong> Sicherheits-Header verhindern, dass die Website in eine gefälschte Seite eingebettet wird, und begrenzen, welche Skripte laufen dürfen.</li>
+                    <li><strong>Kontakt per WhatsApp oder Mail:</strong> Antworten kommen immer von lets@manonit.com oder über WhatsApp.</li>
                 </ul>
 
                 <h2>Ein Beispiel aus der Praxis</h2>
@@ -356,6 +408,19 @@ const content = {
                     <li><strong>Declaración de cookies y privacidad conforme al RGPD</strong> en cada sitio.</li>
                 </ul>
 
+                <h2>Formularios y contacto a través del sitio</h2>
+                <p>
+                    Un formulario de contacto también puede ser un punto débil: mensajes falsos, spam y visitantes que introducen datos personales en una página poco segura. Así construyo formularios y contacto:
+                </p>
+                <ul>
+                    <li><strong>Campo antispam oculto (honeypot):</strong> los mensajes automáticos se detienen sin que los visitantes tengan que resolver un acertijo.</li>
+                    <li><strong>Conexión segura:</strong> los datos del formulario se envían cifrados (HTTPS) a un servicio de formularios seguro.</li>
+                    <li><strong>Solo lo necesario:</strong> nombre, correo y mensaje. Un formulario nunca pide contraseña, PIN ni datos de pago.</li>
+                    <li><strong>Conservación limitada:</strong> los datos no se guardan más tiempo del necesario (en ManonIT, un año como máximo), como indica la política de privacidad.</li>
+                    <li><strong>Configuración del servidor:</strong> las cabeceras de seguridad impiden que el sitio se cargue dentro de uno falso y limitan qué scripts pueden ejecutarse.</li>
+                    <li><strong>Contacto por WhatsApp o correo:</strong> las respuestas siempre llegan de lets@manonit.com o por WhatsApp.</li>
+                </ul>
+
                 <h2>Un ejemplo real</h2>
                 <p>
                     En <Link to="/frontendvredestein">Villa Vredestein</Link> y{" "}
@@ -431,6 +496,19 @@ const content = {
                     <li><strong>Informativa su cookie e privacy conforme al GDPR</strong> su ogni sito.</li>
                 </ul>
 
+                <h2>Moduli e contatto tramite il sito</h2>
+                <p>
+                    Anche un modulo di contatto può essere un punto debole: messaggi falsi, spam e visitatori che inseriscono dati personali in una pagina poco sicura. Ecco come costruisco moduli e contatto:
+                </p>
+                <ul>
+                    <li><strong>Campo antispam nascosto (honeypot):</strong> i messaggi automatici vengono bloccati senza che i visitatori debbano risolvere un enigma.</li>
+                    <li><strong>Connessione sicura:</strong> i dati del modulo vengono inviati cifrati (HTTPS) a un servizio di moduli sicuro.</li>
+                    <li><strong>Solo il necessario:</strong> nome, indirizzo e-mail e messaggio. Un modulo non chiede mai password, PIN o dati di pagamento.</li>
+                    <li><strong>Conservazione limitata:</strong> i dati non vengono conservati più a lungo del necessario (da ManonIT al massimo un anno), come indicato nell'informativa sulla privacy.</li>
+                    <li><strong>Impostazioni del server:</strong> le intestazioni di sicurezza impediscono che il sito venga caricato dentro un sito falso e limitano gli script consentiti.</li>
+                    <li><strong>Contatto via WhatsApp o e-mail:</strong> le risposte arrivano sempre da lets@manonit.com o via WhatsApp.</li>
+                </ul>
+
                 <h2>Un esempio concreto</h2>
                 <p>
                     Per <Link to="/frontendvredestein">Villa Vredestein</Link> e{" "}
@@ -503,6 +581,19 @@ const content = {
                     <li><strong>Моніторинг</strong> у планах підтримки, щоб збій було помітно одразу.</li>
                     <li><strong>Домен на ім'я клієнта.</strong> Ніхто інший не може продовжити, передати чи дати йому закінчитися без відома клієнта.</li>
                     <li><strong>Заява про cookie та конфіденційність за GDPR</strong> на кожному сайті.</li>
+                </ul>
+
+                <h2>Форми та контакт через сайт</h2>
+                <p>
+                    Контактна форма теж може бути слабким місцем: фальшиві повідомлення, спам і відвідувачі, які вводять особисті дані на небезпечній сторінці. Ось як я створюю форми й контакт:
+                </p>
+                <ul>
+                    <li><strong>Прихований антиспам-поле (honeypot):</strong> автоматичні повідомлення блокуються, а відвідувачам не доводиться розв'язувати головоломки.</li>
+                    <li><strong>Захищене з'єднання:</strong> дані форми надсилаються зашифровано (HTTPS) до захищеного сервісу форм.</li>
+                    <li><strong>Лише необхідне:</strong> ім'я, e-mail і повідомлення. Форма ніколи не просить пароль, PIN-код чи платіжні дані.</li>
+                    <li><strong>Обмежений строк зберігання:</strong> дані зберігаються не довше, ніж потрібно (у ManonIT — щонайбільше рік), як зазначено в політиці конфіденційності.</li>
+                    <li><strong>Налаштування сервера:</strong> заголовки безпеки не дозволяють завантажити сайт усередині фальшивого та обмежують, які скрипти можуть працювати.</li>
+                    <li><strong>Контакт через WhatsApp або пошту:</strong> відповіді завжди надходять з lets@manonit.com або через WhatsApp.</li>
                 </ul>
 
                 <h2>Приклад із практики</h2>

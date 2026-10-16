@@ -80,7 +80,7 @@ const ARTICLE_META = {
     },
     "wordpress-of-maatwerk": {
         date: "2026-10-09",
-        title: "WordPress of maatwerk? Altijd maatwerk, als abonnement of als pakket",
+        title: "WordPress of maatwerk? Zo zit het bij ManonIT",
         image: "https://manonit.com/og/journal-maatwerk.jpg",
         words: 620,
     },
