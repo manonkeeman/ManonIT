@@ -42,6 +42,9 @@ export default function Faq() {
                                     <details key={it.q} className="faq-item">
                                         <summary>{it.q}</summary>
                                         <p>{it.a}</p>
+                                        {it.linkUrl && (
+                                            <p><a href={it.linkUrl} target="_blank" rel="noreferrer noopener">{it.linkLabel} ↗</a></p>
+                                        )}
                                     </details>
                                 ))}
                             </div>

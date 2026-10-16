@@ -24,7 +24,8 @@
         "wordpress-of-maatwerk": "WordPress or custom",
         "website-vakantiehuis": "A website for a holiday home",
         "meertalige-website": "A multilingual website",
-        "website-onderhoud": "What website maintenance includes"
+        "website-onderhoud": "What website maintenance includes",
+        "phishing-en-beveiliging": "Phishing and security"
       }
     },
     "services": "Services",
@@ -319,6 +320,10 @@
       "website-onderhoud": {
         "title": "What does website maintenance include, and do you need it? | Manon Keeman",
         "description": "Updates, backups, monitoring and small changes: what maintenance involves, what it costs and when you need it."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Spotting phishing: how to keep a website and mailbox safe | Manon Keeman",
+        "description": "How to recognise fake emails and what I do to keep websites like Villa Vredestein and The Big Three safe."
       }
     },
     "portfolio": {
@@ -389,6 +394,10 @@
       "website-onderhoud": {
         "title": "What does website maintenance include, and do you need it?",
         "excerpt": "Updates, backups, monitoring and small changes: what maintenance involves, what it costs and when you need it."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Spotting phishing: how to keep a website and mailbox safe",
+        "excerpt": "How to recognise fake emails and what I do to keep websites like Villa Vredestein and The Big Three safe."
       }
     }
   },
@@ -653,6 +662,10 @@
           {
             "q": "Can I expand later?",
             "a": "Yes, with a fixed price in advance. You can also move up to a bigger plan."
+          },
+          {
+            "q": "How do I cancel?",
+            "a": "By email to lets@manonit.com with the end date you want. The notice period is one month."
           }
         ]
       },
@@ -662,6 +675,20 @@
           {
             "q": "Is the domain in my name?",
             "a": "Yes. Your domain is always in your name."
+          },
+          {
+            "q": "Can I use my existing domain?",
+            "a": "Yes. The domain is moved using a transfer code (also called an auth code) from the current provider and stays in the client's name."
+          },
+          {
+            "q": "Can several domains be connected to the site?",
+            "a": "Yes, for example a .nl and a .com that both point to the same site."
+          },
+          {
+            "q": "Is the domain name I want still available?",
+            "a": "This can be checked with the SIDN domain checker (SIDN manages .nl). If the name is free, ManonIT registers it in the client's name.",
+            "linkUrl": "https://www.sidn.nl/whois",
+            "linkLabel": "SIDN domain checker"
           },
           {
             "q": "What if you get ill or stop?",

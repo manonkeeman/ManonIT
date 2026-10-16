@@ -24,7 +24,8 @@
         "wordpress-of-maatwerk": "WordPress o a medida",
         "website-vakantiehuis": "Una web para una casa vacacional",
         "meertalige-website": "Una web multilingüe",
-        "website-onderhoud": "Qué incluye el mantenimiento web"
+        "website-onderhoud": "Qué incluye el mantenimiento web",
+        "phishing-en-beveiliging": "Phishing y seguridad"
       }
     },
     "services": "Servicios",
@@ -258,6 +259,10 @@
       "website-vakantiehuis": {
         "title": "Una web para tu casa de vacaciones: ¿qué necesitas? | Manon Keeman",
         "description": "Lo que necesita una web de alquiler para una casa de vacaciones, con la experiencia de Casa Reille en los Abruzos."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Reconocer el phishing: cómo mantener seguros el sitio web y el correo | Manon Keeman",
+        "description": "Cómo reconocer correos falsos y qué hago para proteger sitios como Villa Vredestein y The Big Three."
       }
     },
     "portfolio": {
@@ -328,6 +333,10 @@
       "website-vakantiehuis": {
         "title": "Una web para tu casa de vacaciones: ¿qué necesitas?",
         "excerpt": "Lo que necesita una web de alquiler para una casa de vacaciones, con la experiencia de Casa Reille en los Abruzos."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Reconocer el phishing: cómo mantener seguros el sitio web y el correo",
+        "excerpt": "Cómo reconocer correos falsos y qué hago para proteger sitios como Villa Vredestein y The Big Three."
       }
     }
   },
@@ -653,6 +662,10 @@
           {
             "q": "¿Puedo ampliar más adelante?",
             "a": "Sí, con un precio fijo de antemano. También puedes pasar a un paquete superior."
+          },
+          {
+            "q": "¿Cómo me doy de baja?",
+            "a": "Con un correo a lets@manonit.com indicando la fecha de fin deseada. El preaviso es de un mes."
           }
         ]
       },
@@ -662,6 +675,20 @@
           {
             "q": "¿El dominio está a mi nombre?",
             "a": "Sí. Tu dominio siempre está a tu nombre."
+          },
+          {
+            "q": "¿Puedo usar mi dominio actual?",
+            "a": "Sí. El dominio se traslada con un código de transferencia (código de autorización) del proveedor actual y sigue a nombre del cliente."
+          },
+          {
+            "q": "¿Se pueden conectar varios dominios al sitio?",
+            "a": "Sí, por ejemplo un .nl y un .com que apunten al mismo sitio."
+          },
+          {
+            "q": "¿Sigue libre el nombre de dominio que quiero?",
+            "a": "Se puede comprobar con el verificador de dominios de SIDN, que gestiona el .nl. Si el nombre está libre, ManonIT lo registra a nombre del cliente.",
+            "linkUrl": "https://www.sidn.nl/whois",
+            "linkLabel": "Verificador de dominios de SIDN"
           },
           {
             "q": "¿Y si te pones enferma o lo dejas?",

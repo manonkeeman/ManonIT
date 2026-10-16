@@ -24,7 +24,8 @@
         "wordpress-of-maatwerk": "WordPress of maatwerk",
         "website-vakantiehuis": "Website voor een vakantiehuis",
         "meertalige-website": "Een meertalige website",
-        "website-onderhoud": "Wat zit er in website-onderhoud"
+        "website-onderhoud": "Wat zit er in website-onderhoud",
+        "phishing-en-beveiliging": "Phishing en beveiliging"
       }
     },
     "services": "Diensten",
@@ -319,6 +320,10 @@
       "website-onderhoud": {
         "title": "Wat zit er in website-onderhoud, en is het nodig? | Manon Keeman",
         "description": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer het nodig is."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Phishing herkennen: zo blijven website en mailbox veilig | Manon Keeman",
+        "description": "Hoe nepmails te herkennen zijn en wat ik doe om websites als Villa Vredestein en The Big Three veilig te houden."
       }
     },
     "portfolio": {
@@ -389,6 +394,10 @@
       "website-onderhoud": {
         "title": "Wat zit er in website-onderhoud, en is het nodig?",
         "excerpt": "Updates, back-ups, monitoring en kleine aanpassingen: wat onderhoud inhoudt, wat het kost en wanneer het nodig is."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Phishing herkennen: zo blijven website en mailbox veilig",
+        "excerpt": "Hoe nepmails te herkennen zijn en wat ik doe om websites als Villa Vredestein en The Big Three veilig te houden."
       }
     }
   },
@@ -653,6 +662,10 @@
           {
             "q": "Kan ik later uitbreiden?",
             "a": "Ja, met een vaste prijs vooraf. Doorgroeien naar een volgend pakket kan ook."
+          },
+          {
+            "q": "Hoe zeg ik op?",
+            "a": "Met een e-mail naar lets@manonit.com met de gewenste einddatum. De opzegtermijn is één maand."
           }
         ]
       },
@@ -662,6 +675,20 @@
           {
             "q": "Staat het domein op mijn naam?",
             "a": "Ja. Het domein staat altijd op naam van de klant."
+          },
+          {
+            "q": "Kan ik mijn bestaande domein gebruiken?",
+            "a": "Ja. Het domein wordt verhuisd met een transfercode (ook wel auth-code) van de huidige provider en blijft op naam van de klant."
+          },
+          {
+            "q": "Kunnen er meerdere domeinen aan de site gekoppeld worden?",
+            "a": "Ja, bijvoorbeeld een .nl en een .com die naar dezelfde site verwijzen."
+          },
+          {
+            "q": "Is de gewenste domeinnaam nog vrij?",
+            "a": "Dat is te controleren met de domeinchecker van SIDN, de beheerder van .nl. Is de naam vrij, dan regelt ManonIT de registratie op naam van de klant.",
+            "linkUrl": "https://www.sidn.nl/whois",
+            "linkLabel": "SIDN domeinchecker"
           },
           {
             "q": "Wat als ManonIT uitvalt of stopt?",

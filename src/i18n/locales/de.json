@@ -24,7 +24,8 @@
         "wordpress-of-maatwerk": "WordPress oder Maßarbeit",
         "website-vakantiehuis": "Website für ein Ferienhaus",
         "meertalige-website": "Eine mehrsprachige Website",
-        "website-onderhoud": "Was Website-Wartung umfasst"
+        "website-onderhoud": "Was Website-Wartung umfasst",
+        "phishing-en-beveiliging": "Phishing und Sicherheit"
       }
     },
     "services": "Leistungen",
@@ -258,6 +259,10 @@
       "website-vakantiehuis": {
         "title": "Eine Website für Ihr Ferienhaus: Was brauchen Sie? | Manon Keeman",
         "description": "Was eine Vermietungs-Website für ein Ferienhaus braucht, mit der Erfahrung von Casa Reille in den Abruzzen."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Phishing erkennen: So bleiben Website und Postfach sicher | Manon Keeman",
+        "description": "Wie sich gefälschte Mails erkennen lassen und was ich tue, um Websites wie Villa Vredestein und The Big Three sicher zu halten."
       }
     },
     "portfolio": {
@@ -328,6 +333,10 @@
       "website-vakantiehuis": {
         "title": "Eine Website für Ihr Ferienhaus: Was brauchen Sie?",
         "excerpt": "Was eine Vermietungs-Website für ein Ferienhaus braucht, mit der Erfahrung von Casa Reille in den Abruzzen."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Phishing erkennen: So bleiben Website und Postfach sicher",
+        "excerpt": "Wie sich gefälschte Mails erkennen lassen und was ich tue, um Websites wie Villa Vredestein und The Big Three sicher zu halten."
       }
     }
   },
@@ -653,6 +662,10 @@
           {
             "q": "Kann ich später erweitern?",
             "a": "Ja, mit einem Festpreis vorab. Sie können auch in ein größeres Paket wechseln."
+          },
+          {
+            "q": "Wie kündige ich?",
+            "a": "Per E-Mail an lets@manonit.com mit dem gewünschten Enddatum. Die Kündigungsfrist beträgt einen Monat."
           }
         ]
       },
@@ -662,6 +675,20 @@
           {
             "q": "Läuft die Domain auf meinen Namen?",
             "a": "Ja. Ihre Domain läuft immer auf Ihren Namen."
+          },
+          {
+            "q": "Kann ich meine bestehende Domain verwenden?",
+            "a": "Ja. Die Domain wird mit einem Transfercode (Auth-Code) des bisherigen Anbieters umgezogen und bleibt auf den Namen des Kunden registriert."
+          },
+          {
+            "q": "Können mehrere Domains mit der Website verbunden werden?",
+            "a": "Ja, zum Beispiel eine .nl und eine .com, die auf dieselbe Website verweisen."
+          },
+          {
+            "q": "Ist der gewünschte Domainname noch frei?",
+            "a": "Das lässt sich mit dem Domain-Checker von SIDN prüfen, der Verwaltung von .nl. Ist der Name frei, registriert ManonIT ihn auf den Namen des Kunden.",
+            "linkUrl": "https://www.sidn.nl/whois",
+            "linkLabel": "SIDN Domain-Checker"
           },
           {
             "q": "Was, wenn Sie krank werden oder aufhören?",

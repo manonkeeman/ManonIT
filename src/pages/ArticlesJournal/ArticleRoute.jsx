@@ -16,6 +16,7 @@ const WordpressOfMaatwerk = lazy(() => import("./WordpressOfMaatwerk.jsx"));
 const WebsiteVakantiehuis = lazy(() => import("./WebsiteVakantiehuis.jsx"));
 const MeertaligeWebsite = lazy(() => import("./MeertaligeWebsite.jsx"));
 const WebsiteOnderhoud = lazy(() => import("./WebsiteOnderhoud.jsx"));
+const PhishingBeveiliging = lazy(() => import("./PhishingBeveiliging.jsx"));
 
 function NotFound({ slug }) {
     const { t } = useTranslation();
@@ -100,6 +101,12 @@ const ARTICLE_META = {
         image: "https://manonit.com/og/project-the-big-three.jpg",
         words: 560,
     },
+    "phishing-en-beveiliging": {
+        date: "2026-10-16",
+        title: "Phishing herkennen: zo blijven website en mailbox veilig",
+        image: "https://manonit.com/og/project-villa-vredestein.jpg",
+        words: 520,
+    },
 };
 
 export default function ArticleRoute() {
@@ -118,6 +125,7 @@ export default function ArticleRoute() {
         "website-vakantiehuis": <WebsiteVakantiehuis />,
         "meertalige-website": <MeertaligeWebsite />,
         "website-onderhoud": <WebsiteOnderhoud />,
+        "phishing-en-beveiliging": <PhishingBeveiliging />,
     };
 
     const article = views[key];

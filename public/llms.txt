@@ -44,6 +44,7 @@
 - [Een website voor je vakantiehuis: wat heb je nodig?](https://manonit.com/journal/website-vakantiehuis)
 - [Een meertalige website laten maken: wat komt erbij kijken?](https://manonit.com/journal/meertalige-website)
 - [Wat zit er in website-onderhoud, en heb je het nodig?](https://manonit.com/journal/website-onderhoud)
+- [Phishing herkennen: zo blijven website en mailbox veilig](https://manonit.com/journal/phishing-en-beveiliging)
 - [Journal](https://manonit.com/journal)
 
 ## Portfolio

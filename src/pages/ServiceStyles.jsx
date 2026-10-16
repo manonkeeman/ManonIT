@@ -224,6 +224,7 @@ export default function ServiceStyles() {
                 .faq-item:last-child { border-bottom: 1px solid var(--border); }
                 .faq-item summary { cursor: pointer; font-weight: 600; line-height: 1.4; }
                 .faq-item p { color: var(--muted); line-height: 1.65; margin: 10px 0 0; font-size: .95rem; }
+                .faq-item a { color: var(--accent-ink); font-weight: 600; }
                 @media (max-width: 900px) {
                     .faq-groups { grid-template-columns: 1fr; }
                 }

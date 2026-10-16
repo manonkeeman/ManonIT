@@ -360,4 +360,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/website-onderhoud" />
     <lastmod>2026-10-09</lastmod>
   </url>
+  <url>
+    <loc>https://manonit.com/journal/phishing-en-beveiliging</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/phishing-en-beveiliging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/phishing-en-beveiliging" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/phishing-en-beveiliging" />
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/en/journal/phishing-en-beveiliging</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/journal/phishing-en-beveiliging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/journal/phishing-en-beveiliging" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/journal/phishing-en-beveiliging" />
+    <lastmod>2026-10-16</lastmod>
+  </url>
 </urlset>

@@ -24,7 +24,8 @@
         "wordpress-of-maatwerk": "WordPress ou sur mesure",
         "website-vakantiehuis": "Un site pour une maison de vacances",
         "meertalige-website": "Un site multilingue",
-        "website-onderhoud": "Ce que comprend la maintenance"
+        "website-onderhoud": "Ce que comprend la maintenance",
+        "phishing-en-beveiliging": "Phishing et sécurité"
       }
     },
     "services": "Services",
@@ -258,6 +259,10 @@
       "website-vakantiehuis": {
         "title": "Un site pour votre maison de vacances : de quoi avez-vous besoin ? | Manon Keeman",
         "description": "Ce dont un site de location de maison de vacances a besoin, avec l'expérience de Casa Reille dans les Abruzzes."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Reconnaître le phishing : garder site web et messagerie en sécurité | Manon Keeman",
+        "description": "Comment repérer les faux e-mails et ce que je fais pour sécuriser des sites comme Villa Vredestein et The Big Three."
       }
     },
     "portfolio": {
@@ -328,6 +333,10 @@
       "website-vakantiehuis": {
         "title": "Un site pour votre maison de vacances : de quoi avez-vous besoin ?",
         "excerpt": "Ce dont un site de location de maison de vacances a besoin, avec l'expérience de Casa Reille dans les Abruzzes."
+      },
+      "phishing-en-beveiliging": {
+        "title": "Reconnaître le phishing : garder site web et messagerie en sécurité",
+        "excerpt": "Comment repérer les faux e-mails et ce que je fais pour sécuriser des sites comme Villa Vredestein et The Big Three."
       }
     }
   },
@@ -653,6 +662,10 @@
           {
             "q": "Puis-je évoluer plus tard ?",
             "a": "Oui, avec un prix fixe à l'avance. Vous pouvez aussi passer à une formule supérieure."
+          },
+          {
+            "q": "Comment résilier ?",
+            "a": "Par e-mail à lets@manonit.com avec la date de fin souhaitée. Le préavis est d'un mois."
           }
         ]
       },
@@ -662,6 +675,20 @@
           {
             "q": "Le domaine est-il à mon nom ?",
             "a": "Oui. Votre domaine est toujours à votre nom."
+          },
+          {
+            "q": "Puis-je utiliser mon domaine existant ?",
+            "a": "Oui. Le domaine est transféré avec un code de transfert (code d'autorisation) fourni par le prestataire actuel et reste au nom du client."
+          },
+          {
+            "q": "Peut-on relier plusieurs domaines au site ?",
+            "a": "Oui, par exemple un .nl et un .com qui pointent vers le même site."
+          },
+          {
+            "q": "Le nom de domaine souhaité est-il encore disponible ?",
+            "a": "On peut le vérifier avec le vérificateur de domaines de SIDN, qui gère le .nl. Si le nom est libre, ManonIT l'enregistre au nom du client.",
+            "linkUrl": "https://www.sidn.nl/whois",
+            "linkLabel": "Vérificateur de domaines SIDN"
           },
           {
             "q": "Et si vous tombez malade ou arrêtez ?",
