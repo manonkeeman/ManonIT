@@ -135,7 +135,7 @@
       },
       "design": {
         "name": "Web Design",
-        "desc": "A site that looks great and actually fits you. Not an off-the-shelf template, but a design that shows your brand.",
+        "desc": "A site that looks great and actually fits you: a design that shows your brand.",
         "tags": "UX/UI, branding, Figma"
       },
       "copy": {
@@ -516,5 +516,132 @@
       }
     },
     "terms": "Minimum 3 months, then cancel monthly."
+  },
+  "subscription": {
+    "label": "Subscription",
+    "title": "A website without a big investment up front",
+    "intro": "Would you rather pay a fixed monthly price than a large amount at once? Choose a subscription: design, build, hosting, backups and changes are included.",
+    "popular": "Most chosen",
+    "perMonth": "per month, excl. VAT",
+    "setup": "one-time setup, excl. VAT",
+    "total": "Total over 24 months: {{total}} excl. VAT",
+    "cta": "Book a 20-minute intro call",
+    "noOtherTitle": "No other costs.",
+    "noOther": "Hosting, SSL, backups and security updates are included in the monthly price. Only the domain (about €12 to 15 a year) you pay yourself, directly to the registrar.",
+    "plans": {
+      "start": {
+        "name": "Start",
+        "tagline": "Professionally online, no hassle.",
+        "items": [
+          "Up to 3 pages",
+          "Designed on my own design system, in your branding",
+          "1 small change per month",
+          "Hosting, backups and security included"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "A custom design that fits you.",
+        "items": [
+          "Up to 7 pages",
+          "Fully custom design",
+          "Basic SEO and GEO",
+          "2 small changes per month",
+          "Hosting, backups and security included"
+        ]
+      },
+      "brand": {
+        "name": "Brand",
+        "tagline": "Fully tailored to your brand.",
+        "items": [
+          "Up to 12 pages",
+          "Custom design plus branding check or logo refresh",
+          "Form, booking module or multilingual",
+          "4 small changes per month plus quarterly check",
+          "Hosting, backups and security included"
+        ]
+      }
+    },
+    "termsTitle": "How the contract works",
+    "terms": [
+      "No lease: after 24 months your website is yours. If you then want to keep hosting and changes, the subscription continues and you can cancel monthly.",
+      "You can stop earlier. You then pay off the remaining build part, about €20 to 30 per remaining month.",
+      "A small change means replacing text or an image, 15 minutes at most. It cannot be saved up. Bigger work gets a fixed price in advance.",
+      "Your domain is always in your name."
+    ],
+    "sketchTitle": "See first, then choose",
+    "sketch": "After the intro call I make a free sketch of your homepage, so you see what you get before you decide anything.",
+    "byline": "Designed by a designer with 20 years of experience (KLM, City of Amsterdam). Built by a developer. One person, no handover.",
+    "more": "Need more, like a web app, shop or fully custom work? See the project prices below."
+  },
+  "faq": {
+    "label": "Frequently asked questions",
+    "title": "Questions you may still have",
+    "groups": [
+      {
+        "title": "Costs",
+        "items": [
+          {
+            "q": "Are there any other costs?",
+            "a": "No. Hosting, SSL, backups and security updates are included in the monthly price. The only thing you pay yourself is the domain, about €12 to 15 a year, directly to the registrar. All prices exclude VAT."
+          },
+          {
+            "q": "Why is this more expensive than a cheap subscription or Wix?",
+            "a": "With cheap subscriptions you supply the texts yourself and get a standard site that stays with the provider. With me you get a design that fits your brand, made by one person who also builds it, and after 24 months the website is yours."
+          }
+        ]
+      },
+      {
+        "title": "Contract",
+        "items": [
+          {
+            "q": "What is the term?",
+            "a": "24 months. After that the subscription can be cancelled monthly and your website is yours."
+          },
+          {
+            "q": "I'd rather not have a subscription.",
+            "a": "Then look at the project prices: a website for a fixed amount, with no term. They are below under rates."
+          },
+          {
+            "q": "Can I stop earlier?",
+            "a": "Yes. You then pay off the remaining build part, about €20 to 30 per remaining month. After 24 months that is no longer needed."
+          },
+          {
+            "q": "Can I expand later?",
+            "a": "Yes, with a fixed price in advance. You can also move up to a bigger plan."
+          }
+        ]
+      },
+      {
+        "title": "Domain and ownership",
+        "items": [
+          {
+            "q": "Is the domain in my name?",
+            "a": "Yes. Your domain is always in your name."
+          },
+          {
+            "q": "What if you get ill or stop?",
+            "a": "Your domain is in your name, backups are made daily and every site comes with a handover document. You can take everything with you."
+          }
+        ]
+      },
+      {
+        "title": "Text and design",
+        "items": [
+          {
+            "q": "Who writes the text?",
+            "a": "You supply the text, or I help with copy editing for a fixed price."
+          },
+          {
+            "q": "Can I change things myself?",
+            "a": "I make small changes for you, within your monthly changes. If you want to manage text, photos and blog yourself, a website with CMS from the project prices fits better."
+          },
+          {
+            "q": "What if I'm not happy with the design?",
+            "a": "Two revision rounds are included."
+          }
+        ]
+      }
+    ]
   }
 }

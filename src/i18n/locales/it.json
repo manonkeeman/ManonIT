@@ -337,7 +337,7 @@
       },
       "design": {
         "name": "Web design",
-        "desc": "Un sito che ha un bell'aspetto e che ti rappresenta davvero. Non un template standard, ma un design che mostra il tuo brand.",
+        "desc": "Un sito che ha un bell'aspetto e che ti rappresenta davvero: un design che mostra il tuo brand.",
         "tags": "UX/UI, identità visiva, Figma"
       },
       "copy": {
@@ -516,5 +516,132 @@
       }
     },
     "terms": "Minimo 3 mesi, poi disdicibile ogni mese."
+  },
+  "subscription": {
+    "label": "Abbonamento",
+    "title": "Un sito senza un grosso investimento iniziale",
+    "intro": "Preferisci un prezzo mensile fisso a una grossa somma in una volta? Scegli un abbonamento: progetto, realizzazione, hosting, backup e modifiche sono inclusi.",
+    "popular": "Il più scelto",
+    "perMonth": "al mese, IVA esclusa",
+    "setup": "avvio una tantum, IVA esclusa",
+    "total": "Totale in 24 mesi: {{total}} IVA esclusa",
+    "cta": "Prenota un colloquio di 20 minuti",
+    "noOtherTitle": "Nessun altro costo.",
+    "noOther": "Hosting, SSL, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile. Solo il dominio (circa 12 a 15 € all'anno) lo paghi tu, direttamente al registrar.",
+    "plans": {
+      "start": {
+        "name": "Avvio",
+        "tagline": "Online in modo professionale, senza pensieri.",
+        "items": [
+          "Fino a 3 pagine",
+          "Realizzato sul mio sistema di design, con la tua identità visiva",
+          "1 piccola modifica al mese",
+          "Hosting, backup e sicurezza inclusi"
+        ]
+      },
+      "growth": {
+        "name": "Crescita",
+        "tagline": "Un design tutto tuo che ti rappresenta.",
+        "items": [
+          "Fino a 7 pagine",
+          "Design completamente personalizzato",
+          "SEO e GEO di base",
+          "2 piccole modifiche al mese",
+          "Hosting, backup e sicurezza inclusi"
+        ]
+      },
+      "brand": {
+        "name": "Marchio",
+        "tagline": "Su misura per il tuo marchio.",
+        "items": [
+          "Fino a 12 pagine",
+          "Design personalizzato più verifica dell'identità visiva o rinnovo del logo",
+          "Modulo di contatto, modulo di prenotazione o multilingue",
+          "4 piccole modifiche al mese più controllo trimestrale",
+          "Hosting, backup e sicurezza inclusi"
+        ]
+      }
+    },
+    "termsTitle": "Come funziona il contratto",
+    "terms": [
+      "Niente leasing: dopo 24 mesi il sito è tuo. Se poi vuoi mantenere hosting e modifiche, l'abbonamento prosegue e lo disdici mensilmente.",
+      "Puoi smettere prima. Paghi allora la parte restante della realizzazione, circa 20 a 30 € per ogni mese rimanente.",
+      "Una piccola modifica è sostituire un testo o un'immagine, al massimo 15 minuti. Non accumulabile. Un lavoro più grande riceve un prezzo fisso in anticipo.",
+      "Il tuo dominio è sempre a tuo nome."
+    ],
+    "sketchTitle": "Prima vedi, poi scegli",
+    "sketch": "Dopo il colloquio di conoscenza realizzo gratuitamente uno schizzo della tua home page, così vedi cosa ottieni prima di decidere.",
+    "byline": "Progettato da una designer con 20 anni di esperienza (KLM, Comune di Amsterdam). Realizzato da una sviluppatrice. Una sola persona, nessun passaggio di consegne.",
+    "more": "Ti serve di più, come un'app web, un negozio o un su misura completo? Guarda i prezzi per progetto qui sotto."
+  },
+  "faq": {
+    "label": "Domande frequenti",
+    "title": "Domande che forse hai ancora",
+    "groups": [
+      {
+        "title": "Costi",
+        "items": [
+          {
+            "q": "Ci sono altri costi?",
+            "a": "No. Hosting, SSL, backup e aggiornamenti di sicurezza sono inclusi nel prezzo mensile. L'unica cosa che paghi tu è il dominio, circa 12 a 15 € all'anno, direttamente al registrar. Tutti i prezzi sono IVA esclusa."
+          },
+          {
+            "q": "Perché costa più di un abbonamento economico o di Wix?",
+            "a": "Con gli abbonamenti economici i testi li fornisci tu e ottieni un sito standard che resta del fornitore. Con me ottieni un design adatto al tuo marchio, fatto da una sola persona che lo costruisce anche, e dopo 24 mesi il sito è tuo."
+          }
+        ]
+      },
+      {
+        "title": "Contratto",
+        "items": [
+          {
+            "q": "Qual è la durata?",
+            "a": "24 mesi. Poi l'abbonamento è disdicibile mensilmente e il sito è tuo."
+          },
+          {
+            "q": "Preferisco non avere un abbonamento.",
+            "a": "Allora guarda i prezzi per progetto: un sito a importo fisso, senza durata. Si trovano più sotto nelle tariffe."
+          },
+          {
+            "q": "Posso smettere prima?",
+            "a": "Sì. Paghi allora la parte restante della realizzazione, circa 20 a 30 € per ogni mese rimanente. Dopo 24 mesi non serve più."
+          },
+          {
+            "q": "Posso ampliare più avanti?",
+            "a": "Sì, con un prezzo fisso in anticipo. Puoi anche passare a un pacchetto superiore."
+          }
+        ]
+      },
+      {
+        "title": "Dominio e proprietà",
+        "items": [
+          {
+            "q": "Il dominio è a mio nome?",
+            "a": "Sì. Il tuo dominio è sempre a tuo nome."
+          },
+          {
+            "q": "E se ti ammali o smetti?",
+            "a": "Il tuo dominio è a tuo nome, i backup si fanno ogni giorno e a ogni sito è allegato un documento di passaggio. Puoi portare via tutto."
+          }
+        ]
+      },
+      {
+        "title": "Testi e design",
+        "items": [
+          {
+            "q": "Chi scrive i testi?",
+            "a": "Li fornisci tu, oppure ti aiuto con la revisione editoriale a un importo fisso."
+          },
+          {
+            "q": "Posso modificare qualcosa da solo?",
+            "a": "Le piccole modifiche le faccio io per te, entro le tue modifiche mensili. Se vuoi gestire tu testi, foto e blog, si adatta meglio un sito con CMS tra i prezzi per progetto."
+          },
+          {
+            "q": "E se non sono soddisfatto del design?",
+            "a": "Sono incluse due revisioni."
+          }
+        ]
+      }
+    ]
   }
 }

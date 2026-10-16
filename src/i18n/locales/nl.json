@@ -135,7 +135,7 @@
       },
       "design": {
         "name": "Webdesign",
-        "desc": "Een site die er goed uitziet én bij jou past. Geen template van de plank, maar een ontwerp dat jouw merk laat zien.",
+        "desc": "Een site die er goed uitziet én bij jou past: een ontwerp dat jouw merk laat zien.",
         "tags": "UX/UI, huisstijl, Figma"
       },
       "copy": {
@@ -516,5 +516,132 @@
       }
     },
     "terms": "Minimaal 3 maanden, daarna maandelijks opzegbaar."
+  },
+  "subscription": {
+    "label": "Abonnement",
+    "title": "Een website zonder grote investering vooraf",
+    "intro": "Liever een vaste maandprijs dan een groot bedrag in één keer? Kies een abonnement: ontwerp, bouw, hosting, back-ups en wijzigingen zitten erin.",
+    "popular": "Meest gekozen",
+    "perMonth": "per maand, excl. btw",
+    "setup": "eenmalige opstart, excl. btw",
+    "total": "Totaal over 24 maanden: {{total}} excl. btw",
+    "cta": "Plan een kennismaking van 20 minuten",
+    "noOtherTitle": "Geen andere kosten.",
+    "noOther": "Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Alleen het domein (circa €12 tot 15 per jaar) betaal je zelf, rechtstreeks aan de registrar.",
+    "plans": {
+      "start": {
+        "name": "Start",
+        "tagline": "Professioneel online, zonder gedoe.",
+        "items": [
+          "Tot 3 pagina's",
+          "Vormgegeven op mijn eigen ontwerpsysteem, in jouw huisstijl",
+          "1 kleine wijziging per maand",
+          "Hosting, back-ups en beveiliging inbegrepen"
+        ]
+      },
+      "growth": {
+        "name": "Groei",
+        "tagline": "Een eigen ontwerp dat bij je past.",
+        "items": [
+          "Tot 7 pagina's",
+          "Volledig eigen ontwerp",
+          "Basis-SEO en GEO",
+          "2 kleine wijzigingen per maand",
+          "Hosting, back-ups en beveiliging inbegrepen"
+        ]
+      },
+      "brand": {
+        "name": "Merk",
+        "tagline": "Volledig afgestemd op jouw merk.",
+        "items": [
+          "Tot 12 pagina's",
+          "Eigen ontwerp plus huisstijlcheck of logo-opfrissing",
+          "Formulier, boekingsmodule of meertaligheid",
+          "4 kleine wijzigingen per maand plus kwartaalcheck",
+          "Hosting, back-ups en beveiliging inbegrepen"
+        ]
+      }
+    },
+    "termsTitle": "Zo werkt het contract",
+    "terms": [
+      "Geen lease: na 24 maanden is je website van jou. Wil je daarna hosting en wijzigingen houden, dan loopt het abonnement door en zeg je maandelijks op.",
+      "Eerder stoppen kan. Je betaalt dan het resterende bouwdeel af, ongeveer €20 tot 30 per resterende maand.",
+      "Een kleine wijziging is tekst of beeld vervangen, maximaal 15 minuten. Niet opspaarbaar. Groter werk krijgt vooraf een vaste prijs.",
+      "Je domein staat altijd op jouw naam."
+    ],
+    "sketchTitle": "Eerst zien, dan kiezen",
+    "sketch": "Na het kennismakingsgesprek maak ik gratis een schets van je homepage, zodat je ziet wat je krijgt voordat je iets besluit.",
+    "byline": "Ontworpen door een vormgever met 20 jaar ervaring (KLM, Gemeente Amsterdam). Gebouwd door een developer. Eén persoon, geen overdracht.",
+    "more": "Meer nodig, zoals een webapp, webshop of volledig maatwerk? Bekijk de projectprijzen hieronder."
+  },
+  "faq": {
+    "label": "Veelgestelde vragen",
+    "title": "Vragen die je misschien nog hebt",
+    "groups": [
+      {
+        "title": "Kosten",
+        "items": [
+          {
+            "q": "Zijn er nog andere kosten?",
+            "a": "Nee. Hosting, SSL, back-ups en beveiligingsupdates zitten in de maandprijs. Het enige wat je zelf betaalt is het domein, circa €12 tot 15 per jaar, rechtstreeks aan de registrar. Alle prijzen zijn exclusief btw."
+          },
+          {
+            "q": "Waarom is dit duurder dan een goedkoop abonnement of Wix?",
+            "a": "Bij goedkope abonnementen lever je zelf de teksten aan en krijg je een standaardsite die van de aanbieder blijft. Bij mij krijg je een ontwerp dat bij jouw merk past, gemaakt door één persoon die het ook bouwt, en na 24 maanden is de website van jou."
+          }
+        ]
+      },
+      {
+        "title": "Contract",
+        "items": [
+          {
+            "q": "Wat is de looptijd?",
+            "a": "24 maanden. Daarna is het abonnement maandelijks opzegbaar en is je website van jou."
+          },
+          {
+            "q": "Ik wil liever geen abonnement.",
+            "a": "Dan kijk je naar de projectprijzen: een website voor een vast bedrag, zonder looptijd. Die staan hieronder onder tarieven."
+          },
+          {
+            "q": "Kan ik eerder stoppen?",
+            "a": "Ja. Je betaalt dan het resterende bouwdeel af, ongeveer €20 tot 30 per resterende maand. Na 24 maanden is dat niet meer nodig."
+          },
+          {
+            "q": "Kan ik later uitbreiden?",
+            "a": "Ja, met een vaste prijs vooraf. Je kunt ook doorgroeien naar een volgend pakket."
+          }
+        ]
+      },
+      {
+        "title": "Domein en eigendom",
+        "items": [
+          {
+            "q": "Staat het domein op mijn naam?",
+            "a": "Ja. Je domein staat altijd op jouw naam."
+          },
+          {
+            "q": "Wat als jij ziek wordt of stopt?",
+            "a": "Je domein staat op jouw naam, er worden dagelijks back-ups gemaakt en bij elke site hoort een overdrachtsdocument. Je kunt alles meenemen."
+          }
+        ]
+      },
+      {
+        "title": "Teksten en ontwerp",
+        "items": [
+          {
+            "q": "Wie schrijft de teksten?",
+            "a": "Jij levert de teksten aan, of ik help met tekstredactie voor een vast bedrag."
+          },
+          {
+            "q": "Kan ik zelf dingen aanpassen?",
+            "a": "Kleine wijzigingen doe ik voor je, binnen je wijzigingen per maand. Wil je zelf teksten, foto's en blog beheren, dan past een website met CMS uit de projectprijzen beter."
+          },
+          {
+            "q": "Wat als ik niet tevreden ben over het ontwerp?",
+            "a": "Twee revisierondes zijn inbegrepen."
+          }
+        ]
+      }
+    ]
   }
 }

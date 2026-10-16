@@ -337,7 +337,7 @@
       },
       "design": {
         "name": "Webdesign",
-        "desc": "Un site qui a l'air bien et qui vous ressemble vraiment. Pas un template standard, mais un design qui montre votre marque.",
+        "desc": "Un site qui a l'air bien et qui vous ressemble vraiment : un design qui montre votre marque.",
         "tags": "UX/UI, identité visuelle, Figma"
       },
       "copy": {
@@ -516,5 +516,132 @@
       }
     },
     "terms": "3 mois minimum, puis résiliable chaque mois."
+  },
+  "subscription": {
+    "label": "Abonnement",
+    "title": "Un site sans gros investissement au départ",
+    "intro": "Vous préférez un prix mensuel fixe à une grosse somme d'un coup ? Choisissez un abonnement : conception, réalisation, hébergement, sauvegardes et modifications sont inclus.",
+    "popular": "Le plus choisi",
+    "perMonth": "par mois, hors TVA",
+    "setup": "mise en route unique, hors TVA",
+    "total": "Total sur 24 mois : {{total}} hors TVA",
+    "cta": "Planifier un échange de 20 minutes",
+    "noOtherTitle": "Aucun autre coût.",
+    "noOther": "L'hébergement, le SSL, les sauvegardes et les mises à jour de sécurité sont inclus dans le prix mensuel. Seul le domaine (environ 12 à 15 € par an) est à votre charge, directement auprès du registrar.",
+    "plans": {
+      "start": {
+        "name": "Départ",
+        "tagline": "En ligne, professionnellement, sans prise de tête.",
+        "items": [
+          "Jusqu'à 3 pages",
+          "Conçu sur mon propre système de design, à votre image",
+          "1 petite modification par mois",
+          "Hébergement, sauvegardes et sécurité inclus"
+        ]
+      },
+      "growth": {
+        "name": "Croissance",
+        "tagline": "Un design sur mesure qui vous ressemble.",
+        "items": [
+          "Jusqu'à 7 pages",
+          "Design entièrement personnalisé",
+          "SEO et GEO de base",
+          "2 petites modifications par mois",
+          "Hébergement, sauvegardes et sécurité inclus"
+        ]
+      },
+      "brand": {
+        "name": "Marque",
+        "tagline": "Entièrement adapté à votre marque.",
+        "items": [
+          "Jusqu'à 12 pages",
+          "Design personnalisé plus vérification de l'identité visuelle ou rafraîchissement du logo",
+          "Formulaire, module de réservation ou multilinguisme",
+          "4 petites modifications par mois plus un point trimestriel",
+          "Hébergement, sauvegardes et sécurité inclus"
+        ]
+      }
+    },
+    "termsTitle": "Comment fonctionne le contrat",
+    "terms": [
+      "Pas de location : après 24 mois, votre site est à vous. Si vous souhaitez ensuite garder l'hébergement et les modifications, l'abonnement continue et vous résiliez au mois.",
+      "Vous pouvez arrêter plus tôt. Vous réglez alors la part de réalisation restante, environ 20 à 30 € par mois restant.",
+      "Une petite modification, c'est remplacer un texte ou une image, 15 minutes maximum. Non cumulable. Un travail plus important reçoit un prix fixe à l'avance.",
+      "Votre domaine est toujours à votre nom."
+    ],
+    "sketchTitle": "Voir d'abord, choisir ensuite",
+    "sketch": "Après l'échange de présentation, je réalise gratuitement une esquisse de votre page d'accueil, pour que vous voyiez ce que vous obtenez avant de décider.",
+    "byline": "Conçu par une graphiste avec 20 ans d'expérience (KLM, Ville d'Amsterdam). Réalisé par une développeuse. Une seule personne, aucun transfert.",
+    "more": "Besoin de plus, comme une application web, une boutique ou du sur mesure complet ? Voyez les prix par projet ci-dessous."
+  },
+  "faq": {
+    "label": "Questions fréquentes",
+    "title": "Les questions que vous vous posez peut-être",
+    "groups": [
+      {
+        "title": "Coûts",
+        "items": [
+          {
+            "q": "Y a-t-il d'autres coûts ?",
+            "a": "Non. L'hébergement, le SSL, les sauvegardes et les mises à jour de sécurité sont inclus dans le prix mensuel. Seul le domaine, environ 12 à 15 € par an, est à votre charge, directement auprès du registrar. Tous les prix sont hors TVA."
+          },
+          {
+            "q": "Pourquoi est-ce plus cher qu'un abonnement bon marché ou Wix ?",
+            "a": "Avec les abonnements bon marché, vous fournissez vous-même les textes et recevez un site standard qui reste chez le prestataire. Chez moi, vous obtenez un design adapté à votre marque, réalisé par une seule personne qui le construit aussi, et après 24 mois le site est à vous."
+          }
+        ]
+      },
+      {
+        "title": "Contrat",
+        "items": [
+          {
+            "q": "Quelle est la durée ?",
+            "a": "24 mois. Ensuite, l'abonnement est résiliable au mois et votre site est à vous."
+          },
+          {
+            "q": "Je préfère ne pas avoir d'abonnement.",
+            "a": "Regardez alors les prix par projet : un site pour un montant fixe, sans durée. Ils figurent plus bas dans les tarifs."
+          },
+          {
+            "q": "Puis-je arrêter plus tôt ?",
+            "a": "Oui. Vous réglez alors la part de réalisation restante, environ 20 à 30 € par mois restant. Après 24 mois, ce n'est plus nécessaire."
+          },
+          {
+            "q": "Puis-je évoluer plus tard ?",
+            "a": "Oui, avec un prix fixe à l'avance. Vous pouvez aussi passer à une formule supérieure."
+          }
+        ]
+      },
+      {
+        "title": "Domaine et propriété",
+        "items": [
+          {
+            "q": "Le domaine est-il à mon nom ?",
+            "a": "Oui. Votre domaine est toujours à votre nom."
+          },
+          {
+            "q": "Et si vous tombez malade ou arrêtez ?",
+            "a": "Votre domaine est à votre nom, des sauvegardes sont faites chaque jour et chaque site est accompagné d'un document de transfert. Vous pouvez tout emporter."
+          }
+        ]
+      },
+      {
+        "title": "Textes et design",
+        "items": [
+          {
+            "q": "Qui rédige les textes ?",
+            "a": "Vous fournissez les textes, ou je vous aide à les relire et les améliorer pour un montant fixe."
+          },
+          {
+            "q": "Puis-je modifier des choses moi-même ?",
+            "a": "Je fais les petites modifications pour vous, dans le cadre de vos modifications mensuelles. Si vous voulez gérer vous-même textes, photos et blog, un site avec CMS parmi les prix par projet convient mieux."
+          },
+          {
+            "q": "Et si je ne suis pas satisfait du design ?",
+            "a": "Deux séries de corrections sont incluses."
+          }
+        ]
+      }
+    ]
   }
 }

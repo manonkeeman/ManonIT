@@ -337,7 +337,7 @@
       },
       "design": {
         "name": "Webdesign",
-        "desc": "Eine Site, die gut aussieht und wirklich zu dir passt. Kein Standard-Template, sondern ein Design, das deine Marke zeigt.",
+        "desc": "Eine Site, die gut aussieht und wirklich zu dir passt: ein Design, das deine Marke zeigt.",
         "tags": "UX/UI, Corporate Design, Figma"
       },
       "copy": {
@@ -516,5 +516,132 @@
       }
     },
     "terms": "Mindestens 3 Monate, danach monatlich kündbar."
+  },
+  "subscription": {
+    "label": "Abo",
+    "title": "Eine Website ohne große Investition vorab",
+    "intro": "Lieber einen festen Monatspreis als einen großen Betrag auf einmal? Wählen Sie ein Abo: Design, Umsetzung, Hosting, Backups und Änderungen sind enthalten.",
+    "popular": "Am häufigsten gewählt",
+    "perMonth": "pro Monat, zzgl. MwSt.",
+    "setup": "einmalige Startgebühr, zzgl. MwSt.",
+    "total": "Gesamt über 24 Monate: {{total}} zzgl. MwSt.",
+    "cta": "20 Minuten Kennenlerngespräch planen",
+    "noOtherTitle": "Keine weiteren Kosten.",
+    "noOther": "Hosting, SSL, Backups und Sicherheitsupdates sind im Monatspreis enthalten. Nur die Domain (etwa 12 bis 15 € pro Jahr) zahlen Sie selbst, direkt beim Registrar.",
+    "plans": {
+      "start": {
+        "name": "Start",
+        "tagline": "Professionell online, ohne Aufwand.",
+        "items": [
+          "Bis zu 3 Seiten",
+          "Gestaltet auf meinem eigenen Designsystem, in Ihrem Corporate Design",
+          "1 kleine Änderung pro Monat",
+          "Hosting, Backups und Sicherheit inklusive"
+        ]
+      },
+      "growth": {
+        "name": "Wachstum",
+        "tagline": "Ein eigenes Design, das zu Ihnen passt.",
+        "items": [
+          "Bis zu 7 Seiten",
+          "Komplett eigenes Design",
+          "Basis-SEO und GEO",
+          "2 kleine Änderungen pro Monat",
+          "Hosting, Backups und Sicherheit inklusive"
+        ]
+      },
+      "brand": {
+        "name": "Marke",
+        "tagline": "Komplett auf Ihre Marke abgestimmt.",
+        "items": [
+          "Bis zu 12 Seiten",
+          "Eigenes Design plus Check des Corporate Designs oder Logo-Auffrischung",
+          "Formular, Buchungsmodul oder Mehrsprachigkeit",
+          "4 kleine Änderungen pro Monat plus Quartalscheck",
+          "Hosting, Backups und Sicherheit inklusive"
+        ]
+      }
+    },
+    "termsTitle": "So funktioniert der Vertrag",
+    "terms": [
+      "Kein Leasing: Nach 24 Monaten gehört die Website Ihnen. Möchten Sie danach Hosting und Änderungen behalten, läuft das Abo weiter und ist monatlich kündbar.",
+      "Früher aufhören ist möglich. Sie zahlen dann den restlichen Umsetzungsanteil, etwa 20 bis 30 € pro verbleibendem Monat.",
+      "Eine kleine Änderung ist ein Text oder Bild ersetzen, höchstens 15 Minuten. Nicht ansparbar. Größere Arbeiten bekommen vorab einen Festpreis.",
+      "Ihre Domain läuft immer auf Ihren Namen."
+    ],
+    "sketchTitle": "Erst sehen, dann entscheiden",
+    "sketch": "Nach dem Kennenlerngespräch erstelle ich kostenlos eine Skizze Ihrer Startseite, damit Sie sehen, was Sie bekommen, bevor Sie etwas entscheiden.",
+    "byline": "Gestaltet von einer Designerin mit 20 Jahren Erfahrung (KLM, Gemeinde Amsterdam). Gebaut von einer Entwicklerin. Eine Person, keine Übergabe.",
+    "more": "Brauchen Sie mehr, etwa eine Web-App, einen Shop oder komplette Maßanfertigung? Sehen Sie die Projektpreise unten."
+  },
+  "faq": {
+    "label": "Häufige Fragen",
+    "title": "Fragen, die Sie vielleicht noch haben",
+    "groups": [
+      {
+        "title": "Kosten",
+        "items": [
+          {
+            "q": "Gibt es weitere Kosten?",
+            "a": "Nein. Hosting, SSL, Backups und Sicherheitsupdates sind im Monatspreis enthalten. Das Einzige, was Sie selbst zahlen, ist die Domain, etwa 12 bis 15 € pro Jahr, direkt beim Registrar. Alle Preise verstehen sich zzgl. MwSt."
+          },
+          {
+            "q": "Warum ist das teurer als ein günstiges Abo oder Wix?",
+            "a": "Bei günstigen Abos liefern Sie die Texte selbst und bekommen eine Standardseite, die beim Anbieter bleibt. Bei mir bekommen Sie ein Design, das zu Ihrer Marke passt, von einer Person gemacht, die es auch baut, und nach 24 Monaten gehört die Website Ihnen."
+          }
+        ]
+      },
+      {
+        "title": "Vertrag",
+        "items": [
+          {
+            "q": "Wie lang ist die Laufzeit?",
+            "a": "24 Monate. Danach ist das Abo monatlich kündbar und die Website gehört Ihnen."
+          },
+          {
+            "q": "Ich möchte lieber kein Abo.",
+            "a": "Dann schauen Sie sich die Projektpreise an: eine Website zum Festpreis, ohne Laufzeit. Sie stehen weiter unten bei den Preisen."
+          },
+          {
+            "q": "Kann ich früher aufhören?",
+            "a": "Ja. Sie zahlen dann den restlichen Umsetzungsanteil, etwa 20 bis 30 € pro verbleibendem Monat. Nach 24 Monaten entfällt das."
+          },
+          {
+            "q": "Kann ich später erweitern?",
+            "a": "Ja, mit einem Festpreis vorab. Sie können auch in ein größeres Paket wechseln."
+          }
+        ]
+      },
+      {
+        "title": "Domain und Eigentum",
+        "items": [
+          {
+            "q": "Läuft die Domain auf meinen Namen?",
+            "a": "Ja. Ihre Domain läuft immer auf Ihren Namen."
+          },
+          {
+            "q": "Was, wenn Sie krank werden oder aufhören?",
+            "a": "Ihre Domain läuft auf Ihren Namen, es werden täglich Backups gemacht und zu jeder Seite gehört ein Übergabedokument. Sie können alles mitnehmen."
+          }
+        ]
+      },
+      {
+        "title": "Texte und Design",
+        "items": [
+          {
+            "q": "Wer schreibt die Texte?",
+            "a": "Sie liefern die Texte, oder ich helfe beim Lektorat für einen Festpreis."
+          },
+          {
+            "q": "Kann ich selbst etwas ändern?",
+            "a": "Kleine Änderungen mache ich für Sie, im Rahmen Ihrer monatlichen Änderungen. Möchten Sie Texte, Fotos und Blog selbst verwalten, passt eine Website mit CMS aus den Projektpreisen besser."
+          },
+          {
+            "q": "Was, wenn mir das Design nicht gefällt?",
+            "a": "Zwei Korrekturrunden sind enthalten."
+          }
+        ]
+      }
+    ]
   }
 }

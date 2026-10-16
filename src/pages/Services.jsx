@@ -1,10 +1,33 @@
 import { useTranslation } from "react-i18next";
 import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield } from "react-icons/fi";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
+import JsonLd from "../assets/Components/JsonLd.jsx";
+
+// Abonnement: bedragen zijn cijfers, de teksten komen uit de vertaalbestanden.
+// Totaal over 24 maanden = opstart + 24 x maandprijs.
+const SUB_MONTHS = 24;
+const SUB_PLANS = [
+    { key: "start",  setup: 295, monthly: 39 },
+    { key: "growth", setup: 495, monthly: 59, featured: true },
+    { key: "brand",  setup: 795, monthly: 79 },
+];
 
 export default function Services() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const prefix = useLangPrefix();
+    const euro = (n) => new Intl.NumberFormat(i18n.language || "nl", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n);
+
+    const faqGroups = t("faq.groups", { returnObjects: true });
+    const faqList = Array.isArray(faqGroups) ? faqGroups : [];
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqList.flatMap((g) => (g.items || []).map((it) => ({
+            "@type": "Question",
+            "name": it.q,
+            "acceptedAnswer": { "@type": "Answer", "text": it.a },
+        }))),
+    };
 
     const services = [
         { key: "websites", Icon: FiCode },
@@ -57,6 +80,69 @@ export default function Services() {
 
                     <div className="svc-steps-cta">
                         <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow>{t("hero.ctaContact")}</a>
+                    </div>
+                </div>
+            </section>
+
+            {/* ── ABONNEMENT ──────────────────────────────── */}
+            <section className="svc-price-section section section-alt" id="abonnement">
+                <div className="container">
+                    <div className="section-head">
+                        <p className="eyebrow">{t("subscription.label")}</p>
+                        <h2>{t("subscription.title")}</h2>
+                        <p>{t("subscription.intro")}</p>
+                    </div>
+
+                    <div className="price-grid">
+                        {SUB_PLANS.map((p) => {
+                            const items = t(`subscription.plans.${p.key}.items`, { returnObjects: true });
+                            return (
+                                <article key={p.key} className={`price-card ${p.featured ? "price-card--featured" : ""}`}>
+                                    {p.featured && <span className="price-badge">{t("subscription.popular")}</span>}
+                                    <h3 className="price-name">{t(`subscription.plans.${p.key}.name`)}</h3>
+                                    <p className="price-tagline">{t(`subscription.plans.${p.key}.tagline`)}</p>
+                                    <p className="price-amount">
+                                        <strong>{euro(p.monthly)}</strong>
+                                        <span className="price-vat">{t("subscription.perMonth")}</span>
+                                    </p>
+                                    <p className="sub-setup">
+                                        <strong>{euro(p.setup)}</strong> {t("subscription.setup")}
+                                    </p>
+                                    <ul className="price-list">
+                                        {Array.isArray(items) && items.map((it) => (
+                                            <li key={it}><FiCheck aria-hidden="true"/>{it}</li>
+                                        ))}
+                                    </ul>
+                                    <p className="price-time">
+                                        {t("subscription.total", { total: euro(p.setup + p.monthly * SUB_MONTHS) })}
+                                    </p>
+                                    <a href={`${prefix}/#contact`} className={`btn ${p.featured ? "btn-primary" : "btn-ghost"} price-btn`}>
+                                        {t("subscription.cta")}
+                                    </a>
+                                </article>
+                            );
+                        })}
+                    </div>
+
+                    <div className="sub-info">
+                        <div className="sub-card">
+                            <h3>{t("subscription.termsTitle")}</h3>
+                            <ul className="price-list sub-terms">
+                                {(t("subscription.terms", { returnObjects: true }) || []).map((it) => (
+                                    <li key={it}><FiCheck aria-hidden="true"/>{it}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className="sub-card">
+                            <h3>{t("subscription.sketchTitle")}</h3>
+                            <p>{t("subscription.sketch")}</p>
+                            <p className="sub-byline">{t("subscription.byline")}</p>
+                        </div>
+                    </div>
+
+                    <div className="price-extras">
+                        <p><strong>{t("subscription.noOtherTitle")}</strong> {t("subscription.noOther")}</p>
+                        <p>{t("subscription.more")}</p>
                     </div>
                 </div>
             </section>
@@ -135,6 +221,31 @@ export default function Services() {
                     <div className="price-extras">
                         <p><strong>{t("pricing.alwaysTitle")}</strong> {t("pricing.always")}</p>
                         <p><strong>{t("pricing.extrasTitle")}</strong> {t("pricing.extras")}</p>
+                    </div>
+                </div>
+            </section>
+
+            {/* ── VEELGESTELDE VRAGEN ─────────────────────── */}
+            <section className="svc-faq-section section" id="veelgestelde-vragen">
+                <JsonLd data={faqSchema} />
+                <div className="container">
+                    <div className="section-head">
+                        <p className="eyebrow">{t("faq.label")}</p>
+                        <h2>{t("faq.title")}</h2>
+                    </div>
+
+                    <div className="faq-groups">
+                        {faqList.map((g) => (
+                            <div key={g.title} className="faq-group">
+                                <h3 className="faq-group-title">{g.title}</h3>
+                                {(g.items || []).map((it) => (
+                                    <details key={it.q} className="faq-item">
+                                        <summary>{it.q}</summary>
+                                        <p>{it.a}</p>
+                                    </details>
+                                ))}
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -345,6 +456,36 @@ export default function Services() {
                 }
                 @media (max-width: 600px) {
                     .care-plans { grid-template-columns: 1fr; gap: 28px; }
+                }
+
+                /* Abonnement */
+                .sub-setup { font-size: .92rem; color: var(--muted); margin: -10px 0 20px; }
+                .sub-setup strong { color: var(--text); font-weight: 700; }
+                .sub-info {
+                    margin-top: 32px;
+                    display: grid;
+                    grid-template-columns: 1.3fr 1fr;
+                    gap: 20px;
+                }
+                .sub-card { background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+                .sub-card h3 { font-size: 1.15rem; margin: 0 0 14px; }
+                .sub-card p { color: var(--muted); line-height: 1.6; margin: 0 0 12px; font-size: .95rem; }
+                .sub-terms { border-top: 0; padding-top: 0; margin: 0; }
+                .sub-byline { color: var(--text) !important; font-weight: 500; }
+                @media (max-width: 900px) {
+                    .sub-info { grid-template-columns: 1fr; }
+                }
+
+                /* Veelgestelde vragen */
+                .svc-faq-section { padding: clamp(56px, 8vw, 96px) 20px; }
+                .faq-groups { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 40px; align-items: start; }
+                .faq-group-title { font-size: 1.05rem; margin: 0 0 12px; color: var(--accent-ink); }
+                .faq-item { border-top: 1px solid var(--border); padding: 14px 0; }
+                .faq-item:last-child { border-bottom: 1px solid var(--border); }
+                .faq-item summary { cursor: pointer; font-weight: 600; line-height: 1.4; }
+                .faq-item p { color: var(--muted); line-height: 1.65; margin: 10px 0 0; font-size: .95rem; }
+                @media (max-width: 900px) {
+                    .faq-groups { grid-template-columns: 1fr; }
                 }
 
                 /* Steps */

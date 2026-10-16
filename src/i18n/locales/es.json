@@ -337,7 +337,7 @@
       },
       "design": {
         "name": "Diseño web",
-        "desc": "Un sitio que se ve bien y que realmente te representa. No una plantilla estándar, sino un diseño que muestra tu marca.",
+        "desc": "Un sitio que se ve bien y que realmente te representa: un diseño que muestra tu marca.",
         "tags": "UX/UI, identidad visual, Figma"
       },
       "copy": {
@@ -516,5 +516,132 @@
       }
     },
     "terms": "Mínimo 3 meses, después cancelable mes a mes."
+  },
+  "subscription": {
+    "label": "Suscripción",
+    "title": "Una web sin gran inversión inicial",
+    "intro": "¿Prefieres un precio mensual fijo a pagar una gran suma de una vez? Elige una suscripción: diseño, desarrollo, alojamiento, copias de seguridad y cambios incluidos.",
+    "popular": "El más elegido",
+    "perMonth": "al mes, sin IVA",
+    "setup": "puesta en marcha única, sin IVA",
+    "total": "Total en 24 meses: {{total}} sin IVA",
+    "cta": "Reserva una llamada de 20 minutos",
+    "noOtherTitle": "Sin otros costes.",
+    "noOther": "El alojamiento, el SSL, las copias de seguridad y las actualizaciones de seguridad están incluidos en el precio mensual. Solo el dominio (unos 12 a 15 € al año) lo pagas tú, directamente al registrador.",
+    "plans": {
+      "start": {
+        "name": "Inicio",
+        "tagline": "Profesionalmente en línea, sin complicaciones.",
+        "items": [
+          "Hasta 3 páginas",
+          "Diseñado sobre mi propio sistema de diseño, con tu imagen de marca",
+          "1 cambio pequeño al mes",
+          "Alojamiento, copias de seguridad y seguridad incluidos"
+        ]
+      },
+      "growth": {
+        "name": "Crecimiento",
+        "tagline": "Un diseño propio que encaja contigo.",
+        "items": [
+          "Hasta 7 páginas",
+          "Diseño totalmente propio",
+          "SEO y GEO básicos",
+          "2 cambios pequeños al mes",
+          "Alojamiento, copias de seguridad y seguridad incluidos"
+        ]
+      },
+      "brand": {
+        "name": "Marca",
+        "tagline": "Totalmente adaptado a tu marca.",
+        "items": [
+          "Hasta 12 páginas",
+          "Diseño propio más revisión de la imagen de marca o renovación del logo",
+          "Formulario, módulo de reservas o multilingüe",
+          "4 cambios pequeños al mes más revisión trimestral",
+          "Alojamiento, copias de seguridad y seguridad incluidos"
+        ]
+      }
+    },
+    "termsTitle": "Cómo funciona el contrato",
+    "terms": [
+      "Sin leasing: pasados 24 meses, tu web es tuya. Si después quieres mantener el alojamiento y los cambios, la suscripción continúa y la cancelas mensualmente.",
+      "Puedes parar antes. Entonces pagas la parte restante de la construcción, unos 20 a 30 € por mes restante.",
+      "Un cambio pequeño es sustituir un texto o una imagen, 15 minutos como máximo. No se acumula. Un trabajo mayor recibe un precio fijo de antemano.",
+      "Tu dominio siempre está a tu nombre."
+    ],
+    "sketchTitle": "Primero ver, luego elegir",
+    "sketch": "Tras la llamada de presentación hago gratis un boceto de tu página de inicio, para que veas lo que obtienes antes de decidir nada.",
+    "byline": "Diseñado por una diseñadora con 20 años de experiencia (KLM, Ayuntamiento de Ámsterdam). Construido por una desarrolladora. Una sola persona, sin traspasos.",
+    "more": "¿Necesitas más, como una aplicación web, una tienda o un proyecto totalmente a medida? Mira los precios por proyecto más abajo."
+  },
+  "faq": {
+    "label": "Preguntas frecuentes",
+    "title": "Preguntas que quizá aún tengas",
+    "groups": [
+      {
+        "title": "Costes",
+        "items": [
+          {
+            "q": "¿Hay otros costes?",
+            "a": "No. El alojamiento, el SSL, las copias de seguridad y las actualizaciones de seguridad están incluidos en el precio mensual. Lo único que pagas tú es el dominio, unos 12 a 15 € al año, directamente al registrador. Todos los precios son sin IVA."
+          },
+          {
+            "q": "¿Por qué es más caro que una suscripción barata o Wix?",
+            "a": "En las suscripciones baratas aportas tú los textos y recibes una web estándar que sigue siendo del proveedor. Conmigo recibes un diseño que encaja con tu marca, hecho por una sola persona que además lo construye, y pasados 24 meses la web es tuya."
+          }
+        ]
+      },
+      {
+        "title": "Contrato",
+        "items": [
+          {
+            "q": "¿Cuál es la duración?",
+            "a": "24 meses. Después, la suscripción se puede cancelar mensualmente y tu web es tuya."
+          },
+          {
+            "q": "Prefiero no tener una suscripción.",
+            "a": "Entonces mira los precios por proyecto: una web por un importe fijo, sin permanencia. Están más abajo en las tarifas."
+          },
+          {
+            "q": "¿Puedo parar antes?",
+            "a": "Sí. Entonces pagas la parte restante de la construcción, unos 20 a 30 € por mes restante. Pasados 24 meses ya no hace falta."
+          },
+          {
+            "q": "¿Puedo ampliar más adelante?",
+            "a": "Sí, con un precio fijo de antemano. También puedes pasar a un paquete superior."
+          }
+        ]
+      },
+      {
+        "title": "Dominio y propiedad",
+        "items": [
+          {
+            "q": "¿El dominio está a mi nombre?",
+            "a": "Sí. Tu dominio siempre está a tu nombre."
+          },
+          {
+            "q": "¿Y si te pones enferma o lo dejas?",
+            "a": "Tu dominio está a tu nombre, se hacen copias de seguridad diarias y cada web incluye un documento de traspaso. Puedes llevártelo todo."
+          }
+        ]
+      },
+      {
+        "title": "Textos y diseño",
+        "items": [
+          {
+            "q": "¿Quién escribe los textos?",
+            "a": "Tú aportas los textos, o te ayudo con la revisión editorial por un importe fijo."
+          },
+          {
+            "q": "¿Puedo cambiar cosas yo mismo?",
+            "a": "Los cambios pequeños los hago yo por ti, dentro de tus cambios mensuales. Si quieres gestionar tú los textos, las fotos y el blog, encaja mejor una web con CMS de los precios por proyecto."
+          },
+          {
+            "q": "¿Y si no estoy contento con el diseño?",
+            "a": "Se incluyen dos rondas de revisión."
+          }
+        ]
+      }
+    ]
   }
 }
