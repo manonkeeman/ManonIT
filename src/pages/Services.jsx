@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield, FiCalendar, FiArrowRight } from "react-icons/fi";
+import { FiCode, FiPenTool, FiEdit3, FiSearch, FiCamera, FiShare2, FiCheck, FiShield, FiCalendar, FiArrowRight, FiFileText } from "react-icons/fi";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import JsonLd from "../assets/Components/JsonLd.jsx";
 
@@ -177,8 +177,10 @@ export default function Services() {
                                         ))}
                                     </ul>
                                     <p className="price-time">{t(`pricing.packages.${p.key}.time`)}</p>
-                                    <a href={`${prefix}/#contact`} className={`btn ${p.featured ? "btn-primary" : "btn-ghost"} price-btn`}>
-                                        {t("pricing.cta")}
+                                    <a href={`${prefix}/#contact`} className="btn sub-btn">
+                                        <FiFileText aria-hidden="true"/>
+                                        <span>{t("pricing.cta")}</span>
+                                        <FiArrowRight className="sub-btn-arrow" aria-hidden="true"/>
                                     </a>
                                 </article>
                             );
@@ -211,9 +213,11 @@ export default function Services() {
                                                 <li key={it}><FiCheck aria-hidden="true"/>{it}</li>
                                             ))}
                                         </ul>
-                                        <a href={`${prefix}/#contact`} className={`btn ${p.featured ? "btn-primary" : "btn-ghost"} price-btn`}>
-                                            {t("care.cta")}
-                                        </a>
+                                        <a href={`${prefix}/#contact`} className="btn sub-btn">
+                                        <FiShield aria-hidden="true"/>
+                                        <span>{t("care.cta")}</span>
+                                        <FiArrowRight className="sub-btn-arrow" aria-hidden="true"/>
+                                    </a>
                                     </article>
                                 );
                             })}
@@ -415,7 +419,6 @@ export default function Services() {
                 .price-list li { display: flex; gap: 10px; font-size: .93rem; line-height: 1.45; }
                 .price-list svg { flex-shrink: 0; margin-top: 3px; color: var(--accent-ink); }
                 .price-time { font-size: .85rem; color: var(--muted); margin: 0 0 16px; }
-                .price-btn { width: 100%; }
                 .price-extras {
                     margin-top: 32px;
                     background: var(--bg-alt);
