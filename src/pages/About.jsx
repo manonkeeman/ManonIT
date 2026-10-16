@@ -1,7 +1,7 @@
-import { FaReact, FaGitAlt, FaJava } from "react-icons/fa";
+import { FaReact, FaGitAlt, FaJava, FaCss3Alt } from "react-icons/fa";
 import { FiCheck, FiBookOpen } from "react-icons/fi";
 import {
-  SiSpringboot, SiPostgresql, SiFigma, SiJavascript, SiHtml5, SiCss, SiVite, SiGithub,
+  SiSpringboot, SiPostgresql, SiFigma, SiJavascript, SiHtml5, SiVite, SiGithub,
   SiWordpress, SiNetlify, SiClaude, SiGoogleanalytics,
 } from "react-icons/si";
 import { useTranslation } from "react-i18next";
@@ -11,7 +11,7 @@ import JsonLd from "../assets/Components/JsonLd.jsx";
 
 // Tools en talen met naam in de tooltip (alleen wat daadwerkelijk gebruikt wordt)
 const STACK = [
-  ["React", FaReact], ["JavaScript", SiJavascript], ["HTML", SiHtml5], ["CSS", SiCss], ["Vite", SiVite],
+  ["React", FaReact], ["JavaScript", SiJavascript], ["HTML", SiHtml5], ["CSS", FaCss3Alt], ["Vite", SiVite],
   ["Java", FaJava], ["Spring Boot", SiSpringboot], ["PostgreSQL", SiPostgresql],
   ["Git", FaGitAlt], ["GitHub", SiGithub], ["Figma", SiFigma],
   ["WordPress", SiWordpress], ["Netlify", SiNetlify], ["Google Analytics", SiGoogleanalytics], ["Claude", SiClaude],
