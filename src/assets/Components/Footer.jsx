@@ -6,6 +6,7 @@ import { useLangPrefix } from "./useLangPrefix.js";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { SiSubstack } from "react-icons/si";
+import { FiCalendar } from "react-icons/fi";
 
 export default function Footer() {
     const { t } = useTranslation();
@@ -22,7 +23,7 @@ export default function Footer() {
                     <p>{t('footer.ctaSub')}</p>
                 </div>
                 <div className="footer-cta-btns">
-                    <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow>{t('hero.ctaContact')}</a>
+                    <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t('hero.ctaContact')}</a>
                     <a href="https://wa.me/31624766568" target="_blank" rel="noreferrer" className="btn footer-cta-wa"><FaWhatsapp aria-hidden="true"/> WhatsApp</a>
                 </div>
             </div>}

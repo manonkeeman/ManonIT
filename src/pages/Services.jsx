@@ -79,7 +79,7 @@ export default function Services() {
                     </div>
 
                     <div className="svc-steps-cta">
-                        <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow>{t("hero.ctaContact")}</a>
+                        <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t("hero.ctaContact")}</a>
                     </div>
                 </div>
             </section>
@@ -276,7 +276,7 @@ export default function Services() {
                     </div>
 
                     <div className="svc-steps-cta">
-                        <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow>{t("howItWorks.cta")}</a>
+                        <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t("howItWorks.cta")}</a>
                     </div>
                 </div>
             </section>

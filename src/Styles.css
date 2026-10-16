@@ -88,13 +88,23 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
 }
 .btn:active{ transform:translateY(1px) }
 .btn:focus-visible{ outline:2px solid var(--accent); outline-offset:2px }
-.btn-primary{ background:var(--text); color:#fff; border-color:var(--text) }
-.btn-primary:hover{ background:var(--accent-ink); border-color:var(--accent-ink); color:#fff }
+.btn-primary{
+  background:linear-gradient(135deg, var(--accent-ink), #D9480F); color:#fff; border-color:transparent;
+  box-shadow:0 10px 22px -10px rgba(185,58,9,.65);
+  transition:transform .15s ease, box-shadow .2s ease, filter .2s ease;
+}
+.btn-primary:hover, .btn-primary:focus-visible{
+  color:#fff; filter:brightness(1.08); transform:translateY(-2px);
+  box-shadow:0 16px 28px -12px rgba(185,58,9,.75);
+}
+.btn-primary:active{ transform:translateY(0) }
+.btn-primary svg{ flex-shrink:0; width:18px; height:18px }
 .btn-outline{ background:transparent; color:var(--text); border-color:var(--text) }
 .btn-outline:hover{ background:var(--text); color:#fff }
 .btn-ghost{ background:transparent; color:var(--text); border-color:rgba(0,0,0,.18) }
 .btn-ghost:hover{ border-color:var(--text) }
-.btn[data-arrow]::after{ content:"→"; margin-left:6px; font-family: var(--font-ui) }
+.btn[data-arrow]::after{ content:"→"; margin-left:6px; font-family: var(--font-ui); display:inline-block; transition:transform .2s ease }
+.btn[data-arrow]:hover::after{ transform:translateX(4px) }
 .btn[data-wide]{ padding-left:32px; padding-right:32px }
 .btn[data-narrow]{ padding-left:14px; padding-right:14px }
 

@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { useTranslation } from "react-i18next";
-import { FiCheck, FiStar, FiLayers, FiSearch, FiMessageCircle } from "react-icons/fi";
+import { FiCheck, FiStar, FiLayers, FiSearch, FiMessageCircle, FiCalendar } from "react-icons/fi";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 
@@ -39,7 +39,7 @@ function Hero() {
                         )}
 
                         <div className="hero-ctas">
-                            <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow>{t("hero.ctaContact")}</a>
+                            <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t("hero.ctaContact")}</a>
                             <a href={`${prefix}/#portfolio`} className="btn btn-ghost">{t("hero.ctaWork")}</a>
                         </div>
 
