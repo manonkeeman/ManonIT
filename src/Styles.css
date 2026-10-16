@@ -116,25 +116,6 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
 
 #home{ padding:0; margin:0 }
 
-/* ========= ABOUT (full-bleed) ========= */
-#about.section, #about.section-alt{ padding:0; margin:0; border:none }
-.about-shell{
-  width:100%;
-  display:grid; grid-template-columns:1fr minmax(420px, 48vw); min-height:90vh;
-}
-.about-copy{ padding:28px clamp(20px,3vw,48px) }
-.about-photo{ position:relative; overflow:hidden }
-.about-photo img{ display:block; width:100%; height:100vh; object-fit:cover; object-position:center; border-radius:0 !important }
-.about-quote{ font-style:italic; color:var(--muted); margin:1rem 0 1.5rem }
-
-@media (max-width:920px){
-  .about-shell{ grid-template-columns:1fr }
-  .about-photo img{ height:50vh }
-}
-@media (max-width:480px){
-  .about-photo img{ height:40vh }
-}
-
 #contact.section{ padding:0 !important; margin:0 !important; border:none !important }
 
 /* ========= Header / Desktop Nav ========= */

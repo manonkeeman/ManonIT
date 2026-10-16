@@ -1,13 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { FiCalendar } from "react-icons/fi";
-import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import JsonLd from "../assets/Components/JsonLd.jsx";
 import Seo from "../assets/Components/Seo.jsx";
 import ServiceStyles from "./ServiceStyles.jsx";
 
 export default function Faq() {
     const { t } = useTranslation();
-    const prefix = useLangPrefix();
 
     const faqGroups = t("faq.groups", { returnObjects: true });
     const faqList = Array.isArray(faqGroups) ? faqGroups : [];
@@ -49,10 +46,6 @@ export default function Faq() {
                                 ))}
                             </div>
                         ))}
-                    </div>
-
-                    <div className="svc-steps-cta">
-                        <a href={`${prefix}/#contact`} className="btn btn-primary" data-arrow><FiCalendar aria-hidden="true"/>{t("hero.ctaContact")}</a>
                     </div>
                 </div>
             </section>

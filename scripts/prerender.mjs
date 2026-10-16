@@ -98,15 +98,21 @@ async function main() {
             await mkdir(dirname(outFile), { recursive: true });
             await writeFile(outFile, html);
             ok++;
+            return true;
         } catch (err) {
-            console.warn(`[prerender] ${route} overgeslagen: ${err.message}`);
+            console.warn(`[prerender] ${route} mislukt: ${err.message}`);
+            return false;
         }
     };
 
     try {
         const queue = [...routes];
         await Promise.all(Array.from({ length: 4 }, async () => {
-            while (queue.length) await render(queue.shift());
+            // Eén tweede poging: bij vier gelijktijdige pagina's valt er af en toe een op de timeout
+            while (queue.length) {
+                const route = queue.shift();
+                if (!(await render(route))) await render(route);
+            }
         }));
     } finally {
         await browser.close();

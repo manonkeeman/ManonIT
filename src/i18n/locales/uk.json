@@ -9,9 +9,10 @@
       "portfolio": {
         "backend": "CasaCrew · Застосунок оренди",
         "frontend": "Вебдизайн · Villa Vredestein",
-        "acupuncture": "Вебдизайн - Acupuncture by Saskia",
+        "acupuncture": "Вебдизайн · Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
-        "marieboddaert": "Вебдизайн - Marie H. Boddaert"
+        "marieboddaert": "Вебдизайн · Marie H. Boddaert",
+        "casareille": "Вебдизайн · Casa Reille"
       },
       "journal": {
         "designchaos": "Хаос у дизайні",
@@ -19,10 +20,14 @@
         "toekomsttech": "Майбутнє технологій",
         "365korteverhalen": "365 коротких оповідань",
         "pastelvanbuiten": "Пастель зовні, несподіванка всередині",
-        "ai-in-mijn-werk": "AI in my work",
-        "verhaal-achter-casacrew": "The story behind CasaCrew",
+        "ai-in-mijn-werk": "Як я використовую AI у роботі",
+        "verhaal-achter-casacrew": "Історія створення CasaCrew",
         "samenwerking-the-big-three": "Свобода й довіра: The Big Three",
-        "website-villa-vredestein": "Villa Vredestein: дім з історією"
+        "website-villa-vredestein": "Villa Vredestein: дім з історією",
+        "wordpress-of-maatwerk": "WordPress чи індивідуальна розробка",
+        "website-vakantiehuis": "Сайт для будинку відпочинку",
+        "meertalige-website": "Багатомовний сайт",
+        "website-onderhoud": "Що входить у підтримку сайту"
       }
     },
     "services": "Послуги",

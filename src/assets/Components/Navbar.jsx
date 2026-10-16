@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import MobileMenu from "./MobileMenu.jsx";
 import { useLangPrefix } from "./useLangPrefix.js";
 import LanguageSwitcher from "./LanguageSwitcher.jsx";
+import { CASA_REILLE_URL, JOURNAL_NAV } from "../Helpers/links.js";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -37,21 +38,16 @@ export default function Navbar() {
                             <NavLink to="/webdesignacupuncture">{t('nav.links.portfolio.acupuncture')}</NavLink>
                             <NavLink to="/thebigthree">{t('nav.links.portfolio.bigthree')}</NavLink>
                             <NavLink to="/marieboddaert">{t('nav.links.portfolio.marieboddaert')}</NavLink>
+                            <a href={CASA_REILLE_URL} target="_blank" rel="noreferrer">{t('nav.links.portfolio.casareille')}</a>
                         </div>
                     </div>
 
                     <div className="nav-group">
                         <NavLink to="/journal">{t('nav.journal')}</NavLink>
                         <div className="nav-dropdown">
-                            <NavLink to="/journal/ai-in-mijn-werk">{t('nav.links.journal.ai-in-mijn-werk')}</NavLink>
-                            <NavLink to="/journal/verhaal-achter-casacrew">{t('nav.links.journal.verhaal-achter-casacrew')}</NavLink>
-                            <NavLink to="/journal/samenwerking-the-big-three">{t('nav.links.journal.samenwerking-the-big-three')}</NavLink>
-                            <NavLink to="/journal/website-villa-vredestein">{t('nav.links.journal.website-villa-vredestein')}</NavLink>
-                            <NavLink to="/journal/365korteverhalen">{t('nav.links.journal.365korteverhalen')}</NavLink>
-                            <NavLink to="/journal/designchaos">{t('nav.links.journal.designchaos')}</NavLink>
-                            <NavLink to="/journal/storytelling">{t('nav.links.journal.storytelling')}</NavLink>
-                            <NavLink to="/journal/toekomsttech">{t('nav.links.journal.toekomsttech')}</NavLink>
-                            <NavLink to="/journal/pastelvanbuiten">{t('nav.links.journal.pastelvanbuiten')}</NavLink>
+                            {JOURNAL_NAV.map((slug) => (
+                                <NavLink key={slug} to={`/journal/${slug}`}>{t(`nav.links.journal.${slug}`)}</NavLink>
+                            ))}
                         </div>
                     </div>
 

@@ -4,6 +4,7 @@ import { stripEnPrefix } from "../../i18n/langPath.js";
 import { openCookieSettings } from "../Helpers/consent.js";
 import { useLangPrefix } from "./useLangPrefix.js";
 import { useTranslation } from "react-i18next";
+import { CASA_REILLE_URL } from "../Helpers/links.js";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { SiSubstack } from "react-icons/si";
 import { FiCalendar } from "react-icons/fi";
@@ -72,6 +73,7 @@ export default function Footer() {
                     <Link to="/thebigthree">The Big Three</Link>
                     <Link to="/webdesignacupuncture">Acupuncture by Saskia</Link>
                     <Link to="/marieboddaert">Marie H. Boddaert</Link>
+                    <a href={CASA_REILLE_URL} target="_blank" rel="noreferrer">Casa Reille</a>
                 </nav>
 
                 {/* Col 5 — Contact */}

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { SiSubstack, SiX, SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
+import { SiSubstack, SiX, SiFacebook, SiInstagram } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { FiLink, FiCheck } from "react-icons/fi";
 
 const SUBSTACK = "https://manonkeeman.substack.com";
@@ -43,7 +44,7 @@ export default function ArticleFooter({ shareTitle, shareText }) {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <SiLinkedin /><span>LinkedIn</span>
+                        <FaLinkedin /><span>LinkedIn</span>
                     </a>
                     <a
                         className="af-btn af-btn--x"

@@ -9,9 +9,10 @@
       "portfolio": {
         "backend": "CasaCrew · Verhuurapp",
         "frontend": "Webdesign · Villa Vredestein",
-        "acupuncture": "Webdesign - Acupuncture by Saskia",
+        "acupuncture": "Webdesign · Acupuncture by Saskia",
         "bigthree": "Webdesign · The Big Three",
-        "marieboddaert": "Webdesign - Marie H. Boddaert"
+        "marieboddaert": "Webdesign · Marie H. Boddaert",
+        "casareille": "Webdesign · Casa Reille"
       },
       "journal": {
         "designchaos": "Design Chaos",
@@ -22,7 +23,11 @@
         "ai-in-mijn-werk": "Hoe ik AI gebruik in mijn werk",
         "verhaal-achter-casacrew": "Het verhaal achter CasaCrew",
         "samenwerking-the-big-three": "Vrijheid en vertrouwen: The Big Three",
-        "website-villa-vredestein": "Villa Vredestein: een huis met een verhaal"
+        "website-villa-vredestein": "Villa Vredestein: een huis met een verhaal",
+        "wordpress-of-maatwerk": "WordPress of maatwerk",
+        "website-vakantiehuis": "Website voor een vakantiehuis",
+        "meertalige-website": "Een meertalige website",
+        "website-onderhoud": "Wat zit er in website-onderhoud"
       }
     },
     "services": "Diensten",

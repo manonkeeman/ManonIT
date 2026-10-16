@@ -1,3 +1,4 @@
+import { CASA_REILLE_URL, JOURNAL_NAV } from "../Helpers/links.js";
 import { NavLink } from "./LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -82,37 +83,18 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/marieboddaert" onClick={onClose} className="mob-link">
                         {t('nav.links.portfolio.marieboddaert')}
                     </NavLink>
+                    <a href={CASA_REILLE_URL} target="_blank" rel="noreferrer" onClick={onClose} className="mob-link">
+                        {t('nav.links.portfolio.casareille')}
+                    </a>
 
                     <div className="mob-divider" />
 
                     <p className="mob-section-label">{t('nav.journal')}</p>
-                    <NavLink to="/journal/ai-in-mijn-werk" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.ai-in-mijn-werk')}
-                    </NavLink>
-                    <NavLink to="/journal/verhaal-achter-casacrew" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.verhaal-achter-casacrew')}
-                    </NavLink>
-                    <NavLink to="/journal/samenwerking-the-big-three" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.samenwerking-the-big-three')}
-                    </NavLink>
-                    <NavLink to="/journal/website-villa-vredestein" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.website-villa-vredestein')}
-                    </NavLink>
-                    <NavLink to="/journal/365korteverhalen" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.365korteverhalen')}
-                    </NavLink>
-                    <NavLink to="/journal/designchaos" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.designchaos')}
-                    </NavLink>
-                    <NavLink to="/journal/storytelling" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.storytelling')}
-                    </NavLink>
-                    <NavLink to="/journal/toekomsttech" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.toekomsttech')}
-                    </NavLink>
-                    <NavLink to="/journal/pastelvanbuiten" onClick={onClose} className="mob-link">
-                        {t('nav.links.journal.pastelvanbuiten')}
-                    </NavLink>
+                    {JOURNAL_NAV.map((slug) => (
+                        <NavLink key={slug} to={`/journal/${slug}`} onClick={onClose} className="mob-link">
+                            {t(`nav.links.journal.${slug}`)}
+                        </NavLink>
+                    ))}
 
                     <div className="mob-divider" />
 

@@ -1,4 +1,5 @@
 import { FaReact, FaGitAlt } from "react-icons/fa";
+import { FiCheck, FiBookOpen } from "react-icons/fi";
 import { SiSpringboot, SiPostgresql, SiFigma } from "react-icons/si";
 import { useTranslation } from "react-i18next";
 import { Link } from "../assets/Components/LocaleLink.jsx";
@@ -53,182 +54,161 @@ const ABOUT_SCHEMA = {
 
 export default function About() {
   const { t } = useTranslation();
+  const skills = ["stack", "systems", "uxui", "storytelling"];
 
   return (
-      <section id="about" className="section section-alt" style={{ padding: 0, margin: 0 }}>
+      <section id="about" className="section about-section">
         <Seo
           title={t('seo.about.title')}
           description={t('seo.about.description')}
           path="/about"
         />
         <JsonLd data={ABOUT_SCHEMA} />
-        <div className="about-shell">
+        <div className="container about-grid">
           {/* TEKST */}
           <div className="about-copy">
+            <p className="eyebrow">{t('nav.about')}</p>
             <h1 className="about-title">{t('about.title')}</h1>
             <blockquote className="about-quote">
               {t('about.quote')}
             </blockquote>
-            <p className="about-text">{t('about.bio1')}</p>
+            <p className="about-text about-lead">{t('about.bio1')}</p>
             <p className="about-text">{t('about.bio2')}</p>
             <p className="about-text">{t('about.bio3')}</p>
             <p className="about-text">{t('about.bio4')}</p>
             <p className="about-text">{t('about.bio5')}</p>
 
-            <div className="about-journal-cta">
-              <span className="about-journal-tagline">{t('about.journalCta')}</span>
-              <Link to="/journal" className="about-journal-btn">{t('about.journalBtn')}</Link>
+            <div className="about-skills-block">
+              <h2 className="about-subtitle">{t('about.skillsTitle')}</h2>
+              <ul className="about-skills">
+                {skills.map((k) => (
+                  <li key={k}><FiCheck aria-hidden="true" />{t(`about.skills.${k}`)}</li>
+                ))}
+              </ul>
+
+              {/* Tech stack icons met tooltip */}
+              <div className="about-stack" aria-label="Tech stack">
+                <span data-tooltip="React"><FaReact /></span>
+                <span data-tooltip="Spring Boot"><SiSpringboot /></span>
+                <span data-tooltip="PostgreSQL"><SiPostgresql /></span>
+                <span data-tooltip="Git"><FaGitAlt /></span>
+                <span data-tooltip="Figma"><SiFigma /></span>
+              </div>
             </div>
-
-            <h3 className="about-subtitle">{t('about.skillsTitle')}</h3>
-            <ul className="about-skills">
-              <li>{t('about.skills.stack')}</li>
-              <li>{t('about.skills.systems')}</li>
-              <li>{t('about.skills.uxui')}</li>
-              <li>{t('about.skills.storytelling')}</li>
-            </ul>
-
-            {/* Tech stack icons met tooltip */}
-            <div className="about-stack" aria-label="Tech stack">
-              <span data-tooltip="React"><FaReact /></span>
-              <span data-tooltip="Spring Boot"><SiSpringboot /></span>
-              <span data-tooltip="PostgreSQL"><SiPostgresql /></span>
-              <span data-tooltip="Git"><FaGitAlt /></span>
-              <span data-tooltip="Figma"><SiFigma /></span>
-            </div>
-
           </div>
 
           {/* FOTO */}
-          <div className="about-photo">
-            <picture>
-              <source
-                  type="image/avif"
-                  srcSet="/about-portrait-400w.avif 400w, /about-portrait-800w.avif 800w, /about-portrait-1200w.avif 1200w"
-                  sizes="(max-width: 768px) 100vw, 48vw"
-              />
-              <source
-                  type="image/webp"
-                  srcSet="/about-portrait-400w.webp 400w, /about-portrait-800w.webp 800w, /about-portrait-1200w.webp 1200w"
-                  sizes="(max-width: 768px) 100vw, 48vw"
-              />
-              <img
-                  src="/about-portrait-800w.webp"
-                  width="800"
-                  height="600"
-                  alt="Portrait Manon"
-                  loading="lazy"
-                  decoding="async"
-              />
-            </picture>
-          </div>
+            <div className="about-photo">
+              <picture>
+                <source
+                    type="image/avif"
+                    srcSet="/about-portrait-400w.avif 400w, /about-portrait-800w.avif 800w, /about-portrait-1200w.avif 1200w"
+                    sizes="(max-width: 920px) 92vw, 480px"
+                />
+                <source
+                    type="image/webp"
+                    srcSet="/about-portrait-400w.webp 400w, /about-portrait-800w.webp 800w, /about-portrait-1200w.webp 1200w"
+                    sizes="(max-width: 920px) 92vw, 480px"
+                />
+                <img
+                    src="/about-portrait-800w.webp"
+                    width="800"
+                    height="600"
+                    alt="Portrait Manon"
+                    decoding="async"
+                />
+              </picture>
+            </div>
+
+            {/* JOURNAL */}
+            <div className="about-journal-cta">
+              <span className="about-journal-icon"><FiBookOpen aria-hidden="true" /></span>
+              <p className="about-journal-tagline">{t('about.journalCta')}</p>
+              <Link to="/journal" className="btn btn-primary" data-arrow>{t('about.journalBtn')}</Link>
+            </div>
         </div>
 
         <style>{`
-        .about-shell{
-          min-height: 80vh;
+        .about-section{ padding-top: clamp(40px, 6vw, 80px); padding-bottom: clamp(40px, 6vw, 80px); }
+        .about-grid{
           display:grid;
-          grid-template-columns: 1fr minmax(420px, 48vw);
-          grid-template-areas: "copy photo";
+          grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+          gap: 20px clamp(32px, 5vw, 72px);
+          align-items:start;
+          grid-template-areas: "copy photo" "copy journal";
+          grid-template-rows: auto 1fr;
         }
-        .about-copy {
-          grid-area: copy;
-          align-self:center;
-          padding: 48px 48px 48px 3cm;
-          max-width: 56ch;
+        .about-copy{ grid-area: copy; }
+        .about-photo{ grid-area: photo; }
+        .about-journal-cta{ grid-area: journal; }
+        .about-title{ margin: 0 0 16px; font-size: clamp(2.1rem, 4.4vw, 3.3rem); line-height:1.08; }
+        .about-quote{
+          margin: 0 0 28px; padding: 4px 0 4px 18px;
+          border-left: 3px solid var(--accent);
+          font-size: 1.12rem; font-style: italic; color: var(--muted);
+          line-height: 1.55; white-space: pre-line;
         }
-        .about-photo{ grid-area: photo; position:relative; overflow:hidden; }
-        .about-photo img{ display:block; width:100%; height:92vh; object-fit:cover; margin: -6vh 0 -8vh; }
+        .about-text{ margin: 0 0 14px; line-height: 1.7; max-width: 62ch; }
+        .about-lead{ font-size: 1.1rem; font-weight: 500; }
 
-        @media (max-width: 920px){
-          .about-shell{ grid-template-columns: 1fr; grid-template-areas:"copy" "photo"; }
-          .about-copy{ padding: 32px 20px; }
-          .about-photo img{ height:58vh; margin:0; }
-        }
-
-        .about-title{ margin: 0 0 8px; }
-        .about-quote{ margin: 0 0 16px; font-style: italic; color: var(--muted); line-height: 1.5; white-space: pre-line; }
-        .about-text{ margin: 0 0 12px; }
-        .about-journal-cta{
-          display: flex;
-          align-items: center;
-          gap: 14px;
-          margin: 20px 0 4px;
-          flex-wrap: wrap;
-        }
-        .about-journal-tagline{
-          color: var(--muted);
-          font-size: .92rem;
-        }
-        .about-journal-btn{
-          display: inline-block;
-          padding: 7px 18px;
-          border: 1px solid var(--accent);
-          border-radius: 8px;
-          font-size: .88rem;
-          font-weight: 600;
-          color: var(--accent-ink);
-          text-decoration: none;
-          white-space: nowrap;
-          transition: background .18s ease, color .18s ease, border-color .18s ease;
-        }
-        .about-journal-btn:hover{
-          background: var(--accent);
-          color: var(--bg);
-          border-color: var(--accent);
-        }
-        .about-subtitle{ margin: 18px 0 6px; }
+        .about-skills-block{ margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--border); }
+        .about-subtitle{ margin: 0 0 14px; font-size: 1.15rem; }
         .about-skills{
-          margin:0;
-          padding:0 0 0 1.1rem;
-          display:grid;
-          gap:6px;
-          color: var(--muted);
-          font-size: .92rem;
+          list-style:none; margin:0; padding:0;
+          display:grid; grid-template-columns: 1fr 1fr; gap:10px;
+        }
+        .about-skills li{
+          display:flex; align-items:center; gap:10px;
+          background: var(--bg-alt); border:1px solid var(--border); border-radius:12px;
+          padding: 10px 14px; font-size:.92rem; font-weight:500;
+        }
+        .about-skills svg{
+          flex-shrink:0; width:22px; height:22px; padding:4px; border-radius:50%;
+          background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
         }
 
-        .about-stack{
-          display: flex;
-          gap: 18px;
-          font-size: 1.7rem;
-          margin: 20px 0 0;
-          flex-wrap: wrap;
-        }
+        .about-stack{ display:flex; gap:12px; margin: 20px 0 0; flex-wrap:wrap; }
         .about-stack span{
-          position: relative;
-          color: var(--muted);
+          position:relative; display:flex; align-items:center; justify-content:center;
+          width:46px; height:46px; border-radius:12px; font-size:1.4rem;
+          background: var(--bg-alt); color: var(--muted); cursor:default;
           transition: color .2s ease, transform .2s ease;
-          cursor: default;
-          display: flex;
-          align-items: center;
         }
-        .about-stack span:hover{
-          color: var(--accent-ink);
-          transform: translateY(-2px);
-        }
+        .about-stack span:hover{ color: var(--accent-ink); transform: translateY(-2px); }
         /* Tooltip */
         .about-stack span::after{
           content: attr(data-tooltip);
-          position: absolute;
-          bottom: calc(100% + 8px);
-          left: 50%;
-          transform: translateX(-50%);
-          background: var(--bg-alt);
-          color: var(--text);
-          font-size: .72rem;
-          font-weight: 600;
-          letter-spacing: .03em;
-          padding: 4px 9px;
-          border-radius: 7px;
-          border: 1px solid var(--border);
-          white-space: nowrap;
-          opacity: 0;
-          pointer-events: none;
-          transition: opacity .18s ease;
+          position:absolute; bottom: calc(100% + 8px); left:50%; transform: translateX(-50%);
+          background: var(--bg-alt); color: var(--text);
+          font-size:.72rem; font-weight:600; letter-spacing:.03em;
+          padding:4px 9px; border-radius:7px; border:1px solid var(--border);
+          white-space:nowrap; opacity:0; pointer-events:none; transition: opacity .18s ease;
           box-shadow: var(--shadow);
         }
-        .about-stack span:hover::after{ opacity: 1; }
+        .about-stack span:hover::after{ opacity:1; }
 
+        .about-photo img{
+          display:block; width:100%; height:auto; aspect-ratio: 4 / 5; object-fit:cover; object-position: 58% center;
+          border-radius: 20px; box-shadow: 0 30px 60px -30px rgba(0,0,0,.35);
+        }
+        .about-journal-cta{
+          display:grid; gap:12px; justify-items:start;
+          background: var(--bg-alt); border:1px solid var(--border); border-radius:20px; padding: 22px 24px;
+        }
+        .about-journal-icon{
+          width:40px; height:40px; border-radius:12px; display:inline-flex; align-items:center; justify-content:center;
+          background:#fff; color: var(--accent-ink); font-size:1.2rem;
+        }
+        .about-journal-tagline{ margin:0; color: var(--muted); line-height:1.55; }
+
+        @media (max-width: 920px){
+          .about-grid{ grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "photo" "copy" "journal"; }
+          .about-photo img{ aspect-ratio: 4 / 3; }
+        }
+        @media (max-width: 480px){
+          .about-skills{ grid-template-columns: 1fr; }
+          .about-journal-cta .btn{ width:100%; }
+        }
       `}</style>
       </section>
   );

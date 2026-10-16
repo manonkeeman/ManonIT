@@ -3,6 +3,7 @@ import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import { useTranslation } from "react-i18next";
 import { FiMail } from "react-icons/fi";
 import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
+import { CASA_REILLE_URL } from "../assets/Helpers/links.js";
 
 
 // Kaart zonder eigen projectpagina linkt direct naar de live site
@@ -66,7 +67,7 @@ const projects = [
         title: "Webdesign · Casa Reille",
         tags: ["webdesign", "uxui", "booking", "multilingual", "seogeo"],
         base: "/Portfolio/casa-reille-mockup",
-        liveUrl: "http://russo.nl/Home/",
+        liveUrl: CASA_REILLE_URL,
         num: "06",
     },
 ];
