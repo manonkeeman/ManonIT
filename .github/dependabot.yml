@@ -7,6 +7,10 @@ updates:
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 5
+    # Grote versiesprongen (bijv. vite 6 -> 8) breken vaak de build: die doen we bewust handmatig
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       minor-and-patch:
         update-types:

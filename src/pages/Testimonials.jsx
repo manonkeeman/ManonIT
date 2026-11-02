@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { SiLinkedin, SiGoogle } from "react-icons/si";
+import { SiGoogle } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 
 const REVIEW_META = [
     {
@@ -91,7 +92,7 @@ export default function Testimonials() {
                             <Stars count={r.rating} />
                             {r.source === "LinkedIn" && (
                                 <span className="review-source" title="LinkedIn aanbeveling">
-                                    <SiLinkedin />
+                                    <FaLinkedin />
                                 </span>
                             )}
                         </div>
