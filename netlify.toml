@@ -79,6 +79,17 @@
   to = "/en/journal"
   status = 301
 
+# Netlify-redirects zijn hoofdlettergevoelig: Google kent nog /journal/ToekomstTech
+[[redirects]]
+  from = "/journal/ToekomstTech"
+  to = "/journal"
+  status = 301
+
+[[redirects]]
+  from = "/en/journal/ToekomstTech"
+  to = "/en/journal"
+  status = 301
+
 [[redirects]]
   from = "/journal/scrummaster"
   to = "/journal"
@@ -131,6 +142,20 @@
   from = "/en/journal/gevonden-in-chatgpt"
   to = "/en/journal/ai-in-mijn-werk"
   status = 301
+
+# De app-shell en index.html zijn geen eigen pagina's: voorkomen dat Google ze
+# als duplicaat van de homepage indexeert (force: het bestand bestaat echt)
+[[redirects]]
+  from = "/app.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
 
 # SPA fallback: geprerenderde pagina's (dist/<pad>.html) worden direct
 # geserveerd; alle andere routes krijgen de onbewerkte app-shell (zie scripts/prerender.mjs)
