@@ -110,9 +110,9 @@ export default function TekstenDocumentatie() {
                     </div>
                     <div className="dx-hero-visual" aria-hidden="false">
                         <picture>
-                            <source type="image/avif" srcSet="/teksten/typemachine-600w.avif 600w, /teksten/typemachine-1000w.avif 1000w" sizes="(max-width: 900px) 92vw, 520px" />
-                            <source type="image/webp" srcSet="/teksten/typemachine-600w.webp 600w, /teksten/typemachine-1000w.webp 1000w" sizes="(max-width: 900px) 92vw, 520px" />
-                            <img src="/teksten/typemachine-1000w.webp" width="1000" height="1000" fetchPriority="high" decoding="async" alt="Illustratie van een typemachine waaruit gekleurde verf en code stromen" />
+                            <source type="image/avif" srcSet="/about-portrait-400w.avif 400w, /about-portrait-800w.avif 800w" sizes="(max-width: 900px) 92vw, 460px" />
+                            <source type="image/webp" srcSet="/about-portrait-400w.webp 400w, /about-portrait-800w.webp 800w" sizes="(max-width: 900px) 92vw, 460px" />
+                            <img src="/about-portrait-800w.webp" width="800" height="1200" fetchPriority="high" decoding="async" alt="Manon Keeman achter een typemachine op de motorkap van een oude pick-up" />
                         </picture>
                         <ul className="dx-chips">
                             {(Array.isArray(chips) ? chips : []).map((c, i) => (
@@ -153,21 +153,14 @@ export default function TekstenDocumentatie() {
             <section className="dx-section dx-alt">
                 <div className="container dx-story">
                     <aside className="dx-story-side">
-                        <figure>
-                            <picture>
-                                <source type="image/avif" srcSet="/about-portrait-400w.avif 400w, /about-portrait-800w.avif 800w" sizes="(max-width: 860px) 70vw, 340px" />
-                                <source type="image/webp" srcSet="/about-portrait-400w.webp 400w, /about-portrait-800w.webp 800w" sizes="(max-width: 860px) 70vw, 340px" />
-                                <img src="/about-portrait-800w.webp" width="800" height="1200" loading="lazy" alt="Manon Keeman achter een typemachine op de motorkap van een oude pick-up" />
-                            </picture>
-                        </figure>
+                        <p className="eyebrow">{t("docsPage.storyLabel")}</p>
+                        <h2 className="dx-h2 dx-h2--left">{t("docsPage.expTitle")}</h2>
                         <div className="dx-links">
                             <a className="btn btn-ghost" href="https://villavredestein.com" target="_blank" rel="noreferrer"><FiBookOpen aria-hidden="true" />{t("docsPage.linkVilla")}<FiExternalLink aria-hidden="true" /></a>
                             <a className="btn btn-ghost" href="https://manonkeeman.substack.com" target="_blank" rel="noreferrer"><FiEdit3 aria-hidden="true" />{t("docsPage.linkSubstack")}<FiExternalLink aria-hidden="true" /></a>
                         </div>
                     </aside>
                     <div className="dx-story-main">
-                        <p className="eyebrow">{t("docsPage.storyLabel")}</p>
-                        <h2 className="dx-h2 dx-h2--left">{t("docsPage.expTitle")}</h2>
                         <ol className="dx-jobs">
                             {experience.map((e, i) => (
                                 <li key={e.where} className="dx-job">
@@ -243,16 +236,14 @@ export default function TekstenDocumentatie() {
             </section>
 
             <style>{`
-                .dx-hero{ padding: clamp(40px, 6vw, 72px) 20px 0; background:
-                    radial-gradient(60% 80% at 100% 0%, color-mix(in srgb, var(--accent) 14%, transparent) 0%, transparent 70%),
-                    linear-gradient(180deg, color-mix(in srgb, var(--accent) 5%, var(--bg)) 0%, var(--bg) 100%) }
+                .dx-hero{ padding: clamp(40px, 6vw, 72px) 20px 0; background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%) }
                 .dx-hero-grid{ display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:clamp(24px,5vw,64px); align-items:center }
                 .dx-hero h1{ margin:0 0 18px; font-size:clamp(34px,5.2vw,58px) }
                 .dx-hero .eyebrow{ margin-bottom:14px }
                 .dx-lead{ margin:0 0 28px; font-size:clamp(1.02rem,1.5vw,1.18rem); line-height:1.65; color:var(--muted); max-width:56ch }
                 .dx-actions{ display:flex; flex-wrap:wrap; gap:12px }
                 .dx-hero-visual{ position:relative }
-                .dx-hero-visual img{ width:100%; height:auto; border-radius:28px; box-shadow:0 30px 60px -24px rgba(0,0,0,.45); background:#0a0e17 }
+                .dx-hero-visual img{ width:100%; height:auto; aspect-ratio:5/5.6; object-fit:cover; border-radius:28px; box-shadow:0 30px 60px -28px rgba(0,0,0,.35) }
                 .dx-chips{ list-style:none; margin:0; padding:0 }
                 .dx-chip-float{ position:absolute; padding:8px 16px; border-radius:999px; font-size:.85rem; font-weight:700; color:#fff; background:rgba(20,20,24,.72); backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,.22); box-shadow:0 10px 24px -10px rgba(0,0,0,.5) }
                 .dx-chip-float::before{ content:""; display:inline-block; width:8px; height:8px; margin-right:8px; border-radius:50%; background:var(--accent) }
@@ -262,7 +253,7 @@ export default function TekstenDocumentatie() {
                 .dx-trust{ display:flex; flex-wrap:wrap; align-items:center; gap:12px 28px; padding:clamp(32px,5vw,56px) 0 clamp(28px,4vw,44px); border-top:1px solid var(--border); margin-top:clamp(32px,5vw,56px) }
                 .dx-trust p{ margin:0; font-size:.78rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--muted) }
                 .dx-trust ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:10px 28px }
-                .dx-trust li{ font-family:var(--font-brand); font-size:1.05rem; font-weight:700; color:var(--text); opacity:.75 }
+                .dx-trust li{ font-size:1rem; font-weight:600; color:var(--text); opacity:.7 }
 
                 .dx-section{ padding:clamp(56px,8vw,104px) 20px }
                 .dx-alt{ background:var(--bg-alt) }
@@ -272,11 +263,11 @@ export default function TekstenDocumentatie() {
                 .dx-services{ list-style:none; margin:0; padding:0; display:grid; gap:20px; grid-template-columns:repeat(2,1fr) }
                 .dx-service{ position:relative; overflow:hidden; padding:clamp(24px,3vw,36px); min-height:230px; border:1px solid var(--border); border-radius:22px; background:var(--bg); transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease }
                 .dx-service:hover{ transform:translateY(-4px); box-shadow:0 24px 40px -24px rgba(0,0,0,.25); border-color:color-mix(in srgb, var(--accent) 45%, transparent) }
-                .dx-service--lead{ color:#fff; border-color:transparent; background:radial-gradient(120% 140% at 100% 0%, color-mix(in srgb, var(--accent) 55%, var(--dark)) 0%, var(--dark) 65%) }
+                .dx-service--lead{ color:#fff; border-color:transparent; background:var(--dark) }
                 .dx-service--lead h3{ color:#fff }
                 .dx-service.dx-service--lead p{ color:rgba(255,255,255,.85) }
                 .dx-service--lead .dx-icon{ background:rgba(255,255,255,.14); color:#fff }
-                .dx-num-big{ position:absolute; right:20px; top:8px; font-family:var(--font-brand); font-weight:700; font-size:clamp(3.5rem,7vw,5.5rem); line-height:1; color:currentColor; opacity:.07; pointer-events:none }
+                .dx-num-big{ position:absolute; right:22px; top:14px; font-weight:600; font-size:clamp(3.5rem,7vw,5.5rem); line-height:1; color:currentColor; opacity:.07; pointer-events:none }
                 .dx-icon{ display:grid; place-items:center; width:52px; height:52px; margin-bottom:20px; border-radius:16px; background:color-mix(in srgb, var(--accent) 13%, transparent); color:var(--accent-ink) }
                 .dx-icon svg{ width:24px; height:24px }
                 .dx-service h3{ margin:0 0 10px; font-size:clamp(1.15rem,2vw,1.4rem) }
@@ -284,17 +275,15 @@ export default function TekstenDocumentatie() {
 
                 .dx-story{ display:grid; grid-template-columns:minmax(0,340px) minmax(0,1fr); gap:clamp(28px,5vw,72px); align-items:start }
                 .dx-story-side{ position:sticky; top:calc(var(--nav-h) + 24px) }
-                .dx-story-side figure{ margin:0 0 20px }
-                .dx-story-side img{ width:100%; height:auto; aspect-ratio:5/5.6; object-fit:cover; border-radius:22px; box-shadow:0 24px 48px -24px rgba(0,0,0,.4) }
-                .dx-links{ display:grid; gap:10px }
+                .dx-links{ display:grid; gap:10px; margin-top:20px }
                 .dx-links .btn{ justify-content:flex-start; gap:10px; width:100% }
                 .dx-links .btn svg{ width:18px; height:18px; flex-shrink:0 }
                 .dx-links .btn svg:last-child{ margin-left:auto; opacity:.6 }
                 .dx-jobs{ list-style:none; margin:28px 0 0; padding:0; display:grid; gap:14px }
-                .dx-job{ display:grid; grid-template-columns:56px minmax(0,1fr); gap:16px; padding:20px 22px; border:1px solid var(--border); border-radius:18px; background:var(--bg); transition:border-color .2s ease, transform .2s ease }
+                .dx-job{ display:grid; grid-template-columns:40px minmax(0,1fr); gap:16px; padding:20px 22px; border:1px solid var(--border); border-radius:18px; background:var(--bg); transition:border-color .2s ease, transform .2s ease }
                 .dx-job:hover{ border-color:color-mix(in srgb, var(--accent) 45%, transparent); transform:translateX(4px) }
-                .dx-job-n{ font-family:var(--font-brand); font-weight:700; font-size:1.7rem; color:var(--accent) }
-                .dx-job h3{ margin:0 0 6px; font-family:var(--font-brand); font-size:1.2rem }
+                .dx-job-n{ font-weight:600; font-size:1.2rem; color:var(--accent-ink); font-variant-numeric:tabular-nums }
+                .dx-job h3{ margin:0 0 6px; font-size:1.15rem }
                 .dx-chip{ display:inline-block; margin-bottom:8px; padding:3px 10px; border-radius:999px; background:color-mix(in srgb, var(--accent) 12%, transparent); color:var(--accent-ink); font-size:.82rem; font-weight:600 }
                 .dx-job p{ margin:0; color:var(--muted); line-height:1.65 }
 
@@ -338,7 +327,7 @@ export default function TekstenDocumentatie() {
                     .dx-hero-visual{ max-width:520px }
                     .dx-chip-float--1{ left:2% } .dx-chip-float--2{ right:2% } .dx-chip-float--3{ left:2% }
                     .dx-story-side, .dx-faq-head, .dx-iv-side{ position:static }
-                    .dx-story-side{ max-width:340px }
+                    
                 }
                 @media (max-width:760px){
                     .dx-iv{ grid-template-columns:1fr }
