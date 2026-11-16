@@ -900,7 +900,7 @@
   "docsPage": {
     "eyebrow": "Nuovo servizio",
     "title": "Testi e Documentazione",
-    "intro": "Testi chiari e documentazione chiara: per il tuo sito, la tua organizzazione o la tua storia. Scritti da chi è stata giornalista, addetta alla comunicazione, scrum master e autrice.",
+    "intro": "Testi chiari e documentazione chiara: per il tuo sito, la tua organizzazione o la tua storia. Scritti da chi è stata giornalista e addetta alla comunicazione, ed è ancora scrum master e autrice.",
     "items": [
       {
         "name": "Testi web e comunicazione",
@@ -944,7 +944,7 @@
       {
         "where": "CB Centraal Boekhuis",
         "role": "Documentazione di processo e scrum master",
-        "text": "Processi descritti e documentati, team guidati come scrum master."
+        "text": "Descrivo e documento processi e guido i team come scrum master."
       }
     ],
     "cta": "Parliamo del tuo testo o della documentazione",

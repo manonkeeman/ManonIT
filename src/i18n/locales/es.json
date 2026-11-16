@@ -900,7 +900,7 @@
   "docsPage": {
     "eyebrow": "Nuevo servicio",
     "title": "Textos y Documentación",
-    "intro": "Textos claros y documentación clara: para tu web, tu organización o tu propia historia. Escritos por alguien que ha sido periodista, responsable de comunicación, scrum master y autora.",
+    "intro": "Textos claros y documentación clara: para tu web, tu organización o tu propia historia. Escritos por alguien que ha sido periodista y responsable de comunicación, y que sigue siendo scrum master y autora.",
     "items": [
       {
         "name": "Textos web y comunicación",
@@ -944,7 +944,7 @@
       {
         "where": "CB Centraal Boekhuis",
         "role": "Documentación de procesos y scrum master",
-        "text": "Procesos descritos y documentados, y equipos acompañados como scrum master."
+        "text": "Describo y documento procesos y acompaño a equipos como scrum master."
       }
     ],
     "cta": "Hablemos de tu texto o documentación",
