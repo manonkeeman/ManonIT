@@ -33,7 +33,8 @@
     "cta": "Colloquio gratuito",
     "pricing": "Tariffe",
     "faq": "FAQ",
-    "how": "Metodo"
+    "how": "Metodo",
+    "docs": "Testi e Documentazione"
   },
   "share": {
     "label": "Condividi",
@@ -894,6 +895,71 @@
         "cliente, alla consegna",
         "Un sito più ampio o su misura, con un unico investimento"
       ]
+    }
+  },
+  "docsPage": {
+    "eyebrow": "Nuovo servizio",
+    "title": "Testi e Documentazione",
+    "intro": "Testi chiari e documentazione chiara: per il tuo sito, la tua organizzazione o la tua storia. Scritti da chi è stata giornalista, addetta alla comunicazione, scrum master e autrice.",
+    "items": [
+      {
+        "name": "Testi web e comunicazione",
+        "desc": "Testi per sito, newsletter e pubblicazioni, nel tuo tono e per il tuo pubblico."
+      },
+      {
+        "name": "Articoli e interviste",
+        "desc": "Pezzi giornalistici e interviste: documentarsi, fare domande, scrivere con chiarezza."
+      },
+      {
+        "name": "Documentazione di processo",
+        "desc": "Modi di lavorare, manuali e processi messi per iscritto, così che tutti sappiano come funziona qualcosa."
+      },
+      {
+        "name": "Libri e testi lunghi",
+        "desc": "Aiuto con struttura, revisione e impaginazione di un libro, un racconto o un'autobiografia."
+      }
+    ],
+    "expTitle": "La mia esperienza",
+    "exp": [
+      {
+        "where": "Libri",
+        "role": "Autrice",
+        "text": "Il mio primo libro, Villa Vredestein, è stato pubblicato. Sto ancora lavorando alla mia autobiografia."
+      },
+      {
+        "where": "Comune di Amsterdam",
+        "role": "Addetta alla comunicazione e grafica",
+        "text": "Testi e grafica per la comunicazione di una grande organizzazione pubblica."
+      },
+      {
+        "where": "Influence · Monique van Bokkum",
+        "role": "Giornalista",
+        "text": "Articoli scritti per Influence. La piattaforma non è più online; i testi sono consultabili su richiesta."
+      },
+      {
+        "where": "CB Centraal Boekhuis",
+        "role": "Documentazione di processo e scrum master",
+        "text": "Processi descritti e documentati, team guidati come scrum master."
+      }
+    ],
+    "cta": "Parliamo del tuo testo o della documentazione",
+    "ctaHome": "Testi e documentazione",
+    "homeTitle": "Testi e Documentazione",
+    "homeText": "Testi che funzionano e documentazione che si legge davvero: da testi web e articoli a processi e libri.",
+    "pending": "Su richiesta",
+    "back": "Torna ai servizi",
+    "seo": {
+      "title": "Testi e Documentazione | Scrittura, revisione e documentazione di processo | ManonIT",
+      "description": "Testi e documentazione di una scrittrice esperta: testi web, articoli, documentazione di processo e libri. Esperienza al Comune di Amsterdam e a CB Centraal Boekhuis."
+    },
+    "interview": {
+      "label": "Intervista in evidenza",
+      "title": "Intervista a Daan Dekker",
+      "sub": "Sul suo libro De betonnen droom, il processo di scrittura e consigli per gli scrittori esordienti.",
+      "caption": "Daan Dekker",
+      "more": "Leggi l'intervista completa",
+      "less": "Comprimi",
+      "note": "L'intervista è in olandese."
     }
   }
 }

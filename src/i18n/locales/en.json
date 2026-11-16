@@ -33,7 +33,8 @@
     "cta": "Free intro call",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "how": "Process"
+    "how": "Process",
+    "docs": "Texts & Documentation"
   },
   "share": {
     "label": "Share",
@@ -894,6 +895,71 @@
         "the client, on delivery",
         "A larger or custom site, invested in once"
       ]
+    }
+  },
+  "docsPage": {
+    "eyebrow": "New service",
+    "title": "Texts & Documentation",
+    "intro": "Clear texts and clear documentation: for your website, your organisation or your own story. Written by someone who has been a journalist, communications officer, scrum master and author.",
+    "items": [
+      {
+        "name": "Web copy & communication",
+        "desc": "Texts for your website, newsletter and publications, in your tone and for your audience."
+      },
+      {
+        "name": "Articles & interviews",
+        "desc": "Journalistic pieces and interviews: researching, asking questions, writing it up clearly."
+      },
+      {
+        "name": "Process documentation",
+        "desc": "Ways of working, manuals and processes written down, so everyone knows how things work."
+      },
+      {
+        "name": "Books & long texts",
+        "desc": "Help with structure, editing and layout of a book, story or autobiography."
+      }
+    ],
+    "expTitle": "My experience",
+    "exp": [
+      {
+        "where": "Books",
+        "role": "Author",
+        "text": "My first book, Villa Vredestein, has been published. I am still working on my autobiography."
+      },
+      {
+        "where": "City of Amsterdam",
+        "role": "Communications officer & graphic designer",
+        "text": "Texts and design for the communications of a large public organisation."
+      },
+      {
+        "where": "Influence · Monique van Bokkum",
+        "role": "Journalist",
+        "text": "Articles written for Influence. The platform is no longer online; the pieces are available on request."
+      },
+      {
+        "where": "CB Centraal Boekhuis",
+        "role": "Process documentation & scrum master",
+        "text": "Described and documented processes, and guided teams as scrum master."
+      }
+    ],
+    "cta": "Discuss your text or documentation",
+    "ctaHome": "Texts & documentation",
+    "homeTitle": "Texts & Documentation",
+    "homeText": "Texts that work and documentation people actually read: from web copy and articles to processes and books.",
+    "pending": "On request",
+    "back": "Back to services",
+    "seo": {
+      "title": "Texts & Documentation | Writing, editing and process documentation | ManonIT",
+      "description": "Texts and documentation by an experienced writer: web copy, articles, process documentation and books. Experience at the City of Amsterdam and CB Centraal Boekhuis."
+    },
+    "interview": {
+      "label": "Featured interview",
+      "title": "Interview with Daan Dekker",
+      "sub": "About his book De betonnen droom, the writing process and tips for new writers.",
+      "caption": "Daan Dekker",
+      "more": "Read the full interview",
+      "less": "Collapse",
+      "note": "The interview is in Dutch."
     }
   }
 }

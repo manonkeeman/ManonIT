@@ -47,6 +47,22 @@ export default function Services() {
             </section>
 
 
+            {/* ── NIEUW: TEKSTEN & DOCUMENTATIE ── */}
+            <section className="home-pricing section" id="teksten-documentatie">
+                <div className="container">
+                    <div className="home-pricing-inner">
+                        <div className="home-pricing-copy">
+                            <p className="eyebrow">{t("docsPage.eyebrow")}</p>
+                            <h2>{t("docsPage.homeTitle")}</h2>
+                            <p>{t("docsPage.homeText")}</p>
+                        </div>
+                        <div className="home-pricing-actions">
+                            <Link to="/teksten-documentatie" className="btn btn-primary" data-arrow>{t("docsPage.ctaHome")}</Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* ── TARIEVEN-BAND (verwijst naar /tarieven en /faq) ── */}
             <section className="home-pricing section" id="tarieven">
                 <div className="container">

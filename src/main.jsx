@@ -41,7 +41,9 @@ if (window.__PRERENDER__) {
         headRoot.remove();
 
         const { prerender } = await import('react-dom/static');
-        const { prelude } = await prerender(app);
+        // progressiveChunkSize groot: alle inhoud direct op zijn plek in de HTML, niet
+        // apart "voor later" (dat heeft een script nodig dat in voorgerenderde HTML niet draait)
+        const { prelude } = await prerender(app, { progressiveChunkSize: Number.MAX_SAFE_INTEGER });
         root.innerHTML = await new Response(prelude).text();
         // title/meta/link horen in de <head>: die zetten we terug uit stap 1
         root.querySelectorAll('title, meta, link[rel="canonical"], link[rel="alternate"]').forEach((el) => el.remove());

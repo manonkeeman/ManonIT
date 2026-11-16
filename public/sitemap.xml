@@ -375,6 +375,20 @@
     <lastmod>2026-10-16</lastmod>
   </url>
   <url>
+    <loc>https://manonit.com/teksten-documentatie</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/teksten-documentatie" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/teksten-documentatie" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/teksten-documentatie" />
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://manonit.com/en/teksten-documentatie</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/teksten-documentatie" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/teksten-documentatie" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manonit.com/teksten-documentatie" />
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
     <loc>https://manonit.com/werkwijze</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://manonit.com/werkwijze" />
     <xhtml:link rel="alternate" hreflang="en" href="https://manonit.com/en/werkwijze" />

@@ -1,4 +1,3 @@
-import { CASA_REILLE_URL, JOURNAL_NAV } from "../Helpers/links.js";
 import { NavLink } from "./LocaleLink.jsx";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -61,40 +60,12 @@ export default function MobileMenu({ open, onClose }) {
                     <NavLink to="/tarieven" onClick={onClose} className="mob-link mob-link--main">
                         {t('nav.pricing')}
                     </NavLink>
+                    <NavLink to="/teksten-documentatie" onClick={onClose} className="mob-link mob-link--main">
+                        {t('nav.docs')}
+                    </NavLink>
                     <NavLink to="/faq" onClick={onClose} className="mob-link mob-link--main">
                         {t('faq.label')}
                     </NavLink>
-
-                    <div className="mob-divider" />
-
-                    <p className="mob-section-label">{t('nav.portfolio')}</p>
-                    <NavLink to="/backendstudentendashboard" onClick={onClose} className="mob-link">
-                        {t('nav.links.portfolio.backend')}
-                    </NavLink>
-                    <NavLink to="/frontendvredestein" onClick={onClose} className="mob-link">
-                        {t('nav.links.portfolio.frontend')}
-                    </NavLink>
-                    <NavLink to="/webdesignacupuncture" onClick={onClose} className="mob-link">
-                        {t('nav.links.portfolio.acupuncture')}
-                    </NavLink>
-                    <NavLink to="/thebigthree" onClick={onClose} className="mob-link">
-                        {t('nav.links.portfolio.bigthree')}
-                    </NavLink>
-                    <NavLink to="/marieboddaert" onClick={onClose} className="mob-link">
-                        {t('nav.links.portfolio.marieboddaert')}
-                    </NavLink>
-                    <a href={CASA_REILLE_URL} target="_blank" rel="noreferrer" onClick={onClose} className="mob-link">
-                        {t('nav.links.portfolio.casareille')}
-                    </a>
-
-                    <div className="mob-divider" />
-
-                    <p className="mob-section-label">{t('nav.journal')}</p>
-                    {JOURNAL_NAV.map((slug) => (
-                        <NavLink key={slug} to={`/journal/${slug}`} onClick={onClose} className="mob-link">
-                            {t(`nav.links.journal.${slug}`)}
-                        </NavLink>
-                    ))}
 
                     <div className="mob-divider" />
 
