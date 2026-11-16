@@ -263,10 +263,7 @@ export default function TekstenDocumentatie() {
                 .dx-services{ list-style:none; margin:0; padding:0; display:grid; gap:20px; grid-template-columns:repeat(2,1fr) }
                 .dx-service{ position:relative; overflow:hidden; padding:clamp(24px,3vw,36px); min-height:230px; border:1px solid var(--border); border-radius:22px; background:var(--bg); transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease }
                 .dx-service:hover{ transform:translateY(-4px); box-shadow:0 24px 40px -24px rgba(0,0,0,.25); border-color:color-mix(in srgb, var(--accent) 45%, transparent) }
-                .dx-service--lead{ color:#fff; border-color:transparent; background:var(--dark) }
-                .dx-service--lead h3{ color:#fff }
-                .dx-service.dx-service--lead p{ color:rgba(255,255,255,.85) }
-                .dx-service--lead .dx-icon{ background:rgba(255,255,255,.14); color:#fff }
+                .dx-service--lead{ background:color-mix(in srgb, var(--accent) 7%, var(--bg)); border-color:color-mix(in srgb, var(--accent) 25%, transparent) }
                 .dx-num-big{ position:absolute; right:22px; top:14px; font-weight:600; font-size:clamp(3.5rem,7vw,5.5rem); line-height:1; color:currentColor; opacity:.07; pointer-events:none }
                 .dx-icon{ display:grid; place-items:center; width:52px; height:52px; margin-bottom:20px; border-radius:16px; background:color-mix(in srgb, var(--accent) 13%, transparent); color:var(--accent-ink) }
                 .dx-icon svg{ width:24px; height:24px }
