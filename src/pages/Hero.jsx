@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { useTranslation } from "react-i18next";
-import { FiCheck, FiBriefcase, FiHome, FiFeather, FiSmartphone, FiCalendar } from "react-icons/fi";
+import { FiCheck, FiBriefcase, FiHome, FiFeather, FiSmartphone, FiCalendar, FiArrowRight } from "react-icons/fi";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 
@@ -24,10 +24,17 @@ function Hero() {
 
                     {/* TEKST */}
                     <div className="hero-copy">
-                        <span className="hero-badge">
-                            <span className="badge-dot" aria-hidden="true"/>
-                            {t("hero.available")}
-                        </span>
+                        <div className="hero-badges">
+                            <span className="hero-badge">
+                                <span className="badge-dot" aria-hidden="true"/>
+                                {t("hero.available")}
+                            </span>
+                            <Link to="/teksten-documentatie" className="hero-new">
+                                <b>{t("docsPage.eyebrow")}</b>
+                                {t("docsPage.title")}
+                                <FiArrowRight aria-hidden="true"/>
+                            </Link>
+                        </div>
                         <h1>{t("hero.greeting")}</h1>
                         <p className="hero-lead">{t("hero.bio")}</p>
 
@@ -135,8 +142,23 @@ function Hero() {
           color:var(--muted);
           background: var(--bg-alt);
           border-radius:999px; padding:6px 14px;
-          margin-bottom:20px;
         }
+        .hero-badges{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px }
+        .hero-new{
+          display:inline-flex; align-items:center; gap:8px;
+          font-size:.8rem; font-weight:600; color:var(--accent-ink);
+          background:color-mix(in srgb, var(--accent) 10%, var(--bg));
+          border:1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+          border-radius:999px; padding:5px 12px;
+          transition:background .2s ease, transform .2s ease;
+        }
+        .hero-new b{
+          font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+          background:var(--accent); color:#fff; border-radius:999px; padding:2px 8px;
+        }
+        .hero-new svg{ width:14px; height:14px; transition:transform .2s ease }
+        .hero-new:hover{ background:color-mix(in srgb, var(--accent) 18%, var(--bg)); color:var(--accent-ink) }
+        .hero-new:hover svg{ transform:translateX(3px) }
         .badge-dot{
           width:8px; height:8px; border-radius:50%;
           background:#1FA34A;

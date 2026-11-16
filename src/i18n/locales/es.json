@@ -933,8 +933,13 @@
       },
       {
         "where": "Influence · Monique van Bokkum",
-        "role": "Periodista",
-        "text": "Artículos escritos para Influence. La plataforma ya no está en línea; los textos pueden consultarse bajo petición."
+        "role": "Periodista & redactora",
+        "text": "Artículos y textos escritos como periodista y redactora. La plataforma ya no está en línea."
+      },
+      {
+        "where": "KLM",
+        "role": "Redactora de boletines y blogs",
+        "text": "Escribí boletines y blogs para KLM. En 2020 participé, junto a Pieter Elbers, en la docuserie de RTL 4 KL2020: terug in de lucht (de vuelta en el aire)."
       },
       {
         "where": "CB Centraal Boekhuis",
