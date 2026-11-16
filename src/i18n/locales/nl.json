@@ -960,6 +960,11 @@
       "more": "Lees het hele interview",
       "less": "Inklappen",
       "note": "Het interview is in het Nederlands."
-    }
+    },
+    "ctaInterview": "Lees het interview",
+    "bandTitle": "Klaar om te beginnen?",
+    "bandText": "Vertel kort waar je tekst of documentatie voor nodig is. Ik denk graag met je mee.",
+    "servicesTitle": "Zo werk ik",
+    "quoteLabel": "Uit het interview"
   }
 }

@@ -960,6 +960,11 @@
       "more": "Das ganze Interview lesen",
       "less": "Einklappen",
       "note": "Das Interview ist auf Niederländisch."
-    }
+    },
+    "ctaInterview": "Interview lesen",
+    "bandTitle": "Bereit anzufangen?",
+    "bandText": "Erzählen Sie kurz, wofür Sie Texte oder Dokumentation brauchen. Ich denke gern mit.",
+    "servicesTitle": "Was ich mache",
+    "quoteLabel": "Aus dem Interview"
   }
 }

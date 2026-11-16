@@ -960,6 +960,11 @@
       "more": "Read the full interview",
       "less": "Collapse",
       "note": "The interview is in Dutch."
-    }
+    },
+    "ctaInterview": "Read the interview",
+    "bandTitle": "Ready to get started?",
+    "bandText": "Tell me briefly what you need text or documentation for. I'm happy to think along.",
+    "servicesTitle": "What I do",
+    "quoteLabel": "From the interview"
   }
 }

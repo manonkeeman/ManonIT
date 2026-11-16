@@ -960,6 +960,11 @@
       "more": "Lire l'interview complète",
       "less": "Réduire",
       "note": "L'interview est en néerlandais."
-    }
+    },
+    "ctaInterview": "Lire l'interview",
+    "bandTitle": "Prêt à commencer ?",
+    "bandText": "Dites-moi brièvement pour quoi vous avez besoin de textes ou de documentation. Je réfléchis volontiers avec vous.",
+    "servicesTitle": "Ce que je fais",
+    "quoteLabel": "Extrait de l'interview"
   }
 }

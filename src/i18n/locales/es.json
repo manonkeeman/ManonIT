@@ -960,6 +960,11 @@
       "more": "Leer la entrevista completa",
       "less": "Contraer",
       "note": "La entrevista está en neerlandés."
-    }
+    },
+    "ctaInterview": "Leer la entrevista",
+    "bandTitle": "¿Listo para empezar?",
+    "bandText": "Cuéntame brevemente para qué necesitas textos o documentación. Me encantará pensar contigo.",
+    "servicesTitle": "Lo que hago",
+    "quoteLabel": "De la entrevista"
   }
 }

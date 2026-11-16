@@ -960,6 +960,11 @@
       "more": "Leggi l'intervista completa",
       "less": "Comprimi",
       "note": "L'intervista è in olandese."
-    }
+    },
+    "ctaInterview": "Leggi l'intervista",
+    "bandTitle": "Pronto a iniziare?",
+    "bandText": "Raccontami brevemente per cosa ti servono testi o documentazione. Ci penso volentieri con te.",
+    "servicesTitle": "Cosa faccio",
+    "quoteLabel": "Dall'intervista"
   }
 }
