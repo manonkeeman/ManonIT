@@ -999,6 +999,13 @@
       }
     ],
     "linkVilla": "Visit Villa Vredestein",
-    "linkSubstack": "Read my writing on Substack"
+    "linkSubstack": "Read my writing on Substack",
+    "trustLabel": "Previously for",
+    "chips": [
+      "Author",
+      "Journalist",
+      "Scrum master"
+    ],
+    "storyLabel": "My story"
   }
 }

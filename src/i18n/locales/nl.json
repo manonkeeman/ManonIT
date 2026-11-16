@@ -999,6 +999,13 @@
       }
     ],
     "linkVilla": "Bekijk Villa Vredestein",
-    "linkSubstack": "Lees mijn schrijfwerk op Substack"
+    "linkSubstack": "Lees mijn schrijfwerk op Substack",
+    "trustLabel": "Eerder voor",
+    "chips": [
+      "Auteur",
+      "Journalist",
+      "Scrum master"
+    ],
+    "storyLabel": "Mijn verhaal"
   }
 }
