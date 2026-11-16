@@ -954,8 +954,8 @@
     "pending": "Auf Anfrage",
     "back": "Zurück zu den Leistungen",
     "seo": {
-      "title": "Texte & Dokumentation | Schreiben, Lektorat und Prozessdokumentation | ManonIT",
-      "description": "Texte und Dokumentation von einer erfahrenen Autorin: Webtexte, Artikel, Prozessdokumentation und Bücher. Erfahrung bei der Gemeinde Amsterdam und CB Centraal Boekhuis."
+      "title": "Texterin & Prozessdokumentation | ManonIT",
+      "description": "Texte und Dokumentation von einer erfahrenen Autorin: Webtexte, Artikel, Prozessdokumentation und Bücher. Journalistin, Texterin und Scrum Master."
     },
     "interview": {
       "label": "Interview im Fokus",
@@ -970,6 +970,33 @@
     "bandTitle": "Bereit anzufangen?",
     "bandText": "Erzählen Sie kurz, wofür Sie Texte oder Dokumentation brauchen. Ich denke gern mit.",
     "servicesTitle": "Was ich mache",
-    "quoteLabel": "Aus dem Interview"
+    "quoteLabel": "Aus dem Interview",
+    "faqTitle": "Häufige Fragen zu Texten & Dokumentation",
+    "faq": [
+      {
+        "q": "Was kostet es, einen Text oder eine Prozessdokumentation schreiben zu lassen?",
+        "a": "Der Preis hängt von Umfang und Zweck ab. Nach einem kostenlosen Kennenlerngespräch von 30 Minuten erhalten Sie ein Festpreisangebot, damit Sie von Anfang an wissen, woran Sie sind."
+      },
+      {
+        "q": "Was ist Prozessdokumentation und wann brauchen Sie sie?",
+        "a": "Prozessdokumentation hält fest, wie eine Arbeitsweise, ein Prozess oder ein System in der Praxis funktioniert, etwa Handbücher, Schritt-für-Schritt-Anleitungen und Arbeitsabsprachen. Sie brauchen sie, wenn Wissen nur in Köpfen steckt, neue Kolleginnen und Kollegen eingearbeitet werden müssen oder Teams einheitlich arbeiten wollen."
+      },
+      {
+        "q": "Schreiben Sie auch die Texte für meine Website?",
+        "a": "Ja. Ich schreibe Webtexte, die klar sind, zu Ihrer Zielgruppe passen und in Google und KI-Suchmaschinen gut gefunden werden. Möchten Sie auch eine Website? Ich gestalte, baue und schreibe sie selbst."
+      },
+      {
+        "q": "Können Sie bei einem Buch oder einer Autobiografie helfen?",
+        "a": "Ja. Ich helfe bei Struktur, Lektorat und Satz eines Buches, einer Geschichte oder einer Autobiografie. Ich habe selbst mein erstes Buch, Villa Vredestein, geschrieben und arbeite an meiner Autobiografie."
+      },
+      {
+        "q": "Welche Erfahrung haben Sie als Autorin?",
+        "a": "Ich war Journalistin und Texterin für Monique van Bokkum, habe Newsletter und Blogs für KLM geschrieben, als Kommunikationsmitarbeiterin und Grafikdesignerin bei der Gemeinde Amsterdam gearbeitet und bin Autorin. Bei CB Centraal Boekhuis dokumentiere ich Prozesse und arbeite als Scrum Master."
+      },
+      {
+        "q": "Wie läuft ein Auftrag ab?",
+        "a": "Ich beginne mit einem kostenlosen Kennenlerngespräch von 30 Minuten. Danach folgt ein Festpreisangebot. Sie erhalten einen Entwurf und wir verfeinern ihn, bis der Text oder die Dokumentation stimmt."
+      }
+    ]
   }
 }

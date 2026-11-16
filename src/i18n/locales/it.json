@@ -954,8 +954,8 @@
     "pending": "Su richiesta",
     "back": "Torna ai servizi",
     "seo": {
-      "title": "Testi e Documentazione | Scrittura, revisione e documentazione di processo | ManonIT",
-      "description": "Testi e documentazione di una scrittrice esperta: testi web, articoli, documentazione di processo e libri. Esperienza al Comune di Amsterdam e a CB Centraal Boekhuis."
+      "title": "Copywriter e documentazione di processo | ManonIT",
+      "description": "Testi e documentazione di una scrittrice esperta: testi web, articoli, documentazione di processo e libri. Giornalista, copywriter e scrum master."
     },
     "interview": {
       "label": "Intervista in evidenza",
@@ -970,6 +970,33 @@
     "bandTitle": "Pronto a iniziare?",
     "bandText": "Raccontami brevemente per cosa ti servono testi o documentazione. Ci penso volentieri con te.",
     "servicesTitle": "Cosa faccio",
-    "quoteLabel": "Dall'intervista"
+    "quoteLabel": "Dall'intervista",
+    "faqTitle": "Domande frequenti su testi e documentazione",
+    "faq": [
+      {
+        "q": "Quanto costa far scrivere un testo o una documentazione di processo?",
+        "a": "Il prezzo dipende dalla portata e dall'obiettivo. Dopo un primo incontro gratuito di 30 minuti ricevi un preventivo a prezzo fisso, così sai subito come stanno le cose."
+      },
+      {
+        "q": "Che cos'è la documentazione di processo e quando serve?",
+        "a": "Mette per iscritto come funziona davvero un modo di lavorare, un processo o un sistema: manuali, guide passo passo, accordi di lavoro. Serve quando il sapere è solo nella testa delle persone, per inserire nuovi colleghi o quando i team vogliono lavorare allo stesso modo."
+      },
+      {
+        "q": "Scrivi anche i testi per il mio sito web?",
+        "a": "Sì. Scrivo testi web chiari, adatti al tuo pubblico e facili da trovare su Google e nei motori di ricerca con IA. Vuoi anche un sito? Lo progetto, lo costruisco e lo scrivo io."
+      },
+      {
+        "q": "Puoi aiutare con un libro o un'autobiografia?",
+        "a": "Sì. Aiuto con struttura, revisione e impaginazione di un libro, un racconto o un'autobiografia. Ho scritto il mio primo libro, Villa Vredestein, e sto lavorando alla mia autobiografia."
+      },
+      {
+        "q": "Che esperienza hai come scrittrice?",
+        "a": "Sono stata giornalista e copywriter per Monique van Bokkum, ho scritto newsletter e blog per KLM, ho lavorato come addetta alla comunicazione e grafica al Comune di Amsterdam e sono autrice. In CB Centraal Boekhuis documento processi e lavoro come scrum master."
+      },
+      {
+        "q": "Come funziona un incarico?",
+        "a": "Parto con un primo incontro gratuito di 30 minuti. Segue un preventivo a prezzo fisso. Ricevi una bozza e la rifiniamo finché il testo o la documentazione non funziona."
+      }
+    ]
   }
 }

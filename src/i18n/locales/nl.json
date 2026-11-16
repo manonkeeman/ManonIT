@@ -954,8 +954,8 @@
     "pending": "Op aanvraag",
     "back": "Terug naar diensten",
     "seo": {
-      "title": "Teksten & Documentatie | Schrijven, redactie en procesdocumentatie | ManonIT",
-      "description": "Teksten en documentatie door een ervaren schrijver: webteksten, artikelen, procesdocumentatie en boeken. Met ervaring bij Gemeente Amsterdam en CB Centraal Boekhuis."
+      "title": "Copywriter & procesdocumentatie laten schrijven | ManonIT",
+      "description": "Teksten en documentatie van een ervaren schrijver: webteksten, artikelen, procesdocumentatie en boeken. Journalist, copywriter en scrum master."
     },
     "interview": {
       "label": "Uitgelicht interview",
@@ -970,6 +970,33 @@
     "bandTitle": "Klaar om te beginnen?",
     "bandText": "Vertel kort waar je tekst of documentatie voor nodig is. Ik denk graag met je mee.",
     "servicesTitle": "Zo werk ik",
-    "quoteLabel": "Uit het interview"
+    "quoteLabel": "Uit het interview",
+    "faqTitle": "Veelgestelde vragen over teksten & documentatie",
+    "faq": [
+      {
+        "q": "Wat kost het om een tekst of procesdocumentatie te laten schrijven?",
+        "a": "De prijs hangt af van de omvang en het doel. Na een gratis kennismaking van 30 minuten krijg je een offerte met een vaste prijs vooraf, zodat je weet waar je aan toe bent."
+      },
+      {
+        "q": "Wat is procesdocumentatie en wanneer heb je het nodig?",
+        "a": "Procesdocumentatie legt vast hoe een werkwijze, proces of systeem in de praktijk werkt, zoals handleidingen, stappenplannen en werkafspraken. Je hebt het nodig als kennis alleen in hoofden zit, als nieuwe collega's moeten inwerken of als teams op dezelfde manier willen werken."
+      },
+      {
+        "q": "Schrijf je ook de teksten voor mijn website?",
+        "a": "Ja. Ik schrijf webteksten die helder zijn, bij je doelgroep passen en goed vindbaar zijn in Google en AI-zoekmachines. Wil je ook een website? Dan ontwerp, bouw en schrijf ik die allemaal zelf."
+      },
+      {
+        "q": "Kun je helpen bij een boek of autobiografie?",
+        "a": "Ja. Ik help met structuur, redactie en opmaak van een boek, verhaal of autobiografie. Ik schreef zelf mijn eerste boek, Villa Vredestein, en werk aan mijn autobiografie."
+      },
+      {
+        "q": "Wat voor ervaring heb je als schrijver?",
+        "a": "Ik was journalist en copywriter bij Monique van Bokkum, schreef nieuwsbrieven en blogs voor KLM, werkte als communicatiemedewerker en grafisch vormgever bij de Gemeente Amsterdam en ben auteur. Bij CB Centraal Boekhuis beschrijf ik processen en werk ik als scrum master."
+      },
+      {
+        "q": "Hoe verloopt een opdracht?",
+        "a": "Ik begin met een gratis kennismaking van 30 minuten. Daarna volgt een offerte met vaste prijs. Je krijgt een concept en we stemmen af tot de tekst of documentatie klopt."
+      }
+    ]
   }
 }

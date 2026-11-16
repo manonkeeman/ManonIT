@@ -39,6 +39,9 @@ export default function Services() {
                                 <h3 className="svc-name">{t(`services.items.${s.key}.name`)}</h3>
                                 <p className="svc-desc">{t(`services.items.${s.key}.desc`)}</p>
                                 <p className="svc-tags">{t(`services.items.${s.key}.tags`)}</p>
+                                {s.key === "copy" && (
+                                    <Link to="/teksten-documentatie" className="svc-more">{t("docsPage.ctaHome")} →</Link>
+                                )}
                             </div>
                         ))}
                     </div>
@@ -77,6 +80,7 @@ export default function Services() {
                 </div>
             </section>
             <style>{`
+                .svc-more{ display:inline-block; margin-top:10px; font-weight:600; font-size:.9rem; color:var(--accent-ink); text-decoration:underline; text-underline-offset:3px }
                 .hp-docs{ padding-top:clamp(32px,5vw,56px); padding-bottom:clamp(32px,5vw,56px) }
                 .hp-docs-card{
                     display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:clamp(24px,4vw,48px); align-items:center;

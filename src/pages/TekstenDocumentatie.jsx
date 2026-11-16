@@ -2,18 +2,86 @@ import { useTranslation } from "react-i18next";
 import { FiEdit3, FiFileText, FiLayers, FiBookOpen } from "react-icons/fi";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import Seo from "../assets/Components/Seo.jsx";
+import JsonLd from "../assets/Components/JsonLd.jsx";
+import Breadcrumbs from "../assets/Components/Breadcrumbs.jsx";
+import { withLang } from "../i18n/langPath.js";
 import interview from "../content/interviewDaanDekker.json";
 
 const ICONS = [FiEdit3, FiFileText, FiLayers, FiBookOpen];
 const QUOTE = "Zo’n top 10-notering bij Scheltema geeft me energie om door te gaan.";
 
 export default function TekstenDocumentatie() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const prefix = useLangPrefix();
     const items = t("docsPage.items", { returnObjects: true });
     const exp = t("docsPage.exp", { returnObjects: true });
     const list = Array.isArray(items) ? items : [];
     const experience = Array.isArray(exp) ? exp : [];
+    const rawFaq = t("docsPage.faq", { returnObjects: true });
+    const faq = Array.isArray(rawFaq) ? rawFaq : [];
+
+    const lang = i18n.language?.split("-")[0] || "nl";
+    const url = `https://manonit.com${withLang("/teksten-documentatie", lang)}`;
+    const home = `https://manonit.com${withLang("/", lang)}`;
+    const schema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": `${url}#webpage`,
+                "url": url,
+                "name": t("docsPage.seo.title"),
+                "description": t("docsPage.seo.description"),
+                "inLanguage": lang,
+                "isPartOf": { "@id": "https://manonit.com/#website" },
+                "about": { "@id": `${url}#service` },
+                "author": { "@id": "https://manonit.com/#manon" },
+                "datePublished": "2026-11-16",
+                "dateModified": "2026-11-16",
+                "breadcrumb": { "@id": `${url}#breadcrumb` },
+            },
+            {
+                "@type": "Service",
+                "@id": `${url}#service`,
+                "name": t("docsPage.title"),
+                "description": t("docsPage.intro"),
+                "url": url,
+                "serviceType": list.map((i) => i.name),
+                "provider": { "@id": "https://manonit.com/#service" },
+                "areaServed": { "@type": "Country", "name": "Nederland" },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": t("docsPage.title"),
+                    "itemListElement": list.map((i) => ({
+                        "@type": "Offer",
+                        "itemOffered": { "@type": "Service", "name": i.name, "description": i.desc },
+                    })),
+                },
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": `${url}#breadcrumb`,
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": t("nav.home"), "item": home },
+                    { "@type": "ListItem", "position": 2, "name": t("docsPage.title"), "item": url },
+                ],
+            },
+            {
+                "@type": "FAQPage",
+                "@id": `${url}#faq`,
+                "mainEntity": faq.map((f) => ({
+                    "@type": "Question",
+                    "name": f.q,
+                    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+                })),
+            },
+            {
+                "@type": "Person",
+                "@id": "https://manonit.com/#manon",
+                "knowsAbout": ["Copywriting", "Journalism", "Process documentation", "Scrum", "Technical writing", "Editing", "Book writing"],
+            },
+        ],
+    };
 
     return (
         <>
@@ -23,9 +91,12 @@ export default function TekstenDocumentatie() {
                 path="/teksten-documentatie"
             />
 
+            <JsonLd data={schema} />
+
             {/* HERO */}
             <section className="dx-hero">
                 <div className="container dx-hero-inner">
+                    <Breadcrumbs items={[{ label: t("nav.home"), to: "/" }, { label: t("docsPage.title") }]} />
                     <p className="eyebrow">{t("docsPage.eyebrow")}</p>
                     <h1>{t("docsPage.title")}</h1>
                     <p className="dx-lead">{t("docsPage.intro")}</p>
@@ -112,6 +183,21 @@ export default function TekstenDocumentatie() {
             </section>
 
 
+            {/* FAQ */}
+            <section className="dx-section dx-alt" id="faq">
+                <div className="container">
+                    <h2 className="dx-h2">{t("docsPage.faqTitle")}</h2>
+                    <div className="dx-acc dx-acc--faq">
+                        {faq.map((f) => (
+                            <details key={f.q}>
+                                <summary><span>{f.q}</span></summary>
+                                <p>{f.a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             <style>{`
                 .dx-hero{ padding: clamp(48px, 8vw, 96px) 20px clamp(32px, 5vw, 56px); background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, var(--bg)) 0%, var(--bg) 100%) }
                 .dx-hero-inner{ max-width: 820px }
@@ -162,6 +248,7 @@ export default function TekstenDocumentatie() {
                 .dx-acc details[open] summary::after{ content: "–" }
                 .dx-acc summary:focus-visible{ outline: 2px solid var(--accent); outline-offset: -2px }
                 .dx-num{ font-size: .8rem; color: var(--accent-ink); font-variant-numeric: tabular-nums }
+                .dx-acc--faq details p{ padding-left: 16px }
                 .dx-acc details p{ margin: 0; padding: 0 16px 18px 46px; color: var(--muted); line-height: 1.75 }
 
 

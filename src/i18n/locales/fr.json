@@ -954,8 +954,8 @@
     "pending": "Sur demande",
     "back": "Retour aux services",
     "seo": {
-      "title": "Textes & Documentation | Rédaction, relecture et documentation | ManonIT",
-      "description": "Textes et documentation par une rédactrice expérimentée : textes web, articles, documentation de processus et livres. Expérience à la Ville d'Amsterdam et chez CB Centraal Boekhuis."
+      "title": "Rédactrice & documentation de processus | ManonIT",
+      "description": "Textes et documentation par une rédactrice expérimentée : textes web, articles, documentation de processus et livres. Journaliste, rédactrice et scrum master."
     },
     "interview": {
       "label": "Interview à la une",
@@ -970,6 +970,33 @@
     "bandTitle": "Prêt à commencer ?",
     "bandText": "Dites-moi brièvement pour quoi vous avez besoin de textes ou de documentation. Je réfléchis volontiers avec vous.",
     "servicesTitle": "Ce que je fais",
-    "quoteLabel": "Extrait de l'interview"
+    "quoteLabel": "Extrait de l'interview",
+    "faqTitle": "Questions fréquentes sur les textes et la documentation",
+    "faq": [
+      {
+        "q": "Combien coûte la rédaction d'un texte ou d'une documentation de processus ?",
+        "a": "Le prix dépend de l'ampleur et de l'objectif. Après une première rencontre gratuite de 30 minutes, vous recevez un devis à prix fixe, pour savoir exactement à quoi vous en tenir."
+      },
+      {
+        "q": "Qu'est-ce que la documentation de processus et quand en avez-vous besoin ?",
+        "a": "Elle consigne le fonctionnement réel d'une méthode de travail, d'un processus ou d'un système : manuels, guides pas à pas, règles de travail. Elle est utile quand le savoir n'est que dans les têtes, pour intégrer de nouveaux collègues ou pour que les équipes travaillent de la même façon."
+      },
+      {
+        "q": "Écrivez-vous aussi les textes de mon site web ?",
+        "a": "Oui. J'écris des textes web clairs, adaptés à votre public et bien référencés dans Google et les moteurs de recherche IA. Vous voulez aussi un site ? Je le conçois, le construis et l'écris moi-même."
+      },
+      {
+        "q": "Pouvez-vous aider pour un livre ou une autobiographie ?",
+        "a": "Oui. J'aide pour la structure, la relecture et la mise en page d'un livre, d'un récit ou d'une autobiographie. J'ai écrit mon premier livre, Villa Vredestein, et je travaille à mon autobiographie."
+      },
+      {
+        "q": "Quelle expérience avez-vous comme rédactrice ?",
+        "a": "J'ai été journaliste et rédactrice pour Monique van Bokkum, j'ai écrit des newsletters et des blogs pour KLM, j'ai travaillé comme chargée de communication et graphiste à la Ville d'Amsterdam, et je suis autrice. Chez CB Centraal Boekhuis, je documente des processus et travaille comme scrum master."
+      },
+      {
+        "q": "Comment se déroule une mission ?",
+        "a": "Je commence par une rencontre gratuite de 30 minutes. Un devis à prix fixe suit. Vous recevez une ébauche et nous l'affinons jusqu'à ce que le texte ou la documentation soit juste."
+      }
+    ]
   }
 }

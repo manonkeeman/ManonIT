@@ -954,8 +954,8 @@
     "pending": "On request",
     "back": "Back to services",
     "seo": {
-      "title": "Texts & Documentation | Writing, editing and process documentation | ManonIT",
-      "description": "Texts and documentation by an experienced writer: web copy, articles, process documentation and books. Experience at the City of Amsterdam and CB Centraal Boekhuis."
+      "title": "Copywriter & Process Documentation | ManonIT",
+      "description": "Texts and documentation by an experienced writer: web copy, articles, process documentation and books. Journalist, copywriter and scrum master."
     },
     "interview": {
       "label": "Featured interview",
@@ -970,6 +970,33 @@
     "bandTitle": "Ready to get started?",
     "bandText": "Tell me briefly what you need text or documentation for. I'm happy to think along.",
     "servicesTitle": "What I do",
-    "quoteLabel": "From the interview"
+    "quoteLabel": "From the interview",
+    "faqTitle": "Frequently asked questions about texts & documentation",
+    "faq": [
+      {
+        "q": "How much does it cost to have a text or process documentation written?",
+        "a": "The price depends on scope and purpose. After a free 30-minute introduction you receive a fixed-price quote up front, so you know where you stand."
+      },
+      {
+        "q": "What is process documentation and when do you need it?",
+        "a": "Process documentation records how a way of working, process or system actually works, such as manuals, step-by-step guides and working agreements. You need it when knowledge lives only in people's heads, when new colleagues have to be onboarded or when teams want to work the same way."
+      },
+      {
+        "q": "Do you also write the texts for my website?",
+        "a": "Yes. I write web copy that is clear, fits your audience and is easy to find in Google and AI search engines. Want a website too? I design, build and write it all myself."
+      },
+      {
+        "q": "Can you help with a book or autobiography?",
+        "a": "Yes. I help with the structure, editing and layout of a book, story or autobiography. I wrote my own first book, Villa Vredestein, and I am working on my autobiography."
+      },
+      {
+        "q": "What experience do you have as a writer?",
+        "a": "I was a journalist and copywriter for Monique van Bokkum, wrote newsletters and blogs for KLM, worked as a communications officer and graphic designer at the City of Amsterdam, and am an author. At CB Centraal Boekhuis I document processes and work as a scrum master."
+      },
+      {
+        "q": "How does an assignment work?",
+        "a": "I start with a free 30-minute introduction. A fixed-price quote follows. You receive a draft and we refine it until the text or documentation is right."
+      }
+    ]
   }
 }

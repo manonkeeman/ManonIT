@@ -50,8 +50,11 @@ export default function Footer() {
                 <nav className="footer-col" aria-label={t('nav.services')}>
                     <p className="footer-heading">{t('nav.services')}</p>
                     {["websites", "design", "copy", "seo", "media", "social"].map((k) => (
-                        <a key={k} href={`${prefix}/#services`}>{t(`services.items.${k}.name`)}</a>
+                        k === "copy"
+                            ? <Link key={k} to="/teksten-documentatie">{t(`services.items.${k}.name`)}</Link>
+                            : <a key={k} href={`${prefix}/#services`}>{t(`services.items.${k}.name`)}</a>
                     ))}
+                    <Link to="/teksten-documentatie">{t('docsPage.title')}</Link>
                 </nav>
 
                 {/* Col 3 — Nav */}
