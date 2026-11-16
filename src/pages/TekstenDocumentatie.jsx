@@ -141,6 +141,10 @@ export default function TekstenDocumentatie() {
                             </li>
                         ))}
                     </ol>
+                    <p className="dx-links">
+                        <a href="https://villavredestein.com" target="_blank" rel="noreferrer">{t("docsPage.linkVilla")} ↗</a>
+                        <a href="https://manonkeeman.substack.com" target="_blank" rel="noreferrer">{t("docsPage.linkSubstack")} ↗</a>
+                    </p>
                 </div>
             </section>
 
@@ -225,6 +229,8 @@ export default function TekstenDocumentatie() {
                 .dx-job-head{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 6px }
                 .dx-job h3{ margin: 0; font-size: 1.1rem }
                 .dx-chip{ padding: 3px 10px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent-ink); font-size: .82rem; font-weight: 600 }
+                .dx-links{ display:flex; flex-wrap:wrap; gap:12px 28px; margin:32px 0 0 }
+                .dx-links a{ font-weight:600; text-decoration:underline; text-underline-offset:4px }
                 .dx-job p{ margin: 0; color: var(--muted); line-height: 1.65; max-width: 60ch }
 
                 .dx-iv{ display: grid; gap: clamp(24px, 4vw, 56px); grid-template-columns: 280px minmax(0, 1fr); align-items: start }
