@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FiCheck, FiBriefcase, FiHome, FiFeather, FiSmartphone, FiCalendar, FiArrowRight } from "react-icons/fi";
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
+import CinematicHero from "./CinematicHero.jsx";
 
 // "Voor wie": elk blok verwijst naar een eigen project als bewijs
 const FOR_WHO = [
@@ -19,6 +20,7 @@ function Hero() {
 
     return (
         <section id="home" style={{ padding: 0, margin: 0 }}>
+            <CinematicHero />
             <div className="hero-wrap">
                 <div className="hero-grid">
 
@@ -35,7 +37,7 @@ function Hero() {
                                 <FiArrowRight aria-hidden="true"/>
                             </Link>
                         </div>
-                        <h1>{t("hero.greeting")}</h1>
+                        <h2 className="hero-h">{t("hero.greeting")}</h2>
                         <p className="hero-lead">{t("hero.bio")}</p>
 
                         {Array.isArray(points) && (
@@ -124,8 +126,8 @@ function Hero() {
           gap: clamp(32px, 5vw, 72px);
           align-items: center;
         }
-        .hero-copy h1{
-          font-size: clamp(2.1rem, 4.6vw, 3.5rem);
+        .hero-copy .hero-h{
+          font-size: clamp(1.3rem, 2.6vw, 2.1rem);
           line-height: 1.08;
           margin: 0 0 20px;
         }
@@ -147,7 +149,7 @@ function Hero() {
         .hero-new{
           display:inline-flex; align-items:center; gap:8px;
           font-size:.8rem; font-weight:600; color:var(--accent-ink);
-          background:color-mix(in srgb, var(--accent) 10%, var(--bg));
+          background:color-mix(in srgb, var(--accent) 12%, var(--bg));
           border:1px solid color-mix(in srgb, var(--accent) 35%, transparent);
           border-radius:999px; padding:5px 12px;
           transition:background .2s ease, transform .2s ease;
@@ -182,7 +184,7 @@ function Hero() {
           flex-shrink:0;
           width:22px; height:22px; padding:4px;
           border-radius:50%;
-          background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
+          background: color-mix(in srgb, var(--accent) 14%, var(--bg)); color: var(--accent-ink);
         }
         .hero-ctas{ display:flex; gap:12px; flex-wrap:wrap; }
         .hero-rating{
@@ -203,14 +205,14 @@ function Hero() {
         .hero-window{
           position:absolute; left:0; bottom:0;
           width: 46%;
-          background:#fff; border-radius:12px; overflow:hidden;
+          background: var(--card); border-radius:12px; overflow:hidden;
           border:1px solid var(--border);
           box-shadow: 0 20px 40px -14px rgba(0,0,0,.35);
           transition: transform .25s ease;
         }
         .hero-window:hover{ transform: translateY(-4px); }
         .hero-window-bar{ display:flex; align-items:center; gap:5px; padding:7px 9px; background: var(--bg-alt); }
-        .hero-window-bar b{ margin-left:6px; font-size:.62rem; font-weight:500; color:var(--muted); background:#fff; border-radius:4px; padding:1px 8px; }
+        .hero-window-bar b{ margin-left:6px; font-size:.62rem; font-weight:500; color:var(--muted); background: var(--card); border-radius:4px; padding:1px 8px; }
         .hero-window-bar i{ width:7px; height:7px; border-radius:50%; background: rgba(0,0,0,.15); }
         .hero-window img{ width:100%; height:auto; border-radius:0; }
         /* Trust bar */

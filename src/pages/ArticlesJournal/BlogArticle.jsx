@@ -77,7 +77,7 @@ export default function BlogArticle({ id, cover, coverAlt, coverHeight = 675, co
         .blog-body li::marker { color: var(--accent-ink); }
         .blog-body a:not(.btn) { color: var(--accent-ink); text-decoration: underline; }
         .blog-body .lead { font-size: 1.22rem; line-height: 1.6; color: var(--muted); }
-        .blog-body .note { background: #fff; border-radius: 16px; padding: 20px 24px; margin: 0 0 20px; }
+        .blog-body .note { background: var(--card); border-radius: 16px; padding: 20px 24px; margin: 0 0 20px; }
         .blog-cta { margin: 40px 0 8px; }
         .blog-back { display: inline-block; margin: 28px 0 8px; color: var(--accent-ink); font-weight: 600; }
       `}</style>

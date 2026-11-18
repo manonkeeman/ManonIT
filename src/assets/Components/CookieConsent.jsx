@@ -45,7 +45,7 @@ export default function CookieConsent() {
           left: 20px; bottom: 20px;
           z-index: 10000;
           width: min(400px, calc(100vw - 32px));
-          background: #fff;
+          background: var(--card);
           border: 1px solid var(--border);
           border-radius: 18px;
           box-shadow: 0 20px 50px -12px rgba(0,0,0,.25);

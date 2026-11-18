@@ -170,7 +170,7 @@ export default function HowItWorks() {
                     display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
                 }
                 .wk-facts li {
-                    background: #fff; border: 1px solid var(--border); border-radius: 18px;
+                    background: var(--card); border: 1px solid var(--border); border-radius: 18px;
                     padding: 18px 12px; text-align: center; display: flex; flex-direction: column; gap: 4px;
                     box-shadow: 0 10px 28px rgba(0,0,0,.05);
                     transition: transform .25s ease;
@@ -183,14 +183,14 @@ export default function HowItWorks() {
                     display: inline-block; padding: 3px 11px; border-radius: 999px;
                     font-size: .74rem; font-weight: 700; letter-spacing: .02em;
                 }
-                .wk-who--me { background: color-mix(in srgb, var(--accent) 16%, #fff); color: var(--accent-ink); }
-                .wk-who--together { background: #FFE9A8; color: #6b4b00; }
+                .wk-who--me { background: color-mix(in srgb, var(--accent) 16%, var(--bg)); color: var(--accent-ink); }
+                .wk-who--together { background: rgba(255,200,80,.16); color: #FFD27A; }
                 .wk-who--client { background: #DDEBFF; color: #1d4b86; }
 
                 .wk-section { padding-top: 40px; }
                 .wk-toolbar { max-width: 1000px; margin: 0 auto 14px; display: flex; justify-content: flex-end; }
                 .wk-toggle {
-                    background: #fff; border: 1px solid var(--border); border-radius: 999px;
+                    background: var(--card); border: 1px solid var(--border); border-radius: 999px;
                     padding: 8px 16px; font: inherit; font-size: .85rem; font-weight: 600;
                     color: var(--text); cursor: pointer; transition: border-color .2s;
                 }
@@ -217,7 +217,7 @@ export default function HowItWorks() {
                 .wk-node {
                     position: absolute; top: 14px; width: 58px; height: 58px; border-radius: 50%;
                     display: flex; align-items: center; justify-content: center;
-                    background: #fff; border: 3px solid var(--border); color: var(--muted);
+                    background: var(--card); border: 3px solid var(--border); color: var(--muted);
                     font-size: 1.35rem; z-index: 1;
                     transition: background .3s, border-color .3s, color .3s, transform .3s, box-shadow .3s;
                 }
@@ -230,7 +230,7 @@ export default function HowItWorks() {
                 }
 
                 .wk-card {
-                    position: relative; background: #fff; border-radius: 22px; border: 1px solid var(--border);
+                    position: relative; background: var(--card); border-radius: 22px; border: 1px solid var(--border);
                     overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,.04);
                     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
                 }
@@ -243,7 +243,7 @@ export default function HowItWorks() {
                 .wk-step.is-active .wk-card { border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); }
                 .wk-big {
                     position: absolute; right: 20px; top: 6px; font-size: 4.6rem; font-weight: 800; line-height: 1;
-                    color: color-mix(in srgb, var(--accent) 11%, #fff); pointer-events: none; user-select: none;
+                    color: color-mix(in srgb, var(--accent) 11%, var(--bg)); pointer-events: none; user-select: none;
                 }
                 .wk-card-btn {
                     position: relative; display: block; width: 100%; text-align: left; background: none; border: 0;

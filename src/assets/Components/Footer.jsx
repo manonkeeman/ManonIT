@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="footer-inner">
                 {/* Col 1 — Brand */}
                 <div className="footer-col footer-brand">
-                    <img src="/logo-compact-cream.svg" alt="ManonIT" width="176" height="44" style={{ borderRadius: 0 }} />
+                    <img src="/logo-compact-light.svg" alt="ManonIT" width="176" height="44" style={{ borderRadius: 0 }} />
                     <p className="footer-tagline">{t('footer.tagline')}</p>
                     <div className="footer-socials">
                         <a href="https://github.com/manonkeeman" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
@@ -163,11 +163,11 @@ export default function Footer() {
         .footer .footer-socials a {
           width: 38px; height: 38px; border-radius: 10px;
           display: inline-flex; align-items: center; justify-content: center;
-          background: #fff;
+          background: var(--card);
           color: var(--text); font-size: 1.05rem;
           transition: background .2s ease, color .2s ease, transform .2s ease;
         }
-        .footer .footer-socials a:hover { background: var(--text); color: #fff; }
+        .footer .footer-socials a:hover { background: var(--text); color: #0A0908; }
 
         .footer-bottom {
           max-width: 1160px; margin: 0 auto;

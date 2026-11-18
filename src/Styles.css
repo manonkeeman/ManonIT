@@ -1,25 +1,28 @@
 
 /* ========= Design Tokens ========= */
 :root{
-  /* Apple-achtig: wit/lichtgrijs, bijna-zwarte tekst, oranje als enige accent.
-     --bordeaux blijft als naam bestaan (veel pagina's gebruiken hem) maar is nu de donkere tekstkleur. */
-  --bg:         #FFFFFF;
-  --bg-alt:     #F5F5F7;
-  --text:       #1D1D1F;
-  --muted:      #6E6E73;
-  --accent:     #FF6B1A;
-  --accent-ink: #B93A09;
-  --bordeaux:   #1D1D1F;
-  --dark:       #1D1D1F;
-  --border:     rgba(0,0,0,.08);
+  /* Cinematisch donker (naar het ontwerp van Aalto Digital Atelier): bijna-zwart, crème tekst, oranje accent.
+     --bordeaux blijft als naam bestaan (veel pagina's gebruiken hem) maar is nu de lichte tekstkleur. */
+  --bg:         #0A0908;
+  --bg-alt:     #12100E;
+  --card:       #161311;
+  --text:       #F4EFE6;
+  --muted:      rgba(244,239,230,.62);
+  --accent:     #EC5A2C;
+  --accent-ink: #FF8A5C;
+  --bordeaux:   #F4EFE6;
+  --dark:       #12100E;
+  --border:     rgba(244,239,230,.12);
   --radius:     14px;
-  --shadow:     0 4px 24px rgba(0,0,0,.06);
+  --shadow:     0 10px 40px rgba(0,0,0,.45);
 
+  --font-display: 'Unbounded', 'Space Grotesk', -apple-system, sans-serif;
   --font-brand: 'American Typewriter', 'Courier Prime', 'Courier New', monospace;
   --font-ui:    -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Space Grotesk', Roboto, sans-serif;
 
   --mobile-panel-bg: var(--bg);
-  --nav-h: 60px;
+  --nav-h: 64px;
+  color-scheme: dark;
 }
 
 /* ========= Resets & Base ========= */
@@ -35,8 +38,9 @@ body{
   overflow-x:clip;
 }
 main{ display:block; padding-top: var(--nav-h); }
-::selection{ background:color-mix(in srgb, var(--accent) 35%, transparent); color:#111 }
+::selection{ background:color-mix(in srgb, var(--accent) 55%, transparent); color:#fff }
 img{ max-width:100%; display:block; border-radius:12px }
+html{ background:var(--bg) }
 
 @media (prefers-reduced-motion:reduce){
   *{ transition:none !important; animation:none !important }
@@ -53,14 +57,14 @@ img{ max-width:100%; display:block; border-radius:12px }
 
 /* ========= Type ========= */
 h1,h2,h3{
-  margin:0 0 12px; line-height:1.15; font-weight:700;
-  font-family: var(--font-ui);
-  letter-spacing:-.025em;
+  margin:0 0 14px; line-height:1.18; font-weight:300;
+  font-family: var(--font-display);
+  letter-spacing:-.01em;
   color: var(--text);
 }
-h1{ font-size:clamp(30px,4.4vw,48px) }
-h2{ font-size:clamp(26px,3.4vw,38px) }
-h3{ font-size:clamp(18px,2.2vw,22px); letter-spacing:-.01em }
+h1{ font-size:clamp(26px,4vw,48px) }
+h2{ font-size:clamp(22px,3vw,36px) }
+h3{ font-size:clamp(15px,1.7vw,18px); font-weight:400; letter-spacing:0 }
 
 /* Sectiekop: label + titel + intro, gecentreerd */
 .section-head{ text-align:center; max-width:680px; margin:0 auto 48px }
@@ -68,7 +72,7 @@ h3{ font-size:clamp(18px,2.2vw,22px); letter-spacing:-.01em }
 .section-head p{ color:var(--muted); font-size:1.02rem; line-height:1.65; margin:8px auto 0 }
 .eyebrow{
   display:inline-block;
-  font-size:.75rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  font-size:.75rem; font-weight:700; letter-spacing:.32em; text-transform:uppercase;
   color:var(--accent-ink); margin:0 0 10px;
 }
 p{ margin:0 0 12px }
@@ -82,26 +86,26 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
 /* ========= Buttons ========= */
 .btn{
   display:inline-flex; align-items:center; justify-content:center; gap:8px;
-  padding:13px 24px; border-radius:980px; font-weight:600; font-size:1rem;
+  padding:13px 26px; border-radius:980px; font-weight:600; font-size:.88rem; letter-spacing:.08em; text-transform:uppercase;
   border:1px solid transparent; cursor:pointer; min-height:46px;
   transition:transform .08s ease, background .2s ease, border-color .2s ease, color .2s ease;
 }
 .btn:active{ transform:translateY(1px) }
 .btn:focus-visible{ outline:2px solid var(--accent); outline-offset:2px }
 .btn-primary{
-  background:linear-gradient(135deg, var(--accent-ink), #D9480F); color:#fff; border-color:transparent;
-  box-shadow:0 10px 22px -10px rgba(185,58,9,.65);
+  background:var(--accent); color:#fff; border-color:transparent;
+  box-shadow:0 10px 30px -10px rgba(236,90,44,.7);
   transition:transform .15s ease, box-shadow .2s ease, filter .2s ease;
 }
 .btn-primary:hover, .btn-primary:focus-visible{
   color:#fff; filter:brightness(1.08); transform:translateY(-2px);
-  box-shadow:0 16px 28px -12px rgba(185,58,9,.75);
+  box-shadow:0 16px 36px -12px rgba(236,90,44,.85);
 }
 .btn-primary:active{ transform:translateY(0) }
 .btn-primary svg{ flex-shrink:0; width:18px; height:18px }
 .btn-outline{ background:transparent; color:var(--text); border-color:var(--text) }
-.btn-outline:hover{ background:var(--text); color:#fff }
-.btn-ghost{ background:transparent; color:var(--text); border-color:rgba(0,0,0,.18) }
+.btn-outline:hover{ background:var(--text); color:#0A0908 }
+.btn-ghost{ background:transparent; color:var(--text); border-color:rgba(244,239,230,.28) }
 .btn-ghost:hover{ border-color:var(--text) }
 .btn[data-arrow]::after{ content:"→"; margin-left:6px; font-family: var(--font-ui); display:inline-block; transition:transform .2s ease }
 .btn[data-arrow]:hover::after{ transform:translateX(4px) }
@@ -121,10 +125,10 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
 /* ========= Header / Desktop Nav ========= */
 .site-header {
   position: fixed; top: 0; left: 0; right: 0;
-  z-index: 50; background: rgba(255,255,255,.8);
-  backdrop-filter: saturate(1.4) blur(10px);
-  -webkit-backdrop-filter: saturate(1.4) blur(10px);
-  border-bottom: 1px solid var(--border);
+  z-index: 50; background: rgba(10,9,8,.55);
+  backdrop-filter: saturate(1.3) blur(14px);
+  -webkit-backdrop-filter: saturate(1.3) blur(14px);
+  border-bottom: 1px solid rgba(244,239,230,.06);
 }
 .nav-wrap {
   display: flex; align-items: center; justify-content: space-between;
@@ -138,7 +142,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
 .primary-nav a {
   color: var(--text); text-decoration:none;
   padding: 8px clamp(6px,1vw,12px); display:inline-block;
-  font-size: clamp(.82rem, 1.1vw, .95rem);
+  font-size: clamp(.72rem, .95vw, .82rem); letter-spacing:.09em; text-transform:uppercase;
   white-space: nowrap;
 }
 .primary-nav a:hover, .primary-nav a.active { color: var(--accent-ink); text-decoration:none; }
@@ -223,7 +227,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
   left: 0; right: 0;
   background: var(--bg);
   border-bottom: 2px solid var(--border);
-  box-shadow: 0 16px 48px rgba(0,0,0,.12);
+  box-shadow: 0 16px 48px rgba(0,0,0,.6);
   max-height: min(70dvh, calc(100dvh - var(--nav-h) - 24px));
   border-radius: 0 0 16px 16px;
   overflow-y: auto;
@@ -411,7 +415,7 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
   position: fixed; top: var(--nav-h); left: 0; right: 0;
   display: flex; flex-direction: column; padding: 6px 0 10px;
   background: var(--bg); border-bottom: 2px solid var(--border);
-  border-radius: 0 0 16px 16px; box-shadow: 0 16px 48px rgba(0,0,0,.12);
+  border-radius: 0 0 16px 16px; box-shadow: 0 16px 48px rgba(0,0,0,.6);
   max-height: min(60dvh, calc(100dvh - var(--nav-h) - 24px)); overflow-y: auto;
   overscroll-behavior: contain; z-index: 9999;
   clip-path: inset(0 0 100% 0); visibility: hidden;
@@ -423,3 +427,131 @@ a:not(.btn):hover, a:not(.btn):focus-visible{ color:var(--accent-ink); text-deco
   .mob-bar-btn { padding: 8px 6px; font-size: .82rem; }
   .nav-logo-link img { width: 118px; height: auto; }
 }
+
+/* ========= Cinematisch ontwerp ========= */
+main:has(.cine){ padding-top:0 }
+.site-header.is-solid, .primary-nav a.nav-cta{ }
+.primary-nav a.nav-cta{ border-radius:980px; font-size:.74rem !important; letter-spacing:.1em; box-shadow:0 8px 26px -8px rgba(236,90,44,.8) }
+.nav-logo-link img{ height:34px }
+.primary-nav{ gap:clamp(0px,.5vw,10px) }
+.primary-nav a{ padding:8px clamp(5px,.55vw,9px) !important }
+
+/* Preloader */
+.preloader{
+  position:fixed; inset:0; z-index:100000; background:#0A0908; color:var(--text);
+  display:flex; align-items:center; justify-content:center;
+  transition:opacity .7s ease, visibility .7s ease;
+}
+.preloader.is-out{ opacity:0; visibility:hidden }
+.preloader-inner{ display:flex; flex-direction:column; align-items:center; gap:16px }
+.preloader-word{ font-family:var(--font-display); font-weight:200; font-size:.95rem; letter-spacing:.7em; padding-left:.7em }
+.preloader-bar{ display:block; width:min(220px,50vw); height:1px; background:rgba(244,239,230,.18); overflow:hidden }
+.preloader-bar i{ display:block; height:100%; background:var(--accent); transform-origin:left; transform:scaleX(0) }
+.preloader-pct{ font-size:.66rem; letter-spacing:.3em; color:var(--muted); font-variant-numeric:tabular-nums }
+
+/* Scrollgestuurde hero: scène blijft staan terwijl --p van 0 naar 1 loopt */
+.cine{ position:relative; height:340vh; --p:0; --a:1; --b:0; background:#0A0908 }
+.cine-stage{ position:sticky; top:0; height:100vh; height:100svh; overflow:hidden; isolation:isolate }
+.cine-stage > *{ position:absolute }
+.cine-sky{
+  inset:-10%;
+  background:
+    radial-gradient(60% 50% at 50% 38%, rgba(236,90,44, calc(.38 + var(--p) * .5)), transparent 70%),
+    radial-gradient(90% 60% at 20% 0%, rgba(120,40,18,.55), transparent 65%),
+    radial-gradient(90% 60% at 85% 5%, rgba(150,52,20,.5), transparent 65%),
+    linear-gradient(180deg, #1a0d08 0%, #2b130a 45%, #0A0908 100%);
+  filter:saturate(calc(1 + var(--p) * .5)) brightness(calc(.85 + var(--p) * .45));
+  transform:translateY(calc(var(--p) * -4%)) scale(calc(1.05 + var(--p) * .08));
+}
+.cine-glow{
+  left:50%; top:46%; width:min(120vw, 1400px); aspect-ratio:1; transform:translate(-50%,-50%) scale(calc(.55 + var(--p) * 1.1));
+  background:radial-gradient(circle, rgba(255,214,150,.95) 0%, rgba(255,150,70,.55) 22%, rgba(236,90,44,.18) 45%, transparent 68%);
+  opacity:calc(.35 + var(--p) * .65); filter:blur(8px); mix-blend-mode:screen;
+}
+.cine-rock{
+  top:6%; bottom:26%; width:min(24vw, 300px);
+  background:linear-gradient(90deg, #060505, #15100d 70%, #1d1511);
+  box-shadow:inset 0 0 60px rgba(0,0,0,.8);
+  transition:none;
+}
+.cine-rock--l{ left:calc(50% - min(24vw,300px) - 14px - var(--p) * 38vw); border-radius:6px 2px 0 0; clip-path:polygon(0 4%, 90% 0, 100% 100%, 0 100%) }
+.cine-rock--r{ right:calc(50% - min(24vw,300px) - 14px - var(--p) * 38vw); border-radius:2px 6px 0 0; clip-path:polygon(10% 0, 100% 5%, 100% 100%, 0 100%) }
+.cine-seam{
+  left:50%; top:4%; bottom:26%; width:calc(22px + var(--p) * 22vw); transform:translateX(-50%);
+  background:linear-gradient(180deg, rgba(255,200,130,.0), #ffd9a0 18%, #fff2d6 50%, #ffb066 82%, rgba(255,120,40,0));
+  filter:blur(calc(10px + var(--p) * 26px)); opacity:calc(.9 - var(--p) * .15); mix-blend-mode:screen;
+  animation:cine-flicker 3.2s ease-in-out infinite;
+}
+@keyframes cine-flicker{ 0%,100%{ opacity:.95 } 50%{ opacity:.7 } }
+.cine-water{
+  left:0; right:0; bottom:0; height:30%;
+  background:linear-gradient(180deg, rgba(236,90,44,.22), rgba(10,9,8,.96) 70%);
+}
+.cine-water::before{
+  content:""; position:absolute; left:50%; top:0; bottom:0; width:calc(14px + var(--p) * 18vw); transform:translateX(-50%);
+  background:linear-gradient(180deg, rgba(255,190,120,.7), transparent); filter:blur(14px); opacity:.8;
+}
+.cine-figure{
+  left:50%; bottom:calc(26% + 2px); width:7px; height:34px; transform:translateX(-50%) translateY(calc(var(--p) * 18px)) scale(calc(1 - var(--p) * .25));
+  background:#050404; border-radius:4px 4px 1px 1px; opacity:calc(1 - var(--p) * .9);
+}
+.cine-figure::before{ content:""; position:absolute; left:50%; top:-7px; width:7px; height:7px; border-radius:50%; background:#050404; transform:translateX(-50%) }
+.cine-embers{ inset:0; pointer-events:none; opacity:calc(.35 + var(--p) * .65) }
+.cine-embers i{
+  position:absolute; left:calc(18% + var(--i) * 5.2%); bottom:20%; width:3px; height:3px; border-radius:50%;
+  background:#ffb066; box-shadow:0 0 8px 2px rgba(255,150,70,.7);
+  animation:cine-ember calc(5s + var(--i) * .45s) linear infinite; animation-delay:calc(var(--i) * -.7s);
+}
+@keyframes cine-ember{ 0%{ transform:translate(0,0); opacity:0 } 15%{ opacity:1 } 100%{ transform:translate(calc((var(--i) - 7) * 6px), -62vh); opacity:0 } }
+.cine-vignette{
+  inset:0; pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 45%, transparent 40%, rgba(10,9,8,.85) 100%), linear-gradient(180deg, rgba(10,9,8,.5), transparent 22%, transparent 72%, #0A0908 100%);
+}
+
+.cine-copy{ left:0; right:0; top:50%; padding:0 clamp(20px,6vw,80px); text-align:center; transform:translateY(-50%); will-change:opacity, transform }
+.cine-copy--a{ opacity:var(--a); transform:translateY(calc(-50% - (1 - var(--a)) * 40px)); pointer-events:none }
+.cine-copy--a a, .cine-copy--a button{ pointer-events:auto }
+.cine-copy--b{ opacity:var(--b); transform:translateY(calc(-50% + (1 - var(--b)) * 36px)) }
+.cine-eyebrow{ margin:0 0 22px; font-size:.7rem; letter-spacing:.42em; text-transform:uppercase; color:var(--accent-ink); padding-left:.42em }
+.cine-title{
+  margin:0; font-family:var(--font-display); font-weight:200; color:#fff;
+  font-size:clamp(1.55rem, 4.3vw, 4.1rem); line-height:1.22; letter-spacing:-.01em; text-shadow:0 2px 40px rgba(0,0,0,.55);
+}
+.cine-title span, .cine-title em{ display:block }
+.cine-title em{ font-style:italic; font-weight:200 }
+.cine-sub{ margin:30px auto 0; max-width:42ch; font-size:clamp(.95rem,1.25vw,1.08rem); line-height:1.6; color:rgba(244,239,230,.82); text-shadow:0 1px 18px rgba(0,0,0,.7) }
+.cine-statement{
+  margin:0 auto; max-width:20em; font-family:var(--font-display); font-weight:200; color:#fff;
+  font-size:clamp(1.25rem, 3.2vw, 3rem); line-height:1.3; text-shadow:0 2px 36px rgba(0,0,0,.6);
+}
+.cine-scroll{ left:50%; bottom:28px; transform:translateX(-50%); display:flex; flex-direction:column; align-items:center; gap:10px; font-size:.62rem; letter-spacing:.4em; text-transform:uppercase; color:rgba(244,239,230,.55); opacity:calc(1 - var(--p) * 6) }
+.cine-scroll i{ display:block; width:1px; height:38px; background:linear-gradient(180deg, rgba(244,239,230,.7), transparent); transform-origin:top; animation:cine-line 2.2s ease-in-out infinite }
+@keyframes cine-line{ 0%{ transform:scaleY(0) } 60%{ transform:scaleY(1) } 100%{ transform:scaleY(1); opacity:0 } }
+
+@media (max-width:760px){
+  .cine{ height:300vh }
+  .cine-rock{ width:30vw }
+  .cine-rock--l{ left:calc(50% - 30vw - 10px - var(--p) * 44vw) }
+  .cine-rock--r{ right:calc(50% - 30vw - 10px - var(--p) * 44vw) }
+}
+@media (prefers-reduced-motion:reduce){
+  .cine{ height:auto }
+  .cine-stage{ position:relative; min-height:100svh }
+  .cine-copy--b, .cine-scroll{ display:none }
+  .cine-embers i, .cine-seam, .cine-scroll i{ animation:none !important }
+}
+
+/* Inhoudssecties: rustig onthullen bij scrollen (alleen waar de browser het kan; geen JS nodig) */
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion:no-preference){
+    .section-head, .svc-card, .price-card, .sub-card, .trust-item, .faq-item, .wk-step{
+      animation:reveal-up linear both; animation-timeline:view(); animation-range:entry 0% entry 55%;
+    }
+  }
+}
+@keyframes reveal-up{ from{ opacity:0; transform:translateY(34px) } to{ opacity:1; transform:none } }
+
+/* Donkere kaarten: fijne rand en subtiele gloed bij hover */
+.svc-card:hover, .price-card:hover{ border-color:rgba(236,90,44,.5) !important }
+.card, .svc-card, .price-card, .sub-card{ background:var(--card) }
+input, textarea, select{ color-scheme:dark }

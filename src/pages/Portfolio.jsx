@@ -154,7 +154,7 @@ export default function Portfolio({ asPage = false }) {
         .portfolio-card {
           display: flex;
           flex-direction: column;
-          background: #fff;
+          background: var(--card);
           border: 1px solid var(--border);
           border-radius: 16px;
           overflow: hidden;

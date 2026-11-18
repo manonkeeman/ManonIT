@@ -183,22 +183,22 @@ export default function Contact() {
         .contact-person{ display:flex; align-items:center; gap:14px; }
         .contact-person img{
           width:64px; height:64px; border-radius:50%; object-fit:cover; object-position: 50% 18%;
-          background:#fff;
-          border: 2px solid #fff;
+          background: var(--card);
+          border: 2px solid var(--border);
           box-shadow: 0 0 0 1px var(--border);
         }
         .contact-person strong{ display:block; font-size:1.1rem; }
         .contact-person span{ font-size:.85rem; color:var(--muted); }
         .contact-points{ list-style:none; margin:0; padding:0; display:grid; gap:12px; }
-        .contact-points li{ display:flex; align-items:center; gap:14px; font-size:1.02rem; font-weight:600; line-height:1.35; padding:14px 16px; background:#fff; border:1px solid var(--border); border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,.04); transition:transform .2s ease, border-color .2s ease; }
+        .contact-points li{ display:flex; align-items:center; gap:14px; font-size:1.02rem; font-weight:600; line-height:1.35; padding:14px 16px; background: var(--card); border:1px solid var(--border); border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,.04); transition:transform .2s ease, border-color .2s ease; }
         .contact-points li:hover{ transform:translateX(4px); border-color:color-mix(in srgb, var(--accent) 45%, var(--border)); }
         .contact-points svg{
           flex-shrink:0; width:34px; height:34px; padding:8px; border-radius:50%;
-          background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
+          background: color-mix(in srgb, var(--accent) 14%, var(--bg)); color: var(--accent-ink);
         }
         .contact-wa{
           display:inline-flex; align-items:center; justify-content:center; gap:10px;
-          background:#fff; color:var(--text) !important; font-weight:600;
+          background: var(--card); color:var(--text) !important; font-weight:600;
           border:1px solid var(--border);
           padding:13px 18px; border-radius:980px;
           text-decoration:none !important;
@@ -213,7 +213,7 @@ export default function Contact() {
         .contact-social-row a{
           width:44px; height:44px; border-radius:12px;
           display:inline-flex; align-items:center; justify-content:center;
-          background:#fff; color:var(--text) !important; font-size:1.15rem;
+          background: var(--card); color:var(--text) !important; font-size:1.15rem;
           border:1px solid var(--border);
           transition: background .2s ease, color .2s ease, border-color .2s ease;
         }
@@ -221,7 +221,7 @@ export default function Contact() {
 
         /* Formulierkaart */
         .contact-card{
-          background:#fff; border:1px solid var(--border); border-radius:20px;
+          background: var(--card); border:1px solid var(--border); border-radius:20px;
           padding: clamp(24px, 3vw, 40px);
           box-shadow: 0 4px 24px rgba(0,0,0,.06);
         }
@@ -246,7 +246,7 @@ export default function Contact() {
           box-sizing: border-box;
         }
         .form-input:focus{
-          background:#fff;
+          background: var(--card);
           border-color: var(--accent);
           box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
         }
@@ -256,7 +256,7 @@ export default function Contact() {
         .form-submit:disabled{ opacity:.65; cursor:not-allowed; }
         .form-success{
           padding: 14px 16px; border-radius: 10px;
-          background: color-mix(in srgb, #1FA34A 12%, #fff);
+          background: color-mix(in srgb, #1FA34A 12%, var(--bg));
           border: 1px solid #1FA34A; color: var(--text);
           margin: 0;
         }

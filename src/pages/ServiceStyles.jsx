@@ -53,7 +53,7 @@ export default function ServiceStyles() {
                 }
 
                 .svc-card {
-                    background: #fff;
+                    background: var(--card);
                     border: 1px solid var(--border);
                     border-radius: 18px;
                     padding: 28px 24px;
@@ -71,7 +71,7 @@ export default function ServiceStyles() {
                     width: 48px; height: 48px;
                     border-radius: 14px;
                     display: inline-flex; align-items: center; justify-content: center;
-                    background: color-mix(in srgb, var(--accent) 12%, #fff);
+                    background: color-mix(in srgb, var(--accent) 12%, var(--bg));
                     color: var(--accent-ink);
                     font-size: 1.35rem;
                     margin-bottom: 6px;
@@ -107,7 +107,7 @@ export default function ServiceStyles() {
                 }
                 .price-card {
                     position: relative;
-                    background: #fff;
+                    background: var(--card);
                     border: 1px solid var(--border);
                     border-radius: 20px;
                     padding: 32px 28px;
@@ -168,7 +168,7 @@ export default function ServiceStyles() {
                 .care-icon {
                     width: 48px; height: 48px; border-radius: 14px;
                     display: flex; align-items: center; justify-content: center;
-                    background: #fff; color: var(--accent-ink); font-size: 1.35rem;
+                    background: var(--card); color: var(--accent-ink); font-size: 1.35rem;
                     margin-bottom: 16px;
                 }
                 .care-title { font-size: clamp(1.5rem, 2.4vw, 2rem); margin: 0 0 12px; }
@@ -176,12 +176,12 @@ export default function ServiceStyles() {
                 .care-terms {
                     display: inline-block; margin: 16px 0 0;
                     font-size: .85rem; font-weight: 500; color: var(--text);
-                    background: #fff; border-radius: 10px; padding: 8px 14px;
+                    background: var(--card); border-radius: 10px; padding: 8px 14px;
                 }
                 .care-plans { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
                 .care-plan {
                     position: relative;
-                    background: #fff;
+                    background: var(--card);
                     border: 1px solid var(--border);
                     border-radius: 20px;
                     padding: 28px 24px;
@@ -207,7 +207,7 @@ export default function ServiceStyles() {
                     grid-template-columns: 1.3fr 1fr;
                     gap: 20px;
                 }
-                .sub-card { background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+                .sub-card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
                 .sub-card h3 { font-size: 1.15rem; margin: 0 0 14px; }
                 .sub-card p { color: var(--muted); line-height: 1.6; margin: 0 0 12px; font-size: .95rem; }
                 .sub-terms { border-top: 0; padding-top: 0; margin: 0; }
@@ -227,7 +227,7 @@ export default function ServiceStyles() {
                 .cmp-section { padding-bottom: 8px; }
                 .cmp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; max-width: 980px; margin: 0 auto; }
                 .cmp-card {
-                    background: #fff; border: 1px solid var(--border); border-radius: 24px; padding: 30px 28px;
+                    background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 30px 28px;
                     display: flex; flex-direction: column; box-shadow: 0 12px 32px rgba(0,0,0,.05);
                 }
                 .cmp-card--sub { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); box-shadow: 0 18px 44px color-mix(in srgb, var(--accent) 16%, transparent); }
@@ -267,7 +267,7 @@ export default function ServiceStyles() {
                 }
 
                 .svc-step {
-                    background: #fff;
+                    background: var(--card);
                     border-radius: 18px;
                     padding: 28px 24px;
                 }
@@ -275,7 +275,7 @@ export default function ServiceStyles() {
                     width: 44px; height: 44px;
                     border-radius: 50%;
                     display: inline-flex; align-items: center; justify-content: center;
-                    background: color-mix(in srgb, var(--accent) 14%, #fff);
+                    background: color-mix(in srgb, var(--accent) 14%, var(--bg));
                     color: var(--accent-ink);
                     font-size: .95rem;
                     font-weight: 700;

@@ -170,7 +170,7 @@ export default function About() {
         }
         .about-skills svg{
           flex-shrink:0; width:22px; height:22px; padding:4px; border-radius:50%;
-          background: color-mix(in srgb, var(--accent) 14%, #fff); color: var(--accent-ink);
+          background: color-mix(in srgb, var(--accent) 14%, var(--bg)); color: var(--accent-ink);
         }
 
         .about-stack{ display:flex; flex-wrap:nowrap; gap:12px; margin: 12px 0 0; padding-top:28px; border-top:1px solid var(--border); }
@@ -203,7 +203,7 @@ export default function About() {
         }
         .about-journal-icon{
           width:40px; height:40px; border-radius:12px; display:inline-flex; align-items:center; justify-content:center;
-          background:#fff; color: var(--accent-ink); font-size:1.2rem;
+          background: var(--card); color: var(--accent-ink); font-size:1.2rem;
         }
         .about-journal-tagline{ margin:0; color: var(--muted); line-height:1.55; }
 

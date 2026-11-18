@@ -1007,5 +1007,16 @@
       "Scrum master"
     ],
     "storyLabel": "My story"
+  },
+  "cine": {
+    "eyebrow": "ManonIT · Web design & development",
+    "line1": "Most websites are read.",
+    "line2": "Mine are experienced.",
+    "sub": "Design, code and copy from one person, for entrepreneurs, makers and holiday rentals.",
+    "practice": "The practice",
+    "p1": "A page is something you look at.",
+    "p2": "A world is something you're inside of.",
+    "scroll": "Scroll",
+    "loading": "Loading"
   }
 }

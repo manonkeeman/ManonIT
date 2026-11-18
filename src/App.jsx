@@ -9,6 +9,7 @@ import Navbar from "./assets/Components/Navbar.jsx";
 import Footer from "./assets/Components/Footer.jsx";
 import StickyWhatsApp from "./assets/Components/StickyWhatsApp.jsx";
 import CookieConsent from "./assets/Components/CookieConsent.jsx";
+import Preloader from "./assets/Components/Preloader.jsx";
 import Seo from "./assets/Components/Seo.jsx";
 import { Helmet } from "react-helmet-async";
 
@@ -70,6 +71,7 @@ function Layout({ children }) {
 
     return (
         <>
+            <Preloader />
             <Navbar />
             <main>{children}</main>
             <Footer />

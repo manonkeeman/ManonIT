@@ -1007,5 +1007,16 @@
       "Scrum master"
     ],
     "storyLabel": "Mijn verhaal"
+  },
+  "cine": {
+    "eyebrow": "ManonIT · Webdesign & development",
+    "line1": "De meeste websites worden gelezen.",
+    "line2": "Die van mij worden beleefd.",
+    "sub": "Ontwerp, code en teksten van één persoon, voor ondernemers, makers en verhuurders.",
+    "practice": "De aanpak",
+    "p1": "Een pagina is iets waar je naar kijkt.",
+    "p2": "Een wereld is iets waar je in staat.",
+    "scroll": "Scroll",
+    "loading": "Laden"
   }
 }
