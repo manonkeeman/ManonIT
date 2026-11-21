@@ -1,7 +1,8 @@
 import { Link } from "../assets/Components/LocaleLink.jsx";
 import { useLangPrefix } from "../assets/Components/useLangPrefix.js";
 import { useTranslation } from "react-i18next";
-import { FiMail } from "react-icons/fi";
+import { useRef } from "react";
+import { FiMail, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Seo from "../assets/Components/Seo.jsx";
 import { MockupPicture } from "../assets/Helpers/imageHelpers.jsx";
 import { CASA_REILLE_URL } from "../assets/Helpers/links.js";
@@ -93,6 +94,14 @@ export default function Portfolio({ asPage = false }) {
     const prefix = useLangPrefix();
 
     const Heading = asPage ? "h1" : "h2";
+    const trackRef = useRef(null);
+    const scrollBy = (dir) => {
+        const el = trackRef.current;
+        if (!el) return;
+        const card = el.querySelector(".portfolio-card");
+        const step = (card ? card.offsetWidth : 340) + 24;
+        el.scrollBy({ left: dir * step, behavior: "smooth" });
+    };
 
     return (
         <section id="portfolio" className="section portfolio-section">
@@ -104,7 +113,12 @@ export default function Portfolio({ asPage = false }) {
                 <p>{t('portfolio.intro')}</p>
             </div>
 
-            <div className="portfolio-track">
+            <div className="portfolio-nav">
+                <button type="button" className="portfolio-arrow" onClick={() => scrollBy(-1)} aria-label={t('portfolio.prev')}><FiChevronLeft aria-hidden="true" /></button>
+                <button type="button" className="portfolio-arrow" onClick={() => scrollBy(1)} aria-label={t('portfolio.next')}><FiChevronRight aria-hidden="true" /></button>
+            </div>
+
+            <div className="portfolio-track" ref={trackRef} tabIndex={0} role="region" aria-label={t('portfolio.title')}>
                 {projects.map((p) => {
                     const desc = t(`portfolio.projects.${p.key}.desc`);
                     return (
@@ -157,13 +171,41 @@ export default function Portfolio({ asPage = false }) {
             <style>{`
         .portfolio-section { padding: clamp(56px, 8vw, 96px) 20px; }
 
-        /* Raster */
+        /* Horizontaal scrollbaar spoor */
+        .portfolio-nav {
+          max-width: 1160px;
+          margin: 0 auto 14px;
+          display: flex;
+          justify-content: flex-end;
+          gap: 10px;
+        }
+        .portfolio-arrow {
+          width: 44px; height: 44px;
+          display: inline-flex; align-items: center; justify-content: center;
+          border-radius: 50%;
+          border: 1px solid var(--border);
+          background: var(--card);
+          color: var(--text);
+          cursor: pointer;
+          transition: border-color .2s, color .2s;
+        }
+        .portfolio-arrow:hover { border-color: var(--accent); color: var(--accent-ink); }
+        .portfolio-arrow svg { width: 20px; height: 20px; }
         .portfolio-track {
           max-width: 1160px;
           margin: 0 auto;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          display: flex;
           gap: 24px;
+          overflow-x: auto;
+          scroll-snap-type: x mandatory;
+          scroll-padding-left: 2px;
+          padding: 6px 2px 18px;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: thin;
+        }
+        .portfolio-track > .portfolio-card {
+          flex: 0 0 min(360px, 85vw);
+          scroll-snap-align: start;
         }
 
         /* Kaart */
@@ -296,7 +338,6 @@ export default function Portfolio({ asPage = false }) {
           align-items: center;
           justify-content: center;
         }
-        .portfolio-card--cta { grid-column: 1 / -1; }
         .portfolio-card--cta:hover { transform: none; }
         .portfolio-card--cta .cta-card-inner { align-items: center; text-align: center; padding: 48px 32px; }
         .cta-card-inner {
@@ -319,12 +360,8 @@ export default function Portfolio({ asPage = false }) {
         .cta-card-sub { color: var(--muted); font-size: .92rem; line-height: 1.6; margin: 0; }
         .cta-card-btn { margin-top: 8px; }
 
-        @media (max-width: 920px) {
-          .portfolio-track { grid-template-columns: 1fr 1fr; gap: 20px; }
-        }
         @media (max-width: 600px) {
           .portfolio-section { padding: 48px 16px; }
-          .portfolio-track { grid-template-columns: 1fr; }
           .card-body { padding: 18px; }
         }
       `}</style>
