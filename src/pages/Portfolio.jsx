@@ -9,6 +9,7 @@ import { CASA_REILLE_URL } from "../assets/Helpers/links.js";
 
 // Kaart zonder eigen projectpagina linkt direct naar de live site
 function CardLink({ p, children }) {
+    if (!p.route && !p.liveUrl) return <div className="card-link">{children}</div>;
     return p.route
         ? <Link className="card-link" to={p.route}>{children}</Link>
         : <a className="card-link" href={p.liveUrl} target="_blank" rel="noreferrer">{children}</a>;
@@ -71,6 +72,20 @@ const projects = [
         liveUrl: CASA_REILLE_URL,
         num: "06",
     },
+    {
+        key: "medea",
+        title: "Webdesign · Medea Vioolbouw",
+        tags: ["webdesign", "uxui", "seogeo"],
+        base: "/Portfolio/medea-vioolbouw-mockup",
+        num: "07",
+    },
+    {
+        key: "carpediem",
+        title: "Webdesign · Carpe Diem",
+        tags: ["webdesign", "uxui", "seogeo"],
+        base: "/Portfolio/carpe-diem-mockup",
+        num: "08",
+    },
 ];
 
 export default function Portfolio({ asPage = false }) {
@@ -115,6 +130,7 @@ export default function Portfolio({ asPage = false }) {
                             <div className="card-actions">
                                 {p.route
                                     ? <Link to={p.route} className="btn-cta">{t('portfolio.viewBtn')} →</Link>
+                                    : !p.liveUrl ? null
                                     : <a href={p.liveUrl} target="_blank" rel="noreferrer" className="btn-cta">{t('portfolio.viewSite')} ↗</a>}
                                 {p.journalLink && (
                                     <Link to={p.journalLink} className="btn-cta-story">{t('portfolio.readStory')} →</Link>

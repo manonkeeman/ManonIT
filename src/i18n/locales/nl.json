@@ -246,6 +246,12 @@
       },
       "casareille": {
         "desc": "Zo voordelig mogelijke website voor de verhuur van Casa Reille, een vakantiehuis bij Atri in Abruzzo, Italië. Met het huis, de omgeving, de eigen olijfolie en de jaarlijkse olijfplukvakantie."
+      },
+      "medea": {
+        "desc": "Webdesign voor een vioolbouwer in Amsterdam Oost: rustige, warme uitstraling met klassieke typografie, verhuur, werkplaats en contact."
+      },
+      "carpediem": {
+        "desc": "Website voor een tweede-leven-werkplaats: builds, klassiekers en lampen met een verhaal, in een stoer donker ontwerp met veel typografie."
       }
     },
     "label": "Portfolio",
@@ -1006,7 +1012,14 @@
       "Journalist",
       "Scrum master"
     ],
-    "storyLabel": "Mijn verhaal"
+    "storyLabel": "Mijn verhaal",
+    "book": {
+      "label": "Mijn boek",
+      "title": "147 Hoofdstraat",
+      "sub": "Het verhaal van één adres in Driebergen-Rijsenburg",
+      "text": "Een uitgegeven huisbiografie over Villa Vredestein: de geschiedenis van één huis en de mensen die er woonden, geschreven en vormgegeven door mij.",
+      "alt": "Omslag van het boek 147 Hoofdstraat"
+    }
   },
   "cine": {
     "eyebrow": "ManonIT · Webdesign & development",

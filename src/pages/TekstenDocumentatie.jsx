@@ -177,6 +177,26 @@ export default function TekstenDocumentatie() {
                 </div>
             </section>
 
+            {/* BOEK */}
+            <section className="dx-section" id="boek">
+                <div className="container dx-book">
+                    <figure className="dx-book-cover">
+                        <picture>
+                            <source type="image/avif" srcSet="/teksten/boek-147-hoofdstraat-400w.avif 400w, /teksten/boek-147-hoofdstraat-800w.avif 800w" sizes="(max-width: 900px) 70vw, 340px" />
+                            <source type="image/webp" srcSet="/teksten/boek-147-hoofdstraat-400w.webp 400w, /teksten/boek-147-hoofdstraat-800w.webp 800w" sizes="(max-width: 900px) 70vw, 340px" />
+                            <img src="/teksten/boek-147-hoofdstraat-800w.webp" width="800" height="1155" loading="lazy" decoding="async" alt={t("docsPage.book.alt")} />
+                        </picture>
+                    </figure>
+                    <div className="dx-book-copy">
+                        <p className="eyebrow">{t("docsPage.book.label")}</p>
+                        <h2 className="dx-h2 dx-h2--left">{t("docsPage.book.title")}</h2>
+                        <p className="dx-book-sub">{t("docsPage.book.sub")}</p>
+                        <p>{t("docsPage.book.text")}</p>
+                        <a className="btn btn-ghost" href="https://villavredestein.com" target="_blank" rel="noreferrer"><FiBookOpen aria-hidden="true" />{t("docsPage.linkVilla")}<FiExternalLink aria-hidden="true" /></a>
+                    </div>
+                </div>
+            </section>
+
             {/* INTERVIEW */}
             <section className="dx-section dx-dark" id="interview">
                 <div className="container">
@@ -272,6 +292,13 @@ export default function TekstenDocumentatie() {
 
                 .dx-story{ display:grid; grid-template-columns:minmax(0,340px) minmax(0,1fr); gap:clamp(28px,5vw,72px); align-items:start }
                 .dx-story-side{ position:sticky; top:calc(var(--nav-h) + 24px) }
+                .dx-book{ display:grid; grid-template-columns:minmax(0,340px) minmax(0,1fr); gap:clamp(28px,5vw,72px); align-items:center }
+                .dx-book-cover{ margin:0 }
+                .dx-book-cover img{ width:100%; height:auto; border-radius:6px; box-shadow:0 30px 60px -24px rgba(0,0,0,.45) }
+                .dx-book-sub{ font-style:italic; color:var(--muted); margin:0 0 14px }
+                .dx-book-copy p{ line-height:1.65 }
+                .dx-book-copy .btn{ margin-top:12px }
+                @media (max-width:900px){ .dx-book{ grid-template-columns:1fr } .dx-book-cover{ max-width:280px; margin:0 auto } }
                 .dx-links{ display:grid; gap:10px; margin-top:20px }
                 .dx-links .btn{ justify-content:flex-start; gap:10px; width:100% }
                 .dx-links .btn svg{ width:18px; height:18px; flex-shrink:0 }

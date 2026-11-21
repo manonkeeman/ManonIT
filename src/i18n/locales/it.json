@@ -185,6 +185,12 @@
       },
       "casareille": {
         "desc": "Un sito il più economico possibile per l'affitto di una casa vacanze in Abruzzo, Italia. Con la casa, i dintorni, l'olio d'oliva di produzione propria e la vacanza annuale per la raccolta delle olive."
+      },
+      "medea": {
+        "desc": "Web design for a violin maker in Amsterdam East: a calm, warm look with classical typography, rentals, workshop and contact."
+      },
+      "carpediem": {
+        "desc": "Website for a second-life workshop: builds, classics and lamps with a story, in a bold dark design with big typography."
       }
     },
     "label": "Portfolio",
@@ -1006,6 +1012,13 @@
       "Giornalista",
       "Scrum master"
     ],
-    "storyLabel": "La mia storia"
+    "storyLabel": "La mia storia",
+    "book": {
+      "label": "My book",
+      "title": "147 Hoofdstraat",
+      "sub": "The story of one address in Driebergen-Rijsenburg",
+      "text": "A published house biography about Villa Vredestein: the history of one house and the people who lived there, written and designed by me.",
+      "alt": "Cover of the book 147 Hoofdstraat"
+    }
   }
 }
